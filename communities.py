@@ -13,16 +13,20 @@ __date__="2013-10-29"
 import igraph as ig
 import networkx as nx
 from clics_lib.gml2json import graph2json
+from sys import argv
 
 # read the graph from gml
 g = ig.read("clics.gml")
 
-# analyze graph with infomap
-coms = g.community_edge_betweenness(directed=False,weights='weight')
-
-# get communities, currently we force algorithm to get us 100 communities for
-# convenience
-communities = coms.as_clustering(250)
+if len(argv) == 1:
+    # analyze graph with infomap
+    coms = g.community_edge_betweenness(directed=False,weights='weight')
+    
+    # get communities, currently we force algorithm to get us 100 communities for
+    # convenience
+    communities = coms.as_clustering(250)
+elif 'infomap' in argv:
+    communities = g.community_infomap(edge_weights='weight')
 
 print('[i] Computed communities.')
 
