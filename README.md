@@ -23,14 +23,20 @@ run "get\_data.py" in order to retrieve some basic statistics regarding the data
 
 ### Carry out community detection analysis
 
-Use the script "communities.py" to carry out such an analysis. Problem is only, that the analyses in igraph are not that good, as expected: the "leading" methods, like "infomap" yield far too many large communities, where we would like to have subsets of no more than, say, 30 nodes, or so. The current output of infomap is available in communities/-folder. I'll try to compare it with another analysis later, but the problem is that alternative analyses run rather slow, and it takes some time to run on my PC.
+Use the script "communities.py" to carry out such an analysis. 
+I recommend to run the script with option "infomap", since this is the fastest analysis. It yields some balanced amount of community clusters. But we need to look at the results
+if we label the communities in order to see what this actually means.
 
 ### Current plans for code to appear on this page
 
 * code for computation of the whole network (preferably as json-like format in output)
+  - has been added now, but we still need to include the communities for later inter-reference between the simple browse and the JS-browse
 * the computed full network
+  - added as gml and json
 * code for computation of community clustering with help of igraph
+  - added, see "communities.py"
 * a csv-list containing node and community for all communities in the network
 * a labelling for all communities (preferably the centroid or how that's called for each community)
+  - currently, I simply take the node with the highest degree, it is given in the last part of the filenames in communities/-folder
 * a csv-list with semantic fields of IDS and nodes belonging to the fields
 
