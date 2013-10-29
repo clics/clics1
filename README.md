@@ -3,7 +3,6 @@ CLiCs
 
 Database of Cross-Linguistic Colexifications
 
-<<<<<<< HEAD
 ## Create Network from Data
 
 Use the link.py script to create a network from all wordlists files in the folder "wordlists". The data here is no real network, but rather a collection of all links that is stored in a format suitable for accessing it on the website. The script also automatically generates an updated sqlite3 file that is accessed on the website using the php code in the website-folder.
@@ -34,5 +33,3 @@ run "get\_data.py" in order to retrieve some basic statistics regarding the data
 * a labelling for all communities (preferably the centroid or how that's called for each community)
 * a csv-list with semantic fields of IDS and nodes belonging to the fields
 
-
->>>>>>> 2877299588dd10bca547f6d3b84000bbcc6ad5e5
