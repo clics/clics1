@@ -1,8 +1,9 @@
-clics
+CLiCs
 =====
 
 Database of Cross-Linguistic Colexifications
 
+<<<<<<< HEAD
 ## Create Network from Data
 
 Use the link.py script to create a network from all wordlists files in the folder "wordlists". The data here is no real network, but rather a collection of all links that is stored in a format suitable for accessing it on the website. The script also automatically generates an updated sqlite3 file that is accessed on the website using the php code in the website-folder.
@@ -22,3 +23,16 @@ In addition to pure gml-export, the script automatically converts the gml-graph 
 run "get\_data.py" in order to retrieve some basic statistics regarding the data in our sample.
 
 ## 
+=======
+
+### Current plans for code to appear on this page
+
+* code for computation of the whole network (preferably as json-like format in output)
+* the computed full network
+* code for computation of community clustering with help of igraph
+* a csv-list containing node and community for all communities in the network
+* a labelling for all communities (preferably the centroid or how that's called for each community)
+* a csv-list with semantic fields of IDS and nodes belonging to the fields
+
+
+>>>>>>> 2877299588dd10bca547f6d3b84000bbcc6ad5e5
