@@ -1,0 +1,156 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 69, 
+            "swadesh100": 0, 
+            "key": "8.21", 
+            "id": "plow"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 69, 
+            "swadesh100": 0, 
+            "key": "8.11", 
+            "id": "farmer"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 69, 
+            "swadesh100": 0, 
+            "key": "8.531", 
+            "id": "plant (vb)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 69, 
+            "swadesh100": 0, 
+            "key": "8.31", 
+            "id": "sow"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 69, 
+            "swadesh100": 0, 
+            "key": "8.15", 
+            "id": "cultivate, till"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "plant (vb)", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 25.0, 
+                "families": 11.0, 
+                "id": "cultivate, till", 
+                "weight": 11.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 2.0, 
+                "id": "sow", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "farmer", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "plow", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cultivate, till", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "plow", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "cultivate, till", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 40.0, 
+                "families": 22.0, 
+                "id": "sow", 
+                "weight": 22.0
+            }
+        ], 
+        [
+            {
+                "languages": 40.0, 
+                "families": 22.0, 
+                "id": "plant (vb)", 
+                "weight": 22.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "cultivate, till", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sow", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 2.0, 
+                "id": "plow", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "plant (vb)", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 25.0, 
+                "families": 11.0, 
+                "id": "plow", 
+                "weight": 11.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "sow", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "farmer", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

@@ -1,0 +1,99 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 110, 
+            "swadesh100": 0, 
+            "key": "15.89", 
+            "id": "wrinkled"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 110, 
+            "swadesh100": 0, 
+            "key": "15.78", 
+            "id": "sharp"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 110, 
+            "swadesh100": 0, 
+            "key": "15.76", 
+            "id": "rough"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 110, 
+            "swadesh100": 0, 
+            "key": "12.352", 
+            "id": "pointed"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rough", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rough", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 46.0, 
+                "families": 20.0, 
+                "id": "pointed", 
+                "weight": 20.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wrinkled", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "sharp", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pointed", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 46.0, 
+                "families": 20.0, 
+                "id": "sharp", 
+                "weight": 20.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pointed", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "rough", 
+                "weight": 2.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

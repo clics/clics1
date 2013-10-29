@@ -1,0 +1,330 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 1, 
+            "key": "3.61", 
+            "id": "dog"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.81", 
+            "id": "insect"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.622", 
+            "id": "opossum"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.85", 
+            "id": "snake"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.11", 
+            "id": "animal"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.84", 
+            "id": "worm"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.62", 
+            "id": "cat"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.614", 
+            "id": "rabbit"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.2", 
+            "id": "cattle (bovine)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.816", 
+            "id": "cockroach"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 42, 
+            "swadesh100": 0, 
+            "key": "3.15", 
+            "id": "livestock"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "livestock", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cat", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "insect", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "snake", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "animal", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "worm", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cockroach", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cat", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rabbit", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cat", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "insect", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 2.0, 
+                "id": "worm", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "animal", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cat", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 24.0, 
+                "families": 14.0, 
+                "id": "livestock", 
+                "weight": 14.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 5.0, 
+                "id": "cattle (bovine)", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "snake", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "worm", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "insect", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cat", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "insect", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cockroach", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 2.0, 
+                "id": "snake", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "animal", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "insect", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "opossum", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "snake", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "animal", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "dog", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "opossum", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 50.0, 
+                "families": 15.0, 
+                "id": "livestock", 
+                "weight": 15.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 5.0, 
+                "id": "animal", 
+                "weight": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "insect", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "worm", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 50.0, 
+                "families": 15.0, 
+                "id": "cattle (bovine)", 
+                "weight": 15.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "dog", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 24.0, 
+                "families": 14.0, 
+                "id": "animal", 
+                "weight": 14.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

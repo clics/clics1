@@ -1,0 +1,66 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 143, 
+            "swadesh100": 0, 
+            "key": "12.42", 
+            "id": "left (side)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 143, 
+            "swadesh100": 0, 
+            "key": "12.47", 
+            "id": "north"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 143, 
+            "swadesh100": 0, 
+            "key": "12.48", 
+            "id": "south"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "left (side)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "south", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "south", 
+                "weight": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "left (side)", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "north", 
+                "weight": 8.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

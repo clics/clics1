@@ -1,0 +1,183 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "4.63", 
+            "id": "wake up"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "10.471", 
+            "id": "go up"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "10.66", 
+            "id": "ride"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "10.21", 
+            "id": "rise"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "10.41", 
+            "id": "creep, crawl"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 45, 
+            "swadesh100": 0, 
+            "key": "10.472", 
+            "id": "climb"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "go up", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "climb", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 5.0, 
+                "id": "rise", 
+                "weight": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wake up", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "ride", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 56.0, 
+                "families": 30.0, 
+                "id": "rise", 
+                "weight": 30.0
+            }, 
+            {
+                "languages": 71.0, 
+                "families": 40.0, 
+                "id": "climb", 
+                "weight": 40.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "go up", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "climb", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "rise", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 56.0, 
+                "families": 30.0, 
+                "id": "go up", 
+                "weight": 30.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 5.0, 
+                "id": "wake up", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "ride", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 40.0, 
+                "families": 26.0, 
+                "id": "climb", 
+                "weight": 26.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "climb", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 71.0, 
+                "families": 40.0, 
+                "id": "go up", 
+                "weight": 40.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wake up", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "ride", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 40.0, 
+                "families": 26.0, 
+                "id": "rise", 
+                "weight": 26.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "creep, crawl", 
+                "weight": 3.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

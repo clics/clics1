@@ -1,129 +1,666 @@
 {
-    "multigraph": false, 
     "directed": false, 
     "graph": [], 
     "nodes": [
         {
             "body_part": 0, 
-            "id": "water", 
+            "community": 22, 
             "swadesh100": 1, 
-            "community": 22, 
-            "key": "1.31"
+            "key": "1.31", 
+            "id": "water"
         }, 
         {
             "body_part": 0, 
-            "id": "river, stream, brook", 
+            "community": 22, 
             "swadesh100": 0, 
-            "community": 22, 
-            "key": "1.36"
+            "key": "5.93", 
+            "id": "beer"
         }, 
         {
             "body_part": 0, 
-            "id": "sap", 
+            "community": 22, 
             "swadesh100": 0, 
-            "community": 22, 
-            "key": "8.76"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "spring, well", 
-            "swadesh100": 0, 
-            "community": 22, 
-            "key": "1.37"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "wine", 
-            "swadesh100": 0, 
-            "community": 22, 
-            "key": "5.92"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "tear (noun)", 
-            "swadesh100": 0, 
-            "community": 22, 
-            "key": "16.38"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "rain (noun)", 
-            "swadesh100": 1, 
-            "community": 22, 
-            "key": "1.75"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "waterfall", 
-            "swadesh100": 0, 
-            "community": 22, 
-            "key": "1.39"
+            "key": "8.76", 
+            "id": "sap"
         }, 
         {
             "body_part": 1, 
-            "id": "blood", 
+            "community": 22, 
             "swadesh100": 1, 
-            "community": 22, 
-            "key": "4.15"
+            "key": "4.15", 
+            "id": "blood"
         }, 
         {
             "body_part": 0, 
-            "id": "soup, broth", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "5.64"
+            "swadesh100": 0, 
+            "key": "15.83", 
+            "id": "wet, damp"
         }, 
         {
             "body_part": 0, 
-            "id": "beverage, drink", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "5.9"
+            "swadesh100": 0, 
+            "key": "5.64", 
+            "id": "soup, broth"
         }, 
         {
             "body_part": 0, 
-            "id": "beer", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "5.93"
+            "swadesh100": 0, 
+            "key": "5.92", 
+            "id": "wine"
         }, 
         {
             "body_part": 0, 
-            "id": "mead", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "5.91"
+            "swadesh100": 0, 
+            "key": "5.9", 
+            "id": "beverage, drink"
         }, 
         {
             "body_part": 0, 
-            "id": "fermented drink", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "5.94"
+            "swadesh100": 0, 
+            "key": "5.94", 
+            "id": "fermented drink"
         }, 
         {
             "body_part": 0, 
-            "id": "glue", 
-            "swadesh100": 0, 
             "community": 22, 
-            "key": "9.56"
+            "swadesh100": 0, 
+            "key": "9.56", 
+            "id": "glue"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 22, 
+            "swadesh100": 1, 
+            "key": "1.75", 
+            "id": "rain (noun)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 22, 
+            "swadesh100": 0, 
+            "key": "5.91", 
+            "id": "mead"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 22, 
+            "swadesh100": 1, 
+            "key": "5.13", 
+            "id": "drink"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 22, 
+            "swadesh100": 0, 
+            "key": "16.38", 
+            "id": "tear (noun)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 22, 
+            "swadesh100": 0, 
+            "key": "1.36", 
+            "id": "river, stream, brook"
         }
     ], 
     "adjacency": [
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        []
-    ]
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "soup, broth", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blood", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "wet, damp", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 17.0, 
+                "families": 5.0, 
+                "id": "sap", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wine", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 7.0, 
+                "id": "beverage, drink", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "fermented drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "rain (noun)", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 19.0, 
+                "families": 14.0, 
+                "id": "river, stream, brook", 
+                "weight": 14.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tear (noun)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mead", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "mead", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "beverage, drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "fermented drink", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "wine", 
+                "weight": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "families": 5.0, 
+                "id": "water", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beer", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soup, broth", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 1.0, 
+                "id": "beverage, drink", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blood", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "fermented drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "glue", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wine", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "water", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rain (noun)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "water", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "drink", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "water", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "beverage, drink", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tear (noun)", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "water", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "beer", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beverage, drink", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "fermented drink", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mead", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "families": 7.0, 
+                "id": "water", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "beer", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "soup, broth", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "fermented drink", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "river, stream, brook", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "drink", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wine", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "water", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "beer", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "beverage, drink", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fermented drink", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 2.0, 
+                "id": "mead", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "sap", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "wine", 
+                "weight": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "sap", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "water", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blood", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tear (noun)", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "water", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "beer", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 2.0, 
+                "id": "fermented drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wine", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "water", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "river, stream, brook", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "beverage, drink", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "water", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rain (noun)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soup, broth", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 19.0, 
+                "families": 14.0, 
+                "id": "water", 
+                "weight": 14.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "beverage, drink", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blood", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rain (noun)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mead", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "drink", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "river, stream, brook", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
 }

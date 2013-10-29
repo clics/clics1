@@ -1,25 +1,39 @@
 {
-    "multigraph": false, 
-    "directed": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 33.0, 
+                "weight": 22.0, 
+                "id": "widow", 
+                "families": 22.0
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "weight": 22.0, 
+                "id": "widower", 
+                "families": 22.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0, 
-            "id": "widower", 
             "swadesh100": 0, 
+            "key": "2.77", 
+            "body_part": 0, 
             "community": 145, 
-            "key": "2.77"
+            "id": "widower"
         }, 
         {
-            "body_part": 0, 
-            "id": "widow", 
             "swadesh100": 0, 
+            "key": "2.76", 
+            "body_part": 0, 
             "community": 145, 
-            "key": "2.76"
+            "id": "widow"
         }
     ], 
-    "adjacency": [
-        [], 
-        []
-    ]
+    "multigraph": false, 
+    "directed": false
 }

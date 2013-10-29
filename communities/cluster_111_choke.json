@@ -1,41 +1,99 @@
 {
-    "multigraph": false, 
-    "directed": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 10.0, 
+                "weight": 9.0, 
+                "id": "sink", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 8.0, 
+                "id": "choke", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 18.0, 
+                "weight": 13.0, 
+                "id": "sink", 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 8.0, 
+                "id": "drowned", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "choke", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "sink", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "weight": 9.0, 
+                "id": "dive", 
+                "families": 9.0
+            }, 
+            {
+                "languages": 18.0, 
+                "weight": 13.0, 
+                "id": "drowned", 
+                "families": 13.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "choke", 
+                "families": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0, 
-            "id": "choke", 
             "swadesh100": 0, 
+            "key": "10.351", 
+            "body_part": 0, 
             "community": 111, 
-            "key": "5.19"
+            "id": "dive"
         }, 
         {
-            "body_part": 0, 
-            "id": "sink", 
             "swadesh100": 0, 
+            "key": "4.751", 
+            "body_part": 0, 
             "community": 111, 
-            "key": "10.33"
+            "id": "drowned"
         }, 
         {
-            "body_part": 0, 
-            "id": "dive", 
             "swadesh100": 0, 
+            "key": "5.19", 
+            "body_part": 0, 
             "community": 111, 
-            "key": "10.351"
+            "id": "choke"
         }, 
         {
-            "body_part": 0, 
-            "id": "drowned", 
             "swadesh100": 0, 
+            "key": "10.33", 
+            "body_part": 0, 
             "community": 111, 
-            "key": "4.751"
+            "id": "sink"
         }
     ], 
-    "adjacency": [
-        [], 
-        [], 
-        [], 
-        []
-    ]
+    "multigraph": false, 
+    "directed": false
 }

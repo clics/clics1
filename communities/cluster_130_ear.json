@@ -1,0 +1,93 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 130, 
+            "swadesh100": 0, 
+            "key": "3.654", 
+            "id": "gill"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 130, 
+            "swadesh100": 0, 
+            "key": "6.77", 
+            "id": "earring"
+        }, 
+        {
+            "body_part": 1, 
+            "community": 130, 
+            "swadesh100": 1, 
+            "key": "4.22", 
+            "id": "ear"
+        }, 
+        {
+            "body_part": 1, 
+            "community": 130, 
+            "swadesh100": 0, 
+            "key": "4.221", 
+            "id": "earlobe"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "ear", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "ear", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "earlobe", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "gill", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "earring", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "earlobe", 
+                "weight": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "earring", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "ear", 
+                "weight": 10.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

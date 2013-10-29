@@ -1,33 +1,66 @@
 {
-    "multigraph": false, 
-    "directed": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "left (side)", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 8.0, 
+                "id": "north", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "weight": 8.0, 
+                "id": "south", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "left (side)", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "south", 
+                "families": 2.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0, 
-            "id": "left (side)", 
             "swadesh100": 0, 
+            "key": "12.48", 
+            "body_part": 0, 
             "community": 140, 
-            "key": "12.42"
+            "id": "south"
         }, 
         {
-            "body_part": 0, 
-            "id": "north", 
             "swadesh100": 0, 
+            "key": "12.47", 
+            "body_part": 0, 
             "community": 140, 
-            "key": "12.47"
+            "id": "north"
         }, 
         {
-            "body_part": 0, 
-            "id": "south", 
             "swadesh100": 0, 
+            "key": "12.42", 
+            "body_part": 0, 
             "community": 140, 
-            "key": "12.48"
+            "id": "left (side)"
         }
     ], 
-    "adjacency": [
-        [], 
-        [], 
-        []
-    ]
+    "multigraph": false, 
+    "directed": false
 }

@@ -1,0 +1,126 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 104, 
+            "swadesh100": 0, 
+            "key": "4.88", 
+            "id": "medicine, drug"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 104, 
+            "swadesh100": 0, 
+            "key": "8.96", 
+            "id": "fish poison (root)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 104, 
+            "swadesh100": 0, 
+            "key": "3.18", 
+            "id": "herdsman"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 104, 
+            "swadesh100": 0, 
+            "key": "4.89", 
+            "id": "poison"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 104, 
+            "swadesh100": 0, 
+            "key": "4.98", 
+            "id": "intoxicated"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fish poison (root)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "poison", 
+                "weight": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "medicine, drug", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "intoxicated", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "poison", 
+                "weight": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "intoxicated", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "medicine, drug", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "fish poison (root)", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "intoxicated", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fish poison (root)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "poison", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "herdsman", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

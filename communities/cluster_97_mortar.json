@@ -1,0 +1,165 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "8.35", 
+            "id": "threshing-floor"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "3.814", 
+            "id": "centipede"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "5.59", 
+            "id": "pestle"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "7.63", 
+            "id": "mortar"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "5.57", 
+            "id": "mill"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 97, 
+            "swadesh100": 0, 
+            "key": "3.815", 
+            "id": "scorpion"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mill", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mortar", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mill", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 2.0, 
+                "id": "scorpion", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "mortar", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mill", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "scorpion", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 4.0, 
+                "id": "mortar", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "centipede", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "mill", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "pestle", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "threshing-floor", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "mortar", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "centipede", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pestle", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 2.0, 
+                "id": "centipede", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pestle", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

@@ -1,41 +1,123 @@
 {
-    "multigraph": false, 
-    "directed": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 65.0, 
+                "weight": 18.0, 
+                "id": "we (inclusive)", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 72.0, 
+                "weight": 21.0, 
+                "id": "we", 
+                "families": 21.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "I", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 65.0, 
+                "weight": 18.0, 
+                "id": "we (exclusive)", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 70.0, 
+                "weight": 22.0, 
+                "id": "we", 
+                "families": 22.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "I", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 72.0, 
+                "weight": 21.0, 
+                "id": "we (exclusive)", 
+                "families": 21.0
+            }, 
+            {
+                "languages": 70.0, 
+                "weight": 22.0, 
+                "id": "we (inclusive)", 
+                "families": 22.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "we", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 4.0, 
+                "id": "I", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "we (exclusive)", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 2.0, 
+                "id": "we (inclusive)", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 4.0, 
+                "id": "we", 
+                "families": 4.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0, 
-            "id": "we", 
-            "swadesh100": 1, 
-            "community": 93, 
-            "key": "2.94"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "I", 
-            "swadesh100": 1, 
-            "community": 93, 
-            "key": "2.91"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "we (exclusive)", 
             "swadesh100": 0, 
+            "key": "2.942", 
+            "body_part": 0, 
             "community": 93, 
-            "key": "2.942"
+            "id": "we (exclusive)"
         }, 
         {
-            "body_part": 0, 
-            "id": "we (inclusive)", 
             "swadesh100": 0, 
+            "key": "2.941", 
+            "body_part": 0, 
             "community": 93, 
-            "key": "2.941"
+            "id": "we (inclusive)"
+        }, 
+        {
+            "swadesh100": 1, 
+            "key": "2.94", 
+            "body_part": 0, 
+            "community": 93, 
+            "id": "we"
+        }, 
+        {
+            "swadesh100": 1, 
+            "key": "2.91", 
+            "body_part": 0, 
+            "community": 93, 
+            "id": "I"
         }
     ], 
-    "adjacency": [
-        [], 
-        [], 
-        [], 
-        []
-    ]
+    "multigraph": false, 
+    "directed": false
 }

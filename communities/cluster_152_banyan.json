@@ -1,0 +1,60 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 152, 
+            "swadesh100": 0, 
+            "key": "5.78", 
+            "id": "olive"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 152, 
+            "swadesh100": 0, 
+            "key": "8.85", 
+            "id": "banyan"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 152, 
+            "swadesh100": 0, 
+            "key": "5.75", 
+            "id": "fig"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "banyan", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "olive", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 2.0, 
+                "id": "fig", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 2.0, 
+                "id": "banyan", 
+                "weight": 2.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

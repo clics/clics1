@@ -1,57 +1,171 @@
 {
-    "multigraph": false, 
     "directed": false, 
     "graph": [], 
     "nodes": [
         {
             "body_part": 0, 
-            "id": "peel", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "5.46"
+            "swadesh100": 0, 
+            "key": "5.46", 
+            "id": "peel"
         }, 
         {
             "body_part": 0, 
-            "id": "scrape", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "5.48"
+            "swadesh100": 0, 
+            "key": "9.38", 
+            "id": "broom"
         }, 
         {
             "body_part": 0, 
-            "id": "sweep", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "9.37"
+            "swadesh100": 0, 
+            "key": "9.31", 
+            "id": "rub, wipe"
         }, 
         {
             "body_part": 0, 
-            "id": "broom", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "9.38"
+            "swadesh100": 0, 
+            "key": "9.29", 
+            "id": "flay, skin"
         }, 
         {
             "body_part": 0, 
-            "id": "flay, skin", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "9.29"
+            "swadesh100": 0, 
+            "key": "5.48", 
+            "id": "scrape"
         }, 
         {
             "body_part": 0, 
-            "id": "rub, wipe", 
-            "swadesh100": 0, 
             "community": 68, 
-            "key": "9.31"
+            "swadesh100": 0, 
+            "key": "9.37", 
+            "id": "sweep"
         }
     ], 
     "adjacency": [
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        []
-    ]
+        [
+            {
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "rub, wipe", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 36.0, 
+                "families": 22.0, 
+                "id": "flay, skin", 
+                "weight": 22.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "scrape", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sweep", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "sweep", 
+                "weight": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "families": 7.0, 
+                "id": "scrape", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "peel", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "sweep", 
+                "weight": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "scrape", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 36.0, 
+                "families": 22.0, 
+                "id": "peel", 
+                "weight": 22.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "families": 7.0, 
+                "id": "rub, wipe", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "flay, skin", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "peel", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "sweep", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "broom", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "rub, wipe", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "scrape", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "peel", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
 }

@@ -1,0 +1,108 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 127, 
+            "swadesh100": 0, 
+            "key": "18.74", 
+            "id": "rattle"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 127, 
+            "swadesh100": 0, 
+            "key": "6.71", 
+            "id": "ornament, adornment"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 127, 
+            "swadesh100": 0, 
+            "key": "8.57", 
+            "id": "flower"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 127, 
+            "swadesh100": 0, 
+            "key": "6.72", 
+            "id": "jewel"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 127, 
+            "swadesh100": 0, 
+            "key": "6.79", 
+            "id": "tattoo"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "ornament, adornment", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rattle", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tattoo", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "flower", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "jewel", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "ornament, adornment", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "ornament, adornment", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "jewel", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "ornament, adornment", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

@@ -1,0 +1,159 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.63", 
+            "id": "owe"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.69", 
+            "id": "tax, tribute"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.78", 
+            "id": "wages"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.64", 
+            "id": "debt"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.87", 
+            "id": "price"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 89, 
+            "swadesh100": 0, 
+            "key": "11.66", 
+            "id": "account, reckoning"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "debt", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "account, reckoning", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wages", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "account, reckoning", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "tax, tribute", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "price", 
+                "weight": 9.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "debt", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "owe", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wages", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "account, reckoning", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "wages", 
+                "weight": 9.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "account, reckoning", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tax, tribute", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "owe", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "price", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "debt", 
+                "weight": 4.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

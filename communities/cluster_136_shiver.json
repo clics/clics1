@@ -1,0 +1,72 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "earthquake", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "weight": 9.0, 
+                "id": "shake", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "shiver", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "shake", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "weight": 9.0, 
+                "id": "shiver", 
+                "families": 9.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "earthquake", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "key": "4.68", 
+            "body_part": 0, 
+            "community": 136, 
+            "id": "shiver"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "1.45", 
+            "body_part": 0, 
+            "community": 136, 
+            "id": "earthquake"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "10.26", 
+            "body_part": 0, 
+            "community": 136, 
+            "id": "shake"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

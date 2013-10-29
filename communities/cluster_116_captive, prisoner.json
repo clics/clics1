@@ -1,0 +1,114 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 116, 
+            "swadesh100": 0, 
+            "key": "19.43", 
+            "id": "servant"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 116, 
+            "swadesh100": 0, 
+            "key": "21.39", 
+            "id": "prison, jail"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 116, 
+            "swadesh100": 0, 
+            "key": "20.47", 
+            "id": "captive, prisoner"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 116, 
+            "swadesh100": 0, 
+            "key": "19.42", 
+            "id": "slave"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 116, 
+            "swadesh100": 0, 
+            "key": "9.62", 
+            "id": "anvil"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 19.0, 
+                "families": 11.0, 
+                "id": "slave", 
+                "weight": 11.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "captive, prisoner", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "captive, prisoner", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "anvil", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "servant", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "prison, jail", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "slave", 
+                "weight": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 19.0, 
+                "families": 11.0, 
+                "id": "servant", 
+                "weight": 11.0
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "captive, prisoner", 
+                "weight": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "prison, jail", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

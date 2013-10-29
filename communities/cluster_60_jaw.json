@@ -1,73 +1,255 @@
 {
-    "multigraph": false, 
     "directed": false, 
     "graph": [], 
     "nodes": [
         {
             "body_part": 1, 
-            "id": "jaw", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "4.207"
+            "swadesh100": 0, 
+            "key": "4.205", 
+            "id": "forehead"
         }, 
         {
             "body_part": 1, 
-            "id": "chin", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "4.209"
+            "swadesh100": 0, 
+            "key": "4.204", 
+            "id": "face"
         }, 
         {
             "body_part": 1, 
-            "id": "cheek", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "4.208"
-        }, 
-        {
-            "body_part": 1, 
-            "id": "side of head, temple", 
             "swadesh100": 0, 
-            "community": 60, 
-            "key": "4.201"
-        }, 
-        {
-            "body_part": 1, 
-            "id": "face", 
-            "swadesh100": 0, 
-            "community": 60, 
-            "key": "4.204"
+            "key": "4.209", 
+            "id": "chin"
         }, 
         {
             "body_part": 0, 
-            "id": "monkey", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "3.76"
+            "swadesh100": 0, 
+            "key": "3.76", 
+            "id": "monkey"
         }, 
         {
             "body_part": 1, 
-            "id": "beard", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "4.142"
+            "swadesh100": 0, 
+            "key": "4.207", 
+            "id": "jaw"
         }, 
         {
             "body_part": 1, 
-            "id": "forehead", 
-            "swadesh100": 0, 
             "community": 60, 
-            "key": "4.205"
+            "swadesh100": 0, 
+            "key": "4.208", 
+            "id": "cheek"
+        }, 
+        {
+            "body_part": 1, 
+            "community": 60, 
+            "swadesh100": 0, 
+            "key": "4.201", 
+            "id": "side of head, temple"
+        }, 
+        {
+            "body_part": 1, 
+            "community": 60, 
+            "swadesh100": 0, 
+            "key": "4.142", 
+            "id": "beard"
         }
     ], 
     "adjacency": [
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        []
-    ]
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "jaw", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 10.0, 
+                "id": "face", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "monkey", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "side of head, temple", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "families": 10.0, 
+                "id": "forehead", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "jaw", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "cheek", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "side of head, temple", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "monkey", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 35.0, 
+                "families": 24.0, 
+                "id": "jaw", 
+                "weight": 24.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cheek", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 3.0, 
+                "id": "beard", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "forehead", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "monkey", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "face", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "forehead", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "cheek", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 24.0, 
+                "id": "chin", 
+                "weight": 24.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "side of head, temple", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "face", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "jaw", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "chin", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "side of head, temple", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "face", 
+                "weight": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "forehead", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "jaw", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cheek", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "face", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 3.0, 
+                "id": "chin", 
+                "weight": 3.0
+            }
+        ]
+    ], 
+    "multigraph": false
 }

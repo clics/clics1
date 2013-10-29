@@ -1,0 +1,180 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "7.27", 
+            "id": "wall"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "3.19", 
+            "id": "stable, stall"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "20.34", 
+            "id": "shield"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "8.16", 
+            "id": "fence"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "20.31", 
+            "id": "armor (defensive)"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "20.36", 
+            "id": "tower"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 85, 
+            "swadesh100": 0, 
+            "key": "20.35", 
+            "id": "fortress"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "armor (defensive)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "shield", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "fence", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "fortress", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fence", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "armor (defensive)", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wall", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "wall", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "stable, stall", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fortress", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wall", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "shield", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fortress", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 4.0, 
+                "id": "fortress", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "armor (defensive)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wall", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 4.0, 
+                "id": "tower", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fence", 
+                "weight": 3.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

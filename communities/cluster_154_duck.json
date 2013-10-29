@@ -1,0 +1,60 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 154, 
+            "swadesh100": 0, 
+            "key": "3.56", 
+            "id": "goose"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 154, 
+            "swadesh100": 0, 
+            "key": "3.582", 
+            "id": "seagull"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 154, 
+            "swadesh100": 0, 
+            "key": "3.57", 
+            "id": "duck"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "duck", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "duck", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "goose", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "seagull", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

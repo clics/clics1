@@ -1,57 +1,177 @@
 {
-    "multigraph": false, 
-    "directed": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "liver", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 10.0, 
+                "id": "eagle", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "hawk", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "weight": 5.0, 
+                "id": "vulture", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "eagle", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "hawk", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "vulture", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "eagle", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "vulture", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "liver", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "navel", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 10.0, 
+                "id": "hawk", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 20.0, 
+                "weight": 7.0, 
+                "id": "vulture", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "liver", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 20.0, 
+                "weight": 7.0, 
+                "id": "eagle", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "navel", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "weight": 5.0, 
+                "id": "hawk", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 3.0, 
+                "id": "crow", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "weight": 3.0, 
+                "id": "vulture", 
+                "families": 3.0
+            }
+        ]
+    ], 
     "nodes": [
         {
+            "swadesh100": 0, 
+            "key": "3.585", 
             "body_part": 0, 
-            "id": "hawk", 
-            "swadesh100": 0, 
             "community": 97, 
-            "key": "3.585"
+            "id": "hawk"
         }, 
         {
-            "body_part": 0, 
-            "id": "eagle", 
-            "swadesh100": 0, 
-            "community": 97, 
-            "key": "3.584"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "vulture", 
-            "swadesh100": 0, 
-            "community": 97, 
-            "key": "3.586"
-        }, 
-        {
-            "body_part": 1, 
-            "id": "navel", 
-            "swadesh100": 0, 
-            "community": 97, 
-            "key": "4.43"
-        }, 
-        {
-            "body_part": 0, 
-            "id": "crow", 
-            "swadesh100": 0, 
-            "community": 97, 
-            "key": "3.593"
-        }, 
-        {
-            "body_part": 1, 
-            "id": "liver", 
             "swadesh100": 1, 
+            "key": "4.45", 
+            "body_part": 1, 
             "community": 97, 
-            "key": "4.45"
+            "id": "liver"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "4.43", 
+            "body_part": 1, 
+            "community": 97, 
+            "id": "navel"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "3.584", 
+            "body_part": 0, 
+            "community": 97, 
+            "id": "eagle"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "3.586", 
+            "body_part": 0, 
+            "community": 97, 
+            "id": "vulture"
+        }, 
+        {
+            "swadesh100": 0, 
+            "key": "3.593", 
+            "body_part": 0, 
+            "community": 97, 
+            "id": "crow"
         }
     ], 
-    "adjacency": [
-        [], 
-        [], 
-        [], 
-        [], 
-        [], 
-        []
-    ]
+    "multigraph": false, 
+    "directed": false
 }

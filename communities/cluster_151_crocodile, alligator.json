@@ -1,0 +1,66 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 151, 
+            "swadesh100": 0, 
+            "key": "3.97", 
+            "id": "crocodile, alligator"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 151, 
+            "swadesh100": 0, 
+            "key": "3.96", 
+            "id": "lizard"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 151, 
+            "swadesh100": 0, 
+            "key": "3.95", 
+            "id": "frog"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "crocodile, alligator", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "lizard", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "crocodile, alligator", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "frog", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lizard", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

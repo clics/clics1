@@ -64,12 +64,16 @@ for edge in g.es:
                 )
 
     
+    # get labels again for consistency
+    labelS = g.vs[s]['label']
+    labelT = g.vs[t]['label']
+
     try:
         newg[s][t]
     except KeyError:
         newg.add_edge(
-                s,
-                t,
+                labelS,
+                labelT,
                 weight = edge['weight'],
                 languages = edge['languages'],
                 families = edge['families']
