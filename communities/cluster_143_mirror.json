@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "key": "3.92", 
+            "community": 143, 
+            "swadesh100": 0, 
+            "id": "butterfly", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.74", 
+            "community": 143, 
+            "swadesh100": 0, 
+            "id": "glass", 
+            "body_part": 0
+        }, 
+        {
+            "key": "6.96", 
+            "community": 143, 
+            "swadesh100": 0, 
+            "id": "mirror", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mirror", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 25.0, 
+                "families": 13.0, 
+                "id": "mirror", 
+                "weight": 13.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "butterfly", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 25.0, 
+                "families": 13.0, 
+                "id": "glass", 
+                "weight": 13.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

@@ -1,0 +1,93 @@
+{
+    "nodes": [
+        {
+            "key": "21.25", 
+            "community": 118, 
+            "swadesh100": 0, 
+            "id": "oath", 
+            "body_part": 0
+        }, 
+        {
+            "key": "16.68", 
+            "community": 118, 
+            "swadesh100": 0, 
+            "id": "deceit", 
+            "body_part": 0
+        }, 
+        {
+            "key": "16.67", 
+            "community": 118, 
+            "swadesh100": 0, 
+            "id": "lie, tell lies", 
+            "body_part": 0
+        }, 
+        {
+            "key": "21.47", 
+            "community": 118, 
+            "swadesh100": 0, 
+            "id": "perjury", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "perjury", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "families": 10.0, 
+                "id": "lie, tell lies", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "perjury", 
+                "weight": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "families": 10.0, 
+                "id": "deceit", 
+                "weight": 10.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "perjury", 
+                "weight": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "deceit", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "oath", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "lie, tell lies", 
+                "weight": 9.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

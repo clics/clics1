@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "key": "16.3", 
+            "community": 103, 
+            "swadesh100": 0, 
+            "id": "embrace", 
+            "body_part": 0
+        }, 
+        {
+            "key": "8.92", 
+            "community": 103, 
+            "swadesh100": 0, 
+            "id": "tapioca, manioc, cassava", 
+            "body_part": 0
+        }, 
+        {
+            "key": "16.29", 
+            "community": 103, 
+            "swadesh100": 0, 
+            "id": "kiss", 
+            "body_part": 0
+        }, 
+        {
+            "key": "5.16", 
+            "community": 103, 
+            "swadesh100": 0, 
+            "id": "suck", 
+            "body_part": 0
+        }, 
+        {
+            "key": "4.59", 
+            "community": 103, 
+            "swadesh100": 0, 
+            "id": "lick", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "kiss", 
+                "weight": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lick", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "embrace", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "kiss", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "suck", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lick", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "kiss", 
+                "weight": 6.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "lick", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "kiss", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tapioca, manioc, cassava", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "suck", 
+                "weight": 4.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

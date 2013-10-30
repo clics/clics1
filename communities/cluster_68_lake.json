@@ -1,0 +1,165 @@
+{
+    "nodes": [
+        {
+            "key": "1.362", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "whirlpool", 
+            "body_part": 0
+        }, 
+        {
+            "key": "1.34", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "gulf, bay", 
+            "body_part": 0
+        }, 
+        {
+            "key": "1.32", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "sea", 
+            "body_part": 0
+        }, 
+        {
+            "key": "1.33", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "lake", 
+            "body_part": 0
+        }, 
+        {
+            "key": "1.341", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "lagoon", 
+            "body_part": 0
+        }, 
+        {
+            "key": "1.329", 
+            "community": 68, 
+            "swadesh100": 0, 
+            "id": "ocean", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "gulf, bay", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lake", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "whirlpool", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "lagoon", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "lake", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sea", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "lake", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 56.0, 
+                "families": 33.0, 
+                "id": "ocean", 
+                "weight": 33.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "sea", 
+                "weight": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "whirlpool", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 34.0, 
+                "families": 27.0, 
+                "id": "lagoon", 
+                "weight": 27.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "ocean", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "gulf, bay", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "gulf, bay", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 34.0, 
+                "families": 27.0, 
+                "id": "lake", 
+                "weight": 27.0
+            }
+        ], 
+        [
+            {
+                "languages": 56.0, 
+                "families": 33.0, 
+                "id": "sea", 
+                "weight": 33.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "lake", 
+                "weight": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

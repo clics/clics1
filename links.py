@@ -16,7 +16,7 @@ import sys
 import re
 import sqlite3
 import os
-from lingpy import csv2list
+from clics_lib.csv import *
 
 if len(argv) == 1 or "-h" in argv or "--help" in argv:
     print("Usage: python[3] links.py FOLDER")
@@ -212,11 +212,11 @@ for key,value in links.items():
             )
 
 
-out = open('links.sqlite3.txt','w')
+out = open('output/links.sqlite3.txt','w')
 for line in sorted(dbase,key=lambda x:str(x[0]+x[1]).lower()):
     out.write('\t'.join(line)+'\n')
 out.close()
-out = open('langs.sqlite3.txt','w')
+out = open('output/langs.sqlite3.txt','w')
 for line in sorted(langs):
     out.write(line+'\n')
 out.close()
@@ -240,9 +240,6 @@ for line in sorted(langs):
             'insert into langs values(?,?,?,?,?,?,?,?);',tuple(line.split('\t'))
             )
 conn.commit()
-
-print("[i] Copying clips-database to web application.")
-os.system('cp clips.sqlite3 /home/mattis/data/clips/website/clips.de/data/')
 
 print("Number of links: {0}".format(linknum // 2))
 print("Number of occurrences: {0}".format(occnum // 2))

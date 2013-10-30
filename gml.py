@@ -1,9 +1,9 @@
 import networkx as nx
-from lingpy import *
-from clics_lib.gml2json import gml2json
+from clics_lib.csv import *
+from clics_lib.gml2json import *
 
 # load the data
-data = csv2list('links.sqlite3.txt')
+data = csv2list('output/links.sqlite3.txt')
 
 # load swadesh metadata
 swa100 = csv2list('data/swa100.txt')
@@ -91,7 +91,7 @@ for line in data:
             languages = int(linksL)
             )
 
-nx.write_gml(g,'clics.gml')
+nx.write_gml(g,'output/clics.gml')
 
-gml2json('clics.gml')
+graph2json(g,'output/clics.json')
           

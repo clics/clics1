@@ -1,0 +1,207 @@
+{
+    "nodes": [
+        {
+            "key": "4.521", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "hiccough", 
+            "body_part": 0
+        }, 
+        {
+            "key": "5.181", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "swallow", 
+            "body_part": 0
+        }, 
+        {
+            "key": "12.25", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "shut, close", 
+            "body_part": 0
+        }, 
+        {
+            "key": "18.211", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "stutter, stammer", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.192", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "knot (noun)", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.16", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "tie, bind", 
+            "body_part": 0
+        }, 
+        {
+            "key": "6.62", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "button", 
+            "body_part": 0
+        }, 
+        {
+            "key": "12.26", 
+            "community": 64, 
+            "swadesh100": 0, 
+            "id": "cover", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "swallow", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stutter, stammer", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "shut, close", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "hiccough", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tie, bind", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "shut, close", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "tie, bind", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hiccough", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "swallow", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 26.0, 
+                "families": 21.0, 
+                "id": "cover", 
+                "weight": 21.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hiccough", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stutter, stammer", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "button", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "tie, bind", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "knot (noun)", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "swallow", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "button", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "shut, close", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "knot (noun)", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tie, bind", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 26.0, 
+                "families": 21.0, 
+                "id": "shut, close", 
+                "weight": 21.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

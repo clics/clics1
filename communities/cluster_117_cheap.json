@@ -1,0 +1,117 @@
+{
+    "nodes": [
+        {
+            "key": "11.89", 
+            "community": 117, 
+            "swadesh100": 0, 
+            "id": "cheap", 
+            "body_part": 0
+        }, 
+        {
+            "key": "4.441", 
+            "community": 117, 
+            "swadesh100": 0, 
+            "id": "lung", 
+            "body_part": 1
+        }, 
+        {
+            "key": "17.46", 
+            "community": 117, 
+            "swadesh100": 0, 
+            "id": "easy", 
+            "body_part": 0
+        }, 
+        {
+            "key": "15.82", 
+            "community": 117, 
+            "swadesh100": 0, 
+            "id": "light (in weight)", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lung", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "easy", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "light (in weight)", 
+                "weight": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cheap", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "easy", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "light (in weight)", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "cheap", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "lung", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 48.0, 
+                "families": 11.0, 
+                "id": "light (in weight)", 
+                "weight": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "cheap", 
+                "weight": 3.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "lung", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 48.0, 
+                "families": 11.0, 
+                "id": "easy", 
+                "weight": 11.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

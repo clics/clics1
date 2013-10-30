@@ -1,0 +1,93 @@
+{
+    "nodes": [
+        {
+            "key": "3.82", 
+            "community": 95, 
+            "swadesh100": 0, 
+            "id": "bee", 
+            "body_part": 0
+        }, 
+        {
+            "key": "5.84", 
+            "community": 95, 
+            "swadesh100": 0, 
+            "id": "honey", 
+            "body_part": 0
+        }, 
+        {
+            "key": "3.822", 
+            "community": 95, 
+            "swadesh100": 0, 
+            "id": "beehive", 
+            "body_part": 0
+        }, 
+        {
+            "key": "3.823", 
+            "community": 95, 
+            "swadesh100": 0, 
+            "id": "wasp", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "honey", 
+                "weight": 12.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "beehive", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 18.0, 
+                "families": 14.0, 
+                "id": "wasp", 
+                "weight": 14.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "bee", 
+                "weight": 12.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "beehive", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "bee", 
+                "weight": 4.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "honey", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "families": 14.0, 
+                "id": "bee", 
+                "weight": 14.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

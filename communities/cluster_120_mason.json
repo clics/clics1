@@ -1,0 +1,192 @@
+{
+    "nodes": [
+        {
+            "key": "6.13", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "tailor", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.71", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "potter", 
+            "body_part": 0
+        }, 
+        {
+            "key": "7.61", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "mason", 
+            "body_part": 0
+        }, 
+        {
+            "key": "4.87", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "physician", 
+            "body_part": 0
+        }, 
+        {
+            "key": "6.54", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "shoemaker, cobbler", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.82", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "sculptor", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.43", 
+            "community": 120, 
+            "swadesh100": 0, 
+            "id": "carpenter", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "shoemaker, cobbler", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "mason", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "carpenter", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mason", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "tailor", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "potter", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "physician", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "shoemaker, cobbler", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sculptor", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "carpenter", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "shoemaker, cobbler", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mason", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "tailor", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mason", 
+                "weight": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "physician", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mason", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "carpenter", 
+                "weight": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tailor", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "mason", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "sculptor", 
+                "weight": 2.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

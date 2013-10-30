@@ -16,7 +16,7 @@ from clics_lib.gml2json import graph2json
 from sys import argv
 
 # read the graph from gml
-g = ig.read("clics.gml")
+g = ig.read("output/clics.gml")
 
 if len(argv) == 1:
     # analyze graph with infomap
@@ -91,7 +91,8 @@ for i,s in enumerate(communities.subgraphs()):
 
 
 
-nx.write_gml(newg,'clics_communities.gml')
+nx.write_gml(newg,'output/clics_communities.gml')
+graph2json(newg,'output/clics_communities.json')
 
 # get nodes with communities
 nodes = [n for n in newg.nodes(data=True) if 'community' in n[1]]

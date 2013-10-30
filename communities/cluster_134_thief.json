@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "key": "4.842", 
+            "community": 134, 
+            "swadesh100": 0, 
+            "id": "goiter", 
+            "body_part": 0
+        }, 
+        {
+            "key": "21.52", 
+            "community": 134, 
+            "swadesh100": 0, 
+            "id": "thief", 
+            "body_part": 0
+        }, 
+        {
+            "key": "21.51", 
+            "community": 134, 
+            "swadesh100": 0, 
+            "id": "steal", 
+            "body_part": 0
+        }, 
+        {
+            "key": "4.854", 
+            "community": 134, 
+            "swadesh100": 0, 
+            "id": "itch", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "thief", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "itch", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "goiter", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "thief", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "steal", 
+                "weight": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "thief", 
+                "weight": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "goiter", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

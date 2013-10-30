@@ -1,0 +1,123 @@
+{
+    "nodes": [
+        {
+            "key": "9.89", 
+            "community": 93, 
+            "swadesh100": 0, 
+            "id": "paint (vb)", 
+            "body_part": 0
+        }, 
+        {
+            "key": "9.88", 
+            "community": 93, 
+            "swadesh100": 0, 
+            "id": "paint (noun)", 
+            "body_part": 0
+        }, 
+        {
+            "key": "15.61", 
+            "community": 93, 
+            "swadesh100": 0, 
+            "id": "color", 
+            "body_part": 0
+        }, 
+        {
+            "key": "6.39", 
+            "community": 93, 
+            "swadesh100": 0, 
+            "id": "dye", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "paint (noun)", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "color", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 15.0, 
+                "id": "dye", 
+                "weight": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "paint (vb)", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "paint (noun)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 34.0, 
+                "families": 13.0, 
+                "id": "color", 
+                "weight": 13.0
+            }, 
+            {
+                "languages": 33.0, 
+                "families": 9.0, 
+                "id": "dye", 
+                "weight": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "paint (vb)", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 34.0, 
+                "families": 13.0, 
+                "id": "paint (noun)", 
+                "weight": 13.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 4.0, 
+                "id": "dye", 
+                "weight": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 35.0, 
+                "families": 15.0, 
+                "id": "paint (vb)", 
+                "weight": 15.0
+            }, 
+            {
+                "languages": 33.0, 
+                "families": 9.0, 
+                "id": "paint (noun)", 
+                "weight": 9.0
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 4.0, 
+                "id": "color", 
+                "weight": 4.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

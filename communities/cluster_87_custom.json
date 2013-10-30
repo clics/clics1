@@ -1,0 +1,132 @@
+{
+    "nodes": [
+        {
+            "key": "17.49", 
+            "community": 87, 
+            "swadesh100": 0, 
+            "id": "way, manner", 
+            "body_part": 0
+        }, 
+        {
+            "key": "10.71", 
+            "community": 87, 
+            "swadesh100": 1, 
+            "id": "road", 
+            "body_part": 0
+        }, 
+        {
+            "key": "19.61", 
+            "community": 87, 
+            "swadesh100": 0, 
+            "id": "custom", 
+            "body_part": 0
+        }, 
+        {
+            "key": "10.72", 
+            "community": 87, 
+            "swadesh100": 0, 
+            "id": "path", 
+            "body_part": 0
+        }, 
+        {
+            "key": "21.11", 
+            "community": 87, 
+            "swadesh100": 0, 
+            "id": "law", 
+            "body_part": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "road", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 18.0, 
+                "families": 12.0, 
+                "id": "custom", 
+                "weight": 12.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "law", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "path", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 68.0, 
+                "families": 40.0, 
+                "id": "path", 
+                "weight": 40.0
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "way, manner", 
+                "weight": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "custom", 
+                "weight": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "law", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 18.0, 
+                "families": 12.0, 
+                "id": "way, manner", 
+                "weight": 12.0
+            }
+        ], 
+        [
+            {
+                "languages": 68.0, 
+                "families": 40.0, 
+                "id": "road", 
+                "weight": 40.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "way, manner", 
+                "weight": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "custom", 
+                "weight": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "way, manner", 
+                "weight": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}
