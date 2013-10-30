@@ -1,99 +1,99 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 10.0, 
-                "weight": 9.0, 
                 "id": "sink", 
+                "weight": 13.0, 
+                "languages": 18.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "choke", 
+                "weight": 8.0, 
+                "languages": 9.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "sink", 
+                "weight": 9.0, 
+                "languages": 10.0, 
                 "families": 9.0
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "weight": 8.0, 
-                "id": "choke", 
-                "families": 8.0
-            }, 
-            {
-                "languages": 18.0, 
-                "weight": 13.0, 
-                "id": "sink", 
-                "families": 13.0
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "weight": 8.0, 
-                "id": "drowned", 
-                "families": 8.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "choke", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 3.0, 
-                "weight": 1.0, 
-                "id": "sink", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "weight": 9.0, 
                 "id": "dive", 
+                "weight": 9.0, 
+                "languages": 10.0, 
                 "families": 9.0
             }, 
             {
-                "languages": 18.0, 
-                "weight": 13.0, 
                 "id": "drowned", 
+                "weight": 13.0, 
+                "languages": 18.0, 
                 "families": 13.0
             }, 
             {
-                "languages": 3.0, 
-                "weight": 1.0, 
                 "id": "choke", 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "drowned", 
+                "weight": 8.0, 
+                "languages": 9.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "sink", 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "choke", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
     "nodes": [
         {
             "swadesh100": 0, 
-            "key": "10.351", 
-            "body_part": 0, 
             "community": 111, 
-            "id": "dive"
-        }, 
-        {
-            "swadesh100": 0, 
+            "id": "drowned", 
             "key": "4.751", 
-            "body_part": 0, 
-            "community": 111, 
-            "id": "drowned"
+            "body_part": 0
         }, 
         {
             "swadesh100": 0, 
-            "key": "5.19", 
-            "body_part": 0, 
             "community": 111, 
-            "id": "choke"
+            "id": "dive", 
+            "key": "10.351", 
+            "body_part": 0
         }, 
         {
             "swadesh100": 0, 
+            "community": 111, 
+            "id": "sink", 
             "key": "10.33", 
-            "body_part": 0, 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
             "community": 111, 
-            "id": "sink"
+            "id": "choke", 
+            "key": "5.19", 
+            "body_part": 0
         }
     ], 
     "multigraph": false, 
-    "directed": false
+    "graph": []
 }

@@ -1,0 +1,72 @@
+{
+    "adjacency": [
+        [
+            {
+                "id": "deceit", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "lie, tell lies", 
+                "weight": 9.0, 
+                "languages": 9.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "perjury", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "lie, tell lies", 
+                "weight": 10.0, 
+                "languages": 17.0, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "id": "perjury", 
+                "weight": 9.0, 
+                "languages": 9.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "deceit", 
+                "weight": 10.0, 
+                "languages": 17.0, 
+                "families": 10.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "community": 124, 
+            "id": "perjury", 
+            "key": "21.47", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 124, 
+            "id": "deceit", 
+            "key": "16.68", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 124, 
+            "id": "lie, tell lies", 
+            "key": "16.67", 
+            "body_part": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": []
+}

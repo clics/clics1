@@ -1,66 +1,66 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "weight": 2.0, 
                 "id": "left (side)", 
-                "families": 2.0
-            }, 
-            {
-                "languages": 8.0, 
-                "weight": 8.0, 
-                "id": "north", 
-                "families": 8.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "weight": 8.0, 
-                "id": "south", 
-                "families": 8.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
                 "weight": 1.0, 
-                "id": "left (side)", 
+                "languages": 1.0, 
                 "families": 1.0
             }, 
             {
-                "languages": 2.0, 
-                "weight": 2.0, 
                 "id": "south", 
+                "weight": 2.0, 
+                "languages": 2.0, 
                 "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "left (side)", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "north", 
+                "weight": 8.0, 
+                "languages": 8.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "south", 
+                "weight": 8.0, 
+                "languages": 8.0, 
+                "families": 8.0
             }
         ]
     ], 
+    "directed": false, 
     "nodes": [
         {
             "swadesh100": 0, 
-            "key": "12.48", 
-            "body_part": 0, 
             "community": 140, 
-            "id": "south"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "12.47", 
-            "body_part": 0, 
-            "community": 140, 
-            "id": "north"
-        }, 
-        {
-            "swadesh100": 0, 
+            "id": "left (side)", 
             "key": "12.42", 
-            "body_part": 0, 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
             "community": 140, 
-            "id": "left (side)"
+            "id": "south", 
+            "key": "12.48", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 140, 
+            "id": "north", 
+            "key": "12.47", 
+            "body_part": 0
         }
     ], 
     "multigraph": false, 
-    "directed": false
+    "graph": []
 }

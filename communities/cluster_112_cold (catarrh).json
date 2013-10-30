@@ -1,126 +1,126 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "sneeze", 
-                "families": 1.0
+                "id": "cold (catarrh)", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
             }, 
             {
-                "languages": 5.0, 
-                "weight": 4.0, 
+                "id": "cough", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "mucus (nasal)", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
+            }, 
+            {
                 "id": "cold", 
-                "families": 4.0
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 3.0, 
-                "id": "cough", 
-                "families": 3.0
-            }, 
-            {
-                "languages": 10.0, 
-                "weight": 9.0, 
-                "id": "mucus (nasal)", 
-                "families": 9.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "cold (catarrh)", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "cough", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
                 "weight": 4.0, 
+                "languages": 5.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "cough", 
+                "weight": 3.0, 
+                "languages": 4.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "sneeze", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
                 "id": "cold (catarrh)", 
+                "weight": 4.0, 
+                "languages": 5.0, 
                 "families": 4.0
             }
         ], 
         [
             {
-                "languages": 4.0, 
-                "weight": 3.0, 
                 "id": "cold (catarrh)", 
+                "weight": 3.0, 
+                "languages": 4.0, 
                 "families": 3.0
             }, 
             {
-                "languages": 1.0, 
+                "id": "mucus (nasal)", 
                 "weight": 1.0, 
-                "id": "sneeze", 
+                "languages": 1.0, 
                 "families": 1.0
             }, 
             {
-                "languages": 1.0, 
+                "id": "sneeze", 
                 "weight": 1.0, 
-                "id": "mucus (nasal)", 
+                "languages": 1.0, 
                 "families": 1.0
             }
         ], 
         [
             {
-                "languages": 10.0, 
-                "weight": 9.0, 
                 "id": "cold (catarrh)", 
-                "families": 9.0
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
             }, 
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "cough", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
     "nodes": [
         {
             "swadesh100": 0, 
-            "key": "4.843", 
-            "body_part": 0, 
             "community": 112, 
-            "id": "cold (catarrh)"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "4.54", 
-            "body_part": 0, 
-            "community": 112, 
-            "id": "sneeze"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "15.86", 
-            "body_part": 0, 
-            "community": 112, 
-            "id": "cold"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "4.53", 
-            "body_part": 0, 
-            "community": 112, 
-            "id": "cough"
-        }, 
-        {
-            "swadesh100": 0, 
+            "id": "mucus (nasal)", 
             "key": "4.232", 
-            "body_part": 1, 
+            "body_part": 1
+        }, 
+        {
+            "swadesh100": 0, 
             "community": 112, 
-            "id": "mucus (nasal)"
+            "id": "cold (catarrh)", 
+            "key": "4.843", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 112, 
+            "id": "cold", 
+            "key": "15.86", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 112, 
+            "id": "cough", 
+            "key": "4.53", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 112, 
+            "id": "sneeze", 
+            "key": "4.54", 
+            "body_part": 0
         }
     ], 
     "multigraph": false, 
-    "directed": false
+    "graph": []
 }

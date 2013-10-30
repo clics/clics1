@@ -1,93 +1,93 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "guest", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 2.0, 
                 "id": "stranger", 
-                "families": 2.0
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "enemy", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0
             }, 
             {
-                "languages": 7.0, 
-                "weight": 5.0, 
                 "id": "stranger", 
+                "weight": 5.0, 
+                "languages": 7.0, 
                 "families": 5.0
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "weight": 2.0, 
-                "id": "enemy", 
-                "families": 2.0
-            }, 
-            {
-                "languages": 7.0, 
-                "weight": 5.0, 
-                "id": "guest", 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "fisherman", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0
+            }, 
+            {
+                "id": "guest", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "enemy", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
+                "id": "guest", 
                 "weight": 1.0, 
-                "id": "stranger", 
+                "languages": 1.0, 
                 "families": 1.0
+            }, 
+            {
+                "id": "stranger", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
             }
         ]
     ], 
+    "directed": false, 
     "nodes": [
         {
             "swadesh100": 0, 
-            "key": "19.52", 
-            "body_part": 0, 
             "community": 137, 
-            "id": "enemy"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "19.56", 
-            "body_part": 0, 
-            "community": 137, 
-            "id": "guest"
-        }, 
-        {
-            "swadesh100": 0, 
-            "key": "19.55", 
-            "body_part": 0, 
-            "community": 137, 
-            "id": "stranger"
-        }, 
-        {
-            "swadesh100": 0, 
+            "id": "fisherman", 
             "key": "20.51", 
-            "body_part": 0, 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
             "community": 137, 
-            "id": "fisherman"
+            "id": "guest", 
+            "key": "19.56", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 137, 
+            "id": "stranger", 
+            "key": "19.55", 
+            "body_part": 0
+        }, 
+        {
+            "swadesh100": 0, 
+            "community": 137, 
+            "id": "enemy", 
+            "key": "19.52", 
+            "body_part": 0
         }
     ], 
     "multigraph": false, 
-    "directed": false
+    "graph": []
 }
