@@ -2,7 +2,7 @@
 // store the community number
 var select = document.getElementById("selectNumber");  
 var opacity = 100;
-var filenr = 1;
+var filename;
 var coloring = "Family";
 
 // create the dropdown options and call init with the first community/cluster
@@ -17,7 +17,9 @@ d3.tsv('data/communities.csv',function(communities){
 		el.value = a.name;
 		select.appendChild(el);
 	});
-	init(clusters[0]);
+	// call with the first community/cluster
+	filename = clusters[0];
+	init(filename);
 });
 
 // load data about words for each edge
@@ -412,8 +414,10 @@ function init(filename,coloring){
 				d.x = d.node.x;
 				d.y = d.node.y;
 			} else {
-				var b = this.childNodes[1].getBBox();
-		
+				//var b = this.childNodes[1].getBBox();
+				// changed from above due to Firefox bug 
+				// (https://bugzilla.mozilla.org/show_bug.cgi?id=612118)
+				var b = this.childNodes[1].getBoundingClientRect();	
 				var diffX = d.x - d.node.x;
 				var diffY = d.y - d.node.y;
 		
