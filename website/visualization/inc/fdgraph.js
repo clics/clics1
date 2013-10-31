@@ -5,13 +5,20 @@ var opacity = 100;
 var filenr = 1;
 var coloring = "Family";
 
-// create the dropdown options
-for(var i = 1; i < 338; i++) {
-    var el = document.createElement("option");
-    el.textContent = i;
-    el.value = i;
-    select.appendChild(el);
-}
+// create the dropdown options and call init with the first community/cluster
+var clusters = [];
+d3.tsv('data/communities.csv',function(communities){
+	communities.forEach(function(a){
+		clusters.push(a.name);
+		var el = document.createElement("option");
+		var s = a.name.substring(0,a.name.length-5);
+		var parts = s.split("_");
+		el.textContent = parts[1] + ": " + parts[2];
+		el.value = a.name;
+		select.appendChild(el);
+	});
+	init(clusters[0]);
+});
 
 // load data about words for each edge
 var linkByWords = {};
@@ -30,14 +37,14 @@ d3.json('data/langsGeo.json',function(langs){
 });
 
 //################ INIT function #####################
-function init(filenr,coloring){
+function init(filename,coloring){
 
 	// the default coloring is family
    	coloring = typeof coloring !== 'undefined' ? coloring : 'Family';
 
 	// open community file
-	//d3.json('../../communities/cluster_' + filenr + '.json',function(data){
-	d3.json('../../communities/cluster_10_edge.json',function(data){
+	d3.json('../../communities/' + filename,function(data){
+	//d3.json('../../communities/cluster_10_edge.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
 	nodesById = {};
@@ -157,7 +164,6 @@ function init(filenr,coloring){
     
     // enable panning and zooming
     function redraw() {
-      console.log("here", d3.event.translate, d3.event.scale);
       vis.attr("transform",
           "translate(" + d3.event.translate + ")"
           + " scale(" + d3.event.scale + ")");
@@ -442,16 +448,13 @@ function init(filenr,coloring){
 	});
 	      
 };
-
-// call init() with 1 as default community
-init(1);
       
 //############### listener to community selection ###############
 d3.select('#selectNumber').on('change',function(){
-	filenr = this.value;
+	filename = this.value;
 	d3.select('svg').remove();
 	d3.select('#info').classed('hidden',true);
-	init(filenr,coloring);
+	init(filename,coloring);
 })
 
 //############### listener to coloring selection ###############
@@ -462,7 +465,7 @@ d3.select('#coloring').on('change',function(){
 	var colorBool = coloring == 'Family';
 	d3.select('#WorldColorScale').classed('hidden',colorBool);
 	
-	init(filenr,coloring);
+	init(filename,coloring);
 })
 
 //############### OPACITY slider ############### 
@@ -477,14 +480,8 @@ d3.select("#opacity").on("change", function() {
 //############### OPACITY slider ############### 
 d3.select("#weight").on("change", function() {
 	lineweight = parseInt(this.value); 
-	console.log(lineweight);
-	//d3.selectAll(".link").style('stroke-opacity',0);
 	d3.selectAll(".link").classed('hidden',true);
-	/*d3.selectAll('.weight_' + lineweight) 
-	.style('stroke-opacity',function(){ 
-		return 1;
-	}); 
-	*/
+
 	d3.selectAll('.weight_' + lineweight)
 	.classed('hidden',false);
 });
