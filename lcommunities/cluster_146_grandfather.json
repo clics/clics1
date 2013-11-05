@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "14.71", 
+            "id": "month", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.46", 
+            "id": "grandfather", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.53", 
+            "id": "moon", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.48", 
+            "id": "grandson", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 47, 
+                "languages": 118, 
+                "weight": 47, 
+                "id": "moon"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "grandfather"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "month"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "moon"
+            }, 
+            {
+                "families": 7, 
+                "languages": 6, 
+                "weight": 7, 
+                "id": "grandson"
+            }
+        ], 
+        [
+            {
+                "families": 47, 
+                "languages": 118, 
+                "weight": 47, 
+                "id": "month"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "grandfather"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "grandson"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "moon"
+            }, 
+            {
+                "families": 7, 
+                "languages": 6, 
+                "weight": 7, 
+                "id": "grandfather"
+            }
+        ]
+    ]
+}

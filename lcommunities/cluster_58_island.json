@@ -1,0 +1,189 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "1.25", 
+            "id": "island", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.661", 
+            "id": "shark", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "9.22", 
+            "id": "cut", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "12.232", 
+            "id": "divide", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.91", 
+            "id": "share (distribute)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "12.23", 
+            "id": "separate", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 2, 
+                "weight": 1, 
+                "id": "cut"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "divide"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shark"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "island"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 2, 
+                "weight": 1, 
+                "id": "island"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shark"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "divide"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "cut"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "island"
+            }, 
+            {
+                "families": 17, 
+                "languages": 64, 
+                "weight": 17, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "families": 21, 
+                "languages": 32, 
+                "weight": 21, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "island"
+            }, 
+            {
+                "families": 17, 
+                "languages": 64, 
+                "weight": 17, 
+                "id": "divide"
+            }, 
+            {
+                "families": 9, 
+                "languages": 14, 
+                "weight": 9, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "cut"
+            }, 
+            {
+                "families": 21, 
+                "languages": 32, 
+                "weight": 21, 
+                "id": "divide"
+            }, 
+            {
+                "families": 9, 
+                "languages": 14, 
+                "weight": 9, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "island"
+            }
+        ]
+    ]
+}

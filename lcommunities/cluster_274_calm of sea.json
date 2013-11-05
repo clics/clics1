@@ -1,0 +1,119 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "5.121", 
+            "id": "cooked", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.22", 
+            "id": "boil (vb)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.21", 
+            "id": "cook", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.322", 
+            "id": "calm (of sea)", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "boil (vb)"
+            }, 
+            {
+                "families": 8, 
+                "languages": 10, 
+                "weight": 8, 
+                "id": "cook"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "calm (of sea)"
+            }
+        ], 
+        [
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "cooked"
+            }, 
+            {
+                "families": 11, 
+                "languages": 29, 
+                "weight": 11, 
+                "id": "cook"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "calm (of sea)"
+            }
+        ], 
+        [
+            {
+                "families": 8, 
+                "languages": 10, 
+                "weight": 8, 
+                "id": "cooked"
+            }, 
+            {
+                "families": 11, 
+                "languages": 29, 
+                "weight": 11, 
+                "id": "boil (vb)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "calm (of sea)"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cooked"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "boil (vb)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cook"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "calm (of sea)"
+            }
+        ]
+    ]
+}

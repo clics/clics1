@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 1, 
+            "key": "4.214", 
+            "id": "eyelash", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.21", 
+            "id": "eye", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.213", 
+            "id": "eyelid", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "8.311", 
+            "id": "seed", 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eye"
+            }, 
+            {
+                "families": 6, 
+                "languages": 16, 
+                "weight": 6, 
+                "id": "eyelid"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "seed"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eyelash"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eyelid"
+            }, 
+            {
+                "families": 4, 
+                "languages": 7, 
+                "weight": 4, 
+                "id": "seed"
+            }
+        ], 
+        [
+            {
+                "families": 6, 
+                "languages": 16, 
+                "weight": 6, 
+                "id": "eyelash"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eye"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eyelash"
+            }, 
+            {
+                "families": 4, 
+                "languages": 7, 
+                "weight": 4, 
+                "id": "eye"
+            }
+        ]
+    ]
+}

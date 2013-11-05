@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "2.75", 
+            "id": "orphan", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.77", 
+            "id": "widower", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.76", 
+            "id": "widow", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "widower"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "widow"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "orphan"
+            }, 
+            {
+                "families": 22, 
+                "languages": 33, 
+                "weight": 22, 
+                "id": "widow"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "orphan"
+            }, 
+            {
+                "families": 22, 
+                "languages": 33, 
+                "weight": 22, 
+                "id": "widower"
+            }
+        ]
+    ]
+}

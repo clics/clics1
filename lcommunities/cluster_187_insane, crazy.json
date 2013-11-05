@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "16.68", 
+            "id": "deceit", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.67", 
+            "id": "lie, tell lies", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "17.23", 
+            "id": "insane, crazy", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 10, 
+                "languages": 17, 
+                "weight": 10, 
+                "id": "lie, tell lies"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "insane, crazy"
+            }
+        ], 
+        [
+            {
+                "families": 10, 
+                "languages": 17, 
+                "weight": 10, 
+                "id": "deceit"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "insane, crazy"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "lie, tell lies"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "deceit"
+            }
+        ]
+    ]
+}

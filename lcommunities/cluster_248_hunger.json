@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "11.61", 
+            "id": "lend", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.62", 
+            "id": "borrow", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.14", 
+            "id": "hunger", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 20, 
+                "languages": 34, 
+                "weight": 20, 
+                "id": "borrow"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "hunger"
+            }
+        ], 
+        [
+            {
+                "families": 20, 
+                "languages": 34, 
+                "weight": 20, 
+                "id": "lend"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "hunger"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "lend"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "borrow"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "hunger"
+            }
+        ]
+    ]
+}

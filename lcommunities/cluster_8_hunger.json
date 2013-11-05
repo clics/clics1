@@ -1,0 +1,43 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "14.26", 
+            "id": "end (temporal)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.14", 
+            "id": "hunger", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "hunger"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "hunger"
+            }
+        ]
+    ]
+}

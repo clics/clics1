@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "6.49", 
+            "id": "stocking, sock", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.374", 
+            "id": "footprint", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.71", 
+            "id": "road", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "6.51", 
+            "id": "shoe", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 7, 
+                "languages": 7, 
+                "weight": 7, 
+                "id": "shoe"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "shoe"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shoe"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "footprint"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "stocking, sock"
+            }
+        ], 
+        [
+            {
+                "families": 7, 
+                "languages": 7, 
+                "weight": 7, 
+                "id": "stocking, sock"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "footprint"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ]
+    ]
+}

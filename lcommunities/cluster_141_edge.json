@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "19.17", 
+            "id": "boundary", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.72", 
+            "id": "path", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "12.353", 
+            "id": "edge", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "path"
+            }, 
+            {
+                "families": 10, 
+                "languages": 14, 
+                "weight": 10, 
+                "id": "edge"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "boundary"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "edge"
+            }
+        ], 
+        [
+            {
+                "families": 10, 
+                "languages": 14, 
+                "weight": 10, 
+                "id": "boundary"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "path"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "edge"
+            }
+        ]
+    ]
+}

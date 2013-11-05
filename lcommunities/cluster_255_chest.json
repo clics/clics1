@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 1, 
+            "key": "4.41", 
+            "id": "breast (of woman)", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "4.842", 
+            "id": "goiter", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.4", 
+            "id": "chest", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "goiter"
+            }, 
+            {
+                "families": 13, 
+                "languages": 36, 
+                "weight": 13, 
+                "id": "chest"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "breast (of woman)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "chest"
+            }
+        ], 
+        [
+            {
+                "families": 13, 
+                "languages": 36, 
+                "weight": 13, 
+                "id": "breast (of woman)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "goiter"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "chest"
+            }
+        ]
+    ]
+}

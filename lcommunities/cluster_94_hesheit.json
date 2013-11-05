@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "3.12", 
+            "id": "male (adj)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.23", 
+            "id": "male", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.93", 
+            "id": "he/she/it", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 43, 
+                "languages": 97, 
+                "weight": 43, 
+                "id": "male"
+            }, 
+            {
+                "families": 2, 
+                "languages": 3, 
+                "weight": 2, 
+                "id": "he/she/it"
+            }
+        ], 
+        [
+            {
+                "families": 43, 
+                "languages": 97, 
+                "weight": 43, 
+                "id": "male (adj)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "he/she/it"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 3, 
+                "weight": 2, 
+                "id": "male (adj)"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "male"
+            }, 
+            {
+                "families": 4, 
+                "languages": 7, 
+                "weight": 4, 
+                "id": "he/she/it"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "3.61", 
+            "id": "dog", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.622", 
+            "id": "opossum", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.71", 
+            "id": "wolf", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.62", 
+            "id": "cat", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "cat"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "wolf"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cat"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "dog"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "dog"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "opossum"
+            }
+        ]
+    ]
+}

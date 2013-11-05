@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "2.942", 
+            "id": "we (exclusive)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.251", 
+            "id": "smile", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.25", 
+            "id": "laugh", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "smile"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "laugh"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "we (exclusive)"
+            }, 
+            {
+                "families": 22, 
+                "languages": 35, 
+                "weight": 22, 
+                "id": "laugh"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "we (exclusive)"
+            }, 
+            {
+                "families": 22, 
+                "languages": 35, 
+                "weight": 22, 
+                "id": "smile"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "3.15", 
+            "id": "livestock", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.41", 
+            "id": "horse (equine)", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.61", 
+            "id": "dog", 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "dog"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "horse (equine)"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "livestock"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "dog"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "livestock"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "horse (equine)"
+            }
+        ]
+    ]
+}

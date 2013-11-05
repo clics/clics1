@@ -1,0 +1,197 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "2.91", 
+            "id": "I", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "14.78", 
+            "id": "season", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "14.71", 
+            "id": "month", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.52", 
+            "id": "sun", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "15.57", 
+            "id": "bright", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.53", 
+            "id": "moon", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.61", 
+            "id": "light (noun)", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "month"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "moon"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "month"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "I"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "season"
+            }, 
+            {
+                "families": 47, 
+                "languages": 118, 
+                "weight": 47, 
+                "id": "moon"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "light (noun)"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "sun"
+            }
+        ], 
+        [
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "moon"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "month"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "light (noun)"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "moon"
+            }, 
+            {
+                "families": 13, 
+                "languages": 20, 
+                "weight": 13, 
+                "id": "light (noun)"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "season"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "bright"
+            }, 
+            {
+                "families": 47, 
+                "languages": 118, 
+                "weight": 47, 
+                "id": "month"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "light (noun)"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "sun"
+            }
+        ], 
+        [
+            {
+                "families": 13, 
+                "languages": 20, 
+                "weight": 13, 
+                "id": "bright"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "moon"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "month"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "sun"
+            }
+        ]
+    ]
+}

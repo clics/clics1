@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "11.52", 
+            "id": "poor", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.83", 
+            "id": "greedy", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.54", 
+            "id": "avaricious, stingy", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "17.47", 
+            "id": "difficult", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "greedy"
+            }, 
+            {
+                "families": 1, 
+                "languages": 2, 
+                "weight": 1, 
+                "id": "avaricious, stingy"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "difficult"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "greedy"
+            }, 
+            {
+                "families": 12, 
+                "languages": 39, 
+                "weight": 12, 
+                "id": "avaricious, stingy"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 2, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 12, 
+                "languages": 39, 
+                "weight": 12, 
+                "id": "greedy"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "avaricious, stingy"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }
+        ]
+    ]
+}

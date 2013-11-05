@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "17.64", 
+            "id": "what?", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.18", 
+            "id": "thing", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "21.52", 
+            "id": "thief", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 4, 
+                "languages": 5, 
+                "weight": 4, 
+                "id": "thing"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "thief"
+            }
+        ], 
+        [
+            {
+                "families": 4, 
+                "languages": 5, 
+                "weight": 4, 
+                "id": "what?"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "thief"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "what?"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "thing"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "thief"
+            }
+        ]
+    ]
+}

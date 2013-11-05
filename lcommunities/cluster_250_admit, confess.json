@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "18.33", 
+            "id": "admit, confess", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "17.15", 
+            "id": "believe", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.48", 
+            "id": "proud", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 3, 
+                "languages": 4, 
+                "weight": 3, 
+                "id": "believe"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "proud"
+            }
+        ], 
+        [
+            {
+                "families": 3, 
+                "languages": 4, 
+                "weight": 3, 
+                "id": "admit, confess"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "proud"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "admit, confess"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "believe"
+            }
+        ]
+    ]
+}
