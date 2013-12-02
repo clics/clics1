@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "9.75", 
+            "id": "weave, plait", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "6.33", 
+            "id": "weave", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "15.46", 
+            "id": "quiet, silence", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 37, 
+                "languages": 83, 
+                "weight": 37, 
+                "id": "weave"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "quiet, silence"
+            }
+        ], 
+        [
+            {
+                "families": 37, 
+                "languages": 83, 
+                "weight": 37, 
+                "id": "weave, plait"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "quiet, silence"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "weave, plait"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "weave"
+            }
+        ]
+    ]
+}

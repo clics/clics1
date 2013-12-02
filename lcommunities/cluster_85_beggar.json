@@ -1,0 +1,107 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "11.52", 
+            "id": "poor", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.53", 
+            "id": "beggar", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.74", 
+            "id": "wrong", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.72", 
+            "id": "bad", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 7, 
+                "languages": 9, 
+                "weight": 7, 
+                "id": "beggar"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "wrong"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "families": 7, 
+                "languages": 9, 
+                "weight": 7, 
+                "id": "poor"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "beggar"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 11, 
+                "languages": 14, 
+                "weight": 11, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "poor"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "beggar"
+            }, 
+            {
+                "families": 11, 
+                "languages": 14, 
+                "weight": 11, 
+                "id": "wrong"
+            }
+        ]
+    ]
+}

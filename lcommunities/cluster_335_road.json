@@ -1,0 +1,57 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "3.813", 
+            "id": "flea", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "3.72", 
+            "id": "lion", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.71", 
+            "id": "road", 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "flea"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "lion"
+            }
+        ]
+    ]
+}

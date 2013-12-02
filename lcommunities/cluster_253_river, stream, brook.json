@@ -1,0 +1,63 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "1.36", 
+            "id": "river, stream, brook", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.71", 
+            "id": "road", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.64", 
+            "id": "soup, broth", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "soup, broth"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ]
+    ]
+}

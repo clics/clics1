@@ -12,6 +12,7 @@ Database of Cross-Linguistic Colexifications
 * code for computation of community clustering with help of igraph
   - added, see "communities.py"
 * a csv-list containing node and community for all communities in the network
+  - has been added now and will be written in the folder output/ as communities.csv (in the format defined for js code)
 * a labelling for all communities (preferably the centroid or how that's called for each community)
   - currently, I simply take the node with the highest degree, it is given in the last part of the filenames in communities/-folder
 * a csv-list with semantic fields of IDS and nodes belonging to the fields

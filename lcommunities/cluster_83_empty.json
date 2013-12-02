@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "11.52", 
+            "id": "poor", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "13.22", 
+            "id": "empty", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "13.0", 
+            "id": "zero, nothing", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "empty"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "zero, nothing"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "zero, nothing"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "empty"
+            }
+        ]
+    ]
+}

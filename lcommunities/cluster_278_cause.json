@@ -1,0 +1,63 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "6.54", 
+            "id": "shoemaker, cobbler", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "21.21", 
+            "id": "plaintiff", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "17.42", 
+            "id": "cause", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cause"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cause"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shoemaker, cobbler"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "plaintiff"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "cause"
+            }
+        ]
+    ]
+}

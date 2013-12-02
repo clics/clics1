@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "15.68", 
+            "id": "green", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "9.74", 
+            "id": "glass", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "5.124", 
+            "id": "green, unripe", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "glass"
+            }, 
+            {
+                "families": 14, 
+                "languages": 49, 
+                "weight": 14, 
+                "id": "green, unripe"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "green"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "green, unripe"
+            }
+        ], 
+        [
+            {
+                "families": 14, 
+                "languages": 49, 
+                "weight": 14, 
+                "id": "green"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "glass"
+            }
+        ]
+    ]
+}

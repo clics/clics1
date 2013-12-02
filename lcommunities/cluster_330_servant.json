@@ -1,0 +1,113 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "6.54", 
+            "id": "shoemaker, cobbler", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "19.43", 
+            "id": "servant", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "4.87", 
+            "id": "physician", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "7.61", 
+            "id": "mason", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "servant"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "physician"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "mason"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shoemaker, cobbler"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "physician"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "mason"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "shoemaker, cobbler"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "servant"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "mason"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "shoemaker, cobbler"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "servant"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "physician"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 1, 
+            "key": "4.214", 
+            "id": "eyelash", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.213", 
+            "id": "eyelid", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.212", 
+            "id": "eyebrow", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "key": "4.215", 
+            "id": "blink", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 6, 
+                "languages": 16, 
+                "weight": 6, 
+                "id": "eyelid"
+            }, 
+            {
+                "families": 10, 
+                "languages": 15, 
+                "weight": 10, 
+                "id": "eyebrow"
+            }
+        ], 
+        [
+            {
+                "families": 6, 
+                "languages": 16, 
+                "weight": 6, 
+                "id": "eyelash"
+            }, 
+            {
+                "families": 2, 
+                "languages": 3, 
+                "weight": 2, 
+                "id": "eyebrow"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "blink"
+            }
+        ], 
+        [
+            {
+                "families": 10, 
+                "languages": 15, 
+                "weight": 10, 
+                "id": "eyelash"
+            }, 
+            {
+                "families": 2, 
+                "languages": 3, 
+                "weight": 2, 
+                "id": "eyelid"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "blink"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eyelid"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "eyebrow"
+            }
+        ]
+    ]
+}

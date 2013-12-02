@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "5.7", 
+            "id": "potato", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "8.912", 
+            "id": "yam", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "8.91", 
+            "id": "sweet potato", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "yam"
+            }, 
+            {
+                "families": 13, 
+                "languages": 14, 
+                "weight": 13, 
+                "id": "sweet potato"
+            }
+        ], 
+        [
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "potato"
+            }, 
+            {
+                "families": 13, 
+                "languages": 19, 
+                "weight": 13, 
+                "id": "sweet potato"
+            }
+        ], 
+        [
+            {
+                "families": 13, 
+                "languages": 14, 
+                "weight": 13, 
+                "id": "potato"
+            }, 
+            {
+                "families": 13, 
+                "languages": 19, 
+                "weight": 13, 
+                "id": "yam"
+            }
+        ]
+    ]
+}

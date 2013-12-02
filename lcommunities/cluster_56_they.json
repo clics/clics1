@@ -1,0 +1,81 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 1, 
+            "key": "4.46", 
+            "id": "stomach", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.96", 
+            "id": "they", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.93", 
+            "id": "he/she/it", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "they"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "he/she/it"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "stomach"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "they"
+            }, 
+            {
+                "families": 13, 
+                "languages": 20, 
+                "weight": 13, 
+                "id": "he/she/it"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "stomach"
+            }, 
+            {
+                "families": 13, 
+                "languages": 20, 
+                "weight": 13, 
+                "id": "they"
+            }, 
+            {
+                "families": 4, 
+                "languages": 7, 
+                "weight": 4, 
+                "id": "he/she/it"
+            }
+        ]
+    ]
+}

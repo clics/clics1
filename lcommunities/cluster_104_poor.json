@@ -1,0 +1,141 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "17.45", 
+            "id": "need, necessity", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.52", 
+            "id": "poor", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "20.47", 
+            "id": "captive, prisoner", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.75", 
+            "id": "orphan", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "19.44", 
+            "id": "freeman", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "11.53", 
+            "id": "beggar", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "need, necessity"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "poor"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "need, necessity"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "freeman"
+            }, 
+            {
+                "families": 7, 
+                "languages": 9, 
+                "weight": 7, 
+                "id": "beggar"
+            }, 
+            {
+                "families": 5, 
+                "languages": 5, 
+                "weight": 5, 
+                "id": "orphan"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "orphan"
+            }
+        ], 
+        [
+            {
+                "families": 5, 
+                "languages": 5, 
+                "weight": 5, 
+                "id": "poor"
+            }, 
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "beggar"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "captive, prisoner"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }
+        ], 
+        [
+            {
+                "families": 7, 
+                "languages": 9, 
+                "weight": 7, 
+                "id": "poor"
+            }, 
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "orphan"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "beggar"
+            }
+        ]
+    ]
+}

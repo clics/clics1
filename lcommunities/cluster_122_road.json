@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "17.49", 
+            "id": "way, manner", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.72", 
+            "id": "path", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "10.71", 
+            "id": "road", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "7.22", 
+            "id": "door, gate", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "path"
+            }, 
+            {
+                "families": 5, 
+                "languages": 10, 
+                "weight": 5, 
+                "id": "road"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "way, manner"
+            }, 
+            {
+                "families": 40, 
+                "languages": 68, 
+                "weight": 40, 
+                "id": "road"
+            }, 
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "door, gate"
+            }
+        ], 
+        [
+            {
+                "families": 5, 
+                "languages": 10, 
+                "weight": 5, 
+                "id": "way, manner"
+            }, 
+            {
+                "families": 40, 
+                "languages": 68, 
+                "weight": 40, 
+                "id": "path"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "door, gate"
+            }
+        ], 
+        [
+            {
+                "families": 4, 
+                "languages": 4, 
+                "weight": 4, 
+                "id": "path"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "road"
+            }
+        ]
+    ]
+}

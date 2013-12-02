@@ -1,0 +1,101 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "11.52", 
+            "id": "poor", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "4.84", 
+            "id": "sick, sickness", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.31", 
+            "id": "pain", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "16.34", 
+            "id": "regret, be sorry", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "sick, sickness"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "pain"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "regret, be sorry"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 13, 
+                "languages": 29, 
+                "weight": 13, 
+                "id": "pain"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "regret, be sorry"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 13, 
+                "languages": 29, 
+                "weight": 13, 
+                "id": "sick, sickness"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "poor"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "sick, sickness"
+            }
+        ]
+    ]
+}

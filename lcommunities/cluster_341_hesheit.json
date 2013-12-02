@@ -1,0 +1,43 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "12.14", 
+            "id": "lie down", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "2.93", 
+            "id": "he/she/it", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "he/she/it"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "lie down"
+            }, 
+            {
+                "families": 4, 
+                "languages": 7, 
+                "weight": 4, 
+                "id": "he/she/it"
+            }
+        ]
+    ]
+}

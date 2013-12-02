@@ -97,7 +97,9 @@ graph2json(newg,'output/clics_communities.json')
 # get nodes with communities
 nodes = [n for n in newg.nodes(data=True) if 'community' in n[1]]
 
-# write all communities to separate json-graphs
+# write all communities to separate json-graphs, write names to file
+f = open('output/communities.csv','w')
+f.write('names\n')
 for c in comms:
     
     subG = newg.subgraph(
@@ -109,6 +111,8 @@ for c in comms:
     graph2json(subG,'communities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,d,len(subG.nodes()))
             )
+    
+    f.write('cluster_{0}_{1}.json'.format(c,d))
 
 
 

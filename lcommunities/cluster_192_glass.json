@@ -1,0 +1,89 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "6.96", 
+            "id": "mirror", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "9.74", 
+            "id": "glass", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "7.25", 
+            "id": "window", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "1.44", 
+            "id": "stone, rock", 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 13, 
+                "languages": 25, 
+                "weight": 13, 
+                "id": "glass"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "window"
+            }
+        ], 
+        [
+            {
+                "families": 13, 
+                "languages": 25, 
+                "weight": 13, 
+                "id": "mirror"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "window"
+            }, 
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "stone, rock"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "mirror"
+            }, 
+            {
+                "families": 3, 
+                "languages": 3, 
+                "weight": 3, 
+                "id": "glass"
+            }
+        ], 
+        [
+            {
+                "families": 2, 
+                "languages": 2, 
+                "weight": 2, 
+                "id": "glass"
+            }
+        ]
+    ]
+}

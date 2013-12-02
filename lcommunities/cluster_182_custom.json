@@ -1,0 +1,75 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "17.49", 
+            "id": "way, manner", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "17.24", 
+            "id": "learn", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "19.61", 
+            "id": "custom", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "learn"
+            }, 
+            {
+                "families": 12, 
+                "languages": 18, 
+                "weight": 12, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "way, manner"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "families": 12, 
+                "languages": 18, 
+                "weight": 12, 
+                "id": "way, manner"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "learn"
+            }, 
+            {
+                "families": 1, 
+                "languages": 2, 
+                "weight": 1, 
+                "id": "custom"
+            }
+        ]
+    ]
+}

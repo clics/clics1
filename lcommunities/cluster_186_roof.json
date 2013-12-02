@@ -1,0 +1,69 @@
+{
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "key": "3.61", 
+            "id": "dog", 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "key": "7.52", 
+            "id": "thatch", 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "key": "7.51", 
+            "id": "roof", 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "thatch"
+            }, 
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "roof"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "dog"
+            }, 
+            {
+                "families": 10, 
+                "languages": 18, 
+                "weight": 10, 
+                "id": "roof"
+            }
+        ], 
+        [
+            {
+                "families": 1, 
+                "languages": 1, 
+                "weight": 1, 
+                "id": "dog"
+            }, 
+            {
+                "families": 10, 
+                "languages": 18, 
+                "weight": 10, 
+                "id": "thatch"
+            }
+        ]
+    ]
+}
