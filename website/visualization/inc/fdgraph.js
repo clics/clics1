@@ -15,10 +15,13 @@ d3.tsv('data/communities.csv',function(communities){
 		var parts = s.split("_");
 		el.textContent = parts[1] + ": " + parts[2];
 		el.value = a.name;
+		if(parts[1] == "2"){
+			el.selected = true;
+		}
 		select.appendChild(el);
 	});
 	// call with the first community/cluster
-	filename = clusters[0];
+	filename = clusters[1];
 	init(filename);
 });
 
@@ -45,7 +48,7 @@ function init(filename,coloring){
    	coloring = typeof coloring !== 'undefined' ? coloring : 'Family';
 
 	// open community file
-	d3.json('../../communities/' + filename,function(data){
+	d3.json('communities/' + filename,function(data){
 	//d3.json('../../communities/cluster_10_edge.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
