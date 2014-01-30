@@ -48,7 +48,7 @@ function init(filename,coloring){
    	coloring = typeof coloring !== 'undefined' ? coloring : 'Family';
 
 	// open community file
-	d3.json('communities/' + filename,function(data){
+	d3.json('../../communities/' + filename,function(data){
 	//d3.json('../../communities/cluster_10_edge.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
