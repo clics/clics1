@@ -17,7 +17,7 @@
 
 <h3><a style="color:black" name="colexification">Colexification</a></h3>
 <br>
-In the context of CliCs, we use the term colexification (coined to our 
+In the context of CliCs, we use the term <i>colexification</i> (coined to our 
 knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
@@ -80,7 +80,7 @@ and does not involve a
 reanalysis of any sort on our behalf. However, it must be emphasized that the meaning associations 
 reported in CliCs are
 recovered from sheer identity of form in different cells in the sources we have used, and do not 
-necessarily rest on language-internal semantic analysis (see also the sections on <a href="about.php#colexification">colexification</a> and <a href="faq.php#homonymy">homonymy</a>).  
+necessarily rest on language-internal semantic analysis (see also the sections on <a href="faq.php#colexification">colexification</a> and <a href="faq.php#homonymy">homonymy</a>).  
 Furthermore, we have no 
 control over artifacts that <br><br> <ul><li>
     may have arisen in the process of data gathering themselves,</li><li>
