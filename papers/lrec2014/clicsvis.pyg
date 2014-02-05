@@ -1,0 +1,9 @@
+           function cl2pix(c,l){
+                   var TAU = 6.283185307179586476925287 // also known as "two pi"
+                   var L = l*0.61 + 0.09; // L of L*a*b*
+                   var angle = TAU/6.0 - c*TAU;
+                   var r = l*0.311 + 0.125 //~chroma
+                   var a = Math.sin(angle)*r;
+                   var b = Math.cos(angle)*r;
+                   return [L,a,b];
+           };
