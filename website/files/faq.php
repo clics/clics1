@@ -17,7 +17,7 @@
 
 <h3><a style="color:black" name="colexification">Colexification</a></h3>
 <br>
-In the context of CliCs, we use the term <i>colexification</i> (coined to our 
+In the context of CLiCs, we use the term <i>colexification</i> (coined to our 
 knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
@@ -38,12 +38,12 @@ investigations. As an example on how these analyses can be conducted, see the pa
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLiCs</a></h3>
 <br>
-Currently CliCs utilizes three different sources, all of which are freely available online themselves. 
+Currently CLiCs utilizes three different sources, all of which are freely available online themselves. 
 <br><br>
 <ul>
 <li>
 The intercontinental dictionary series (<a href="http://lingweb.eva.mpg.de/ids/">IDS</a>, <a 
-href="http://lingulist.de/evobib/evobib.php?key=Key2007">Key &and; Comrie 2007 eds.</a>) features 
+href="http://lingulist.de/evobib/evobib.php?key=Key2007">Key &amp; Comrie 2007 eds.</a>) features 
 lexical data for 233 world languages. IDS data were provided mostly by experts on the respective 
 languages, although in some cases published written sources have been used. There are 1,310 entries 
 to be filled for each language, though, of course, there are gaps in coverage for individual 
@@ -53,7 +53,7 @@ is inspired by <a href="http://lingulist.de/evobib/evobib.php?key=Buck1949">Buck
 <li>
 The IDS list, in turn, provides the basis for the choice of meanings in the World Loanword Database 
 (<a href="http://wold.livingsources.org/">WOLD</a>, <a 
-href="http://lingulist.de/evobib/evobib.php?key=Wold2009">Haspelmath &and; Tadmor 2009 eds.</a>).  
+href="http://lingulist.de/evobib/evobib.php?key=Wold2009">Haspelmath &amp; Tadmor 2009 eds.</a>).  
 The principal aim of this source is to provide a basis for generalizations on the borrowability of 
 items in different parts of the lexicon. The WOLD data consist of vocabularies of between 
 1,000-2,000 items for 41 languages, with annotations about the borrowing history of particular items 
@@ -67,18 +67,18 @@ extracted lexical data for 4 languages that were neither present in IDS nor in W
 </ul>
 
 <h3><a style="color:black" name="cite">Citing CLiCs</a></h3>
-<br>CliCs can be cited as follows: 
+<br>CLiCs can be cited as follows: 
 <br><br>
 <ul><li>
-List, J.-M., and M. Urban (2013). CliCs — Database of Cross-Linguistic Colexifications.
+List, J.-M., A. Terhalle, M. Urban, and T. Mayer (2014). CLiCs — Database of Cross-Linguistic Colexifications.
 Version 1.0 (Beta). URL: <a href="http://quanthistling.info">http://quanthistling.info/clics/"</a>.
 </li></ul>
 <br>
 <h3><a style="color:black" name="data2">Reliability of the Data</a></h3><br>
-The structure of the data in CliCs is a direct image of the structure of the data in IDS and WOLD 
+The structure of the data in CLiCs is a direct image of the structure of the data in IDS and WOLD 
 and does not involve a
 reanalysis of any sort on our behalf. However, it must be emphasized that the meaning associations 
-reported in CliCs are
+reported in CLiCs are
 recovered from sheer identity of form in different cells in the sources we have used, and do not 
 necessarily rest on language-internal semantic analysis (see also the sections on <a href="faq.php#colexification">colexification</a> and <a href="faq.php#homonymy">homonymy</a>).  
 Furthermore, we have no 
@@ -106,7 +106,7 @@ world. In the case of IDS, South American languages and languages of the Caucasu
 overrepresented. In the case of WOLD, languages of Europe figure particularly prominently. Since
 it is possible and even expectable that certain polysemies in the lexicon are frequent or even 
 restricted to certain areas of the world, we advise researchers interested in cross-linguistic 
- <br><br>diversity to take appropriate measures to rule out unwarranted generalizations due to areal 
+diversity to take appropriate measures to rule out unwarranted generalizations due to areal 
 effects.
 <br><br>
 <h3><a style="color:black" name="homonymy">Homonymy</a></h3>
@@ -116,7 +116,7 @@ possible reason why two concepts can be expressed by the same form in a given la
 prominent among the others is homonymy, which is in very simple terms an <i>accidental similarity in 
 form</i>, often arising from sound changes causing originally distinct lexical items to collapse 
 phonologically. Such cases may lead to spurious links in the database (compare, for example, the 
-links betweem the concepts "arm" and "poor" which are due to homonymy in some Germanic languages).  To deal with this issue in a consistent and generally 
+links between the concepts "arm" and "poor" which are due to homonymy in some Germanic languages).  To deal with this issue in a consistent and generally 
 applicable way (even if the history of the lexical items in question is not known) we recommend to 
 employ a typological criterion to distinguish between homonymy and polysemy (see <a 
 href="http://lingulist.de/evobib/evobib.php?key=Croft1990">Croft 1990</a>): for semantic connections 
@@ -139,7 +139,7 @@ For technical questions regarding the data, please contact
 <br>
 <!--<h3><a style="color:black" name="colexification">What is </a><i>Colexification?</i></h3>
 <br>
-In the context of CliCs, we use the term colexification (coined to our 
+In the context of CLiCs, we use the term colexification (coined to our 
 knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 

@@ -21,12 +21,12 @@ between possible cognates in the establishment of genetic relations between lang
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
-  <td> September 16, 2013</td>
+  <td> February, 2014</td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Author:</b></td>
-  <td> Johann-Mattis List, Matthias Urban </td>
+  <td> Johann-Mattis List, Anselm Terhalle, Matthias Urban, Thomas Mayer </td>
   <td></td>
 </tr></table>
 

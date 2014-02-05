@@ -188,7 +188,7 @@ else{
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Oct. 16, 2013, 11:16 CET</p>
+ <p>Last updated on Feb. 05, 2014, 17:53 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
