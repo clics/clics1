@@ -93,5 +93,5 @@ for line in data:
 
 nx.write_gml(g,'output/clics.gml')
 
-graph2json(g,'output/clics.json')
+graph2json(g,'output/clics')
           
