@@ -1,8 +1,152 @@
-\subsection{Colexification}
-% Anselm?
+CLiCs (\emph{\textbf{C}ross-\textbf{Li}nguistic \textbf{C}olexification\textbf{s}},
+\url{http://lingulist.de/clics/}) is an online
+database of synchronic lexical associations (``polysemies", but more precisely:
+\emph{colexifications}, see below) for 1288 concepts translated into currently 215 language varieties of the world. 
+Large databases offering lexical
+information on the world's languages are already readily available for research in different online
+sources. However, the information on tendencies of meaning associations available in these databases
+is not easily extractable from the sources themselves. This is why CLiCs was created.  
+It is designed
+to serve as a data source for work in lexical typology, diachronic semantics, and research in
+cognitive science that focuses on natural language semantics from the viewpoint of cross-linguistic
+diversity. Furthermore, CLiCs can be used to assess the plausibility of semantic
+connections between possible cognates in the establishment of genetic relations between languages.
+Table \ref{tab:clics} gives an example on the basic structure of the data in CLiCs. 
+ 
+\begin{table}[b]
+    \centering
+\resizebox{8cm}{!}{%
+\tabular{|l|l|l|l|}
+\hline
+\bf Concept &\bf IDS-Key &\bf Families &\bf Languages \\\hline
+\hline
+\rowcolor{lightgray} money &11.43 &15 &33 \\\hline
+\rowcolor{lightgray} coin &11.44 &9 &13 \\\hline
+\rowcolor{lightgray} iron &9.67 &3 &3 \\\hline
+\rowcolor{lightgray} gold &9.64 &2 &2 \\\hline
+\rowcolor{lightgray} tin, tinplate &9.69 &2 &2 \\\hline
+\rowcolor{lightgray} white &15.64 &2 &2 \\\hline
+blunt, dull &15.79 &1 &1 \\\hline
+bright &15.57 &1 &1 \\\hline
+chest &4.4 &1 &1 \\\hline
+clock, timepiece &14.53 &1 &1 \\\hline
+copper, bronze &9.66 &1 &1 \\\hline
+earring &6.77 &1 &1 \\\hline
+hammer &9.49 &1 &1 \\\hline
+helmet &20.33 &1 &1 \\\hline
+jewel &6.72 &1 &1 \\\hline
+lead (noun) &9.68 &1 &1 \\\hline
+price &11.87 &1 &1 \\\hline
+razor &6.93 &1 &1 \\\hline
+saw &9.48 &1 &1 \\\hline\endtabular}
+\caption{Common colexifications involving the concept ``silver" in CLiCs. Concepts which are
+expressed by the same word form in more than two different language families are shaded gray.}
+\label{tab:clics}
+\end{table}
 
-\subsection{Data}
-% Mattis
+\subsection{Homonymy, polysemy, and colexification}
+CLiCs can help to identify regularities in semantic
+change and conceptual associations. Innovative semantic change consists in the acquisition of a new
+meaning $n$ by a given word $w$, which has one or more original meanings $o_{i}, i \in \mathbb{N}$.
+The new meaning $n$ is associated in some way -- for example metaphorically or metonymically -- to
+$o_k$, one of the original meanings of $w$ \cite{blank1997}. As a consequence, $w$ carries
+-- at least for a certain time -- both meanings $n$ and $o$, between which there is a conceptual
+relation. This is referred to as \emph{polysemy (of $w$)}. Conversely, historical linguists
+conclude abductively from the polysemy of $w$ that one of the meanings of $w$ is likely to have
+emerged on the basis of the other. Therefore, polysemy can be used to reconstruct and analyze
+semantic change \cite{traugottdasher2002}.
+ 
+From the analytical perspective, polysemy has
+to be distinguished from homonymy and semantic vagueness. \emph{Homonymy} refers to the
+``accidental'' verbalization of at least two meanings by the same sound chain, without a conceptual
+relation between $n$ and $o$ that is more than coincidental. \emph{Contextual variation}
+designates the adaption of a lexicalized meaning to contextual factors in an utterance. Although
+historical and synchronic criteria have been proposed to distinguish polysemy from homonymy, and
+contextual variation can be tested by resorting to categorization \cite{blank1997}, the
+differentiation depends on the individual analysis of every single noun and is not entirely
+objective. Therefore, it is difficult for quantitative investigations to provide this differentiation
+in advance.
 
-\subsection{Network modeling}
-% Mattis + Anselm
+In the context of CliCs, we use the term \emph{colexification} (coined to our knowledge by Fran\c{c}ois
+2008) \nocite{francois2008}
+to refer to the situation when two or more of the meanings in our lexical sources are covered in a
+language by the same lexical item. For instance, we would say that Russian \emph{рука} colexifies ``hand"
+and ``arm", that is, concepts that are semantically related to each other. Roughly speaking,
+colexification can correspond either to polysemy or contextual variation in lexical semantic analyses.
+Since CLiCs is not based on such analyses that would allow us to further discriminate between the
+two, we chose colexification as a label that deliberately does not make a commitment with regard to
+this distinction. However, as we will show below, quantitative approaches are available to rule out effects of accidental homonymy. 
+%To take account of the difficulty of distinguishing neatly between cases of contextual variation,
+%polysemy, and homonymy, we stick to the term \emph{colexification} \cite{francois2008} as referring
+%to any situation in which several meanings are \emph{colexified} by the same sound chain. 
+%This
+%terminological convention has additional advantages: 1) Whereas polysemy describes the property of a
+%word, colexification describes the property of a group of concepts and thus fits in much better with
+%the onomasiological approach of CLiCs. 2) We avoid unintended implications based on the
+%structuralist origin of the term \emph{polysemy} \cite{breal1897} and readily reflect the fact that
+%not all synchronic lexical associations in CLiCs are the result of historical change processes.
+
+\subsection{Data and sources of CLiCs}
+CLiCs offers information on colexification in 215 different language varieties
+covering 50 different language families. All language varieties in our sample comprise a total of
+290,760 words covering 1,288 different concepts. Using a strictly automatic procedure, we identified
+45,282 cases of colexification that correspond to 16,043 different links between the 1,288 concepts
+covered by our data. 
+
+Currently CLiCs utilizes three different sources, all of which are freely available online
+themselves.  (1) The \emph{Intercontinental Dictionary Series} (IDS, Key and Comrie 2007) 
+\nocite{Key2007} features lexical
+data for 233 world languages. IDS data were provided mostly by experts on the respective languages,
+although in some cases published written sources have been used. There are 1,310 entries to be
+filled for each language, though, of course, there are gaps in coverage for individual languages.
+The list of concepts is inspired by Buck \shortcite{Buck1949}. Of all 233 languages in the IDS, 178 were
+automatically cleaned and included in CLiCs.  (2) The IDS list, in turn, provides the basis for the
+choice of meanings in the \emph{World Loanword Database} (WOLD, Haspelmath and Tadmo 2009).
+\nocite{Wold2009} The principal aim
+of this source is to provide a basis for generalizations on the borrowability of items in different
+parts of the lexicon. The WOLD data consist of vocabularies of between 1,000-2,000 items for 41
+languages, with annotations about the borrowing history of particular items where applicable. WOLD
+data was coded by experts on the respective languages, in some cases also with the aid of extant
+sources. Of all 41 languages in WOLD, 33 are included in CLiCs.  (3) The \emph{Logos Dictionary}
+(\url{http://www.logosdictionary.org}) is a freely accessible multilingual online dictionary that is
+regularly updated online by a network of professional translators. It offers lexical data for more
+than 60 different languages. We manually extracted lexical data for 4 languages that were neither
+present in IDS nor in WOLD. 
+
+
+\subsection{Network modeling of CLiCs}
+As mentioned above, there is no guarantee that lexical associations within CLiCs are due to
+historical reasons or due to chance. For example, there are three attested links between the
+concepts ``arm" and ``poor" in the current version of CLiCs, which are due to homonymy in some
+Germanic languages (German, Dutch, and Yiddish).
+ 
+In order to distinguish strong
+association tendencies from
+spuriously occurring associations and to rule out cases of accidental homonymy, \newcite{List2013a} model cross-linguistic colexification data as a weighted network
+in which nodes represent concepts and weighted edges between the nodes represent the number of
+attested colexifications in the data.  With the help of \emph{community detection analyses}, strongly
+interconnected regions in the colexification network can be identified. \newcite{List2013a} apply
+a weighted version of the community detection algorithm by \newcite{Girvan2002} to a
+cross-linguistic colexification network consisting of 1252 concepts translated into 195 languages
+covering 44 language families. Their analysis yielded a total of 337 communities, with 104 communities
+consisting of 5 and more nodes and covering 68\% of all concepts. A qualitative survey of the
+largest communities showed that most of them constitute meaningful units, and accidental homologies
+were successfully excluded.
+\subsection{Limitations and Caveats} \label{caveats}
+The structure of the data in CLiCs is a direct image of the structure of the data in IDS and WOLD
+and does not involve a reanalysis of any sort on our behalf. However, it must be emphasized that the
+meaning associations reported in CLiCs are recovered from sheer identity of form in different cells
+in the sources we have used, and do not necessarily rest on language-internal semantic analysis.
+Furthermore, we have no control over artifacts that (a) may have arisen in the process of data
+gathering themselves, (b) were created by mapping the predefined concepts onto the actual languages,
+and (c) were introduced when cleaning parts of the data automatically in which the textual coding
+was not provided in a consistent way.
+ 
+A further problem that may arise when using CLiCs is that the coverage of the world’s languages in
+both IDS and WOLD is biased towards certain regions of the world. In the case of IDS, South American
+languages and languages of the Caucasus are overrepresented. In the case of WOLD, languages of
+Europe figure particularly prominently. Since it is possible and even expectable that certain
+polysemies in the lexicon are frequent or even restricted to certain areas of the world, it is
+important to take appropriate measures to rule out unwarranted generalizations due to areal
+effects.
+
