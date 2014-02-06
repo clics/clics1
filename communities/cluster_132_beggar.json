@@ -1,78 +1,78 @@
 {
-    "nodes": [
-        {
-            "key": "2.75", 
-            "community": 132, 
-            "swadesh100": 0, 
-            "id": "orphan", 
-            "body_part": 0
-        }, 
-        {
-            "key": "11.53", 
-            "community": 132, 
-            "swadesh100": 0, 
-            "id": "beggar", 
-            "body_part": 0
-        }, 
-        {
-            "key": "11.52", 
-            "community": 132, 
-            "swadesh100": 0, 
-            "id": "poor", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 4.0, 
+                "weight": 4.0, 
                 "families": 4.0, 
-                "id": "beggar", 
-                "weight": 4.0
+                "languages": 4.0, 
+                "id": "beggar"
             }, 
             {
-                "languages": 5.0, 
+                "weight": 5.0, 
                 "families": 5.0, 
-                "id": "poor", 
-                "weight": 5.0
+                "languages": 5.0, 
+                "id": "poor"
             }
         ], 
         [
             {
-                "languages": 4.0, 
+                "weight": 4.0, 
                 "families": 4.0, 
-                "id": "orphan", 
-                "weight": 4.0
+                "languages": 4.0, 
+                "id": "orphan"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "beggar", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "beggar"
             }, 
             {
-                "languages": 9.0, 
+                "weight": 7.0, 
                 "families": 7.0, 
-                "id": "poor", 
-                "weight": 7.0
+                "languages": 9.0, 
+                "id": "poor"
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "beggar", 
-                "weight": 7.0
+                "weight": 5.0, 
+                "families": 5.0, 
+                "languages": 5.0, 
+                "id": "orphan"
             }, 
             {
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "orphan", 
-                "weight": 5.0
+                "weight": 7.0, 
+                "families": 7.0, 
+                "languages": 9.0, 
+                "id": "beggar"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "2.75", 
+            "community": 132, 
+            "id": "orphan"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "11.53", 
+            "community": 132, 
+            "id": "beggar"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "11.52", 
+            "community": 132, 
+            "id": "poor"
+        }
+    ]
 }

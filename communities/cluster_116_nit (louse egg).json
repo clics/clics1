@@ -1,126 +1,126 @@
 {
-    "nodes": [
-        {
-            "key": "3.812", 
-            "community": 116, 
-            "swadesh100": 0, 
-            "id": "nit (louse egg)", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.813", 
-            "community": 116, 
-            "swadesh100": 0, 
-            "id": "flea", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.811", 
-            "community": 116, 
-            "swadesh100": 1, 
-            "id": "louse", 
-            "body_part": 0
-        }, 
-        {
-            "key": "1.54", 
-            "community": 116, 
-            "swadesh100": 1, 
-            "id": "star", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.91", 
-            "community": 116, 
-            "swadesh100": 0, 
-            "id": "firefly", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "flea", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "louse", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "star", 
-                "weight": 1.0
+                "languages": 2.0, 
+                "id": "star"
             }
         ], 
         [
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "nit (louse egg)", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "star"
             }, 
             {
-                "languages": 10.0, 
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "louse"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "flea"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "nit (louse egg)"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "star"
+            }, 
+            {
+                "weight": 9.0, 
                 "families": 9.0, 
-                "id": "louse", 
-                "weight": 9.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "nit (louse egg)", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 10.0, 
+                "id": "flea"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "nit (louse egg)"
+            }, 
+            {
+                "weight": 9.0, 
                 "families": 9.0, 
-                "id": "flea", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "star", 
-                "weight": 1.0
+                "languages": 10.0, 
+                "id": "louse"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "nit (louse egg)", 
-                "weight": 1.0
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "firefly"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "louse", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "nit (louse egg)"
             }, 
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "firefly", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "star", 
-                "weight": 2.0
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "louse"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.91", 
+            "community": 116, 
+            "id": "firefly"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.812", 
+            "community": 116, 
+            "id": "nit (louse egg)"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "key": "3.811", 
+            "community": 116, 
+            "id": "louse"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.813", 
+            "community": 116, 
+            "id": "flea"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "key": "1.54", 
+            "community": 116, 
+            "id": "star"
+        }
+    ]
 }

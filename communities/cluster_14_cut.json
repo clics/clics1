@@ -1,726 +1,726 @@
 {
-    "nodes": [
-        {
-            "key": "9.28", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "tear", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.661", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "shark", 
-            "body_part": 0
-        }, 
-        {
-            "key": "1.25", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "island", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.27", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "split", 
-            "body_part": 0
-        }, 
-        {
-            "key": "11.27", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "destroy", 
-            "body_part": 0
-        }, 
-        {
-            "key": "12.232", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "divide", 
-            "body_part": 0
-        }, 
-        {
-            "key": "8.32", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "mow, reap", 
-            "body_part": 0
-        }, 
-        {
-            "key": "11.28", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "harm, injure, damage", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.222", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "chop, hew", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.26", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "break", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.261", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "broken", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.221", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "cut down", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.81", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "carve", 
-            "body_part": 0
-        }, 
-        {
-            "key": "12.23", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "separate", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.22", 
-            "community": 14, 
-            "swadesh100": 0, 
-            "id": "cut", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "mow, reap", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "break", 
-                "weight": 4.0
-            }, 
-            {
-                "languages": 10.0, 
-                "families": 5.0, 
-                "id": "split", 
-                "weight": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "carve", 
-                "weight": 1.0
-            }, 
-            {
+                "weight": 3.0, 
+                "families": 3.0, 
                 "languages": 3.0, 
-                "families": 2.0, 
-                "id": "chop, hew", 
-                "weight": 2.0
+                "id": "break"
             }, 
             {
+                "weight": 1.0, 
+                "families": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "divide", 
-                "weight": 1.0
+                "id": "harm, injure, damage"
             }, 
             {
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "cut", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
+                "weight": 1.0, 
+                "families": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cut", 
-                "weight": 1.0
+                "id": "broken"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "island", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "shark", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "divide", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "cut", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "separate", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "families": 5.0, 
-                "id": "tear", 
-                "weight": 5.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "mow, reap", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 17.0, 
-                "families": 9.0, 
-                "id": "break", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "chop, hew", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "broken", 
-                "weight": 1.0
-            }, 
-            {
+                "weight": 8.0, 
+                "families": 8.0, 
                 "languages": 9.0, 
-                "families": 8.0, 
-                "id": "cut", 
-                "weight": 8.0
+                "id": "destroy"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "cut down", 
-                "weight": 1.0
-            }, 
-            {
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "carve", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "destroy", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 12.0, 
-                "families": 8.0, 
-                "id": "divide", 
-                "weight": 8.0
-            }, 
-            {
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "separate", 
-                "weight": 6.0
+                "id": "cut"
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "harm, injure, damage", 
-                "weight": 8.0
-            }, 
-            {
-                "languages": 13.0, 
+                "weight": 10.0, 
                 "families": 10.0, 
-                "id": "break", 
-                "weight": 10.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "split", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "broken", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "chop, hew", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tear", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "island", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 12.0, 
-                "families": 8.0, 
-                "id": "split", 
-                "weight": 8.0
-            }, 
-            {
-                "languages": 32.0, 
-                "families": 21.0, 
-                "id": "separate", 
-                "weight": 21.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "cut", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "chop, hew", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "tear", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "cut down", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "split", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 19.0, 
-                "families": 12.0, 
-                "id": "cut", 
-                "weight": 12.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "chop, hew", 
-                "weight": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "harm, injure, damage", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "break", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "destroy", 
-                "weight": 8.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "broken", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cut", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "tear", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "mow, reap", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "break", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "split", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "separate", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 19.0, 
-                "families": 15.0, 
-                "id": "cut down", 
-                "weight": 15.0
-            }, 
-            {
-                "languages": 18.0, 
-                "families": 7.0, 
-                "id": "carve", 
-                "weight": 7.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "destroy", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "divide", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 51.0, 
-                "families": 19.0, 
-                "id": "cut", 
-                "weight": 19.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "tear", 
-                "weight": 4.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "harm, injure, damage", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 17.0, 
-                "families": 9.0, 
-                "id": "split", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "broken", 
-                "weight": 7.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "cut down", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 13.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 9.0, 
+                "id": "harm, injure, damage"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "broken"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "chop, hew"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "separate"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "shark"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 2.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "harm, injure, damage"
+            }, 
+            {
+                "weight": 10.0, 
                 "families": 10.0, 
-                "id": "destroy", 
-                "weight": 10.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "cut", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "chop, hew", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "harm, injure, damage", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "destroy", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "break", 
-                "weight": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "split", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "mow, reap", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "break", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "split", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "carve", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 19.0, 
-                "families": 15.0, 
-                "id": "chop, hew", 
-                "weight": 15.0
-            }, 
-            {
                 "languages": 13.0, 
+                "id": "destroy"
+            }, 
+            {
+                "weight": 9.0, 
                 "families": 9.0, 
-                "id": "cut", 
-                "weight": 9.0
+                "languages": 17.0, 
+                "id": "split"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "separate", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cut down", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tear", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "split", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 25.0, 
-                "families": 6.0, 
-                "id": "cut", 
-                "weight": 6.0
-            }, 
-            {
-                "languages": 18.0, 
-                "families": 7.0, 
-                "id": "chop, hew", 
-                "weight": 7.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "island", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "split", 
-                "weight": 6.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "cut", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cut down", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 32.0, 
-                "families": 21.0, 
-                "id": "divide", 
-                "weight": 21.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "chop, hew", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
+                "weight": 4.0, 
                 "families": 4.0, 
-                "id": "tear", 
-                "weight": 4.0
+                "languages": 4.0, 
+                "id": "tear"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "shark", 
-                "weight": 1.0
+                "weight": 7.0, 
+                "families": 7.0, 
+                "languages": 8.0, 
+                "id": "broken"
             }, 
             {
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "split", 
-                "weight": 8.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "divide", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 51.0, 
-                "families": 19.0, 
-                "id": "chop, hew", 
-                "weight": 19.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "harm, injure, damage", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "break", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 13.0, 
-                "families": 9.0, 
-                "id": "cut down", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 25.0, 
-                "families": 6.0, 
-                "id": "carve", 
-                "weight": 6.0
-            }, 
-            {
                 "languages": 3.0, 
-                "families": 3.0, 
-                "id": "separate", 
-                "weight": 3.0
+                "id": "chop, hew"
             }, 
             {
-                "languages": 19.0, 
-                "families": 12.0, 
-                "id": "mow, reap", 
-                "weight": 12.0
-            }, 
-            {
+                "weight": 2.0, 
+                "families": 2.0, 
                 "languages": 2.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "island", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "carve"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 4.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 5.0, 
+                "families": 5.0, 
+                "languages": 10.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 3.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "mow, reap"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 5.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0, 
+                "families": 7.0, 
+                "languages": 18.0, 
+                "id": "carve"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "destroy"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 3.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 14.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 3.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 15.0, 
+                "families": 15.0, 
+                "languages": 19.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "separate"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 4.0, 
+                "id": "mow, reap"
+            }, 
+            {
+                "weight": 19.0, 
+                "families": 19.0, 
+                "languages": 51.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 2.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 4.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 12.0, 
+                "families": 12.0, 
+                "languages": 19.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "island"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 12.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "cut"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 21.0, 
+                "families": 21.0, 
+                "languages": 32.0, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cut"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "island"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 7.0, 
+                "families": 7.0, 
+                "languages": 18.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 6.0, 
+                "families": 6.0, 
+                "languages": 25.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 17.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 12.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "destroy"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "carve"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 9.0, 
+                "id": "cut"
+            }, 
+            {
+                "weight": 5.0, 
+                "families": 5.0, 
+                "languages": 10.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "broken"
+            }, 
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 14.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 2.0, 
+                "id": "mow, reap"
+            }, 
+            {
+                "weight": 6.0, 
+                "families": 6.0, 
+                "languages": 7.0, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0, 
+                "families": 7.0, 
+                "languages": 8.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "harm, injure, damage"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "destroy"
+            }
+        ], 
+        [
+            {
+                "weight": 21.0, 
+                "families": 21.0, 
+                "languages": 32.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "island"
+            }, 
+            {
+                "weight": 6.0, 
+                "families": 6.0, 
+                "languages": 7.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cut down"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "cut"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "carve"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 13.0, 
+                "id": "cut"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "separate"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "mow, reap"
+            }, 
+            {
+                "weight": 15.0, 
+                "families": 15.0, 
+                "languages": 19.0, 
+                "id": "chop, hew"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "harm, injure, damage"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 2.0, 
+                "id": "island"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "break"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 5.0, 
+                "id": "tear"
+            }, 
+            {
+                "weight": 19.0, 
+                "families": 19.0, 
+                "languages": 51.0, 
+                "id": "chop, hew"
+            }, 
+            {
+                "weight": 12.0, 
+                "families": 12.0, 
+                "languages": 19.0, 
+                "id": "mow, reap"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "shark"
+            }, 
+            {
+                "weight": 6.0, 
+                "families": 6.0, 
+                "languages": 25.0, 
+                "id": "carve"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 9.0, 
+                "id": "split"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "separate"
+            }, 
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 13.0, 
+                "id": "cut down"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "11.28", 
+            "community": 14, 
+            "id": "harm, injure, damage"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "11.27", 
+            "community": 14, 
+            "id": "destroy"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "1.25", 
+            "community": 14, 
+            "id": "island"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.26", 
+            "community": 14, 
+            "id": "break"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.28", 
+            "community": 14, 
+            "id": "tear"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.222", 
+            "community": 14, 
+            "id": "chop, hew"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "8.32", 
+            "community": 14, 
+            "id": "mow, reap"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.232", 
+            "community": 14, 
+            "id": "divide"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.661", 
+            "community": 14, 
+            "id": "shark"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.81", 
+            "community": 14, 
+            "id": "carve"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.27", 
+            "community": 14, 
+            "id": "split"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.261", 
+            "community": 14, 
+            "id": "broken"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.23", 
+            "community": 14, 
+            "id": "separate"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.221", 
+            "community": 14, 
+            "id": "cut down"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.22", 
+            "community": 14, 
+            "id": "cut"
+        }
+    ]
 }

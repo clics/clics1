@@ -94,7 +94,7 @@ for i,s in enumerate(communities.subgraphs()):
 
 
 nx.write_gml(newg,'output/clics_communities.gml')
-graph2json(newg,'output/clics_communities.json')
+graph2json(newg,'output/clics_communities')
 
 # get nodes with communities
 nodes = [n for n in newg.nodes(data=True) if 'community' in n[1]]
@@ -133,12 +133,14 @@ Communities:    {0}
 Coms > 5   :    {1}
 Coverage   :    {2}, {3:.2f}
 Concepts   :    {4}
+Conc/Com   :    {5:.2f}
 """.format(
         (glen - sum(gcoms)) + len(gcoms),
         len(glarge),
         sum(glarge),
         sum(glarge) / len(newg),
-        glen
+        glen,
+        sum(gcoms) / len(gcoms)
         )
 print(a)
 

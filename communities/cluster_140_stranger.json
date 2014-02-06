@@ -1,93 +1,93 @@
 {
-    "nodes": [
-        {
-            "key": "19.52", 
-            "community": 140, 
-            "swadesh100": 0, 
-            "id": "enemy", 
-            "body_part": 0
-        }, 
-        {
-            "key": "19.55", 
-            "community": 140, 
-            "swadesh100": 0, 
-            "id": "stranger", 
-            "body_part": 0
-        }, 
-        {
-            "key": "20.51", 
-            "community": 140, 
-            "swadesh100": 0, 
-            "id": "fisherman", 
-            "body_part": 0
-        }, 
-        {
-            "key": "19.56", 
-            "community": 140, 
-            "swadesh100": 0, 
-            "id": "guest", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "stranger", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "guest", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "enemy", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fisherman", 
-                "weight": 1.0
+                "id": "fisherman"
             }, 
             {
-                "languages": 7.0, 
+                "weight": 5.0, 
                 "families": 5.0, 
-                "id": "guest", 
-                "weight": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "stranger", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "enemy", 
-                "weight": 1.0
+                "languages": 7.0, 
+                "id": "guest"
             }, 
             {
-                "languages": 7.0, 
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "enemy"
+            }
+        ], 
+        [
+            {
+                "weight": 5.0, 
                 "families": 5.0, 
-                "id": "stranger", 
-                "weight": 5.0
+                "languages": 7.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "enemy"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "stranger"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "guest"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "19.55", 
+            "community": 140, 
+            "id": "stranger"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "19.56", 
+            "community": 140, 
+            "id": "guest"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "20.51", 
+            "community": 140, 
+            "id": "fisherman"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "19.52", 
+            "community": 140, 
+            "id": "enemy"
+        }
+    ]
 }

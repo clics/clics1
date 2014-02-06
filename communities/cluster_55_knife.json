@@ -1,237 +1,237 @@
 {
-    "nodes": [
-        {
-            "key": "9.84", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "chisel", 
-            "body_part": 0
-        }, 
-        {
-            "key": "8.33", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "sickle, scythe", 
-            "body_part": 0
-        }, 
-        {
-            "key": "6.93", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "razor", 
-            "body_part": 0
-        }, 
-        {
-            "key": "20.27", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "sword", 
-            "body_part": 0
-        }, 
-        {
-            "key": "20.26", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "spear", 
-            "body_part": 0
-        }, 
-        {
-            "key": "9.24", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "scissors, shears", 
-            "body_part": 0
-        }, 
-        {
-            "key": "5.38", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "knife", 
-            "body_part": 0
-        }, 
-        {
-            "key": "8.94", 
-            "community": 55, 
-            "swadesh100": 0, 
-            "id": "bamboo", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "scissors, shears", 
-                "weight": 2.0
-            }, 
-            {
+                "weight": 1.0, 
+                "families": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sword", 
-                "weight": 1.0
+                "id": "bamboo"
             }, 
             {
+                "weight": 1.0, 
+                "families": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "razor", 
-                "weight": 1.0
+                "id": "spear"
             }, 
             {
-                "languages": 3.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "knife", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "knife"
             }
         ], 
         [
             {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "sword", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 2.0, 
-                "families": 2.0, 
-                "id": "knife", 
-                "weight": 2.0
+                "id": "chisel"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "chisel", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 7.0, 
+                "weight": 4.0, 
                 "families": 4.0, 
-                "id": "knife", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "chisel", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "sickle, scythe", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 4.0, 
+                "id": "spear"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "chisel"
+            }, 
+            {
+                "weight": 3.0, 
                 "families": 3.0, 
-                "id": "knife", 
-                "weight": 3.0
+                "languages": 5.0, 
+                "id": "knife"
             }, 
             {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "spear", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "sword", 
-                "weight": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "knife", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bamboo", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "chisel", 
-                "weight": 2.0
+                "languages": 2.0, 
+                "id": "sickle, scythe"
             }
         ], 
         [
             {
-                "languages": 133.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "bamboo"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 5.0, 
+                "id": "sword"
+            }, 
+            {
+                "weight": 43.0, 
                 "families": 43.0, 
-                "id": "knife", 
-                "weight": 43.0
+                "languages": 133.0, 
+                "id": "knife"
             }, 
             {
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "sword", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 3.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "chisel", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "spear"
             }, 
             {
-                "languages": 7.0, 
-                "families": 4.0, 
-                "id": "razor", 
-                "weight": 4.0
-            }, 
-            {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "sickle, scythe", 
-                "weight": 2.0
+                "languages": 2.0, 
+                "id": "sickle, scythe"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "spear", 
-                "weight": 1.0
+                "languages": 3.0, 
+                "id": "chisel"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bamboo", 
-                "weight": 1.0
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 7.0, 
+                "id": "razor"
             }
         ], 
         [
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "spear", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "bamboo"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "knife", 
-                "weight": 1.0
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 4.0, 
+                "id": "sword"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "bamboo", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "knife"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "sword"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "knife"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "scissors, shears"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "sword"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "razor"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 3.0, 
+                "id": "knife"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "chisel"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 7.0, 
+                "id": "knife"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "8.94", 
+            "community": 55, 
+            "id": "bamboo"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.24", 
+            "community": 55, 
+            "id": "scissors, shears"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "20.27", 
+            "community": 55, 
+            "id": "sword"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.23", 
+            "community": 55, 
+            "id": "knife"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "20.26", 
+            "community": 55, 
+            "id": "spear"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "8.33", 
+            "community": 55, 
+            "id": "sickle, scythe"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "9.84", 
+            "community": 55, 
+            "id": "chisel"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "6.93", 
+            "community": 55, 
+            "id": "razor"
+        }
+    ]
 }

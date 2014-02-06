@@ -1,72 +1,72 @@
 {
-    "nodes": [
-        {
-            "key": "4.68", 
-            "community": 139, 
-            "swadesh100": 0, 
-            "id": "shiver", 
-            "body_part": 0
-        }, 
-        {
-            "key": "1.45", 
-            "community": 139, 
-            "swadesh100": 0, 
-            "id": "earthquake", 
-            "body_part": 0
-        }, 
-        {
-            "key": "10.26", 
-            "community": 139, 
-            "swadesh100": 0, 
-            "id": "shake", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "shake", 
-                "weight": 9.0
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "shiver"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "earthquake", 
-                "weight": 1.0
+                "languages": 2.0, 
+                "id": "shake"
             }
         ], 
         [
             {
-                "languages": 2.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "shake", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "earthquake"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "shiver", 
-                "weight": 1.0
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 10.0, 
+                "id": "shake"
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "earthquake", 
-                "weight": 1.0
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 10.0, 
+                "id": "shiver"
             }, 
             {
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "shiver", 
-                "weight": 9.0
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 2.0, 
+                "id": "earthquake"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "1.45", 
+            "community": 139, 
+            "id": "earthquake"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.68", 
+            "community": 139, 
+            "id": "shiver"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "10.26", 
+            "community": 139, 
+            "id": "shake"
+        }
+    ]
 }

@@ -1,108 +1,108 @@
 {
-    "nodes": [
-        {
-            "key": "17.56", 
-            "community": 111, 
-            "swadesh100": 1, 
-            "id": "no, negative", 
-            "body_part": 0
-        }, 
-        {
-            "key": "13.22", 
-            "community": 111, 
-            "swadesh100": 0, 
-            "id": "empty", 
-            "body_part": 0
-        }, 
-        {
-            "key": "13.0", 
-            "community": 111, 
-            "swadesh100": 0, 
-            "id": "zero, nothing", 
-            "body_part": 0
-        }, 
-        {
-            "key": "4.93", 
-            "community": 111, 
-            "swadesh100": 0, 
-            "id": "bald", 
-            "body_part": 0
-        }, 
-        {
-            "key": "4.99", 
-            "community": 111, 
-            "swadesh100": 0, 
-            "id": "naked, bare", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
+                "weight": 5.0, 
+                "families": 5.0, 
+                "languages": 7.0, 
+                "id": "no, negative"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "empty"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
                 "languages": 3.0, 
+                "id": "empty"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "bald"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "zero, nothing"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 3.0, 
+                "id": "naked, bare"
+            }
+        ], 
+        [
+            {
+                "weight": 5.0, 
+                "families": 5.0, 
+                "languages": 7.0, 
+                "id": "zero, nothing"
+            }, 
+            {
+                "weight": 3.0, 
                 "families": 3.0, 
-                "id": "no, negative", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "zero, nothing", 
-                "weight": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "zero, nothing", 
-                "weight": 2.0
-            }, 
-            {
                 "languages": 3.0, 
-                "families": 2.0, 
-                "id": "naked, bare", 
-                "weight": 2.0
+                "id": "no, negative"
             }
         ], 
         [
             {
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "no, negative", 
-                "weight": 5.0
-            }, 
-            {
+                "weight": 2.0, 
+                "families": 2.0, 
                 "languages": 2.0, 
-                "families": 2.0, 
-                "id": "empty", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "naked, bare", 
-                "weight": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "empty", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "bald", 
-                "weight": 2.0
+                "id": "naked, bare"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "13.0", 
+            "community": 111, 
+            "id": "zero, nothing"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.99", 
+            "community": 111, 
+            "id": "naked, bare"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "13.22", 
+            "community": 111, 
+            "id": "empty"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "key": "17.56", 
+            "community": 111, 
+            "id": "no, negative"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.93", 
+            "community": 111, 
+            "id": "bald"
+        }
+    ]
 }

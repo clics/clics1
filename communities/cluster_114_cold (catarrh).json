@@ -1,126 +1,126 @@
 {
-    "nodes": [
-        {
-            "key": "4.843", 
-            "community": 114, 
-            "swadesh100": 0, 
-            "id": "cold (catarrh)", 
-            "body_part": 0
-        }, 
-        {
-            "key": "4.232", 
-            "community": 114, 
-            "swadesh100": 0, 
-            "id": "mucus (nasal)", 
-            "body_part": 1
-        }, 
-        {
-            "key": "4.54", 
-            "community": 114, 
-            "swadesh100": 0, 
-            "id": "sneeze", 
-            "body_part": 0
-        }, 
-        {
-            "key": "15.86", 
-            "community": 114, 
-            "swadesh100": 0, 
-            "id": "cold", 
-            "body_part": 0
-        }, 
-        {
-            "key": "4.53", 
-            "community": 114, 
-            "swadesh100": 0, 
-            "id": "cough", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 10.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cough"
+            }, 
+            {
+                "weight": 9.0, 
                 "families": 9.0, 
-                "id": "mucus (nasal)", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sneeze", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "cough", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "cold", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
                 "languages": 10.0, 
-                "families": 9.0, 
-                "id": "cold (catarrh)", 
-                "weight": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cough", 
-                "weight": 1.0
+                "id": "cold (catarrh)"
             }
         ], 
         [
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "cold (catarrh)", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "mucus (nasal)"
             }, 
             {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cough", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "cold (catarrh)", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sneeze", 
-                "weight": 1.0
-            }, 
-            {
-                "languages": 4.0, 
+                "weight": 3.0, 
                 "families": 3.0, 
-                "id": "cold (catarrh)", 
-                "weight": 3.0
+                "languages": 4.0, 
+                "id": "cold (catarrh)"
             }, 
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "mucus (nasal)", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "sneeze"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 5.0, 
+                "id": "cold (catarrh)"
+            }
+        ], 
+        [
+            {
+                "weight": 9.0, 
+                "families": 9.0, 
+                "languages": 10.0, 
+                "id": "mucus (nasal)"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 4.0, 
+                "id": "cough"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 5.0, 
+                "id": "cold"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "sneeze"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cough"
+            }, 
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "cold (catarrh)"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "key": "4.232", 
+            "community": 114, 
+            "id": "mucus (nasal)"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.53", 
+            "community": 114, 
+            "id": "cough"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "15.86", 
+            "community": 114, 
+            "id": "cold"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.843", 
+            "community": 114, 
+            "id": "cold (catarrh)"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "4.54", 
+            "community": 114, 
+            "id": "sneeze"
+        }
+    ]
 }

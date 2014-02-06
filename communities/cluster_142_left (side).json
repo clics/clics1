@@ -1,66 +1,66 @@
 {
-    "nodes": [
-        {
-            "key": "12.48", 
-            "community": 142, 
-            "swadesh100": 0, 
-            "id": "south", 
-            "body_part": 0
-        }, 
-        {
-            "key": "12.42", 
-            "community": 142, 
-            "swadesh100": 0, 
-            "id": "left (side)", 
-            "body_part": 0
-        }, 
-        {
-            "key": "12.47", 
-            "community": 142, 
-            "swadesh100": 0, 
-            "id": "north", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "left (side)", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "north", 
-                "weight": 8.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "south", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "left (side)", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "left (side)"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "south"
             }
         ], 
         [
             {
-                "languages": 8.0, 
+                "weight": 8.0, 
                 "families": 8.0, 
-                "id": "south", 
-                "weight": 8.0
+                "languages": 8.0, 
+                "id": "south"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "left (side)"
+            }, 
+            {
+                "weight": 8.0, 
+                "families": 8.0, 
+                "languages": 8.0, 
+                "id": "north"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.42", 
+            "community": 142, 
+            "id": "left (side)"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.47", 
+            "community": 142, 
+            "id": "north"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.48", 
+            "community": 142, 
+            "id": "south"
+        }
+    ]
 }

@@ -1,93 +1,93 @@
 {
-    "nodes": [
-        {
-            "key": "3.82", 
-            "community": 95, 
-            "swadesh100": 0, 
-            "id": "bee", 
-            "body_part": 0
-        }, 
-        {
-            "key": "5.84", 
-            "community": 95, 
-            "swadesh100": 0, 
-            "id": "honey", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.822", 
-            "community": 95, 
-            "swadesh100": 0, 
-            "id": "beehive", 
-            "body_part": 0
-        }, 
-        {
-            "key": "3.823", 
-            "community": 95, 
-            "swadesh100": 0, 
-            "id": "wasp", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 14.0, 
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 4.0, 
+                "id": "beehive"
+            }, 
+            {
+                "weight": 12.0, 
                 "families": 12.0, 
-                "id": "honey", 
-                "weight": 12.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "beehive", 
-                "weight": 4.0
-            }, 
-            {
-                "languages": 18.0, 
-                "families": 14.0, 
-                "id": "wasp", 
-                "weight": 14.0
-            }
-        ], 
-        [
-            {
                 "languages": 14.0, 
-                "families": 12.0, 
-                "id": "bee", 
-                "weight": 12.0
-            }, 
-            {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "beehive", 
-                "weight": 4.0
+                "id": "bee"
             }
         ], 
         [
             {
-                "languages": 4.0, 
+                "weight": 4.0, 
                 "families": 4.0, 
-                "id": "bee", 
-                "weight": 4.0
+                "languages": 4.0, 
+                "id": "beehive"
             }, 
             {
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "honey", 
-                "weight": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 18.0, 
+                "weight": 14.0, 
                 "families": 14.0, 
-                "id": "bee", 
-                "weight": 14.0
+                "languages": 18.0, 
+                "id": "wasp"
+            }, 
+            {
+                "weight": 12.0, 
+                "families": 12.0, 
+                "languages": 14.0, 
+                "id": "honey"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "families": 14.0, 
+                "languages": 18.0, 
+                "id": "bee"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 4.0, 
+                "id": "bee"
+            }, 
+            {
+                "weight": 4.0, 
+                "families": 4.0, 
+                "languages": 4.0, 
+                "id": "honey"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "5.84", 
+            "community": 95, 
+            "id": "honey"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.82", 
+            "community": 95, 
+            "id": "bee"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.823", 
+            "community": 95, 
+            "id": "wasp"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "3.822", 
+            "community": 95, 
+            "id": "beehive"
+        }
+    ]
 }

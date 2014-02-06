@@ -5,6 +5,34 @@ The CLiCs database is available online at \url{http://lingulist.de/clics/} and o
 
 We opted for a web-based implementation of the CLiCs visualization in JavaScript using the D3 library \cite{D3}. The main benefits of a web-based visualization are its platform independence and the fact that users can access it from any device with a browser supporting JavaScript. There is no need for the installation of additional software or for maintenance of the system on the part of the user \cite{Murray}. In addition, links to the descriptions of the external resources can easily be included to allow users to explore the CLiCs data in more detail on demand. 
 
+\subsection{Data Preparation}
+In its current form, the data in CLiCs yields a \emph{small world network} in which all nodes are
+densely connected. Browsing such a full network is very confusing and provides little insights for
+the user (see Figure \ref{fig:clics_full}). In order to break down the complexity inherent in CLiCs,
+we decided to split the data into communities first.  Starting from 1285 concepts in CLiCs which
+were connected to at least one other concept, we applied the \emph{Infomap} algorithm by
+\newcite{Rosvall2008} to cluster all concepts into communities, using the number of attested
+language families per colexification as edge weights. The Infomap algorithm was chosen because of
+its remarkable performance on the community detection task, both in terms of computation time and
+quality of results \cite{Lancichinetti2009}.
+With help of this analysis, the 1285 concepts
+could be subdivided into 160 communities of which 156 contain more than one node. 
+Of all communities, 106 are \emph{large}, containing more than
+five nodes. The large communities cover 88\% (1125) of all nodes in the original network (1285). In
+order to enable the user to quickly identify communities of specific interest, we labelled all
+communities by taking the concept with the highest degree as a representative. Apart from one very
+large community of 102 concepts (``do, make"), the rest of the communities does not differ much in
+size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an average of 8 concepts per community.
+
+\begin{figure}[b]
+    \centering
+    \vspace{3cm}
+    \tabular{c}
+    \textcolor{red}{hier die figure mit dem riesennetzwerk}\\
+    \\ \\ \\ \\ \\ \\ \\ \\ \\ \\\endtabular
+    \caption{Full network of all connected components in CLiCs}
+    \label{fig:clics_full}
+\end{figure}
 \subsection{Interactive functionalities}
 
 

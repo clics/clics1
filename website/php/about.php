@@ -98,12 +98,12 @@ between possible cognates in the establishment of genetic relations between lang
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
-  <td> September 16, 2013</td>
+  <td> February, 2014</td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Author:</b></td>
-  <td> Johann-Mattis List, Matthias Urban </td>
+  <td> Johann-Mattis List, Anselm Terhalle, Matthias Urban, Thomas Mayer </td>
   <td></td>
 </tr></table>
 
@@ -126,7 +126,7 @@ between possible cognates in the establishment of genetic relations between lang
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Oct. 16, 2013, 11:16 CET</p>
+ <p>Last updated on Feb. 06, 2014, 15:06 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

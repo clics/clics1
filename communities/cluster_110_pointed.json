@@ -1,99 +1,99 @@
 {
-    "nodes": [
-        {
-            "key": "15.89", 
-            "community": 110, 
-            "swadesh100": 0, 
-            "id": "wrinkled", 
-            "body_part": 0
-        }, 
-        {
-            "key": "15.78", 
-            "community": 110, 
-            "swadesh100": 0, 
-            "id": "sharp", 
-            "body_part": 0
-        }, 
-        {
-            "key": "12.352", 
-            "community": 110, 
-            "swadesh100": 0, 
-            "id": "pointed", 
-            "body_part": 0
-        }, 
-        {
-            "key": "15.76", 
-            "community": 110, 
-            "swadesh100": 0, 
-            "id": "rough", 
-            "body_part": 0
-        }
-    ], 
+    "multigraph": false, 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "rough", 
-                "weight": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "rough", 
-                "weight": 3.0
+                "languages": 1.0, 
+                "id": "pointed"
             }, 
             {
-                "languages": 46.0, 
-                "families": 20.0, 
-                "id": "pointed", 
-                "weight": 20.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
+                "weight": 2.0, 
                 "families": 2.0, 
-                "id": "rough", 
-                "weight": 2.0
+                "languages": 2.0, 
+                "id": "rough"
             }, 
             {
-                "languages": 46.0, 
+                "weight": 20.0, 
                 "families": 20.0, 
-                "id": "sharp", 
-                "weight": 20.0
-            }, 
-            {
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "pointed", 
-                "weight": 1.0
+                "languages": 46.0, 
+                "id": "sharp"
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "pointed", 
-                "weight": 2.0
-            }, 
-            {
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "sharp", 
-                "weight": 3.0
-            }, 
-            {
-                "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "wrinkled", 
-                "weight": 1.0
+                "languages": 1.0, 
+                "id": "wrinkled"
+            }, 
+            {
+                "weight": 2.0, 
+                "families": 2.0, 
+                "languages": 2.0, 
+                "id": "pointed"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "sharp"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "families": 1.0, 
+                "languages": 1.0, 
+                "id": "rough"
+            }
+        ], 
+        [
+            {
+                "weight": 20.0, 
+                "families": 20.0, 
+                "languages": 46.0, 
+                "id": "pointed"
+            }, 
+            {
+                "weight": 3.0, 
+                "families": 3.0, 
+                "languages": 3.0, 
+                "id": "rough"
             }
         ]
     ], 
     "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "12.352", 
+            "community": 110, 
+            "id": "pointed"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "15.76", 
+            "community": 110, 
+            "id": "rough"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "15.89", 
+            "community": 110, 
+            "id": "wrinkled"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "key": "15.78", 
+            "community": 110, 
+            "id": "sharp"
+        }
+    ]
 }
