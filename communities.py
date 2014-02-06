@@ -18,6 +18,8 @@ from sys import argv
 # read the graph from gml
 g = ig.read("output/clics.gml")
 
+glen = len(g.vs)
+
 if len(argv) == 1:
     # analyze graph with infomap
     coms = g.community_edge_betweenness(directed=False,weights='weight')
@@ -26,7 +28,7 @@ if len(argv) == 1:
     # convenience
     communities = coms.as_clustering(250)
 elif 'infomap' in argv:
-    communities = g.community_infomap(edge_weights='weight')
+    communities = g.community_infomap(edge_weights='weight', trials=50)
 
 print('[i] Computed communities.')
 
@@ -97,6 +99,10 @@ graph2json(newg,'output/clics_communities.json')
 # get nodes with communities
 nodes = [n for n in newg.nodes(data=True) if 'community' in n[1]]
 
+
+import matplotlib.pyplot as plt
+gcoms = []
+
 # write all communities to separate json-graphs, write names to file
 f = open('output/communities.csv','w')
 f.write('names\n')
@@ -108,11 +114,32 @@ for c in comms:
     # get node with highest degree
     d = sorted(subG.degree().items(),key=lambda x:x[1],reverse=True)[0][0]
 
-    graph2json(subG,'communities/cluster_{0}_{1}'.format(c,d))
+    graph2json(subG,'xcommunities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,d,len(subG.nodes()))
             )
     
-    f.write('cluster_{0}_{1}.json'.format(c,d))
+    f.write('cluster_{0}_{1}.json\n'.format(c,d))
 
+    gcoms += [len(subG)]
+
+glarge = [g for g in gcoms if g >= 5]
+print(sum(glarge),len(glarge))
+plt.hist(gcoms,bins=40)
+plt.savefig('test.svg')
+plt.clf()
+
+a = """
+Communities:    {0}
+Coms > 5   :    {1}
+Coverage   :    {2}, {3:.2f}
+Concepts   :    {4}
+""".format(
+        (glen - sum(gcoms)) + len(gcoms),
+        len(glarge),
+        sum(glarge),
+        sum(glarge) / len(newg),
+        glen
+        )
+print(a)
 
 
