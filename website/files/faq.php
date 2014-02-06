@@ -93,9 +93,9 @@ For these reasons, we strongly recommend to check the actual sources whenever a 
 <h3><a style="color:black" name="data3">Statistics on CLiCs</a></h3>
 <br>
 CLiCs (Version 1.0) offers information on colexification in 215 different language varieties covering 50 different language families. 
-All language varieties in our sample comprise a total of 290,760 words covering 1,288 different concepts. 
+All language varieties in our sample comprise a total of 290,760 words covering 1,285 different concepts. 
 Using a strictly automatic procedure, we identified 45,282 cases of colexification that correspond to 16,043 different links between
-the 1,288 concepts covered by our data.
+the 1,285 concepts covered by our data.
 
 <br>
 <br>
