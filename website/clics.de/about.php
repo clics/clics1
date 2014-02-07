@@ -24,7 +24,7 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://quanthistling.info/clips/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://lingulist.de/clics/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
@@ -126,7 +126,7 @@ between possible cognates in the establishment of genetic relations between lang
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Feb. 06, 2014, 15:06 CET</p>
+ <p>Last updated on Feb. 07, 2014, 08:29 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

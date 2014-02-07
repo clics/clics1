@@ -24,7 +24,7 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://quanthistling.info/clips/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://lingulist.de/clics/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
