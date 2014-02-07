@@ -1,4 +1,4 @@
-The CLiCs database is available online at \url{http://lingulist.de/clics/} and offers its users a search interface to all concepts and cross-linguistic polysemies between concepts. The wealth of information in the database and the various possibilities of exploring the polysemies in the network call for an additional component that makes potentially interesting observations more easily accessible to the researcher. The idea was to equip the database with a visualization component that provides various interactive functionalities and enables users to navigate through the networks of polysemies while at the same time providing more detailed information on the actual language data.  
+The CLiCs database is available online at \url{http://lingulist.de/clics/} and offers its users a search interface to all concepts and cross-linguistic polysemies between concepts. The wealth of information in the database and the various possibilities of exploring the colexifications in the network call for an additional component that makes potentially interesting observations more easily accessible to the researcher. The idea was to equip the database with a visualization component that provides various interactive functionalities and enables users to navigate through the networks of colexifications while at the same time providing more detailed information on the actual language data.  
 
 \subsection{Web-based visualization}
 % why web-based? main advantages
@@ -26,10 +26,7 @@ size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an 
 
 \begin{figure}[b]
     \centering
-    \vspace{3cm}
-    \tabular{c}
-    \textcolor{red}{hier die figure mit dem riesennetzwerk}\\
-    \\ \\ \\ \\ \\ \\ \\ \\ \\ \\\endtabular
+   \includegraphics[width=0.48\textwidth]{img/completeNetworkLabels.jpg}
     \caption{Full network of all connected components in CLiCs}
     \label{fig:clics_full}
 \end{figure}
@@ -38,7 +35,7 @@ size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an 
 
 % Force-directed graph; move nodes to desired position
 
-The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic polysemies as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of cases that can be attested in the languages for the respective concepts that are linked through the edge. We decided to have separate graphs for all communities, which the user can select from a drop-down menu. As described above, the communities have been automatically generated from the whole network of concepts and links with the help of the Infomap algorithm for community detection \cite{Rosvall2008}. 
+The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic polysemies as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of cases that can be attested in the languages for the respective concepts that are linked through the edge. We decided to have separate graphs for all communities, which the user can select from a drop-down menu. As described above, the communities have been automatically generated from the whole network of concepts and links with the help of the Infomap algorithm for community detection \cite{Rosvall2008}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -48,11 +45,11 @@ The visualization features various interactive functionalities that are designed
 \end{center}
 \end{figure}
 
-The force-directed graph layout ensures that all concepts are neatly arranged according to their similarity as defined by the number of cross-linguistic polysemies. As a result, concepts that are highly connected are located close to each other.  To make it easier for users to explore the network that is depicted in the graph, concepts can be dragged to different positions where there is less overlap. The dragging behavior of a concept  is activated when mousing over the respective node in the graph (when the cursor turns into a crosshair).
+The force-directed graph layout ensures that all concepts are neatly arranged according to their similarity as defined by the number of cross-linguistic colexifications. As a result, concepts that are highly connected are located close to each other.  To make it easier for users to explore the network that is depicted in the graph, concepts can be dragged to different positions where there is less overlap. The dragging behavior of a concept  is activated when mousing over the respective node in the graph (when the cursor symbol turns into a crosshair).
 
 \begin{figure*}[htbp]
 \begin{center}
-\includegraphics[width=\textwidth]{img/moneysilver.pdf}
+\includegraphics[width=\textwidth]{img/moneysilverexample.pdf}
 \caption{Force-directed graph with mouse-over functionalities showing a subset of the list of words contributing to the cross-linguistic polysemies. The entries have different background colors depending on their language family.}
 \label{MoneySilver}
 \end{center}
@@ -62,13 +59,13 @@ The force-directed graph layout ensures that all concepts are neatly arranged ac
 
 % mouse-over: coloring edges, show linked languages
 
-As mentioned above, the edges of the graph represent the number of cases of cross-linguistic polysemies for the linked concepts. For a more detailed view on which languages contribute to the strength of the connections, the user can mouse over the links in the graph to see a list of  languages featuring polysemous words for the respective link (Figure \ref{MoneySilver}). The list includes additional information on the languages such as their ISO 639-3 language code and family. Furthermore, each entry in the list provides a hyperlink to the original source from where the information is taken.  
+As mentioned above, the edges of the graph represent the number of cases of cross-linguistic colexifications for the linked concepts. For a more detailed view on which languages contribute to the strength of the connections, the user can mouse over the links in the graph to see a list of  languages featuring polysemous words for the respective link (Figure \ref{MoneySilver}). The list includes additional information on the languages such as their ISO 639-3 language code and family. Furthermore, each entry in the list provides a hyperlink to the original source from where the information is taken.  
 
 % Color coding: families and geolocations
 
 Each language in the list is attributed a different background color depending on its language family or location in order to allow for an at-a-glance overview for all languages in the list. The user can choose from a drop-down menu whether to include the genealogical or areal information as the background color. For the genealogical information, all language families are attributed a different color value. Languages belonging to the same language families are therefore given the same background color. Moreover, the list is sorted according to language families. In this way, the user can immediately see how many languages of  a given family contribute to the overall strength for the connection at hand. 
 
-As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (East-West) whereas the lightness of the color represents the position in terms of the latitude information (North-South).\footnote{See \cite{MayerLanguageExplorer} for a different approach for a linguistically informed color gradient of the world map.}
+As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (East-West) whereas the lightness of the color represents the position in terms of the latitude information (North-South).\footnote{See \cite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
 The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below).
 
 \begin{figure}[htbp]
@@ -84,7 +81,7 @@ The mapping from geolocation to color values allows for an easier evaluation of 
 
 In addition to the interactive functionalities described above, the visualization also features a variety of further components that allow for an easier exploration of the database. The graph layout is equipped with panning and zooming functionality that enables the user to navigate through the network graph. Panning is enabled when the cursor changes into a hand symbol when mousing over a link of the graph. The whole graph can then be dragged to a new position. The zooming behavior is activated with the scroll wheel. 
 When mousing over a concept (node) in the graph all connected links and concepts are highlighted
-in order to provide a better overview of the connectivity of certain concepts (see Figure \ref{EarthLand}). The control panel of the visualization also includes a slider button that allows the user to show only those edges in the graph with a minimum number of cross-linguistic polysemies. 
+in order to provide a better overview of the connectivity of certain concepts (see Figure \ref{EarthLand}). The control panel of the visualization also includes a slider button that allows the user to show only those edges in the graph with a minimum number of cross-linguistic colexifications. 
 
 % zooming and panning
 
@@ -109,14 +106,14 @@ function cl2pix(c,l){
  };
 \end{verbatim}
 
-The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes as input the three values for \texttt{[L,a,b]}. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries.\footnote{See \url{http://davidad.net/colorviz/} for the difference between using the L*a*b* and HSV color space.} For the coloring of the language families, the background colors are generated with the categorical scale functions of the \texttt{d3.scale} module. 
+The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes as input the three values for \texttt{[L,a,b]}. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries.\footnote{See \url{http://davidad.net/colorviz/} for the difference between using the L*a*b* and HSV color space in terms of transitions between different color hues.} For the coloring of the language families, the background colors are generated with the categorical scale functions of the \texttt{d3.scale} module. 
 
 
 The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. 
 
 \subsection{Case study} \label{case study}
 
-In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the language families. For instance, French contributes to the cross-linguistic polysemy because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas}). Most of the languages contributing to the polysemy are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
+In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the language families. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas}). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
 
 \begin{figure}[htbp]
 \begin{center}
