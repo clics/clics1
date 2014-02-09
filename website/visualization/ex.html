@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Force based label placement</title>
+		<script type="text/javascript" src="d3/d3.v2.js"></script>
+		<link rel="stylesheet" type="text/css" href="inc/style.css">
+	</head>
+	<body>
+
+        <div id="control">
+            <label>Choose community: </label>
+            <select id="selectNumber">
+            </select>
+			<label>Line opacity: </label>
+			<input id="opacity" type='range' min="0" max="100" value="100">
+			
+			<br>
+			<label>Line weights: </label>
+			<input id="weight" type='range' min="0" max="10" value="0">
+			
+            <label>Coloring: </label>
+            <select id="coloring">
+            <option>Family</option>
+            <option>Geolocation</option>
+            </select>
+            <img id="WorldColorScale" class='hidden' src="img/ColorScaleWorld.png" width="300">
+        </div>
+        <div id="vis"></div>
+        <div id="info" class="hidden"></div>
+        
+		<script src="inc/ex.js" type="text/javascript"></script>
+
+	</body>
+</html>
