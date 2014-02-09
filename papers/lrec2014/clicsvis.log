@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 FEB 2014 17:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 FEB 2014 18:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -412,19 +412,22 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 4.
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 3--10
+Underfull \hbox (badness 10000) in paragraph at lines 3--9
 []\OT1/ptm/m/n/10 CLiCs (\OT1/ptm/b/it/10 C\OT1/ptm/m/it/10 ross-\OT1/ptm/b/it/
 10 Li\OT1/ptm/m/it/10 nguistic \OT1/ptm/b/it/10 C\OT1/ptm/m/it/10 olexification
 \OT1/ptm/b/it/10 s\OT1/ptm/m/n/10 , []$\OT1/pcr/m/n/10 http :
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 3--10
+Underfull \hbox (badness 4193) in paragraph at lines 3--9
 \OT1/pcr/m/n/10 / / lingulist . de / clics/$[]\OT1/ptm/m/n/10 ) is an on-line d
 atabase
  []
 
-[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -456,6 +459,9 @@ File: img/moneysilverexample.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/moneysilverexample.pdf used on input line 52.
 (pdftex.def)             Requested size: 489.38731pt x 245.17513pt.
  [3 <./img/completeNetworkLabels.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 <img/ColorScaleWorld.png, id=128, 1253.68375pt x 627.34375pt>
 File: img/ColorScaleWorld.png Graphic file (type png)
 
@@ -502,9 +508,10 @@ File: img/wheelfootAreal.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/wheelfootAreal.pdf used on input line 129.
 (pdftex.def)             Requested size: 489.38731pt x 352.72795pt.
  [5 <./img/moneysilverAreas1.pdf> <./img/moneysilverAreas2.pdf>])
-Underfull \vbox (badness 2443) has occurred while \output is active []
+Overfull \vbox (4.9927pt too high) has occurred while \output is active []
 
- [6 <./img/wheelfootAreal.pdf>] (./clicsvis.bbl)
+
+[6 <./img/wheelfootAreal.pdf>] (./clicsvis.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
  [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
@@ -513,6 +520,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `clicsvis.out' has not changed.
 (rerunfilecheck)             Checksum: C6D00002BA4573370346483D9FC8A28F;891.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 74.
  ) 
 Here is how much of TeX's memory you used:
@@ -531,7 +542,7 @@ st/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on clicsvis.pdf (7 pages, 4319211 bytes).
+Output written on clicsvis.pdf (7 pages, 4319109 bytes).
 PDF statistics:
  561 PDF objects out of 1000 (max. 8388607)
  417 compressed objects within 5 object streams
