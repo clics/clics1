@@ -27,7 +27,7 @@ size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an 
 \begin{figure}[b]
     \centering
    \includegraphics[width=0.48\textwidth]{img/completeNetworkLabels.jpg}
-    \caption{Full network of all connected components in CLiCs}
+    \caption{Full network of all 1285 concepts in CLiCs (outer circle) together with their connections. The strength of the connections is marked in different colors, with very strong links represented in red}
     \label{fig:clics_full}
 \end{figure}
 \subsection{Interactive functionalities}
@@ -111,7 +111,7 @@ The actual HTML color code is generated with the function \texttt{d3.lab} from t
 
 The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. 
 
-\subsection{Case study} \label{case study}
+\subsection{Case studies} \label{case study}
 
 In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the language families. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas}). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
 
@@ -119,9 +119,21 @@ In order to illustrate the usefulness of the visualization for the purposes of e
 \begin{center}
 \includegraphics[width=0.238\textwidth]{img/moneysilverAreas1.pdf}
 \includegraphics[width=0.238\textwidth]{img/moneysilverAreas2.pdf}
-\caption{Languages and words contributing to the connections of polysemies for the concepts ``money'' and ``silver''}
+\caption{Languages and words contributing to the connections of lexical associations for the concepts ``money'' and ``silver''}
 \label{MoneySilverAreas}
 \end{center}
 \end{figure}
+
+\begin{figure*}[htbp]
+\begin{center}
+\includegraphics[width=\textwidth]{img/wheelfootAreal.pdf}
+\caption{Force-directed graph with areal distribution for the concepts ``wheel'' and ``foot''}
+\label{WheelFootAreas}
+\end{center}
+\end{figure*}
+
+
+Another example deals with the colexification of the concepts ``wheel'' and ``foot''. In contrast to the case of ``money'' and ``silver'' above, these concepts do not directly suggest a close lexical association. Yet such cases do exits as the link in Figure \ref{WheelFootAreas} reveals. The connection links two bigger communities of nodes, representing spherical objects on the one hand and parts of the lower body on the other. The list of languages for the connection ``wheel'' and ``foot'' in Figure \ref{WheelFootAreas} clearly shows that the association is restricted to languages of South America. Even though the languages cover a range of different families, the areal distribution is clearly confined to a certain area. This might lead to the conclusion that the associations result from loan translations of the concept through language contact (the lexical entries show that they are most likely not cognates and that the association is thus due to loan words for both concepts). However, such a preliminary hypothesis has to be confirmed by looking at the actual data. 
+
 
 

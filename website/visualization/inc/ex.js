@@ -49,7 +49,7 @@ function init(filename,coloring){
 
 	// open community file
 	//d3.json('../../communities/' + filename,function(data){
-	d3.json('../../lcommunities/cluster_230_build.json',function(data){
+	d3.json('data/wheel31.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
 	nodesById = {};
@@ -111,7 +111,7 @@ function init(filename,coloring){
     
     for(var i=0;i < data.nodes.length; i++){
         var node = {
-            label : data.nodes[i].id
+            label : data.nodes[i].label
         };
         nodes.push(node);
         labelAnchors.push({
