@@ -9,13 +9,13 @@ We opted for a web-based implementation of the CLiCs visualization in JavaScript
 In its current form, the data in CLiCs yields a \emph{small world network} in which all nodes are
 densely connected. Browsing such a full network is very confusing and provides little insights for
 the user (see Figure \ref{fig:clics_full}). In order to break down the complexity inherent in CLiCs,
-we decided to split the data into communities first.  Starting from 1285 concepts in CLiCs which
+we decided to split the data into communities first.  Starting from 1,288 concepts in CLiCs which
 were connected to at least one other concept, we applied the \emph{Infomap} algorithm by
 \newcite{Rosvall2008} to cluster all concepts into communities, using the number of attested
 language families per colexification as edge weights. The Infomap algorithm was chosen because of
 its remarkable performance on the community detection task, both in terms of computation time and
 quality of results \cite{Lancichinetti2009}.
-With help of this analysis, the 1285 concepts
+With the help of this analysis, the 1,288 concepts
 could be subdivided into 160 communities of which 156 contain more than one node. 
 Of all communities, 106 are \emph{large}, containing more than
 five nodes. The large communities cover 88\% (1125) of all nodes in the original network (1285). In
@@ -27,7 +27,7 @@ size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an 
 \begin{figure}[b]
     \centering
    \includegraphics[width=0.48\textwidth]{img/completeNetworkLabels.jpg}
-    \caption{Full network of all 1285 concepts in CLiCs (outer circle) together with their connections. The strength of the connections is marked in different colors, with very strong links represented in red}
+    \caption{Full network of all 1,288 concepts in CLiCs (outer circle) together with their connections. The strength of the connections is marked in different colors, with very strong links represented in red}
     \label{fig:clics_full}
 \end{figure}
 \subsection{Interactive functionalities}
@@ -35,7 +35,7 @@ size, ranging from 2 (``meeting house") to 26 concepts (``get, obtain") with an 
 
 % Force-directed graph; move nodes to desired position
 
-The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic polysemies as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of cases that can be attested in the languages for the respective concepts that are linked through the edge. We decided to have separate graphs for all communities, which the user can select from a drop-down menu. As described above, the communities have been automatically generated from the whole network of concepts and links with the help of the Infomap algorithm for community detection \cite{Rosvall2008}. 
+The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic polysemies as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. We decided to have separate graphs for all communities, which the user can select from a drop-down menu. As described above, the communities have been automatically generated from the whole network of concepts and links with the help of the Infomap algorithm for community detection \cite{Rosvall2008}. 
 
 \begin{figure}[htbp]
 \begin{center}
@@ -50,7 +50,7 @@ The force-directed graph layout ensures that all concepts are neatly arranged ac
 \begin{figure*}[htbp]
 \begin{center}
 \includegraphics[width=\textwidth]{img/moneysilverexample.pdf}
-\caption{Force-directed graph with mouse-over functionalities showing one community in CLiCs (community 27: gold) together a subset of the instances of a particular colexification pattern (left). The entries have different background colors depending on their location in the world map (cf. Figure \ref{World map}).}
+\caption{Force-directed graph with mouse-over functionalities showing one community in CLiCs (community 27: gold) together with a subset of the instances of a particular colexification pattern (left). The entries have different background colors depending on their location in the world map (cf. Figure \ref{World map})}
 \label{MoneySilver}
 \end{center}
 \end{figure*}
@@ -65,7 +65,7 @@ As mentioned above, the edges of the graph represent the number of cases of cros
 
 Each language in the list is attributed a different background color depending on its language family or location in order to allow for an at-a-glance overview of all languages in the list. The user can choose from a drop-down menu whether to include the genealogical or areal information as the background color. For the genealogical information, all language families are attributed a different color value. Languages belonging to the same language families are therefore given the same background color. Moreover, the list is sorted according to language families. In this way, the user can immediately see how many languages of  a given family contribute to the overall strength for the connection at hand. 
 
-As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (East-West) whereas the lightness of the color represents the position in terms of the latitude information (North-South).\footnote{See \cite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
+As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (specifying the east-west position) whereas the lightness of the color represents the position in terms of the latitude information (specifying the north-south position).\footnote{See \cite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
 The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below).
 
 \begin{figure}[htbp]
@@ -113,7 +113,7 @@ The  dragging and panning functionalities of the graph are implemented with the 
 
 \subsection{Case studies} \label{case study}
 
-In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the language families. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas}). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
+In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the location of the languages. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas} for the full list of languages showing this colexification pattern). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
 
 \begin{figure}[htbp]
 \begin{center}
