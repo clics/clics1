@@ -47,6 +47,8 @@ blacklist = [
         "epo",
         ]
 
+invalid = []
+
 for f in files:
     print("[i] Processing file {0}...".format(f))
     infile = open(f)
@@ -70,11 +72,15 @@ for f in files:
     # discard languages that are not contemporary
     if tags['classification'] == "<not yet checked>" or tags['iso'] in blacklist:
         print("[!] File {0} is not valid.".format(f))
+        invalid += [f]
     else:
         # get all identical data by looping over all data
         for i,(numberA,glossA,wordA) in enumerate(data):
             for j,(numberB,glossB,wordB) in enumerate(data):
                 if i < j:
+                    # modify words, replace damn "'" by some other symbol
+                    wordA = wordA.replace("'", "ˈ")
+                    wordB = wordB.replace("'","ˈ")
                     if wordA == wordB:
                         if (numberA,numberB) in links:
                             links[numberA,numberB]['occurrences'] += 1
@@ -98,6 +104,7 @@ for f in files:
                                     'occurrences':1,
                                     'evidence':[(sorted(tags.items()),wordA)] }
                             links[numberB,numberA] = links[numberA,numberB]
+
 
 # get ids-keys
 ids_keys = {}
@@ -178,8 +185,8 @@ for key,value in links.items():
         srs = '<a href="{0}" target="_blank">{1}</a>'.format(url,srs.upper())
 
 
-
-
+        if cls.lower() in ['language isolate','unclassified']:
+            cls = 'unknown'
 
         tmp_lang = '\t'.join([lid,lang,iso,cls,srs,var,size,link_name])
         if tmp_lang in langs:
@@ -221,7 +228,7 @@ for line in sorted(langs):
     out.write(line+'\n')
 out.close()
 
-os.system('rm website/clics.de/data/clips.sqlite3')
+os.system('rm /home/mattis/projects/scripts/clics/website/clics.de/data/clips.sqlite3')
 conn = sqlite3.connect('website/clics.de/data/clips.sqlite3')
 c = conn.cursor()
 c.execute(
@@ -241,5 +248,9 @@ for line in sorted(langs):
             )
 conn.commit()
 
+for v in invalid:
+    print('File {0} is not valid.'.format(v))
 print("Number of links: {0}".format(linknum // 2))
 print("Number of occurrences: {0}".format(occnum // 2))
+
+
