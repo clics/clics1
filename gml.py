@@ -1,3 +1,15 @@
+# author   : Johann-Mattis List
+# email    : mattis.list@uni-marburg.de
+# created  : 2014-02-17 14:17
+# modified : 2014-02-17 14:17
+"""
+<++>
+"""
+
+__author__="Johann-Mattis List"
+__date__="2014-02-17"
+
+
 import networkx as nx
 from clics_lib.csv import *
 from clics_lib.gml2json import *
@@ -24,6 +36,8 @@ for line in swa100:
             swaDict[k2] = (k1,line[0])
     else:
         swaDict[line[1]] = (line[1],line[0])
+
+keyocc = dict([(a,b) for a,b in csv2list('output/occurrences.txt')])
 
 # load the graph
 g = nx.Graph()
@@ -55,7 +69,8 @@ for line in data:
                 key = keyA,
                 label = concA,
                 body_part = bp,
-                swadesh100 = swadesh
+                swadesh100 = swadesh,
+                frequency = int(keyocc[keyA])
                 )
 
     try:
@@ -80,7 +95,8 @@ for line in data:
                 label = concB,
                 key = keyB,
                 body_part = bp,
-                swadesh100 = swadesh
+                swadesh100 = swadesh,
+                frequency = int(keyocc[keyB])
                 )
 
     g.add_edge(

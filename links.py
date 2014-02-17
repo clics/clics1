@@ -49,6 +49,8 @@ blacklist = [
 
 invalid = []
 
+nodeD = {}
+
 for f in files:
     print("[i] Processing file {0}...".format(f))
     infile = open(f)
@@ -76,6 +78,10 @@ for f in files:
     else:
         # get all identical data by looping over all data
         for i,(numberA,glossA,wordA) in enumerate(data):
+            try:
+                nodeD[numberA] += 1
+            except:
+                nodeD[numberA] = 1
             for j,(numberB,glossB,wordB) in enumerate(data):
                 if i < j:
                     # modify words, replace damn "'" by some other symbol
@@ -104,6 +110,10 @@ for f in files:
                                     'occurrences':1,
                                     'evidence':[(sorted(tags.items()),wordA)] }
                             links[numberB,numberA] = links[numberA,numberB]
+
+with open('output/occurrences.txt', 'w') as f:
+    for node,occ in sorted(nodeD.items(), key=lambda x:x[1], reverse=True):
+        f.write('{0}\t{1}\n'.format(node,occ))
 
 
 # get ids-keys
@@ -173,14 +183,19 @@ for key,value in links.items():
             except KeyError:
                 link_name = wold_web.format('')
 
-        else:
+        elif srs == 'logos':
             link_name="http://www.logosdictionary.org/"
+        else:
+            link_name="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists"
+
         if srs == 'ids':
             url = 'http://lingweb.eva.mpg.de/ids/'
         elif srs == 'wold':
             url = 'http://wold.livingsources.org/'
         elif srs == 'logos':
             url = 'http://www.logosdictionary.org/'
+        else: # == 'Språkbanken':
+            url = "http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists" 
 
         srs = '<a href="{0}" target="_blank">{1}</a>'.format(url,srs.upper())
 
@@ -252,5 +267,7 @@ for v in invalid:
     print('File {0} is not valid.'.format(v))
 print("Number of links: {0}".format(linknum // 2))
 print("Number of occurrences: {0}".format(occnum // 2))
+
+
 
 

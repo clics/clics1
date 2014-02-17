@@ -1,13 +1,13 @@
 # author   : Johann-Mattis List
 # email    : mattis.list@uni-marburg.de
 # created  : 2013-10-29 17:36
-# modified : 2013-10-29 17:36
+# modified : 2014-02-17 15:21
 """
 Compute subsets of the graphs with help of community detection analyses.
 """
 
 __author__="Johann-Mattis List"
-__date__="2013-10-29"
+__date__="2014-02-17"
 
 
 import igraph as ig
@@ -16,7 +16,7 @@ from clics_lib.gml2json import graph2json
 from sys import argv
 
 # read the graph from gml
-g = ig.read("output/clics.gml")
+g = ig.read("output/clics_b.gml")
 
 glen = len(g.vs)
 
@@ -28,7 +28,7 @@ if len(argv) == 1:
     # convenience
     communities = coms.as_clustering(250)
 elif 'infomap' in argv:
-    communities = g.community_infomap(edge_weights='weight', trials=50)
+    communities = g.community_infomap(edge_weights='normalized_weight', trials=50)
 
 print('[i] Computed communities.')
 
@@ -104,7 +104,8 @@ import matplotlib.pyplot as plt
 gcoms = []
 
 # write all communities to separate json-graphs, write names to file
-f = open('output/communities.csv','w')
+f = open('output/communitiesNew.csv','w')
+f2 = open('output/communitiesNewCluster.csv', 'w')
 f.write('names\n')
 for c in comms:
     
@@ -114,6 +115,9 @@ for c in comms:
     # get node with highest degree
     d = sorted(subG.degree().items(),key=lambda x:x[1],reverse=True)[0][0]
 
+    
+    if '/' in d:
+        d = d.replace('/','_')
     graph2json(subG,'xcommunities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,d,len(subG.nodes()))
             )
@@ -121,6 +125,14 @@ for c in comms:
     f.write('cluster_{0}_{1}.json\n'.format(c,d))
 
     gcoms += [len(subG)]
+    
+    f2.write('---'+d+'---\n')
+    for node in subG.nodes():
+        f2.write(node+'\n')
+    
+    f2.write('\n')
+
+
 
 glarge = [g for g in gcoms if g >= 5]
 print(sum(glarge),len(glarge))
