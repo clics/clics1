@@ -64,6 +64,7 @@ accessible multilingual online dictionary that is regularly updated online by a 
 professional translators. It offers lexical data for more than 60 different languages. We manually 
 extracted lexical data for 4 languages that were neither present in IDS nor in WOLD. 
 </li>
+<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLiCs.</li>
 </ul>
 
 <h3><a style="color:black" name="cite">Citing CLiCs</a></h3>

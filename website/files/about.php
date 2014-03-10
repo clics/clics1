@@ -1,32 +1,32 @@
 <!-- SIDEBAR about -->
-<h3>What is CliCs?</h3>
+<h3>What is CLiCs?</h3>
 <br>
-CliCs is an online database of <i>synchronic lexical associations</i>
+CLiCs is an online database of <i>synchronic lexical associations</i>
 ("polysemies", but more precisely: <i>colexifications</i>) in currently 215 language varieties 
 of the world.  Large databases offering lexical information on the world’s languages are already 
 readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
 information on tendencies of meaning associations available in these databases is not easily 
-extractable from the sources themselves. This is why CliCs was created. It is designed to serve as a 
+extractable from the sources themselves. This is why CLiCs was created. It is designed to serve as a 
 data source for work in lexical typology, diachronic semantics, and research in cognitive science 
 that focuses on natural language semantics from the viewpoint of cross-linguistic diversity.  
-Furthermore, CliCs can be used as a helpful tool to assess the plausibility of semantic connections 
+Furthermore, CLiCs can be used as a helpful tool to assess the plausibility of semantic connections 
 between possible cognates in the establishment of genetic relations between languages.
 <br>
 <br>
 <table>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Release:</b></td>
-  <td> 1.0.beta </td>
+  <td> 1.0 </td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
-  <td> February, 2014</td>
+  <td> TBA </td>
   <td></td>
 </tr>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Author:</b></td>
-  <td> Johann-Mattis List, Anselm Terhalle, Matthias Urban, Thomas Mayer </td>
+  <td style="background-color:#ffa600;width:100px"><b>Editors:</b></td>
+  <td> Johann-Mattis List, Thomas Mayer, Anselm Terhalle, Matthias Urban </td>
   <td></td>
 </tr></table>
 
