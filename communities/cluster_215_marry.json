@@ -1,0 +1,97 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "marry", 
+                "families": 9.0, 
+                "weight": 67.6126878130217, 
+                "languages": 13.0
+            }, 
+            {
+                "id": "have sexual intercourse", 
+                "families": 1.0, 
+                "weight": 0.9025270758122744, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "marriage, wedding", 
+                "families": 9.0, 
+                "weight": 67.6126878130217, 
+                "languages": 13.0
+            }, 
+            {
+                "id": "marry", 
+                "families": 1.0, 
+                "weight": 0.7704160246533128, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "have sexual intercourse", 
+                "families": 4.0, 
+                "weight": 13.490725126475548, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "marriage, wedding", 
+                "families": 1.0, 
+                "weight": 0.9025270758122744, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "marry", 
+                "families": 4.0, 
+                "weight": 13.490725126475548, 
+                "languages": 4.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "marriage, wedding", 
+            "body_part": 0, 
+            "community": 215, 
+            "key": "2.34"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_5_male", 
+                    "married man", 
+                    5.0
+                ], 
+                [
+                    "cluster_4_get, obtain", 
+                    "take", 
+                    5.0
+                ], 
+                [
+                    "cluster_5_male", 
+                    "husband", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "marry", 
+            "body_part": 0, 
+            "community": 215, 
+            "key": "2.33"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "have sexual intercourse", 
+            "body_part": 0, 
+            "community": 215, 
+            "key": "4.67"
+        }
+    ], 
+    "graph": []
+}

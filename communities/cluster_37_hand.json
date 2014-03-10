@@ -1,0 +1,268 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "hand", 
+                "families": 2.0, 
+                "weight": 4.901960784313726, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "arm", 
+                "families": 2.0, 
+                "weight": 4.545454545454545, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "branch", 
+                "families": 9.0, 
+                "weight": 90.40178571428571, 
+                "languages": 20.0
+            }
+        ], 
+        [
+            {
+                "id": "glove", 
+                "families": 2.0, 
+                "weight": 4.901960784313726, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "arm", 
+                "families": 23.0, 
+                "weight": 543.1211498973306, 
+                "languages": 74.0
+            }, 
+            {
+                "id": "span, fathom", 
+                "families": 1.0, 
+                "weight": 1.2195121951219512, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "palm of hand", 
+                "families": 5.0, 
+                "weight": 25.40650406504065, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "hand", 
+                "families": 1.0, 
+                "weight": 1.002004008016032, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "branch", 
+                "families": 4.0, 
+                "weight": 15.355086372360844, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "wrist", 
+                "families": 6.0, 
+                "weight": 40.35874439461883, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "forked branch", 
+                "families": 2.0, 
+                "weight": 4.545454545454545, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "span, fathom", 
+                "families": 3.0, 
+                "weight": 10.76555023923445, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "palm of hand", 
+                "families": 1.0, 
+                "weight": 0.9881422924901185, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "hand", 
+                "families": 23.0, 
+                "weight": 543.1211498973306, 
+                "languages": 74.0
+            }, 
+            {
+                "id": "branch", 
+                "families": 7.0, 
+                "weight": 46.40151515151515, 
+                "languages": 9.0
+            }, 
+            {
+                "id": "wrist", 
+                "families": 4.0, 
+                "weight": 17.46724890829694, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "arm", 
+                "families": 1.0, 
+                "weight": 0.9881422924901185, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "hand", 
+                "families": 5.0, 
+                "weight": 25.40650406504065, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "wrist", 
+                "families": 2.0, 
+                "weight": 4.47427293064877, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "arm", 
+                "families": 3.0, 
+                "weight": 10.76555023923445, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "hand", 
+                "families": 1.0, 
+                "weight": 1.2195121951219512, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "hand", 
+                "families": 4.0, 
+                "weight": 15.355086372360844, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "forked branch", 
+                "families": 9.0, 
+                "weight": 90.40178571428571, 
+                "languages": 20.0
+            }, 
+            {
+                "id": "arm", 
+                "families": 7.0, 
+                "weight": 46.40151515151515, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "arm", 
+                "families": 4.0, 
+                "weight": 17.46724890829694, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "palm of hand", 
+                "families": 2.0, 
+                "weight": 4.47427293064877, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "hand", 
+                "families": 6.0, 
+                "weight": 40.35874439461883, 
+                "languages": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "glove", 
+            "body_part": 0, 
+            "community": 37, 
+            "key": "6.58"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "forked branch", 
+            "body_part": 0, 
+            "community": 37, 
+            "key": "8.74"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_191_toe", 
+                    "finger", 
+                    6.0
+                ]
+            ], 
+            "swadesh100": 1, 
+            "id": "hand", 
+            "body_part": 1, 
+            "community": 37, 
+            "key": "4.33"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "wing", 
+                    6.0
+                ], 
+                [
+                    "cluster_145_shoulder", 
+                    "shoulder", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "arm", 
+            "body_part": 1, 
+            "community": 37, 
+            "key": "4.31"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "palm of hand", 
+            "body_part": 1, 
+            "community": 37, 
+            "key": "4.331"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "span, fathom", 
+            "body_part": 0, 
+            "community": 37, 
+            "key": "12.541"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "branch", 
+            "body_part": 0, 
+            "community": 37, 
+            "key": "8.55"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "wrist", 
+            "body_part": 1, 
+            "community": 37, 
+            "key": "4.321"
+        }
+    ], 
+    "graph": []
+}

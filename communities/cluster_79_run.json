@@ -1,0 +1,143 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "flow", 
+                "families": 3.0, 
+                "weight": 9.554140127388534, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "flee", 
+                "families": 17.0, 
+                "weight": 303.57142857142856, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "run", 
+                "families": 4.0, 
+                "weight": 16.359918200409, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "retreat", 
+                "families": 4.0, 
+                "weight": 16.359918200409, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "run", 
+                "families": 1.0, 
+                "weight": 0.8818342151675485, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "flee", 
+                "families": 17.0, 
+                "weight": 262.2504537205082, 
+                "languages": 42.0
+            }, 
+            {
+                "id": "flow", 
+                "families": 9.0, 
+                "weight": 75.0, 
+                "languages": 14.0
+            }
+        ], 
+        [
+            {
+                "id": "retreat", 
+                "families": 17.0, 
+                "weight": 303.57142857142856, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "run", 
+                "families": 17.0, 
+                "weight": 262.2504537205082, 
+                "languages": 42.0
+            }, 
+            {
+                "id": "flow", 
+                "families": 3.0, 
+                "weight": 8.241758241758243, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "retreat", 
+                "families": 3.0, 
+                "weight": 9.554140127388534, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "flee", 
+                "families": 3.0, 
+                "weight": 8.241758241758243, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "run", 
+                "families": 9.0, 
+                "weight": 75.0, 
+                "languages": 14.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "retreat", 
+            "body_part": 0, 
+            "community": 79, 
+            "key": "20.45"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "run", 
+            "body_part": 0, 
+            "community": 79, 
+            "key": "10.46"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "flee", 
+            "body_part": 0, 
+            "community": 79, 
+            "key": "10.51"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_62_go", 
+                    "go", 
+                    5.0
+                ], 
+                [
+                    "cluster_199_smith, blacksmith", 
+                    "pour", 
+                    5.0
+                ], 
+                [
+                    "cluster_77_float", 
+                    "float", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "flow", 
+            "body_part": 0, 
+            "community": 79, 
+            "key": "10.32"
+        }
+    ], 
+    "graph": []
+}

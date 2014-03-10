@@ -1,0 +1,52 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "cooked", 
+                "families": 21.0, 
+                "weight": 450.0, 
+                "languages": 30.0
+            }
+        ], 
+        [
+            {
+                "id": "ripe", 
+                "families": 21.0, 
+                "weight": 450.0, 
+                "languages": 30.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "ripe", 
+            "body_part": 0, 
+            "community": 142, 
+            "key": "5.123"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_107_cook", 
+                    "cook", 
+                    8.0
+                ], 
+                [
+                    "cluster_107_cook", 
+                    "boil (vb)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "cooked", 
+            "body_part": 0, 
+            "community": 142, 
+            "key": "5.121"
+        }
+    ], 
+    "graph": []
+}

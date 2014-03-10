@@ -1,0 +1,108 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "clay", 
+                "families": 17.0, 
+                "weight": 264.65201465201466, 
+                "languages": 38.0
+            }, 
+            {
+                "id": "swamp", 
+                "families": 9.0, 
+                "weight": 71.30281690140845, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "mud", 
+                "families": 17.0, 
+                "weight": 264.65201465201466, 
+                "languages": 38.0
+            }, 
+            {
+                "id": "swamp", 
+                "families": 3.0, 
+                "weight": 8.571428571428571, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "clay", 
+                "families": 3.0, 
+                "weight": 8.571428571428571, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "mud", 
+                "families": 9.0, 
+                "weight": 71.30281690140845, 
+                "languages": 9.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_3_country", 
+                    "earth=ground, soil", 
+                    4.0
+                ], 
+                [
+                    "cluster_52_smoke (noun)", 
+                    "dust", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "mud", 
+            "body_part": 0, 
+            "community": 150, 
+            "key": "1.214"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_3_country", 
+                    "earth=ground, soil", 
+                    11.0
+                ], 
+                [
+                    "cluster_3_country", 
+                    "earth, land", 
+                    7.0
+                ], 
+                [
+                    "cluster_3_country", 
+                    "floor", 
+                    6.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "clay", 
+            "body_part": 0, 
+            "community": 150, 
+            "key": "9.73"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_111_gulf, bay", 
+                    "lake", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "swamp", 
+            "body_part": 0, 
+            "community": 150, 
+            "key": "1.38"
+        }
+    ], 
+    "graph": []
+}

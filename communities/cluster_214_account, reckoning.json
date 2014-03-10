@@ -1,0 +1,81 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "debt", 
+                "families": 4.0, 
+                "weight": 20.99737532808399, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "owe", 
+                "families": 1.0, 
+                "weight": 1.3440860215053765, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "account, reckoning", 
+                "families": 4.0, 
+                "weight": 20.99737532808399, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "owe", 
+                "families": 7.0, 
+                "weight": 64.9867374005305, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "id": "account, reckoning", 
+                "families": 1.0, 
+                "weight": 1.3440860215053765, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "debt", 
+                "families": 7.0, 
+                "weight": 64.9867374005305, 
+                "languages": 10.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_36_taste", 
+                    "count", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "account, reckoning", 
+            "body_part": 0, 
+            "community": 214, 
+            "key": "11.66"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "debt", 
+            "body_part": 0, 
+            "community": 214, 
+            "key": "11.64"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "owe", 
+            "body_part": 0, 
+            "community": 214, 
+            "key": "11.63"
+        }
+    ], 
+    "graph": []
+}

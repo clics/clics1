@@ -1,0 +1,139 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "hinder, prevent", 
+                "families": 3.0, 
+                "weight": 9.594882729211088, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "forbid", 
+                "families": 10.0, 
+                "weight": 120.77294685990337, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "deny", 
+                "families": 14.0, 
+                "weight": 241.3793103448276, 
+                "languages": 26.0
+            }
+        ], 
+        [
+            {
+                "id": "refuse", 
+                "families": 3.0, 
+                "weight": 9.594882729211088, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "forbid", 
+                "families": 12.0, 
+                "weight": 151.8987341772152, 
+                "languages": 14.0
+            }, 
+            {
+                "id": "deny", 
+                "families": 1.0, 
+                "weight": 1.0395010395010396, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "refuse", 
+                "families": 10.0, 
+                "weight": 120.77294685990337, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "hinder, prevent", 
+                "families": 12.0, 
+                "weight": 151.8987341772152, 
+                "languages": 14.0
+            }, 
+            {
+                "id": "deny", 
+                "families": 5.0, 
+                "weight": 29.137529137529135, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "refuse", 
+                "families": 14.0, 
+                "weight": 241.3793103448276, 
+                "languages": 26.0
+            }, 
+            {
+                "id": "hinder, prevent", 
+                "families": 1.0, 
+                "weight": 1.0395010395010396, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "forbid", 
+                "families": 5.0, 
+                "weight": 29.137529137529135, 
+                "languages": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "refuse", 
+            "body_part": 0, 
+            "community": 86, 
+            "key": "18.37"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_44_preserve, look after", 
+                    "defend", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "hinder, prevent", 
+            "body_part": 0, 
+            "community": 86, 
+            "key": "19.59"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_44_preserve, look after", 
+                    "defend", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "forbid", 
+            "body_part": 0, 
+            "community": 86, 
+            "key": "18.38"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_254_no, negative", 
+                    "no, negative", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "deny", 
+            "body_part": 0, 
+            "community": 86, 
+            "key": "18.34"
+        }
+    ], 
+    "graph": []
+}

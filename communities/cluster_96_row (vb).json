@@ -1,0 +1,87 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "oar", 
+                "families": 5.0, 
+                "weight": 33.96739130434782, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "paddle (noun)", 
+                "families": 3.0, 
+                "weight": 11.96808510638298, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "row (vb)", 
+                "families": 5.0, 
+                "weight": 33.96739130434782, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "paddle (noun)", 
+                "families": 22.0, 
+                "weight": 765.8227848101266, 
+                "languages": 68.0
+            }
+        ], 
+        [
+            {
+                "id": "row (vb)", 
+                "families": 3.0, 
+                "weight": 11.96808510638298, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "oar", 
+                "families": 22.0, 
+                "weight": 765.8227848101266, 
+                "languages": 68.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_109_shake", 
+                    "stir, mix", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "row (vb)", 
+            "body_part": 0, 
+            "community": 96, 
+            "key": "10.852"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "oar", 
+            "body_part": 0, 
+            "community": 96, 
+            "key": "10.85"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_124_hoe", 
+                    "spade", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "paddle (noun)", 
+            "body_part": 0, 
+            "community": 96, 
+            "key": "10.851"
+        }
+    ], 
+    "graph": []
+}

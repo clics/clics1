@@ -1,0 +1,109 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "mill", 
+                "families": 1.0, 
+                "weight": 1.5197568389057752, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "mortar", 
+                "families": 4.0, 
+                "weight": 19.41747572815534, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "pestle", 
+                "families": 4.0, 
+                "weight": 19.801980198019802, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "mill", 
+                "families": 5.0, 
+                "weight": 32.21649484536082, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "mortar", 
+                "families": 4.0, 
+                "weight": 19.801980198019802, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "mill", 
+                "families": 2.0, 
+                "weight": 5.221932114882507, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "threshing-floor", 
+                "families": 1.0, 
+                "weight": 1.5197568389057752, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "mortar", 
+                "families": 5.0, 
+                "weight": 32.21649484536082, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "pestle", 
+                "families": 2.0, 
+                "weight": 5.221932114882507, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "threshing-floor", 
+            "body_part": 0, 
+            "community": 209, 
+            "key": "8.35"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "mortar", 
+            "body_part": 0, 
+            "community": 209, 
+            "key": "5.58"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "pestle", 
+            "body_part": 0, 
+            "community": 209, 
+            "key": "5.59"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_64_squeeze, wring", 
+                    "crush, grind", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "mill", 
+            "body_part": 0, 
+            "community": 209, 
+            "key": "5.57"
+        }
+    ], 
+    "graph": []
+}

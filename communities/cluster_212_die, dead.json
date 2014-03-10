@@ -1,0 +1,64 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "die, dead", 
+                "families": 1.0, 
+                "weight": 0.6060606060606061, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "corpse", 
+                "families": 13.0, 
+                "weight": 127.83661119515885, 
+                "languages": 15.0
+            }
+        ], 
+        [
+            {
+                "id": "die, dead", 
+                "families": 13.0, 
+                "weight": 127.83661119515885, 
+                "languages": 15.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_175_disappear", 
+                    "disappear", 
+                    4.0
+                ], 
+                [
+                    "cluster_103_kill", 
+                    "kill", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 1, 
+            "id": "die, dead", 
+            "body_part": 0, 
+            "community": 212, 
+            "key": "4.75"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_67_body", 
+                    "body", 
+                    7.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "corpse", 
+            "body_part": 0, 
+            "community": 212, 
+            "key": "4.77"
+        }
+    ], 
+    "graph": []
+}

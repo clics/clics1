@@ -1,0 +1,81 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "swelling", 
+                "families": 1.0, 
+                "weight": 0.8183306055646482, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "boil (noun)", 
+                "families": 7.0, 
+                "weight": 43.90681003584229, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "full", 
+                "families": 1.0, 
+                "weight": 0.9276437847866419, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "boil (noun)", 
+                "families": 2.0, 
+                "weight": 3.795066413662239, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "swelling", 
+                "families": 7.0, 
+                "weight": 43.90681003584229, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "full", 
+                "families": 2.0, 
+                "weight": 3.795066413662239, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "swelling", 
+            "body_part": 0, 
+            "community": 224, 
+            "key": "4.853"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 1, 
+            "id": "full", 
+            "body_part": 0, 
+            "community": 224, 
+            "key": "13.21"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_107_cook", 
+                    "boil (vb)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "boil (noun)", 
+            "body_part": 0, 
+            "community": 224, 
+            "key": "4.856"
+        }
+    ], 
+    "graph": []
+}

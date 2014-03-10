@@ -1,0 +1,172 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "slide, slip", 
+                "families": 1.0, 
+                "weight": 0.8756567425569177, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "fall", 
+                "families": 3.0, 
+                "weight": 7.6400679117147705, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "fall", 
+                "families": 5.0, 
+                "weight": 20.868113522537563, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "drop (vb)", 
+                "families": 2.0, 
+                "weight": 3.7383177570093458, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "land (vb)", 
+                "families": 8.0, 
+                "weight": 65.04065040650407, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "slide, slip", 
+                "families": 3.0, 
+                "weight": 7.6400679117147705, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "go down", 
+                "families": 5.0, 
+                "weight": 20.868113522537563, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "drop (vb)", 
+                "families": 11.0, 
+                "weight": 113.29588014981273, 
+                "languages": 16.0
+            }, 
+            {
+                "id": "land (vb)", 
+                "families": 3.0, 
+                "weight": 8.91089108910891, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "fall", 
+                "families": 3.0, 
+                "weight": 8.91089108910891, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "go down", 
+                "families": 8.0, 
+                "weight": 65.04065040650407, 
+                "languages": 8.0
+            }, 
+            {
+                "id": "drop (vb)", 
+                "families": 1.0, 
+                "weight": 1.1363636363636362, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "go down", 
+                "families": 2.0, 
+                "weight": 3.7383177570093458, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "fall", 
+                "families": 11.0, 
+                "weight": 113.29588014981273, 
+                "languages": 16.0
+            }, 
+            {
+                "id": "land (vb)", 
+                "families": 1.0, 
+                "weight": 1.1363636363636362, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "slide, slip", 
+            "body_part": 0, 
+            "community": 136, 
+            "key": "10.42"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "go down", 
+            "body_part": 0, 
+            "community": 136, 
+            "key": "10.473"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_134_born (to be)", 
+                    "born (to be)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "fall", 
+            "body_part": 0, 
+            "community": 136, 
+            "key": "10.23"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_62_go", 
+                    "go out", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "land (vb)", 
+            "body_part": 0, 
+            "community": 136, 
+            "key": "10.92"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "release, let go", 
+                    5.0
+                ], 
+                [
+                    "cluster_187_drip", 
+                    "drip", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "drop (vb)", 
+            "body_part": 0, 
+            "community": 136, 
+            "key": "10.16"
+        }
+    ], 
+    "graph": []
+}

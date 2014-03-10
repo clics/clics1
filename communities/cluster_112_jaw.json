@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "chin", 
+                "families": 4.0, 
+                "weight": 17.505470459518598, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "id": "beard", 
+                "families": 4.0, 
+                "weight": 17.505470459518598, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "jaw", 
+                "families": 22.0, 
+                "weight": 531.8681318681319, 
+                "languages": 35.0
+            }
+        ], 
+        [
+            {
+                "id": "chin", 
+                "families": 22.0, 
+                "weight": 531.8681318681319, 
+                "languages": 35.0
+            }, 
+            {
+                "id": "jaw", 
+                "families": 1.0, 
+                "weight": 0.998003992015968, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "beard", 
+            "body_part": 1, 
+            "community": 112, 
+            "key": "4.142"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "chin", 
+            "body_part": 1, 
+            "community": 112, 
+            "key": "4.209"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_117_face", 
+                    "cheek", 
+                    7.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "jaw", 
+            "body_part": 1, 
+            "community": 112, 
+            "key": "4.207"
+        }
+    ], 
+    "graph": []
+}

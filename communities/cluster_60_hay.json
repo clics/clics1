@@ -1,0 +1,239 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "hay", 
+                "families": 13.0, 
+                "weight": 192.48291571753987, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "plant (noun)", 
+                "families": 9.0, 
+                "weight": 82.6530612244898, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "pasture", 
+                "families": 12.0, 
+                "weight": 144.0, 
+                "languages": 17.0
+            }, 
+            {
+                "id": "thatch", 
+                "families": 7.0, 
+                "weight": 55.18018018018018, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "grass", 
+                "families": 9.0, 
+                "weight": 82.6530612244898, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "hay", 
+                "families": 2.0, 
+                "weight": 4.987531172069826, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "pasture", 
+                "families": 2.0, 
+                "weight": 4.3383947939262475, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "grass", 
+                "families": 13.0, 
+                "weight": 192.48291571753987, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "roof", 
+                "families": 1.0, 
+                "weight": 1.176470588235294, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "plant (noun)", 
+                "families": 2.0, 
+                "weight": 4.987531172069826, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "pasture", 
+                "families": 2.0, 
+                "weight": 4.830917874396135, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "thatch", 
+                "families": 2.0, 
+                "weight": 5.6657223796034, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "hay", 
+                "families": 1.0, 
+                "weight": 1.176470588235294, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "thatch", 
+                "families": 10.0, 
+                "weight": 120.48192771084338, 
+                "languages": 18.0
+            }
+        ], 
+        [
+            {
+                "id": "grass", 
+                "families": 12.0, 
+                "weight": 144.0, 
+                "languages": 17.0
+            }, 
+            {
+                "id": "hay", 
+                "families": 2.0, 
+                "weight": 4.830917874396135, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "plant (noun)", 
+                "families": 2.0, 
+                "weight": 4.3383947939262475, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "thatch", 
+                "families": 1.0, 
+                "weight": 1.2077294685990339, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "grass", 
+                "families": 7.0, 
+                "weight": 55.18018018018018, 
+                "languages": 8.0
+            }, 
+            {
+                "id": "hay", 
+                "families": 2.0, 
+                "weight": 5.6657223796034, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "roof", 
+                "families": 10.0, 
+                "weight": 120.48192771084338, 
+                "languages": 18.0
+            }, 
+            {
+                "id": "pasture", 
+                "families": 1.0, 
+                "weight": 1.2077294685990339, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "grass", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "8.51"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_2_tree", 
+                    "tree", 
+                    8.0
+                ], 
+                [
+                    "cluster_34_sow", 
+                    "plant (vb)", 
+                    5.0
+                ], 
+                [
+                    "cluster_2_tree", 
+                    "tree (cf 08.600)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "plant (noun)", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "8.53"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "hay", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "8.52"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_51_house", 
+                    "house", 
+                    7.0
+                ], 
+                [
+                    "cluster_155_skull", 
+                    "top", 
+                    6.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "roof", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "7.51"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_121_plain, field", 
+                    "plain, field", 
+                    9.0
+                ], 
+                [
+                    "cluster_121_plain, field", 
+                    "field (for cultivation)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "pasture", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "3.16"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "thatch", 
+            "body_part": 0, 
+            "community": 60, 
+            "key": "7.52"
+        }
+    ], 
+    "graph": []
+}

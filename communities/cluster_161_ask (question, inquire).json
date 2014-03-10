@@ -1,0 +1,63 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "ask (question, inquire)", 
+                "families": 21.0, 
+                "weight": 441.0, 
+                "languages": 40.0
+            }
+        ], 
+        [
+            {
+                "id": "ask, request", 
+                "families": 21.0, 
+                "weight": 441.0, 
+                "languages": 40.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_10_trade, barter", 
+                    "borrow", 
+                    6.0
+                ], 
+                [
+                    "cluster_22_call (=summon)", 
+                    "call (=summon)", 
+                    5.0
+                ], 
+                [
+                    "cluster_10_trade, barter", 
+                    "buy", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "ask, request", 
+            "body_part": 0, 
+            "community": 161, 
+            "key": "18.35"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_10_trade, barter", 
+                    "answer", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "ask (question, inquire)", 
+            "body_part": 0, 
+            "community": 161, 
+            "key": "18.31"
+        }
+    ], 
+    "graph": []
+}

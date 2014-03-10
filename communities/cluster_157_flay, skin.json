@@ -1,0 +1,58 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "peel", 
+                "families": 23.0, 
+                "weight": 510.61776061776067, 
+                "languages": 38.0
+            }
+        ], 
+        [
+            {
+                "id": "flay, skin", 
+                "families": 23.0, 
+                "weight": 510.61776061776067, 
+                "languages": 38.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "leather", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "flay, skin", 
+            "body_part": 0, 
+            "community": 157, 
+            "key": "9.29"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_158_sweep", 
+                    "scrape", 
+                    5.0
+                ], 
+                [
+                    "cluster_1_fur", 
+                    "skin, hide", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "peel", 
+            "body_part": 0, 
+            "community": 157, 
+            "key": "5.46"
+        }
+    ], 
+    "graph": []
+}

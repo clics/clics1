@@ -1,0 +1,154 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "if", 
+                "families": 1.0, 
+                "weight": 0.9041591320072332, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "because", 
+                "families": 6.0, 
+                "weight": 32.028469750889684, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "when?", 
+                "families": 5.0, 
+                "weight": 23.540489642184557, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "yes, affirmative", 
+                "families": 3.0, 
+                "weight": 7.839721254355401, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "cause", 
+                "families": 1.0, 
+                "weight": 1.0101010101010102, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "because", 
+                "families": 9.0, 
+                "weight": 76.41509433962264, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "if", 
+                "families": 6.0, 
+                "weight": 32.028469750889684, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "cause", 
+                "families": 9.0, 
+                "weight": 76.41509433962264, 
+                "languages": 9.0
+            }, 
+            {
+                "id": "because", 
+                "families": 1.0, 
+                "weight": 0.8605851979345955, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "when?", 
+                "families": 2.0, 
+                "weight": 3.6496350364963503, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "if", 
+                "families": 5.0, 
+                "weight": 23.540489642184557, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "because", 
+                "families": 2.0, 
+                "weight": 3.6496350364963503, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "if", 
+                "families": 3.0, 
+                "weight": 7.839721254355401, 
+                "languages": 3.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "if", 
+            "body_part": 0, 
+            "community": 138, 
+            "key": "17.53"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_32_do, make", 
+                    "do, make", 
+                    5.0
+                ], 
+                [
+                    "cluster_81_forgive", 
+                    "let, permit", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "cause", 
+            "body_part": 0, 
+            "community": 138, 
+            "key": "17.42"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_84_how?", 
+                    "why?", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "because", 
+            "body_part": 0, 
+            "community": 138, 
+            "key": "17.52"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "when?", 
+            "body_part": 0, 
+            "community": 138, 
+            "key": "17.65"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "yes, affirmative", 
+            "body_part": 0, 
+            "community": 138, 
+            "key": "17.55"
+        }
+    ], 
+    "graph": []
+}

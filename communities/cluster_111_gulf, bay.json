@@ -1,0 +1,125 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "lake", 
+                "families": 2.0, 
+                "weight": 5.221932114882507, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "whirlpool", 
+                "families": 1.0, 
+                "weight": 1.4204545454545454, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "lagoon", 
+                "families": 4.0, 
+                "weight": 28.169014084507044, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "lake", 
+                "families": 1.0, 
+                "weight": 1.1185682326621924, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "gulf, bay", 
+                "families": 1.0, 
+                "weight": 1.4204545454545454, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "gulf, bay", 
+                "families": 2.0, 
+                "weight": 5.221932114882507, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "whirlpool", 
+                "families": 1.0, 
+                "weight": 1.1185682326621924, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "lagoon", 
+                "families": 22.0, 
+                "weight": 670.3601108033241, 
+                "languages": 35.0
+            }
+        ], 
+        [
+            {
+                "id": "gulf, bay", 
+                "families": 4.0, 
+                "weight": 28.169014084507044, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "lake", 
+                "families": 22.0, 
+                "weight": 670.3601108033241, 
+                "languages": 35.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "gulf, bay", 
+            "body_part": 0, 
+            "community": 111, 
+            "key": "1.34"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "whirlpool", 
+            "body_part": 0, 
+            "community": 111, 
+            "key": "1.362"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_127_sea", 
+                    "sea", 
+                    7.0
+                ], 
+                [
+                    "cluster_127_sea", 
+                    "ocean", 
+                    5.0
+                ], 
+                [
+                    "cluster_150_mud", 
+                    "swamp", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "lake", 
+            "body_part": 0, 
+            "community": 111, 
+            "key": "1.33"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "lagoon", 
+            "body_part": 0, 
+            "community": 111, 
+            "key": "1.341"
+        }
+    ], 
+    "graph": []
+}

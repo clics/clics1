@@ -1,0 +1,159 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "broom", 
+                "families": 3.0, 
+                "weight": 11.002444987775062, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "sweep", 
+                "families": 1.0, 
+                "weight": 1.2165450121654502, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "sweep", 
+                "families": 5.0, 
+                "weight": 26.427061310782243, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "rake", 
+                "families": 3.0, 
+                "weight": 11.002444987775062, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "rub, wipe", 
+                "families": 1.0, 
+                "weight": 0.8928571428571428, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "broom", 
+                "families": 5.0, 
+                "weight": 26.427061310782243, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "scrape", 
+                "families": 2.0, 
+                "weight": 3.6166365280289328, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "rub, wipe", 
+                "families": 6.0, 
+                "weight": 33.088235294117645, 
+                "languages": 8.0
+            }, 
+            {
+                "id": "rake", 
+                "families": 1.0, 
+                "weight": 1.2165450121654502, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "sweep", 
+                "families": 2.0, 
+                "weight": 3.6166365280289328, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "rub, wipe", 
+                "families": 7.0, 
+                "weight": 39.516129032258064, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "id": "wrinkled", 
+                "families": 1.0, 
+                "weight": 0.8928571428571428, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "sweep", 
+                "families": 6.0, 
+                "weight": 33.088235294117645, 
+                "languages": 8.0
+            }, 
+            {
+                "id": "scrape", 
+                "families": 7.0, 
+                "weight": 39.516129032258064, 
+                "languages": 12.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "rake", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "8.27"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "broom", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "9.38"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "wrinkled", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "15.89"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "sweep", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "9.37"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_157_flay, skin", 
+                    "peel", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "scrape", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "5.48"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "rub, wipe", 
+            "body_part": 0, 
+            "community": 158, 
+            "key": "9.31"
+        }
+    ], 
+    "graph": []
+}

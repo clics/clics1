@@ -1,0 +1,124 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "plain, field", 
+                "families": 4.0, 
+                "weight": 13.986013986013987, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "plain, field", 
+                "families": 3.0, 
+                "weight": 8.07899461400359, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "field (for cultivation)", 
+                "families": 13.0, 
+                "weight": 182.11206896551724, 
+                "languages": 24.0
+            }
+        ], 
+        [
+            {
+                "id": "valley", 
+                "families": 4.0, 
+                "weight": 13.986013986013987, 
+                "languages": 9.0
+            }, 
+            {
+                "id": "garden", 
+                "families": 3.0, 
+                "weight": 8.07899461400359, 
+                "languages": 3.0
+            }, 
+            {
+                "id": "field (for cultivation)", 
+                "families": 11.0, 
+                "weight": 100.16556291390728, 
+                "languages": 52.0
+            }
+        ], 
+        [
+            {
+                "id": "garden", 
+                "families": 13.0, 
+                "weight": 182.11206896551724, 
+                "languages": 24.0
+            }, 
+            {
+                "id": "plain, field", 
+                "families": 11.0, 
+                "weight": 100.16556291390728, 
+                "languages": 52.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "valley", 
+            "body_part": 0, 
+            "community": 121, 
+            "key": "1.24"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "garden", 
+            "body_part": 0, 
+            "community": 121, 
+            "key": "8.13"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_60_hay", 
+                    "pasture", 
+                    9.0
+                ], 
+                [
+                    "cluster_93_soft", 
+                    "flat", 
+                    7.0
+                ], 
+                [
+                    "cluster_93_soft", 
+                    "smooth", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "plain, field", 
+            "body_part": 0, 
+            "community": 121, 
+            "key": "1.23"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_3_country", 
+                    "earth=ground, soil", 
+                    4.0
+                ], 
+                [
+                    "cluster_60_hay", 
+                    "pasture", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "field (for cultivation)", 
+            "body_part": 0, 
+            "community": 121, 
+            "key": "8.12"
+        }
+    ], 
+    "graph": []
+}

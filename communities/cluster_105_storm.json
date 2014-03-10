@@ -1,0 +1,91 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "wind", 
+                "families": 5.0, 
+                "weight": 24.22480620155039, 
+                "languages": 16.0
+            }, 
+            {
+                "id": "air", 
+                "families": 2.0, 
+                "weight": 4.282655246252677, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "storm", 
+                "families": 5.0, 
+                "weight": 24.22480620155039, 
+                "languages": 16.0
+            }, 
+            {
+                "id": "air", 
+                "families": 21.0, 
+                "weight": 495.50561797752806, 
+                "languages": 41.0
+            }
+        ], 
+        [
+            {
+                "id": "storm", 
+                "families": 2.0, 
+                "weight": 4.282655246252677, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "wind", 
+                "families": 21.0, 
+                "weight": 495.50561797752806, 
+                "languages": 41.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "storm", 
+            "body_part": 0, 
+            "community": 105, 
+            "key": "1.58"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "wind", 
+            "body_part": 0, 
+            "community": 105, 
+            "key": "1.72"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_18_day", 
+                    "weather", 
+                    7.0
+                ], 
+                [
+                    "cluster_229_breathe, breath", 
+                    "breathe, breath", 
+                    4.0
+                ], 
+                [
+                    "cluster_52_smoke (noun)", 
+                    "sky", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "air", 
+            "body_part": 0, 
+            "community": 105, 
+            "key": "1.71"
+        }
+    ], 
+    "graph": []
+}

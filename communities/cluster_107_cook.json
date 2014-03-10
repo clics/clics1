@@ -1,0 +1,155 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "boil (vb)", 
+                "families": 11.0, 
+                "weight": 109.80036297640653, 
+                "languages": 29.0
+            }, 
+            {
+                "id": "bake", 
+                "families": 7.0, 
+                "weight": 50.41152263374486, 
+                "languages": 12.0
+            }, 
+            {
+                "id": "roast, fry", 
+                "families": 5.0, 
+                "weight": 20.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "cook", 
+                "families": 11.0, 
+                "weight": 109.80036297640653, 
+                "languages": 29.0
+            }, 
+            {
+                "id": "bake", 
+                "families": 2.0, 
+                "weight": 4.0733197556008145, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "roast, fry", 
+                "families": 2.0, 
+                "weight": 3.1847133757961785, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "cook", 
+                "families": 7.0, 
+                "weight": 50.41152263374486, 
+                "languages": 12.0
+            }, 
+            {
+                "id": "boil (vb)", 
+                "families": 2.0, 
+                "weight": 4.0733197556008145, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "roast, fry", 
+                "families": 17.0, 
+                "weight": 265.625, 
+                "languages": 53.0
+            }
+        ], 
+        [
+            {
+                "id": "cook", 
+                "families": 5.0, 
+                "weight": 20.0, 
+                "languages": 7.0
+            }, 
+            {
+                "id": "boil (vb)", 
+                "families": 2.0, 
+                "weight": 3.1847133757961785, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "bake", 
+                "families": 17.0, 
+                "weight": 265.625, 
+                "languages": 53.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_142_ripe", 
+                    "cooked", 
+                    8.0
+                ], 
+                [
+                    "cluster_100_light, kindle, ignite", 
+                    "burn (vb trans)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "cook", 
+            "body_part": 0, 
+            "community": 107, 
+            "key": "5.21"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_142_ripe", 
+                    "cooked", 
+                    4.0
+                ], 
+                [
+                    "cluster_224_swelling", 
+                    "boil (noun)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "boil (vb)", 
+            "body_part": 0, 
+            "community": 107, 
+            "key": "5.22"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_94_cookhouse", 
+                    "oven", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "bake", 
+            "body_part": 0, 
+            "community": 107, 
+            "key": "5.24"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_100_light, kindle, ignite", 
+                    "burn (vb trans)", 
+                    8.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "roast, fry", 
+            "body_part": 0, 
+            "community": 107, 
+            "key": "5.23"
+        }
+    ], 
+    "graph": []
+}

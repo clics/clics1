@@ -1,0 +1,103 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "pour", 
+                "families": 6.0, 
+                "weight": 42.65402843601896, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "forge", 
+                "families": 2.0, 
+                "weight": 7.017543859649123, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "smith, blacksmith", 
+                "families": 1.0, 
+                "weight": 1.4577259475218658, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "forge", 
+                "families": 2.0, 
+                "weight": 6.369426751592357, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "cast (metals)", 
+                "families": 6.0, 
+                "weight": 42.65402843601896, 
+                "languages": 28.0
+            }, 
+            {
+                "id": "pour", 
+                "families": 1.0, 
+                "weight": 0.8787346221441125, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "cast (metals)", 
+                "families": 2.0, 
+                "weight": 7.017543859649123, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "smith, blacksmith", 
+                "families": 2.0, 
+                "weight": 6.369426751592357, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "cast (metals)", 
+            "body_part": 0, 
+            "community": 199, 
+            "key": "9.63"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "smith, blacksmith", 
+            "body_part": 0, 
+            "community": 199, 
+            "key": "9.6"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_79_run", 
+                    "flow", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "pour", 
+            "body_part": 0, 
+            "community": 199, 
+            "key": "9.35"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "forge", 
+            "body_part": 0, 
+            "community": 199, 
+            "key": "9.61"
+        }
+    ], 
+    "graph": []
+}

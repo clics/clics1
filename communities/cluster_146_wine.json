@@ -1,0 +1,93 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "wine", 
+                "families": 1.0, 
+                "weight": 1.5479876160990713, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "beer", 
+                "families": 8.0, 
+                "weight": 99.07120743034056, 
+                "languages": 9.0
+            }, 
+            {
+                "id": "fermented drink", 
+                "families": 6.0, 
+                "weight": 47.61904761904761, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "wine", 
+                "families": 8.0, 
+                "weight": 99.07120743034056, 
+                "languages": 9.0
+            }, 
+            {
+                "id": "fermented drink", 
+                "families": 8.0, 
+                "weight": 83.55091383812011, 
+                "languages": 13.0
+            }
+        ], 
+        [
+            {
+                "id": "wine", 
+                "families": 6.0, 
+                "weight": 47.61904761904761, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "beer", 
+                "families": 8.0, 
+                "weight": 83.55091383812011, 
+                "languages": 13.0
+            }, 
+            {
+                "id": "fermented drink", 
+                "families": 1.0, 
+                "weight": 1.128668171557562, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "wine", 
+            "body_part": 0, 
+            "community": 146, 
+            "key": "5.92"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "beer", 
+            "body_part": 0, 
+            "community": 146, 
+            "key": "5.93"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_68_river, stream, brook", 
+                    "beverage, drink", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "fermented drink", 
+            "body_part": 0, 
+            "community": 146, 
+            "key": "5.94"
+        }
+    ], 
+    "graph": []
+}

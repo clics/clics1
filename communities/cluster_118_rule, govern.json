@@ -1,0 +1,102 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "command, order", 
+                "families": 8.0, 
+                "weight": 66.39004149377594, 
+                "languages": 11.0
+            }, 
+            {
+                "id": "send", 
+                "families": 4.0, 
+                "weight": 16.42710472279261, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "rule, govern", 
+                "families": 4.0, 
+                "weight": 16.42710472279261, 
+                "languages": 4.0
+            }, 
+            {
+                "id": "command, order", 
+                "families": 19.0, 
+                "weight": 340.566037735849, 
+                "languages": 25.0
+            }
+        ], 
+        [
+            {
+                "id": "rule, govern", 
+                "families": 8.0, 
+                "weight": 66.39004149377594, 
+                "languages": 11.0
+            }, 
+            {
+                "id": "send", 
+                "families": 19.0, 
+                "weight": 340.566037735849, 
+                "languages": 25.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_23_lead (vb)", 
+                    "lead (vb)", 
+                    5.0
+                ], 
+                [
+                    "cluster_23_lead (vb)", 
+                    "drive", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "rule, govern", 
+            "body_part": 0, 
+            "community": 118, 
+            "key": "19.31"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "release, let go", 
+                    7.0
+                ], 
+                [
+                    "cluster_23_lead (vb)", 
+                    "drive", 
+                    5.0
+                ], 
+                [
+                    "cluster_23_lead (vb)", 
+                    "lead (vb)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "send", 
+            "body_part": 0, 
+            "community": 118, 
+            "key": "10.63"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "command, order", 
+            "body_part": 0, 
+            "community": 118, 
+            "key": "19.45"
+        }
+    ], 
+    "graph": []
+}

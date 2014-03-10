@@ -1,0 +1,126 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "judgment", 
+                "families": 2.0, 
+                "weight": 6.097560975609756, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "convict (vb)", 
+                "families": 10.0, 
+                "weight": 160.77170418006432, 
+                "languages": 29.0
+            }, 
+            {
+                "id": "judge (vb)", 
+                "families": 8.0, 
+                "weight": 95.80838323353294, 
+                "languages": 17.0
+            }
+        ], 
+        [
+            {
+                "id": "condemn", 
+                "families": 2.0, 
+                "weight": 6.097560975609756, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "judge (vb)", 
+                "families": 5.0, 
+                "weight": 38.94080996884735, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "condemn", 
+                "families": 10.0, 
+                "weight": 160.77170418006432, 
+                "languages": 29.0
+            }, 
+            {
+                "id": "judge (vb)", 
+                "families": 4.0, 
+                "weight": 25.559105431309902, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "condemn", 
+                "families": 8.0, 
+                "weight": 95.80838323353294, 
+                "languages": 17.0
+            }, 
+            {
+                "id": "judgment", 
+                "families": 5.0, 
+                "weight": 38.94080996884735, 
+                "languages": 6.0
+            }, 
+            {
+                "id": "convict (vb)", 
+                "families": 4.0, 
+                "weight": 25.559105431309902, 
+                "languages": 5.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_27_guilty", 
+                    "blame", 
+                    5.0
+                ], 
+                [
+                    "cluster_27_guilty", 
+                    "accuse", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "condemn", 
+            "body_part": 0, 
+            "community": 122, 
+            "key": "21.32"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "judgment", 
+            "body_part": 0, 
+            "community": 122, 
+            "key": "21.17"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_27_guilty", 
+                    "accuse", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "convict (vb)", 
+            "body_part": 0, 
+            "community": 122, 
+            "key": "21.33"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "judge (vb)", 
+            "body_part": 0, 
+            "community": 122, 
+            "key": "21.16"
+        }
+    ], 
+    "graph": []
+}

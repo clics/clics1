@@ -1,0 +1,287 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "id": "sow", 
+                "families": 5.0, 
+                "weight": 31.25, 
+                "languages": 17.0
+            }, 
+            {
+                "id": "pig", 
+                "families": 9.0, 
+                "weight": 94.4055944055944, 
+                "languages": 24.0
+            }, 
+            {
+                "id": "bear", 
+                "families": 2.0, 
+                "weight": 5.3908355795148255, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "cultivate, till", 
+                "families": 1.0, 
+                "weight": 1.1389521640091116, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "plow", 
+                "families": 1.0, 
+                "weight": 1.256281407035176, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "sow", 
+                "families": 22.0, 
+                "weight": 569.4117647058824, 
+                "languages": 41.0
+            }, 
+            {
+                "id": "cultivate, till", 
+                "families": 10.0, 
+                "weight": 103.30578512396694, 
+                "languages": 11.0
+            }, 
+            {
+                "id": "plow", 
+                "families": 2.0, 
+                "weight": 4.434589800443459, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "boar", 
+                "families": 9.0, 
+                "weight": 94.4055944055944, 
+                "languages": 24.0
+            }, 
+            {
+                "id": "sow", 
+                "families": 12.0, 
+                "weight": 175.18248175182484, 
+                "languages": 37.0
+            }
+        ], 
+        [
+            {
+                "id": "boar", 
+                "families": 5.0, 
+                "weight": 31.25, 
+                "languages": 17.0
+            }, 
+            {
+                "id": "cultivate, till", 
+                "families": 9.0, 
+                "weight": 94.62616822429906, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "plant (vb)", 
+                "families": 22.0, 
+                "weight": 569.4117647058824, 
+                "languages": 41.0
+            }, 
+            {
+                "id": "pig", 
+                "families": 12.0, 
+                "weight": 175.18248175182484, 
+                "languages": 37.0
+            }, 
+            {
+                "id": "sow", 
+                "families": 1.0, 
+                "weight": 1.2853470437017993, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "plow", 
+                "families": 2.0, 
+                "weight": 5.076142131979695, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "sow", 
+                "families": 2.0, 
+                "weight": 5.076142131979695, 
+                "languages": 5.0
+            }, 
+            {
+                "id": "farmer", 
+                "families": 1.0, 
+                "weight": 1.256281407035176, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "plant (vb)", 
+                "families": 2.0, 
+                "weight": 4.434589800443459, 
+                "languages": 2.0
+            }, 
+            {
+                "id": "cultivate, till", 
+                "families": 11.0, 
+                "weight": 140.0462962962963, 
+                "languages": 26.0
+            }
+        ], 
+        [
+            {
+                "id": "sow", 
+                "families": 9.0, 
+                "weight": 94.62616822429906, 
+                "languages": 10.0
+            }, 
+            {
+                "id": "farmer", 
+                "families": 1.0, 
+                "weight": 1.1389521640091116, 
+                "languages": 1.0
+            }, 
+            {
+                "id": "plow", 
+                "families": 11.0, 
+                "weight": 140.0462962962963, 
+                "languages": 26.0
+            }, 
+            {
+                "id": "plant (vb)", 
+                "families": 10.0, 
+                "weight": 103.30578512396694, 
+                "languages": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "boar", 
+                "families": 2.0, 
+                "weight": 5.3908355795148255, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_5_male", 
+                    "stallion", 
+                    5.0
+                ], 
+                [
+                    "cluster_5_male", 
+                    "male (adj)", 
+                    5.0
+                ], 
+                [
+                    "cluster_5_male", 
+                    "man (vs. woman)", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "boar", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "3.32"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "farmer", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "8.11"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_220_hide, conceal", 
+                    "bury (the dead)", 
+                    7.0
+                ], 
+                [
+                    "cluster_60_hay", 
+                    "plant (noun)", 
+                    5.0
+                ], 
+                [
+                    "cluster_32_do, make", 
+                    "build", 
+                    4.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "plant (vb)", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "8.531"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "pig", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "3.35"
+        }, 
+        {
+            "out_edge": [
+                [
+                    "cluster_17_wife", 
+                    "female (adj)", 
+                    6.0
+                ], 
+                [
+                    "cluster_17_wife", 
+                    "woman", 
+                    5.0
+                ], 
+                [
+                    "cluster_17_wife", 
+                    "female", 
+                    5.0
+                ]
+            ], 
+            "swadesh100": 0, 
+            "id": "sow", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "3.34"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "plow", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "8.21"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "cultivate, till", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "8.15"
+        }, 
+        {
+            "out_edge": [], 
+            "swadesh100": 0, 
+            "id": "bear", 
+            "body_part": 0, 
+            "community": 34, 
+            "key": "3.73"
+        }
+    ], 
+    "graph": []
+}
