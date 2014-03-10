@@ -1,0 +1,118 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "egg yolk", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "egg yolk", 
+                "weight": 4.0, 
+                "languages": 8.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "red", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "red", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "gums", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "yellow", 
+                "weight": 4.0, 
+                "languages": 8.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "yellow", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "blood", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "red", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "gums", 
+            "community": 211, 
+            "key": "4.271", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": []
+        }, 
+        {
+            "id": "yellow", 
+            "community": 211, 
+            "key": "15.69", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "green", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "blood", 
+            "community": 211, 
+            "key": "4.15", 
+            "swadesh100": 1, 
+            "body_part": 1, 
+            "out_edge": []
+        }, 
+        {
+            "id": "egg yolk", 
+            "community": 211, 
+            "key": "5.971", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "red", 
+            "community": 211, 
+            "key": "15.66", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

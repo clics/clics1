@@ -1,0 +1,216 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "why?", 
+                "weight": 7.0, 
+                "languages": 7.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "which?", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "who?", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "what?", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "where?", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "how?", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "why?", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "what?", 
+                "weight": 6.0, 
+                "languages": 12.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "which?", 
+                "weight": 8.0, 
+                "languages": 13.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "how?", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "why?", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "who?", 
+                "weight": 6.0, 
+                "languages": 12.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "which?", 
+                "weight": 8.0, 
+                "languages": 16.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "id": "how?", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "which?", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "how?", 
+                "weight": 7.0, 
+                "languages": 7.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "who?", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "what?", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "how?", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "who?", 
+                "weight": 8.0, 
+                "languages": 13.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "what?", 
+                "weight": 8.0, 
+                "languages": 16.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "where?", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "how?", 
+            "community": 84, 
+            "key": "17.61", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "how much?", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "who?", 
+            "community": 84, 
+            "key": "17.68", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "what?", 
+            "community": 84, 
+            "key": "17.64", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "thing", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "where?", 
+            "community": 84, 
+            "key": "17.66", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "why?", 
+            "community": 84, 
+            "key": "17.69", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "because", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "which?", 
+            "community": 84, 
+            "key": "17.67", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

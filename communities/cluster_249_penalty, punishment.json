@@ -1,0 +1,47 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "penalty, punishment", 
+                "weight": 5.0, 
+                "languages": 10.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "fine", 
+                "weight": 5.0, 
+                "languages": 10.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "penalty, punishment", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "fine", 
+            "community": 249, 
+            "key": "21.38", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "penalty, punishment", 
+            "community": 249, 
+            "key": "21.37", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

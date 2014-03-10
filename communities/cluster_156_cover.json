@@ -1,0 +1,46 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "shut, close", 
+                "weight": 21.0, 
+                "languages": 27.0, 
+                "families": 21.0
+            }
+        ], 
+        [
+            {
+                "id": "cover", 
+                "weight": 21.0, 
+                "languages": 27.0, 
+                "families": 21.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "cover", 
+            "community": 156, 
+            "key": "12.26", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "shut, close", 
+            "community": 156, 
+            "key": "12.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "tie, bind", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

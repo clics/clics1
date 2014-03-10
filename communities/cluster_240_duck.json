@@ -1,0 +1,107 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "goose", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "seagull", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "yoke", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "duck", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "yoke", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "duck", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "bat", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "goose", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "duck", 
+            "community": 240, 
+            "key": "3.57", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bat", 
+            "community": 240, 
+            "key": "3.591", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "goose", 
+            "community": 240, 
+            "key": "3.56", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "seagull", 
+            "community": 240, 
+            "key": "3.582", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "yoke", 
+            "community": 240, 
+            "key": "10.78", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

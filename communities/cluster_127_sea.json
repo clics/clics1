@@ -1,0 +1,61 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "sea", 
+                "weight": 29.0, 
+                "languages": 58.0, 
+                "families": 29.0
+            }
+        ], 
+        [
+            {
+                "id": "ocean", 
+                "weight": 29.0, 
+                "languages": 58.0, 
+                "families": 29.0
+            }, 
+            {
+                "id": "sea", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "ocean", 
+            "community": 127, 
+            "key": "1.329", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "lake", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "sea", 
+            "community": 127, 
+            "key": "1.32", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "lake", 
+                    7.0
+                ], 
+                [
+                    "river, stream, brook", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

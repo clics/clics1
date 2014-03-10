@@ -1,0 +1,150 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "walk", 
+                "weight": 7.0, 
+                "languages": 12.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "go", 
+                "weight": 21.0, 
+                "languages": 47.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "go out", 
+                "weight": 11.0, 
+                "languages": 19.0, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "go away, depart", 
+                "weight": 7.0, 
+                "languages": 12.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "go", 
+                "weight": 20.0, 
+                "languages": 53.0, 
+                "families": 20.0
+            }
+        ], 
+        [
+            {
+                "id": "go away, depart", 
+                "weight": 21.0, 
+                "languages": 47.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "walk", 
+                "weight": 20.0, 
+                "languages": 53.0, 
+                "families": 20.0
+            }, 
+            {
+                "id": "go", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "go out", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "go away, depart", 
+                "weight": 11.0, 
+                "languages": 19.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "go", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "go away, depart", 
+            "community": 62, 
+            "key": "10.49", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "walk", 
+            "community": 62, 
+            "key": "10.45", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "move", 
+                    5.0
+                ], 
+                [
+                    "ride", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "go", 
+            "community": 62, 
+            "key": "10.47", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "come", 
+                    8.0
+                ], 
+                [
+                    "ride", 
+                    6.0
+                ], 
+                [
+                    "flow", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "go out", 
+            "community": 62, 
+            "key": "10.474", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "rise", 
+                    5.0
+                ], 
+                [
+                    "born (to be)", 
+                    5.0
+                ], 
+                [
+                    "land (vb)", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

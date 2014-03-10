@@ -1,0 +1,151 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "if", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "cause", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "because", 
+                "weight": 9.0, 
+                "languages": 9.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "yes, affirmative", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "if", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "because", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "when?", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "cause", 
+                "weight": 9.0, 
+                "languages": 9.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "because", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "if", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "when?", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "because", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "if", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "yes, affirmative", 
+            "community": 138, 
+            "key": "17.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "cause", 
+            "community": 138, 
+            "key": "17.42", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "let, permit", 
+                    5.0
+                ], 
+                [
+                    "do, make", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "if", 
+            "community": 138, 
+            "key": "17.53", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "because", 
+            "community": 138, 
+            "key": "17.52", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "why?", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "when?", 
+            "community": 138, 
+            "key": "17.65", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

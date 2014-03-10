@@ -1,0 +1,68 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "wages", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "wages", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "tax, tribute", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "price", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "tax, tribute", 
+            "community": 203, 
+            "key": "11.69", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "price", 
+            "community": 203, 
+            "key": "11.87", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "wages", 
+            "community": 203, 
+            "key": "11.78", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "pay (vb)", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

@@ -91,7 +91,27 @@ for i,s in enumerate(communities.subgraphs()):
 
     comms += [i+1]
 
+for s,t,d in newg.edges(data=True):
+    
+    if newg.node[s]['community'] == newg.node[t]['community']:
+        pass
+    else:
+        try:
+            newg.node[s]['out_edge'] += [(t,d['families'])]
+        except:
+            newg.node[s]['out_edge'] = [(t,d['families'])]
+        
+        try:
+            newg.node[t]['out_edge'] += [(s,d['families'])]
+        except:
+            newg.node[t]['out_edge'] = [(s,d['families'])]
 
+for node,data in newg.nodes(data=True):
+
+    if 'out_edge' in data:
+        data['out_edge'] = [s for s in sorted(data['out_edge'], key=lambda x:x[1],
+                reverse=True)[:3] if s[1] > 3]
+    
 
 nx.write_gml(newg,'output/clics_communities.gml')
 graph2json(newg,'output/clics_communities')
@@ -118,7 +138,7 @@ for c in comms:
     
     if '/' in d:
         d = d.replace('/','_')
-    graph2json(subG,'xcommunities/cluster_{0}_{1}'.format(c,d))
+    graph2json(subG,'communities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,d,len(subG.nodes()))
             )
     

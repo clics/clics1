@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "stocking, sock", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "shoe", 
+                "weight": 12.0, 
+                "languages": 28.0, 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "id": "boot", 
+                "weight": 12.0, 
+                "languages": 28.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "stocking, sock", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "boot", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "shoe", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "boot", 
+            "community": 178, 
+            "key": "6.52", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "shoe", 
+            "community": 178, 
+            "key": "6.51", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "stocking, sock", 
+            "community": 178, 
+            "key": "6.49", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

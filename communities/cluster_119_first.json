@@ -1,0 +1,139 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "begin, beginning", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "first", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "before", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "begin, beginning", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "first", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "before", 
+                "weight": 15.0, 
+                "languages": 18.0, 
+                "families": 15.0
+            }, 
+            {
+                "id": "right (side)", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "begin, beginning", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "first", 
+                "weight": 15.0, 
+                "languages": 18.0, 
+                "families": 15.0
+            }, 
+            {
+                "id": "right (side)", 
+                "weight": 14.0, 
+                "languages": 50.0, 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "id": "first", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "before", 
+                "weight": 14.0, 
+                "languages": 50.0, 
+                "families": 14.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "begin, beginning", 
+            "community": 119, 
+            "key": "14.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "first", 
+            "community": 119, 
+            "key": "13.34", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "before", 
+            "community": 119, 
+            "key": "12.4", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "early", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "right (side)", 
+            "community": 119, 
+            "key": "12.41", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "straight", 
+                    6.0
+                ], 
+                [
+                    "right, correct", 
+                    5.0
+                ], 
+                [
+                    "true", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

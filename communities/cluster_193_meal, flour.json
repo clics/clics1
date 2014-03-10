@@ -1,0 +1,146 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "dough", 
+                "weight": 4.0, 
+                "languages": 12.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "bread", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "whale", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "meal, flour", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "bread", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "shark", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "meal, flour", 
+                "weight": 4.0, 
+                "languages": 12.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "shark", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "meal, flour", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "whale", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "island", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "whale", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "meal, flour", 
+            "community": 193, 
+            "key": "5.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "dust", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "whale", 
+            "community": 193, 
+            "key": "3.663", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "dough", 
+            "community": 193, 
+            "key": "5.53", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "island", 
+            "community": 193, 
+            "key": "1.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bread", 
+            "community": 193, 
+            "key": "5.51", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "shark", 
+            "community": 193, 
+            "key": "3.661", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "blind", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "blink", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "blind", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "blink", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "blind", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "blunt, dull", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "blunt, dull", 
+            "community": 247, 
+            "key": "15.79", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "blink", 
+            "community": 247, 
+            "key": "4.215", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": []
+        }, 
+        {
+            "id": "blind", 
+            "community": 247, 
+            "key": "4.97", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

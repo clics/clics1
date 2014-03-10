@@ -1,0 +1,242 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "cease, stop", 
+                "weight": 12.0, 
+                "languages": 15.0, 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "id": "end", 
+                "weight": 11.0, 
+                "languages": 15.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "cease, stop", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "end (temporal)", 
+                "weight": 9.0, 
+                "languages": 11.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "finish", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "last", 
+                "weight": 11.0, 
+                "languages": 15.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "end (temporal)", 
+                "weight": 18.0, 
+                "languages": 57.0, 
+                "families": 18.0
+            }, 
+            {
+                "id": "finish", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "end", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "stand", 
+                "weight": 12.0, 
+                "languages": 15.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "last", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "end (temporal)", 
+                "weight": 4.0, 
+                "languages": 8.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "finish", 
+                "weight": 12.0, 
+                "languages": 16.0, 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "id": "last", 
+                "weight": 9.0, 
+                "languages": 11.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "cease, stop", 
+                "weight": 4.0, 
+                "languages": 8.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "finish", 
+                "weight": 11.0, 
+                "languages": 27.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "end", 
+                "weight": 18.0, 
+                "languages": 57.0, 
+                "families": 18.0
+            }
+        ], 
+        [
+            {
+                "id": "end", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "cease, stop", 
+                "weight": 12.0, 
+                "languages": 16.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "end (temporal)", 
+                "weight": 11.0, 
+                "languages": 27.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "finish", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "last", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "stand", 
+            "community": 33, 
+            "key": "12.15", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "rise", 
+                    8.0
+                ]
+            ]
+        }, 
+        {
+            "id": "last", 
+            "community": 33, 
+            "key": "13.35", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "place", 
+                    6.0
+                ], 
+                [
+                    "late", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "end", 
+            "community": 33, 
+            "key": "12.35", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "edge", 
+                    7.0
+                ], 
+                [
+                    "top", 
+                    7.0
+                ], 
+                [
+                    "boundary", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "cease, stop", 
+            "community": 33, 
+            "key": "14.28", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "release, let go", 
+                    4.0
+                ], 
+                [
+                    "remain, stay", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "end (temporal)", 
+            "community": 33, 
+            "key": "14.26", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "finish", 
+            "community": 33, 
+            "key": "14.27", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "destroy", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

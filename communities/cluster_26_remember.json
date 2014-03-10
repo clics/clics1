@@ -1,0 +1,318 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "remember", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "think (= be of the opinion)", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 13.0, 
+                "languages": 17.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "believe", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "guess", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "doubt", 
+                "weight": 9.0, 
+                "languages": 12.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "think (= be of the opinion)", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "believe", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "guess", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "remember", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "suspect", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 23.0, 
+                "languages": 61.0, 
+                "families": 23.0
+            }, 
+            {
+                "id": "believe", 
+                "weight": 12.0, 
+                "languages": 24.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "guess", 
+                "weight": 6.0, 
+                "languages": 20.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "remember", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "suspect", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "think (= be of the opinion)", 
+                "weight": 6.0, 
+                "languages": 20.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "believe", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 6.0, 
+                "languages": 13.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "suspect", 
+                "weight": 9.0, 
+                "languages": 12.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "remember", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "suspect", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "think (= be of the opinion)", 
+                "weight": 12.0, 
+                "languages": 24.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "think (= reflect)", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "guess", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "remember", 
+                "weight": 13.0, 
+                "languages": 17.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "suspect", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "think (= be of the opinion)", 
+                "weight": 23.0, 
+                "languages": 61.0, 
+                "families": 23.0
+            }, 
+            {
+                "id": "guess", 
+                "weight": 6.0, 
+                "languages": 13.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "doubt", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "believe", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "remember", 
+            "community": 26, 
+            "key": "17.31", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "understand", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "suspect", 
+            "community": 26, 
+            "key": "17.44", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "think (= be of the opinion)", 
+            "community": 26, 
+            "key": "17.14", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "count", 
+                    6.0
+                ], 
+                [
+                    "know", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "guess", 
+            "community": 26, 
+            "key": "17.171", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "know", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "doubt", 
+            "community": 26, 
+            "key": "17.43", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "believe", 
+            "community": 26, 
+            "key": "17.15", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "obey", 
+                    8.0
+                ], 
+                [
+                    "hope", 
+                    4.0
+                ], 
+                [
+                    "know", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "think (= reflect)", 
+            "community": 26, 
+            "key": "17.13", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "mind", 
+                    11.0
+                ], 
+                [
+                    "idea, notion", 
+                    6.0
+                ]
+            ]
+        }
+    ]
+}

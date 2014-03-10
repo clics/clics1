@@ -1,0 +1,84 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "spade", 
+                "weight": 7.0, 
+                "languages": 8.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "shovel", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "hoe", 
+                "weight": 7.0, 
+                "languages": 8.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "shovel", 
+                "weight": 18.0, 
+                "languages": 61.0, 
+                "families": 18.0
+            }
+        ], 
+        [
+            {
+                "id": "hoe", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "spade", 
+                "weight": 18.0, 
+                "languages": 61.0, 
+                "families": 18.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "hoe", 
+            "community": 124, 
+            "key": "8.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "spade", 
+            "community": 124, 
+            "key": "8.23", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "paddle (noun)", 
+                    4.0
+                ], 
+                [
+                    "shoulderblade", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "shovel", 
+            "community": 124, 
+            "key": "8.24", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

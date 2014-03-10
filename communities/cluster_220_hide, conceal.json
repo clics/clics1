@@ -1,0 +1,102 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "bury (the dead)", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "rudder", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "secret", 
+                "weight": 2.0, 
+                "languages": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "hide, conceal", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "secret", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "hide, conceal", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "bury (the dead)", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "hide, conceal", 
+                "weight": 2.0, 
+                "languages": 3.0, 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "hide, conceal", 
+            "community": 220, 
+            "key": "12.27", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bury (the dead)", 
+            "community": 220, 
+            "key": "4.78", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "plant (vb)", 
+                    7.0
+                ]
+            ]
+        }, 
+        {
+            "id": "rudder", 
+            "community": 220, 
+            "key": "10.86", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "secret", 
+            "community": 220, 
+            "key": "17.36", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

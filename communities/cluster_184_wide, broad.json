@@ -1,0 +1,94 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "wide, broad", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "large, big", 
+                "weight": 11.0, 
+                "languages": 12.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "thick (in dimension)", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "wide, broad", 
+                "weight": 11.0, 
+                "languages": 12.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "thick (in dimension)", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "wide, broad", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "large, big", 
+                "weight": 6.0, 
+                "languages": 6.0, 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "wide, broad", 
+            "community": 184, 
+            "key": "12.61", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "large, big", 
+            "community": 184, 
+            "key": "12.55", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "tall", 
+                    9.0
+                ], 
+                [
+                    "high", 
+                    7.0
+                ], 
+                [
+                    "much, many", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "thick (in dimension)", 
+            "community": 184, 
+            "key": "12.63", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "one", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "alone, only", 
+                "weight": 9.0, 
+                "languages": 32.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "one", 
+                "weight": 9.0, 
+                "languages": 32.0, 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "one", 
+            "community": 235, 
+            "key": "13.1", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "some", 
+                    4.0
+                ], 
+                [
+                    "little (quantity), few", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "alone, only", 
+            "community": 235, 
+            "key": "13.33", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "ointment", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "grease, fat", 
+                "weight": 27.0, 
+                "languages": 39.0, 
+                "families": 27.0
+            }, 
+            {
+                "id": "butter", 
+                "weight": 9.0, 
+                "languages": 17.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "oil", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "grease, fat", 
+                "weight": 8.0, 
+                "languages": 8.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "butter", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "oil", 
+                "weight": 27.0, 
+                "languages": 39.0, 
+                "families": 27.0
+            }, 
+            {
+                "id": "ointment", 
+                "weight": 8.0, 
+                "languages": 8.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "butter", 
+                "weight": 11.0, 
+                "languages": 11.0, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "oil", 
+                "weight": 9.0, 
+                "languages": 17.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "ointment", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "grease, fat", 
+                "weight": 11.0, 
+                "languages": 11.0, 
+                "families": 11.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "oil", 
+            "community": 69, 
+            "key": "5.79", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "ointment", 
+            "community": 69, 
+            "key": "6.94", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "medicine, drug", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "grease, fat", 
+            "community": 69, 
+            "key": "5.791", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "butter", 
+            "community": 69, 
+            "key": "5.89", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

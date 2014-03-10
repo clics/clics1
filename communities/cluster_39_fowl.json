@@ -1,0 +1,232 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "cock, rooster", 
+                "weight": 11.0, 
+                "languages": 15.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "fowl", 
+                "weight": 14.0, 
+                "languages": 19.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "chicken", 
+                "weight": 19.0, 
+                "languages": 31.0, 
+                "families": 19.0
+            }
+        ], 
+        [
+            {
+                "id": "cock, rooster", 
+                "weight": 4.0, 
+                "languages": 7.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "hen", 
+                "weight": 14.0, 
+                "languages": 19.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "bird", 
+                "weight": 20.0, 
+                "languages": 33.0, 
+                "families": 20.0
+            }, 
+            {
+                "id": "heron", 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "chicken", 
+                "weight": 9.0, 
+                "languages": 13.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "hen", 
+                "weight": 11.0, 
+                "languages": 15.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "fowl", 
+                "weight": 4.0, 
+                "languages": 7.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "chicken", 
+                "weight": 10.0, 
+                "languages": 13.0, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "id": "bird", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "heron", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "parrot", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "fowl", 
+                "weight": 20.0, 
+                "languages": 33.0, 
+                "families": 20.0
+            }, 
+            {
+                "id": "heron", 
+                "weight": 3.0, 
+                "languages": 28.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "chicken", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "parrot", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "bird", 
+                "weight": 3.0, 
+                "languages": 28.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "fowl", 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "cock, rooster", 
+                "weight": 10.0, 
+                "languages": 13.0, 
+                "families": 10.0
+            }, 
+            {
+                "id": "hen", 
+                "weight": 19.0, 
+                "languages": 31.0, 
+                "families": 19.0
+            }, 
+            {
+                "id": "bird", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "fowl", 
+                "weight": 9.0, 
+                "languages": 13.0, 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "hen", 
+            "community": 39, 
+            "key": "3.54", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "fowl", 
+            "community": 39, 
+            "key": "3.5", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "cock, rooster", 
+            "community": 39, 
+            "key": "3.52", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "parrot", 
+            "community": 39, 
+            "key": "3.592", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bird", 
+            "community": 39, 
+            "key": "3.581", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "animal", 
+                    5.0
+                ], 
+                [
+                    "penis", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "heron", 
+            "community": 39, 
+            "key": "3.583", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "chicken", 
+            "community": 39, 
+            "key": "3.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

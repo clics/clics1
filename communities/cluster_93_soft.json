@@ -1,0 +1,200 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "soft", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "lazy", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "smooth", 
+                "weight": 12.0, 
+                "languages": 14.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "weak", 
+                "weight": 7.0, 
+                "languages": 9.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "smooth", 
+                "weight": 7.0, 
+                "languages": 21.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "soft", 
+                "weight": 12.0, 
+                "languages": 14.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "flat", 
+                "weight": 7.0, 
+                "languages": 21.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "weak", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "soft", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "tired, weary", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "weak", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "lazy", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "tired, weary", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "weak", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "soft", 
+                "weight": 7.0, 
+                "languages": 9.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "lazy", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "smooth", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "tired, weary", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "soft", 
+            "community": 93, 
+            "key": "15.75", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "flat", 
+            "community": 93, 
+            "key": "12.71", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "plain, field", 
+                    7.0
+                ], 
+                [
+                    "straight", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "smooth", 
+            "community": 93, 
+            "key": "15.77", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "straight", 
+                    7.0
+                ], 
+                [
+                    "plain, field", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "lazy", 
+            "community": 93, 
+            "key": "4.92", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "tired, weary", 
+            "community": 93, 
+            "key": "4.91", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "weak", 
+            "community": 93, 
+            "key": "4.82", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "thin (in dimension)", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

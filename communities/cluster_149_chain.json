@@ -1,0 +1,107 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "bead", 
+                "weight": 13.0, 
+                "languages": 21.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "chain", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "sling", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "chain", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "necklace", 
+                "weight": 13.0, 
+                "languages": 21.0, 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "id": "necklace", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "sling", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "chain", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "necklace", 
+            "community": 149, 
+            "key": "6.75", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "collar", 
+                    7.0
+                ]
+            ]
+        }, 
+        {
+            "id": "sling", 
+            "community": 149, 
+            "key": "20.23", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bead", 
+            "community": 149, 
+            "key": "6.76", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "seed", 
+                    7.0
+                ]
+            ]
+        }, 
+        {
+            "id": "chain", 
+            "community": 149, 
+            "key": "9.18", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

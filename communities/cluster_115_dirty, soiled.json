@@ -1,0 +1,99 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "ugly", 
+                "weight": 23.0, 
+                "languages": 33.0, 
+                "families": 23.0
+            }, 
+            {
+                "id": "dirty, soiled", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "bad", 
+                "weight": 23.0, 
+                "languages": 33.0, 
+                "families": 23.0
+            }, 
+            {
+                "id": "dirty, soiled", 
+                "weight": 7.0, 
+                "languages": 7.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "bad", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "ugly", 
+                "weight": 7.0, 
+                "languages": 7.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "dirty, soiled", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "bad", 
+            "community": 115, 
+            "key": "16.72", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "wrong", 
+                    12.0
+                ], 
+                [
+                    "anger", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "ugly", 
+            "community": 115, 
+            "key": "16.82", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "dirty, soiled", 
+            "community": 115, 
+            "key": "15.88", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "black", 
+                    5.0
+                ], 
+                [
+                    "dark (in color)", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

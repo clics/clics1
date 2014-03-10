@@ -1,0 +1,88 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "wind", 
+                "weight": 5.0, 
+                "languages": 16.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "air", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "storm", 
+                "weight": 5.0, 
+                "languages": 16.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "air", 
+                "weight": 21.0, 
+                "languages": 41.0, 
+                "families": 21.0
+            }
+        ], 
+        [
+            {
+                "id": "wind", 
+                "weight": 21.0, 
+                "languages": 41.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "storm", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "storm", 
+            "community": 105, 
+            "key": "1.58", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "wind", 
+            "community": 105, 
+            "key": "1.72", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "air", 
+            "community": 105, 
+            "key": "1.71", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "weather", 
+                    7.0
+                ], 
+                [
+                    "sky", 
+                    4.0
+                ], 
+                [
+                    "breathe, breath", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "tattoo", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "elephant", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "statue", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "elephant", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "statue", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "blister", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "statue", 
+            "community": 251, 
+            "key": "9.83", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "tattoo", 
+            "community": 251, 
+            "key": "6.79", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "blister", 
+            "community": 251, 
+            "key": "4.855", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "elephant", 
+            "community": 251, 
+            "key": "3.77", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,0 +1,145 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "uncle", 
+                "weight": 27.0, 
+                "languages": 73.0, 
+                "families": 27.0
+            }, 
+            {
+                "id": "father's brother", 
+                "weight": 15.0, 
+                "languages": 44.0, 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "id": "mother's brother", 
+                "weight": 27.0, 
+                "languages": 73.0, 
+                "families": 27.0
+            }, 
+            {
+                "id": "father", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "father's brother", 
+                "weight": 23.0, 
+                "languages": 68.0, 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "id": "mother's brother", 
+                "weight": 15.0, 
+                "languages": 44.0, 
+                "families": 15.0
+            }, 
+            {
+                "id": "father", 
+                "weight": 11.0, 
+                "languages": 18.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "uncle", 
+                "weight": 23.0, 
+                "languages": 68.0, 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "id": "uncle", 
+                "weight": 5.0, 
+                "languages": 8.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "father's brother", 
+                "weight": 11.0, 
+                "languages": 18.0, 
+                "families": 11.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "mother's brother", 
+            "community": 88, 
+            "key": "2.511", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "father-in-law (of a man)", 
+                    9.0
+                ], 
+                [
+                    "father-in-law (of a woman)", 
+                    6.0
+                ], 
+                [
+                    "aunt", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "uncle", 
+            "community": 88, 
+            "key": "2.51", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "father-in-law (of a man)", 
+                    7.0
+                ], 
+                [
+                    "aunt", 
+                    6.0
+                ], 
+                [
+                    "brother", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "father's brother", 
+            "community": 88, 
+            "key": "2.512", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "father's sister", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "father", 
+            "community": 88, 
+            "key": "2.35", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "stepfather", 
+                    5.0
+                ]
+            ]
+        }
+    ]
+}

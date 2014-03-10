@@ -1,0 +1,55 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "peel", 
+                "weight": 23.0, 
+                "languages": 38.0, 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "id": "flay, skin", 
+                "weight": 23.0, 
+                "languages": 38.0, 
+                "families": 23.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "flay, skin", 
+            "community": 157, 
+            "key": "9.29", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "leather", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "peel", 
+            "community": 157, 
+            "key": "5.46", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "scrape", 
+                    5.0
+                ], 
+                [
+                    "skin, hide", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

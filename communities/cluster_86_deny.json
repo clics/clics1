@@ -1,0 +1,136 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "forbid", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "hinder, prevent", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "refuse", 
+                "weight": 14.0, 
+                "languages": 26.0, 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "id": "deny", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "hinder, prevent", 
+                "weight": 12.0, 
+                "languages": 14.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "refuse", 
+                "weight": 10.0, 
+                "languages": 10.0, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "id": "deny", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "forbid", 
+                "weight": 12.0, 
+                "languages": 14.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "refuse", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "deny", 
+                "weight": 14.0, 
+                "languages": 26.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "forbid", 
+                "weight": 10.0, 
+                "languages": 10.0, 
+                "families": 10.0
+            }, 
+            {
+                "id": "hinder, prevent", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "deny", 
+            "community": 86, 
+            "key": "18.34", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "no, negative", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "forbid", 
+            "community": 86, 
+            "key": "18.38", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "defend", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "hinder, prevent", 
+            "community": 86, 
+            "key": "19.59", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "defend", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "refuse", 
+            "community": 86, 
+            "key": "18.37", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

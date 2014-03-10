@@ -1,0 +1,125 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "east", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "south", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "left (side)", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "south", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "west", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "south", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "south", 
+                "weight": 7.0, 
+                "languages": 8.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "id": "west", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "left (side)", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "east", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "north", 
+                "weight": 7.0, 
+                "languages": 8.0, 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "west", 
+            "community": 210, 
+            "key": "12.46", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "left (side)", 
+            "community": 210, 
+            "key": "12.42", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "east", 
+            "community": 210, 
+            "key": "12.45", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "north", 
+            "community": 210, 
+            "key": "12.47", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "south", 
+            "community": 210, 
+            "key": "12.48", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

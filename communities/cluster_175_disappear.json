@@ -1,0 +1,91 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "lose", 
+                "weight": 4.0, 
+                "languages": 5.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "disappear", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "forget", 
+                "weight": 4.0, 
+                "languages": 5.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "disappear", 
+                "weight": 13.0, 
+                "languages": 26.0, 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "id": "forget", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "lose", 
+                "weight": 13.0, 
+                "languages": 26.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "disappear", 
+                "weight": 2.0, 
+                "languages": 3.0, 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "forget", 
+            "community": 175, 
+            "key": "17.32", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "lose", 
+            "community": 175, 
+            "key": "11.33", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "destroy", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "disappear", 
+            "community": 175, 
+            "key": "10.491", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "die, dead", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "thumb", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "toe", 
+                "weight": 15.0, 
+                "languages": 46.0, 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "id": "finger", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "toe", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "finger", 
+                "weight": 15.0, 
+                "languages": 46.0, 
+                "families": 15.0
+            }, 
+            {
+                "id": "thumb", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "toe", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "finger", 
+            "community": 191, 
+            "key": "4.34", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [
+                [
+                    "claw", 
+                    6.0
+                ], 
+                [
+                    "hand", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "thumb", 
+            "community": 191, 
+            "key": "4.342", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": []
+        }, 
+        {
+            "id": "toe", 
+            "community": 191, 
+            "key": "4.38", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [
+                [
+                    "claw", 
+                    5.0
+                ], 
+                [
+                    "foot", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

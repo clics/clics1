@@ -1,0 +1,51 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "bite", 
+                "weight": 9.0, 
+                "languages": 14.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "chew", 
+                "weight": 9.0, 
+                "languages": 14.0, 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "chew", 
+            "community": 233, 
+            "key": "5.18", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "eat", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "bite", 
+            "community": 233, 
+            "key": "4.58", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "eat", 
+                    6.0
+                ]
+            ]
+        }
+    ]
+}

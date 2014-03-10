@@ -1,0 +1,257 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "teach", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "learn", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "study", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "teach", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "read", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "learn", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "study", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "school", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "sing", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "read", 
+                "weight": 4.0, 
+                "languages": 10.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "learn", 
+                "weight": 12.0, 
+                "languages": 28.0, 
+                "families": 12.0
+            }, 
+            {
+                "id": "study", 
+                "weight": 11.0, 
+                "languages": 29.0, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "school", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "sing", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "read", 
+                "weight": 11.0, 
+                "languages": 29.0, 
+                "families": 11.0
+            }, 
+            {
+                "id": "learn", 
+                "weight": 26.0, 
+                "languages": 67.0, 
+                "families": 26.0
+            }, 
+            {
+                "id": "teach", 
+                "weight": 11.0, 
+                "languages": 29.0, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "teach", 
+                "weight": 4.0, 
+                "languages": 10.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "sing", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "learn", 
+                "weight": 4.0, 
+                "languages": 14.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "study", 
+                "weight": 11.0, 
+                "languages": 29.0, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "id": "study", 
+                "weight": 26.0, 
+                "languages": 67.0, 
+                "families": 26.0
+            }, 
+            {
+                "id": "school", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "sing", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "read", 
+                "weight": 4.0, 
+                "languages": 14.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "teach", 
+                "weight": 12.0, 
+                "languages": 28.0, 
+                "families": 12.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "school", 
+            "community": 42, 
+            "key": "17.28", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "sing", 
+            "community": 42, 
+            "key": "18.12", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "shout, cry out", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "teach", 
+            "community": 42, 
+            "key": "17.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "explain", 
+                    9.0
+                ], 
+                [
+                    "show", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "study", 
+            "community": 42, 
+            "key": "17.242", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "read", 
+            "community": 42, 
+            "key": "18.52", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "count", 
+                    8.0
+                ], 
+                [
+                    "look, look at", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "learn", 
+            "community": 42, 
+            "key": "17.24", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "know", 
+                    11.0
+                ], 
+                [
+                    "understand", 
+                    5.0
+                ]
+            ]
+        }
+    ]
+}

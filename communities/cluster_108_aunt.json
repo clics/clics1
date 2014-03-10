@@ -1,0 +1,158 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "aunt", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "father's sister", 
+                "weight": 21.0, 
+                "languages": 66.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "mother's sister", 
+                "weight": 22.0, 
+                "languages": 69.0, 
+                "families": 22.0
+            }, 
+            {
+                "id": "mother", 
+                "weight": 5.0, 
+                "languages": 9.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "aunt", 
+                "weight": 21.0, 
+                "languages": 66.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "mother's sister", 
+                "weight": 14.0, 
+                "languages": 43.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "mother", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "id": "aunt", 
+                "weight": 22.0, 
+                "languages": 69.0, 
+                "families": 22.0
+            }, 
+            {
+                "id": "father's sister", 
+                "weight": 14.0, 
+                "languages": 43.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "mother", 
+                "weight": 12.0, 
+                "languages": 17.0, 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "id": "aunt", 
+                "weight": 5.0, 
+                "languages": 9.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "father's sister", 
+                "weight": 2.0, 
+                "languages": 2.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "mother's sister", 
+                "weight": 12.0, 
+                "languages": 17.0, 
+                "families": 12.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "aunt", 
+            "community": 108, 
+            "key": "2.52", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "uncle", 
+                    6.0
+                ], 
+                [
+                    "mother's brother", 
+                    5.0
+                ], 
+                [
+                    "cousin", 
+                    5.0
+                ]
+            ]
+        }, 
+        {
+            "id": "father's sister", 
+            "community": 108, 
+            "key": "2.522", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "mother-in-law (of a man)", 
+                    10.0
+                ], 
+                [
+                    "mother-in-law (of a woman)", 
+                    8.0
+                ], 
+                [
+                    "father's brother", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "mother's sister", 
+            "community": 108, 
+            "key": "2.521", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "mother's brother", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "mother", 
+            "community": 108, 
+            "key": "2.36", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "ridgepole", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "beam", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "square", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "beam", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "rafter", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "id": "square", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "ridgepole", 
+                "weight": 9.0, 
+                "languages": 10.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "rafter", 
+                "weight": 14.0, 
+                "languages": 30.0, 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "id": "ridgepole", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "beam", 
+                "weight": 14.0, 
+                "languages": 30.0, 
+                "families": 14.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "square", 
+            "community": 123, 
+            "key": "12.78", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "ridgepole", 
+            "community": 123, 
+            "key": "7.53", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "beam", 
+            "community": 123, 
+            "key": "7.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "post, pole", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "rafter", 
+            "community": 123, 
+            "key": "7.54", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

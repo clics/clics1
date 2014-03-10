@@ -1,0 +1,96 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "divide", 
+                "weight": 21.0, 
+                "languages": 32.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "share (distribute)", 
+                "weight": 9.0, 
+                "languages": 14.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "separate", 
+                "weight": 21.0, 
+                "languages": 32.0, 
+                "families": 21.0
+            }, 
+            {
+                "id": "share (distribute)", 
+                "weight": 16.0, 
+                "languages": 64.0, 
+                "families": 16.0
+            }
+        ], 
+        [
+            {
+                "id": "separate", 
+                "weight": 9.0, 
+                "languages": 14.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "divide", 
+                "weight": 16.0, 
+                "languages": 64.0, 
+                "families": 16.0
+            }, 
+            {
+                "id": "share (distribute)", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "separate", 
+            "community": 90, 
+            "key": "12.23", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "split", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "divide", 
+            "community": 90, 
+            "key": "12.232", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "split", 
+                    8.0
+                ]
+            ]
+        }, 
+        {
+            "id": "share (distribute)", 
+            "community": 90, 
+            "key": "11.91", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "give", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

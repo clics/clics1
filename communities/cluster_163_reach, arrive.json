@@ -1,0 +1,105 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "reach, arrive", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "approach", 
+                "weight": 8.0, 
+                "languages": 9.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "come", 
+                "weight": 14.0, 
+                "languages": 33.0, 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "id": "reach, arrive", 
+                "weight": 8.0, 
+                "languages": 9.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "approach", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "come", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "reach, arrive", 
+                "weight": 14.0, 
+                "languages": 33.0, 
+                "families": 14.0
+            }, 
+            {
+                "id": "approach", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "reach, arrive", 
+            "community": 163, 
+            "key": "10.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "find", 
+                    4.0
+                ], 
+                [
+                    "get, obtain", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "approach", 
+            "community": 163, 
+            "key": "10.56", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "come", 
+            "community": 163, 
+            "key": "10.48", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "go", 
+                    8.0
+                ], 
+                [
+                    "come back", 
+                    6.0
+                ]
+            ]
+        }
+    ]
+}

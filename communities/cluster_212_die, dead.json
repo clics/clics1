@@ -1,0 +1,61 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "die, dead", 
+                "weight": 13.0, 
+                "languages": 15.0, 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "id": "corpse", 
+                "weight": 13.0, 
+                "languages": 15.0, 
+                "families": 13.0
+            }, 
+            {
+                "id": "die, dead", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "corpse", 
+            "community": 212, 
+            "key": "4.77", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "body", 
+                    7.0
+                ]
+            ]
+        }, 
+        {
+            "id": "die, dead", 
+            "community": 212, 
+            "key": "4.75", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "kill", 
+                    4.0
+                ], 
+                [
+                    "disappear", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

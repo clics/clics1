@@ -1,0 +1,134 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "lick", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "embrace", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "suck", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "lick", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "kiss", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "lick", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "kiss", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "tapioca, manioc, cassava", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "suck", 
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 4.0
+            }, 
+            {
+                "id": "kiss", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "kiss", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "tapioca, manioc, cassava", 
+            "community": 186, 
+            "key": "8.92", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "kiss", 
+            "community": 186, 
+            "key": "16.29", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "suck", 
+            "community": 186, 
+            "key": "5.16", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "smoke (tobacco)", 
+                    5.0
+                ], 
+                [
+                    "pull", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "lick", 
+            "community": 186, 
+            "key": "4.59", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "embrace", 
+            "community": 186, 
+            "key": "16.3", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

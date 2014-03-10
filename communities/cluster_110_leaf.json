@@ -1,0 +1,106 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "book", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "paper", 
+                "weight": 6.0, 
+                "languages": 10.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "tobacco", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "leaf", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "paper", 
+                "weight": 22.0, 
+                "languages": 32.0, 
+                "families": 22.0
+            }
+        ], 
+        [
+            {
+                "id": "leaf", 
+                "weight": 6.0, 
+                "languages": 10.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "book", 
+                "weight": 22.0, 
+                "languages": 32.0, 
+                "families": 22.0
+            }
+        ], 
+        [
+            {
+                "id": "leaf", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "leaf", 
+            "community": 110, 
+            "key": "8.56", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "feather", 
+                    5.0
+                ], 
+                [
+                    "hair (head)", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "book", 
+            "community": 110, 
+            "key": "18.61", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "paper", 
+            "community": 110, 
+            "key": "18.56", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "tobacco", 
+            "community": 110, 
+            "key": "8.68", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

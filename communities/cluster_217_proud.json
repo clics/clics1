@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "boast", 
+                "weight": 7.0, 
+                "languages": 11.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "praise", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "proud", 
+                "weight": 7.0, 
+                "languages": 11.0, 
+                "families": 7.0
+            }, 
+            {
+                "id": "praise", 
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "proud", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "boast", 
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "proud", 
+            "community": 217, 
+            "key": "16.48", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "boast", 
+            "community": 217, 
+            "key": "18.45", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "praise", 
+            "community": 217, 
+            "key": "16.79", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

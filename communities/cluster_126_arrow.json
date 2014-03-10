@@ -1,0 +1,176 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "axle", 
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "arch", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "arrow", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "arrow", 
+                "weight": 3.0, 
+                "languages": 4.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "spindle", 
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "rainbow", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "bow", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "arrow", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "bow", 
+                "weight": 6.0, 
+                "languages": 20.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "spindle", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "rainbow", 
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "arch", 
+                "weight": 6.0, 
+                "languages": 20.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "arrow", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "axle", 
+                "weight": 3.0, 
+                "languages": 4.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "arch", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "bow", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "spindle", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "spindle", 
+            "community": 126, 
+            "key": "6.32", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "axle", 
+            "community": 126, 
+            "key": "10.77", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "rainbow", 
+            "community": 126, 
+            "key": "1.59", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "arch", 
+            "community": 126, 
+            "key": "7.58", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "bow", 
+            "community": 126, 
+            "key": "20.24", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "arrow", 
+            "community": 126, 
+            "key": "20.25", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "spear", 
+                    4.0
+                ]
+            ]
+        }
+    ]
+}

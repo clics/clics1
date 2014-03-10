@@ -1,0 +1,152 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "netbag", 
+                "weight": 3.0, 
+                "languages": 4.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "trap (noun)", 
+                "weight": 8.0, 
+                "languages": 10.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "fishnet", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "trap (noun)", 
+                "weight": 2.0, 
+                "languages": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "netbag", 
+                "weight": 9.0, 
+                "languages": 16.0, 
+                "families": 9.0
+            }, 
+            {
+                "id": "fish trap", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "fish trap", 
+                "weight": 8.0, 
+                "languages": 10.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "fishnet", 
+                "weight": 2.0, 
+                "languages": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "id": "ambush", 
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "id": "pocket", 
+                "weight": 3.0, 
+                "languages": 4.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "fishnet", 
+                "weight": 9.0, 
+                "languages": 16.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "id": "trap (noun)", 
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 3.0
+            }, 
+            {
+                "id": "ambush", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "pocket", 
+            "community": 95, 
+            "key": "6.61", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "fish trap", 
+            "community": 95, 
+            "key": "20.55", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "fishnet", 
+            "community": 95, 
+            "key": "20.54", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "trap (noun)", 
+            "community": 95, 
+            "key": "20.64", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "trap (vb)", 
+                    6.0
+                ]
+            ]
+        }, 
+        {
+            "id": "netbag", 
+            "community": 95, 
+            "key": "9.78", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "ambush", 
+            "community": 95, 
+            "key": "20.49", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

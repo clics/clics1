@@ -1,0 +1,97 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "id": "slave", 
+                "weight": 8.0, 
+                "languages": 19.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "captive, prisoner", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "servant", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "id": "prison, jail", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "slave", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "captive, prisoner", 
+                "weight": 5.0, 
+                "languages": 7.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "servant", 
+                "weight": 8.0, 
+                "languages": 19.0, 
+                "families": 8.0
+            }, 
+            {
+                "id": "captive, prisoner", 
+                "weight": 6.0, 
+                "languages": 8.0, 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "id": "servant", 
+            "community": 159, 
+            "key": "19.43", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "captive, prisoner", 
+            "community": 159, 
+            "key": "20.47", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "prison, jail", 
+            "community": 159, 
+            "key": "21.39", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "slave", 
+            "community": 159, 
+            "key": "19.42", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }
+    ]
+}

@@ -1,183 +1,167 @@
 {
-    "multigraph": false, 
     "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 6.0, 
-                "families": 6.0, 
-                "languages": 7.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 10.0, 
-                "families": 10.0, 
-                "languages": 11.0, 
-                "id": "late"
-            }
-        ], 
-        [
-            {
-                "weight": 6.0, 
-                "families": 6.0, 
-                "languages": 7.0, 
-                "id": "retard, delay"
-            }, 
-            {
-                "weight": 5.0, 
-                "families": 5.0, 
-                "languages": 6.0, 
-                "id": "late"
-            }, 
-            {
-                "weight": 1.0, 
-                "families": 1.0, 
-                "languages": 1.0, 
-                "id": "evening"
-            }
-        ], 
-        [
-            {
-                "weight": 10.0, 
-                "families": 10.0, 
-                "languages": 11.0, 
-                "id": "retard, delay"
-            }, 
-            {
-                "weight": 5.0, 
-                "families": 5.0, 
-                "languages": 6.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 1.0, 
-                "families": 1.0, 
-                "languages": 1.0, 
-                "id": "west"
-            }, 
-            {
-                "weight": 17.0, 
-                "families": 17.0, 
+                "id": "late", 
+                "weight": 16.0, 
                 "languages": 25.0, 
-                "id": "afternoon"
+                "families": 16.0
             }, 
             {
-                "weight": 5.0, 
-                "families": 5.0, 
-                "languages": 5.0, 
-                "id": "evening"
-            }
-        ], 
-        [
-            {
-                "weight": 2.0, 
-                "families": 2.0, 
-                "languages": 2.0, 
-                "id": "afternoon"
-            }, 
-            {
-                "weight": 1.0, 
-                "families": 1.0, 
-                "languages": 1.0, 
-                "id": "late"
-            }, 
-            {
-                "weight": 2.0, 
-                "families": 2.0, 
-                "languages": 2.0, 
-                "id": "evening"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "families": 1.0, 
-                "languages": 1.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 5.0, 
-                "families": 5.0, 
-                "languages": 5.0, 
-                "id": "late"
-            }, 
-            {
-                "weight": 2.0, 
-                "families": 2.0, 
-                "languages": 2.0, 
-                "id": "west"
-            }, 
-            {
+                "id": "evening", 
                 "weight": 11.0, 
-                "families": 11.0, 
                 "languages": 13.0, 
-                "id": "afternoon"
+                "families": 11.0
             }
         ], 
         [
             {
-                "weight": 17.0, 
-                "families": 17.0, 
+                "id": "afternoon", 
+                "weight": 16.0, 
                 "languages": 25.0, 
-                "id": "late"
+                "families": 16.0
             }, 
             {
-                "weight": 2.0, 
-                "families": 2.0, 
-                "languages": 2.0, 
-                "id": "west"
+                "id": "slow", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
             }, 
             {
+                "id": "retard, delay", 
+                "weight": 10.0, 
+                "languages": 11.0, 
+                "families": 10.0
+            }, 
+            {
+                "id": "evening", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "id": "late", 
+                "weight": 5.0, 
+                "languages": 6.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "retard, delay", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }, 
+            {
+                "id": "evening", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "id": "late", 
+                "weight": 10.0, 
+                "languages": 11.0, 
+                "families": 10.0
+            }, 
+            {
+                "id": "slow", 
+                "weight": 6.0, 
+                "languages": 7.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "id": "afternoon", 
                 "weight": 11.0, 
-                "families": 11.0, 
                 "languages": 13.0, 
-                "id": "evening"
+                "families": 11.0
+            }, 
+            {
+                "id": "late", 
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 5.0
+            }, 
+            {
+                "id": "slow", 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0
             }
         ]
     ], 
     "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "key": "14.24", 
+            "id": "afternoon", 
             "community": 76, 
-            "id": "retard, delay"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "key": "14.22", 
-            "community": 76, 
-            "id": "slow"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "key": "14.17", 
-            "community": 76, 
-            "id": "late"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "key": "12.46", 
-            "community": 76, 
-            "id": "west"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "key": "14.46", 
-            "community": 76, 
-            "id": "evening"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "key": "14.451", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "day", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "late", 
             "community": 76, 
-            "id": "afternoon"
+            "key": "14.17", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "last", 
+                    4.0
+                ]
+            ]
+        }, 
+        {
+            "id": "slow", 
+            "community": 76, 
+            "key": "14.22", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "quiet, silence", 
+                    8.0
+                ]
+            ]
+        }, 
+        {
+            "id": "retard, delay", 
+            "community": 76, 
+            "key": "14.24", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": []
+        }, 
+        {
+            "id": "evening", 
+            "community": 76, 
+            "key": "14.46", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "night", 
+                    10.0
+                ], 
+                [
+                    "darkness", 
+                    4.0
+                ]
+            ]
         }
     ]
 }
