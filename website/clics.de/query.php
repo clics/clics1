@@ -24,17 +24,12 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://lingulist.de/clics/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://clics.lingpy.org"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
-      <!--<a href="main.php">Home</a>
-      <ul id="home">
-	<li><a href="main.php#news1">News1</a></li>
-	<li><a href="main.php#news2">News2</a></li>
-	<li><a href="main.php#news3">News3</a></li>
-      </ul>
-    </li>-->
+      <a href="main.php">Home</a>
+    </li>
     <li>
       <a href="about.php">About</a>
       <ul id="about">
@@ -52,11 +47,10 @@
       </ul>
     </li>
     <li>
+      <a href="browse.php">Browse</a>
+    </li>
+    <li>
 	<a href="download.php">Download</a>
-	<!--<ul>
-	    <li><a href="courses.php#current">Current</a></li>
-	    <li><a href="courses.php#old">Old</a></li>
-	</ul>-->
     </li>
   </ul>
  </div><!--end mainnav-->
@@ -85,14 +79,34 @@ Currently, we offer two ways to query the data in CLiCs interactively:
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Feb. 07, 2014, 23:00 CET</p>
+<table><tr>
+
+<td><div class="footer_left">
+<a href="http://www.hhu.de/"><img width="120px" src="http://www.hhu.de/home/fileadmin/images/uni_duesseldorf_logo.gif" alt="HHUD" /></a>
+ </div></td>
+
+ <td><div class="footer_left">
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+ </div></td>
+<td><div class="footer_center">
+ <p>Last updated on Mar. 11, 2014, 14:06 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
    <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img
 		alt="Creative Commons License" style="border-width:0;width:80px;"
 		src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a> </p>
- 
+</div></td>
+
+<td><div class="footer_right">
+<a href="http://erc.europa.eu/"><img width="80px" src="http://quanthistling.info/theme/qhl/images/logo_erc.png" alt="ERC" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.hum.leiden.edu/lucl"><img width="80px" src="http://www.hum2.leidenuniv.nl/pdf/lucl/practical_matters/lucl-logo-small.jpg" alt="LUCL" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.uni-marburg.de/"><img width="120px" src="http://www.uni-marburg.de/bilder/logo_uni1.gif" alt="PUD" /></a>
+</div></td></tr></table>
  </div><!-- end footer -->
 
 </div><!-- end wrapper-->

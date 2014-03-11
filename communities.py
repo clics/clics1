@@ -106,7 +106,7 @@ for c in comms:
     d = sorted(subG.degree().items(),key=lambda x:x[1],reverse=True)[0][0]
 
     if '/' in d:
-        d = d.replace('/','_')
+        d = d.replace('/','-')
     
     cdict[c] = 'cluster_{0}_{1}'.format(c,d)
 
@@ -124,20 +124,23 @@ for s,t,d in newg.edges(data=True):
         kT = cdict[cT]
         
         try:
-            newg.node[s]['out_edge'] += [(kT,t,d['families'])]
+            newg.node[s]['out_edge'] += [(kT,t,d['families'], d['weight'])]
         except:
-            newg.node[s]['out_edge'] = [(kT,t,d['families'])]
+            newg.node[s]['out_edge'] = [(kT,t,d['families'], d['weight'])]
         
         try:
-            newg.node[t]['out_edge'] += [(kS,s,d['families'])]
+            newg.node[t]['out_edge'] += [(kS,s,d['families'], d['weight'])]
         except:
-            newg.node[t]['out_edge'] = [(kS,s,d['families'])]
+            newg.node[t]['out_edge'] = [(kS,s,d['families'], d['weight'])]
 
 for node,data in newg.nodes(data=True):
 
     if 'out_edge' in data:
-        data['out_edge'] = [s for s in sorted(data['out_edge'], key=lambda x:x[2],
-                reverse=True)[:3] if s[2] > 3]
+        data['out_edge'] = [s for s in sorted(
+            data['out_edge'], 
+            key=lambda x:x[3], # chance this key to modify the weights
+            reverse=True
+            )[:3] if s[2] > 3]
     
 
 nx.write_gml(newg,'output/clics_communities.gml')
@@ -153,19 +156,29 @@ gcoms = []
 # write all communities to separate json-graphs, write names to file
 f = open('output/communitiesNew.csv','w')
 f2 = open('output/communitiesNewCluster.csv', 'w')
+f3 = open('output/nodes2communities.csv', 'w')
 f.write('names\n')
 for c in comms:
     
     subG = newg.subgraph(
             [n[0] for n in nodes if n[1]['community'] == c]
             )
+
+    for n,d in subG.nodes(data=True):
+        f3.write('{0}\t{1}\t{2}\t{3}\t{4}\n'.format(
+            d['key'],
+            n,
+            d['community'],
+            cdict[d['community']],
+            cdict[d['community']].split('_')[-1]
+            ))
     ## get node with highest degree
     #d = sorted(subG.degree().items(),key=lambda x:x[1],reverse=True)[0][0]
 
     
     #if '/' in d:
     #    d = d.replace('/','_')
-    graph2json(subG, 'communities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
+    graph2json(subG, 'xcommunities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,cdict[c].replace('cluster_',''),len(subG.nodes())))
             
     
@@ -179,6 +192,9 @@ for c in comms:
     
     f2.write('\n')
 
+f.close()
+f2.close()
+f3.close()
 
 
 glarge = [g for g in gcoms if g >= 5]
@@ -202,5 +218,6 @@ Conc/Com   :    {5:.2f}
         sum(gcoms) / len(gcoms)
         )
 print(a)
-
+with open('statsoncdec.stats','w') as f:
+    f.write(a)
 

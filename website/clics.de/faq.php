@@ -24,17 +24,12 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://lingulist.de/clics/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://clics.lingpy.org"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
-      <!--<a href="main.php">Home</a>
-      <ul id="home">
-	<li><a href="main.php#news1">News1</a></li>
-	<li><a href="main.php#news2">News2</a></li>
-	<li><a href="main.php#news3">News3</a></li>
-      </ul>
-    </li>-->
+      <a href="main.php">Home</a>
+    </li>
     <li>
       <a href="about.php">About</a>
       <ul id="about">
@@ -52,11 +47,10 @@
       </ul>
     </li>
     <li>
+      <a href="browse.php">Browse</a>
+    </li>
+    <li>
 	<a href="download.php">Download</a>
-	<!--<ul>
-	    <li><a href="courses.php#current">Current</a></li>
-	    <li><a href="courses.php#old">Old</a></li>
-	</ul>-->
     </li>
   </ul>
  </div><!--end mainnav-->
@@ -81,6 +75,7 @@
 <ul>
 <li><a href="faq.php#colexification">What is Colexification?</a></li>
 <li><a href="faq.php#examples">How can I use CLiCS?</a></li>
+<li><a href="faq.php#visualizations">How do the visualizations work?</a></li> 
 <li><a href="faq.php#data1">What data does CLiCs use?</a></li>
 <li><a href="faq.php#data2">How reliable is the data of CLiCS?</a></li>
 <li><a href="faq.php#data3">How large is the data behind CLiCS?</a></li>
@@ -95,7 +90,7 @@
 <h3><a style="color:black" name="colexification">Colexification</a></h3>
 <br>
 In the context of CLiCs, we use the term <i>colexification</i> (coined to our 
-knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
+knowledge by <a href="http://bibliography.lingpy.org/evobib.php?key=Francois2008" target="_blank">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
 Russian <i>рука</i> colexifies "hand" and "arm", that is, concepts that are semantically related to each other.
@@ -108,14 +103,21 @@ measures to rule out effects of <a href="faq.php#homonymy">accidental homonymy</
 <h3><a style="color:black" name="examples">Using CLiCs</a></h3>
 <br>
 Using our <a href="query.php">query interface</a> you can search whether specific concepts are 
-linked in the language varieties used in CLiCs (see <a href="direct.php">Direct Links</a>). You can 
-also check how many links are reported for a given concept (see <a href="all.php">All Links</a>). You 
+linked in the language varieties used in CLiCs (see <a href="direct.php">here</a>). You can 
+also check how many links are reported for a given concept (see <a href="all.php">here</a>).
+<font color="red">If you want to view the data in a visually more appealing way, you can <a href="browse.php">browse</a> through 
+the concept networks we extracted from the data. A detailed description on the background of the visualization can be found in the paper by <a href="http://link2badded.html" target="_blank">Mayer, List, Terhalle, and Urban (2014)</a>.</font>
+You 
 can also <a href="download.php">download</a> parts of the data and conduct large-scale quantitative 
 investigations. As an example on how these analyses can be conducted, see the paper by <a target="_blank" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf">List, Terhalle, and Urban (2013)</a>.
 <br><br>
+<h3><a style="color:black" name="visualizations">How do the visualizations work?</a></h3>
+<br>
+<font color="red">TEXT TO BE ADDED</font>
+<br><br>
 <h3><a style="color:black" name="data1">Sources of CLiCs</a></h3>
 <br>
-Currently CLiCs utilizes three different sources, all of which are freely available online themselves. 
+Currently CLiCs utilizes four different sources, all of which are freely available online themselves. 
 <br><br>
 <ul>
 <li>
@@ -141,14 +143,15 @@ accessible multilingual online dictionary that is regularly updated online by a 
 professional translators. It offers lexical data for more than 60 different languages. We manually 
 extracted lexical data for 4 languages that were neither present in IDS nor in WOLD. 
 </li>
+<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLiCs.</li>
 </ul>
 
 <h3><a style="color:black" name="cite">Citing CLiCs</a></h3>
 <br>CLiCs can be cited as follows: 
 <br><br>
 <ul><li>
-List, J.-M., T. Mayer, A. Terhalle, M. Urban (2014). CLiCs — Database of Cross-Linguistic Colexifications.
-Version 1.0. URL: <a href="http://quanthistling.info">http://quanthistling.info/clics/"</a>.
+List, J.-M., T. Mayer, A. Terhalle, and M. Urban (2014). CLiCs — Database of Cross-Linguistic Colexifications.
+Version 1.0. URL: <a href="http://clics.lingpy.org" >http://clics.lingpy.org</a>.
 </li></ul>
 <br>
 <h3><a style="color:black" name="data2">Reliability of the Data</a></h3><br>
@@ -157,22 +160,26 @@ and does not involve a
 reanalysis of any sort on our behalf. However, it must be emphasized that the meaning associations 
 reported in CLiCs are
 recovered from sheer identity of form in different cells in the sources we have used, and do not 
-necessarily rest on language-internal semantic analysis (see also the sections on <a href="faq.php#colexification">colexification</a> and <a href="faq.php#homonymy">homonymy</a>).  
+necessarily rest on language-internal semantic analysis (see also the sections on
+<a href="faq.php#colexification">colexification</a> and 
+<a href="faq.php#homonymy">homonymy</a>).  
 Furthermore, we have no 
-control over artifacts that <br><br> <ul><li>
-    may have arisen in the process of data gathering themselves,</li><li>
-    were created by mapping the 
-predefined concepts onto the
-actual languages, and </li><li>
-    were introduced when cleaning parts of the data automatically in which the textual coding was not provided in a consistent way.</li></ul><br>
+control over artifacts that <br><br> 
+
+<ul>
+  <li>may have arisen in the process of data gathering themselves,</li>
+  <li>were created by mapping the predefined concepts onto the actual languages, and</li>
+  <li>were introduced when cleaning parts of the data automatically in which the textual coding was not provided in a consistent way.</li>
+</ul>
+<br>
 For these reasons, we strongly recommend to check the actual sources whenever a conceptual link that our database reports should be crucial for your arguments.
 <br><br>
 <h3><a style="color:black" name="data3">Statistics on CLiCs</a></h3>
 <br>
-CLiCs (Version 1.0) offers information on colexification in 215 different language varieties covering 50 different language families. 
-All language varieties in our sample comprise a total of 290,760 words covering 1,285 different concepts. 
-Using a strictly automatic procedure, we identified 45,282 cases of colexification that correspond to 16,043 different links between
-the 1,285 concepts covered by our data.
+CLiCs (Version 1.0) offers information on colexification in 221 different language varieties covering 50 different language families. 
+All language varieties in our sample comprise a total of 301,498 words covering 1,286 different concepts. 
+Using a strictly automatic procedure, we identified 32,620 cases of colexification that correspond to 84,800 different links between
+the 1,286 concepts covered by our data.
 
 <br>
 <br>
@@ -190,13 +197,11 @@ effects.
 <br>
 Conceptual links, which constitute our main interest in colexification, are clearly not the only 
 possible reason why two concepts can be expressed by the same form in a given language. The most 
-prominent among the others is homonymy, which is in very simple terms an <i>accidental similarity in 
-form</i>, often arising from sound changes causing originally distinct lexical items to collapse 
+prominent among the others is homonymy, which is in very simple terms an <em>accidental similarity in form</em>, often arising from sound changes causing originally distinct lexical items to collapse 
 phonologically. Such cases may lead to spurious links in the database (compare, for example, the 
 links between the concepts "arm" and "poor" which are due to homonymy in some Germanic languages).  To deal with this issue in a consistent and generally 
 applicable way (even if the history of the lexical items in question is not known) we recommend to 
-employ a typological criterion to distinguish between homonymy and polysemy (see <a 
-href="http://lingulist.de/evobib/evobib.php?key=Croft1990">Croft 1990</a>): for semantic connections 
+employ a typological criterion to distinguish between homonymy and polysemy (see <a href="http://bibliography.lingpy.org/evobib.php?key=Croft1990" target="_blank">Croft 1990</a>): for semantic connections 
 to be accepted as genuine rather than accidental, the connection should be detectable in more than 
 one language family. We should, however, point out that this criterion has been developed and 
 originally applied by the aforementioned authors in the realm of polyfunctionality of grammatical markers, that 
@@ -205,43 +210,47 @@ semantic range. When applied to lexical meanings, there is a danger that the cri
 set of genuine, but simply rare, semantic associations. Still, we feel that our approach is 
 justified, methodologically because it offers a simple and non-subjective decision criterion, and 
 conceptually because our approach relies on cross-linguistic data in the first place.
-<!--, and the more 
-common a given association is cross-linguistically, themore faith we can have in it as a heuristic 
-for diachronic semantic purposes, with the value of a very rare association being minor anyway.-->
 <br><br>
 <h3><a style="color:black" name="contact">Contact</a></h3>
 <br>
 For technical questions regarding the data, please contact
 <a href="mailto:mattis.list@uni-marburg.de">Johann-Mattis List</a> (Philipps-University Marburg, Germany). 
 <br>
-<!--<h3><a style="color:black" name="colexification">What is </a><i>Colexification?</i></h3>
-<br>
-In the context of CLiCs, we use the term colexification (coined to our 
-knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
-in our lexical sources are covered in a language by the same lexical item. 
-For instance, we would say that 
-Russian <i>рука</i> colexifies "hand" and "arm", that is, concepts that are semantically related to each other.
-Roughly spoken, colexification can correspond either to polysemy or semantic vagueness in lexical 
-semantic analyses. Since we have not performed such analyses that would allow us to further discriminate between the two, 
-we chose <i>colexification</i> as a label 
-that deliberately does not make a commitment with regard to this distinction.  However, we offer
-measures to rule out effects of <a href="faq.php#homonymy">accidental homonymy</a>.
-<br>
-<br>-->
+
 
 
 
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Feb. 07, 2014, 23:00 CET</p>
+<table><tr>
+
+<td><div class="footer_left">
+<a href="http://www.hhu.de/"><img width="120px" src="http://www.hhu.de/home/fileadmin/images/uni_duesseldorf_logo.gif" alt="HHUD" /></a>
+ </div></td>
+
+ <td><div class="footer_left">
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+ </div></td>
+<td><div class="footer_center">
+ <p>Last updated on Mar. 11, 2014, 14:06 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
    <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img
 		alt="Creative Commons License" style="border-width:0;width:80px;"
 		src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a> </p>
- 
+</div></td>
+
+<td><div class="footer_right">
+<a href="http://erc.europa.eu/"><img width="80px" src="http://quanthistling.info/theme/qhl/images/logo_erc.png" alt="ERC" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.hum.leiden.edu/lucl"><img width="80px" src="http://www.hum2.leidenuniv.nl/pdf/lucl/practical_matters/lucl-logo-small.jpg" alt="LUCL" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.uni-marburg.de/"><img width="120px" src="http://www.uni-marburg.de/bilder/logo_uni1.gif" alt="PUD" /></a>
+</div></td></tr></table>
  </div><!-- end footer -->
 
 </div><!-- end wrapper-->

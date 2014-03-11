@@ -1,35 +1,48 @@
 <?php if($result['families'] < 2){
 ?>
 <tr>
-    <td>
-	<?php echo $result['glossB'];?>
-    </td>
-    <td>
-	<?php echo $result['numB'];?>
-    </td>
-    <td>
-	<?php echo $result['families'];?>
-    </td>
-    <td>
-	<?php echo $result['languages'];?>
-    </td>
+  <td>
+	  <?php echo $result['glossB'];?>
+  </td>
+  <td>
+	  <?php echo $result['numB'];?>
+  </td>
+  <td>
+	  <?php echo $result['families'];?>
+  </td>
+  <td>
+	  <?php echo $result['languages'];?>
+  </td>
+  <td>
+    <?php echo $result['community'];?>
+  </td>
+  <td>
+    <?php echo '<a href="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'"><em>'.$result['community_label'].'</em></a>';?>
+   
+  </td>
 <?php 
 }
 else{
 ?>
 <tr>
-    <td style="background-color:lightgray">
-	<?php echo $result['glossB'];?>
-    </td>
-    <td style="background-color:lightgray">
-	<?php echo $result['numB'];?>
-    </td>
-    <td style="background-color:lightgray">
-	<?php echo $result['families'];?>
-    </td>
-    <td style="background-color:lightgray">
-	<?php echo $result['languages'];?>
-    </td>
+  <td style="background-color:lightgray">
+	  <?php echo $result['glossB'];?>
+  </td>
+  <td style="background-color:lightgray">
+	  <?php echo $result['numB'];?>
+  </td>
+  <td style="background-color:lightgray">
+	  <?php echo $result['families'];?>
+  </td>
+  <td style="background-color:lightgray">
+	  <?php echo $result['languages'];?>
+  </td>
+  <td style="background-color:lightgray">
+    <?php echo $result['community'];?>
+  </td>
+  <td style="background-color:lightgray">
+    <?php echo '<a href="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'"><em>'.$result['community_label'].'</em></a>';?>
+  </td>
 <?php 
 }
 ?>
