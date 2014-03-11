@@ -20,7 +20,7 @@ if(isset($_POST['forms']))
 	  /* get form and language ID */
     $tmp = explode(':',$form);
     $lid = $tmp[0];
-    $form = $tmp[1];
+    $form = substr($tmp[1],1,-1);
 
     // Now that we got form and language id, we take the data for all languages from clips.slqite3
     $query_string = 'select * from langs where id="'.$lid.'";';
