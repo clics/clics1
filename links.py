@@ -50,6 +50,9 @@ blacklist = [
 invalid = []
 
 nodeD = {}
+nodeF = {}
+cls_idx = 1
+classifications = []
 
 for f in files:
     print("[i] Processing file {0}...".format(f))
@@ -59,7 +62,11 @@ for f in files:
     for line in infile:
         # get the data
         if not line.startswith('@'):
-            data.append(line.strip().split('\t'))
+            lines = line.strip().split('\t')
+            if lines[0] == '1.42':
+                pass
+            else:
+                data.append(lines)
         # get the tags
         else:
             key,value = re.findall(r'@(.+): (.+)\n',line)[0]
@@ -71,17 +78,33 @@ for f in files:
             variety = 'standard'
         tags['variety'] = variety
 
+    
+
+
     # discard languages that are not contemporary
     if tags['classification'] == "<not yet checked>" or tags['iso'] in blacklist:
         print("[!] File {0} is not valid.".format(f))
         invalid += [f]
     else:
+        # get classification
+        cls = tags['classification'].split(',')[0].lower()
+        if cls in ['language isolate', 'unclassified']:
+            cls = cls+'_'+str(cls_idx)
+            cls_idx += 1
+        classifications += [cls]
+
         # get all identical data by looping over all data
         for i,(numberA,glossA,wordA) in enumerate(data):
             try:
                 nodeD[numberA] += 1
-            except:
+            except KeyError:
                 nodeD[numberA] = 1
+
+            try:
+                nodeF[numberA] += [cls]
+            except:
+                nodeF[numberA] = [cls]
+
             for j,(numberB,glossB,wordB) in enumerate(data):
                 if i < j:
                     # modify words, replace damn "'" by some other symbol
@@ -115,6 +138,14 @@ with open('output/occurrences.txt', 'w') as f:
     for node,occ in sorted(nodeD.items(), key=lambda x:x[1], reverse=True):
         f.write('{0}\t{1}\n'.format(node,occ))
 
+with open('output/foccurrences.txt','w') as f:
+    for node,occs in sorted(nodeF.items(), key=lambda x:len(set(x[1])),
+            reverse=True):
+        f.write('{0}\t{1}\n'.format(node,len(set(occs))))
+
+with open('output/classifications.txt', 'w') as f:
+    for cls in sorted(set(classifications)):
+        f.write(cls+'\n')
 
 # get ids-keys
 ids_keys = {}
@@ -247,7 +278,7 @@ os.system('rm /home/mattis/projects/scripts/clics/website/clics.de/data/clips.sq
 conn = sqlite3.connect('website/clics.de/data/clips.sqlite3')
 c = conn.cursor()
 c.execute(
-        'create table links(glossA,glossB,numA int,numB int,families int,languages int,forms);'
+        'create table links(glossA,glossB,numA,numB,families int,languages int,forms);'
         )
 c.execute(
         'create table langs(id,name,iso,classification,source,variety,size,link_name);'

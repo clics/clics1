@@ -87,7 +87,7 @@ if(isset($_POST['forms']))
 	  /* get form and language ID */
     $tmp = explode(':',$form);
     $lid = $tmp[0];
-    $form = $tmp[1];
+    $form = substr($tmp[1],1,-1);
 
     // Now that we got form and language id, we take the data for all languages from clips.slqite3
     $query_string = 'select * from langs where id="'.$lid.'";';
@@ -103,12 +103,23 @@ if(isset($_POST['forms']))
   }
   echo '</table></div>';
 }
-else if(isset($_POST['concept']))
+else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key']))
 {
   include('query/query_all.php');
-
-  /* make the query string */
-  $query_string = 'select * from links where glossA == "'.$_POST['concept'].'" order by families desc;';
+  
+  if(isset($_GET['concept']))
+  {
+    $_POST['concept'] = $_GET['concept'];
+  }
+  if(isset($_GET['key']))
+  {
+    $query_string = 'select * from links where numA == "'.$_GET['key'].'" order by families desc;';
+  }
+  else
+  {
+    /* make the query string */
+    $query_string = 'select * from links where glossA == "'.$_POST['concept'].'" order by families desc;';
+  }
   $query = $conn->query($query_string);
   
   /* store the results in array $results*/
@@ -155,7 +166,7 @@ else if(isset($_POST['concept']))
   }
   else
   {
-	  echo "<p align=center><font color=red><b>No results found for your query.</b></font></p>";
+	  echo '<p align="left"><font color=red><b>No results found for your query.</b></font></p>';
   }
 }
 else
@@ -178,7 +189,7 @@ else
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 11, 2014, 14:06 CET</p>
+ <p>Last updated on Mar. 12, 2014, 14:46 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
