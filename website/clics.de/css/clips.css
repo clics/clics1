@@ -1,5 +1,5 @@
 /* colors: 
- * e32f2f (orange),
+ * 2f95e3 (orange),
  * 2f95e3 (green) , 
  * b9d9f2 (green ungesaettigt) 
  * d69b9b (orange, ungesaettigt)
@@ -24,11 +24,10 @@ body {
 	font:11px FreeSans, sans-serif; /* basispercentage -> 10px */line-height: 1.2;color:#000000;
 }
 #wrapper {
-	width:1200px;
+	width:1000px;
 	margin: 5px auto;
-	border: 5px solid #e32f2f;
-	//border-right: 5px solid #e32f2f;
-	background: #d69b9b;
+	border: 3px solid #2f95e3;
+	background: white;
 
 }
 #contentwrapper {
@@ -38,7 +37,7 @@ body {
 #content {
 	float:left;
 	text-align:justify;
-	width: 985px;
+	width: 785px;
 	background: #ffffff;
 	padding-bottom: 50px;
 	padding-left:20px;
@@ -46,7 +45,7 @@ body {
 	padding-right:20px;
 	font-size: 1.4em; /* 12px */;
 	font-family:sans-serif;
-	border-left: 5px solid #e32f2f
+	border-left: 3px solid #2f95e3
 }
 #content a{
     color:#009ed3;
@@ -62,10 +61,10 @@ body {
 /*========================= HEADER ============================*/
 #header {
 	position:relative;height: 75px;	
-	background: #2f95e3 no-repeat left top;	
+	background: white; //#2f95e3 no-repeat left top;	
 	/*** z-index:10000 ***/
 	z-index:1000;
-	border-bottom: 5px solid #e32f2f;
+	border-bottom: 3px solid #2f95e3;
 }
 
 
@@ -108,7 +107,7 @@ body {
 #nav a {
 	display: block;
 	padding: 10px 10px 10px 20px;
-	color: #ffffff;
+	color: black; //#ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.4em;
@@ -140,7 +139,7 @@ body {
 	/*** z-index: 9500; ***/
 	z-index: 950;
 	width: 160px;
-	background-color: #e32f2f;
+	background-color: #2f95e3;
 	font-size: 1.2em;
 	text-transform: none;
 	border: 2px solid #b9d9f2;
@@ -158,8 +157,8 @@ body {
 #footer {
 	clear:both;padding: 10px;
 	font-size: 1.1em;
-	background-color: #2f95e3;color: #FFFFFF;
-	border-top: 5px solid #e32f2f;
+	background-color: white; //#2f95e3;color: black; //#FFFFFF;
+	border-top: 3px solid #2f95e3;
 }
 #footer p {
 	text-align:center;
@@ -167,7 +166,7 @@ body {
 #footer #anysurfer {
 	float:right;margin-left: 10px;
 	border:none;}
-#footer a {border-bottom: 1px dotted #fff;text-decoration: none;color:#FFFFFF;}
+#footer a {border-bottom: 1px dotted #fff;text-decoration: none;color:black;}
 
 
 
@@ -184,7 +183,7 @@ body {
 	width:150px;
 	//padding-left:3px;
 	font-weight:bold;
-	color:#ffffff;
+	color: black; //#ffffff;
 	line-height:1.4em;
 	font-size:1.2em /*overwrite default*/
 }
@@ -198,8 +197,8 @@ body {
 	padding-top:5px;
 	padding-bottom:5px;
 	border:none;
-	color:#ffffff;
-	background:#2f95e3 no-repeat right bottom;
+	color: #ffffff;
+	background: #2f95e3 no-repeat right bottom;
 	text-decoration:none;
 }
 #subnav li {
@@ -211,23 +210,23 @@ body {
 }
 
 #subnav ul li a{
-	background-color: #b9d9f2; 
+	background-color: lightgray; //#b9d9f2; 
 	width:140px;
 	padding: 7px 5px; 
 	//padding-right:5px;
 	display: block; 
 	text-decoration:none; 
-	color:#000000; 
+	color: #000000; 
 	border: 3px solid #2f95e3;
 	border-top: none;
 	float:left;
 	font-weight:bold;
 }
 #subnav ul li a:hover { 
-	background-color: #e32f2f;
+	background-color:#b9d9f2;// #2f95e3;
 }
 #subnav ul li a.active{
-	background-color: #e32f2f;
+	background-color:#b9d9f2;// #2f95e3;
 }
 
 .alert {
@@ -267,16 +266,17 @@ body {
 }
 
 .table_border{
-	width:600px;
-	border:2px solid #2f95e3;
-	//margin-left:auto;
-	//margin-right:auto;
+  
+	//width:600px;
+	//border:1px solid #2f95e3;
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 
 .main_table_small{
-	width:600px;
-	border:2px solid #2f95e3;
+	//width:600px;
+	//border:1px solid #2f95e3;
 	//margin-left:auto;
 	//margin-right:auto;
 }
@@ -284,10 +284,14 @@ body {
 .query_table{
 	margin-left:auto;
 	margin-right:auto;
-	width:600px;
-	border:1px solid #2f95e3; //e32f2f
+	//width:100;
+	border:1px solid #2f95e3; //2f95e3
 }
 .query_table td{
+	text-align:left;
+	border:1px solid #2f95e3;
+}
+.query_table th{
 	text-align:left;
 	//width:80%;
 	border:1px solid #2f95e3;
@@ -315,14 +319,14 @@ body {
 }
 .query_table td.query_bar{
 	//background-color:#2f95e3;
-	border:1px solid #e32f2f;
-	//border:1px solid #e32f2f;
+	border:1px solid #2f95e3;
+	//border:1px solid #2f95e3;
 }
 .match_table{
 	//margin-left:auto;
 	//margin-right:auto;
 	width: 100%;
-	border:1px solid #2f95e3; //e32f2f
+	border:1px solid #2f95e3; //2f95e3
 }
 .match_table td{
 	text-align:left;

@@ -1,6 +1,6 @@
 <br>
 <div class="table_border">
-<table class="query_table">
+<table class="query_table" align="left">
 <tr> <td colspan=5 align=center ><b>Attested polysemies for "<?php echo $_POST['glossA']; ?>" and "<?php echo $_POST['glossB']; ?>" </b></td>
 <tr>
     <td><b>Language</b></td>

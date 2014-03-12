@@ -88,7 +88,7 @@ else if(isset($_POST['concept']))
   }
   else
   {
-	  echo "<p align=center><font color=red><b>No results found for your query.</b></font></p>";
+	  echo '<p align="left"><font color=red><b>No results found for your query.</b></font></p>';
   }
 }
 else
