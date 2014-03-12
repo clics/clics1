@@ -40,7 +40,7 @@ if(isset($_POST['source']) && isset($_POST['target'])){
   }
   else
   {
-      echo "<p align=left><font color=red><b>No results found for your query.</b></font></p>";
+      echo '<p align="left"><font color=red><b>No results found for your query.</b></font></p>';
   }
 }
 

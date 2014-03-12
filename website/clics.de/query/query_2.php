@@ -1,4 +1,4 @@
-<table class="query_table">
+<table class="query_table" align="left">
     <tr>
 	<td colspan=3 class="query_string">
 	    <p><b>Search for all attested polysemies of one concept:</b></p>

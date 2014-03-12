@@ -1,6 +1,6 @@
 <br>
 <div class="main_table_small">
-<table class="match_table">
+<table class="match_table" align="left">
     <tr>
 	<td colspan=2 align=center>
 	    <b>Matches for <?php echo $glossA.'('.$numA.')';?> and <?php echo $glossB.'('.$numB.')';?>:</b>

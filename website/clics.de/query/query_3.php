@@ -1,4 +1,4 @@
-<table align=center width=80% border=1 >
+<table align=left width=80% border=1 >
 <tr>
 <td colspan=5 align="center" width="90%">
 <p><b>Search for attested polysemies between two concepts:</b></p>
