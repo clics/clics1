@@ -1,0 +1,329 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 40, 
+            "key": "9.341", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hang up"
+        }, 
+        {
+            "community": 40, 
+            "key": "17.172", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "imitate"
+        }, 
+        {
+            "community": 40, 
+            "key": "12.54", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "measure"
+        }, 
+        {
+            "community": 40, 
+            "key": "13.107", 
+            "out_edge": [
+                [
+                    "cluster_42_teach", 
+                    "read", 
+                    8.0, 
+                    492.3076923076923
+                ], 
+                [
+                    "cluster_25_think (= reflect)", 
+                    "think (= be of the opinion)", 
+                    6.0, 
+                    282.3529411764706
+                ], 
+                [
+                    "cluster_221_owe", 
+                    "account, reckoning", 
+                    4.0, 
+                    145.45454545454547
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "count"
+        }, 
+        {
+            "community": 40, 
+            "key": "11.92", 
+            "out_edge": [
+                [
+                    "cluster_70_strong, mighty, powerful", 
+                    "heavy", 
+                    5.0, 
+                    183.4862385321101
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "weigh"
+        }, 
+        {
+            "community": 40, 
+            "key": "15.31", 
+            "out_edge": [
+                [
+                    "cluster_11_know", 
+                    "feel", 
+                    7.0, 
+                    388.1188118811881
+                ], 
+                [
+                    "cluster_11_know", 
+                    "hear", 
+                    4.0, 
+                    112.28070175438596
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "taste"
+        }, 
+        {
+            "community": 40, 
+            "key": "17.48", 
+            "out_edge": [
+                [
+                    "cluster_11_know", 
+                    "feel", 
+                    4.0, 
+                    121.90476190476191
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "try, attempt"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "weigh", 
+                "weight": 116.36363636363636
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "count", 
+                "weight": 28.57142857142857
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "weigh", 
+                "weight": 30.18867924528302
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "taste", 
+                "weight": 67.28971962616822
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "try, attempt", 
+                "weight": 119.62616822429905
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "measure", 
+                "weight": 119.62616822429905
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "imitate", 
+                "weight": 119.62616822429905
+            }, 
+            {
+                "languages": 21.0, 
+                "families": 16.0, 
+                "id": "count", 
+                "weight": 2111.340206185567
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "taste", 
+                "weight": 121.90476190476191
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "try, attempt", 
+                "weight": 276.9230769230769
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 18.0, 
+                "id": "weigh", 
+                "weight": 2912.3595505617977
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "imitate", 
+                "weight": 28.57142857142857
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "weigh", 
+                "weight": 501.96078431372547
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "taste", 
+                "weight": 7.207207207207207
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "try, attempt", 
+                "weight": 7.142857142857142
+            }, 
+            {
+                "languages": 21.0, 
+                "families": 16.0, 
+                "id": "measure", 
+                "weight": 2111.340206185567
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "hang up", 
+                "weight": 116.36363636363636
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "taste", 
+                "weight": 69.90291262135922
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 18.0, 
+                "id": "measure", 
+                "weight": 2912.3595505617977
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "count", 
+                "weight": 501.96078431372547
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "imitate", 
+                "weight": 30.18867924528302
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "try, attempt", 
+                "weight": 69.23076923076923
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "imitate", 
+                "weight": 67.28971962616822
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "taste", 
+                "weight": 7.476635514018691
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "measure", 
+                "weight": 121.90476190476191
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "count", 
+                "weight": 7.207207207207207
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "weigh", 
+                "weight": 69.90291262135922
+            }, 
+            {
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "try, attempt", 
+                "weight": 808.0808080808081
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "imitate", 
+                "weight": 119.62616822429905
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "count", 
+                "weight": 7.142857142857142
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "measure", 
+                "weight": 276.9230769230769
+            }, 
+            {
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "taste", 
+                "weight": 808.0808080808081
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "weigh", 
+                "weight": 69.23076923076923
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "try, attempt", 
+                "weight": 7.339449541284404
+            }
+        ]
+    ], 
+    "multigraph": false
+}

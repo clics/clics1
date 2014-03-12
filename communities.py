@@ -178,7 +178,7 @@ for c in comms:
     
     #if '/' in d:
     #    d = d.replace('/','_')
-    graph2json(subG, 'xcommunities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
+    graph2json(subG, 'communities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,cdict[c].replace('cluster_',''),len(subG.nodes())))
             
     

@@ -1,0 +1,473 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 3, 
+            "key": "11.79", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "earn"
+        }, 
+        {
+            "community": 3, 
+            "key": "11.15", 
+            "out_edge": [
+                [
+                    "cluster_23_carry (bear)", 
+                    "carry-in-hand", 
+                    13.0, 
+                    1469.5652173913043
+                ], 
+                [
+                    "cluster_49_preserve, look after", 
+                    "keep, retain", 
+                    12.0, 
+                    1187.6288659793815
+                ], 
+                [
+                    "cluster_116_own, possess", 
+                    "own, possess", 
+                    9.0, 
+                    648.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hold"
+        }, 
+        {
+            "community": 3, 
+            "key": "20.65", 
+            "out_edge": [
+                [
+                    "cluster_103_fishnet", 
+                    "trap (noun)", 
+                    6.0, 
+                    338.8235294117647
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "trap (vb)"
+        }, 
+        {
+            "community": 3, 
+            "key": "11.16", 
+            "out_edge": [
+                [
+                    "cluster_47_meet", 
+                    "find", 
+                    13.0, 
+                    1300.0
+                ], 
+                [
+                    "cluster_10_trade, barter", 
+                    "buy", 
+                    8.0, 
+                    474.074074074074
+                ], 
+                [
+                    "cluster_46_choose", 
+                    "pick up", 
+                    7.0, 
+                    400.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "get, obtain"
+        }, 
+        {
+            "community": 3, 
+            "key": "10.252", 
+            "out_edge": [
+                [
+                    "cluster_10_trade, barter", 
+                    "borrow", 
+                    6.0, 
+                    282.3529411764706
+                ], 
+                [
+                    "cluster_46_choose", 
+                    "pick up", 
+                    4.0, 
+                    124.27184466019416
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "catch (ball)"
+        }, 
+        {
+            "community": 3, 
+            "key": "11.13", 
+            "out_edge": [
+                [
+                    "cluster_46_choose", 
+                    "pick up", 
+                    13.0, 
+                    1379.591836734694
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
+                    "carry (bear)", 
+                    11.0, 
+                    864.2857142857142
+                ], 
+                [
+                    "cluster_10_trade, barter", 
+                    "buy", 
+                    8.0, 
+                    449.12280701754383
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "take"
+        }, 
+        {
+            "community": 3, 
+            "key": "21.44", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "rape"
+        }, 
+        {
+            "community": 3, 
+            "key": "11.14", 
+            "out_edge": [
+                [
+                    "cluster_46_choose", 
+                    "pick up", 
+                    5.0, 
+                    190.47619047619045
+                ], 
+                [
+                    "cluster_49_preserve, look after", 
+                    "keep, retain", 
+                    4.0, 
+                    117.43119266055047
+                ], 
+                [
+                    "cluster_138_shoot", 
+                    "hunt", 
+                    4.0, 
+                    108.47457627118644
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "seize, grasp"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 14.0, 
+                "families": 8.0, 
+                "id": "get, obtain", 
+                "weight": 581.8181818181819
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "take", 
+                "weight": 32.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "catch (ball)", 
+                "weight": 33.33333333333333
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "get, obtain", 
+                "weight": 274.2857142857143
+            }, 
+            {
+                "languages": 51.0, 
+                "families": 18.0, 
+                "id": "seize, grasp", 
+                "weight": 2644.8979591836737
+            }, 
+            {
+                "languages": 21.0, 
+                "families": 16.0, 
+                "id": "take", 
+                "weight": 2027.7227722772277
+            }, 
+            {
+                "languages": 26.0, 
+                "families": 9.0, 
+                "id": "trap (vb)", 
+                "weight": 728.0898876404494
+            }, 
+            {
+                "languages": 42.0, 
+                "families": 17.0, 
+                "id": "catch (ball)", 
+                "weight": 2408.333333333333
+            }
+        ], 
+        [
+            {
+                "languages": 26.0, 
+                "families": 9.0, 
+                "id": "hold", 
+                "weight": 728.0898876404494
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "get, obtain", 
+                "weight": 217.39130434782606
+            }, 
+            {
+                "languages": 47.0, 
+                "families": 17.0, 
+                "id": "catch (ball)", 
+                "weight": 2819.512195121951
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "take", 
+                "weight": 1052.1739130434783
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "rape", 
+                "weight": 41.55844155844156
+            }, 
+            {
+                "languages": 32.0, 
+                "families": 12.0, 
+                "id": "seize, grasp", 
+                "weight": 1280.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "families": 8.0, 
+                "id": "earn", 
+                "weight": 581.8181818181819
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "hold", 
+                "weight": 274.2857142857143
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "trap (vb)", 
+                "weight": 217.39130434782606
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "get, obtain", 
+                "weight": 7.339449541284404
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "catch (ball)", 
+                "weight": 958.4158415841583
+            }, 
+            {
+                "languages": 39.0, 
+                "families": 17.0, 
+                "id": "take", 
+                "weight": 2335.3535353535353
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rape", 
+                "weight": 8.791208791208792
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "seize, grasp", 
+                "weight": 362.962962962963
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "earn", 
+                "weight": 33.33333333333333
+            }, 
+            {
+                "languages": 42.0, 
+                "families": 17.0, 
+                "id": "hold", 
+                "weight": 2408.333333333333
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "get, obtain", 
+                "weight": 958.4158415841583
+            }, 
+            {
+                "languages": 47.0, 
+                "families": 17.0, 
+                "id": "trap (vb)", 
+                "weight": 2819.512195121951
+            }, 
+            {
+                "languages": 33.0, 
+                "families": 19.0, 
+                "id": "take", 
+                "weight": 2917.1717171717173
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rape", 
+                "weight": 8.60215053763441
+            }, 
+            {
+                "languages": 71.0, 
+                "families": 23.0, 
+                "id": "seize, grasp", 
+                "weight": 4502.127659574468
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "earn", 
+                "weight": 32.0
+            }, 
+            {
+                "languages": 21.0, 
+                "families": 16.0, 
+                "id": "hold", 
+                "weight": 2027.7227722772277
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "trap (vb)", 
+                "weight": 1052.1739130434783
+            }, 
+            {
+                "languages": 39.0, 
+                "families": 17.0, 
+                "id": "get, obtain", 
+                "weight": 2335.3535353535353
+            }, 
+            {
+                "languages": 33.0, 
+                "families": 19.0, 
+                "id": "catch (ball)", 
+                "weight": 2917.1717171717173
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rape", 
+                "weight": 8.24742268041237
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 20.0, 
+                "id": "seize, grasp", 
+                "weight": 3168.3168316831684
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "get, obtain", 
+                "weight": 8.791208791208792
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "seize, grasp", 
+                "weight": 8.333333333333332
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "take", 
+                "weight": 8.24742268041237
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "trap (vb)", 
+                "weight": 41.55844155844156
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "catch (ball)", 
+                "weight": 8.60215053763441
+            }
+        ], 
+        [
+            {
+                "languages": 51.0, 
+                "families": 18.0, 
+                "id": "hold", 
+                "weight": 2644.8979591836737
+            }, 
+            {
+                "languages": 32.0, 
+                "families": 12.0, 
+                "id": "trap (vb)", 
+                "weight": 1280.0
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "get, obtain", 
+                "weight": 362.962962962963
+            }, 
+            {
+                "languages": 71.0, 
+                "families": 23.0, 
+                "id": "catch (ball)", 
+                "weight": 4502.127659574468
+            }, 
+            {
+                "languages": 35.0, 
+                "families": 20.0, 
+                "id": "take", 
+                "weight": 3168.3168316831684
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rape", 
+                "weight": 8.333333333333332
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "seize, grasp", 
+                "weight": 6.722689075630252
+            }
+        ]
+    ], 
+    "multigraph": false
+}

@@ -1,0 +1,103 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 126, 
+            "key": "10.351", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "dive"
+        }, 
+        {
+            "community": 126, 
+            "key": "10.33", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "sink"
+        }, 
+        {
+            "community": 126, 
+            "key": "4.751", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "drowned"
+        }, 
+        {
+            "community": 126, 
+            "key": "5.19", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "choke"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "sink", 
+                "weight": 497.08737864077665
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "dive", 
+                "weight": 497.08737864077665
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "choke", 
+                "weight": 7.339449541284404
+            }, 
+            {
+                "languages": 21.0, 
+                "families": 15.0, 
+                "id": "drowned", 
+                "weight": 1875.0
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "families": 15.0, 
+                "id": "sink", 
+                "weight": 1875.0
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "choke", 
+                "weight": 285.1485148514851
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "choke", 
+                "weight": 7.6190476190476195
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "drowned", 
+                "weight": 285.1485148514851
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "sink", 
+                "weight": 7.339449541284404
+            }
+        ]
+    ], 
+    "multigraph": false
+}

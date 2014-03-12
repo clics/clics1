@@ -1,0 +1,309 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 28, 
+            "key": "8.52", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hay"
+        }, 
+        {
+            "community": 28, 
+            "key": "8.51", 
+            "out_edge": [
+                [
+                    "cluster_94_roof", 
+                    "thatch", 
+                    7.0, 
+                    384.3137254901961
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "grass"
+        }, 
+        {
+            "community": 28, 
+            "key": "1.23", 
+            "out_edge": [
+                [
+                    "cluster_98_soft", 
+                    "flat", 
+                    7.0, 
+                    366.3551401869159
+                ], 
+                [
+                    "cluster_98_soft", 
+                    "smooth", 
+                    4.0, 
+                    116.36363636363636
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "plain, field"
+        }, 
+        {
+            "community": 28, 
+            "key": "3.16", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "pasture"
+        }, 
+        {
+            "community": 28, 
+            "key": "1.24", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "valley"
+        }, 
+        {
+            "community": 28, 
+            "key": "8.53", 
+            "out_edge": [
+                [
+                    "cluster_4_tree", 
+                    "tree", 
+                    8.0, 
+                    501.96078431372547
+                ], 
+                [
+                    "cluster_31_sow", 
+                    "plant (vb)", 
+                    5.0, 
+                    202.02020202020202
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "plant (noun)"
+        }, 
+        {
+            "community": 28, 
+            "key": "8.13", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "garden"
+        }, 
+        {
+            "community": 28, 
+            "key": "8.12", 
+            "out_edge": [
+                [
+                    "cluster_2_country", 
+                    "earth=ground, soil", 
+                    4.0, 
+                    114.28571428571428
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "field (for cultivation)"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pasture", 
+                "weight": 41.55844155844156
+            }, 
+            {
+                "languages": 28.0, 
+                "families": 13.0, 
+                "id": "grass", 
+                "weight": 1519.1011235955057
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 2.0, 
+                "id": "plant (noun)", 
+                "weight": 37.64705882352941
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "plain, field", 
+                "weight": 26.89075630252101
+            }, 
+            {
+                "languages": 28.0, 
+                "families": 13.0, 
+                "id": "hay", 
+                "weight": 1519.1011235955057
+            }, 
+            {
+                "languages": 28.0, 
+                "families": 9.0, 
+                "id": "plant (noun)", 
+                "weight": 635.2941176470588
+            }, 
+            {
+                "languages": 17.0, 
+                "families": 12.0, 
+                "id": "pasture", 
+                "weight": 1265.934065934066
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "grass", 
+                "weight": 26.89075630252101
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "pasture", 
+                "weight": 728.0898876404494
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 4.0, 
+                "id": "valley", 
+                "weight": 125.49019607843137
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "garden", 
+                "weight": 74.22680412371135
+            }, 
+            {
+                "languages": 52.0, 
+                "families": 11.0, 
+                "id": "field (for cultivation)", 
+                "weight": 949.0196078431372
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "hay", 
+                "weight": 41.55844155844156
+            }, 
+            {
+                "languages": 17.0, 
+                "families": 12.0, 
+                "id": "grass", 
+                "weight": 1265.934065934066
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "plain, field", 
+                "weight": 728.0898876404494
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "valley", 
+                "weight": 9.195402298850574
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "plant (noun)", 
+                "weight": 37.2093023255814
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "field (for cultivation)", 
+                "weight": 140.65934065934067
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 4.0, 
+                "id": "plain, field", 
+                "weight": 125.49019607843137
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "pasture", 
+                "weight": 9.195402298850574
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pasture", 
+                "weight": 37.2093023255814
+            }, 
+            {
+                "languages": 28.0, 
+                "families": 9.0, 
+                "id": "grass", 
+                "weight": 635.2941176470588
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "garden", 
+                "weight": 8.98876404494382
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 2.0, 
+                "id": "hay", 
+                "weight": 37.64705882352941
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "plain, field", 
+                "weight": 74.22680412371135
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "plant (noun)", 
+                "weight": 8.98876404494382
+            }, 
+            {
+                "languages": 24.0, 
+                "families": 13.0, 
+                "id": "field (for cultivation)", 
+                "weight": 1609.5238095238094
+            }
+        ], 
+        [
+            {
+                "languages": 52.0, 
+                "families": 11.0, 
+                "id": "plain, field", 
+                "weight": 949.0196078431372
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "pasture", 
+                "weight": 140.65934065934067
+            }, 
+            {
+                "languages": 24.0, 
+                "families": 13.0, 
+                "id": "garden", 
+                "weight": 1609.5238095238094
+            }
+        ]
+    ], 
+    "multigraph": false
+}

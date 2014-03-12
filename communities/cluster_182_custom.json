@@ -1,0 +1,88 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 182, 
+            "key": "21.11", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "law"
+        }, 
+        {
+            "community": 182, 
+            "key": "17.49", 
+            "out_edge": [
+                [
+                    "cluster_120_path", 
+                    "road", 
+                    5.0, 
+                    215.0537634408602
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "way, manner"
+        }, 
+        {
+            "community": 182, 
+            "key": "19.61", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "custom"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "way, manner", 
+                "weight": 11.428571428571429
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "custom", 
+                "weight": 270.27027027027026
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "law", 
+                "weight": 11.428571428571429
+            }, 
+            {
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "custom", 
+                "weight": 1645.7142857142856
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "law", 
+                "weight": 270.27027027027026
+            }, 
+            {
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "way, manner", 
+                "weight": 1645.7142857142856
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "custom", 
+                "weight": 8.98876404494382
+            }
+        ]
+    ], 
+    "multigraph": false
+}

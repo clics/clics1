@@ -1,0 +1,67 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 164, 
+            "key": "18.35", 
+            "out_edge": [
+                [
+                    "cluster_10_trade, barter", 
+                    "borrow", 
+                    6.0, 
+                    274.2857142857143
+                ], 
+                [
+                    "cluster_21_call (=summon)", 
+                    "call (=summon)", 
+                    5.0, 
+                    170.94017094017093
+                ], 
+                [
+                    "cluster_123_need, necessity", 
+                    "desire, want", 
+                    4.0, 
+                    111.30434782608695
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "ask, request"
+        }, 
+        {
+            "community": 164, 
+            "key": "18.31", 
+            "out_edge": [
+                [
+                    "cluster_10_trade, barter", 
+                    "answer", 
+                    4.0, 
+                    109.40170940170941
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "ask (question, inquire)"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 40.0, 
+                "families": 21.0, 
+                "id": "ask (question, inquire)", 
+                "weight": 3425.2427184466023
+            }
+        ], 
+        [
+            {
+                "languages": 40.0, 
+                "families": 21.0, 
+                "id": "ask, request", 
+                "weight": 3425.2427184466023
+            }
+        ]
+    ], 
+    "multigraph": false
+}

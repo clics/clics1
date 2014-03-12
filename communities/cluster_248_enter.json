@@ -1,0 +1,85 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 248, 
+            "key": "3.665", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "freshwater eel"
+        }, 
+        {
+            "community": 248, 
+            "key": "6.25", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "silk"
+        }, 
+        {
+            "community": 248, 
+            "key": "6.48", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "trousers"
+        }, 
+        {
+            "community": 248, 
+            "key": "10.57", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "enter"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "enter", 
+                "weight": 7.6923076923076925
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "trousers", 
+                "weight": 11.267605633802818
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "enter", 
+                "weight": 9.30232558139535
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "silk", 
+                "weight": 11.267605633802818
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "freshwater eel", 
+                "weight": 7.6923076923076925
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "silk", 
+                "weight": 9.30232558139535
+            }
+        ]
+    ], 
+    "multigraph": false
+}

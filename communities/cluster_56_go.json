@@ -1,0 +1,166 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 56, 
+            "key": "10.47", 
+            "out_edge": [
+                [
+                    "cluster_161_reach, arrive", 
+                    "come", 
+                    8.0, 
+                    437.60683760683764
+                ], 
+                [
+                    "cluster_32_go up", 
+                    "ride", 
+                    6.0, 
+                    261.8181818181818
+                ], 
+                [
+                    "cluster_80_run", 
+                    "flow", 
+                    5.0, 
+                    169.4915254237288
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "go"
+        }, 
+        {
+            "community": 56, 
+            "key": "10.49", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "go away, depart"
+        }, 
+        {
+            "community": 56, 
+            "key": "10.474", 
+            "out_edge": [
+                [
+                    "cluster_142_born (to be)", 
+                    "born (to be)", 
+                    5.0, 
+                    173.91304347826087
+                ], 
+                [
+                    "cluster_32_go up", 
+                    "rise", 
+                    5.0, 
+                    172.41379310344826
+                ], 
+                [
+                    "cluster_141_fall", 
+                    "land (vb)", 
+                    4.0, 
+                    120.75471698113208
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "go out"
+        }, 
+        {
+            "community": 56, 
+            "key": "10.45", 
+            "out_edge": [
+                [
+                    "cluster_92_stir, mix", 
+                    "move", 
+                    5.0, 
+                    172.41379310344826
+                ], 
+                [
+                    "cluster_32_go up", 
+                    "ride", 
+                    4.0, 
+                    114.28571428571428
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "walk"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "go", 
+                "weight": 6.4
+            }, 
+            {
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "go away, depart", 
+                "weight": 3425.2427184466023
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "go out", 
+                "weight": 6.451612903225806
+            }, 
+            {
+                "languages": 53.0, 
+                "families": 20.0, 
+                "id": "walk", 
+                "weight": 3018.867924528302
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "go", 
+                "weight": 3425.2427184466023
+            }, 
+            {
+                "languages": 19.0, 
+                "families": 11.0, 
+                "id": "go out", 
+                "weight": 864.2857142857142
+            }, 
+            {
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "walk", 
+                "weight": 335.04273504273505
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "go", 
+                "weight": 6.451612903225806
+            }, 
+            {
+                "languages": 19.0, 
+                "families": 11.0, 
+                "id": "go away, depart", 
+                "weight": 864.2857142857142
+            }
+        ], 
+        [
+            {
+                "languages": 53.0, 
+                "families": 20.0, 
+                "id": "go", 
+                "weight": 3018.867924528302
+            }, 
+            {
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "go away, depart", 
+                "weight": 335.04273504273505
+            }
+        ]
+    ], 
+    "multigraph": false
+}

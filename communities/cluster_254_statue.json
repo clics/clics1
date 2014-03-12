@@ -1,0 +1,85 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 254, 
+            "key": "4.855", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "blister"
+        }, 
+        {
+            "community": 254, 
+            "key": "6.79", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "tattoo"
+        }, 
+        {
+            "community": 254, 
+            "key": "9.83", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "statue"
+        }, 
+        {
+            "community": 254, 
+            "key": "3.77", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "elephant"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "elephant", 
+                "weight": 11.428571428571429
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "statue", 
+                "weight": 12.903225806451612
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tattoo", 
+                "weight": 12.903225806451612
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "elephant", 
+                "weight": 15.384615384615385
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "blister", 
+                "weight": 11.428571428571429
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "statue", 
+                "weight": 15.384615384615385
+            }
+        ]
+    ], 
+    "multigraph": false
+}

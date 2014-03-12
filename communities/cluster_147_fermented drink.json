@@ -1,0 +1,94 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 147, 
+            "key": "5.93", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "beer"
+        }, 
+        {
+            "community": 147, 
+            "key": "5.94", 
+            "out_edge": [
+                [
+                    "cluster_65_river, stream, brook", 
+                    "beverage, drink", 
+                    5.0, 
+                    190.47619047619045
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "fermented drink"
+        }, 
+        {
+            "community": 147, 
+            "key": "5.92", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "wine"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "fermented drink", 
+                "weight": 595.3488372093024
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "wine", 
+                "weight": 812.6984126984127
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "beer", 
+                "weight": 595.3488372093024
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fermented drink", 
+                "weight": 7.207207207207207
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "wine", 
+                "weight": 346.9879518072289
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "beer", 
+                "weight": 812.6984126984127
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "fermented drink", 
+                "weight": 346.9879518072289
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wine", 
+                "weight": 12.307692307692308
+            }
+        ]
+    ], 
+    "multigraph": false
+}

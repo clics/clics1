@@ -1,0 +1,81 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 210, 
+            "key": "11.52", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "poor"
+        }, 
+        {
+            "community": 210, 
+            "key": "2.75", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "orphan"
+        }, 
+        {
+            "community": 210, 
+            "key": "11.53", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "beggar"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "orphan", 
+                "weight": 194.1747572815534
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "beggar", 
+                "weight": 408.3333333333333
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "poor", 
+                "weight": 194.1747572815534
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "beggar", 
+                "weight": 131.95876288659792
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "poor", 
+                "weight": 408.3333333333333
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "orphan", 
+                "weight": 131.95876288659792
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beggar", 
+                "weight": 8.421052631578947
+            }
+        ]
+    ], 
+    "multigraph": false
+}

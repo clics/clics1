@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 193, 
+            "key": "20.33", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "helmet"
+        }, 
+        {
+            "community": 193, 
+            "key": "6.55", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hat, cap"
+        }, 
+        {
+            "community": 193, 
+            "key": "6.78", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "headband, headdress"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "headband, headdress", 
+                "weight": 109.09090909090908
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "hat, cap", 
+                "weight": 270.27027027027026
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "helmet", 
+                "weight": 270.27027027027026
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "headband, headdress", 
+                "weight": 215.0537634408602
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "helmet", 
+                "weight": 109.09090909090908
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "hat, cap", 
+                "weight": 215.0537634408602
+            }
+        ]
+    ], 
+    "multigraph": false
+}

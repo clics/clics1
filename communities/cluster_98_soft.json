@@ -1,0 +1,210 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 98, 
+            "key": "4.91", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "tired, weary"
+        }, 
+        {
+            "community": 98, 
+            "key": "4.82", 
+            "out_edge": [
+                [
+                    "cluster_171_narrow", 
+                    "thin (in dimension)", 
+                    4.0, 
+                    109.40170940170941
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "weak"
+        }, 
+        {
+            "community": 98, 
+            "key": "15.77", 
+            "out_edge": [
+                [
+                    "cluster_12_faithful", 
+                    "straight", 
+                    7.0, 
+                    359.6330275229358
+                ], 
+                [
+                    "cluster_28_pasture", 
+                    "plain, field", 
+                    4.0, 
+                    116.36363636363636
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "smooth"
+        }, 
+        {
+            "community": 98, 
+            "key": "12.71", 
+            "out_edge": [
+                [
+                    "cluster_28_pasture", 
+                    "plain, field", 
+                    7.0, 
+                    366.3551401869159
+                ], 
+                [
+                    "cluster_12_faithful", 
+                    "straight", 
+                    6.0, 
+                    261.8181818181818
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "flat"
+        }, 
+        {
+            "community": 98, 
+            "key": "4.92", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "lazy"
+        }, 
+        {
+            "community": 98, 
+            "key": "15.75", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "soft"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tired, weary", 
+                "weight": 6.6115702479338845
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "lazy", 
+                "weight": 60.0
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "weak", 
+                "weight": 173.91304347826087
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "tired, weary", 
+                "weight": 173.91304347826087
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "soft", 
+                "weight": 343.859649122807
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "lazy", 
+                "weight": 172.41379310344826
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "smooth", 
+                "weight": 7.017543859649122
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "families": 7.0, 
+                "id": "flat", 
+                "weight": 373.3333333333333
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "weak", 
+                "weight": 7.017543859649122
+            }, 
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "soft", 
+                "weight": 1086.7924528301887
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "families": 7.0, 
+                "id": "smooth", 
+                "weight": 373.3333333333333
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "tired, weary", 
+                "weight": 60.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soft", 
+                "weight": 6.504065040650407
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "weak", 
+                "weight": 172.41379310344826
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "smooth", 
+                "weight": 1086.7924528301887
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lazy", 
+                "weight": 6.504065040650407
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "weak", 
+                "weight": 343.859649122807
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soft", 
+                "weight": 6.504065040650407
+            }
+        ]
+    ], 
+    "multigraph": false
+}

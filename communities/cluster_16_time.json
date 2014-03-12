@@ -1,0 +1,329 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 16, 
+            "key": "14.53", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "clock, timepiece"
+        }, 
+        {
+            "community": 16, 
+            "key": "14.78", 
+            "out_edge": [
+                [
+                    "cluster_122_age", 
+                    "year", 
+                    6.0, 
+                    320.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "season"
+        }, 
+        {
+            "community": 16, 
+            "key": "1.52", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "sun"
+        }, 
+        {
+            "community": 16, 
+            "key": "1.78", 
+            "out_edge": [
+                [
+                    "cluster_111_wind", 
+                    "air", 
+                    7.0, 
+                    490.00000000000006
+                ], 
+                [
+                    "cluster_2_country", 
+                    "world", 
+                    4.0, 
+                    150.58823529411765
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "weather"
+        }, 
+        {
+            "community": 16, 
+            "key": "14.11", 
+            "out_edge": [
+                [
+                    "cluster_122_age", 
+                    "age", 
+                    5.0, 
+                    250.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "time"
+        }, 
+        {
+            "community": 16, 
+            "key": "14.41", 
+            "out_edge": [
+                [
+                    "cluster_2_country", 
+                    "world", 
+                    7.0, 
+                    366.3551401869159
+                ], 
+                [
+                    "cluster_22_white", 
+                    "light (noun)", 
+                    7.0, 
+                    329.4117647058823
+                ], 
+                [
+                    "cluster_97_Sunday", 
+                    "Sunday", 
+                    5.0, 
+                    208.33333333333334
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "day"
+        }, 
+        {
+            "community": 16, 
+            "key": "14.51", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hour"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "sun", 
+                "weight": 69.23076923076923
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "day", 
+                "weight": 30.18867924528302
+            }, 
+            {
+                "languages": 40.0, 
+                "families": 10.0, 
+                "id": "hour", 
+                "weight": 1194.0298507462687
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "time", 
+                "weight": 9.411764705882353
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "weather", 
+                "weight": 42.66666666666667
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "day", 
+                "weight": 130.6122448979592
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "hour", 
+                "weight": 191.04477611940297
+            }, 
+            {
+                "languages": 17.0, 
+                "families": 11.0, 
+                "id": "time", 
+                "weight": 1402.8985507246377
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "clock, timepiece", 
+                "weight": 69.23076923076923
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "weather", 
+                "weight": 32.0
+            }, 
+            {
+                "languages": 36.0, 
+                "families": 20.0, 
+                "id": "day", 
+                "weight": 2990.654205607477
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "hour", 
+                "weight": 34.04255319148936
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "time", 
+                "weight": 7.6923076923076925
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "season", 
+                "weight": 42.66666666666667
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "day", 
+                "weight": 689.3617021276596
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "sun", 
+                "weight": 32.0
+            }, 
+            {
+                "languages": 30.0, 
+                "families": 15.0, 
+                "id": "time", 
+                "weight": 2727.2727272727275
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "families": 11.0, 
+                "id": "season", 
+                "weight": 1402.8985507246377
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "clock, timepiece", 
+                "weight": 9.411764705882353
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sun", 
+                "weight": 7.6923076923076925
+            }, 
+            {
+                "languages": 30.0, 
+                "families": 15.0, 
+                "id": "weather", 
+                "weight": 2727.2727272727275
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "day", 
+                "weight": 833.3333333333334
+            }, 
+            {
+                "languages": 16.0, 
+                "families": 14.0, 
+                "id": "hour", 
+                "weight": 2570.4918032786886
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "clock, timepiece", 
+                "weight": 30.18867924528302
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "season", 
+                "weight": 130.6122448979592
+            }, 
+            {
+                "languages": 36.0, 
+                "families": 20.0, 
+                "id": "sun", 
+                "weight": 2990.654205607477
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "weather", 
+                "weight": 689.3617021276596
+            }, 
+            {
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "time", 
+                "weight": 833.3333333333334
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "hour", 
+                "weight": 33.68421052631579
+            }
+        ], 
+        [
+            {
+                "languages": 40.0, 
+                "families": 10.0, 
+                "id": "clock, timepiece", 
+                "weight": 1194.0298507462687
+            }, 
+            {
+                "languages": 16.0, 
+                "families": 14.0, 
+                "id": "time", 
+                "weight": 2570.4918032786886
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "day", 
+                "weight": 33.68421052631579
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "sun", 
+                "weight": 34.04255319148936
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "season", 
+                "weight": 191.04477611940297
+            }
+        ]
+    ], 
+    "multigraph": false
+}

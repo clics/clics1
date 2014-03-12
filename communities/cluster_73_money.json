@@ -1,0 +1,82 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 73, 
+            "key": "11.43", 
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "fishscale", 
+                    4.0, 
+                    131.95876288659792
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "money"
+        }, 
+        {
+            "community": 73, 
+            "key": "11.44", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "coin"
+        }, 
+        {
+            "community": 73, 
+            "key": "9.65", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "silver"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 32.0, 
+                "families": 18.0, 
+                "id": "coin", 
+                "weight": 3410.526315789474
+            }, 
+            {
+                "languages": 33.0, 
+                "families": 15.0, 
+                "id": "silver", 
+                "weight": 2337.662337662338
+            }
+        ], 
+        [
+            {
+                "languages": 32.0, 
+                "families": 18.0, 
+                "id": "money", 
+                "weight": 3410.526315789474
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "silver", 
+                "weight": 841.5584415584416
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "families": 15.0, 
+                "id": "money", 
+                "weight": 2337.662337662338
+            }, 
+            {
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "coin", 
+                "weight": 841.5584415584416
+            }
+        ]
+    ], 
+    "multigraph": false
+}
