@@ -34,7 +34,6 @@ var availableTags = [
 	"swamp",
 	"waterfall",
 	"woods, forest",
-	"tree (cf 08.600)",
 	"wood",
 	"stone, rock",
 	"earthquake",
