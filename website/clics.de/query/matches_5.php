@@ -13,12 +13,12 @@
   <td>
 	  <?php echo $result['languages'];?>
   </td>
-  <td>
-    <?php echo $result['community'];?>
-  </td>
-  <td>
-    <?php echo '<a href="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'"><em>'.$result['community_label'].'</em></a>';?>
-   
+  <td class="submit_button" style="text-align:left">
+    <?php 
+      echo '<form action="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'" method="post">';
+      echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
+      echo '</form>';
+    ?>   
   </td>
 <?php 
 }
@@ -38,11 +38,11 @@ else{
 	  <?php echo $result['languages'];?>
   </td>
   <td style="background-color:lightgray">
-    <?php echo $result['community'];?>
-  </td>
-  <td style="background-color:lightgray">
-    <?php echo '<a href="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'"><em>'.$result['community_label'].'</em></a>';?>
-  </td>
+    <?php 
+      echo '<form action="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'" method="post">';
+      echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
+      echo '</form>';
+    ?>    </td>
 <?php 
 }
 ?>
