@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "key": "16.67", 
+            "body_part": 0, 
+            "community": 160, 
+            "id": "lie, tell lies", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.47", 
+            "body_part": 0, 
+            "community": 160, 
+            "id": "perjury", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.68", 
+            "body_part": 0, 
+            "community": 160, 
+            "id": "deceit", 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "betray", 
+                    6.0, 
+                    320.0
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 780.722891566265, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "perjury"
+            }, 
+            {
+                "weight": 747.6635514018692, 
+                "languages": 17.0, 
+                "families": 10.0, 
+                "id": "deceit"
+            }
+        ], 
+        [
+            {
+                "weight": 780.722891566265, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "lie, tell lies"
+            }, 
+            {
+                "weight": 374.025974025974, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "deceit"
+            }
+        ], 
+        [
+            {
+                "weight": 747.6635514018692, 
+                "languages": 17.0, 
+                "families": 10.0, 
+                "id": "lie, tell lies"
+            }, 
+            {
+                "weight": 374.025974025974, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "perjury"
+            }
+        ]
+    ], 
+    "directed": false
+}

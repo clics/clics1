@@ -1,0 +1,196 @@
+{
+    "nodes": [
+        {
+            "key": "15.36", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "salty", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.38", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "acid, sour", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.37", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "bitter", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.39", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "brackish", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.35", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "sweet", 
+            "out_edge": [
+                [
+                    "cluster_48_stinking, bad smelling", 
+                    "fragrant, good smelling", 
+                    5.0, 
+                    173.91304347826087
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.81", 
+            "body_part": 0, 
+            "community": 60, 
+            "id": "salt", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 246.15384615384616, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "sweet"
+            }, 
+            {
+                "weight": 469.72477064220186, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "acid, sour"
+            }, 
+            {
+                "weight": 589.090909090909, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "salt"
+            }, 
+            {
+                "weight": 350.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "bitter"
+            }, 
+            {
+                "weight": 1355.2941176470588, 
+                "languages": 22.0, 
+                "families": 12.0, 
+                "id": "brackish"
+            }
+        ], 
+        [
+            {
+                "weight": 469.72477064220186, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "salty"
+            }, 
+            {
+                "weight": 1747.5728155339805, 
+                "languages": 20.0, 
+                "families": 15.0, 
+                "id": "bitter"
+            }, 
+            {
+                "weight": 8.421052631578947, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "brackish"
+            }
+        ], 
+        [
+            {
+                "weight": 350.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "salty"
+            }, 
+            {
+                "weight": 6.504065040650407, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sweet"
+            }, 
+            {
+                "weight": 1747.5728155339805, 
+                "languages": 20.0, 
+                "families": 15.0, 
+                "id": "acid, sour"
+            }, 
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bitter"
+            }, 
+            {
+                "weight": 75.78947368421053, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "brackish"
+            }
+        ], 
+        [
+            {
+                "weight": 1355.2941176470588, 
+                "languages": 22.0, 
+                "families": 12.0, 
+                "id": "salty"
+            }, 
+            {
+                "weight": 8.421052631578947, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "acid, sour"
+            }, 
+            {
+                "weight": 75.78947368421053, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "bitter"
+            }
+        ], 
+        [
+            {
+                "weight": 246.15384615384616, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "salty"
+            }, 
+            {
+                "weight": 6.504065040650407, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bitter"
+            }
+        ], 
+        [
+            {
+                "weight": 589.090909090909, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "salty"
+            }, 
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "salt"
+            }
+        ]
+    ], 
+    "directed": false
+}

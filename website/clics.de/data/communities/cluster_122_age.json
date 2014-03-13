@@ -1,0 +1,141 @@
+{
+    "nodes": [
+        {
+            "key": "14.73", 
+            "body_part": 0, 
+            "community": 122, 
+            "id": "year", 
+            "out_edge": [
+                [
+                    "cluster_16_day", 
+                    "season", 
+                    6.0, 
+                    320.0
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.75", 
+            "body_part": 0, 
+            "community": 122, 
+            "id": "spring", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.12", 
+            "body_part": 0, 
+            "community": 122, 
+            "id": "age", 
+            "out_edge": [
+                [
+                    "cluster_16_day", 
+                    "time", 
+                    5.0, 
+                    250.0
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.76", 
+            "body_part": 0, 
+            "community": 122, 
+            "id": "summer", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 7.920792079207921, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spring"
+            }, 
+            {
+                "weight": 2093.0232558139537, 
+                "languages": 20.0, 
+                "families": 15.0, 
+                "id": "age"
+            }, 
+            {
+                "weight": 761.9047619047618, 
+                "languages": 16.0, 
+                "families": 10.0, 
+                "id": "summer"
+            }
+        ], 
+        [
+            {
+                "weight": 7.920792079207921, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "year"
+            }, 
+            {
+                "weight": 32.323232323232325, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "summer"
+            }, 
+            {
+                "weight": 9.30232558139535, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "age"
+            }
+        ], 
+        [
+            {
+                "weight": 2093.0232558139537, 
+                "languages": 20.0, 
+                "families": 15.0, 
+                "id": "year"
+            }, 
+            {
+                "weight": 9.30232558139535, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spring"
+            }, 
+            {
+                "weight": 9.411764705882353, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "age"
+            }, 
+            {
+                "weight": 32.6530612244898, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "summer"
+            }
+        ], 
+        [
+            {
+                "weight": 761.9047619047618, 
+                "languages": 16.0, 
+                "families": 10.0, 
+                "id": "year"
+            }, 
+            {
+                "weight": 32.323232323232325, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "spring"
+            }, 
+            {
+                "weight": 32.6530612244898, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "age"
+            }
+        ]
+    ], 
+    "directed": false
+}

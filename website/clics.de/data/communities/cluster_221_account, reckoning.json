@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "key": "11.66", 
+            "body_part": 0, 
+            "community": 221, 
+            "id": "account, reckoning", 
+            "out_edge": [
+                [
+                    "cluster_40_taste", 
+                    "count", 
+                    4.0, 
+                    145.45454545454547
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.63", 
+            "body_part": 0, 
+            "community": 221, 
+            "id": "owe", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.64", 
+            "body_part": 0, 
+            "community": 221, 
+            "id": "debt", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 177.77777777777777, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "debt"
+            }, 
+            {
+                "weight": 10.38961038961039, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "owe"
+            }
+        ], 
+        [
+            {
+                "weight": 10.38961038961039, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "account, reckoning"
+            }, 
+            {
+                "weight": 496.2025316455696, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "debt"
+            }
+        ], 
+        [
+            {
+                "weight": 177.77777777777777, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "account, reckoning"
+            }, 
+            {
+                "weight": 496.2025316455696, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "owe"
+            }
+        ]
+    ], 
+    "directed": false
+}

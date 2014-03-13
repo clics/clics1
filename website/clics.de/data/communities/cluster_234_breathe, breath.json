@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "key": "4.52", 
+            "body_part": 0, 
+            "community": 234, 
+            "id": "yawn, gape", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.51", 
+            "body_part": 0, 
+            "community": 234, 
+            "id": "breathe, breath", 
+            "out_edge": [
+                [
+                    "cluster_111_storm", 
+                    "air", 
+                    4.0, 
+                    120.75471698113208
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.912", 
+            "body_part": 0, 
+            "community": 234, 
+            "id": "rest", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.64", 
+            "body_part": 0, 
+            "community": 234, 
+            "id": "break wind", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.97", 
+            "body_part": 0, 
+            "community": 234, 
+            "id": "nettle", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 6.837606837606838, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "yawn, gape"
+            }, 
+            {
+                "weight": 26.89075630252101, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "breathe, breath"
+            }
+        ], 
+        [
+            {
+                "weight": 26.89075630252101, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "yawn, gape"
+            }, 
+            {
+                "weight": 6.504065040650407, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "breathe, breath"
+            }, 
+            {
+                "weight": 62.06896551724138, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rest"
+            }
+        ], 
+        [
+            {
+                "weight": 62.06896551724138, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "breathe, breath"
+            }, 
+            {
+                "weight": 29.357798165137616, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "break wind"
+            }
+        ], 
+        [
+            {
+                "weight": 29.357798165137616, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "rest"
+            }, 
+            {
+                "weight": 8.333333333333332, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "nettle"
+            }
+        ], 
+        [
+            {
+                "weight": 8.333333333333332, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "break wind"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,153 @@
+{
+    "nodes": [
+        {
+            "key": "6.33", 
+            "body_part": 0, 
+            "community": 39, 
+            "id": "weave", 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "spin", 
+                    4.0, 
+                    117.43119266055047
+                ], 
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    4.0, 
+                    115.31531531531532
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.75", 
+            "body_part": 0, 
+            "community": 39, 
+            "id": "weave, plait", 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "spin", 
+                    8.0, 
+                    501.96078431372547
+                ], 
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    6.0, 
+                    271.6981132075472
+                ], 
+                [
+                    "cluster_33_build", 
+                    "build", 
+                    5.0, 
+                    188.67924528301887
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.921", 
+            "body_part": 0, 
+            "community": 39, 
+            "id": "braid", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.35", 
+            "body_part": 0, 
+            "community": 39, 
+            "id": "sew", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 10890.0, 
+                "languages": 86.0, 
+                "families": 33.0, 
+                "id": "weave, plait"
+            }, 
+            {
+                "weight": 487.61904761904765, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "braid"
+            }, 
+            {
+                "weight": 109.40170940170941, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "sew"
+            }
+        ], 
+        [
+            {
+                "weight": 10890.0, 
+                "languages": 86.0, 
+                "families": 33.0, 
+                "id": "weave"
+            }, 
+            {
+                "weight": 1894.736842105263, 
+                "languages": 35.0, 
+                "families": 15.0, 
+                "id": "braid"
+            }, 
+            {
+                "weight": 112.28070175438596, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "sew"
+            }
+        ], 
+        [
+            {
+                "weight": 487.61904761904765, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "weave"
+            }, 
+            {
+                "weight": 1894.736842105263, 
+                "languages": 35.0, 
+                "families": 15.0, 
+                "id": "weave, plait"
+            }, 
+            {
+                "weight": 6.837606837606838, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sew"
+            }
+        ], 
+        [
+            {
+                "weight": 109.40170940170941, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "weave"
+            }, 
+            {
+                "weight": 112.28070175438596, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "weave, plait"
+            }, 
+            {
+                "weight": 6.837606837606838, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "braid"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,113 @@
+{
+    "nodes": [
+        {
+            "key": "10.48", 
+            "body_part": 0, 
+            "community": 161, 
+            "id": "come", 
+            "out_edge": [
+                [
+                    "cluster_56_go", 
+                    "go", 
+                    8.0, 
+                    437.60683760683764
+                ], 
+                [
+                    "cluster_101_turn over", 
+                    "come back", 
+                    6.0, 
+                    246.15384615384616
+                ]
+            ], 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "10.56", 
+            "body_part": 0, 
+            "community": 161, 
+            "id": "approach", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.55", 
+            "body_part": 0, 
+            "community": 161, 
+            "id": "reach, arrive", 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    4.0, 
+                    113.27433628318585
+                ], 
+                [
+                    "cluster_47_look, look at", 
+                    "find", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 176.99115044247787, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "approach"
+            }, 
+            {
+                "weight": 1425.4545454545455, 
+                "languages": 33.0, 
+                "families": 14.0, 
+                "id": "reach, arrive"
+            }
+        ], 
+        [
+            {
+                "weight": 176.99115044247787, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "come"
+            }, 
+            {
+                "weight": 7.207207207207207, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "approach"
+            }, 
+            {
+                "weight": 465.45454545454544, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "reach, arrive"
+            }
+        ], 
+        [
+            {
+                "weight": 1425.4545454545455, 
+                "languages": 33.0, 
+                "families": 14.0, 
+                "id": "come"
+            }, 
+            {
+                "weight": 465.45454545454544, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "approach"
+            }, 
+            {
+                "weight": 6.504065040650407, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "reach, arrive"
+            }
+        ]
+    ], 
+    "directed": false
+}

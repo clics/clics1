@@ -1,0 +1,54 @@
+{
+    "nodes": [
+        {
+            "key": "5.123", 
+            "body_part": 0, 
+            "community": 146, 
+            "id": "ripe", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.121", 
+            "body_part": 0, 
+            "community": 146, 
+            "id": "cooked", 
+            "out_edge": [
+                [
+                    "cluster_105_roast, fry", 
+                    "cook", 
+                    8.0, 
+                    465.45454545454544
+                ], 
+                [
+                    "cluster_105_roast, fry", 
+                    "boil (vb)", 
+                    4.0, 
+                    111.30434782608695
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 3675.0, 
+                "languages": 30.0, 
+                "families": 21.0, 
+                "id": "cooked"
+            }
+        ], 
+        [
+            {
+                "weight": 3675.0, 
+                "languages": 30.0, 
+                "families": 21.0, 
+                "id": "ripe"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "key": "1.354", 
+            "body_part": 0, 
+            "community": 151, 
+            "id": "hightide", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.353", 
+            "body_part": 0, 
+            "community": 151, 
+            "id": "lowtide", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.323", 
+            "body_part": 0, 
+            "community": 151, 
+            "id": "rough (of sea)", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.352", 
+            "body_part": 0, 
+            "community": 151, 
+            "id": "tide", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.35", 
+            "body_part": 0, 
+            "community": 151, 
+            "id": "wave", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 14.035087719298245, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lowtide"
+            }, 
+            {
+                "weight": 444.44444444444446, 
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "tide"
+            }
+        ], 
+        [
+            {
+                "weight": 14.035087719298245, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hightide"
+            }, 
+            {
+                "weight": 141.1764705882353, 
+                "languages": 6.0, 
+                "families": 3.0, 
+                "id": "tide"
+            }
+        ], 
+        [
+            {
+                "weight": 323.5955056179775, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "wave"
+            }
+        ], 
+        [
+            {
+                "weight": 444.44444444444446, 
+                "languages": 10.0, 
+                "families": 5.0, 
+                "id": "hightide"
+            }, 
+            {
+                "weight": 141.1764705882353, 
+                "languages": 6.0, 
+                "families": 3.0, 
+                "id": "lowtide"
+            }, 
+            {
+                "weight": 96.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "wave"
+            }
+        ], 
+        [
+            {
+                "weight": 323.5955056179775, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "rough (of sea)"
+            }, 
+            {
+                "weight": 96.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "tide"
+            }
+        ]
+    ], 
+    "directed": false
+}

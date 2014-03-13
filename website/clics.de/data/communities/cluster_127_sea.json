@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "key": "1.32", 
+            "body_part": 0, 
+            "community": 127, 
+            "id": "sea", 
+            "out_edge": [
+                [
+                    "cluster_129_gulf, bay", 
+                    "lake", 
+                    7.0, 
+                    376.9230769230769
+                ], 
+                [
+                    "cluster_65_river, stream, brook", 
+                    "river, stream, brook", 
+                    4.0, 
+                    116.36363636363636
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.329", 
+            "body_part": 0, 
+            "community": 127, 
+            "id": "ocean", 
+            "out_edge": [
+                [
+                    "cluster_129_gulf, bay", 
+                    "lake", 
+                    5.0, 
+                    200.0
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 8.080808080808081, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "sea"
+            }, 
+            {
+                "weight": 10350.76923076923, 
+                "languages": 58.0, 
+                "families": 29.0, 
+                "id": "ocean"
+            }
+        ], 
+        [
+            {
+                "weight": 10350.76923076923, 
+                "languages": 58.0, 
+                "families": 29.0, 
+                "id": "sea"
+            }
+        ]
+    ], 
+    "directed": false
+}

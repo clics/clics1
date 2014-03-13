@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "key": "4.38", 
+            "body_part": 1, 
+            "community": 204, 
+            "id": "toe", 
+            "out_edge": [
+                [
+                    "cluster_108_fingernail", 
+                    "claw", 
+                    5.0, 
+                    178.57142857142858
+                ], 
+                [
+                    "cluster_15_leg", 
+                    "foot", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.342", 
+            "body_part": 1, 
+            "community": 204, 
+            "id": "thumb", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.34", 
+            "body_part": 1, 
+            "community": 204, 
+            "id": "finger", 
+            "out_edge": [
+                [
+                    "cluster_108_fingernail", 
+                    "claw", 
+                    6.0, 
+                    252.6315789473684
+                ], 
+                [
+                    "cluster_38_hand", 
+                    "hand", 
+                    6.0, 
+                    238.01652892561984
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "toe"
+            }, 
+            {
+                "weight": 7.079646017699115, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "thumb"
+            }, 
+            {
+                "weight": 1666.6666666666667, 
+                "languages": 46.0, 
+                "families": 15.0, 
+                "id": "finger"
+            }
+        ], 
+        [
+            {
+                "weight": 7.079646017699115, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "toe"
+            }, 
+            {
+                "weight": 27.82608695652174, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "finger"
+            }
+        ], 
+        [
+            {
+                "weight": 1666.6666666666667, 
+                "languages": 46.0, 
+                "families": 15.0, 
+                "id": "toe"
+            }, 
+            {
+                "weight": 27.82608695652174, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "thumb"
+            }
+        ]
+    ], 
+    "directed": false
+}

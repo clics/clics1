@@ -1,0 +1,207 @@
+{
+    "nodes": [
+        {
+            "key": "10.13", 
+            "body_part": 0, 
+            "community": 101, 
+            "id": "turn around", 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    5.0, 
+                    181.8181818181818
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.12", 
+            "body_part": 0, 
+            "community": 101, 
+            "id": "turn over", 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    5.0, 
+                    181.8181818181818
+                ], 
+                [
+                    "cluster_10_lend", 
+                    "change", 
+                    4.0, 
+                    118.5185185185185
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.15", 
+            "body_part": 0, 
+            "community": 101, 
+            "id": "roll", 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "wind, wrap", 
+                    4.0, 
+                    114.28571428571428
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.22", 
+            "body_part": 0, 
+            "community": 101, 
+            "id": "give back", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.481", 
+            "body_part": 0, 
+            "community": 101, 
+            "id": "come back", 
+            "out_edge": [
+                [
+                    "cluster_161_approach", 
+                    "come", 
+                    6.0, 
+                    246.15384615384616
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1312.621359223301, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 366.3551401869159, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "id": "roll"
+            }, 
+            {
+                "weight": 7.476635514018691, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "give back"
+            }, 
+            {
+                "weight": 461.26126126126127, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "come back"
+            }
+        ], 
+        [
+            {
+                "weight": 1312.621359223301, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 6.956521739130435, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 266.66666666666663, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "roll"
+            }, 
+            {
+                "weight": 30.18867924528302, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "give back"
+            }, 
+            {
+                "weight": 27.350427350427353, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "come back"
+            }
+        ], 
+        [
+            {
+                "weight": 366.3551401869159, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 266.66666666666663, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 7.6190476190476195, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "give back"
+            }
+        ], 
+        [
+            {
+                "weight": 7.476635514018691, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 30.18867924528302, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 7.6190476190476195, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "roll"
+            }, 
+            {
+                "weight": 376.9230769230769, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "come back"
+            }
+        ], 
+        [
+            {
+                "weight": 461.26126126126127, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 27.350427350427353, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 376.9230769230769, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "give back"
+            }
+        ]
+    ], 
+    "directed": false
+}

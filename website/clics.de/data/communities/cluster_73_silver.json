@@ -1,0 +1,82 @@
+{
+    "nodes": [
+        {
+            "key": "11.43", 
+            "body_part": 0, 
+            "community": 73, 
+            "id": "money", 
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "fishscale", 
+                    4.0, 
+                    131.95876288659792
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.65", 
+            "body_part": 0, 
+            "community": 73, 
+            "id": "silver", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.44", 
+            "body_part": 0, 
+            "community": 73, 
+            "id": "coin", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 2337.662337662338, 
+                "languages": 33.0, 
+                "families": 15.0, 
+                "id": "silver"
+            }, 
+            {
+                "weight": 3410.526315789474, 
+                "languages": 32.0, 
+                "families": 18.0, 
+                "id": "coin"
+            }
+        ], 
+        [
+            {
+                "weight": 2337.662337662338, 
+                "languages": 33.0, 
+                "families": 15.0, 
+                "id": "money"
+            }, 
+            {
+                "weight": 841.5584415584416, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "coin"
+            }
+        ], 
+        [
+            {
+                "weight": 3410.526315789474, 
+                "languages": 32.0, 
+                "families": 18.0, 
+                "id": "money"
+            }, 
+            {
+                "weight": 841.5584415584416, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "silver"
+            }
+        ]
+    ], 
+    "directed": false
+}

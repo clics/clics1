@@ -1,0 +1,110 @@
+{
+    "nodes": [
+        {
+            "key": "5.57", 
+            "body_part": 0, 
+            "community": 217, 
+            "id": "mill", 
+            "out_edge": [
+                [
+                    "cluster_58_squeeze, wring", 
+                    "crush, grind", 
+                    4.0, 
+                    130.6122448979592
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.59", 
+            "body_part": 0, 
+            "community": 217, 
+            "id": "pestle", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.35", 
+            "body_part": 0, 
+            "community": 217, 
+            "id": "threshing-floor", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.58", 
+            "body_part": 0, 
+            "community": 217, 
+            "id": "mortar", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 35.55555555555556, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pestle"
+            }, 
+            {
+                "weight": 11.76470588235294, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "threshing-floor"
+            }, 
+            {
+                "weight": 222.22222222222223, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "mortar"
+            }
+        ], 
+        [
+            {
+                "weight": 35.55555555555556, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mill"
+            }, 
+            {
+                "weight": 124.27184466019416, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "mortar"
+            }
+        ], 
+        [
+            {
+                "weight": 11.76470588235294, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "mill"
+            }
+        ], 
+        [
+            {
+                "weight": 222.22222222222223, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "mill"
+            }, 
+            {
+                "weight": 124.27184466019416, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "pestle"
+            }, 
+            {
+                "weight": 120.75471698113208, 
+                "languages": 10.0, 
+                "families": 4.0, 
+                "id": "mortar"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "key": "19.55", 
+            "body_part": 0, 
+            "community": 241, 
+            "id": "stranger", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.52", 
+            "body_part": 0, 
+            "community": 241, 
+            "id": "enemy", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.56", 
+            "body_part": 0, 
+            "community": 241, 
+            "id": "guest", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 29.906542056074763, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "enemy"
+            }, 
+            {
+                "weight": 212.7659574468085, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "guest"
+            }
+        ], 
+        [
+            {
+                "weight": 29.906542056074763, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 8.24742268041237, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "guest"
+            }
+        ], 
+        [
+            {
+                "weight": 212.7659574468085, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 8.24742268041237, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "enemy"
+            }
+        ]
+    ], 
+    "directed": false
+}

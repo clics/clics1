@@ -1,0 +1,460 @@
+{
+    "nodes": [
+        {
+            "key": "10.612", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "carry-in-hand", 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "hold", 
+                    13.0, 
+                    1469.5652173913043
+                ], 
+                [
+                    "cluster_116_have", 
+                    "have", 
+                    4.0, 
+                    126.73267326732673
+                ], 
+                [
+                    "cluster_3_get, obtain", 
+                    "take", 
+                    4.0, 
+                    120.75471698113208
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.613", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "carry-on-shoulder", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.615", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "carry-underarm", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.614", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "carry-on-head", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.65", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "drive", 
+            "out_edge": [
+                [
+                    "cluster_32_rise", 
+                    "ride", 
+                    6.0, 
+                    309.6774193548387
+                ], 
+                [
+                    "cluster_117_send", 
+                    "rule, govern", 
+                    5.0, 
+                    243.90243902439025
+                ], 
+                [
+                    "cluster_117_send", 
+                    "send", 
+                    5.0, 
+                    202.02020202020202
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.61", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "carry (bear)", 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "take", 
+                    11.0, 
+                    864.2857142857142
+                ], 
+                [
+                    "cluster_3_get, obtain", 
+                    "hold", 
+                    4.0, 
+                    112.28070175438596
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.62", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "bring", 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "take", 
+                    6.0, 
+                    248.27586206896552
+                ], 
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    4.0, 
+                    114.28571428571428
+                ], 
+                [
+                    "cluster_3_get, obtain", 
+                    "hold", 
+                    4.0, 
+                    113.27433628318585
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.64", 
+            "body_part": 0, 
+            "community": 23, 
+            "id": "lead (vb)", 
+            "out_edge": [
+                [
+                    "cluster_117_send", 
+                    "rule, govern", 
+                    5.0, 
+                    219.7802197802198
+                ], 
+                [
+                    "cluster_117_send", 
+                    "send", 
+                    4.0, 
+                    117.43119266055047
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 71.28712871287128, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "lead (vb)"
+            }, 
+            {
+                "weight": 497.08737864077665, 
+                "languages": 24.0, 
+                "families": 8.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 987.6543209876543, 
+                "languages": 20.0, 
+                "families": 10.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 780.722891566265, 
+                "languages": 27.0, 
+                "families": 9.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 2787.0967741935483, 
+                "languages": 41.0, 
+                "families": 18.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 276.9230769230769, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "bring"
+            }
+        ], 
+        [
+            {
+                "weight": 497.08737864077665, 
+                "languages": 24.0, 
+                "families": 8.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 63.1578947368421, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "lead (vb)"
+            }, 
+            {
+                "weight": 404.12371134020617, 
+                "languages": 19.0, 
+                "families": 7.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 842.1052631578947, 
+                "languages": 27.0, 
+                "families": 10.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 1218.018018018018, 
+                "languages": 34.0, 
+                "families": 13.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 60.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "bring"
+            }
+        ], 
+        [
+            {
+                "weight": 987.6543209876543, 
+                "languages": 20.0, 
+                "families": 10.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 404.12371134020617, 
+                "languages": 19.0, 
+                "families": 7.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 502.56410256410254, 
+                "languages": 20.0, 
+                "families": 7.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 682.1052631578947, 
+                "languages": 23.0, 
+                "families": 9.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "bring"
+            }, 
+            {
+                "weight": 33.68421052631579, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "lead (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 780.722891566265, 
+                "languages": 27.0, 
+                "families": 9.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 842.1052631578947, 
+                "languages": 27.0, 
+                "families": 10.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 502.56410256410254, 
+                "languages": 20.0, 
+                "families": 7.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 1029.787234042553, 
+                "languages": 31.0, 
+                "families": 11.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 128.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "bring"
+            }, 
+            {
+                "weight": 75.78947368421053, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "lead (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 303.15789473684214, 
+                "languages": 17.0, 
+                "families": 6.0, 
+                "id": "lead (vb)"
+            }, 
+            {
+                "weight": 194.1747572815534, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 124.27184466019416, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "bring"
+            }
+        ], 
+        [
+            {
+                "weight": 2787.0967741935483, 
+                "languages": 41.0, 
+                "families": 18.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 1218.018018018018, 
+                "languages": 34.0, 
+                "families": 13.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 682.1052631578947, 
+                "languages": 23.0, 
+                "families": 9.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 1029.787234042553, 
+                "languages": 31.0, 
+                "families": 11.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 194.1747572815534, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "drive"
+            }, 
+            {
+                "weight": 864.2857142857142, 
+                "languages": 24.0, 
+                "families": 11.0, 
+                "id": "bring"
+            }, 
+            {
+                "weight": 469.72477064220186, 
+                "languages": 17.0, 
+                "families": 8.0, 
+                "id": "lead (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 276.9230769230769, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 60.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 128.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 124.27184466019416, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "drive"
+            }, 
+            {
+                "weight": 864.2857142857142, 
+                "languages": 24.0, 
+                "families": 11.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 114.28571428571428, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "lead (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 71.28712871287128, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "carry-in-hand"
+            }, 
+            {
+                "weight": 63.1578947368421, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "carry-on-shoulder"
+            }, 
+            {
+                "weight": 33.68421052631579, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "carry-underarm"
+            }, 
+            {
+                "weight": 75.78947368421053, 
+                "languages": 7.0, 
+                "families": 3.0, 
+                "id": "carry-on-head"
+            }, 
+            {
+                "weight": 303.15789473684214, 
+                "languages": 17.0, 
+                "families": 6.0, 
+                "id": "drive"
+            }, 
+            {
+                "weight": 469.72477064220186, 
+                "languages": 17.0, 
+                "families": 8.0, 
+                "id": "carry (bear)"
+            }, 
+            {
+                "weight": 114.28571428571428, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "bring"
+            }
+        ]
+    ], 
+    "directed": false
+}

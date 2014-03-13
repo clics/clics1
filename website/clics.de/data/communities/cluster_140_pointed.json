@@ -1,0 +1,101 @@
+{
+    "nodes": [
+        {
+            "key": "15.76", 
+            "body_part": 0, 
+            "community": 140, 
+            "id": "rough", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.352", 
+            "body_part": 0, 
+            "community": 140, 
+            "id": "pointed", 
+            "out_edge": [
+                [
+                    "cluster_35_finish", 
+                    "end", 
+                    5.0, 
+                    180.18018018018017
+                ], 
+                [
+                    "cluster_94_roof", 
+                    "top", 
+                    5.0, 
+                    172.41379310344826
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.78", 
+            "body_part": 0, 
+            "community": 140, 
+            "id": "sharp", 
+            "out_edge": [
+                [
+                    "cluster_54_immediately", 
+                    "swift, fast, quick", 
+                    4.0, 
+                    108.47457627118644
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 28.07017543859649, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pointed"
+            }, 
+            {
+                "weight": 63.716814159292035, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "sharp"
+            }
+        ], 
+        [
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pointed"
+            }, 
+            {
+                "weight": 28.07017543859649, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "rough"
+            }, 
+            {
+                "weight": 3563.6363636363635, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "sharp"
+            }
+        ], 
+        [
+            {
+                "weight": 3563.6363636363635, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "pointed"
+            }, 
+            {
+                "weight": 63.716814159292035, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rough"
+            }
+        ]
+    ], 
+    "directed": false
+}

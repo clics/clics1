@@ -1,0 +1,142 @@
+{
+    "nodes": [
+        {
+            "key": "9.223", 
+            "body_part": 0, 
+            "community": 125, 
+            "id": "stab", 
+            "out_edge": [
+                [
+                    "cluster_110_extinguish", 
+                    "kill", 
+                    4.0, 
+                    109.40170940170941
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.46", 
+            "body_part": 0, 
+            "community": 125, 
+            "id": "bore", 
+            "out_edge": [
+                [
+                    "cluster_84_hole", 
+                    "hole", 
+                    4.0, 
+                    117.43119266055047
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.461", 
+            "body_part": 0, 
+            "community": 125, 
+            "id": "hollow out", 
+            "out_edge": [
+                [
+                    "cluster_9_cut", 
+                    "carve", 
+                    4.0, 
+                    137.63440860215056
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.22", 
+            "body_part": 0, 
+            "community": 125, 
+            "id": "dig", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 120.75471698113208, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 7.207207207207207, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hollow out"
+            }, 
+            {
+                "weight": 6.779661016949152, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "dig"
+            }
+        ], 
+        [
+            {
+                "weight": 120.75471698113208, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 816.3265306122449, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "hollow out"
+            }, 
+            {
+                "weight": 7.017543859649122, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "dig"
+            }
+        ], 
+        [
+            {
+                "weight": 7.207207207207207, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 816.3265306122449, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 1522.3300970873786, 
+                "languages": 26.0, 
+                "families": 14.0, 
+                "id": "dig"
+            }
+        ], 
+        [
+            {
+                "weight": 6.779661016949152, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 7.017543859649122, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 1522.3300970873786, 
+                "languages": 26.0, 
+                "families": 14.0, 
+                "id": "hollow out"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "key": "3.813", 
+            "body_part": 0, 
+            "community": 206, 
+            "id": "flea", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.812", 
+            "body_part": 0, 
+            "community": 206, 
+            "id": "nit (louse egg)", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.811", 
+            "body_part": 0, 
+            "community": 206, 
+            "id": "louse", 
+            "out_edge": [], 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 7.766990291262135, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "nit (louse egg)"
+            }, 
+            {
+                "weight": 594.4954128440367, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "louse"
+            }
+        ], 
+        [
+            {
+                "weight": 7.766990291262135, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "flea"
+            }, 
+            {
+                "weight": 66.05504587155964, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "louse"
+            }
+        ], 
+        [
+            {
+                "weight": 594.4954128440367, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "flea"
+            }, 
+            {
+                "weight": 66.05504587155964, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "nit (louse egg)"
+            }
+        ]
+    ], 
+    "directed": false
+}

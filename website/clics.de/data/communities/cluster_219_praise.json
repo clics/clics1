@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "key": "16.79", 
+            "body_part": 0, 
+            "community": 219, 
+            "id": "praise", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.45", 
+            "body_part": 0, 
+            "community": 219, 
+            "id": "boast", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.48", 
+            "body_part": 0, 
+            "community": 219, 
+            "id": "proud", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 8.98876404494382, 
+                "languages": 4.0, 
+                "families": 1.0, 
+                "id": "boast"
+            }, 
+            {
+                "weight": 8.695652173913043, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "proud"
+            }
+        ], 
+        [
+            {
+                "weight": 8.98876404494382, 
+                "languages": 4.0, 
+                "families": 1.0, 
+                "id": "praise"
+            }, 
+            {
+                "weight": 466.6666666666667, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "id": "proud"
+            }
+        ], 
+        [
+            {
+                "weight": 8.695652173913043, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "praise"
+            }, 
+            {
+                "weight": 466.6666666666667, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "id": "boast"
+            }
+        ]
+    ], 
+    "directed": false
+}

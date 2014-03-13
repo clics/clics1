@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "key": "12.14", 
+            "body_part": 0, 
+            "community": 187, 
+            "id": "lie down", 
+            "out_edge": [], 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.61", 
+            "body_part": 0, 
+            "community": 187, 
+            "id": "sleep", 
+            "out_edge": [], 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.62", 
+            "body_part": 0, 
+            "community": 187, 
+            "id": "dream", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 834.4827586206897, 
+                "languages": 20.0, 
+                "families": 11.0, 
+                "id": "sleep"
+            }
+        ], 
+        [
+            {
+                "weight": 834.4827586206897, 
+                "languages": 20.0, 
+                "families": 11.0, 
+                "id": "lie down"
+            }, 
+            {
+                "weight": 242.01680672268907, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "dream"
+            }
+        ], 
+        [
+            {
+                "weight": 242.01680672268907, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "sleep"
+            }
+        ]
+    ], 
+    "directed": false
+}

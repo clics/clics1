@@ -1,0 +1,95 @@
+{
+    "nodes": [
+        {
+            "key": "10.491", 
+            "body_part": 0, 
+            "community": 178, 
+            "id": "disappear", 
+            "out_edge": [
+                [
+                    "cluster_202_die, dead", 
+                    "die, dead", 
+                    4.0, 
+                    113.27433628318585
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.33", 
+            "body_part": 0, 
+            "community": 178, 
+            "id": "lose", 
+            "out_edge": [
+                [
+                    "cluster_9_cut", 
+                    "destroy", 
+                    4.0, 
+                    112.28070175438596
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.32", 
+            "body_part": 0, 
+            "community": 178, 
+            "id": "forget", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 30.18867924528302, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 1300.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "lose"
+            }, 
+            {
+                "weight": 6.896551724137931, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "forget"
+            }
+        ], 
+        [
+            {
+                "weight": 1300.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 104.91803278688525, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "forget"
+            }
+        ], 
+        [
+            {
+                "weight": 6.896551724137931, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 104.91803278688525, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "lose"
+            }
+        ]
+    ], 
+    "directed": false
+}

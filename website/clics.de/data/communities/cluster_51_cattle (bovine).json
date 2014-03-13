@@ -1,0 +1,246 @@
+{
+    "nodes": [
+        {
+            "key": "3.21", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "bull", 
+            "out_edge": [
+                [
+                    "cluster_5_husband", 
+                    "male (adj)", 
+                    11.0, 
+                    1195.0617283950617
+                ], 
+                [
+                    "cluster_5_husband", 
+                    "male", 
+                    9.0, 
+                    720.0
+                ], 
+                [
+                    "cluster_5_husband", 
+                    "man (vs. woman)", 
+                    6.0, 
+                    300.0
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.23", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "cow", 
+            "out_edge": [
+                [
+                    "cluster_18_female", 
+                    "female (adj)", 
+                    6.0, 
+                    309.6774193548387
+                ], 
+                [
+                    "cluster_18_female", 
+                    "female", 
+                    6.0, 
+                    309.6774193548387
+                ], 
+                [
+                    "cluster_31_sow", 
+                    "sow", 
+                    4.0, 
+                    158.02469135802468
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.2", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "cattle (bovine)", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.15", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "livestock", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.11", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "animal", 
+            "out_edge": [
+                [
+                    "cluster_175_insect", 
+                    "insect", 
+                    6.0, 
+                    364.55696202531647
+                ], 
+                [
+                    "cluster_67_body", 
+                    "meat", 
+                    6.0, 
+                    269.1588785046729
+                ], 
+                [
+                    "cluster_37_fowl", 
+                    "bird", 
+                    5.0, 
+                    183.4862385321101
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.22", 
+            "body_part": 0, 
+            "community": 51, 
+            "id": "ox", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 378.9473684210526, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "cow"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "livestock"
+            }, 
+            {
+                "weight": 168.42105263157893, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "cattle (bovine)"
+            }, 
+            {
+                "weight": 2291.5254237288136, 
+                "languages": 38.0, 
+                "families": 13.0, 
+                "id": "ox"
+            }
+        ], 
+        [
+            {
+                "weight": 378.9473684210526, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "bull"
+            }, 
+            {
+                "weight": 673.6842105263157, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "cattle (bovine)"
+            }, 
+            {
+                "weight": 568.1159420289855, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "ox"
+            }
+        ], 
+        [
+            {
+                "weight": 673.6842105263157, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "cow"
+            }, 
+            {
+                "weight": 168.42105263157893, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "bull"
+            }, 
+            {
+                "weight": 2647.0588235294117, 
+                "languages": 51.0, 
+                "families": 15.0, 
+                "id": "livestock"
+            }, 
+            {
+                "weight": 334.8837209302326, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "id": "animal"
+            }, 
+            {
+                "weight": 423.5294117647059, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "ox"
+            }
+        ], 
+        [
+            {
+                "weight": 2647.0588235294117, 
+                "languages": 51.0, 
+                "families": 15.0, 
+                "id": "cattle (bovine)"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bull"
+            }, 
+            {
+                "weight": 1984.8101265822784, 
+                "languages": 24.0, 
+                "families": 14.0, 
+                "id": "animal"
+            }
+        ], 
+        [
+            {
+                "weight": 1984.8101265822784, 
+                "languages": 24.0, 
+                "families": 14.0, 
+                "id": "livestock"
+            }, 
+            {
+                "weight": 334.8837209302326, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "id": "cattle (bovine)"
+            }
+        ], 
+        [
+            {
+                "weight": 568.1159420289855, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "cow"
+            }, 
+            {
+                "weight": 2291.5254237288136, 
+                "languages": 38.0, 
+                "families": 13.0, 
+                "id": "bull"
+            }, 
+            {
+                "weight": 423.5294117647059, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "cattle (bovine)"
+            }
+        ]
+    ], 
+    "directed": false
+}

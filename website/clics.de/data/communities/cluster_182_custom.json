@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        {
+            "key": "17.49", 
+            "body_part": 0, 
+            "community": 182, 
+            "id": "way, manner", 
+            "out_edge": [
+                [
+                    "cluster_120_road", 
+                    "road", 
+                    5.0, 
+                    215.0537634408602
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.11", 
+            "body_part": 0, 
+            "community": 182, 
+            "id": "law", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.61", 
+            "body_part": 0, 
+            "community": 182, 
+            "id": "custom", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 11.428571428571429, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "law"
+            }, 
+            {
+                "weight": 1645.7142857142856, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "weight": 11.428571428571429, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "way, manner"
+            }, 
+            {
+                "weight": 270.27027027027026, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "weight": 1645.7142857142856, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "way, manner"
+            }, 
+            {
+                "weight": 270.27027027027026, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "law"
+            }, 
+            {
+                "weight": 8.98876404494382, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "custom"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "key": "17.27", 
+            "body_part": 0, 
+            "community": 259, 
+            "id": "teacher", 
+            "out_edge": [
+                [
+                    "cluster_69_king, ruler", 
+                    "master", 
+                    4.0, 
+                    130.6122448979592
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.26", 
+            "body_part": 0, 
+            "community": 259, 
+            "id": "pupil", 
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "child", 
+                    5.0, 
+                    188.67924528301887
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 306.3829787234043, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "pupil"
+            }
+        ], 
+        [
+            {
+                "weight": 306.3829787234043, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "teacher"
+            }
+        ]
+    ], 
+    "directed": false
+}

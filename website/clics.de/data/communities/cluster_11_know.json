@@ -1,0 +1,390 @@
+{
+    "nodes": [
+        {
+            "key": "15.42", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "listen", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.17", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "know", 
+            "out_edge": [
+                [
+                    "cluster_42_teach", 
+                    "learn", 
+                    11.0, 
+                    856.6371681415931
+                ], 
+                [
+                    "cluster_20_tell story", 
+                    "admit, confess", 
+                    6.0, 
+                    276.9230769230769
+                ], 
+                [
+                    "cluster_47_look, look at", 
+                    "see", 
+                    5.0, 
+                    162.60162601626016
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.16", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "understand", 
+            "out_edge": [
+                [
+                    "cluster_25_think (= reflect)", 
+                    "remember", 
+                    5.0, 
+                    181.8181818181818
+                ], 
+                [
+                    "cluster_42_teach", 
+                    "learn", 
+                    5.0, 
+                    181.8181818181818
+                ], 
+                [
+                    "cluster_25_think (= reflect)", 
+                    "believe", 
+                    4.0, 
+                    119.62616822429905
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.71", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "touch", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.46", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "obey", 
+            "out_edge": [
+                [
+                    "cluster_25_think (= reflect)", 
+                    "believe", 
+                    8.0, 
+                    497.08737864077665
+                ], 
+                [
+                    "cluster_10_lend", 
+                    "answer", 
+                    4.0, 
+                    118.5185185185185
+                ], 
+                [
+                    "cluster_167_pursue", 
+                    "follow", 
+                    4.0, 
+                    116.36363636363636
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.72", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "feel", 
+            "out_edge": [
+                [
+                    "cluster_48_stinking, bad smelling", 
+                    "smell (vb trans)", 
+                    8.0, 
+                    501.96078431372547
+                ], 
+                [
+                    "cluster_40_taste", 
+                    "taste", 
+                    7.0, 
+                    388.1188118811881
+                ], 
+                [
+                    "cluster_40_taste", 
+                    "try, attempt", 
+                    4.0, 
+                    121.90476190476191
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.41", 
+            "body_part": 0, 
+            "community": 11, 
+            "id": "hear", 
+            "out_edge": [
+                [
+                    "cluster_48_stinking, bad smelling", 
+                    "smell (vb trans)", 
+                    5.0, 
+                    173.91304347826087
+                ], 
+                [
+                    "cluster_40_taste", 
+                    "taste", 
+                    4.0, 
+                    112.28070175438596
+                ]
+            ], 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 26.01626016260163, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 605.607476635514, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "understand"
+            }, 
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "touch"
+            }, 
+            {
+                "weight": 2335.3535353535353, 
+                "languages": 31.0, 
+                "families": 17.0, 
+                "id": "obey"
+            }, 
+            {
+                "weight": 264.22018348623857, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "feel"
+            }, 
+            {
+                "weight": 10888.888888888889, 
+                "languages": 61.0, 
+                "families": 35.0, 
+                "id": "hear"
+            }
+        ], 
+        [
+            {
+                "weight": 26.01626016260163, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 6.299212598425196, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 1988.3495145631066, 
+                "languages": 28.0, 
+                "families": 16.0, 
+                "id": "understand"
+            }, 
+            {
+                "weight": 176.99115044247787, 
+                "languages": 13.0, 
+                "families": 5.0, 
+                "id": "feel"
+            }, 
+            {
+                "weight": 6.779661016949152, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "obey"
+            }, 
+            {
+                "weight": 25.396825396825395, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "hear"
+            }
+        ], 
+        [
+            {
+                "weight": 605.607476635514, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 279.6116504854369, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "feel"
+            }, 
+            {
+                "weight": 1988.3495145631066, 
+                "languages": 28.0, 
+                "families": 16.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 380.58252427184465, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "id": "obey"
+            }, 
+            {
+                "weight": 1275.4716981132076, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "hear"
+            }
+        ], 
+        [
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 1352.0, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "feel"
+            }, 
+            {
+                "weight": 6.557377049180328, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hear"
+            }
+        ], 
+        [
+            {
+                "weight": 2335.3535353535353, 
+                "languages": 31.0, 
+                "families": 17.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 67.9245283018868, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "feel"
+            }, 
+            {
+                "weight": 6.779661016949152, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 2266.666666666667, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "id": "hear"
+            }, 
+            {
+                "weight": 380.58252427184465, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "id": "understand"
+            }
+        ], 
+        [
+            {
+                "weight": 264.22018348623857, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 176.99115044247787, 
+                "languages": 13.0, 
+                "families": 5.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 279.6116504854369, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "understand"
+            }, 
+            {
+                "weight": 1352.0, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "touch"
+            }, 
+            {
+                "weight": 67.9245283018868, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "obey"
+            }, 
+            {
+                "weight": 1086.7924528301887, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "hear"
+            }
+        ], 
+        [
+            {
+                "weight": 10888.888888888889, 
+                "languages": 61.0, 
+                "families": 35.0, 
+                "id": "listen"
+            }, 
+            {
+                "weight": 25.396825396825395, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "know"
+            }, 
+            {
+                "weight": 1275.4716981132076, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "understand"
+            }, 
+            {
+                "weight": 6.557377049180328, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "touch"
+            }, 
+            {
+                "weight": 2266.666666666667, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "id": "obey"
+            }, 
+            {
+                "weight": 1086.7924528301887, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "feel"
+            }
+        ]
+    ], 
+    "directed": false
+}

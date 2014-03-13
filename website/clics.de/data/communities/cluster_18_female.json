@@ -1,0 +1,327 @@
+{
+    "nodes": [
+        {
+            "key": "2.24", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "female", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ewe", 
+                    6.0, 
+                    338.8235294117647
+                ], 
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "cow", 
+                    6.0, 
+                    309.6774193548387
+                ], 
+                [
+                    "cluster_31_sow", 
+                    "sow", 
+                    5.0, 
+                    215.0537634408602
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.32", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "wife", 
+            "out_edge": [
+                [
+                    "cluster_5_husband", 
+                    "husband", 
+                    11.0, 
+                    849.1228070175439
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.22", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "woman", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ewe", 
+                    5.0, 
+                    212.7659574468085
+                ], 
+                [
+                    "cluster_31_sow", 
+                    "sow", 
+                    5.0, 
+                    198.01980198019803
+                ], 
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "cow", 
+                    4.0, 
+                    124.27184466019416
+                ]
+            ], 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "3.44", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "mare", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ewe", 
+                    6.0, 
+                    417.39130434782606
+                ], 
+                [
+                    "cluster_5_husband", 
+                    "horse (equine)", 
+                    5.0, 
+                    281.6901408450704
+                ], 
+                [
+                    "cluster_5_husband", 
+                    "stallion", 
+                    4.0, 
+                    170.66666666666669
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.13", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "female (adj)", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ewe", 
+                    7.0, 
+                    466.6666666666667
+                ], 
+                [
+                    "cluster_31_sow", 
+                    "sow", 
+                    6.0, 
+                    313.04347826086956
+                ], 
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "cow", 
+                    6.0, 
+                    309.6774193548387
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.39", 
+            "body_part": 0, 
+            "community": 18, 
+            "id": "married woman", 
+            "out_edge": [
+                [
+                    "cluster_5_husband", 
+                    "married man", 
+                    4.0, 
+                    136.17021276595744
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 9309.09090909091, 
+                "languages": 71.0, 
+                "families": 32.0, 
+                "id": "woman"
+            }, 
+            {
+                "weight": 930.232558139535, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "mare"
+            }, 
+            {
+                "weight": 1076.6355140186915, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "wife"
+            }, 
+            {
+                "weight": 12727.272727272726, 
+                "languages": 97.0, 
+                "families": 35.0, 
+                "id": "female (adj)"
+            }, 
+            {
+                "weight": 125.49019607843137, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "married woman"
+            }
+        ], 
+        [
+            {
+                "weight": 3687.6190476190473, 
+                "languages": 62.0, 
+                "families": 22.0, 
+                "id": "woman"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mare"
+            }, 
+            {
+                "weight": 1076.6355140186915, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "id": "female"
+            }, 
+            {
+                "weight": 776.6990291262136, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "married woman"
+            }, 
+            {
+                "weight": 733.9449541284404, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "female (adj)"
+            }
+        ], 
+        [
+            {
+                "weight": 533.3333333333333, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "mare"
+            }, 
+            {
+                "weight": 9309.09090909091, 
+                "languages": 71.0, 
+                "families": 32.0, 
+                "id": "female"
+            }, 
+            {
+                "weight": 3687.6190476190473, 
+                "languages": 62.0, 
+                "families": 22.0, 
+                "id": "wife"
+            }, 
+            {
+                "weight": 6270.967741935484, 
+                "languages": 45.0, 
+                "families": 27.0, 
+                "id": "female (adj)"
+            }, 
+            {
+                "weight": 183.4862385321101, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "married woman"
+            }
+        ], 
+        [
+            {
+                "weight": 533.3333333333333, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "woman"
+            }, 
+            {
+                "weight": 930.232558139535, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "female"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wife"
+            }, 
+            {
+                "weight": 1371.4285714285713, 
+                "languages": 13.0, 
+                "families": 12.0, 
+                "id": "female (adj)"
+            }
+        ], 
+        [
+            {
+                "weight": 6270.967741935484, 
+                "languages": 45.0, 
+                "families": 27.0, 
+                "id": "woman"
+            }, 
+            {
+                "weight": 1371.4285714285713, 
+                "languages": 13.0, 
+                "families": 12.0, 
+                "id": "mare"
+            }, 
+            {
+                "weight": 12727.272727272726, 
+                "languages": 97.0, 
+                "families": 35.0, 
+                "id": "female"
+            }, 
+            {
+                "weight": 733.9449541284404, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "wife"
+            }, 
+            {
+                "weight": 7.6190476190476195, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "married woman"
+            }
+        ], 
+        [
+            {
+                "weight": 183.4862385321101, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "woman"
+            }, 
+            {
+                "weight": 125.49019607843137, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "female"
+            }, 
+            {
+                "weight": 776.6990291262136, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "wife"
+            }, 
+            {
+                "weight": 7.6190476190476195, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "female (adj)"
+            }
+        ]
+    ], 
+    "directed": false
+}

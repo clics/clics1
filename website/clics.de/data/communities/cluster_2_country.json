@@ -1,0 +1,483 @@
+{
+    "nodes": [
+        {
+            "key": "19.15", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "city, town", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.21", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "earth, land", 
+            "out_edge": [
+                [
+                    "cluster_135_place", 
+                    "place", 
+                    8.0, 
+                    430.25210084033614
+                ], 
+                [
+                    "cluster_150_clay", 
+                    "clay", 
+                    7.0, 
+                    343.859649122807
+                ], 
+                [
+                    "cluster_66_smoke (noun)", 
+                    "dust", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.16", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "village", 
+            "out_edge": [
+                [
+                    "cluster_27_relatives, kinsmen", 
+                    "people (populace)", 
+                    5.0, 
+                    180.18018018018017
+                ], 
+                [
+                    "cluster_50_house", 
+                    "house", 
+                    5.0, 
+                    170.94017094017093
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.26", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "floor", 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    7.0, 
+                    373.3333333333333
+                ], 
+                [
+                    "cluster_150_clay", 
+                    "clay", 
+                    6.0, 
+                    269.1588785046729
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.12", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "one's native country", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.11", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "country", 
+            "out_edge": [
+                [
+                    "cluster_135_place", 
+                    "place", 
+                    5.0, 
+                    185.1851851851852
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.1", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "world", 
+            "out_edge": [
+                [
+                    "cluster_16_day", 
+                    "day", 
+                    7.0, 
+                    366.3551401869159
+                ], 
+                [
+                    "cluster_16_day", 
+                    "weather", 
+                    4.0, 
+                    150.58823529411765
+                ], 
+                [
+                    "cluster_102_quiet, silence", 
+                    "peace", 
+                    4.0, 
+                    145.45454545454547
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.26", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "mainland", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.212", 
+            "body_part": 0, 
+            "community": 2, 
+            "id": "earth=ground, soil", 
+            "out_edge": [
+                [
+                    "cluster_150_clay", 
+                    "clay", 
+                    11.0, 
+                    896.2962962962964
+                ], 
+                [
+                    "cluster_66_smoke (noun)", 
+                    "dust", 
+                    7.0, 
+                    340.8695652173913
+                ], 
+                [
+                    "cluster_30_shore", 
+                    "sand", 
+                    5.0, 
+                    168.0672268907563
+                ]
+            ], 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 538.9473684210526, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 2133.333333333333, 
+                "languages": 23.0, 
+                "families": 16.0, 
+                "id": "village"
+            }, 
+            {
+                "weight": 139.1304347826087, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "one's native country"
+            }
+        ], 
+        [
+            {
+                "weight": 4454.736842105263, 
+                "languages": 33.0, 
+                "families": 23.0, 
+                "id": "floor"
+            }, 
+            {
+                "weight": 941.1764705882354, 
+                "languages": 13.0, 
+                "families": 10.0, 
+                "id": "mainland"
+            }, 
+            {
+                "weight": 3440.860215053763, 
+                "languages": 41.0, 
+                "families": 20.0, 
+                "id": "world"
+            }, 
+            {
+                "weight": 4755.056179775281, 
+                "languages": 80.0, 
+                "families": 23.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 290.90909090909093, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "one's native country"
+            }, 
+            {
+                "weight": 11011.23595505618, 
+                "languages": 103.0, 
+                "families": 35.0, 
+                "id": "earth=ground, soil"
+            }
+        ], 
+        [
+            {
+                "weight": 2133.333333333333, 
+                "languages": 23.0, 
+                "families": 16.0, 
+                "id": "city, town"
+            }, 
+            {
+                "weight": 824.742268041237, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 133.33333333333331, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "one's native country"
+            }
+        ], 
+        [
+            {
+                "weight": 4454.736842105263, 
+                "languages": 33.0, 
+                "families": 23.0, 
+                "id": "earth, land"
+            }, 
+            {
+                "weight": 154.21686746987953, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "mainland"
+            }, 
+            {
+                "weight": 404.12371134020617, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 6008.888888888889, 
+                "languages": 41.0, 
+                "families": 26.0, 
+                "id": "earth=ground, soil"
+            }, 
+            {
+                "weight": 1029.787234042553, 
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "world"
+            }
+        ], 
+        [
+            {
+                "weight": 139.1304347826087, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "city, town"
+            }, 
+            {
+                "weight": 290.90909090909093, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "earth, land"
+            }, 
+            {
+                "weight": 133.33333333333331, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "village"
+            }, 
+            {
+                "weight": 1733.3333333333333, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 35.55555555555556, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "world"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "earth=ground, soil"
+            }
+        ], 
+        [
+            {
+                "weight": 538.9473684210526, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "city, town"
+            }, 
+            {
+                "weight": 4755.056179775281, 
+                "languages": 80.0, 
+                "families": 23.0, 
+                "id": "earth, land"
+            }, 
+            {
+                "weight": 824.742268041237, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "village"
+            }, 
+            {
+                "weight": 898.8764044943821, 
+                "languages": 14.0, 
+                "families": 10.0, 
+                "id": "world"
+            }, 
+            {
+                "weight": 8.24742268041237, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 1733.3333333333333, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "one's native country"
+            }, 
+            {
+                "weight": 529.7297297297297, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "mainland"
+            }, 
+            {
+                "weight": 404.12371134020617, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "floor"
+            }, 
+            {
+                "weight": 2486.021505376344, 
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "earth=ground, soil"
+            }
+        ], 
+        [
+            {
+                "weight": 1029.787234042553, 
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "floor"
+            }, 
+            {
+                "weight": 3440.860215053763, 
+                "languages": 41.0, 
+                "families": 20.0, 
+                "id": "earth, land"
+            }, 
+            {
+                "weight": 898.8764044943821, 
+                "languages": 14.0, 
+                "families": 10.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 35.55555555555556, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "one's native country"
+            }, 
+            {
+                "weight": 164.1025641025641, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "mainland"
+            }, 
+            {
+                "weight": 1875.0, 
+                "languages": 24.0, 
+                "families": 15.0, 
+                "id": "earth=ground, soil"
+            }
+        ], 
+        [
+            {
+                "weight": 154.21686746987953, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "floor"
+            }, 
+            {
+                "weight": 941.1764705882354, 
+                "languages": 13.0, 
+                "families": 10.0, 
+                "id": "earth, land"
+            }, 
+            {
+                "weight": 529.7297297297297, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 602.3529411764706, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "id": "earth=ground, soil"
+            }, 
+            {
+                "weight": 164.1025641025641, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "world"
+            }
+        ], 
+        [
+            {
+                "weight": 6008.888888888889, 
+                "languages": 41.0, 
+                "families": 26.0, 
+                "id": "floor"
+            }, 
+            {
+                "weight": 602.3529411764706, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "id": "mainland"
+            }, 
+            {
+                "weight": 31.683168316831683, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "one's native country"
+            }, 
+            {
+                "weight": 2486.021505376344, 
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "country"
+            }, 
+            {
+                "weight": 1875.0, 
+                "languages": 24.0, 
+                "families": 15.0, 
+                "id": "world"
+            }, 
+            {
+                "weight": 11011.23595505618, 
+                "languages": 103.0, 
+                "families": 35.0, 
+                "id": "earth, land"
+            }
+        ]
+    ], 
+    "directed": false
+}

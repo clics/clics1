@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "key": "9.38", 
+            "body_part": 0, 
+            "community": 179, 
+            "id": "broom", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.37", 
+            "body_part": 0, 
+            "community": 179, 
+            "id": "sweep", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.48", 
+            "body_part": 0, 
+            "community": 179, 
+            "id": "scrape", 
+            "out_edge": [
+                [
+                    "cluster_153_peel", 
+                    "peel", 
+                    5.0, 
+                    172.41379310344826
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.89", 
+            "body_part": 0, 
+            "community": 179, 
+            "id": "wrinkled", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.31", 
+            "body_part": 0, 
+            "community": 179, 
+            "id": "rub, wipe", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 176.99115044247787, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "sweep"
+            }
+        ], 
+        [
+            {
+                "weight": 246.15384615384616, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "rub, wipe"
+            }, 
+            {
+                "weight": 26.229508196721312, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "scrape"
+            }, 
+            {
+                "weight": 176.99115044247787, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "broom"
+            }
+        ], 
+        [
+            {
+                "weight": 343.859649122807, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "rub, wipe"
+            }, 
+            {
+                "weight": 26.229508196721312, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "sweep"
+            }
+        ], 
+        [
+            {
+                "weight": 7.017543859649122, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rub, wipe"
+            }
+        ], 
+        [
+            {
+                "weight": 343.859649122807, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "scrape"
+            }, 
+            {
+                "weight": 7.017543859649122, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wrinkled"
+            }, 
+            {
+                "weight": 246.15384615384616, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "sweep"
+            }
+        ]
+    ], 
+    "directed": false
+}

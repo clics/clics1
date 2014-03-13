@@ -1,0 +1,116 @@
+{
+    "nodes": [
+        {
+            "key": "7.54", 
+            "body_part": 0, 
+            "community": 115, 
+            "id": "rafter", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.55", 
+            "body_part": 0, 
+            "community": 115, 
+            "id": "beam", 
+            "out_edge": [
+                [
+                    "cluster_4_tree", 
+                    "post, pole", 
+                    6.0, 
+                    309.6774193548387
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.53", 
+            "body_part": 0, 
+            "community": 115, 
+            "id": "ridgepole", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.78", 
+            "body_part": 0, 
+            "community": 115, 
+            "id": "square", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 2177.777777777778, 
+                "languages": 30.0, 
+                "families": 14.0, 
+                "id": "beam"
+            }, 
+            {
+                "weight": 164.1025641025641, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "ridgepole"
+            }
+        ], 
+        [
+            {
+                "weight": 2177.777777777778, 
+                "languages": 30.0, 
+                "families": 14.0, 
+                "id": "rafter"
+            }, 
+            {
+                "weight": 820.2531645569619, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "ridgepole"
+            }, 
+            {
+                "weight": 9.411764705882353, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "square"
+            }
+        ], 
+        [
+            {
+                "weight": 164.1025641025641, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "rafter"
+            }, 
+            {
+                "weight": 820.2531645569619, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "beam"
+            }, 
+            {
+                "weight": 9.876543209876543, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "square"
+            }
+        ], 
+        [
+            {
+                "weight": 9.411764705882353, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beam"
+            }, 
+            {
+                "weight": 9.876543209876543, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "ridgepole"
+            }
+        ]
+    ], 
+    "directed": false
+}

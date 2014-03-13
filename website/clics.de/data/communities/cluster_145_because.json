@@ -1,0 +1,157 @@
+{
+    "nodes": [
+        {
+            "key": "17.65", 
+            "body_part": 0, 
+            "community": 145, 
+            "id": "when?", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.42", 
+            "body_part": 0, 
+            "community": 145, 
+            "id": "cause", 
+            "out_edge": [
+                [
+                    "cluster_83_forgive", 
+                    "let, permit", 
+                    5.0, 
+                    227.27272727272728
+                ], 
+                [
+                    "cluster_33_build", 
+                    "do, make", 
+                    5.0, 
+                    198.01980198019803
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.53", 
+            "body_part": 0, 
+            "community": 145, 
+            "id": "if", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.21", 
+            "body_part": 0, 
+            "community": 145, 
+            "id": "plaintiff", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.52", 
+            "body_part": 0, 
+            "community": 145, 
+            "id": "because", 
+            "out_edge": [
+                [
+                    "cluster_93_how?", 
+                    "why?", 
+                    4.0, 
+                    118.5185185185185
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 183.4862385321101, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "if"
+            }, 
+            {
+                "weight": 28.31858407079646, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 9.411764705882353, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cause"
+            }, 
+            {
+                "weight": 10.95890410958904, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "plaintiff"
+            }, 
+            {
+                "weight": 744.8275862068965, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 183.4862385321101, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "when?"
+            }, 
+            {
+                "weight": 7.766990291262135, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "if"
+            }, 
+            {
+                "weight": 290.90909090909093, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 10.95890410958904, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cause"
+            }
+        ], 
+        [
+            {
+                "weight": 28.31858407079646, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "when?"
+            }, 
+            {
+                "weight": 7.6190476190476195, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "because"
+            }, 
+            {
+                "weight": 744.8275862068965, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "cause"
+            }, 
+            {
+                "weight": 290.90909090909093, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "if"
+            }
+        ]
+    ], 
+    "directed": false
+}

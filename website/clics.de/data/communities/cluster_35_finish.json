@@ -1,0 +1,260 @@
+{
+    "nodes": [
+        {
+            "key": "14.27", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "finish", 
+            "out_edge": [
+                [
+                    "cluster_9_cut", 
+                    "destroy", 
+                    4.0, 
+                    113.27433628318585
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.26", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "end (temporal)", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.28", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "cease, stop", 
+            "out_edge": [
+                [
+                    "cluster_83_forgive", 
+                    "release, let go", 
+                    4.0, 
+                    120.75471698113208
+                ], 
+                [
+                    "cluster_61_dwell, live", 
+                    "remain, stay", 
+                    4.0, 
+                    117.43119266055047
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "13.35", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "last", 
+            "out_edge": [
+                [
+                    "cluster_135_place", 
+                    "place", 
+                    6.0, 
+                    250.43478260869568
+                ], 
+                [
+                    "cluster_79_late", 
+                    "late", 
+                    4.0, 
+                    125.49019607843137
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.15", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "stand", 
+            "out_edge": [
+                [
+                    "cluster_32_rise", 
+                    "rise", 
+                    8.0, 
+                    449.12280701754383
+                ]
+            ], 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "12.35", 
+            "body_part": 0, 
+            "community": 35, 
+            "id": "end", 
+            "out_edge": [
+                [
+                    "cluster_30_shore", 
+                    "edge", 
+                    7.0, 
+                    359.6330275229358
+                ], 
+                [
+                    "cluster_94_roof", 
+                    "top", 
+                    7.0, 
+                    356.3636363636364
+                ], 
+                [
+                    "cluster_30_shore", 
+                    "boundary", 
+                    6.0, 
+                    316.4835164835165
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 6.504065040650407, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 921.9047619047618, 
+                "languages": 27.0, 
+                "families": 11.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 1086.7924528301887, 
+                "languages": 16.0, 
+                "families": 12.0, 
+                "id": "cease, stop"
+            }, 
+            {
+                "weight": 176.99115044247787, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "end"
+            }, 
+            {
+                "weight": 27.350427350427353, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "last"
+            }
+        ], 
+        [
+            {
+                "weight": 921.9047619047618, 
+                "languages": 27.0, 
+                "families": 11.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 120.75471698113208, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "id": "cease, stop"
+            }, 
+            {
+                "weight": 2817.391304347826, 
+                "languages": 57.0, 
+                "families": 18.0, 
+                "id": "end"
+            }, 
+            {
+                "weight": 635.2941176470588, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "last"
+            }
+        ], 
+        [
+            {
+                "weight": 1086.7924528301887, 
+                "languages": 16.0, 
+                "families": 12.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 120.75471698113208, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 28.82882882882883, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "last"
+            }, 
+            {
+                "weight": 1076.6355140186915, 
+                "languages": 15.0, 
+                "families": 12.0, 
+                "id": "stand"
+            }
+        ], 
+        [
+            {
+                "weight": 27.350427350427353, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 635.2941176470588, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 28.82882882882883, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cease, stop"
+            }, 
+            {
+                "weight": 949.0196078431372, 
+                "languages": 15.0, 
+                "families": 11.0, 
+                "id": "end"
+            }
+        ], 
+        [
+            {
+                "weight": 1076.6355140186915, 
+                "languages": 15.0, 
+                "families": 12.0, 
+                "id": "cease, stop"
+            }
+        ], 
+        [
+            {
+                "weight": 176.99115044247787, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 2817.391304347826, 
+                "languages": 57.0, 
+                "families": 18.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 7.207207207207207, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "end"
+            }, 
+            {
+                "weight": 949.0196078431372, 
+                "languages": 15.0, 
+                "families": 11.0, 
+                "id": "last"
+            }
+        ]
+    ], 
+    "directed": false
+}

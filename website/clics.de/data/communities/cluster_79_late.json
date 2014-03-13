@@ -1,0 +1,177 @@
+{
+    "nodes": [
+        {
+            "key": "14.46", 
+            "body_part": 0, 
+            "community": 79, 
+            "id": "evening", 
+            "out_edge": [
+                [
+                    "cluster_63_dark (in color)", 
+                    "night", 
+                    10.0, 
+                    701.7543859649122
+                ], 
+                [
+                    "cluster_63_dark (in color)", 
+                    "darkness", 
+                    4.0, 
+                    109.40170940170941
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.24", 
+            "body_part": 0, 
+            "community": 79, 
+            "id": "retard, delay", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.22", 
+            "body_part": 0, 
+            "community": 79, 
+            "id": "slow", 
+            "out_edge": [
+                [
+                    "cluster_102_quiet, silence", 
+                    "quiet, silence", 
+                    8.0, 
+                    465.45454545454544
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.17", 
+            "body_part": 0, 
+            "community": 79, 
+            "id": "late", 
+            "out_edge": [
+                [
+                    "cluster_35_finish", 
+                    "last", 
+                    4.0, 
+                    125.49019607843137
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.451", 
+            "body_part": 0, 
+            "community": 79, 
+            "id": "afternoon", 
+            "out_edge": [
+                [
+                    "cluster_16_day", 
+                    "day", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "slow"
+            }, 
+            {
+                "weight": 192.30769230769232, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "late"
+            }, 
+            {
+                "weight": 888.0733944954128, 
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "afternoon"
+            }
+        ], 
+        [
+            {
+                "weight": 279.6116504854369, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "slow"
+            }, 
+            {
+                "weight": 909.0909090909091, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "late"
+            }
+        ], 
+        [
+            {
+                "weight": 6.722689075630252, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "evening"
+            }, 
+            {
+                "weight": 279.6116504854369, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "retard, delay"
+            }, 
+            {
+                "weight": 192.30769230769232, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "late"
+            }
+        ], 
+        [
+            {
+                "weight": 192.30769230769232, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "evening"
+            }, 
+            {
+                "weight": 909.0909090909091, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "id": "retard, delay"
+            }, 
+            {
+                "weight": 192.30769230769232, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "slow"
+            }, 
+            {
+                "weight": 2202.150537634409, 
+                "languages": 25.0, 
+                "families": 16.0, 
+                "id": "afternoon"
+            }
+        ], 
+        [
+            {
+                "weight": 888.0733944954128, 
+                "languages": 13.0, 
+                "families": 11.0, 
+                "id": "evening"
+            }, 
+            {
+                "weight": 2202.150537634409, 
+                "languages": 25.0, 
+                "families": 16.0, 
+                "id": "late"
+            }
+        ]
+    ], 
+    "directed": false
+}

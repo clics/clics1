@@ -1,0 +1,47 @@
+{
+    "nodes": [
+        {
+            "key": "21.51", 
+            "body_part": 0, 
+            "community": 235, 
+            "id": "steal", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.52", 
+            "body_part": 0, 
+            "community": 235, 
+            "id": "thief", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 558.6206896551724, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "thief"
+            }
+        ], 
+        [
+            {
+                "weight": 558.6206896551724, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "steal"
+            }, 
+            {
+                "weight": 6.6115702479338845, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "thief"
+            }
+        ]
+    ], 
+    "directed": false
+}

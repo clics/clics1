@@ -1,0 +1,61 @@
+{
+    "nodes": [
+        {
+            "key": "5.46", 
+            "body_part": 0, 
+            "community": 153, 
+            "id": "peel", 
+            "out_edge": [
+                [
+                    "cluster_179_rub, wipe", 
+                    "scrape", 
+                    5.0, 
+                    172.41379310344826
+                ], 
+                [
+                    "cluster_1_fur", 
+                    "skin, hide", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.29", 
+            "body_part": 0, 
+            "community": 153, 
+            "id": "flay, skin", 
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "leather", 
+                    5.0, 
+                    181.8181818181818
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 4502.127659574468, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "id": "flay, skin"
+            }
+        ], 
+        [
+            {
+                "weight": 4502.127659574468, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "id": "peel"
+            }
+        ]
+    ], 
+    "directed": false
+}

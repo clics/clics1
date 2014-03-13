@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "key": "5.93", 
+            "body_part": 0, 
+            "community": 147, 
+            "id": "beer", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.94", 
+            "body_part": 0, 
+            "community": 147, 
+            "id": "fermented drink", 
+            "out_edge": [
+                [
+                    "cluster_65_river, stream, brook", 
+                    "beverage, drink", 
+                    5.0, 
+                    190.47619047619045
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.92", 
+            "body_part": 0, 
+            "community": 147, 
+            "id": "wine", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 595.3488372093024, 
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "fermented drink"
+            }, 
+            {
+                "weight": 812.6984126984127, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "wine"
+            }
+        ], 
+        [
+            {
+                "weight": 595.3488372093024, 
+                "languages": 13.0, 
+                "families": 8.0, 
+                "id": "beer"
+            }, 
+            {
+                "weight": 7.207207207207207, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fermented drink"
+            }, 
+            {
+                "weight": 346.9879518072289, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "wine"
+            }
+        ], 
+        [
+            {
+                "weight": 812.6984126984127, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "beer"
+            }, 
+            {
+                "weight": 346.9879518072289, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "fermented drink"
+            }, 
+            {
+                "weight": 12.307692307692308, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wine"
+            }
+        ]
+    ], 
+    "directed": false
+}

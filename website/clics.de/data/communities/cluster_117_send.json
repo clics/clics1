@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "key": "10.63", 
+            "body_part": 0, 
+            "community": 117, 
+            "id": "send", 
+            "out_edge": [
+                [
+                    "cluster_83_forgive", 
+                    "release, let go", 
+                    7.0, 
+                    373.3333333333333
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
+                    "drive", 
+                    5.0, 
+                    202.02020202020202
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
+                    "lead (vb)", 
+                    4.0, 
+                    117.43119266055047
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.31", 
+            "body_part": 0, 
+            "community": 117, 
+            "id": "rule, govern", 
+            "out_edge": [
+                [
+                    "cluster_23_carry (bear)", 
+                    "drive", 
+                    5.0, 
+                    243.90243902439025
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
+                    "lead (vb)", 
+                    5.0, 
+                    219.7802197802198
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.45", 
+            "body_part": 0, 
+            "community": 117, 
+            "id": "command, order", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 134.73684210526315, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "rule, govern"
+            }, 
+            {
+                "weight": 3173.6263736263736, 
+                "languages": 25.0, 
+                "families": 19.0, 
+                "id": "command, order"
+            }
+        ], 
+        [
+            {
+                "weight": 134.73684210526315, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "send"
+            }, 
+            {
+                "weight": 602.3529411764706, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "command, order"
+            }
+        ], 
+        [
+            {
+                "weight": 3173.6263736263736, 
+                "languages": 25.0, 
+                "families": 19.0, 
+                "id": "send"
+            }, 
+            {
+                "weight": 602.3529411764706, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "rule, govern"
+            }
+        ]
+    ], 
+    "directed": false
+}
