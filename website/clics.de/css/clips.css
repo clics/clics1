@@ -49,29 +49,33 @@ body {
 #content_large_down {
 	text-align:justify;
 	width: 990px;
+  float: left;
+  border-top: 3px solid #2f95e3;
 }
 
 .content_wrapper {
+	float:right;
 	text-align:justify;
-	width: 990px;
-	background: #ffffff;
-	padding-bottom: 2px;
-	padding-left:2px;
-	padding-top:2px;
-	padding-right:5px;
-  border-top: 3px solid #2f95e3;
-
-}
-#content_large_up {
-	float:left;
-	text-align:justify;
-	width: 990px;
+	width: 802px;
+  display: inline;
 	background: #ffffff;
 	padding-bottom: 20px;
-	padding-left:5px;
+	padding-left:20px;
+	padding-right:5px;
+  border-left: 3px solid #2f95e3;
+}
+
+#content_large_up {
+	float:right;
+	text-align:justify;
+	width: 802px;
+  display: inline;
+	background: #ffffff;
+	padding-bottom: 20px;
+	padding-left:20px;
 	padding-top:20px;
 	padding-right:5px;
-  //border-bottom: #2f95e3
+  border-left: 3px solid #2f95e3;
 }
 
 #content_large a{
@@ -227,37 +231,62 @@ body {
 	width:160px;	
 	margin:10px 0 15px 7px;  
 }
+#wrapper #subnav2 { 
+	float:left; 
+	width:160px;	
+	margin:10px 0 15px 7px;  
+}
+
 #wrapper #contentwrapper { margin-left: 170px;}
 
 #subnav h2 {
-	border:3px solid #2f95e3;
-	width:150px;
-	//padding-left:3px;
-	font-weight:bold;
-	color: black; //#ffffff;
-	line-height:1.4em;
-	font-size:1.2em /*overwrite default*/
+border:3px solid #2f95e3;
+width:150px;
+//padding-left:3px;
+font-weight:bold;
+color: black; //#ffffff;
+line-height:1.4em;
+font-size:1.2em /*overwrite default*/
 }
 
 #subnav h2 a, #subnav h3 a {
-	display:block;
-	margin:0;
-	//padding: 7px 15px 5px 5px;
-	padding-left:10px;
-	padding-right:10px;
-	padding-top:5px;
-	padding-bottom:5px;
+display:block;
+margin:0;
+//padding: 7px 15px 5px 5px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+border:none;
+color: #ffffff;
+background: #2f95e3 no-repeat right bottom;
+text-decoration:none;
+}
+
+#subnav2 h2 {
+  position: relative;
+  top: 9px;
+  left: 0px;
+	line-height:1.4em;
+	font-size:0.8em; /*overwrite default*/
+}
+#subnav2 h2 a {
+  display: inline;
+	padding-left:15px;
+	padding-right:88px;
+	padding-top:11px;
+	padding-bottom:9px;
 	border:none;
-	color: #ffffff;
+	color: white;
 	background: #2f95e3 no-repeat right bottom;
-	text-decoration:none;
+	font-weight: bold;
 }
 #subnav li {
 	margin:0;
 	padding:0;
 	background:transparent;
 	font-weight:normal; 
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 #subnav ul li a{

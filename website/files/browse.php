@@ -1,12 +1,14 @@
 <!-- SIDEBAR NONE -->
+<div id="subnav2">
+    <h2> <a href="browse.php">Browse</a></h2>
+</div>
 <div id="content_large_up">
 <h3>Browse the Colexification Networks</h3>
-<br>
 <br>
 <?php
 include('query/query_community.php');
 ?>
-</div>
+<!--</div>-->
 <?php
   if(isset($_POST['gloss']) or isset($_GET['gloss']) or isset($_POST['community']) or isset($_GET['community']))
   {
@@ -16,16 +18,15 @@ include('query/query_community.php');
   include("css/visualize.css");
 ?>
 </style>
-<div id="content_large_down">
 
 
-<div class="content_wrapper">
+<!--<div class="content_wrapper">-->
 <?php
   include('query/communities.php');
 ?>
 </div>
+<div id="content_large_down">
 <br>
-<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
 <table id="control" class="query_table" style="background-color:lightgray">
   <tr>
     <th>
@@ -63,6 +64,12 @@ include('query/query_community.php');
 
 </div></div>
 <br>
+<?php
+  }
+  else
+  {
+?>
+</div>
 <?php
   }
 ?>
