@@ -387,6 +387,14 @@ function init(filename,coloring){
 			.style('stroke-opacity',opacity/100)
 			;
 		})
+		.append('title')
+		.text(function(d,i){
+			var outstring = '';
+			for(var j=0;j<d.node.out_edge.length;j++){
+				outstring += d.node.out_edge[j][0] + '\n';
+			};
+			return outstring;
+		})
 		;
 
 	var updateLink = function() {
