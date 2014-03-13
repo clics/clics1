@@ -1,0 +1,179 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 142, 
+            "key": "12.53", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "grow"
+        }, 
+        {
+            "community": 142, 
+            "key": "4.72", 
+            "out_edge": [
+                [
+                    "cluster_56_go", 
+                    "go out", 
+                    5.0, 
+                    173.91304347826087
+                ], 
+                [
+                    "cluster_141_fall", 
+                    "fall", 
+                    4.0, 
+                    108.47457627118644
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "born (to be)"
+        }, 
+        {
+            "community": 142, 
+            "key": "4.71", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "beget (of father)"
+        }, 
+        {
+            "community": 142, 
+            "key": "4.732", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "conceive"
+        }, 
+        {
+            "community": 142, 
+            "key": "20.48", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "booty, spoils"
+        }, 
+        {
+            "community": 142, 
+            "key": "4.73", 
+            "out_edge": [
+                [
+                    "cluster_70_strong, mighty, powerful", 
+                    "heavy", 
+                    5.0, 
+                    166.66666666666669
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "pregnant"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beget (of father)", 
+                "weight": 7.2727272727272725
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "grow", 
+                "weight": 6.4
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "born (to be)", 
+                "weight": 61.016949152542374
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "beget (of father)", 
+                "weight": 288.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "conceive", 
+                "weight": 7.766990291262135
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "booty, spoils", 
+                "weight": 36.7816091954023
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "grow", 
+                "weight": 61.016949152542374
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "conceive", 
+                "weight": 450.57471264367814
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "grow", 
+                "weight": 7.2727272727272725
+            }, 
+            {
+                "languages": 9.0, 
+                "families": 6.0, 
+                "id": "born (to be)", 
+                "weight": 288.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "beget (of father)", 
+                "weight": 450.57471264367814
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "born (to be)", 
+                "weight": 7.766990291262135
+            }, 
+            {
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "pregnant", 
+                "weight": 648.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "born (to be)", 
+                "weight": 36.7816091954023
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "conceive", 
+                "weight": 648.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

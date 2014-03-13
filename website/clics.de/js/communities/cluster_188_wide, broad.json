@@ -1,0 +1,100 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 188, 
+            "key": "12.61", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "wide, broad"
+        }, 
+        {
+            "community": 188, 
+            "key": "12.55", 
+            "out_edge": [
+                [
+                    "cluster_17_tall", 
+                    "tall", 
+                    9.0, 
+                    558.6206896551724
+                ], 
+                [
+                    "cluster_17_tall", 
+                    "high", 
+                    7.0, 
+                    332.20338983050846
+                ], 
+                [
+                    "cluster_77_enough", 
+                    "much, many", 
+                    5.0, 
+                    162.60162601626016
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "large, big"
+        }, 
+        {
+            "community": 188, 
+            "key": "12.63", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "thick (in dimension)"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wide, broad", 
+                "weight": 6.6115702479338845
+            }, 
+            {
+                "languages": 12.0, 
+                "families": 11.0, 
+                "id": "large, big", 
+                "weight": 849.1228070175439
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "thick (in dimension)", 
+                "weight": 169.4915254237288
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "families": 11.0, 
+                "id": "wide, broad", 
+                "weight": 849.1228070175439
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "thick (in dimension)", 
+                "weight": 240.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "wide, broad", 
+                "weight": 169.4915254237288
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "large, big", 
+                "weight": 240.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

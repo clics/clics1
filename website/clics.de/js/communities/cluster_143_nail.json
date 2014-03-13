@@ -1,0 +1,109 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 143, 
+            "key": "9.5", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "nail"
+        }, 
+        {
+            "community": 143, 
+            "key": "6.37", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "awl"
+        }, 
+        {
+            "community": 143, 
+            "key": "6.36", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "needle"
+        }, 
+        {
+            "community": 143, 
+            "key": "6.63", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "pin"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "awl", 
+                "weight": 39.50617283950617
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "needle", 
+                "weight": 72.0
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "pin", 
+                "weight": 152.38095238095238
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "nail", 
+                "weight": 39.50617283950617
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "needle", 
+                "weight": 79.12087912087912
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "nail", 
+                "weight": 72.0
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "awl", 
+                "weight": 79.12087912087912
+            }, 
+            {
+                "languages": 22.0, 
+                "families": 13.0, 
+                "id": "pin", 
+                "weight": 1572.093023255814
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "nail", 
+                "weight": 152.38095238095238
+            }, 
+            {
+                "languages": 22.0, 
+                "families": 13.0, 
+                "id": "needle", 
+                "weight": 1572.093023255814
+            }
+        ]
+    ], 
+    "multigraph": false
+}

@@ -1,0 +1,142 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 86, 
+            "key": "18.38", 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    217.39130434782606
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "forbid"
+        }, 
+        {
+            "community": 86, 
+            "key": "18.34", 
+            "out_edge": [
+                [
+                    "cluster_252_no, negative", 
+                    "no, negative", 
+                    4.0, 
+                    120.75471698113208
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "deny"
+        }, 
+        {
+            "community": 86, 
+            "key": "18.37", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "refuse"
+        }, 
+        {
+            "community": 86, 
+            "key": "19.59", 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    217.39130434782606
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "hinder, prevent"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "deny", 
+                "weight": 219.7802197802198
+            }, 
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "refuse", 
+                "weight": 963.855421686747
+            }, 
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "hinder, prevent", 
+                "weight": 1339.5348837209303
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "forbid", 
+                "weight": 219.7802197802198
+            }, 
+            {
+                "languages": 26.0, 
+                "families": 14.0, 
+                "id": "refuse", 
+                "weight": 2036.3636363636363
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "hinder, prevent", 
+                "weight": 8.421052631578947
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "families": 10.0, 
+                "id": "forbid", 
+                "weight": 963.855421686747
+            }, 
+            {
+                "languages": 26.0, 
+                "families": 14.0, 
+                "id": "deny", 
+                "weight": 2036.3636363636363
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "hinder, prevent", 
+                "weight": 80.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "forbid", 
+                "weight": 1339.5348837209303
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "deny", 
+                "weight": 8.421052631578947
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "refuse", 
+                "weight": 80.0
+            }
+        ]
+    ], 
+    "multigraph": false
+}

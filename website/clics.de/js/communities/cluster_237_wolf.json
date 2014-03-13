@@ -1,0 +1,124 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 237, 
+            "swadesh100": 0, 
+            "key": "3.74", 
+            "id": "fox"
+        }, 
+        {
+            "community": 237, 
+            "key": "3.662", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "porpoise, dolphin"
+        }, 
+        {
+            "community": 237, 
+            "key": "3.71", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "wolf"
+        }, 
+        {
+            "community": 237, 
+            "key": "12.77", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "cross"
+        }, 
+        {
+            "community": 237, 
+            "key": "3.72", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "lion"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lion", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wolf", 
+                "weight": 8.98876404494382
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wolf", 
+                "weight": 10.95890410958904
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "porpoise, dolphin", 
+                "weight": 10.95890410958904
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fox", 
+                "weight": 8.98876404494382
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "lion", 
+                "weight": 36.7816091954023
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lion", 
+                "weight": 8.695652173913043
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cross", 
+                "weight": 9.411764705882353
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wolf", 
+                "weight": 36.7816091954023
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fox", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cross", 
+                "weight": 8.695652173913043
+            }
+        ]
+    ], 
+    "multigraph": false
+}

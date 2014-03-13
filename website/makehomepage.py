@@ -43,6 +43,14 @@ for infile in infiles:
     
     sidebar = sidebar.format(**conf['pages'])
 
+    # modify inf according to globals
+    for k,v in conf['globals'].items():
+        try:
+            inf = re.sub('::'+k+'::', v, inf)
+        except:
+            raise ValueError("Pattern %s / %s on file %s is wrong." %
+                    (k,v,infile))
+
     f = open(name,'w')
     f.write(template.format(
         content = inf,

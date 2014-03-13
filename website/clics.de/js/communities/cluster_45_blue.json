@@ -1,0 +1,155 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 45, 
+            "key": "15.67", 
+            "out_edge": [
+                [
+                    "cluster_100_wound, sore", 
+                    "bruise", 
+                    4.0, 
+                    126.73267326732673
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "blue"
+        }, 
+        {
+            "community": 45, 
+            "key": "5.122", 
+            "out_edge": [
+                [
+                    "cluster_61_dwell, live", 
+                    "live, living, life", 
+                    5.0, 
+                    168.0672268907563
+                ], 
+                [
+                    "cluster_205_joyful, glad, happy", 
+                    "wet, damp", 
+                    4.0, 
+                    106.66666666666667
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "raw"
+        }, 
+        {
+            "community": 45, 
+            "key": "15.68", 
+            "out_edge": [
+                [
+                    "cluster_220_red", 
+                    "yellow", 
+                    6.0, 
+                    244.0677966101695
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "green"
+        }, 
+        {
+            "community": 45, 
+            "key": "5.124", 
+            "out_edge": [
+                [
+                    "cluster_6_boy", 
+                    "young", 
+                    5.0, 
+                    183.4862385321101
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "green, unripe"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "raw", 
+                "weight": 26.229508196721312
+            }, 
+            {
+                "languages": 47.0, 
+                "families": 27.0, 
+                "id": "green", 
+                "weight": 5890.909090909091
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "green, unripe", 
+                "weight": 175.43859649122805
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "blue", 
+                "weight": 26.229508196721312
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "green", 
+                "weight": 441.37931034482756
+            }, 
+            {
+                "languages": 45.0, 
+                "families": 26.0, 
+                "id": "green, unripe", 
+                "weight": 5942.857142857143
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "families": 27.0, 
+                "id": "blue", 
+                "weight": 5890.909090909091
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "raw", 
+                "weight": 441.37931034482756
+            }, 
+            {
+                "languages": 49.0, 
+                "families": 14.0, 
+                "id": "green, unripe", 
+                "weight": 1493.3333333333333
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 5.0, 
+                "id": "blue", 
+                "weight": 175.43859649122805
+            }, 
+            {
+                "languages": 45.0, 
+                "families": 26.0, 
+                "id": "raw", 
+                "weight": 5942.857142857143
+            }, 
+            {
+                "languages": 49.0, 
+                "families": 14.0, 
+                "id": "green", 
+                "weight": 1493.3333333333333
+            }
+        ]
+    ], 
+    "multigraph": false
+}

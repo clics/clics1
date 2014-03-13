@@ -1,0 +1,101 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 140, 
+            "key": "15.78", 
+            "out_edge": [
+                [
+                    "cluster_54_immediately", 
+                    "swift, fast, quick", 
+                    4.0, 
+                    108.47457627118644
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "sharp"
+        }, 
+        {
+            "community": 140, 
+            "key": "12.352", 
+            "out_edge": [
+                [
+                    "cluster_35_finish", 
+                    "end", 
+                    5.0, 
+                    180.18018018018017
+                ], 
+                [
+                    "cluster_94_roof", 
+                    "top", 
+                    5.0, 
+                    172.41379310344826
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "pointed"
+        }, 
+        {
+            "community": 140, 
+            "key": "15.76", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "rough"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "pointed", 
+                "weight": 3563.6363636363635
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rough", 
+                "weight": 63.716814159292035
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "sharp", 
+                "weight": 3563.6363636363635
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pointed", 
+                "weight": 6.722689075630252
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "rough", 
+                "weight": 28.07017543859649
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "sharp", 
+                "weight": 63.716814159292035
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pointed", 
+                "weight": 28.07017543859649
+            }
+        ]
+    ], 
+    "multigraph": false
+}

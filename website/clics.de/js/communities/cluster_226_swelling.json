@@ -1,0 +1,82 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 226, 
+            "key": "4.856", 
+            "out_edge": [
+                [
+                    "cluster_105_cook", 
+                    "boil (vb)", 
+                    4.0, 
+                    113.27433628318585
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "boil (noun)"
+        }, 
+        {
+            "community": 226, 
+            "key": "4.853", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "swelling"
+        }, 
+        {
+            "community": 226, 
+            "key": "13.21", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "full"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "swelling", 
+                "weight": 359.6330275229358
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "full", 
+                "weight": 27.586206896551722
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "boil (noun)", 
+                "weight": 359.6330275229358
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "swelling", 
+                "weight": 6.6115702479338845
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "boil (noun)", 
+                "weight": 27.586206896551722
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "full", 
+                "weight": 6.4
+            }
+        ]
+    ], 
+    "multigraph": false
+}

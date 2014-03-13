@@ -1,0 +1,75 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 228, 
+            "key": "18.36", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "promise"
+        }, 
+        {
+            "community": 228, 
+            "key": "21.24", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "swear"
+        }, 
+        {
+            "community": 228, 
+            "key": "21.25", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "oath"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "swear", 
+                "weight": 281.6901408450704
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "oath", 
+                "weight": 101.40845070422534
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "promise", 
+                "weight": 281.6901408450704
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "oath", 
+                "weight": 135.8490566037736
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "swear", 
+                "weight": 135.8490566037736
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "promise", 
+                "weight": 101.40845070422534
+            }
+        ]
+    ], 
+    "multigraph": false
+}

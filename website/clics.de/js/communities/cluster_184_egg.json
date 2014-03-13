@@ -1,0 +1,48 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 184, 
+            "key": "5.97", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "egg"
+        }, 
+        {
+            "community": 184, 
+            "key": "4.49", 
+            "out_edge": [
+                [
+                    "cluster_19_fruit", 
+                    "seed", 
+                    4.0, 
+                    111.30434782608695
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "id": "testicle"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 24.0, 
+                "families": 16.0, 
+                "id": "testicle", 
+                "weight": 1932.0754716981132
+            }
+        ], 
+        [
+            {
+                "languages": 24.0, 
+                "families": 16.0, 
+                "id": "egg", 
+                "weight": 1932.0754716981132
+            }
+        ]
+    ], 
+    "multigraph": false
+}

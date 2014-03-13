@@ -1,0 +1,62 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 257, 
+            "key": "1.324", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "foam"
+        }, 
+        {
+            "community": 257, 
+            "key": "4.57", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "vomit"
+        }, 
+        {
+            "body_part": 0, 
+            "community": 257, 
+            "swadesh100": 0, 
+            "key": "6.95", 
+            "id": "soap"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soap", 
+                "weight": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "soap", 
+                "weight": 7.8431372549019605
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "foam", 
+                "weight": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "vomit", 
+                "weight": 7.8431372549019605
+            }
+        ]
+    ], 
+    "multigraph": false
+}

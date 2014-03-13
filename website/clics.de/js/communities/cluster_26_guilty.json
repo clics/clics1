@@ -1,0 +1,308 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 26, 
+            "key": "16.78", 
+            "out_edge": [
+                [
+                    "cluster_121_judge (vb)", 
+                    "condemn", 
+                    5.0, 
+                    273.972602739726
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "blame"
+        }, 
+        {
+            "community": 26, 
+            "key": "16.76", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "fault"
+        }, 
+        {
+            "community": 26, 
+            "key": "21.35", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "guilty"
+        }, 
+        {
+            "community": 26, 
+            "key": "20.63", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "miss (target)"
+        }, 
+        {
+            "community": 26, 
+            "key": "21.22", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "defendant"
+        }, 
+        {
+            "community": 26, 
+            "key": "16.77", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "mistake, error"
+        }, 
+        {
+            "community": 26, 
+            "key": "16.74", 
+            "out_edge": [
+                [
+                    "cluster_113_dirty, soiled", 
+                    "bad", 
+                    12.0, 
+                    1163.6363636363637
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "wrong"
+        }, 
+        {
+            "community": 26, 
+            "key": "21.31", 
+            "out_edge": [
+                [
+                    "cluster_121_judge (vb)", 
+                    "convict (vb)", 
+                    5.0, 
+                    285.7142857142857
+                ], 
+                [
+                    "cluster_121_judge (vb)", 
+                    "condemn", 
+                    5.0, 
+                    270.27027027027026
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "accuse"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "mistake, error", 
+                "weight": 33.68421052631579
+            }, 
+            {
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "fault", 
+                "weight": 3082.666666666667
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wrong", 
+                "weight": 8.60215053763441
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "guilty", 
+                "weight": 9.195402298850574
+            }, 
+            {
+                "languages": 29.0, 
+                "families": 13.0, 
+                "id": "accuse", 
+                "weight": 1689.9999999999998
+            }
+        ], 
+        [
+            {
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "blame", 
+                "weight": 3082.666666666667
+            }, 
+            {
+                "languages": 27.0, 
+                "families": 15.0, 
+                "id": "mistake, error", 
+                "weight": 2195.1219512195125
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "wrong", 
+                "weight": 327.2727272727273
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "guilty", 
+                "weight": 152.38095238095238
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "miss (target)", 
+                "weight": 75.78947368421053
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blame", 
+                "weight": 9.195402298850574
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "fault", 
+                "weight": 152.38095238095238
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "miss (target)", 
+                "weight": 8.60215053763441
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "defendant", 
+                "weight": 98.63013698630137
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "mistake, error", 
+                "weight": 8.695652173913043
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "wrong", 
+                "weight": 235.29411764705884
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "mistake, error", 
+                "weight": 689.3617021276596
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fault", 
+                "weight": 75.78947368421053
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wrong", 
+                "weight": 32.6530612244898
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "guilty", 
+                "weight": 8.60215053763441
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "guilty", 
+                "weight": 98.63013698630137
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "blame", 
+                "weight": 33.68421052631579
+            }, 
+            {
+                "languages": 27.0, 
+                "families": 15.0, 
+                "id": "fault", 
+                "weight": 2195.1219512195125
+            }, 
+            {
+                "languages": 15.0, 
+                "families": 11.0, 
+                "id": "wrong", 
+                "weight": 1100.0
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "guilty", 
+                "weight": 8.695652173913043
+            }, 
+            {
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "miss (target)", 
+                "weight": 689.3617021276596
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "blame", 
+                "weight": 8.60215053763441
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "fault", 
+                "weight": 327.2727272727273
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "guilty", 
+                "weight": 235.29411764705884
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "miss (target)", 
+                "weight": 32.6530612244898
+            }, 
+            {
+                "languages": 15.0, 
+                "families": 11.0, 
+                "id": "mistake, error", 
+                "weight": 1100.0
+            }
+        ], 
+        [
+            {
+                "languages": 29.0, 
+                "families": 13.0, 
+                "id": "blame", 
+                "weight": 1689.9999999999998
+            }
+        ]
+    ], 
+    "multigraph": false
+}

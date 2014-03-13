@@ -1,0 +1,123 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 162, 
+            "key": "1.22", 
+            "out_edge": [
+                [
+                    "cluster_94_roof", 
+                    "top", 
+                    5.0, 
+                    170.94017094017093
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "mountain, hill"
+        }, 
+        {
+            "community": 162, 
+            "key": "1.44", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "id": "stone, rock"
+        }, 
+        {
+            "community": 162, 
+            "key": "1.222", 
+            "out_edge": [
+                [
+                    "cluster_30_edge", 
+                    "edge", 
+                    4.0, 
+                    115.31531531531532
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "cliff, precipice"
+        }, 
+        {
+            "community": 162, 
+            "key": "1.342", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "reef"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "stone, rock", 
+                "weight": 437.60683760683764
+            }, 
+            {
+                "languages": 7.0, 
+                "families": 4.0, 
+                "id": "cliff, precipice", 
+                "weight": 114.28571428571428
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "mountain, hill", 
+                "weight": 437.60683760683764
+            }, 
+            {
+                "languages": 38.0, 
+                "families": 5.0, 
+                "id": "cliff, precipice", 
+                "weight": 175.43859649122805
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "reef", 
+                "weight": 35.95505617977528
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "families": 4.0, 
+                "id": "mountain, hill", 
+                "weight": 114.28571428571428
+            }, 
+            {
+                "languages": 38.0, 
+                "families": 5.0, 
+                "id": "stone, rock", 
+                "weight": 175.43859649122805
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "reef", 
+                "weight": 259.7402597402597
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "stone, rock", 
+                "weight": 35.95505617977528
+            }, 
+            {
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "cliff, precipice", 
+                "weight": 259.7402597402597
+            }
+        ]
+    ], 
+    "multigraph": false
+}

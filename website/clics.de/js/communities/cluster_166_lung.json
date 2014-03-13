@@ -1,0 +1,121 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 166, 
+            "key": "11.89", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "cheap"
+        }, 
+        {
+            "community": 166, 
+            "key": "4.441", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "id": "lung"
+        }, 
+        {
+            "community": 166, 
+            "key": "15.82", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "light (in weight)"
+        }, 
+        {
+            "community": 166, 
+            "key": "17.46", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "easy"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lung", 
+                "weight": 7.4074074074074066
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "light (in weight)", 
+                "weight": 69.23076923076923
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "easy", 
+                "weight": 136.17021276595744
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "cheap", 
+                "weight": 7.4074074074074066
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "light (in weight)", 
+                "weight": 112.28070175438596
+            }, 
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "easy", 
+                "weight": 29.906542056074763
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "lung", 
+                "weight": 112.28070175438596
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "cheap", 
+                "weight": 69.23076923076923
+            }, 
+            {
+                "languages": 48.0, 
+                "families": 11.0, 
+                "id": "easy", 
+                "weight": 1008.3333333333334
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "lung", 
+                "weight": 29.906542056074763
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "cheap", 
+                "weight": 136.17021276595744
+            }, 
+            {
+                "languages": 48.0, 
+                "families": 11.0, 
+                "id": "light (in weight)", 
+                "weight": 1008.3333333333334
+            }
+        ]
+    ], 
+    "multigraph": false
+}

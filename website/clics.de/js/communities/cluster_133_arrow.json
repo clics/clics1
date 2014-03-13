@@ -1,0 +1,178 @@
+{
+    "directed": false, 
+    "graph": [], 
+    "nodes": [
+        {
+            "community": 133, 
+            "key": "1.59", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "rainbow"
+        }, 
+        {
+            "community": 133, 
+            "key": "6.32", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "spindle"
+        }, 
+        {
+            "community": 133, 
+            "key": "7.58", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "arch"
+        }, 
+        {
+            "community": 133, 
+            "key": "20.25", 
+            "out_edge": [
+                [
+                    "cluster_52_knife", 
+                    "spear", 
+                    4.0, 
+                    121.90476190476191
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "arrow"
+        }, 
+        {
+            "community": 133, 
+            "key": "20.24", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "bow"
+        }, 
+        {
+            "community": 133, 
+            "key": "10.77", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "id": "axle"
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "rainbow", 
+                "weight": 6.4
+            }, 
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "bow", 
+                "weight": 61.53846153846154
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "arch", 
+                "weight": 11.11111111111111
+            }, 
+            {
+                "languages": 6.0, 
+                "families": 3.0, 
+                "id": "axle", 
+                "weight": 98.63013698630137
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "arrow", 
+                "weight": 7.6923076923076925
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spindle", 
+                "weight": 11.11111111111111
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "arrow", 
+                "weight": 9.876543209876543
+            }, 
+            {
+                "languages": 20.0, 
+                "families": 6.0, 
+                "id": "bow", 
+                "weight": 378.9473684210526
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spindle", 
+                "weight": 7.6923076923076925
+            }, 
+            {
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "arch", 
+                "weight": 9.876543209876543
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "axle", 
+                "weight": 87.8048780487805
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "bow", 
+                "weight": 266.66666666666663
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rainbow", 
+                "weight": 61.53846153846154
+            }, 
+            {
+                "languages": 20.0, 
+                "families": 6.0, 
+                "id": "arch", 
+                "weight": 378.9473684210526
+            }, 
+            {
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "arrow", 
+                "weight": 266.66666666666663
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "families": 3.0, 
+                "id": "spindle", 
+                "weight": 98.63013698630137
+            }, 
+            {
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "arrow", 
+                "weight": 87.8048780487805
+            }
+        ]
+    ], 
+    "multigraph": false
+}
