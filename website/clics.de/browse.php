@@ -57,14 +57,16 @@
  </div><!-- end header -->  
      <div id="content_large">    
 	 <!-- SIDEBAR NONE -->
+<div id="subnav2">
+    <h2> <a href="browse.php">Browse</a></h2>
+</div>
 <div id="content_large_up">
 <h3>Browse the Colexification Networks</h3>
-<br>
 <br>
 <?php
 include('query/query_community.php');
 ?>
-</div>
+<!--</div>-->
 <?php
   if(isset($_POST['gloss']) or isset($_GET['gloss']) or isset($_POST['community']) or isset($_GET['community']))
   {
@@ -74,16 +76,15 @@ include('query/query_community.php');
   include("css/visualize.css");
 ?>
 </style>
-<div id="content_large_down">
 
 
-<div class="content_wrapper">
+<!--<div class="content_wrapper">-->
 <?php
   include('query/communities.php');
 ?>
 </div>
+<div id="content_large_down">
 <br>
-<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
 <table id="control" class="query_table" style="background-color:lightgray">
   <tr>
     <th>
@@ -123,6 +124,12 @@ include('query/query_community.php');
 <br>
 <?php
   }
+  else
+  {
+?>
+</div>
+<?php
+  }
 ?>
 
  </div>
@@ -137,7 +144,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 13, 2014, 20:05 CET</p>
+ <p>Last updated on Mar. 13, 2014, 21:48 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
