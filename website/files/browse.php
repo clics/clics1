@@ -17,16 +17,16 @@ include('query/query_community.php');
 ?>
 </style>
 <div id="content_large_down">
+
+
 <div class="content_wrapper">
 <?php
   include('query/communities.php');
 ?>
-<br>
-<!-- Pieces of Thomas' code -->
-<script type="text/javascript" src="js/d3/d3.v2.js"></script>
 </div>
 <br>
-<table id="control" class="query_table">
+<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
+<table id="control" class="query_table" style="background-color:lightgray">
   <tr>
     <th>
       <label>Line opacity: </label>
@@ -51,8 +51,8 @@ include('query/query_community.php');
     </td>
   </tr>
 </table>
-<br>
-<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
+<!-- Pieces of Thomas' code -->
+<script type="text/javascript" src="js/d3/d3.v2.js"></script>
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
@@ -63,7 +63,6 @@ include('query/query_community.php');
 
 </div></div>
 <br>
-
 <?php
   }
 ?>

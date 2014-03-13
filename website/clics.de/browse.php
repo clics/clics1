@@ -75,16 +75,16 @@ include('query/query_community.php');
 ?>
 </style>
 <div id="content_large_down">
+
+
 <div class="content_wrapper">
 <?php
   include('query/communities.php');
 ?>
-<br>
-<!-- Pieces of Thomas' code -->
-<script type="text/javascript" src="js/d3/d3.v2.js"></script>
 </div>
 <br>
-<table id="control" class="query_table">
+<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
+<table id="control" class="query_table" style="background-color:lightgray">
   <tr>
     <th>
       <label>Line opacity: </label>
@@ -109,8 +109,8 @@ include('query/query_community.php');
     </td>
   </tr>
 </table>
-<br>
-<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
+<!-- Pieces of Thomas' code -->
+<script type="text/javascript" src="js/d3/d3.v2.js"></script>
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
@@ -121,7 +121,6 @@ include('query/query_community.php');
 
 </div></div>
 <br>
-
 <?php
   }
 ?>
@@ -138,7 +137,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 13, 2014, 16:59 CET</p>
+ <p>Last updated on Mar. 13, 2014, 17:31 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
