@@ -15,6 +15,7 @@ from datetime import datetime
 import json
 
 template = open('templates/content.php').read()
+template2 = open('templates/head-foot.php').read()
 
 today = datetime.today().strftime('%h. %d, %Y, %H:%M CET')
 
@@ -27,21 +28,27 @@ for infile in infiles:
     try:
         sidebar = re.findall(r'<!-- SIDEBAR ([a-zA-Z]*?) -->',inf)
         sidebar = sidebar[0]
+        if sidebar == "NONE":
+            sidebar = False
     except:
-        sidebar = 'about'
-
-    sidebar = open('templates/'+sidebar+'.php').read()
+        sidebar = "about"
     
-    name = infile.replace('files/','clics.de/')
-    filename = infile.replace('files/','').replace('.php','')
-    
-    for f in conf['pages']:
-        if f == filename:
-            conf['pages'][f] = 'active'
-        else:
-            conf['pages'][f] = 'inactive'
-    
-    sidebar = sidebar.format(**conf['pages'])
+    if sidebar:
+        sidebar = open('templates/'+sidebar+'.php').read()
+        
+        name = infile.replace('files/','clics.de/')
+        filename = infile.replace('files/','').replace('.php','')
+        
+        for f in conf['pages']:
+            if f == filename:
+                conf['pages'][f] = 'active'
+            else:
+                conf['pages'][f] = 'inactive'
+        
+        sidebar = sidebar.format(**conf['pages'])
+    else:
+        name = infile.replace('files/','clics.de/')
+        filename = infile.replace('files/','').replace('.php','')
 
     # modify inf according to globals
     for k,v in conf['globals'].items():
@@ -50,23 +57,40 @@ for infile in infiles:
         except:
             raise ValueError("Pattern %s / %s on file %s is wrong." %
                     (k,v,infile))
+    if sidebar:
+        f = open(name,'w')
+        f.write(template.format(
+            content = inf,
+            update = today,
+            sidebar = sidebar
+            )
+            )
+        f.close()
+        f = open(name.replace('clics.de/','php/'),'w')
+        f.write(template.format(
+            content = inf,
+            update = today,
+            sidebar = sidebar
+            )
+            )
+        f.close()
 
-    f = open(name,'w')
-    f.write(template.format(
-        content = inf,
-        update = today,
-        sidebar = sidebar
-        )
-        )
-    f.close()
-    f = open(name.replace('clics.de/','php/'),'w')
-    f.write(template.format(
-        content = inf,
-        update = today,
-        sidebar = sidebar
-        )
-        )
-    f.close()
+    else:
+        f = open(name,'w')
+        f.write(template2.format(
+            content = inf,
+            update = today,
+            )
+            )
+        f.close()
+        f = open(name.replace('clics.de/','php/'),'w')
+        f.write(template2.format(
+            content = inf,
+            update = today,
+            )
+            )
+        f.close()
+
 
 
 

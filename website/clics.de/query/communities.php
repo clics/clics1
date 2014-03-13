@@ -3,8 +3,12 @@
 $dsn = "sqlite:data/clips.sqlite3";
 $conn = new PDO ($dsn);
 
-if(isset($_POST['gloss']))
+if(isset($_POST['gloss']) or isset($_GET['gloss']))
 {
+  if(isset($_GET['gloss']))
+  {
+    $_POST['gloss'] = $_GET['gloss'];
+  }
   $qstring = 'select * from communities where gloss = "'.$_POST['gloss'].'";';
   $query = $conn->query($qstring);
   $result = $query->fetch();
@@ -17,11 +21,24 @@ Hover over the edges to check out the forms for each link. Click on the forms to
 <br>
 <?php
 }
-else if(isset($_GET['key']))
+else if(isset($_GET['community']) or isset($_POST['community']))
 {
-  echo '<script type="text/javascript">var filename = "'.$_GET['key'].'.json";</script>';
+  if(isset($_POST['community']))
+  {
+    $_GET['community'] = $_POST['community'];
+  }
 
+  $qstring = 'select * from communities where path = "'.$_GET['community'].'";';
+  $query = $conn->query($qstring);
+  $result = $query->fetch();
+  if($result['size'] == 1){$member = 'node';}
+  else{$member = 'nodes';}
+  echo '<script type="text/javascript">var filename = "'.$result['path'].'.json";</script>';
+  echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;.';
+?>
+Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
+<br>
+<?php
 }
-
 ?>
 

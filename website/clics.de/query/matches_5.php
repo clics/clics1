@@ -15,7 +15,7 @@
   </td>
   <td class="submit_button" style="text-align:left">
     <?php 
-      echo '<form action="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'" method="post">';
+      echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
       echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
       echo '</form>';
     ?>   
@@ -39,10 +39,11 @@ else{
   </td>
   <td style="background-color:lightgray">
     <?php 
-      echo '<form action="browse.php?key=cluster_'.$result['community'].'_'.$result['community_label'].'" method="post">';
+      echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
       echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
       echo '</form>';
-    ?>    </td>
+    ?>
+  </td>
 <?php 
 }
 ?>

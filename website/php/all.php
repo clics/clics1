@@ -24,17 +24,12 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://quanthistling.info/clips/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://clics.lingpy.org"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
-      <!--<a href="main.php">Home</a>
-      <ul id="home">
-	<li><a href="main.php#news1">News1</a></li>
-	<li><a href="main.php#news2">News2</a></li>
-	<li><a href="main.php#news3">News3</a></li>
-      </ul>
-    </li>-->
+      <a href="main.php">Home</a>
+    </li>
     <li>
       <a href="about.php">About</a>
       <ul id="about">
@@ -52,11 +47,10 @@
       </ul>
     </li>
     <li>
+      <a href="browse.php">Browse</a>
+    </li>
+    <li>
 	<a href="download.php">Download</a>
-	<!--<ul>
-	    <li><a href="courses.php#current">Current</a></li>
-	    <li><a href="courses.php#old">Old</a></li>
-	</ul>-->
     </li>
   </ul>
  </div><!--end mainnav-->
@@ -79,108 +73,105 @@
 $dsn = "sqlite:data/clips.sqlite3";
 $conn = new PDO ($dsn);
 
-/* check for settings */
-if(isset($_POST['source']) && isset($_POST['target'])){
+if(isset($_POST['forms']))
+{
+  include('query/query_all.php');
+  include('query/matches_2.php');
 
-    /* include the header */
-    include('query/query_all.php');
+  /* split forms */
+  $forms = explode('//',$_POST['forms']);
 
-    /* make the query */
-    $query_string = 'select * from links where glossA="'.$_POST['source'].'" and glossB="'.$_POST['target'].'";';
+  /* iterate over forms array */
+  foreach($forms as &$form)
+  {      
+	  /* get form and language ID */
+    $tmp = explode(':',$form);
+    $lid = $tmp[0];
+    $form = substr($tmp[1],1,-1);
+
+    // Now that we got form and language id, we take the data for all languages from clips.slqite3
+    $query_string = 'select * from langs where id="'.$lid.'";';
     $query = $conn->query($query_string);
     $results = $query->fetch();
-    
-    /* check for results, if value greater one, display, else pass */
-    if (count($results) > 1){
-
-	/* glosses */
-        $glossA = $results['glossA'];
-	$glossB = $results['glossB'];
-
-	/* forms */
-        $forms = $results['forms'];
+    $classification = explode(',',$results['classification']);
+    $classification = array_shift($classification);
+    $iso = explode('_',$results['iso']);
+	  $iso = array_shift($iso);
 	
-	/* families, languages in sqlite3-db */
-	$families = $results['families'];
-	$languages = $results['languages'];
-
-	/* the gloss ids */
-        $numA = $results['numA'];
-	$numB = $results['numB'];
-
-	/* include next query */
-	include('query/matches_1.php');
-    }
-    else{
-        echo "<p align=center><font color=red><b>No results found for your query.</b></font></p>";
-    }
+	  /* include specific matches */
+	  include('query/matches_3.php');
+  }
+  echo '</table></div>';
 }
-else if(isset($_POST['forms'])){
-    include('query/query_all.php');
-    include('query/matches_2.php');
-    /* split forms */
-    $forms = explode('//',$_POST['forms']);
-
-    /* iterate over forms array */
-    foreach($forms as &$form){
-        
-	/* get form and language ID */
-        $tmp = explode(':',$form);
-        $lid = $tmp[0];
-        $form = $tmp[1];
-
-        // Now that we got form and language id, we take the data for all languages from clips.slqite3
-        $query_string = 'select * from langs where id="'.$lid.'";';
-        $query = $conn->query($query_string);
-        $results = $query->fetch();
-        $classification = explode(',',$results['classification']);
-        $classification = array_shift($classification);
-        $iso = explode('_',$results['iso']);
-	$iso = array_shift($iso);
-	
-	/* include specific matches */
-	include('query/matches_3.php');
-
-    }
-    echo '</table></div>';
-}
-else if(isset($_POST['concept'])){
-    include('query/query_all.php');
-
+else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key']))
+{
+  include('query/query_all.php');
+  
+  if(isset($_GET['concept']))
+  {
+    $_POST['concept'] = $_GET['concept'];
+  }
+  if(isset($_GET['key']))
+  {
+    $query_string = 'select * from links where numA == "'.$_GET['key'].'" order by families desc;';
+  }
+  else
+  {
     /* make the query string */
     $query_string = 'select * from links where glossA == "'.$_POST['concept'].'" order by families desc;';
-    $query = $conn->query($query_string);
-    
-    /* store the results in array $results*/
-    $results = array();
+  }
+  $query = $conn->query($query_string);
+  
+  /* store the results in array $results*/
+  $results = array();
+  $next_result = $query->fetch();
+
+  /* add the community to the result */
+  $query_string2 = 'select community,label from communities where id = "'.$next_result['numB'].'";';
+  $query2 = $conn->query($query_string2);
+  $result2 = $query2->fetch();
+  
+  $next_result['community'] = $result2['community'];
+  $next_result['community_label'] = $result2['label'];
+
+  $check = $next_result;
+  while($check['community'] != ''){
+	  $results[] = $next_result;
     $next_result = $query->fetch();
+
+    $query_string2 = 'select community,label from communities where id = "'.$next_result['numB'].'";';
+    $query2 = $conn->query($query_string2);
+    $result2 = $query2->fetch();
+    
+    $next_result['community'] = $result2['community'];
+    $next_result['community_label'] = $result2['label'];
+    
     $check = $next_result;
-    while($check['glossA'] != ''){
-	$results[] = $next_result;
-	$next_result = $query->fetch();
-	$check = $next_result;
-    }
+  }
 
-    /* check whether there are enough results */
-    if(count($results) > 1){
+  /* check whether there are enough results */
+  if(count($results) > 1)
+  {
 	
-	/* include match 4*/
-	include('query/matches_4.php');
+	  /* include match 4*/
+	  include('query/matches_4.php');
 
-	/* iterate over results array*/
-	foreach($results as &$result){
-
+	  /* iterate over results array*/
+    foreach($results as &$result)
+    {
 	    /* include match_3*/
 	    include('query/matches_5.php');
-	}
-	echo '</table></div>';
-    }
-    else{
-	echo "<p align=center><font color=red><b>No results found for your query.</b></font></p>";
-    }
+	  }
+	  echo '</table></div>';
+  }
+  else
+  {
+	  echo '<p align="left"><font color=red><b>No results found for your query.</b></font></p>';
+  }
 }
-else{
-    include('query/query_all.php');
+else
+{
+  include('query/query_all.php');
 }
 ?>
 
@@ -188,14 +179,34 @@ else{
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Feb. 06, 2014, 15:06 CET</p>
+<table><tr>
+
+<td><div class="footer_left">
+<a href="http://www.hhu.de/"><img width="120px" src="http://www.hhu.de/home/fileadmin/images/uni_duesseldorf_logo.gif" alt="HHUD" /></a>
+ </div></td>
+
+ <td><div class="footer_left">
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+ </div></td>
+<td><div class="footer_center">
+ <p>Last updated on Mar. 13, 2014, 16:59 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
    <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img
 		alt="Creative Commons License" style="border-width:0;width:80px;"
 		src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a> </p>
- 
+</div></td>
+
+<td><div class="footer_right">
+<a href="http://erc.europa.eu/"><img width="80px" src="http://quanthistling.info/theme/qhl/images/logo_erc.png" alt="ERC" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.hum.leiden.edu/lucl"><img width="80px" src="http://www.hum2.leidenuniv.nl/pdf/lucl/practical_matters/lucl-logo-small.jpg" alt="LUCL" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.uni-marburg.de/"><img width="120px" src="http://www.uni-marburg.de/bilder/logo_uni1.gif" alt="PUD" /></a>
+</div></td></tr></table>
  </div><!-- end footer -->
 
 </div><!-- end wrapper-->

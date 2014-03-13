@@ -24,17 +24,12 @@
 
 <div id="wrapper">
   <div id="header">
-  <a href="http://quanthistling.info/clips/"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
+  <a href="http://clics.lingpy.org"><img id="logo" src="pics/favicon.png" width="60px" alt="logo" title="CLiCs" /></a>
   <div id="mainnav">
     <ul id="nav">
     <li>
-      <!--<a href="main.php">Home</a>
-      <ul id="home">
-	<li><a href="main.php#news1">News1</a></li>
-	<li><a href="main.php#news2">News2</a></li>
-	<li><a href="main.php#news3">News3</a></li>
-      </ul>
-    </li>-->
+      <a href="main.php">Home</a>
+    </li>
     <li>
       <a href="about.php">About</a>
       <ul id="about">
@@ -52,11 +47,10 @@
       </ul>
     </li>
     <li>
+      <a href="browse.php">Browse</a>
+    </li>
+    <li>
 	<a href="download.php">Download</a>
-	<!--<ul>
-	    <li><a href="courses.php#current">Current</a></li>
-	    <li><a href="courses.php#old">Old</a></li>
-	</ul>-->
     </li>
   </ul>
  </div><!--end mainnav-->
@@ -76,34 +70,34 @@
  <div id="contentwrapper" class="clearfix">
      <div id="content">    
 	 <!-- SIDEBAR about -->
-<h3>What is CliCs?</h3>
+<h3>What is CLiCs?</h3>
 <br>
-CliCs is an online database of <i>synchronic lexical associations</i>
+CLiCs is an online database of <i>synchronic lexical associations</i>
 ("polysemies", but more precisely: <i>colexifications</i>) in currently 215 language varieties 
 of the world.  Large databases offering lexical information on the world’s languages are already 
 readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
 information on tendencies of meaning associations available in these databases is not easily 
-extractable from the sources themselves. This is why CliCs was created. It is designed to serve as a 
+extractable from the sources themselves. This is why CLiCs was created. It is designed to serve as a 
 data source for work in lexical typology, diachronic semantics, and research in cognitive science 
 that focuses on natural language semantics from the viewpoint of cross-linguistic diversity.  
-Furthermore, CliCs can be used as a helpful tool to assess the plausibility of semantic connections 
+Furthermore, CLiCs can be used as a helpful tool to assess the plausibility of semantic connections 
 between possible cognates in the establishment of genetic relations between languages.
 <br>
 <br>
 <table>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Release:</b></td>
-  <td> 1.0.beta </td>
+  <td> 1.0 </td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
-  <td> February, 2014</td>
+  <td> TBA </td>
   <td></td>
 </tr>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Author:</b></td>
-  <td> Johann-Mattis List, Anselm Terhalle, Matthias Urban, Thomas Mayer </td>
+  <td style="background-color:#ffa600;width:100px"><b>Editors:</b></td>
+  <td> Johann-Mattis List, Thomas Mayer, Anselm Terhalle, Matthias Urban </td>
   <td></td>
 </tr></table>
 
@@ -126,14 +120,34 @@ between possible cognates in the establishment of genetic relations between lang
  </div>
  </div>
  <div id="footer">
- <p>Last updated on Feb. 06, 2014, 15:06 CET</p>
+<table><tr>
+
+<td><div class="footer_left">
+<a href="http://www.hhu.de/"><img width="120px" src="http://www.hhu.de/home/fileadmin/images/uni_duesseldorf_logo.gif" alt="HHUD" /></a>
+ </div></td>
+
+ <td><div class="footer_left">
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+ </div></td>
+<td><div class="footer_center">
+ <p>Last updated on Mar. 13, 2014, 16:59 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
    <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img
 		alt="Creative Commons License" style="border-width:0;width:80px;"
 		src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a> </p>
- 
+</div></td>
+
+<td><div class="footer_right">
+<a href="http://erc.europa.eu/"><img width="80px" src="http://quanthistling.info/theme/qhl/images/logo_erc.png" alt="ERC" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.hum.leiden.edu/lucl"><img width="80px" src="http://www.hum2.leidenuniv.nl/pdf/lucl/practical_matters/lucl-logo-small.jpg" alt="LUCL" /></a>
+</div></td>
+<td><div class="footer_right">
+<a href="http://www.uni-marburg.de/"><img width="120px" src="http://www.uni-marburg.de/bilder/logo_uni1.gif" alt="PUD" /></a>
+</div></td></tr></table>
  </div><!-- end footer -->
 
 </div><!-- end wrapper-->

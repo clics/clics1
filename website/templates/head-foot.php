@@ -55,13 +55,8 @@
   </ul>
  </div><!--end mainnav-->
  </div><!-- end header -->  
- <div id="subnav">
-    {sidebar}
- </div>
- <div id="contentwrapper" class="clearfix">
-     <div id="content">    
+     <div id="content_large">    
 	 {content}
- </div>
  </div>
  <div id="footer">
 <table><tr>

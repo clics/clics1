@@ -1,85 +1,31 @@
-<!-- SIDEBAR browse -->
+<!-- SIDEBAR NONE -->
+<div id="content_large_up">
 <h3>Browse the Colexification Networks</h3>
 <br>
 <br>
-<?php 
-  if(isset($_POST['gloss']) or isset($_GET['key']))
+<?php
+include('query/query_community.php');
+?>
+</div>
+<?php
+  if(isset($_POST['gloss']) or isset($_GET['gloss']) or isset($_POST['community']) or isset($_GET['community']))
   {
 ?>
 <style>
-#visualization {
-  width: 100%; //800px;
-  position: relative;
-  height: 550px;
-  background-color: white;
-  //border: 3px dotted gray;
-  overflow-right: hidden;
-  }
-
-#info {
-  background-color: white;
-	position: absolute;
-	//font-family: Arial,Verdana,Helvetica,sans-serif;
-	font-size: 10pt;
-	left: 0px;
-	top: 10px;
-  width: 325px;
-  height: 540px;
-  overflow: auto;
-  display: table-cell;
-  //vertical-align: top;
-}
-#info.hidden {
-	display: none;
-}
-#vis {
-	position: absolute;
-	left: 200px;
-  top: 0px;
-  //display: table-cell;
-  //vertical-align: top;
-}
-label {
-	//font-size: 10pt;
-  //margin-left: 12px;
-  //border: 1px dotted gray;
-}
-
-
-tr:nth-child(even) {background: #DDD}
-tr:nth-child(odd) {background: #FFF}
-table.infotable { counter-reset: line-number; border: 1px dotted gray;}
-table.infotable td:first-child:before {
-content: counter(line-number) ".";
-counter-increment: line-number;
-padding-right: 0.3em; }
-.infotable td {
-	padding-right: 5px;
-}
-.hidden {
-	display: none;
-}
-#WorldColorScale {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-</style>
-<?php
-  }
+<?php 
+  include("css/visualize.css");
 ?>
+</style>
+<div id="content_large_down">
+<div class="content_wrapper">
 <?php
-  include('query/query_community.php');
   include('query/communities.php');
 ?>
-<!-- Pieces of Thomas' code -->
-<?php
-  if(isset($_POST['gloss']) or isset($_GET['key']))
-  {
-?>
-<script type="text/javascript" src="js/d3/d3.v2.js"></script>
 <br>
-<div style="border: 2px solid #2f95e3;">
+<!-- Pieces of Thomas' code -->
+<script type="text/javascript" src="js/d3/d3.v2.js"></script>
+</div>
+<br>
 <table id="control" class="query_table">
   <tr>
     <th>
@@ -105,22 +51,19 @@ padding-right: 0.3em; }
     </td>
   </tr>
 </table>
-<img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="300">
-
 <br>
+<hr width="1000px" style="height:3px;background-color:#2f95e3;border:0px solid white;">
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
-
+      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="300">
 <script src="js/visualize.js" type="text/javascript"></script>
 
 <!--<div id="test" onclick="init(filename);">TEST</div>-->
 
-</div>
-</div>
+</div></div>
 <br>
 
 <?php
   }
 ?>
-
