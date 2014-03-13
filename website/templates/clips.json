@@ -9,5 +9,22 @@
 		"contact":"contact",
 		"all" : "all",
 		"direct" : "direct"
+	},
+	"globals" : {
+		"bibkey"                   :  "http://bibliography.lingpy.org/evobib.php?key=",
+		"bib!([^!]+?)!(.+?)"       :  "<a href=\"http://bibliography.lingpy.org/evobib.php?key=\\1\" target=\"_blank\">\\2</a>",
+		"hrefb!([^!]+?)"           :  "<a href=\"\\1\" target=\"_blank\">\\1</a>",
+		"hrefb!([^ ]+?)!([^!]+?)"  :  "<a href=\"\\1\" target=\"_blank\">\\2</a>",
+		"href!([^!]+?)"            :  "<a href=\"\\1\" >\\1</a>",
+		"href!([^ ]+?)!([^!]+?)"   :  "<a href=\"\\1\">\\2</a>",
+		"i!(.+?)"                  :  "<em>\\1</em>",
+		"li!(.+?)"                 :  "<li>\\1</li>",
+		"nlang"                    :  "221",
+		"nconcepts"                :  "1,286",
+		"ncol"                     :  "32,620",
+		"nwords"                   :  "301,498",
+		"nfam"                     :  "50",
+		"nlinks"                   :  "84,800",
+		"version"                  :  "1.0"
 	}
 }
