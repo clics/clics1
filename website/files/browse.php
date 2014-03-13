@@ -2,24 +2,30 @@
 <h3>Browse the Colexification Networks</h3>
 <br>
 <br>
-<font color="red">SIDE UNDER RECONSTRUCTION</font> 
+<?php 
+  if(isset($_POST['gloss']) or isset($_GET['key']))
+  {
+?>
 <style>
 #visualization {
-  width: 800px;
+  width: 100%; //800px;
   position: relative;
-  height: 800px;
+  height: 550px;
   background-color: white;
-  border: 3px dotted gray;
+  //border: 3px dotted gray;
+  overflow-right: hidden;
   }
 
 #info {
   background-color: white;
 	position: absolute;
-	font-family: Arial,Verdana,Helvetica,sans-serif;
-	font-size: 9pt;
+	//font-family: Arial,Verdana,Helvetica,sans-serif;
+	font-size: 10pt;
 	left: 0px;
 	top: 10px;
-  width: 300px;
+  width: 325px;
+  height: 540px;
+  overflow: auto;
   display: table-cell;
   //vertical-align: top;
 }
@@ -28,19 +34,22 @@
 }
 #vis {
 	position: absolute;
-	left: 10px;
+	left: 200px;
   top: 0px;
   //display: table-cell;
   //vertical-align: top;
 }
 label {
-	font-size: 10pt;
-	margin-left: 12px;
+	//font-size: 10pt;
+  //margin-left: 12px;
+  //border: 1px dotted gray;
 }
+
+
 tr:nth-child(even) {background: #DDD}
 tr:nth-child(odd) {background: #FFF}
-table { counter-reset: line-number; }
-td:first-child:before {
+table.infotable { counter-reset: line-number; border: 1px dotted gray;}
+table.infotable td:first-child:before {
 content: counter(line-number) ".";
 counter-increment: line-number;
 padding-right: 0.3em; }
@@ -56,41 +65,62 @@ padding-right: 0.3em; }
 	right: 10px;
 }
 </style>
-
+<?php
+  }
+?>
+<?php
+  include('query/query_community.php');
+  include('query/communities.php');
+?>
 <!-- Pieces of Thomas' code -->
+<?php
+  if(isset($_POST['gloss']) or isset($_GET['key']))
+  {
+?>
 <script type="text/javascript" src="js/d3/d3.v2.js"></script>
-<div id="control">
-  
-  <label>Line opacity: </label>
-	<input id="opacity" type='range' min="0" max="100" value="100">
-  
-  <br>
-  
-  <label>Line weights: </label>
-	<input id="weight" type='range' min="0" max="10" value="0">
-  
-  <label>Coloring: </label>
-  <select id="coloring">
-    <option>Family</option>
-    <option>Geolocation</option>
-  </select>
-  
-  <img id="WorldColorScale" class='hidden' src="img/ColorScaleWorld.png" width="300">
-</div>
-<br><br>
+<br>
+<div style="border: 2px solid #2f95e3;">
+<table id="control" class="query_table">
+  <tr>
+    <th>
+      <label>Line opacity: </label>
+    </th>
+    <td>
+      <input id="opacity" type='range' min="0" max="100" value="100">  
+    </td>
+    <th>
+      <label>Line weights: </label>
+    <th>
+    </td>
+	    <input id="weight" type='range' min="0" max="10" value="0">
+    </td>
+    <th>
+      <label>Coloring: </label>
+    </th>
+    <td>
+      <select class="submit_button" id="coloring">
+        <option>Family</option>
+        <option>Geolocation</option>
+      </select>
+    </td>
+  </tr>
+</table>
+<img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="300">
+
+<br>
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
 
-<?php
-if(isset($_GET['key']))
-{
-  echo '<script type="text/javascript">var filename = "'.$_GET['key'].'.json";</script>';
-  echo '<font color="red">OK so far</font>';
-}
-?>
 <script src="js/visualize.js" type="text/javascript"></script>
 
-<div id="test" onclick="init(filename);">TEST</div>
+<!--<div id="test" onclick="init(filename);">TEST</div>-->
 
 </div>
+</div>
+<br>
+
+<?php
+  }
+?>
+

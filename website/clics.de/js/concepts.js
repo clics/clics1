@@ -1305,4 +1305,8 @@ $(function() {
     	        source: availableTags
     	    });
     	});
-
+$(function() {
+    	    $( "#gloss" ).autocomplete({
+    	        source: availableTags
+    	    });
+    	});

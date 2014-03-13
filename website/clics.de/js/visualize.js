@@ -6,7 +6,7 @@ var coloring = "Family";
 
 // load data about words for each edge
 var linkByWords = {};
-d3.json('js/data/words.json',function(words){
+d3.json('data/words.json',function(words){
     words.forEach(function(a){
         linkByWords[a.key] = a.words;
     });
@@ -14,7 +14,7 @@ d3.json('js/data/words.json',function(words){
 
 // load language data 
 var langByInfo = {};
-d3.json('js/data/langsGeo.json',function(langs){
+d3.json('data/langsGeo.json',function(langs){
     langs.forEach(function(a){
         langByInfo[a.key] = [a.name,a.variety,a.iso,a.url,a.family,a.lon,a.lat];
     });
@@ -24,13 +24,13 @@ d3.json('js/data/langsGeo.json',function(langs){
 function init(filename,coloring){
   
   /* debug */
-  document.getElementById("test").innerHTML = filename;
+  //document.getElementById("test").innerHTML = filename;
 
 	// the default coloring is family
    	coloring = typeof coloring !== 'undefined' ? coloring : 'Family';
 
 	// open community file
-	d3.json('js/communities/' + filename,function(data){
+	d3.json('data/communities/' + filename,function(data){
 	//d3.json('../../communities/cluster_10_edge.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
@@ -157,7 +157,7 @@ function init(filename,coloring){
     }
     
 	// plot the graph on an SVG
-	var w = 1260, h = 800, pad = 50;
+	var w = 600, h = 400, pad = 50;
 	var labelDistance = 0;
 
 	var vis = d3.select("#vis")
@@ -220,7 +220,7 @@ function init(filename,coloring){
 		})
 		.style("stroke", "#CCC")
 		.style('stroke-width',function(d){
-			return lscale(d.weight);
+			return lscale(d.weight * 50);
 		})
 		.style('cursor','pointer')
 		.on('mouseover',function(d,i){
@@ -274,17 +274,22 @@ function init(filename,coloring){
 						backColor = col;
 					}
 					
-					infolistoutput.push("<td valign=\"top\" style=\"background-color:" 
-					//+ famscale(c[0]) + ";\">" +
-					//+ col + ";\">" +
-					+ backColor + ";\">" + 
-					 c[4] + " (" + c[0] + ") [<a href="+c[3]+" target=\"_blank\">" 
-					 + c[2] + "</a>]: </td><td valign=\"top\">" + c[1]) + "</td>";
+					infolistoutput.push("<td valign=\"top\">" // style=\"background-color:" 
+					+ c[4] +  "</td><td style=\"background-color:"+backColor+";\">" + c[0] + "</td>"
+           + "<td class=\"infotable\" valign=\"top\"><a target=\"_blank\" href=\"" + c[3] + "\">" + c[1] + "</a>") + "</td>";
 				});
+        if(wordlist.length == 1)
+        {
+          var link_label = 'link';
+        }
+        else
+        {
+          var link_label = 'links';
+        }
 				
-				return "<b>" + wordlist.length + " links found between <br />\""+ 
-					d.source.label + "\" and \"" 
-					+ d.target.label + "\"</b><br><table class=\"infotable\"><tr>" + 
+				return "<b>" + wordlist.length + " "+ link_label + " for &quot;"+ 
+					d.source.label + "&quot; and &quot;" 
+					+ d.target.label + "&quot;.</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th><th>Form</th></tr><tr>" + 
 					infolistoutput.join('</tr><tr>') + "</tr></table>";
 			});
 			d3.select('#info').classed('hidden',false)
