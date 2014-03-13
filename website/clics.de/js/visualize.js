@@ -93,7 +93,8 @@ function init(filename,coloring){
     
     for(var i=0;i < data.nodes.length; i++){
         var node = {
-            label : data.nodes[i].id
+            label : data.nodes[i].id,
+            out_edge : data.nodes[i].out_edge
         };
         nodes.push(node);
         labelAnchors.push({
@@ -240,6 +241,7 @@ function init(filename,coloring){
 				var infolist = [];
 				wordlist.forEach(function(b){
 				   var parts = b.split(":")
+				   //console.log(parts[0]);
 				   var lg = langByInfo[parts[0]];
 				   var fam = lg[4].split(',')[0];
 				   infolist.push([fam,parts[1],lg[2],lg[3],lg[0],lg[5],lg[6]]);
@@ -344,9 +346,21 @@ function init(filename,coloring){
 			return "aNode aNode_" + d.node.index;
 		})
 		.text(function(d, i) {
-			return i % 2 == 0 ? "" : d.node.label
+			return i % 2 == 0 ? "" : d.node.label;
 		})
 		.style("fill", "#555")
+		.style("font-weight",function(d,i){
+			//console.log(d);
+			// make concepts with outer edges bold
+			if(d.node.out_edge.length > 0){
+				return "bold";
+			}
+			else{
+				return "normal";
+			}
+			
+			//return "underline";
+		})
 		.style("font-family", "Arial")
 		.style("font-size", 12)
 		.style('cursor','pointer')
