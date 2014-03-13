@@ -399,3 +399,32 @@ body {
 	//float:center;
 	text-align:center;
 }
+
+div.popup {
+  display: inline;
+}
+div.popup div.hidden{
+  display: none;
+}
+div.popup:hover div.hidden{
+  display: block;
+  position: absolute;
+  left: 200px;
+  width: 500px;
+  background-color:white;
+  border: 2px dotted red;
+  font-weight: normal;
+}
+div.hidden li {
+  font-weight: normal;
+}
+span.info {
+  width:20px;
+  padding-left:5px;
+  padding-right:5px;
+  border: 1px solid red;
+  background-color:white;
+  color:red;
+  font-weight:bold;
+  text-align="right";
+}

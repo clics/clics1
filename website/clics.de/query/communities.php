@@ -15,7 +15,7 @@ if(isset($_POST['gloss']) or isset($_GET['gloss']))
   if($result['size'] == 1){$member = 'node';}
   else{$member = 'nodes';}
   echo '<script type="text/javascript">var filename = "'.$result['path'].'.json";</script>';
-  echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of community '.$result['community'].' with the central concept &quot;'.$result['label'].'&quot; and a total of '.$result['size'].' '.$member.'.';
+  echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of community '.$result['community'].' with the central concept &quot;'.$result['label'].'&quot; and a total of '.$result['size'].' '.$member.'. ';
 ?>
 Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
 <br>
@@ -34,7 +34,7 @@ else if(isset($_GET['community']) or isset($_POST['community']))
   if($result['size'] == 1){$member = 'node';}
   else{$member = 'nodes';}
   echo '<script type="text/javascript">var filename = "'.$result['path'].'.json";</script>';
-  echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;.';
+  echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;. ';
 ?>
 Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
 <br>

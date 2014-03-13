@@ -9,11 +9,13 @@ $conn = new PDO ($dsn);
 if(isset($_POST['forms']))
 {
   include('query/query_all.php');
-  include('query/matches_2.php');
+
 
   /* split forms */
   $forms = explode('//',$_POST['forms']);
-
+  $count = 1;
+  include('query/matches_2.php');
+  
   /* iterate over forms array */
   foreach($forms as &$form)
   {      

@@ -1,11 +1,25 @@
 <br>
 <div class="table_border">
 <table class="query_table" align="left">
-<tr> <td colspan=5 align=center ><b>Attested polysemies for "<?php echo $_POST['glossA']; ?>" and "<?php echo $_POST['glossB']; ?>" </b></td>
+<tr> 
+  <th colspan=6 align=center >
+    <?php 
+      if(count($forms) > 1){$colex = 'colexifications';}
+      else{$colex = 'colexification';}
+      echo 'Found '.count($forms).' '.$colex.' for &quot;';
+      echo $_POST['glossA']; ?>&quot; and &quot;<?php echo $_POST['glossB']."&quot;."; 
+    ?>
+    <div class="popup"> <span class="info">?</span>
+      <div class="hidden">
+        Note that the number of attested colexifications may differ from the number of languages in which the colexifications were attested.
+      </div>
+    </div>
+  </th>
 <tr>
-    <td><b>Language</b></td>
-    <td><b>ISO</b></td>
-    <td><b>Family</b></td>
-    <td><b>Source</b></td>
-    <td><b>Form</b></td>
+ <th>Nr.</th> 
+ <th>Language</th>
+ <th>ISO</th>
+ <th>Family</th>
+ <th>Source</th>
+ <th>Form</th>
 </tr>

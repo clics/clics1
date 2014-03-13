@@ -51,8 +51,8 @@ else{
     <td class="submit_button">
 	<input type="submit" class="query_ok" value="FORMS"/>
 	<input type="hidden" name="forms" value=<?php echo $result['forms'];?> />
-	<input type="hidden" name="glossA" value=<?php echo $result['glossA'];?> />
-	<input type="hidden" name="glossB" value=<?php echo $result['glossB'];?> />
+	<input type="hidden" name="glossA" value="<?php echo $result['glossA'];?>" />
+	<input type="hidden" name="glossB" value="<?php echo $result['glossB'];?>" />
     </td>
     </form>
 </tr>

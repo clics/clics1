@@ -46,11 +46,13 @@ if(isset($_POST['source']) && isset($_POST['target'])){
 
 else if(isset($_POST['forms'])){
   include('query/query_direct.php');
-  include('query/matches_2.php');
   
   /* split forms */
   $forms = explode('//',$_POST['forms']);
-
+  
+  include('query/matches_2.php');
+  
+  $count = 1;
   /* iterate over forms array */
   foreach($forms as &$form){
         
