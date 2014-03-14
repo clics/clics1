@@ -115,7 +115,7 @@ include('query/query_community.php');
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
-      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="300">
+      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="230">
 <script src="js/visualize.js" type="text/javascript"></script>
 
 <!--<div id="test" onclick="init(filename);">TEST</div>-->
@@ -144,7 +144,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 14, 2014, 12:03 CET</p>
+ <p>Last updated on Mar. 14, 2014, 17:48 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

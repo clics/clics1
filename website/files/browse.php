@@ -57,7 +57,7 @@ include('query/query_community.php');
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
-      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="300">
+      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="230">
 <script src="js/visualize.js" type="text/javascript"></script>
 
 <!--<div id="test" onclick="init(filename);">TEST</div>-->
