@@ -1,177 +1,177 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 34.95145631067961, 
+                "id": "retard, delay", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "id": "evening", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 24.03846153846154, 
+                "id": "late", 
+                "families": 5.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 111.0091743119266, 
+                "id": "evening", 
+                "families": 11.0, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 275.2688172043011, 
+                "id": "late", 
+                "families": 16.0, 
+                "languages": 25.0
+            }
+        ], 
+        [
+            {
+                "weight": 34.95145631067961, 
+                "id": "slow", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 113.63636363636364, 
+                "id": "late", 
+                "families": 10.0, 
+                "languages": 11.0
+            }
+        ], 
+        [
+            {
+                "weight": 111.0091743119266, 
+                "id": "afternoon", 
+                "families": 11.0, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "id": "slow", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 24.03846153846154, 
+                "id": "late", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 24.03846153846154, 
+                "id": "slow", 
+                "families": 5.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 275.2688172043011, 
+                "id": "afternoon", 
+                "families": 16.0, 
+                "languages": 25.0
+            }, 
+            {
+                "weight": 24.03846153846154, 
+                "id": "evening", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 113.63636363636364, 
+                "id": "retard, delay", 
+                "families": 10.0, 
+                "languages": 11.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "14.46", 
-            "body_part": 0, 
-            "community": 79, 
-            "id": "evening", 
-            "out_edge": [
-                [
-                    "cluster_63_dark (in color)", 
-                    "night", 
-                    10.0, 
-                    701.7543859649122
-                ], 
-                [
-                    "cluster_63_dark (in color)", 
-                    "darkness", 
-                    4.0, 
-                    109.40170940170941
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.24", 
-            "body_part": 0, 
-            "community": 79, 
-            "id": "retard, delay", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.22", 
-            "body_part": 0, 
             "community": 79, 
             "id": "slow", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.22", 
             "out_edge": [
                 [
-                    "cluster_102_quiet, silence", 
+                    "cluster_102_calm (of sea)", 
                     "quiet, silence", 
                     8.0, 
-                    465.45454545454544
+                    58.18181818181818
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "14.17", 
-            "body_part": 0, 
-            "community": 79, 
-            "id": "late", 
-            "out_edge": [
-                [
-                    "cluster_35_finish", 
-                    "last", 
-                    4.0, 
-                    125.49019607843137
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.451", 
-            "body_part": 0, 
             "community": 79, 
             "id": "afternoon", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.451", 
             "out_edge": [
                 [
                     "cluster_16_day", 
                     "day", 
                     4.0, 
-                    106.66666666666667
+                    13.333333333333334
                 ]
-            ], 
-            "swadesh100": 0
+            ]
+        }, 
+        {
+            "community": 79, 
+            "id": "retard, delay", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.24", 
+            "out_edge": []
+        }, 
+        {
+            "community": 79, 
+            "id": "evening", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.46", 
+            "out_edge": [
+                [
+                    "cluster_63_dark (in color)", 
+                    "night", 
+                    10.0, 
+                    87.71929824561403
+                ], 
+                [
+                    "cluster_63_dark (in color)", 
+                    "darkness", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ]
+        }, 
+        {
+            "community": 79, 
+            "id": "late", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.17", 
+            "out_edge": [
+                [
+                    "cluster_35_finish", 
+                    "last", 
+                    4.0, 
+                    15.686274509803921
+                ]
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 6.722689075630252, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 192.30769230769232, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "late"
-            }, 
-            {
-                "weight": 888.0733944954128, 
-                "languages": 13.0, 
-                "families": 11.0, 
-                "id": "afternoon"
-            }
-        ], 
-        [
-            {
-                "weight": 279.6116504854369, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 909.0909090909091, 
-                "languages": 11.0, 
-                "families": 10.0, 
-                "id": "late"
-            }
-        ], 
-        [
-            {
-                "weight": 6.722689075630252, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "evening"
-            }, 
-            {
-                "weight": 279.6116504854369, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "retard, delay"
-            }, 
-            {
-                "weight": 192.30769230769232, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "late"
-            }
-        ], 
-        [
-            {
-                "weight": 192.30769230769232, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "evening"
-            }, 
-            {
-                "weight": 909.0909090909091, 
-                "languages": 11.0, 
-                "families": 10.0, 
-                "id": "retard, delay"
-            }, 
-            {
-                "weight": 192.30769230769232, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "slow"
-            }, 
-            {
-                "weight": 2202.150537634409, 
-                "languages": 25.0, 
-                "families": 16.0, 
-                "id": "afternoon"
-            }
-        ], 
-        [
-            {
-                "weight": 888.0733944954128, 
-                "languages": 13.0, 
-                "families": 11.0, 
-                "id": "evening"
-            }, 
-            {
-                "weight": 2202.150537634409, 
-                "languages": 25.0, 
-                "families": 16.0, 
-                "id": "late"
-            }
-        ]
-    ], 
     "directed": false
 }

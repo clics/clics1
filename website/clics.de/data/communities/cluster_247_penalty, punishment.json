@@ -1,47 +1,47 @@
 {
-    "nodes": [
-        {
-            "key": "21.37", 
-            "body_part": 0, 
-            "community": 247, 
-            "id": "penalty, punishment", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "21.38", 
-            "body_part": 0, 
-            "community": 247, 
-            "id": "fine", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 10.666666666666668, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "penalty, punishment"
-            }, 
-            {
-                "weight": 322.5806451612903, 
-                "languages": 10.0, 
+                "weight": 40.32258064516129, 
+                "id": "penalty, punishment", 
                 "families": 5.0, 
-                "id": "fine"
+                "languages": 10.0
             }
         ], 
         [
             {
-                "weight": 322.5806451612903, 
-                "languages": 10.0, 
+                "weight": 40.32258064516129, 
+                "id": "fine", 
                 "families": 5.0, 
-                "id": "penalty, punishment"
+                "languages": 10.0
+            }, 
+            {
+                "weight": 1.3333333333333335, 
+                "id": "penalty, punishment", 
+                "families": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 247, 
+            "id": "fine", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.38", 
+            "out_edge": []
+        }, 
+        {
+            "community": 247, 
+            "id": "penalty, punishment", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.37", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

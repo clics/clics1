@@ -1,53 +1,53 @@
 {
-    "nodes": [
-        {
-            "key": "2.95", 
-            "body_part": 0, 
-            "community": 250, 
-            "id": "you (plural)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "2.92", 
-            "body_part": 0, 
-            "community": 250, 
-            "id": "you (singular)", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
+                "weight": 0.8130081300813009, 
+                "id": "you (plural)", 
                 "families": 1.0, 
-                "id": "you (plural)"
+                "languages": 1.0
             }, 
             {
-                "weight": 335.04273504273505, 
-                "languages": 34.0, 
+                "weight": 41.88034188034188, 
+                "id": "you (singular)", 
                 "families": 7.0, 
-                "id": "you (singular)"
+                "languages": 34.0
             }
         ], 
         [
             {
-                "weight": 335.04273504273505, 
-                "languages": 34.0, 
+                "weight": 41.88034188034188, 
+                "id": "you (plural)", 
                 "families": 7.0, 
-                "id": "you (plural)"
+                "languages": 34.0
             }, 
             {
-                "weight": 26.229508196721312, 
-                "languages": 2.0, 
+                "weight": 3.278688524590164, 
+                "id": "you (singular)", 
                 "families": 2.0, 
-                "id": "you (singular)"
+                "languages": 2.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 250, 
+            "id": "you (plural)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.95", 
+            "out_edge": []
+        }, 
+        {
+            "community": 250, 
+            "id": "you (singular)", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "2.92", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

@@ -1,63 +1,63 @@
 {
-    "nodes": [
-        {
-            "key": "10.43", 
-            "body_part": 0, 
-            "community": 233, 
-            "id": "jump, leap", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.352", 
-            "body_part": 0, 
-            "community": 233, 
-            "id": "splash", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.37", 
-            "body_part": 0, 
-            "community": 233, 
-            "id": "fly (vb)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "splash"
+                "weight": 53.333333333333336, 
+                "id": "fly (vb)", 
+                "families": 8.0, 
+                "languages": 11.0
             }, 
             {
-                "weight": 426.6666666666667, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "fly (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
+                "weight": 3.6363636363636362, 
+                "id": "splash", 
                 "families": 2.0, 
-                "id": "jump, leap"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 426.6666666666667, 
-                "languages": 11.0, 
+                "weight": 53.333333333333336, 
+                "id": "jump, leap", 
                 "families": 8.0, 
-                "id": "jump, leap"
+                "languages": 11.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.6363636363636362, 
+                "id": "jump, leap", 
+                "families": 2.0, 
+                "languages": 2.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 233, 
+            "id": "jump, leap", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.43", 
+            "out_edge": []
+        }, 
+        {
+            "community": 233, 
+            "id": "fly (vb)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.37", 
+            "out_edge": []
+        }, 
+        {
+            "community": 233, 
+            "id": "splash", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.352", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

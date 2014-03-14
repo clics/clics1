@@ -1,69 +1,69 @@
 {
-    "nodes": [
-        {
-            "key": "3.96", 
-            "body_part": 0, 
-            "community": 261, 
-            "id": "lizard", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.95", 
-            "body_part": 0, 
-            "community": 261, 
-            "id": "frog", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.97", 
-            "body_part": 0, 
-            "community": 261, 
-            "id": "crocodile, alligator", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 6.557377049180328, 
-                "languages": 1.0, 
+                "weight": 0.819672131147541, 
+                "id": "lizard", 
                 "families": 1.0, 
-                "id": "frog"
-            }, 
-            {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "crocodile, alligator"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 6.557377049180328, 
-                "languages": 1.0, 
+                "weight": 0.819672131147541, 
+                "id": "frog", 
                 "families": 1.0, 
-                "id": "lizard"
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.6363636363636362, 
+                "id": "crocodile, alligator", 
+                "families": 2.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
+                "weight": 3.6363636363636362, 
+                "id": "lizard", 
                 "families": 2.0, 
-                "id": "lizard"
+                "languages": 2.0
             }, 
             {
-                "weight": 8.080808080808081, 
-                "languages": 1.0, 
+                "weight": 1.0101010101010102, 
+                "id": "crocodile, alligator", 
                 "families": 1.0, 
-                "id": "crocodile, alligator"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 261, 
+            "id": "frog", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.95", 
+            "out_edge": []
+        }, 
+        {
+            "community": 261, 
+            "id": "lizard", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.96", 
+            "out_edge": []
+        }, 
+        {
+            "community": 261, 
+            "id": "crocodile, alligator", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.97", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

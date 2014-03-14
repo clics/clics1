@@ -1,62 +1,63 @@
 {
-    "nodes": [
-        {
-            "key": "1.324", 
-            "body_part": 0, 
-            "community": 257, 
-            "id": "foam", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.95", 
-            "community": 257, 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "id": "soap"
-        }, 
-        {
-            "key": "4.57", 
-            "body_part": 0, 
-            "community": 257, 
-            "id": "vomit", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 8.0, 
-                "languages": 1.0, 
+                "weight": 0.9803921568627451, 
+                "id": "vomit", 
                 "families": 1.0, 
-                "id": "soap"
-            }
-        ], 
-        [
-            {
-                "weight": 8.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "foam"
+                "languages": 1.0
             }, 
             {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "foam", 
                 "families": 1.0, 
-                "id": "vomit"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
+                "weight": 0.9803921568627451, 
+                "id": "soap", 
                 "families": 1.0, 
-                "id": "soap"
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "id": "soap", 
+                "families": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 257, 
+            "id": "soap", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.95", 
+            "out_edge": []
+        }, 
+        {
+            "community": 257, 
+            "id": "vomit", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.57", 
+            "out_edge": []
+        }, 
+        {
+            "community": 257, 
+            "id": "foam", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.324", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

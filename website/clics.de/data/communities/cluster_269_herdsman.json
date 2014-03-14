@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "3.18", 
-            "body_part": 0, 
-            "community": 269, 
-            "id": "herdsman", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.98", 
-            "body_part": 0, 
-            "community": 269, 
-            "id": "intoxicated", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
+                "weight": 0.9900990099009901, 
+                "id": "intoxicated", 
                 "families": 1.0, 
-                "id": "intoxicated"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
+                "weight": 0.9900990099009901, 
+                "id": "herdsman", 
                 "families": 1.0, 
-                "id": "herdsman"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 269, 
+            "id": "herdsman", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.18", 
+            "out_edge": []
+        }, 
+        {
+            "community": 269, 
+            "id": "intoxicated", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.98", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

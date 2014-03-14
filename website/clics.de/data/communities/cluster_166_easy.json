@@ -1,121 +1,121 @@
 {
-    "nodes": [
-        {
-            "key": "17.46", 
-            "body_part": 0, 
-            "community": 166, 
-            "id": "easy", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.441", 
-            "body_part": 1, 
-            "community": 166, 
-            "id": "lung", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "11.89", 
-            "body_part": 0, 
-            "community": 166, 
-            "id": "cheap", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.82", 
-            "body_part": 0, 
-            "community": 166, 
-            "id": "light (in weight)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "lung"
-            }, 
-            {
-                "weight": 136.17021276595744, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "cheap"
-            }, 
-            {
-                "weight": 1008.3333333333334, 
-                "languages": 48.0, 
+                "weight": 126.04166666666667, 
+                "id": "light (in weight)", 
                 "families": 11.0, 
-                "id": "light (in weight)"
-            }
-        ], 
-        [
+                "languages": 48.0
+            }, 
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
+                "weight": 17.02127659574468, 
+                "id": "cheap", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 3.7383177570093453, 
+                "id": "lung", 
                 "families": 2.0, 
-                "id": "easy"
-            }, 
-            {
-                "weight": 7.4074074074074066, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cheap"
-            }, 
-            {
-                "weight": 112.28070175438596, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "light (in weight)"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 136.17021276595744, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "easy"
-            }, 
-            {
-                "weight": 7.4074074074074066, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lung"
-            }, 
-            {
-                "weight": 69.23076923076923, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "light (in weight)"
-            }
-        ], 
-        [
-            {
-                "weight": 1008.3333333333334, 
-                "languages": 48.0, 
+                "weight": 126.04166666666667, 
+                "id": "easy", 
                 "families": 11.0, 
-                "id": "easy"
+                "languages": 48.0
             }, 
             {
-                "weight": 112.28070175438596, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "lung"
-            }, 
-            {
-                "weight": 69.23076923076923, 
-                "languages": 3.0, 
+                "weight": 8.653846153846153, 
+                "id": "cheap", 
                 "families": 3.0, 
-                "id": "cheap"
+                "languages": 3.0
+            }, 
+            {
+                "weight": 14.035087719298245, 
+                "id": "lung", 
+                "families": 4.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 17.02127659574468, 
+                "id": "easy", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 8.653846153846153, 
+                "id": "light (in weight)", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "id": "lung", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.7383177570093453, 
+                "id": "easy", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 14.035087719298245, 
+                "id": "light (in weight)", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "id": "cheap", 
+                "families": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 166, 
+            "id": "easy", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.46", 
+            "out_edge": []
+        }, 
+        {
+            "community": 166, 
+            "id": "light (in weight)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.82", 
+            "out_edge": []
+        }, 
+        {
+            "community": 166, 
+            "id": "cheap", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "11.89", 
+            "out_edge": []
+        }, 
+        {
+            "community": 166, 
+            "id": "lung", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.441", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

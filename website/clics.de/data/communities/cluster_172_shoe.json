@@ -1,75 +1,75 @@
 {
-    "nodes": [
-        {
-            "key": "6.51", 
-            "body_part": 0, 
-            "community": 172, 
-            "id": "shoe", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.52", 
-            "body_part": 0, 
-            "community": 172, 
-            "id": "boot", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.49", 
-            "body_part": 0, 
-            "community": 172, 
-            "id": "stocking, sock", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1622.5352112676055, 
-                "languages": 28.0, 
-                "families": 12.0, 
-                "id": "boot"
+                "weight": 43.373493975903614, 
+                "id": "stocking, sock", 
+                "families": 6.0, 
+                "languages": 7.0
             }, 
             {
-                "weight": 346.9879518072289, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "stocking, sock"
+                "weight": 202.8169014084507, 
+                "id": "boot", 
+                "families": 12.0, 
+                "languages": 28.0
             }
         ], 
         [
             {
-                "weight": 1622.5352112676055, 
-                "languages": 28.0, 
-                "families": 12.0, 
-                "id": "shoe"
+                "weight": 43.373493975903614, 
+                "id": "shoe", 
+                "families": 6.0, 
+                "languages": 7.0
             }, 
             {
-                "weight": 10.666666666666668, 
-                "languages": 2.0, 
+                "weight": 1.3333333333333335, 
+                "id": "boot", 
                 "families": 1.0, 
-                "id": "stocking, sock"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 346.9879518072289, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "shoe"
+                "weight": 202.8169014084507, 
+                "id": "shoe", 
+                "families": 12.0, 
+                "languages": 28.0
             }, 
             {
-                "weight": 10.666666666666668, 
-                "languages": 2.0, 
+                "weight": 1.3333333333333335, 
+                "id": "stocking, sock", 
                 "families": 1.0, 
-                "id": "boot"
+                "languages": 2.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 172, 
+            "id": "shoe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.51", 
+            "out_edge": []
+        }, 
+        {
+            "community": 172, 
+            "id": "stocking, sock", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.49", 
+            "out_edge": []
+        }, 
+        {
+            "community": 172, 
+            "id": "boot", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.52", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

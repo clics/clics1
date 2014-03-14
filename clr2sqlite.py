@@ -21,11 +21,16 @@ try:
 except:
     pass
 
-cursor.execute('create table communities(id,gloss,community,path,label);')
+cursor.execute('create table communities(id,gloss,community,path,label,size);')
+
+comms = [line[4] for line in nodes]
+ccount = {}
+for c in set(comms):
+    ccount[c] = comms.count(c)
 
 for node in nodes:
     cursor.execute(
-            'insert into communities values(?,?,?,?,?);', 
-            tuple(node)
+            'insert into communities values(?,?,?,?,?,?);', 
+            tuple(node+[ccount[node[-1]]])
             )
 conn.commit()

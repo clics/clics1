@@ -1,47 +1,47 @@
 {
-    "nodes": [
-        {
-            "key": "10.451", 
-            "body_part": 0, 
-            "community": 201, 
-            "id": "limp", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.94", 
-            "body_part": 0, 
-            "community": 201, 
-            "id": "lame", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1875.0, 
-                "languages": 42.0, 
+                "weight": 0.8695652173913043, 
+                "id": "lame", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 234.375, 
+                "id": "limp", 
                 "families": 15.0, 
-                "id": "lame"
+                "languages": 42.0
             }
         ], 
         [
             {
-                "weight": 1875.0, 
-                "languages": 42.0, 
+                "weight": 234.375, 
+                "id": "lame", 
                 "families": 15.0, 
-                "id": "limp"
-            }, 
-            {
-                "weight": 6.956521739130435, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lame"
+                "languages": 42.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 201, 
+            "id": "lame", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.94", 
+            "out_edge": []
+        }, 
+        {
+            "community": 201, 
+            "id": "limp", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.451", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

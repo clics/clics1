@@ -1,104 +1,104 @@
 {
-    "nodes": [
-        {
-            "key": "4.47", 
-            "body_part": 1, 
-            "community": 163, 
-            "id": "womb", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.63", 
-            "body_part": 0, 
-            "community": 163, 
-            "id": "sausage", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.461", 
-            "body_part": 1, 
-            "community": 163, 
-            "id": "intestines, guts", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.46", 
-            "body_part": 1, 
-            "community": 163, 
-            "id": "stomach", 
-            "out_edge": [
-                [
-                    "cluster_43_idea, notion", 
-                    "heart", 
-                    5.0, 
-                    163.9344262295082
-                ]
-            ], 
-            "swadesh100": 1
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 27.586206896551722, 
-                "languages": 2.0, 
+                "weight": 3.4482758620689653, 
+                "id": "intestines, guts", 
                 "families": 2.0, 
-                "id": "intestines, guts"
+                "languages": 2.0
             }, 
             {
-                "weight": 733.9449541284404, 
-                "languages": 18.0, 
+                "weight": 91.74311926605505, 
+                "id": "stomach", 
                 "families": 10.0, 
-                "id": "stomach"
+                "languages": 18.0
             }
         ], 
         [
             {
-                "weight": 35.55555555555556, 
-                "languages": 4.0, 
+                "weight": 3.4482758620689653, 
+                "id": "womb", 
                 "families": 2.0, 
-                "id": "intestines, guts"
-            }
-        ], 
-        [
-            {
-                "weight": 27.586206896551722, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "womb"
+                "languages": 2.0
             }, 
             {
-                "weight": 35.55555555555556, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "sausage"
-            }, 
-            {
-                "weight": 430.25210084033614, 
-                "languages": 9.0, 
+                "weight": 53.78151260504202, 
+                "id": "stomach", 
                 "families": 8.0, 
-                "id": "stomach"
+                "languages": 9.0
+            }, 
+            {
+                "weight": 4.444444444444445, 
+                "id": "sausage", 
+                "families": 2.0, 
+                "languages": 4.0
             }
         ], 
         [
             {
-                "weight": 733.9449541284404, 
-                "languages": 18.0, 
+                "weight": 91.74311926605505, 
+                "id": "womb", 
                 "families": 10.0, 
-                "id": "womb"
+                "languages": 18.0
             }, 
             {
-                "weight": 430.25210084033614, 
-                "languages": 9.0, 
+                "weight": 53.78151260504202, 
+                "id": "intestines, guts", 
                 "families": 8.0, 
-                "id": "intestines, guts"
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 4.444444444444445, 
+                "id": "intestines, guts", 
+                "families": 2.0, 
+                "languages": 4.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 163, 
+            "id": "womb", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.47", 
+            "out_edge": []
+        }, 
+        {
+            "community": 163, 
+            "id": "intestines, guts", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.461", 
+            "out_edge": []
+        }, 
+        {
+            "community": 163, 
+            "id": "stomach", 
+            "body_part": 1, 
+            "swadesh100": 1, 
+            "key": "4.46", 
+            "out_edge": [
+                [
+                    "cluster_43_mind", 
+                    "heart", 
+                    5.0, 
+                    20.491803278688526
+                ]
+            ]
+        }, 
+        {
+            "community": 163, 
+            "id": "sausage", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.63", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

@@ -1,0 +1,94 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 17.582417582417584, 
+                "id": "button", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 13.91304347826087, 
+                "id": "tie, bind", 
+                "families": 4.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9900990099009901, 
+                "id": "tie, bind", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 17.582417582417584, 
+                "id": "knot (noun)", 
+                "families": 4.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9900990099009901, 
+                "id": "button", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 13.91304347826087, 
+                "id": "knot (noun)", 
+                "families": 4.0, 
+                "languages": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 230, 
+            "id": "knot (noun)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.192", 
+            "out_edge": []
+        }, 
+        {
+            "community": 230, 
+            "id": "button", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.62", 
+            "out_edge": []
+        }, 
+        {
+            "community": 230, 
+            "id": "tie, bind", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.16", 
+            "out_edge": [
+                [
+                    "cluster_46_pick up", 
+                    "join, unite", 
+                    5.0, 
+                    22.321428571428573
+                ], 
+                [
+                    "cluster_74_bend", 
+                    "wind, wrap", 
+                    5.0, 
+                    21.1864406779661
+                ], 
+                [
+                    "cluster_149_shut, close", 
+                    "shut, close", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

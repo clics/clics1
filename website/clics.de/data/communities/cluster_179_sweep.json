@@ -1,0 +1,126 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 3.278688524590164, 
+                "id": "sweep", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 42.98245614035088, 
+                "id": "rub, wipe", 
+                "families": 7.0, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.278688524590164, 
+                "id": "scrape", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 30.76923076923077, 
+                "id": "rub, wipe", 
+                "families": 6.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 22.123893805309734, 
+                "id": "broom", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 42.98245614035088, 
+                "id": "scrape", 
+                "families": 7.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 30.76923076923077, 
+                "id": "sweep", 
+                "families": 6.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "id": "wrinkled", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 22.123893805309734, 
+                "id": "sweep", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "id": "rub, wipe", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 179, 
+            "id": "scrape", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.48", 
+            "out_edge": [
+                [
+                    "cluster_153_peel", 
+                    "peel", 
+                    5.0, 
+                    21.551724137931032
+                ]
+            ]
+        }, 
+        {
+            "community": 179, 
+            "id": "sweep", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.37", 
+            "out_edge": []
+        }, 
+        {
+            "community": 179, 
+            "id": "rub, wipe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.31", 
+            "out_edge": []
+        }, 
+        {
+            "community": 179, 
+            "id": "broom", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.38", 
+            "out_edge": []
+        }, 
+        {
+            "community": 179, 
+            "id": "wrinkled", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.89", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

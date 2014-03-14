@@ -1,210 +1,210 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 135.8490566037736, 
+                "id": "smooth", 
+                "families": 12.0, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "id": "soft", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "id": "lazy", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 42.98245614035088, 
+                "id": "weak", 
+                "families": 7.0, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 135.8490566037736, 
+                "id": "soft", 
+                "families": 12.0, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 46.666666666666664, 
+                "id": "flat", 
+                "families": 7.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "id": "weak", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "id": "smooth", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 42.98245614035088, 
+                "id": "soft", 
+                "families": 7.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 21.551724137931032, 
+                "id": "lazy", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 21.73913043478261, 
+                "id": "tired, weary", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8130081300813009, 
+                "id": "soft", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 21.551724137931032, 
+                "id": "weak", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 7.5, 
+                "id": "tired, weary", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 46.666666666666664, 
+                "id": "smooth", 
+                "families": 7.0, 
+                "languages": 21.0
+            }
+        ], 
+        [
+            {
+                "weight": 21.73913043478261, 
+                "id": "weak", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 7.5, 
+                "id": "lazy", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "id": "tired, weary", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "4.91", 
-            "body_part": 0, 
             "community": 98, 
-            "id": "tired, weary", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "soft", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.75", 
+            "out_edge": []
         }, 
         {
-            "key": "12.71", 
+            "community": 98, 
+            "id": "smooth", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.77", 
+            "out_edge": [
+                [
+                    "cluster_12_faithful", 
+                    "straight", 
+                    7.0, 
+                    44.95412844036697
+                ], 
+                [
+                    "cluster_28_pasture", 
+                    "plain, field", 
+                    4.0, 
+                    14.545454545454545
+                ]
+            ]
+        }, 
+        {
+            "community": 98, 
+            "id": "weak", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.82", 
+            "out_edge": [
+                [
+                    "cluster_171_thin (in dimension)", 
+                    "thin (in dimension)", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ]
+        }, 
+        {
+            "community": 98, 
+            "id": "lazy", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.92", 
+            "out_edge": []
+        }, 
+        {
             "community": 98, 
             "id": "flat", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.71", 
             "out_edge": [
                 [
                     "cluster_28_pasture", 
                     "plain, field", 
                     7.0, 
-                    366.3551401869159
+                    45.794392523364486
                 ], 
                 [
                     "cluster_12_faithful", 
                     "straight", 
                     6.0, 
-                    261.8181818181818
+                    32.72727272727273
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "4.92", 
-            "body_part": 0, 
             "community": 98, 
-            "id": "lazy", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.77", 
+            "id": "tired, weary", 
             "body_part": 0, 
-            "community": 98, 
-            "id": "smooth", 
-            "out_edge": [
-                [
-                    "cluster_12_faithful", 
-                    "straight", 
-                    7.0, 
-                    359.6330275229358
-                ], 
-                [
-                    "cluster_28_pasture", 
-                    "plain, field", 
-                    4.0, 
-                    116.36363636363636
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.82", 
-            "body_part": 0, 
-            "community": 98, 
-            "id": "weak", 
-            "out_edge": [
-                [
-                    "cluster_171_narrow", 
-                    "thin (in dimension)", 
-                    4.0, 
-                    109.40170940170941
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.75", 
-            "body_part": 0, 
-            "community": 98, 
-            "id": "soft", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "swadesh100": 0, 
+            "key": "4.91", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 60.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 173.91304347826087, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "weak"
-            }
-        ], 
-        [
-            {
-                "weight": 373.3333333333333, 
-                "languages": 21.0, 
-                "families": 7.0, 
-                "id": "smooth"
-            }
-        ], 
-        [
-            {
-                "weight": 60.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 172.41379310344826, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 373.3333333333333, 
-                "languages": 21.0, 
-                "families": 7.0, 
-                "id": "flat"
-            }, 
-            {
-                "weight": 1086.7924528301887, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 173.91304347826087, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 172.41379310344826, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "smooth"
-            }, 
-            {
-                "weight": 343.859649122807, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 1086.7924528301887, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "smooth"
-            }, 
-            {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 343.859649122807, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "soft"
-            }
-        ]
-    ], 
     "directed": false
 }

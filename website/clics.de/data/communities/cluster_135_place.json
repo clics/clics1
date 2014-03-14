@@ -1,60 +1,60 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 321.11111111111114, 
+                "id": "after", 
+                "families": 17.0, 
+                "languages": 32.0
+            }
+        ], 
+        [
+            {
+                "weight": 321.11111111111114, 
+                "id": "place", 
+                "families": 17.0, 
+                "languages": 32.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "12.11", 
-            "body_part": 0, 
             "community": 135, 
             "id": "place", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.11", 
             "out_edge": [
                 [
                     "cluster_2_country", 
                     "earth, land", 
                     8.0, 
-                    430.25210084033614
+                    53.78151260504202
                 ], 
                 [
                     "cluster_35_finish", 
                     "last", 
                     6.0, 
-                    250.43478260869568
+                    31.30434782608696
                 ], 
                 [
                     "cluster_2_country", 
                     "country", 
                     5.0, 
-                    185.1851851851852
+                    23.14814814814815
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "12.1", 
-            "body_part": 0, 
             "community": 135, 
             "id": "after", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.1", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 2568.888888888889, 
-                "languages": 32.0, 
-                "families": 17.0, 
-                "id": "after"
-            }
-        ], 
-        [
-            {
-                "weight": 2568.888888888889, 
-                "languages": 32.0, 
-                "families": 17.0, 
-                "id": "place"
-            }
-        ]
-    ], 
     "directed": false
 }

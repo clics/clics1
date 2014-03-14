@@ -1,0 +1,109 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8849557522123894, 
+                "id": "mosquito", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9433962264150944, 
+                "id": "sandfly (midge), gnat", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8849557522123894, 
+                "id": "mushroom", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 63.366336633663366, 
+                "id": "sandfly (midge), gnat", 
+                "families": 8.0, 
+                "languages": 45.0
+            }, 
+            {
+                "weight": 7.6923076923076925, 
+                "id": "fly", 
+                "families": 3.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9433962264150944, 
+                "id": "mushroom", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 63.366336633663366, 
+                "id": "mosquito", 
+                "families": 8.0, 
+                "languages": 45.0
+            }, 
+            {
+                "weight": 8.181818181818182, 
+                "id": "fly", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 7.6923076923076925, 
+                "id": "mosquito", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 8.181818181818182, 
+                "id": "sandfly (midge), gnat", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 192, 
+            "id": "mushroom", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.98", 
+            "out_edge": []
+        }, 
+        {
+            "community": 192, 
+            "id": "mosquito", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.832", 
+            "out_edge": []
+        }, 
+        {
+            "community": 192, 
+            "id": "sandfly (midge), gnat", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.831", 
+            "out_edge": []
+        }, 
+        {
+            "community": 192, 
+            "id": "fly", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "3.83", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

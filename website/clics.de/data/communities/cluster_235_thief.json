@@ -1,47 +1,47 @@
 {
-    "nodes": [
-        {
-            "key": "21.51", 
-            "body_part": 0, 
-            "community": 235, 
-            "id": "steal", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "21.52", 
-            "body_part": 0, 
-            "community": 235, 
-            "id": "thief", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 558.6206896551724, 
-                "languages": 10.0, 
+                "weight": 0.8264462809917356, 
+                "id": "thief", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 69.82758620689656, 
+                "id": "steal", 
                 "families": 9.0, 
-                "id": "thief"
+                "languages": 10.0
             }
         ], 
         [
             {
-                "weight": 558.6206896551724, 
-                "languages": 10.0, 
+                "weight": 69.82758620689656, 
+                "id": "thief", 
                 "families": 9.0, 
-                "id": "steal"
-            }, 
-            {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "thief"
+                "languages": 10.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 235, 
+            "id": "thief", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.52", 
+            "out_edge": []
+        }, 
+        {
+            "community": 235, 
+            "id": "steal", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.51", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

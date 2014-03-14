@@ -1,0 +1,272 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 14.15929203539823, 
+                "id": "shake", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 0.8620689655172413, 
+                "id": "shiver", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 23.364485981308412, 
+                "id": "row (vb)", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 32.432432432432435, 
+                "id": "move", 
+                "families": 6.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 47.11538461538461, 
+                "id": "knead", 
+                "families": 7.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9345794392523363, 
+                "id": "shake", 
+                "families": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "id": "shiver", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.7735849056603774, 
+                "id": "move", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 7.964601769911504, 
+                "id": "shake", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 32.432432432432435, 
+                "id": "stir, mix", 
+                "families": 6.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 3.7735849056603774, 
+                "id": "earthquake", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.8695652173913043, 
+                "id": "shiver", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 47.11538461538461, 
+                "id": "stir, mix", 
+                "families": 7.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 14.15929203539823, 
+                "id": "stir, mix", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 75.70093457943925, 
+                "id": "shiver", 
+                "families": 9.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "id": "earthquake", 
+                "families": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 7.964601769911504, 
+                "id": "move", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "id": "owl", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 23.364485981308412, 
+                "id": "stir, mix", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8620689655172413, 
+                "id": "stir, mix", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 75.70093457943925, 
+                "id": "shake", 
+                "families": 9.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "id": "earthquake", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8695652173913043, 
+                "id": "move", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8264462809917356, 
+                "id": "shake", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.7874015748031495, 
+                "id": "owl", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 92, 
+            "id": "stir, mix", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.49", 
+            "out_edge": []
+        }, 
+        {
+            "community": 92, 
+            "id": "earthquake", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.45", 
+            "out_edge": []
+        }, 
+        {
+            "community": 92, 
+            "id": "move", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.11", 
+            "out_edge": [
+                [
+                    "cluster_56_go", 
+                    "walk", 
+                    5.0, 
+                    21.551724137931032
+                ], 
+                [
+                    "cluster_10_trade, barter", 
+                    "change", 
+                    4.0, 
+                    14.814814814814813
+                ], 
+                [
+                    "cluster_56_go", 
+                    "go", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ]
+        }, 
+        {
+            "community": 92, 
+            "id": "knead", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.54", 
+            "out_edge": [
+                [
+                    "cluster_58_squeeze, wring", 
+                    "press", 
+                    4.0, 
+                    15.238095238095239
+                ]
+            ]
+        }, 
+        {
+            "community": 92, 
+            "id": "shake", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.26", 
+            "out_edge": []
+        }, 
+        {
+            "community": 92, 
+            "id": "row (vb)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.852", 
+            "out_edge": [
+                [
+                    "cluster_134_oar", 
+                    "oar", 
+                    5.0, 
+                    26.595744680851062
+                ]
+            ]
+        }, 
+        {
+            "community": 92, 
+            "id": "shiver", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.68", 
+            "out_edge": []
+        }, 
+        {
+            "community": 92, 
+            "id": "owl", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.596", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

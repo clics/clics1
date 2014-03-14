@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "14.491", 
-            "body_part": 0, 
-            "community": 238, 
-            "id": "day-before-yesterday", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.481", 
-            "body_part": 0, 
-            "community": 238, 
-            "id": "day-after-tomorrow", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 380.58252427184465, 
-                "languages": 9.0, 
+                "weight": 47.57281553398058, 
+                "id": "day-after-tomorrow", 
                 "families": 7.0, 
-                "id": "day-after-tomorrow"
+                "languages": 9.0
             }
         ], 
         [
             {
-                "weight": 380.58252427184465, 
-                "languages": 9.0, 
+                "weight": 47.57281553398058, 
+                "id": "day-before-yesterday", 
                 "families": 7.0, 
-                "id": "day-before-yesterday"
+                "languages": 9.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 238, 
+            "id": "day-before-yesterday", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.491", 
+            "out_edge": []
+        }, 
+        {
+            "community": 238, 
+            "id": "day-after-tomorrow", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.481", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

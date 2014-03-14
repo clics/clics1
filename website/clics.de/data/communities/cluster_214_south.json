@@ -1,125 +1,125 @@
 {
-    "nodes": [
-        {
-            "key": "12.48", 
-            "body_part": 0, 
-            "community": 214, 
-            "id": "south", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.47", 
-            "body_part": 0, 
-            "community": 214, 
-            "id": "north", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.45", 
-            "body_part": 0, 
-            "community": 214, 
-            "id": "east", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.42", 
-            "body_part": 0, 
-            "community": 214, 
-            "id": "left (side)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.46", 
-            "body_part": 0, 
-            "community": 214, 
-            "id": "west", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 408.3333333333333, 
-                "languages": 8.0, 
+                "weight": 51.041666666666664, 
+                "id": "north", 
                 "families": 7.0, 
-                "id": "north"
+                "languages": 8.0
             }, 
             {
-                "weight": 7.476635514018691, 
-                "languages": 1.0, 
+                "weight": 0.9345794392523363, 
+                "id": "east", 
                 "families": 1.0, 
-                "id": "east"
+                "languages": 1.0
             }, 
             {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
+                "weight": 3.8095238095238098, 
+                "id": "west", 
                 "families": 2.0, 
-                "id": "left (side)"
+                "languages": 2.0
             }, 
             {
-                "weight": 30.476190476190478, 
-                "languages": 2.0, 
+                "weight": 3.6363636363636362, 
+                "id": "left (side)", 
                 "families": 2.0, 
-                "id": "west"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 408.3333333333333, 
-                "languages": 8.0, 
+                "weight": 51.041666666666664, 
+                "id": "south", 
                 "families": 7.0, 
-                "id": "south"
+                "languages": 8.0
             }
         ], 
         [
             {
-                "weight": 7.476635514018691, 
-                "languages": 1.0, 
+                "weight": 0.9345794392523363, 
+                "id": "south", 
                 "families": 1.0, 
-                "id": "south"
+                "languages": 1.0
             }, 
             {
-                "weight": 7.2727272727272725, 
-                "languages": 2.0, 
+                "weight": 0.9090909090909091, 
+                "id": "west", 
                 "families": 1.0, 
-                "id": "west"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 29.09090909090909, 
-                "languages": 2.0, 
+                "weight": 3.8095238095238098, 
+                "id": "south", 
                 "families": 2.0, 
-                "id": "south"
+                "languages": 2.0
             }, 
             {
-                "weight": 6.722689075630252, 
-                "languages": 1.0, 
+                "weight": 0.9090909090909091, 
+                "id": "east", 
                 "families": 1.0, 
-                "id": "left (side)"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 30.476190476190478, 
-                "languages": 2.0, 
+                "weight": 3.6363636363636362, 
+                "id": "south", 
                 "families": 2.0, 
-                "id": "south"
+                "languages": 2.0
             }, 
             {
-                "weight": 7.2727272727272725, 
-                "languages": 2.0, 
+                "weight": 0.8403361344537815, 
+                "id": "left (side)", 
                 "families": 1.0, 
-                "id": "east"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 214, 
+            "id": "south", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.48", 
+            "out_edge": []
+        }, 
+        {
+            "community": 214, 
+            "id": "north", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.47", 
+            "out_edge": []
+        }, 
+        {
+            "community": 214, 
+            "id": "east", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.45", 
+            "out_edge": []
+        }, 
+        {
+            "community": 214, 
+            "id": "west", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.46", 
+            "out_edge": []
+        }, 
+        {
+            "community": 214, 
+            "id": "left (side)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.42", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

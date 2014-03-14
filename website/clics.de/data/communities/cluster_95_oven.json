@@ -1,0 +1,128 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 31.645569620253166, 
+                "id": "fireplace", 
+                "families": 5.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 350.0, 
+                "id": "stove", 
+                "families": 14.0, 
+                "languages": 50.0
+            }, 
+            {
+                "weight": 1.4705882352941175, 
+                "id": "cookhouse", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 31.645569620253166, 
+                "id": "oven", 
+                "families": 5.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 308.2191780821918, 
+                "id": "stove", 
+                "families": 15.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 30.48780487804878, 
+                "id": "cookhouse", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 350.0, 
+                "id": "oven", 
+                "families": 14.0, 
+                "languages": 50.0
+            }, 
+            {
+                "weight": 308.2191780821918, 
+                "id": "fireplace", 
+                "families": 15.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 5.633802816901409, 
+                "id": "cookhouse", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.4705882352941175, 
+                "id": "oven", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 30.48780487804878, 
+                "id": "fireplace", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 5.633802816901409, 
+                "id": "stove", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 95, 
+            "id": "oven", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.25", 
+            "out_edge": [
+                [
+                    "cluster_105_boil (vb)", 
+                    "bake", 
+                    5.0, 
+                    31.25
+                ]
+            ]
+        }, 
+        {
+            "community": 95, 
+            "id": "fireplace", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.31", 
+            "out_edge": []
+        }, 
+        {
+            "community": 95, 
+            "id": "stove", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.32", 
+            "out_edge": []
+        }, 
+        {
+            "community": 95, 
+            "id": "cookhouse", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.17", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

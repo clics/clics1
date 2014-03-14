@@ -1,0 +1,142 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 167.4418604651163, 
+                "id": "forbid", 
+                "families": 12.0, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 1.0526315789473684, 
+                "id": "deny", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 10.0, 
+                "id": "refuse", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 167.4418604651163, 
+                "id": "hinder, prevent", 
+                "families": 12.0, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 120.48192771084338, 
+                "id": "refuse", 
+                "families": 10.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 27.472527472527474, 
+                "id": "deny", 
+                "families": 5.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0526315789473684, 
+                "id": "hinder, prevent", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 254.54545454545453, 
+                "id": "refuse", 
+                "families": 14.0, 
+                "languages": 26.0
+            }, 
+            {
+                "weight": 27.472527472527474, 
+                "id": "forbid", 
+                "families": 5.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "id": "hinder, prevent", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 254.54545454545453, 
+                "id": "deny", 
+                "families": 14.0, 
+                "languages": 26.0
+            }, 
+            {
+                "weight": 120.48192771084338, 
+                "id": "forbid", 
+                "families": 10.0, 
+                "languages": 10.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 86, 
+            "id": "hinder, prevent", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.59", 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    27.173913043478258
+                ]
+            ]
+        }, 
+        {
+            "community": 86, 
+            "id": "forbid", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.38", 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    27.173913043478258
+                ]
+            ]
+        }, 
+        {
+            "community": 86, 
+            "id": "deny", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.34", 
+            "out_edge": [
+                [
+                    "cluster_252_no, negative", 
+                    "no, negative", 
+                    4.0, 
+                    15.09433962264151
+                ]
+            ]
+        }, 
+        {
+            "community": 86, 
+            "id": "refuse", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.37", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

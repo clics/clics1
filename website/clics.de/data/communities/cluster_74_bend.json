@@ -1,253 +1,253 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "id": "bend", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 61.53846153846154, 
+                "id": "twist", 
+                "families": 8.0, 
+                "languages": 11.0
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "id": "wind, wrap", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.389830508474576, 
+                "id": "bend", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "id": "spin", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 32.142857142857146, 
+                "id": "fold", 
+                "families": 6.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 44.54545454545455, 
+                "id": "twist", 
+                "families": 7.0, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.389830508474576, 
+                "id": "wind, wrap", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "id": "spin", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 58.71559633027523, 
+                "id": "twist", 
+                "families": 8.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 113.08411214953271, 
+                "id": "fold", 
+                "families": 11.0, 
+                "languages": 24.0
+            }, 
+            {
+                "weight": 90.9090909090909, 
+                "id": "crooked", 
+                "families": 10.0, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 90.9090909090909, 
+                "id": "bend", 
+                "families": 10.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 0.8620689655172413, 
+                "id": "twist", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 113.08411214953271, 
+                "id": "bend", 
+                "families": 11.0, 
+                "languages": 24.0
+            }, 
+            {
+                "weight": 22.727272727272727, 
+                "id": "twist", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 32.142857142857146, 
+                "id": "wind, wrap", 
+                "families": 6.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 44.54545454545455, 
+                "id": "wind, wrap", 
+                "families": 7.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 58.71559633027523, 
+                "id": "bend", 
+                "families": 8.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 61.53846153846154, 
+                "id": "spin", 
+                "families": 8.0, 
+                "languages": 11.0
+            }, 
+            {
+                "weight": 22.727272727272727, 
+                "id": "fold", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 0.8620689655172413, 
+                "id": "crooked", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "12.74", 
-            "body_part": 0, 
-            "community": 74, 
-            "id": "crooked", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.14", 
-            "body_part": 0, 
-            "community": 74, 
-            "id": "bend", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.17", 
-            "body_part": 0, 
-            "community": 74, 
-            "id": "twist", 
-            "out_edge": [
-                [
-                    "cluster_58_squeeze, wring", 
-                    "squeeze, wring", 
-                    8.0, 
-                    474.074074074074
-                ], 
-                [
-                    "cluster_39_weave", 
-                    "weave, plait", 
-                    6.0, 
-                    271.6981132075472
-                ], 
-                [
-                    "cluster_101_turn over", 
-                    "turn around", 
-                    5.0, 
-                    181.8181818181818
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.31", 
-            "body_part": 0, 
             "community": 74, 
             "id": "spin", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.31", 
             "out_edge": [
                 [
                     "cluster_39_weave", 
                     "weave, plait", 
                     8.0, 
-                    501.96078431372547
+                    62.745098039215684
                 ], 
                 [
                     "cluster_39_weave", 
                     "weave", 
                     4.0, 
-                    117.43119266055047
+                    14.678899082568808
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "10.14", 
-            "body_part": 0, 
             "community": 74, 
             "id": "wind, wrap", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.14", 
             "out_edge": [
                 [
-                    "cluster_230_button", 
+                    "cluster_230_tie, bind", 
                     "tie, bind", 
                     5.0, 
-                    169.4915254237288
+                    21.1864406779661
                 ], 
                 [
                     "cluster_101_turn over", 
                     "roll", 
                     4.0, 
-                    114.28571428571428
+                    14.285714285714285
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "9.15", 
+            "community": 74, 
+            "id": "bend", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.14", 
+            "out_edge": []
+        }, 
+        {
+            "community": 74, 
+            "id": "crooked", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.74", 
+            "out_edge": []
+        }, 
+        {
             "community": 74, 
             "id": "fold", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.15", 
             "out_edge": [
                 [
-                    "cluster_46_join, unite", 
+                    "cluster_46_pick up", 
                     "pile up", 
                     4.0, 
-                    115.31531531531532
+                    14.414414414414415
                 ]
-            ], 
-            "swadesh100": 0
+            ]
+        }, 
+        {
+            "community": 74, 
+            "id": "twist", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.17", 
+            "out_edge": [
+                [
+                    "cluster_58_squeeze, wring", 
+                    "squeeze, wring", 
+                    8.0, 
+                    59.25925925925925
+                ], 
+                [
+                    "cluster_39_weave", 
+                    "weave, plait", 
+                    6.0, 
+                    33.9622641509434
+                ], 
+                [
+                    "cluster_101_turn over", 
+                    "turn over", 
+                    5.0, 
+                    22.727272727272727
+                ]
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 6.896551724137931, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "twist"
-            }, 
-            {
-                "weight": 727.2727272727273, 
-                "languages": 12.0, 
-                "families": 10.0, 
-                "id": "bend"
-            }
-        ], 
-        [
-            {
-                "weight": 469.72477064220186, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "twist"
-            }, 
-            {
-                "weight": 727.2727272727273, 
-                "languages": 12.0, 
-                "families": 10.0, 
-                "id": "crooked"
-            }, 
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "spin"
-            }, 
-            {
-                "weight": 27.11864406779661, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "wind, wrap"
-            }, 
-            {
-                "weight": 904.6728971962617, 
-                "languages": 24.0, 
-                "families": 11.0, 
-                "id": "fold"
-            }
-        ], 
-        [
-            {
-                "weight": 6.896551724137931, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "crooked"
-            }, 
-            {
-                "weight": 469.72477064220186, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "bend"
-            }, 
-            {
-                "weight": 492.3076923076923, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "spin"
-            }, 
-            {
-                "weight": 356.3636363636364, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "wind, wrap"
-            }, 
-            {
-                "weight": 181.8181818181818, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "fold"
-            }
-        ], 
-        [
-            {
-                "weight": 492.3076923076923, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "twist"
-            }, 
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bend"
-            }, 
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "wind, wrap"
-            }
-        ], 
-        [
-            {
-                "weight": 7.017543859649122, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "spin"
-            }, 
-            {
-                "weight": 27.11864406779661, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "bend"
-            }, 
-            {
-                "weight": 356.3636363636364, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "twist"
-            }, 
-            {
-                "weight": 257.14285714285717, 
-                "languages": 10.0, 
-                "families": 6.0, 
-                "id": "fold"
-            }
-        ], 
-        [
-            {
-                "weight": 257.14285714285717, 
-                "languages": 10.0, 
-                "families": 6.0, 
-                "id": "wind, wrap"
-            }, 
-            {
-                "weight": 904.6728971962617, 
-                "languages": 24.0, 
-                "families": 11.0, 
-                "id": "bend"
-            }, 
-            {
-                "weight": 181.8181818181818, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "twist"
-            }
-        ]
-    ], 
     "directed": false
 }

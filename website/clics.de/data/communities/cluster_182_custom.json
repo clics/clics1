@@ -1,88 +1,88 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1.1235955056179776, 
+                "id": "custom", 
+                "families": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 205.7142857142857, 
+                "id": "way, manner", 
+                "families": 12.0, 
+                "languages": 19.0
+            }, 
+            {
+                "weight": 33.78378378378378, 
+                "id": "law", 
+                "families": 5.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 205.7142857142857, 
+                "id": "custom", 
+                "families": 12.0, 
+                "languages": 19.0
+            }, 
+            {
+                "weight": 1.4285714285714286, 
+                "id": "law", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 33.78378378378378, 
+                "id": "custom", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 1.4285714285714286, 
+                "id": "way, manner", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "17.49", 
+            "community": 182, 
+            "id": "custom", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.61", 
+            "out_edge": []
+        }, 
+        {
             "community": 182, 
             "id": "way, manner", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.49", 
             "out_edge": [
                 [
                     "cluster_120_road", 
                     "road", 
                     5.0, 
-                    215.0537634408602
+                    26.881720430107524
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "21.11", 
-            "body_part": 0, 
             "community": 182, 
             "id": "law", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.61", 
             "body_part": 0, 
-            "community": 182, 
-            "id": "custom", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "swadesh100": 0, 
+            "key": "21.11", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 11.428571428571429, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "law"
-            }, 
-            {
-                "weight": 1645.7142857142856, 
-                "languages": 19.0, 
-                "families": 12.0, 
-                "id": "custom"
-            }
-        ], 
-        [
-            {
-                "weight": 11.428571428571429, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "way, manner"
-            }, 
-            {
-                "weight": 270.27027027027026, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "custom"
-            }
-        ], 
-        [
-            {
-                "weight": 1645.7142857142856, 
-                "languages": 19.0, 
-                "families": 12.0, 
-                "id": "way, manner"
-            }, 
-            {
-                "weight": 270.27027027027026, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "law"
-            }, 
-            {
-                "weight": 8.98876404494382, 
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "custom"
-            }
-        ]
-    ], 
     "directed": false
 }

@@ -1,54 +1,54 @@
 {
-    "nodes": [
-        {
-            "key": "5.123", 
-            "body_part": 0, 
-            "community": 146, 
-            "id": "ripe", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.121", 
-            "body_part": 0, 
-            "community": 146, 
-            "id": "cooked", 
-            "out_edge": [
-                [
-                    "cluster_105_roast, fry", 
-                    "cook", 
-                    8.0, 
-                    465.45454545454544
-                ], 
-                [
-                    "cluster_105_roast, fry", 
-                    "boil (vb)", 
-                    4.0, 
-                    111.30434782608695
-                ]
-            ], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 3675.0, 
-                "languages": 30.0, 
+                "weight": 459.375, 
+                "id": "cooked", 
                 "families": 21.0, 
-                "id": "cooked"
+                "languages": 30.0
             }
         ], 
         [
             {
-                "weight": 3675.0, 
-                "languages": 30.0, 
+                "weight": 459.375, 
+                "id": "ripe", 
                 "families": 21.0, 
-                "id": "ripe"
+                "languages": 30.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 146, 
+            "id": "ripe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.123", 
+            "out_edge": []
+        }, 
+        {
+            "community": 146, 
+            "id": "cooked", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.121", 
+            "out_edge": [
+                [
+                    "cluster_105_boil (vb)", 
+                    "cook", 
+                    8.0, 
+                    58.18181818181818
+                ], 
+                [
+                    "cluster_105_boil (vb)", 
+                    "boil (vb)", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

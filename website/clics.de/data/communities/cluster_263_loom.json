@@ -1,63 +1,63 @@
 {
-    "nodes": [
-        {
-            "key": "6.34", 
-            "body_part": 0, 
-            "community": 263, 
-            "id": "loom", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.38", 
-            "body_part": 0, 
-            "community": 263, 
-            "id": "tear (noun)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.88", 
-            "body_part": 0, 
-            "community": 263, 
-            "id": "sail (noun)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 12.5, 
-                "languages": 1.0, 
+                "weight": 1.0309278350515463, 
+                "id": "loom", 
                 "families": 1.0, 
-                "id": "sail (noun)"
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0309278350515463, 
+                "id": "tear (noun)", 
+                "families": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
+                "weight": 1.5625, 
+                "id": "sail (noun)", 
                 "families": 1.0, 
-                "id": "tear (noun)"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
+                "weight": 1.5625, 
+                "id": "loom", 
                 "families": 1.0, 
-                "id": "loom"
-            }
-        ], 
-        [
-            {
-                "weight": 12.5, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "loom"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 263, 
+            "id": "tear (noun)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "16.38", 
+            "out_edge": []
+        }, 
+        {
+            "community": 263, 
+            "id": "loom", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.34", 
+            "out_edge": []
+        }, 
+        {
+            "community": 263, 
+            "id": "sail (noun)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.88", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

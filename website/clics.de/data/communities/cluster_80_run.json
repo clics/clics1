@@ -1,146 +1,146 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 15.238095238095239, 
+                "id": "run", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 332.18390804597703, 
+                "id": "flee", 
+                "families": 17.0, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 8.823529411764707, 
+                "id": "flow", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 15.238095238095239, 
+                "id": "retreat", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 272.64150943396226, 
+                "id": "flee", 
+                "families": 17.0, 
+                "languages": 42.0
+            }, 
+            {
+                "weight": 0.7874015748031495, 
+                "id": "run", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 70.43478260869566, 
+                "id": "flow", 
+                "families": 9.0, 
+                "languages": 14.0
+            }
+        ], 
+        [
+            {
+                "weight": 332.18390804597703, 
+                "id": "retreat", 
+                "families": 17.0, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 272.64150943396226, 
+                "id": "run", 
+                "families": 17.0, 
+                "languages": 42.0
+            }, 
+            {
+                "weight": 7.758620689655173, 
+                "id": "flow", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 8.823529411764707, 
+                "id": "retreat", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 7.758620689655173, 
+                "id": "flee", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 70.43478260869566, 
+                "id": "run", 
+                "families": 9.0, 
+                "languages": 14.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "10.46", 
-            "body_part": 0, 
-            "community": 80, 
-            "id": "run", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.45", 
-            "body_part": 0, 
             "community": 80, 
             "id": "retreat", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.45", 
+            "out_edge": []
         }, 
         {
-            "key": "10.51", 
+            "community": 80, 
+            "id": "run", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.46", 
+            "out_edge": []
+        }, 
+        {
             "community": 80, 
             "id": "flee", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.51", 
+            "out_edge": []
         }, 
         {
-            "key": "10.32", 
-            "body_part": 0, 
             "community": 80, 
             "id": "flow", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.32", 
             "out_edge": [
                 [
-                    "cluster_82_float", 
+                    "cluster_82_swim", 
                     "float", 
                     5.0, 
-                    181.8181818181818
+                    22.727272727272727
                 ], 
                 [
-                    "cluster_194_smith, blacksmith", 
+                    "cluster_194_pour", 
                     "pour", 
                     5.0, 
-                    176.99115044247787
+                    22.123893805309734
                 ], 
                 [
                     "cluster_56_go", 
                     "go", 
                     5.0, 
-                    169.4915254237288
+                    21.1864406779661
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 6.299212598425196, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "run"
-            }, 
-            {
-                "weight": 121.90476190476191, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "retreat"
-            }, 
-            {
-                "weight": 2181.132075471698, 
-                "languages": 42.0, 
-                "families": 17.0, 
-                "id": "flee"
-            }, 
-            {
-                "weight": 563.4782608695652, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "flow"
-            }
-        ], 
-        [
-            {
-                "weight": 121.90476190476191, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "run"
-            }, 
-            {
-                "weight": 2657.4712643678163, 
-                "languages": 28.0, 
-                "families": 17.0, 
-                "id": "flee"
-            }, 
-            {
-                "weight": 70.58823529411765, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "flow"
-            }
-        ], 
-        [
-            {
-                "weight": 2181.132075471698, 
-                "languages": 42.0, 
-                "families": 17.0, 
-                "id": "run"
-            }, 
-            {
-                "weight": 2657.4712643678163, 
-                "languages": 28.0, 
-                "families": 17.0, 
-                "id": "retreat"
-            }, 
-            {
-                "weight": 62.06896551724138, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "flow"
-            }
-        ], 
-        [
-            {
-                "weight": 563.4782608695652, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "run"
-            }, 
-            {
-                "weight": 70.58823529411765, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "retreat"
-            }, 
-            {
-                "weight": 62.06896551724138, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "flee"
-            }
-        ]
-    ], 
     "directed": false
 }

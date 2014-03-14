@@ -1,75 +1,75 @@
 {
-    "nodes": [
-        {
-            "key": "1.55", 
-            "body_part": 0, 
-            "community": 136, 
-            "id": "lightning", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.57", 
-            "body_part": 0, 
-            "community": 136, 
-            "id": "lightning (as striking)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.56", 
-            "body_part": 0, 
-            "community": 136, 
-            "id": "thunder", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 4302.222222222223, 
-                "languages": 74.0, 
+                "weight": 537.7777777777778, 
+                "id": "lightning (as striking)", 
                 "families": 22.0, 
-                "id": "lightning (as striking)"
+                "languages": 74.0
             }, 
             {
-                "weight": 109.40170940170941, 
-                "languages": 4.0, 
+                "weight": 13.675213675213676, 
+                "id": "thunder", 
                 "families": 4.0, 
-                "id": "thunder"
+                "languages": 4.0
             }
         ], 
         [
             {
-                "weight": 4302.222222222223, 
-                "languages": 74.0, 
+                "weight": 537.7777777777778, 
+                "id": "lightning", 
                 "families": 22.0, 
-                "id": "lightning"
+                "languages": 74.0
             }, 
             {
-                "weight": 930.7692307692308, 
-                "languages": 17.0, 
+                "weight": 116.34615384615385, 
+                "id": "thunder", 
                 "families": 11.0, 
-                "id": "thunder"
+                "languages": 17.0
             }
         ], 
         [
             {
-                "weight": 109.40170940170941, 
-                "languages": 4.0, 
+                "weight": 13.675213675213676, 
+                "id": "lightning", 
                 "families": 4.0, 
-                "id": "lightning"
+                "languages": 4.0
             }, 
             {
-                "weight": 930.7692307692308, 
-                "languages": 17.0, 
+                "weight": 116.34615384615385, 
+                "id": "lightning (as striking)", 
                 "families": 11.0, 
-                "id": "lightning (as striking)"
+                "languages": 17.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 136, 
+            "id": "lightning", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.55", 
+            "out_edge": []
+        }, 
+        {
+            "community": 136, 
+            "id": "lightning (as striking)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.57", 
+            "out_edge": []
+        }, 
+        {
+            "community": 136, 
+            "id": "thunder", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.56", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

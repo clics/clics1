@@ -1,0 +1,88 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "id": "pull", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 23.809523809523807, 
+                "id": "stretch", 
+                "families": 5.0, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "id": "spread out", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 75.0, 
+                "id": "stretch", 
+                "families": 9.0, 
+                "languages": 37.0
+            }
+        ], 
+        [
+            {
+                "weight": 23.809523809523807, 
+                "id": "spread out", 
+                "families": 5.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 75.0, 
+                "id": "pull", 
+                "families": 9.0, 
+                "languages": 37.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 189, 
+            "id": "spread out", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.34", 
+            "out_edge": []
+        }, 
+        {
+            "community": 189, 
+            "id": "pull", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.33", 
+            "out_edge": [
+                [
+                    "cluster_66_smoke (noun)", 
+                    "smoke (tobacco)", 
+                    4.0, 
+                    14.15929203539823
+                ], 
+                [
+                    "cluster_191_kiss", 
+                    "suck", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ]
+        }, 
+        {
+            "community": 189, 
+            "id": "stretch", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.32", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

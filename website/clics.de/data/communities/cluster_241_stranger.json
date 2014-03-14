@@ -1,75 +1,75 @@
 {
-    "nodes": [
-        {
-            "key": "19.55", 
-            "body_part": 0, 
-            "community": 241, 
-            "id": "stranger", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.52", 
-            "body_part": 0, 
-            "community": 241, 
-            "id": "enemy", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.56", 
-            "body_part": 0, 
-            "community": 241, 
-            "id": "guest", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "enemy"
+                "weight": 26.595744680851062, 
+                "id": "guest", 
+                "families": 5.0, 
+                "languages": 7.0
             }, 
             {
-                "weight": 212.7659574468085, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "guest"
+                "weight": 3.7383177570093453, 
+                "id": "enemy", 
+                "families": 2.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "stranger"
+                "weight": 26.595744680851062, 
+                "id": "stranger", 
+                "families": 5.0, 
+                "languages": 7.0
             }, 
             {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
+                "weight": 1.0309278350515463, 
+                "id": "enemy", 
                 "families": 1.0, 
-                "id": "guest"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 212.7659574468085, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "stranger"
+                "weight": 3.7383177570093453, 
+                "id": "stranger", 
+                "families": 2.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
+                "weight": 1.0309278350515463, 
+                "id": "guest", 
                 "families": 1.0, 
-                "id": "enemy"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 241, 
+            "id": "stranger", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.55", 
+            "out_edge": []
+        }, 
+        {
+            "community": 241, 
+            "id": "guest", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.56", 
+            "out_edge": []
+        }, 
+        {
+            "community": 241, 
+            "id": "enemy", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.52", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

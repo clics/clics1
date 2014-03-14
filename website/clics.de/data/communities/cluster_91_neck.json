@@ -1,0 +1,130 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 192.04545454545453, 
+                "id": "collar", 
+                "families": 13.0, 
+                "languages": 24.0
+            }, 
+            {
+                "weight": 179.8165137614679, 
+                "id": "nape of neck", 
+                "families": 14.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 260.36036036036035, 
+                "id": "throat", 
+                "families": 17.0, 
+                "languages": 25.0
+            }
+        ], 
+        [
+            {
+                "weight": 260.36036036036035, 
+                "id": "neck", 
+                "families": 17.0, 
+                "languages": 25.0
+            }, 
+            {
+                "weight": 26.041666666666668, 
+                "id": "collar", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 192.04545454545453, 
+                "id": "neck", 
+                "families": 13.0, 
+                "languages": 24.0
+            }, 
+            {
+                "weight": 4.25531914893617, 
+                "id": "nape of neck", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 26.041666666666668, 
+                "id": "throat", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 179.8165137614679, 
+                "id": "neck", 
+                "families": 14.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 4.25531914893617, 
+                "id": "collar", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 91, 
+            "id": "neck", 
+            "body_part": 1, 
+            "swadesh100": 1, 
+            "key": "4.28", 
+            "out_edge": [
+                [
+                    "cluster_24_sound, noise", 
+                    "voice", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ]
+        }, 
+        {
+            "community": 91, 
+            "id": "throat", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.29", 
+            "out_edge": [
+                [
+                    "cluster_24_sound, noise", 
+                    "voice", 
+                    8.0, 
+                    57.65765765765766
+                ]
+            ]
+        }, 
+        {
+            "community": 91, 
+            "id": "collar", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.45", 
+            "out_edge": [
+                [
+                    "cluster_154_chain", 
+                    "necklace", 
+                    7.0, 
+                    55.68181818181818
+                ]
+            ]
+        }, 
+        {
+            "community": 91, 
+            "id": "nape of neck", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.281", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

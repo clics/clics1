@@ -1,62 +1,63 @@
 {
-    "nodes": [
-        {
-            "key": "8.85", 
-            "community": 240, 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "id": "banyan"
-        }, 
-        {
-            "key": "5.78", 
-            "body_part": 0, 
-            "community": 240, 
-            "id": "olive", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.75", 
-            "body_part": 0, 
-            "community": 240, 
-            "id": "fig", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 22.857142857142858, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "olive"
+                "weight": 10.81081081081081, 
+                "id": "banyan", 
+                "families": 2.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.81081081081081, 
+                "id": "fig", 
+                "families": 2.0, 
+                "languages": 7.0
             }, 
             {
-                "weight": 86.48648648648648, 
-                "languages": 7.0, 
-                "families": 2.0, 
-                "id": "fig"
-            }
-        ], 
-        [
-            {
-                "weight": 22.857142857142858, 
-                "languages": 1.0, 
+                "weight": 2.857142857142857, 
+                "id": "olive", 
                 "families": 1.0, 
-                "id": "banyan"
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 86.48648648648648, 
-                "languages": 7.0, 
-                "families": 2.0, 
-                "id": "banyan"
+                "weight": 2.857142857142857, 
+                "id": "banyan", 
+                "families": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 240, 
+            "id": "fig", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.75", 
+            "out_edge": []
+        }, 
+        {
+            "community": 240, 
+            "id": "banyan", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.85", 
+            "out_edge": []
+        }, 
+        {
+            "community": 240, 
+            "id": "olive", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.78", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

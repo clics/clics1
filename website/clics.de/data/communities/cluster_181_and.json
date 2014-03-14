@@ -1,110 +1,110 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.9615384615384616, 
+                "id": "again", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 10.0, 
+                "id": "and", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 8.108108108108109, 
+                "id": "and", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9615384615384616, 
+                "id": "or", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 78.64077669902912, 
+                "id": "and", 
+                "families": 9.0, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "id": "or", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 8.108108108108109, 
+                "id": "yes, affirmative", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 78.64077669902912, 
+                "id": "again", 
+                "families": 9.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "id": "and", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "17.51", 
-            "body_part": 0, 
             "community": 181, 
-            "id": "and", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "or", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.54", 
+            "out_edge": []
         }, 
         {
-            "key": "14.35", 
+            "community": 181, 
+            "id": "yes, affirmative", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.55", 
+            "out_edge": []
+        }, 
+        {
             "community": 181, 
             "id": "again", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.35", 
             "out_edge": [
                 [
                     "cluster_77_enough", 
                     "more", 
                     6.0, 
-                    254.86725663716814
+                    31.858407079646017
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "17.55", 
-            "body_part": 0, 
             "community": 181, 
-            "id": "yes, affirmative", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.54", 
+            "id": "and", 
             "body_part": 0, 
-            "community": 181, 
-            "id": "or", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "swadesh100": 0, 
+            "key": "17.51", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 8.080808080808081, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "and"
-            }, 
-            {
-                "weight": 629.126213592233, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "again"
-            }, 
-            {
-                "weight": 64.86486486486487, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "yes, affirmative"
-            }, 
-            {
-                "weight": 80.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "or"
-            }
-        ], 
-        [
-            {
-                "weight": 629.126213592233, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "and"
-            }, 
-            {
-                "weight": 7.6923076923076925, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "or"
-            }
-        ], 
-        [
-            {
-                "weight": 64.86486486486487, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "and"
-            }
-        ], 
-        [
-            {
-                "weight": 80.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "and"
-            }, 
-            {
-                "weight": 7.6923076923076925, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "again"
-            }
-        ]
-    ], 
     "directed": false
 }

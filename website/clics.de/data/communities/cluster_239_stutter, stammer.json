@@ -1,69 +1,69 @@
 {
-    "nodes": [
-        {
-            "key": "18.16", 
-            "body_part": 0, 
-            "community": 239, 
-            "id": "mumble", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.15", 
-            "body_part": 0, 
-            "community": 239, 
-            "id": "whisper", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.211", 
-            "body_part": 0, 
-            "community": 239, 
-            "id": "stutter, stammer", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 334.8837209302326, 
-                "languages": 6.0, 
+                "weight": 41.86046511627907, 
+                "id": "whisper", 
                 "families": 6.0, 
-                "id": "whisper"
+                "languages": 6.0
             }, 
             {
-                "weight": 38.095238095238095, 
-                "languages": 2.0, 
+                "weight": 4.761904761904762, 
+                "id": "stutter, stammer", 
                 "families": 2.0, 
-                "id": "stutter, stammer"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 334.8837209302326, 
-                "languages": 6.0, 
+                "weight": 41.86046511627907, 
+                "id": "mumble", 
                 "families": 6.0, 
-                "id": "mumble"
+                "languages": 6.0
             }
         ], 
         [
             {
-                "weight": 38.095238095238095, 
-                "languages": 2.0, 
+                "weight": 4.761904761904762, 
+                "id": "mumble", 
                 "families": 2.0, 
-                "id": "mumble"
+                "languages": 2.0
             }, 
             {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
+                "weight": 1.0309278350515463, 
+                "id": "stutter, stammer", 
                 "families": 1.0, 
-                "id": "stutter, stammer"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 239, 
+            "id": "mumble", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.16", 
+            "out_edge": []
+        }, 
+        {
+            "community": 239, 
+            "id": "whisper", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.15", 
+            "out_edge": []
+        }, 
+        {
+            "community": 239, 
+            "id": "stutter, stammer", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.211", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

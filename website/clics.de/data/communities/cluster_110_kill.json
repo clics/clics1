@@ -1,0 +1,94 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 404.04040404040404, 
+                "id": "murder", 
+                "families": 20.0, 
+                "languages": 30.0
+            }, 
+            {
+                "weight": 55.65217391304348, 
+                "id": "extinguish", 
+                "families": 8.0, 
+                "languages": 15.0
+            }
+        ], 
+        [
+            {
+                "weight": 404.04040404040404, 
+                "id": "kill", 
+                "families": 20.0, 
+                "languages": 30.0
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "id": "extinguish", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 55.65217391304348, 
+                "id": "kill", 
+                "families": 8.0, 
+                "languages": 15.0
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "id": "murder", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 110, 
+            "id": "kill", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "4.76", 
+            "out_edge": [
+                [
+                    "cluster_85_strike (hit, beat)", 
+                    "strike (hit, beat)", 
+                    8.0, 
+                    54.700854700854705
+                ], 
+                [
+                    "cluster_125_dig", 
+                    "stab", 
+                    4.0, 
+                    13.675213675213676
+                ], 
+                [
+                    "cluster_88_anger", 
+                    "fight (vb)", 
+                    4.0, 
+                    13.223140495867769
+                ]
+            ]
+        }, 
+        {
+            "community": 110, 
+            "id": "murder", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.42", 
+            "out_edge": []
+        }, 
+        {
+            "community": 110, 
+            "id": "extinguish", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.861", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

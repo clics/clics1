@@ -1,13 +1,13 @@
 # author   : Johann-Mattis List
 # email    : mattis.list@uni-marburg.de
 # created  : 2013-10-29 17:36
-# modified : 2014-02-17 15:21
+# modified : 2014-03-13 08:28
 """
 Compute subsets of the graphs with help of community detection analyses.
 """
 
 __author__="Johann-Mattis List"
-__date__="2014-02-17"
+__date__="2014-03-13"
 
 
 import igraph as ig
@@ -141,6 +141,8 @@ for node,data in newg.nodes(data=True):
             key=lambda x:x[3], # chance this key to modify the weights
             reverse=True
             )[:3] if s[2] > 3]
+    else:
+        data['out_edge'] = []
     
 
 nx.write_gml(newg,'output/clics_communities.gml')
@@ -153,11 +155,15 @@ nodes = [n for n in newg.nodes(data=True) if 'community' in n[1]]
 import matplotlib.pyplot as plt
 gcoms = []
 
+import os
+os.system('git rm website/data/communities/*.json')
+os.system('rm website/data/communities/*.json')
+
 # write all communities to separate json-graphs, write names to file
 f = open('output/communitiesNew.csv','w')
 f2 = open('output/communitiesNewCluster.csv', 'w')
 f3 = open('output/nodes2communities.csv', 'w')
-f.write('names\n')
+f.write('name\n')
 for c in comms:
     
     subG = newg.subgraph(
@@ -178,7 +184,7 @@ for c in comms:
     
     #if '/' in d:
     #    d = d.replace('/','_')
-    graph2json(subG, 'communities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
+    graph2json(subG, 'website/clics.de/data/communities/'+cdict[c]) #'xcommunities/cluster_{0}_{1}'.format(c,d))
     print("[i] Converting community number {0} / {1} ({2} nodes).".format(c,cdict[c].replace('cluster_',''),len(subG.nodes())))
             
     

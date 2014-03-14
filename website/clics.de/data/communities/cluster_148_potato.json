@@ -1,75 +1,75 @@
 {
-    "nodes": [
-        {
-            "key": "5.7", 
-            "body_part": 0, 
-            "community": 148, 
-            "id": "potato", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.912", 
-            "body_part": 0, 
-            "community": 148, 
-            "id": "yam", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.91", 
-            "body_part": 0, 
-            "community": 148, 
-            "id": "sweet potato", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 168.42105263157893, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "yam"
+                "weight": 180.0, 
+                "id": "sweet potato", 
+                "families": 12.0, 
+                "languages": 14.0
             }, 
             {
-                "weight": 1440.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "sweet potato"
+                "weight": 21.052631578947366, 
+                "id": "yam", 
+                "families": 4.0, 
+                "languages": 4.0
             }
         ], 
         [
             {
-                "weight": 168.42105263157893, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "potato"
+                "weight": 180.0, 
+                "id": "potato", 
+                "families": 12.0, 
+                "languages": 14.0
             }, 
             {
-                "weight": 2146.031746031746, 
-                "languages": 19.0, 
+                "weight": 268.25396825396825, 
+                "id": "yam", 
                 "families": 13.0, 
-                "id": "sweet potato"
+                "languages": 19.0
             }
         ], 
         [
             {
-                "weight": 1440.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "potato"
+                "weight": 21.052631578947366, 
+                "id": "potato", 
+                "families": 4.0, 
+                "languages": 4.0
             }, 
             {
-                "weight": 2146.031746031746, 
-                "languages": 19.0, 
+                "weight": 268.25396825396825, 
+                "id": "sweet potato", 
                 "families": 13.0, 
-                "id": "yam"
+                "languages": 19.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 148, 
+            "id": "potato", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.7", 
+            "out_edge": []
+        }, 
+        {
+            "community": 148, 
+            "id": "sweet potato", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.91", 
+            "out_edge": []
+        }, 
+        {
+            "community": 148, 
+            "id": "yam", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.912", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

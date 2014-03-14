@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "20.34", 
-            "body_part": 0, 
-            "community": 260, 
-            "id": "shield", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.31", 
-            "body_part": 0, 
-            "community": 260, 
-            "id": "armor (defensive)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 120.0, 
-                "languages": 3.0, 
+                "weight": 15.0, 
+                "id": "armor (defensive)", 
                 "families": 3.0, 
-                "id": "armor (defensive)"
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 120.0, 
-                "languages": 3.0, 
+                "weight": 15.0, 
+                "id": "shield", 
                 "families": 3.0, 
-                "id": "shield"
+                "languages": 3.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 260, 
+            "id": "shield", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.34", 
+            "out_edge": []
+        }, 
+        {
+            "community": 260, 
+            "id": "armor (defensive)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.31", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

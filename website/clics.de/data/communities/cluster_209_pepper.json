@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "5.82", 
-            "body_part": 0, 
-            "community": 209, 
-            "id": "pepper", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.821", 
-            "body_part": 0, 
-            "community": 209, 
-            "id": "chili pepper", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1308.1081081081081, 
-                "languages": 26.0, 
+                "weight": 163.51351351351352, 
+                "id": "chili pepper", 
                 "families": 11.0, 
-                "id": "chili pepper"
+                "languages": 26.0
             }
         ], 
         [
             {
-                "weight": 1308.1081081081081, 
-                "languages": 26.0, 
+                "weight": 163.51351351351352, 
+                "id": "pepper", 
                 "families": 11.0, 
-                "id": "pepper"
+                "languages": 26.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 209, 
+            "id": "pepper", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.82", 
+            "out_edge": []
+        }, 
+        {
+            "community": 209, 
+            "id": "chili pepper", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.821", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

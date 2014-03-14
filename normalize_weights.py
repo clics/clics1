@@ -58,7 +58,7 @@ for nA, nB, data in list(g.edges(data=True)):
 
     nw = normalize(fA, fB, w)
     if nw > 0:
-        data['normalized_weight'] = nw * 800
+        data['normalized_weight'] = nw * 100
     else:
         g.remove_edge(nA, nB)
 

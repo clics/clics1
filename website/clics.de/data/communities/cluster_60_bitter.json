@@ -1,196 +1,196 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8403361344537815, 
+                "id": "salt", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 73.63636363636363, 
+                "id": "salty", 
+                "families": 9.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0526315789473684, 
+                "id": "brackish", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 58.71559633027523, 
+                "id": "salty", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 218.44660194174756, 
+                "id": "bitter", 
+                "families": 15.0, 
+                "languages": 20.0
+            }
+        ], 
+        [
+            {
+                "weight": 30.76923076923077, 
+                "id": "salty", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "id": "bitter", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 169.41176470588235, 
+                "id": "salty", 
+                "families": 12.0, 
+                "languages": 22.0
+            }, 
+            {
+                "weight": 9.473684210526317, 
+                "id": "bitter", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 1.0526315789473684, 
+                "id": "acid, sour", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 169.41176470588235, 
+                "id": "brackish", 
+                "families": 12.0, 
+                "languages": 22.0
+            }, 
+            {
+                "weight": 73.63636363636363, 
+                "id": "salt", 
+                "families": 9.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 43.75, 
+                "id": "bitter", 
+                "families": 7.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 58.71559633027523, 
+                "id": "acid, sour", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 30.76923076923077, 
+                "id": "sweet", 
+                "families": 6.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 9.473684210526317, 
+                "id": "brackish", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 43.75, 
+                "id": "salty", 
+                "families": 7.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "id": "bitter", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 218.44660194174756, 
+                "id": "acid, sour", 
+                "families": 15.0, 
+                "languages": 20.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "id": "sweet", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "15.36", 
-            "body_part": 0, 
             "community": 60, 
-            "id": "salty", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "salt", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.81", 
+            "out_edge": []
         }, 
         {
-            "key": "15.38", 
-            "body_part": 0, 
             "community": 60, 
             "id": "acid, sour", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.38", 
+            "out_edge": []
         }, 
         {
-            "key": "15.37", 
-            "body_part": 0, 
-            "community": 60, 
-            "id": "bitter", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.39", 
-            "body_part": 0, 
-            "community": 60, 
-            "id": "brackish", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.35", 
-            "body_part": 0, 
             "community": 60, 
             "id": "sweet", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.35", 
             "out_edge": [
                 [
                     "cluster_48_stinking, bad smelling", 
                     "fragrant, good smelling", 
                     5.0, 
-                    173.91304347826087
+                    21.73913043478261
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "5.81", 
-            "body_part": 0, 
             "community": 60, 
-            "id": "salt", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "brackish", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.39", 
+            "out_edge": []
+        }, 
+        {
+            "community": 60, 
+            "id": "salty", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.36", 
+            "out_edge": []
+        }, 
+        {
+            "community": 60, 
+            "id": "bitter", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.37", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 246.15384615384616, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "sweet"
-            }, 
-            {
-                "weight": 469.72477064220186, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "acid, sour"
-            }, 
-            {
-                "weight": 589.090909090909, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "salt"
-            }, 
-            {
-                "weight": 350.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "bitter"
-            }, 
-            {
-                "weight": 1355.2941176470588, 
-                "languages": 22.0, 
-                "families": 12.0, 
-                "id": "brackish"
-            }
-        ], 
-        [
-            {
-                "weight": 469.72477064220186, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "salty"
-            }, 
-            {
-                "weight": 1747.5728155339805, 
-                "languages": 20.0, 
-                "families": 15.0, 
-                "id": "bitter"
-            }, 
-            {
-                "weight": 8.421052631578947, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "brackish"
-            }
-        ], 
-        [
-            {
-                "weight": 350.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "salty"
-            }, 
-            {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sweet"
-            }, 
-            {
-                "weight": 1747.5728155339805, 
-                "languages": 20.0, 
-                "families": 15.0, 
-                "id": "acid, sour"
-            }, 
-            {
-                "weight": 6.722689075630252, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bitter"
-            }, 
-            {
-                "weight": 75.78947368421053, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "brackish"
-            }
-        ], 
-        [
-            {
-                "weight": 1355.2941176470588, 
-                "languages": 22.0, 
-                "families": 12.0, 
-                "id": "salty"
-            }, 
-            {
-                "weight": 8.421052631578947, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "acid, sour"
-            }, 
-            {
-                "weight": 75.78947368421053, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "bitter"
-            }
-        ], 
-        [
-            {
-                "weight": 246.15384615384616, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "salty"
-            }, 
-            {
-                "weight": 6.504065040650407, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bitter"
-            }
-        ], 
-        [
-            {
-                "weight": 589.090909090909, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "salty"
-            }, 
-            {
-                "weight": 6.722689075630252, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "salt"
-            }
-        ]
-    ], 
     "directed": false
 }

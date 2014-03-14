@@ -1,63 +1,63 @@
 {
-    "nodes": [
-        {
-            "key": "12.14", 
-            "body_part": 0, 
-            "community": 187, 
-            "id": "lie down", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.61", 
-            "body_part": 0, 
-            "community": 187, 
-            "id": "sleep", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.62", 
-            "body_part": 0, 
-            "community": 187, 
-            "id": "dream", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 834.4827586206897, 
-                "languages": 20.0, 
+                "weight": 104.3103448275862, 
+                "id": "sleep", 
                 "families": 11.0, 
-                "id": "sleep"
+                "languages": 20.0
             }
         ], 
         [
             {
-                "weight": 834.4827586206897, 
-                "languages": 20.0, 
+                "weight": 30.252100840336134, 
+                "id": "sleep", 
+                "families": 6.0, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 104.3103448275862, 
+                "id": "lie down", 
                 "families": 11.0, 
-                "id": "lie down"
+                "languages": 20.0
             }, 
             {
-                "weight": 242.01680672268907, 
-                "languages": 9.0, 
+                "weight": 30.252100840336134, 
+                "id": "dream", 
                 "families": 6.0, 
-                "id": "dream"
-            }
-        ], 
-        [
-            {
-                "weight": 242.01680672268907, 
-                "languages": 9.0, 
-                "families": 6.0, 
-                "id": "sleep"
+                "languages": 9.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 187, 
+            "id": "lie down", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "12.14", 
+            "out_edge": []
+        }, 
+        {
+            "community": 187, 
+            "id": "dream", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.62", 
+            "out_edge": []
+        }, 
+        {
+            "community": 187, 
+            "id": "sleep", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "4.61", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

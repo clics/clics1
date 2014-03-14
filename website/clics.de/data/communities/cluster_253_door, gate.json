@@ -1,0 +1,48 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 36.0, 
+                "id": "window", 
+                "families": 6.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 36.0, 
+                "id": "door, gate", 
+                "families": 6.0, 
+                "languages": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 253, 
+            "id": "door, gate", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.22", 
+            "out_edge": [
+                [
+                    "cluster_120_road", 
+                    "path", 
+                    4.0, 
+                    14.15929203539823
+                ]
+            ]
+        }, 
+        {
+            "community": 253, 
+            "id": "window", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.25", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

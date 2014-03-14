@@ -1,85 +1,85 @@
 {
-    "nodes": [
-        {
-            "key": "3.77", 
-            "body_part": 0, 
-            "community": 254, 
-            "id": "elephant", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.855", 
-            "body_part": 0, 
-            "community": 254, 
-            "id": "blister", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.79", 
-            "body_part": 0, 
-            "community": 254, 
-            "id": "tattoo", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.83", 
-            "body_part": 0, 
-            "community": 254, 
-            "id": "statue", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 11.428571428571429, 
-                "languages": 2.0, 
+                "weight": 1.9230769230769231, 
+                "id": "statue", 
                 "families": 1.0, 
-                "id": "blister"
+                "languages": 1.0
             }, 
             {
-                "weight": 15.384615384615385, 
-                "languages": 1.0, 
+                "weight": 1.4285714285714286, 
+                "id": "blister", 
                 "families": 1.0, 
-                "id": "statue"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 11.428571428571429, 
-                "languages": 2.0, 
+                "weight": 1.9230769230769231, 
+                "id": "elephant", 
                 "families": 1.0, 
-                "id": "elephant"
-            }
-        ], 
-        [
-            {
-                "weight": 12.903225806451612, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "statue"
-            }
-        ], 
-        [
-            {
-                "weight": 15.384615384615385, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "elephant"
+                "languages": 1.0
             }, 
             {
-                "weight": 12.903225806451612, 
-                "languages": 1.0, 
+                "weight": 1.6129032258064515, 
+                "id": "tattoo", 
                 "families": 1.0, 
-                "id": "tattoo"
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.6129032258064515, 
+                "id": "statue", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.4285714285714286, 
+                "id": "elephant", 
+                "families": 1.0, 
+                "languages": 2.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 254, 
+            "id": "elephant", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.77", 
+            "out_edge": []
+        }, 
+        {
+            "community": 254, 
+            "id": "statue", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.83", 
+            "out_edge": []
+        }, 
+        {
+            "community": 254, 
+            "id": "tattoo", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.79", 
+            "out_edge": []
+        }, 
+        {
+            "community": 254, 
+            "id": "blister", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.855", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

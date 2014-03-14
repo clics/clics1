@@ -1,0 +1,161 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 23.14814814814815, 
+                "id": "father", 
+                "families": 5.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 653.0864197530864, 
+                "id": "father's brother", 
+                "families": 23.0, 
+                "languages": 68.0
+            }, 
+            {
+                "weight": 972.0000000000001, 
+                "id": "mother's brother", 
+                "families": 27.0, 
+                "languages": 73.0
+            }
+        ], 
+        [
+            {
+                "weight": 23.14814814814815, 
+                "id": "uncle", 
+                "families": 5.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 112.03703703703705, 
+                "id": "father's brother", 
+                "families": 11.0, 
+                "languages": 18.0
+            }
+        ], 
+        [
+            {
+                "weight": 653.0864197530864, 
+                "id": "uncle", 
+                "families": 23.0, 
+                "languages": 68.0
+            }, 
+            {
+                "weight": 112.03703703703705, 
+                "id": "father", 
+                "families": 11.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 241.93548387096774, 
+                "id": "mother's brother", 
+                "families": 15.0, 
+                "languages": 44.0
+            }
+        ], 
+        [
+            {
+                "weight": 972.0000000000001, 
+                "id": "uncle", 
+                "families": 27.0, 
+                "languages": 73.0
+            }, 
+            {
+                "weight": 241.93548387096774, 
+                "id": "father's brother", 
+                "families": 15.0, 
+                "languages": 44.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 89, 
+            "id": "uncle", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.51", 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a man)", 
+                    7.0, 
+                    50.0
+                ], 
+                [
+                    "cluster_107_aunt", 
+                    "aunt", 
+                    6.0, 
+                    39.56043956043956
+                ], 
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a woman)", 
+                    4.0, 
+                    16.842105263157894
+                ]
+            ]
+        }, 
+        {
+            "community": 89, 
+            "id": "father", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.35", 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "stepfather", 
+                    5.0, 
+                    23.58490566037736
+                ]
+            ]
+        }, 
+        {
+            "community": 89, 
+            "id": "father's brother", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.512", 
+            "out_edge": [
+                [
+                    "cluster_107_aunt", 
+                    "father's sister", 
+                    4.0, 
+                    15.238095238095239
+                ]
+            ]
+        }, 
+        {
+            "community": 89, 
+            "id": "mother's brother", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.511", 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a man)", 
+                    9.0, 
+                    81.0
+                ], 
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a woman)", 
+                    6.0, 
+                    37.11340206185567
+                ], 
+                [
+                    "cluster_107_aunt", 
+                    "aunt", 
+                    5.0, 
+                    26.041666666666668
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

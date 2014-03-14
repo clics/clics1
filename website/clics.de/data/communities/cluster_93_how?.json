@@ -1,222 +1,222 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 21.929824561403507, 
+                "id": "which?", 
+                "families": 5.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 3.2520325203252036, 
+                "id": "who?", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 30.252100840336134, 
+                "id": "where?", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 43.36283185840708, 
+                "id": "why?", 
+                "families": 7.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 20.833333333333336, 
+                "id": "what?", 
+                "families": 5.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 20.833333333333336, 
+                "id": "how?", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 29.508196721311474, 
+                "id": "who?", 
+                "families": 6.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 30.76923076923077, 
+                "id": "why?", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 56.14035087719298, 
+                "id": "which?", 
+                "families": 8.0, 
+                "languages": 16.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.2520325203252036, 
+                "id": "how?", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 56.14035087719298, 
+                "id": "which?", 
+                "families": 8.0, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "id": "why?", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 29.508196721311474, 
+                "id": "what?", 
+                "families": 6.0, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 30.252100840336134, 
+                "id": "how?", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 21.367521367521366, 
+                "id": "which?", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 43.36283185840708, 
+                "id": "how?", 
+                "families": 7.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "id": "who?", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 30.76923076923077, 
+                "id": "what?", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 21.929824561403507, 
+                "id": "how?", 
+                "families": 5.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 56.14035087719298, 
+                "id": "who?", 
+                "families": 8.0, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 21.367521367521366, 
+                "id": "where?", 
+                "families": 5.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 56.14035087719298, 
+                "id": "what?", 
+                "families": 8.0, 
+                "languages": 16.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "17.66", 
-            "body_part": 0, 
             "community": 93, 
-            "id": "where?", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "how?", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.61", 
+            "out_edge": [
+                [
+                    "cluster_152_how much?", 
+                    "how much?", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ]
         }, 
         {
-            "key": "17.64", 
-            "body_part": 0, 
             "community": 93, 
             "id": "what?", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "17.64", 
             "out_edge": [
                 [
                     "cluster_99_some", 
                     "thing", 
                     4.0, 
-                    109.40170940170941
+                    13.675213675213676
                 ]
-            ], 
-            "swadesh100": 1
+            ]
         }, 
         {
-            "key": "17.61", 
-            "body_part": 0, 
-            "community": 93, 
-            "id": "how?", 
-            "out_edge": [
-                [
-                    "cluster_152_how many?", 
-                    "how much?", 
-                    4.0, 
-                    111.30434782608695
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.68", 
-            "body_part": 0, 
             "community": 93, 
             "id": "who?", 
-            "out_edge": [], 
-            "swadesh100": 1
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "17.68", 
+            "out_edge": []
         }, 
         {
-            "key": "17.67", 
-            "body_part": 0, 
             "community": 93, 
-            "id": "which?", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "where?", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.66", 
+            "out_edge": []
         }, 
         {
-            "key": "17.69", 
-            "body_part": 0, 
             "community": 93, 
             "id": "why?", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.69", 
             "out_edge": [
                 [
                     "cluster_145_because", 
                     "because", 
                     4.0, 
-                    118.5185185185185
+                    14.814814814814813
                 ]
-            ], 
-            "swadesh100": 0
+            ]
+        }, 
+        {
+            "community": 93, 
+            "id": "which?", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.67", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 170.94017094017093, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 242.01680672268907, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 166.66666666666669, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "how?"
-            }, 
-            {
-                "weight": 236.0655737704918, 
-                "languages": 12.0, 
-                "families": 6.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 449.12280701754383, 
-                "languages": 16.0, 
-                "families": 8.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 246.15384615384616, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "why?"
-            }
-        ], 
-        [
-            {
-                "weight": 242.01680672268907, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "where?"
-            }, 
-            {
-                "weight": 166.66666666666669, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 26.01626016260163, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 175.43859649122805, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 346.9026548672566, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "why?"
-            }
-        ], 
-        [
-            {
-                "weight": 236.0655737704918, 
-                "languages": 12.0, 
-                "families": 6.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 26.01626016260163, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "how?"
-            }, 
-            {
-                "weight": 449.12280701754383, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 6.557377049180328, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "why?"
-            }
-        ], 
-        [
-            {
-                "weight": 170.94017094017093, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "where?"
-            }, 
-            {
-                "weight": 449.12280701754383, 
-                "languages": 16.0, 
-                "families": 8.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 449.12280701754383, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 175.43859649122805, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 246.15384615384616, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 6.557377049180328, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 346.9026548672566, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "how?"
-            }
-        ]
-    ], 
     "directed": false
 }

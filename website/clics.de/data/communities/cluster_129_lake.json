@@ -1,0 +1,128 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.9433962264150944, 
+                "id": "lake", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.2658227848101267, 
+                "id": "gulf, bay", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 556.3218390804598, 
+                "id": "lake", 
+                "families": 22.0, 
+                "languages": 35.0
+            }, 
+            {
+                "weight": 20.51282051282051, 
+                "id": "gulf, bay", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9433962264150944, 
+                "id": "whirlpool", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 556.3218390804598, 
+                "id": "lagoon", 
+                "families": 22.0, 
+                "languages": 35.0
+            }, 
+            {
+                "weight": 4.301075268817205, 
+                "id": "gulf, bay", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.2658227848101267, 
+                "id": "whirlpool", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 20.51282051282051, 
+                "id": "lagoon", 
+                "families": 4.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 4.301075268817205, 
+                "id": "lake", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 129, 
+            "id": "whirlpool", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.362", 
+            "out_edge": []
+        }, 
+        {
+            "community": 129, 
+            "id": "lagoon", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.341", 
+            "out_edge": []
+        }, 
+        {
+            "community": 129, 
+            "id": "lake", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.33", 
+            "out_edge": [
+                [
+                    "cluster_127_sea", 
+                    "sea", 
+                    7.0, 
+                    47.11538461538461
+                ], 
+                [
+                    "cluster_127_sea", 
+                    "ocean", 
+                    5.0, 
+                    25.0
+                ], 
+                [
+                    "cluster_150_clay", 
+                    "swamp", 
+                    4.0, 
+                    14.285714285714285
+                ]
+            ]
+        }, 
+        {
+            "community": 129, 
+            "id": "gulf, bay", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.34", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

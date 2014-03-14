@@ -1,134 +1,134 @@
 {
-    "nodes": [
-        {
-            "key": "21.46", 
-            "body_part": 0, 
-            "community": 104, 
-            "id": "arson", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.852", 
-            "body_part": 0, 
-            "community": 104, 
-            "id": "burn (vb intrans)", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "1.86", 
-            "body_part": 0, 
-            "community": 104, 
-            "id": "light, kindle, ignite", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.851", 
-            "body_part": 0, 
-            "community": 104, 
-            "id": "burn (vb trans)", 
-            "out_edge": [
-                [
-                    "cluster_105_roast, fry", 
-                    "roast, fry", 
-                    8.0, 
-                    437.60683760683764
-                ], 
-                [
-                    "cluster_105_roast, fry", 
-                    "cook", 
-                    4.0, 
-                    105.78512396694215
-                ]
-            ], 
-            "swadesh100": 1
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 36.36363636363637, 
-                "languages": 2.0, 
+                "weight": 4.395604395604396, 
+                "id": "light, kindle, ignite", 
                 "families": 2.0, 
-                "id": "burn (vb intrans)"
+                "languages": 2.0
             }, 
             {
-                "weight": 35.16483516483517, 
-                "languages": 2.0, 
+                "weight": 4.545454545454546, 
+                "id": "burn (vb intrans)", 
                 "families": 2.0, 
-                "id": "light, kindle, ignite"
+                "languages": 2.0
             }, 
             {
-                "weight": 450.57471264367814, 
-                "languages": 10.0, 
+                "weight": 56.32183908045977, 
+                "id": "burn (vb trans)", 
                 "families": 7.0, 
-                "id": "burn (vb trans)"
+                "languages": 10.0
             }
         ], 
         [
             {
-                "weight": 36.36363636363637, 
-                "languages": 2.0, 
+                "weight": 4.395604395604396, 
+                "id": "arson", 
                 "families": 2.0, 
-                "id": "arson"
+                "languages": 2.0
             }, 
             {
-                "weight": 107.56302521008404, 
-                "languages": 6.0, 
+                "weight": 13.445378151260504, 
+                "id": "burn (vb intrans)", 
                 "families": 4.0, 
-                "id": "light, kindle, ignite"
+                "languages": 6.0
             }, 
             {
-                "weight": 1218.018018018018, 
-                "languages": 35.0, 
-                "families": 13.0, 
-                "id": "burn (vb trans)"
-            }
-        ], 
-        [
-            {
-                "weight": 107.56302521008404, 
-                "languages": 6.0, 
-                "families": 4.0, 
-                "id": "burn (vb intrans)"
-            }, 
-            {
-                "weight": 35.16483516483517, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "arson"
-            }, 
-            {
-                "weight": 1845.045045045045, 
-                "languages": 31.0, 
+                "weight": 230.63063063063063, 
+                "id": "burn (vb trans)", 
                 "families": 16.0, 
-                "id": "burn (vb trans)"
+                "languages": 31.0
             }
         ], 
         [
             {
-                "weight": 450.57471264367814, 
-                "languages": 10.0, 
+                "weight": 4.545454545454546, 
+                "id": "arson", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 13.445378151260504, 
+                "id": "light, kindle, ignite", 
+                "families": 4.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 152.25225225225225, 
+                "id": "burn (vb trans)", 
+                "families": 13.0, 
+                "languages": 35.0
+            }
+        ], 
+        [
+            {
+                "weight": 56.32183908045977, 
+                "id": "arson", 
                 "families": 7.0, 
-                "id": "arson"
+                "languages": 10.0
             }, 
             {
-                "weight": 1218.018018018018, 
-                "languages": 35.0, 
-                "families": 13.0, 
-                "id": "burn (vb intrans)"
-            }, 
-            {
-                "weight": 1845.045045045045, 
-                "languages": 31.0, 
+                "weight": 230.63063063063063, 
+                "id": "light, kindle, ignite", 
                 "families": 16.0, 
-                "id": "light, kindle, ignite"
+                "languages": 31.0
+            }, 
+            {
+                "weight": 152.25225225225225, 
+                "id": "burn (vb intrans)", 
+                "families": 13.0, 
+                "languages": 35.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 104, 
+            "id": "arson", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.46", 
+            "out_edge": []
+        }, 
+        {
+            "community": 104, 
+            "id": "light, kindle, ignite", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.86", 
+            "out_edge": []
+        }, 
+        {
+            "community": 104, 
+            "id": "burn (vb intrans)", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "1.852", 
+            "out_edge": []
+        }, 
+        {
+            "community": 104, 
+            "id": "burn (vb trans)", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "1.851", 
+            "out_edge": [
+                [
+                    "cluster_105_boil (vb)", 
+                    "roast, fry", 
+                    8.0, 
+                    54.700854700854705
+                ], 
+                [
+                    "cluster_105_boil (vb)", 
+                    "cook", 
+                    4.0, 
+                    13.223140495867769
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

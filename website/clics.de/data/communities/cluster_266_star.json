@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "1.54", 
-            "body_part": 0, 
-            "community": 266, 
-            "id": "star", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "3.91", 
-            "body_part": 0, 
-            "community": 266, 
-            "id": "firefly", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 30.18867924528302, 
-                "languages": 2.0, 
+                "weight": 3.7735849056603774, 
+                "id": "firefly", 
                 "families": 2.0, 
-                "id": "firefly"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 30.18867924528302, 
-                "languages": 2.0, 
+                "weight": 3.7735849056603774, 
+                "id": "star", 
                 "families": 2.0, 
-                "id": "star"
+                "languages": 2.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 266, 
+            "id": "star", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "1.54", 
+            "out_edge": []
+        }, 
+        {
+            "community": 266, 
+            "id": "firefly", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.91", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

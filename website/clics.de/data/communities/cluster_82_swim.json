@@ -1,0 +1,138 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 86.95652173913044, 
+                "id": "bathe", 
+                "families": 10.0, 
+                "languages": 18.0
+            }
+        ], 
+        [
+            {
+                "weight": 61.25000000000001, 
+                "id": "sail (vb)", 
+                "families": 7.0, 
+                "languages": 15.0
+            }, 
+            {
+                "weight": 3.4782608695652173, 
+                "id": "bathe", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 220.58823529411765, 
+                "id": "swim", 
+                "families": 15.0, 
+                "languages": 45.0
+            }
+        ], 
+        [
+            {
+                "weight": 61.25000000000001, 
+                "id": "float", 
+                "families": 7.0, 
+                "languages": 15.0
+            }, 
+            {
+                "weight": 28.08988764044944, 
+                "id": "swim", 
+                "families": 5.0, 
+                "languages": 13.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "id": "float", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 86.95652173913044, 
+                "id": "wash", 
+                "families": 10.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "id": "swim", 
+                "families": 8.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 220.58823529411765, 
+                "id": "float", 
+                "families": 15.0, 
+                "languages": 45.0
+            }, 
+            {
+                "weight": 28.08988764044944, 
+                "id": "sail (vb)", 
+                "families": 5.0, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "id": "bathe", 
+                "families": 8.0, 
+                "languages": 10.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 82, 
+            "id": "wash", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.36", 
+            "out_edge": []
+        }, 
+        {
+            "community": 82, 
+            "id": "float", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.34", 
+            "out_edge": [
+                [
+                    "cluster_80_run", 
+                    "flow", 
+                    5.0, 
+                    22.727272727272727
+                ]
+            ]
+        }, 
+        {
+            "community": 82, 
+            "id": "sail (vb)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.36", 
+            "out_edge": []
+        }, 
+        {
+            "community": 82, 
+            "id": "bathe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.69", 
+            "out_edge": []
+        }, 
+        {
+            "community": 82, 
+            "id": "swim", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "10.35", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

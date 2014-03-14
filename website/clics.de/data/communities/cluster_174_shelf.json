@@ -1,138 +1,138 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1.282051282051282, 
+                "id": "chair", 
+                "families": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 67.12328767123287, 
+                "id": "table", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 48.0, 
+                "id": "shelf", 
+                "families": 6.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 67.12328767123287, 
+                "id": "board", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 9.782608695652174, 
+                "id": "chair", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 12.162162162162163, 
+                "id": "shelf", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.282051282051282, 
+                "id": "anvil", 
+                "families": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 9.782608695652174, 
+                "id": "table", 
+                "families": 3.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 4.25531914893617, 
+                "id": "shelf", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 48.0, 
+                "id": "board", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 4.25531914893617, 
+                "id": "chair", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 12.162162162162163, 
+                "id": "table", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "9.62", 
-            "body_part": 0, 
             "community": 174, 
             "id": "anvil", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.62", 
+            "out_edge": []
         }, 
         {
-            "key": "7.47", 
-            "body_part": 0, 
-            "community": 174, 
-            "id": "shelf", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "7.57", 
-            "body_part": 0, 
             "community": 174, 
             "id": "board", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.57", 
             "out_edge": [
                 [
                     "cluster_4_tree", 
                     "wood", 
                     9.0, 
-                    712.0879120879121
+                    89.01098901098901
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "7.43", 
-            "body_part": 0, 
-            "community": 174, 
-            "id": "chair", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "7.44", 
-            "body_part": 0, 
             "community": 174, 
             "id": "table", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.44", 
+            "out_edge": []
+        }, 
+        {
+            "community": 174, 
+            "id": "chair", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.43", 
+            "out_edge": []
+        }, 
+        {
+            "community": 174, 
+            "id": "shelf", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.47", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 10.256410256410255, 
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "chair"
-            }
-        ], 
-        [
-            {
-                "weight": 384.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "board"
-            }, 
-            {
-                "weight": 34.04255319148936, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "chair"
-            }, 
-            {
-                "weight": 97.2972972972973, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "table"
-            }
-        ], 
-        [
-            {
-                "weight": 384.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "shelf"
-            }, 
-            {
-                "weight": 536.986301369863, 
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "table"
-            }
-        ], 
-        [
-            {
-                "weight": 10.256410256410255, 
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "anvil"
-            }, 
-            {
-                "weight": 34.04255319148936, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "shelf"
-            }, 
-            {
-                "weight": 78.26086956521739, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "table"
-            }
-        ], 
-        [
-            {
-                "weight": 97.2972972972973, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "shelf"
-            }, 
-            {
-                "weight": 536.986301369863, 
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "board"
-            }, 
-            {
-                "weight": 78.26086956521739, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "chair"
-            }
-        ]
-    ], 
     "directed": false
 }

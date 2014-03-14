@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "6.96", 
-            "body_part": 0, 
-            "community": 183, 
-            "id": "mirror", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.74", 
-            "body_part": 0, 
-            "community": 183, 
-            "id": "glass", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 2177.777777777778, 
-                "languages": 26.0, 
+                "weight": 272.22222222222223, 
+                "id": "glass", 
                 "families": 14.0, 
-                "id": "glass"
+                "languages": 26.0
             }
         ], 
         [
             {
-                "weight": 2177.777777777778, 
-                "languages": 26.0, 
+                "weight": 272.22222222222223, 
+                "id": "mirror", 
                 "families": 14.0, 
-                "id": "mirror"
+                "languages": 26.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 183, 
+            "id": "mirror", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.96", 
+            "out_edge": []
+        }, 
+        {
+            "community": 183, 
+            "id": "glass", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.74", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

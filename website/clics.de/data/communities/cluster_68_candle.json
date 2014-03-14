@@ -1,262 +1,262 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.9523809523809524, 
+                "id": "match (noun)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.669724770642202, 
+                "id": "lamp, torch", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 243.80952380952382, 
+                "id": "fire", 
+                "families": 16.0, 
+                "languages": 29.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9708737864077669, 
+                "id": "lamp, torch", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 10.0, 
+                "id": "earwax", 
+                "families": 3.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 28.735632183908045, 
+                "id": "candle", 
+                "families": 5.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 15.686274509803921, 
+                "id": "fire", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 142.35294117647058, 
+                "id": "lamp, torch", 
+                "families": 11.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 1.1904761904761905, 
+                "id": "earwax", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1111111111111112, 
+                "id": "match (noun)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 28.735632183908045, 
+                "id": "beeswax", 
+                "families": 5.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 243.80952380952382, 
+                "id": "flame (noun)", 
+                "families": 16.0, 
+                "languages": 29.0
+            }, 
+            {
+                "weight": 32.142857142857146, 
+                "id": "lamp, torch", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 15.686274509803921, 
+                "id": "candle", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 23.14814814814815, 
+                "id": "match (noun)", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9523809523809524, 
+                "id": "flame (noun)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "lamp, torch", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1111111111111112, 
+                "id": "candle", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 23.14814814814815, 
+                "id": "fire", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.669724770642202, 
+                "id": "flame (noun)", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "match (noun)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9708737864077669, 
+                "id": "beeswax", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 142.35294117647058, 
+                "id": "candle", 
+                "families": 11.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 32.142857142857146, 
+                "id": "fire", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "id": "beeswax", 
+                "families": 3.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 1.1904761904761905, 
+                "id": "candle", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "7.46", 
+            "community": 68, 
+            "id": "flame (noun)", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.82", 
+            "out_edge": []
+        }, 
+        {
+            "community": 68, 
+            "id": "beeswax", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.821", 
+            "out_edge": []
+        }, 
+        {
             "community": 68, 
             "id": "candle", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.46", 
             "out_edge": [
                 [
                     "cluster_22_white", 
                     "light (noun)", 
                     4.0, 
-                    128.0
+                    16.0
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "1.82", 
-            "body_part": 0, 
-            "community": 68, 
-            "id": "flame (noun)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.81", 
-            "body_part": 0, 
             "community": 68, 
             "id": "fire", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "1.81", 
             "out_edge": [
                 [
                     "cluster_4_tree", 
                     "firewood", 
                     10.0, 
-                    677.9661016949152
+                    84.7457627118644
                 ], 
                 [
                     "cluster_22_white", 
                     "light (noun)", 
                     9.0, 
-                    553.8461538461538
+                    69.23076923076923
                 ]
-            ], 
-            "swadesh100": 1
+            ]
         }, 
         {
-            "key": "4.222", 
-            "body_part": 1, 
             "community": 68, 
-            "id": "earwax", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "match (noun)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "1.87", 
+            "out_edge": []
         }, 
         {
-            "key": "3.821", 
-            "body_part": 0, 
-            "community": 68, 
-            "id": "beeswax", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "7.45", 
-            "body_part": 0, 
             "community": 68, 
             "id": "lamp, torch", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "7.45", 
             "out_edge": [
                 [
                     "cluster_22_white", 
                     "light (noun)", 
                     9.0, 
-                    605.607476635514
+                    75.70093457943925
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "1.87", 
-            "body_part": 0, 
             "community": 68, 
-            "id": "match (noun)", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "earwax", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.222", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 8.88888888888889, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "match (noun)"
-            }, 
-            {
-                "weight": 9.523809523809524, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "earwax"
-            }, 
-            {
-                "weight": 229.88505747126436, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "beeswax"
-            }, 
-            {
-                "weight": 1138.8235294117646, 
-                "languages": 12.0, 
-                "families": 11.0, 
-                "id": "lamp, torch"
-            }, 
-            {
-                "weight": 125.49019607843137, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "fire"
-            }
-        ], 
-        [
-            {
-                "weight": 7.6190476190476195, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "match (noun)"
-            }, 
-            {
-                "weight": 29.357798165137616, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "lamp, torch"
-            }, 
-            {
-                "weight": 1950.4761904761906, 
-                "languages": 29.0, 
-                "families": 16.0, 
-                "id": "fire"
-            }
-        ], 
-        [
-            {
-                "weight": 125.49019607843137, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "candle"
-            }, 
-            {
-                "weight": 1950.4761904761906, 
-                "languages": 29.0, 
-                "families": 16.0, 
-                "id": "flame (noun)"
-            }, 
-            {
-                "weight": 257.14285714285717, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "lamp, torch"
-            }, 
-            {
-                "weight": 185.1851851851852, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "match (noun)"
-            }
-        ], 
-        [
-            {
-                "weight": 9.523809523809524, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "candle"
-            }, 
-            {
-                "weight": 80.0, 
-                "languages": 10.0, 
-                "families": 3.0, 
-                "id": "beeswax"
-            }
-        ], 
-        [
-            {
-                "weight": 229.88505747126436, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "candle"
-            }, 
-            {
-                "weight": 80.0, 
-                "languages": 10.0, 
-                "families": 3.0, 
-                "id": "earwax"
-            }, 
-            {
-                "weight": 7.766990291262135, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lamp, torch"
-            }
-        ], 
-        [
-            {
-                "weight": 7.766990291262135, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "beeswax"
-            }, 
-            {
-                "weight": 1138.8235294117646, 
-                "languages": 12.0, 
-                "families": 11.0, 
-                "id": "candle"
-            }, 
-            {
-                "weight": 29.357798165137616, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "flame (noun)"
-            }, 
-            {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "match (noun)"
-            }, 
-            {
-                "weight": 257.14285714285717, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "fire"
-            }
-        ], 
-        [
-            {
-                "weight": 8.88888888888889, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "candle"
-            }, 
-            {
-                "weight": 7.6190476190476195, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "flame (noun)"
-            }, 
-            {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lamp, torch"
-            }, 
-            {
-                "weight": 185.1851851851852, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "fire"
-            }
-        ]
-    ], 
     "directed": false
 }

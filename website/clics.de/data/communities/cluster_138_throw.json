@@ -1,140 +1,140 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 30.76923076923077, 
+                "id": "hunt", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 15.384615384615385, 
+                "id": "divorce", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 89.28571428571429, 
+                "id": "shoot", 
+                "families": 10.0, 
+                "languages": 19.0
+            }
+        ], 
+        [
+            {
+                "weight": 30.76923076923077, 
+                "id": "seek, look for", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 21.367521367521366, 
+                "id": "shoot", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 15.384615384615385, 
+                "id": "throw", 
+                "families": 4.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 89.28571428571429, 
+                "id": "throw", 
+                "families": 10.0, 
+                "languages": 19.0
+            }, 
+            {
+                "weight": 21.367521367521366, 
+                "id": "hunt", 
+                "families": 5.0, 
+                "languages": 5.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "11.31", 
-            "body_part": 0, 
             "community": 138, 
             "id": "seek, look for", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "11.31", 
+            "out_edge": []
         }, 
         {
-            "key": "10.25", 
-            "body_part": 0, 
             "community": 138, 
             "id": "throw", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.25", 
             "out_edge": [
                 [
                     "cluster_31_sow", 
                     "sow", 
                     4.0, 
-                    128.0
+                    16.0
                 ], 
                 [
                     "cluster_9_cut", 
                     "cut down", 
                     4.0, 
-                    110.34482758620689
+                    13.793103448275861
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "20.61", 
-            "body_part": 0, 
             "community": 138, 
             "id": "hunt", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.61", 
             "out_edge": [
                 [
-                    "cluster_167_pursue", 
+                    "cluster_167_follow", 
                     "pursue", 
                     4.0, 
-                    114.28571428571428
+                    14.285714285714285
                 ], 
                 [
                     "cluster_3_get, obtain", 
                     "seize, grasp", 
                     4.0, 
-                    108.47457627118644
+                    13.559322033898304
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "20.62", 
+            "community": 138, 
+            "id": "divorce", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.341", 
+            "out_edge": []
+        }, 
+        {
             "community": 138, 
             "id": "shoot", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.62", 
             "out_edge": [
                 [
                     "cluster_85_strike (hit, beat)", 
                     "strike (hit, beat)", 
                     5.0, 
-                    172.41379310344826
+                    21.551724137931032
                 ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "2.341", 
-            "body_part": 0, 
-            "community": 138, 
-            "id": "divorce", 
-            "out_edge": [], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 246.15384615384616, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "hunt"
-            }
-        ], 
-        [
-            {
-                "weight": 714.2857142857143, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "shoot"
-            }, 
-            {
-                "weight": 123.07692307692308, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "divorce"
-            }
-        ], 
-        [
-            {
-                "weight": 246.15384615384616, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "seek, look for"
-            }, 
-            {
-                "weight": 170.94017094017093, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "shoot"
-            }
-        ], 
-        [
-            {
-                "weight": 714.2857142857143, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "throw"
-            }, 
-            {
-                "weight": 170.94017094017093, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "hunt"
-            }
-        ], 
-        [
-            {
-                "weight": 123.07692307692308, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "throw"
-            }
-        ]
-    ], 
     "directed": false
 }

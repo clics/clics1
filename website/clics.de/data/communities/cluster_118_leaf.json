@@ -1,110 +1,110 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 7.6923076923076925, 
+                "id": "leaf", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 7.6923076923076925, 
+                "id": "tobacco", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.9523809523809524, 
+                "id": "book", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 33.9622641509434, 
+                "id": "paper", 
+                "families": 6.0, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 33.9622641509434, 
+                "id": "leaf", 
+                "families": 6.0, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 691.4285714285714, 
+                "id": "book", 
+                "families": 22.0, 
+                "languages": 32.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9523809523809524, 
+                "id": "leaf", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 691.4285714285714, 
+                "id": "paper", 
+                "families": 22.0, 
+                "languages": 32.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "8.68", 
-            "body_part": 0, 
             "community": 118, 
             "id": "tobacco", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.68", 
+            "out_edge": []
         }, 
         {
-            "key": "18.56", 
-            "body_part": 0, 
-            "community": 118, 
-            "id": "paper", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.56", 
-            "body_part": 0, 
             "community": 118, 
             "id": "leaf", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "8.56", 
             "out_edge": [
                 [
                     "cluster_1_fur", 
                     "feather", 
                     5.0, 
-                    165.28925619834712
+                    20.66115702479339
                 ], 
                 [
                     "cluster_1_fur", 
                     "hair (head)", 
                     4.0, 
-                    104.91803278688525
+                    13.114754098360656
                 ]
-            ], 
-            "swadesh100": 1
+            ]
         }, 
         {
-            "key": "18.61", 
+            "community": 118, 
+            "id": "paper", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.56", 
+            "out_edge": []
+        }, 
+        {
             "community": 118, 
             "id": "book", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "18.61", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 61.53846153846154, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "leaf"
-            }
-        ], 
-        [
-            {
-                "weight": 5531.428571428572, 
-                "languages": 32.0, 
-                "families": 22.0, 
-                "id": "book"
-            }, 
-            {
-                "weight": 271.6981132075472, 
-                "languages": 10.0, 
-                "families": 6.0, 
-                "id": "leaf"
-            }
-        ], 
-        [
-            {
-                "weight": 61.53846153846154, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "tobacco"
-            }, 
-            {
-                "weight": 271.6981132075472, 
-                "languages": 10.0, 
-                "families": 6.0, 
-                "id": "paper"
-            }, 
-            {
-                "weight": 7.6190476190476195, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "book"
-            }
-        ], 
-        [
-            {
-                "weight": 5531.428571428572, 
-                "languages": 32.0, 
-                "families": 22.0, 
-                "id": "paper"
-            }, 
-            {
-                "weight": 7.6190476190476195, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "leaf"
-            }
-        ]
-    ], 
     "directed": false
 }

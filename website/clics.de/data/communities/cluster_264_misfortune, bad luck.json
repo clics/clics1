@@ -1,41 +1,41 @@
 {
-    "nodes": [
-        {
-            "key": "16.19", 
-            "body_part": 0, 
-            "community": 264, 
-            "id": "misfortune, bad luck", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.18", 
-            "body_part": 0, 
-            "community": 264, 
-            "id": "good fortune, luck", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 97.2972972972973, 
-                "languages": 3.0, 
+                "weight": 12.162162162162163, 
+                "id": "good fortune, luck", 
                 "families": 3.0, 
-                "id": "good fortune, luck"
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 97.2972972972973, 
-                "languages": 3.0, 
+                "weight": 12.162162162162163, 
+                "id": "misfortune, bad luck", 
                 "families": 3.0, 
-                "id": "misfortune, bad luck"
+                "languages": 3.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 264, 
+            "id": "misfortune, bad luck", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "16.19", 
+            "out_edge": []
+        }, 
+        {
+            "community": 264, 
+            "id": "good fortune, luck", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "16.18", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

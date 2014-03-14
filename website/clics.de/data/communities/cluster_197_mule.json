@@ -1,0 +1,194 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 2.0, 
+                "id": "camel", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 15.517241379310345, 
+                "id": "ass, donkey", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 1.098901098901099, 
+                "id": "tail", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.098901098901099, 
+                "id": "penis", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8264462809917356, 
+                "id": "penis", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.098901098901099, 
+                "id": "mule", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "id": "dove", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.225806451612903, 
+                "id": "tail", 
+                "families": 2.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "id": "ass, donkey", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 2.0, 
+                "id": "mule", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 15.517241379310345, 
+                "id": "mule", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "id": "tail", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "id": "penis", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.098901098901099, 
+                "id": "mule", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "id": "deer", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "id": "ass, donkey", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.225806451612903, 
+                "id": "penis", 
+                "families": 2.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8403361344537815, 
+                "id": "tail", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 197, 
+            "id": "mule", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.47", 
+            "out_edge": []
+        }, 
+        {
+            "community": 197, 
+            "id": "dove", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.594", 
+            "out_edge": []
+        }, 
+        {
+            "community": 197, 
+            "id": "penis", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.492", 
+            "out_edge": [
+                [
+                    "cluster_37_fowl", 
+                    "bird", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ]
+        }, 
+        {
+            "community": 197, 
+            "id": "camel", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.78", 
+            "out_edge": []
+        }, 
+        {
+            "community": 197, 
+            "id": "ass, donkey", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.46", 
+            "out_edge": []
+        }, 
+        {
+            "community": 197, 
+            "id": "tail", 
+            "body_part": 1, 
+            "swadesh100": 1, 
+            "key": "4.18", 
+            "out_edge": []
+        }, 
+        {
+            "community": 197, 
+            "id": "deer", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "3.75", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

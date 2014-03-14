@@ -1,100 +1,100 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 30.0, 
+                "id": "large, big", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 21.1864406779661, 
+                "id": "wide, broad", 
+                "families": 5.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 30.0, 
+                "id": "thick (in dimension)", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 106.14035087719299, 
+                "id": "wide, broad", 
+                "families": 11.0, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 21.1864406779661, 
+                "id": "thick (in dimension)", 
+                "families": 5.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 106.14035087719299, 
+                "id": "large, big", 
+                "families": 11.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "id": "wide, broad", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "12.63", 
-            "body_part": 0, 
             "community": 188, 
             "id": "thick (in dimension)", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.63", 
+            "out_edge": []
         }, 
         {
-            "key": "12.55", 
-            "body_part": 0, 
             "community": 188, 
             "id": "large, big", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "12.55", 
             "out_edge": [
                 [
                     "cluster_17_tall", 
                     "tall", 
                     9.0, 
-                    558.6206896551724
+                    69.82758620689656
                 ], 
                 [
                     "cluster_17_tall", 
                     "high", 
                     7.0, 
-                    332.20338983050846
+                    41.52542372881356
                 ], 
                 [
                     "cluster_77_enough", 
                     "much, many", 
                     5.0, 
-                    162.60162601626016
+                    20.32520325203252
                 ]
-            ], 
-            "swadesh100": 1
+            ]
         }, 
         {
-            "key": "12.61", 
-            "body_part": 0, 
             "community": 188, 
             "id": "wide, broad", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.61", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 240.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "large, big"
-            }, 
-            {
-                "weight": 169.4915254237288, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "wide, broad"
-            }
-        ], 
-        [
-            {
-                "weight": 240.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "thick (in dimension)"
-            }, 
-            {
-                "weight": 849.1228070175439, 
-                "languages": 12.0, 
-                "families": 11.0, 
-                "id": "wide, broad"
-            }
-        ], 
-        [
-            {
-                "weight": 169.4915254237288, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "id": "thick (in dimension)"
-            }, 
-            {
-                "weight": 849.1228070175439, 
-                "languages": 12.0, 
-                "families": 11.0, 
-                "id": "large, big"
-            }, 
-            {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "wide, broad"
-            }
-        ]
-    ], 
     "directed": false
 }

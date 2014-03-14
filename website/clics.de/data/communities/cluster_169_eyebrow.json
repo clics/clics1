@@ -1,0 +1,75 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "id": "eyelid", 
+                "families": 2.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 90.09009009009009, 
+                "id": "eyelash", 
+                "families": 10.0, 
+                "languages": 15.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "id": "eyebrow", 
+                "families": 2.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 44.14414414414414, 
+                "id": "eyelash", 
+                "families": 7.0, 
+                "languages": 17.0
+            }
+        ], 
+        [
+            {
+                "weight": 90.09009009009009, 
+                "id": "eyebrow", 
+                "families": 10.0, 
+                "languages": 15.0
+            }, 
+            {
+                "weight": 44.14414414414414, 
+                "id": "eyelid", 
+                "families": 7.0, 
+                "languages": 17.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 169, 
+            "id": "eyebrow", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.212", 
+            "out_edge": []
+        }, 
+        {
+            "community": 169, 
+            "id": "eyelid", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.213", 
+            "out_edge": []
+        }, 
+        {
+            "community": 169, 
+            "id": "eyelash", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.214", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

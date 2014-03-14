@@ -1,100 +1,100 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 13.91304347826087, 
+                "id": "marry", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 0.9900990099009901, 
+                "id": "marriage, wedding", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 13.91304347826087, 
+                "id": "have sexual intercourse", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 0.8547008547008548, 
+                "id": "marry", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 88.04347826086956, 
+                "id": "marriage, wedding", 
+                "families": 9.0, 
+                "languages": 13.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9900990099009901, 
+                "id": "have sexual intercourse", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 88.04347826086956, 
+                "id": "marry", 
+                "families": 9.0, 
+                "languages": 13.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "2.33", 
+            "community": 211, 
+            "id": "have sexual intercourse", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.67", 
+            "out_edge": []
+        }, 
+        {
             "community": 211, 
             "id": "marry", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.33", 
             "out_edge": [
                 [
-                    "cluster_5_husband", 
+                    "cluster_5_man (vs. woman)", 
                     "married man", 
                     5.0, 
-                    196.078431372549
+                    24.509803921568626
                 ], 
                 [
                     "cluster_3_get, obtain", 
                     "take", 
                     5.0, 
-                    173.91304347826087
+                    21.73913043478261
                 ], 
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     4.0, 
-                    116.36363636363636
+                    14.545454545454545
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "2.34", 
-            "body_part": 0, 
             "community": 211, 
             "id": "marriage, wedding", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.67", 
             "body_part": 0, 
-            "community": 211, 
-            "id": "have sexual intercourse", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "swadesh100": 0, 
+            "key": "2.34", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 111.30434782608695, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "have sexual intercourse"
-            }, 
-            {
-                "weight": 704.3478260869565, 
-                "languages": 13.0, 
-                "families": 9.0, 
-                "id": "marriage, wedding"
-            }, 
-            {
-                "weight": 6.837606837606838, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "marry"
-            }
-        ], 
-        [
-            {
-                "weight": 704.3478260869565, 
-                "languages": 13.0, 
-                "families": 9.0, 
-                "id": "marry"
-            }, 
-            {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "have sexual intercourse"
-            }
-        ], 
-        [
-            {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "marriage, wedding"
-            }, 
-            {
-                "weight": 111.30434782608695, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "marry"
-            }
-        ]
-    ], 
     "directed": false
 }

@@ -1,55 +1,55 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1475.9036144578313, 
+                "id": "path", 
+                "families": 35.0, 
+                "languages": 70.0
+            }
+        ], 
+        [
+            {
+                "weight": 1475.9036144578313, 
+                "id": "road", 
+                "families": 35.0, 
+                "languages": 70.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "10.71", 
-            "body_part": 0, 
             "community": 120, 
             "id": "road", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "10.71", 
             "out_edge": [
                 [
                     "cluster_182_custom", 
                     "way, manner", 
                     5.0, 
-                    215.0537634408602
+                    26.881720430107524
                 ]
-            ], 
-            "swadesh100": 1
+            ]
         }, 
         {
-            "key": "10.72", 
-            "body_part": 0, 
             "community": 120, 
             "id": "path", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.72", 
             "out_edge": [
                 [
-                    "cluster_253_window", 
+                    "cluster_253_door, gate", 
                     "door, gate", 
                     4.0, 
-                    113.27433628318585
+                    14.15929203539823
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 11807.22891566265, 
-                "languages": 70.0, 
-                "families": 35.0, 
-                "id": "path"
-            }
-        ], 
-        [
-            {
-                "weight": 11807.22891566265, 
-                "languages": 70.0, 
-                "families": 35.0, 
-                "id": "road"
-            }
-        ]
-    ], 
     "directed": false
 }

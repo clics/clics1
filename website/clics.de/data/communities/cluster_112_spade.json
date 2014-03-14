@@ -1,0 +1,88 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 76.5625, 
+                "id": "hoe", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 549.1525423728813, 
+                "id": "shovel", 
+                "families": 18.0, 
+                "languages": 61.0
+            }
+        ], 
+        [
+            {
+                "weight": 549.1525423728813, 
+                "id": "spade", 
+                "families": 18.0, 
+                "languages": 61.0
+            }, 
+            {
+                "weight": 11.688311688311687, 
+                "id": "hoe", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 76.5625, 
+                "id": "spade", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 11.688311688311687, 
+                "id": "shovel", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 112, 
+            "id": "spade", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.23", 
+            "out_edge": [
+                [
+                    "cluster_134_oar", 
+                    "paddle (noun)", 
+                    4.0, 
+                    20.0
+                ], 
+                [
+                    "cluster_157_shoulder", 
+                    "shoulderblade", 
+                    4.0, 
+                    19.753086419753085
+                ]
+            ]
+        }, 
+        {
+            "community": 112, 
+            "id": "shovel", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.24", 
+            "out_edge": []
+        }, 
+        {
+            "community": 112, 
+            "id": "hoe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "8.25", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

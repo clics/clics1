@@ -1,60 +1,60 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8, 
+                "id": "one", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 69.23076923076923, 
+                "id": "alone, only", 
+                "families": 9.0, 
+                "languages": 32.0
+            }
+        ], 
+        [
+            {
+                "weight": 69.23076923076923, 
+                "id": "one", 
+                "families": 9.0, 
+                "languages": 32.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "13.33", 
-            "body_part": 0, 
-            "community": 236, 
-            "id": "alone, only", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "13.1", 
-            "body_part": 0, 
             "community": 236, 
             "id": "one", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "13.1", 
             "out_edge": [
                 [
                     "cluster_99_some", 
                     "some", 
                     4.0, 
-                    112.28070175438596
+                    14.035087719298245
                 ], 
                 [
                     "cluster_99_some", 
                     "little (quantity), few", 
                     4.0, 
-                    105.78512396694215
+                    13.223140495867769
                 ]
-            ], 
-            "swadesh100": 1
+            ]
+        }, 
+        {
+            "community": 236, 
+            "id": "alone, only", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "13.33", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 553.8461538461538, 
-                "languages": 32.0, 
-                "families": 9.0, 
-                "id": "one"
-            }
-        ], 
-        [
-            {
-                "weight": 553.8461538461538, 
-                "languages": 32.0, 
-                "families": 9.0, 
-                "id": "alone, only"
-            }, 
-            {
-                "weight": 6.4, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "one"
-            }
-        ]
-    ], 
     "directed": false
 }

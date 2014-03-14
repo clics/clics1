@@ -1,0 +1,236 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 55.68181818181818, 
+                "id": "under", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 1.0309278350515463, 
+                "id": "inside, in", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "low", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 39.130434782608695, 
+                "id": "down, below", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 663.013698630137, 
+                "id": "under", 
+                "families": 22.0, 
+                "languages": 68.0
+            }, 
+            {
+                "weight": 39.130434782608695, 
+                "id": "inside, in", 
+                "families": 6.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 158.24175824175825, 
+                "id": "low", 
+                "families": 12.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 0.9900990099009901, 
+                "id": "shallow", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 64.64646464646465, 
+                "id": "low", 
+                "families": 8.0, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 0.9900990099009901, 
+                "id": "down, below", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.571428571428571, 
+                "id": "short", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 55.68181818181818, 
+                "id": "inside, in", 
+                "families": 7.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 52.68817204301075, 
+                "id": "low", 
+                "families": 7.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 663.013698630137, 
+                "id": "down, below", 
+                "families": 22.0, 
+                "languages": 68.0
+            }
+        ], 
+        [
+            {
+                "weight": 52.68817204301075, 
+                "id": "under", 
+                "families": 7.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "inside, in", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 334.02061855670104, 
+                "id": "short", 
+                "families": 18.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 158.24175824175825, 
+                "id": "down, below", 
+                "families": 12.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 64.64646464646465, 
+                "id": "shallow", 
+                "families": 8.0, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 334.02061855670104, 
+                "id": "low", 
+                "families": 18.0, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 3.571428571428571, 
+                "id": "shallow", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 36, 
+            "id": "inside, in", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.5", 
+            "out_edge": []
+        }, 
+        {
+            "community": 36, 
+            "id": "down, below", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.3", 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    5.0, 
+                    24.752475247524753
+                ]
+            ]
+        }, 
+        {
+            "community": 36, 
+            "id": "shallow", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.68", 
+            "out_edge": [
+                [
+                    "cluster_171_thin (in dimension)", 
+                    "thin (in dimension)", 
+                    5.0, 
+                    22.727272727272727
+                ]
+            ]
+        }, 
+        {
+            "community": 36, 
+            "id": "under", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.7", 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    5.0, 
+                    25.510204081632654
+                ]
+            ]
+        }, 
+        {
+            "community": 36, 
+            "id": "low", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.32", 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    6.0, 
+                    34.285714285714285
+                ], 
+                [
+                    "cluster_99_some", 
+                    "small, little", 
+                    5.0, 
+                    22.123893805309734
+                ]
+            ]
+        }, 
+        {
+            "community": 36, 
+            "id": "short", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.59", 
+            "out_edge": [
+                [
+                    "cluster_99_some", 
+                    "small, little", 
+                    7.0, 
+                    41.52542372881356
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

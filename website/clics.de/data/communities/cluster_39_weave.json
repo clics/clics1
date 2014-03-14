@@ -1,153 +1,153 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1361.25, 
+                "id": "weave, plait", 
+                "families": 33.0, 
+                "languages": 86.0
+            }, 
+            {
+                "weight": 60.952380952380956, 
+                "id": "braid", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 13.675213675213676, 
+                "id": "sew", 
+                "families": 4.0, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 1361.25, 
+                "id": "weave", 
+                "families": 33.0, 
+                "languages": 86.0
+            }, 
+            {
+                "weight": 236.84210526315786, 
+                "id": "braid", 
+                "families": 15.0, 
+                "languages": 35.0
+            }, 
+            {
+                "weight": 14.035087719298245, 
+                "id": "sew", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 60.952380952380956, 
+                "id": "weave", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 236.84210526315786, 
+                "id": "weave, plait", 
+                "families": 15.0, 
+                "languages": 35.0
+            }, 
+            {
+                "weight": 0.8547008547008548, 
+                "id": "sew", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 13.675213675213676, 
+                "id": "weave", 
+                "families": 4.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 14.035087719298245, 
+                "id": "weave, plait", 
+                "families": 4.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 0.8547008547008548, 
+                "id": "braid", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "6.33", 
-            "body_part": 0, 
             "community": 39, 
             "id": "weave", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.33", 
             "out_edge": [
                 [
                     "cluster_74_bend", 
                     "spin", 
                     4.0, 
-                    117.43119266055047
+                    14.678899082568808
                 ], 
                 [
                     "cluster_74_bend", 
                     "twist", 
                     4.0, 
-                    115.31531531531532
+                    14.414414414414415
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "9.75", 
-            "body_part": 0, 
             "community": 39, 
             "id": "weave, plait", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.75", 
             "out_edge": [
                 [
                     "cluster_74_bend", 
                     "spin", 
                     8.0, 
-                    501.96078431372547
+                    62.745098039215684
                 ], 
                 [
                     "cluster_74_bend", 
                     "twist", 
                     6.0, 
-                    271.6981132075472
+                    33.9622641509434
                 ], 
                 [
-                    "cluster_33_build", 
+                    "cluster_33_do, make", 
                     "build", 
                     5.0, 
-                    188.67924528301887
+                    23.58490566037736
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "6.921", 
-            "body_part": 0, 
             "community": 39, 
             "id": "braid", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.921", 
+            "out_edge": []
         }, 
         {
-            "key": "6.35", 
-            "body_part": 0, 
             "community": 39, 
             "id": "sew", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "6.35", 
+            "out_edge": []
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 10890.0, 
-                "languages": 86.0, 
-                "families": 33.0, 
-                "id": "weave, plait"
-            }, 
-            {
-                "weight": 487.61904761904765, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "braid"
-            }, 
-            {
-                "weight": 109.40170940170941, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "sew"
-            }
-        ], 
-        [
-            {
-                "weight": 10890.0, 
-                "languages": 86.0, 
-                "families": 33.0, 
-                "id": "weave"
-            }, 
-            {
-                "weight": 1894.736842105263, 
-                "languages": 35.0, 
-                "families": 15.0, 
-                "id": "braid"
-            }, 
-            {
-                "weight": 112.28070175438596, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "sew"
-            }
-        ], 
-        [
-            {
-                "weight": 487.61904761904765, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "weave"
-            }, 
-            {
-                "weight": 1894.736842105263, 
-                "languages": 35.0, 
-                "families": 15.0, 
-                "id": "weave, plait"
-            }, 
-            {
-                "weight": 6.837606837606838, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sew"
-            }
-        ], 
-        [
-            {
-                "weight": 109.40170940170941, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "weave"
-            }, 
-            {
-                "weight": 112.28070175438596, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "weave, plait"
-            }, 
-            {
-                "weight": 6.837606837606838, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "braid"
-            }
-        ]
-    ], 
     "directed": false
 }

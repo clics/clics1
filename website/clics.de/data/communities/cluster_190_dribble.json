@@ -1,0 +1,48 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 247.25274725274727, 
+                "id": "drip", 
+                "families": 15.0, 
+                "languages": 22.0
+            }
+        ], 
+        [
+            {
+                "weight": 247.25274725274727, 
+                "id": "dribble", 
+                "families": 15.0, 
+                "languages": 22.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 190, 
+            "id": "dribble", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.591", 
+            "out_edge": []
+        }, 
+        {
+            "community": 190, 
+            "id": "drip", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.24", 
+            "out_edge": [
+                [
+                    "cluster_141_fall", 
+                    "drop (vb)", 
+                    5.0, 
+                    23.364485981308412
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

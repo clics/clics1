@@ -1,127 +1,127 @@
 {
-    "nodes": [
-        {
-            "key": "2.94", 
-            "body_part": 0, 
-            "community": 87, 
-            "id": "we", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "2.942", 
-            "body_part": 0, 
-            "community": 87, 
-            "id": "we (exclusive)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "2.91", 
-            "body_part": 0, 
-            "community": 87, 
-            "id": "I", 
-            "out_edge": [], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "2.941", 
-            "body_part": 0, 
-            "community": 87, 
-            "id": "we (inclusive)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 7.476635514018691, 
-                "languages": 1.0, 
+                "weight": 406.3492063492063, 
+                "id": "we (inclusive)", 
+                "families": 16.0, 
+                "languages": 67.0
+            }, 
+            {
+                "weight": 487.8378378378378, 
+                "id": "we", 
+                "families": 19.0, 
+                "languages": 75.0
+            }, 
+            {
+                "weight": 9.090909090909092, 
+                "id": "I", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 406.3492063492063, 
+                "id": "we (exclusive)", 
+                "families": 16.0, 
+                "languages": 67.0
+            }, 
+            {
+                "weight": 604.1095890410959, 
+                "id": "we", 
+                "families": 21.0, 
+                "languages": 73.0
+            }, 
+            {
+                "weight": 3.9603960396039604, 
+                "id": "I", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 487.8378378378378, 
+                "id": "we (exclusive)", 
+                "families": 19.0, 
+                "languages": 75.0
+            }, 
+            {
+                "weight": 604.1095890410959, 
+                "id": "we (inclusive)", 
+                "families": 21.0, 
+                "languages": 73.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "id": "we", 
                 "families": 1.0, 
-                "id": "we"
+                "languages": 1.0
             }, 
             {
-                "weight": 3902.7027027027025, 
-                "languages": 75.0, 
-                "families": 19.0, 
-                "id": "we (exclusive)"
-            }, 
-            {
-                "weight": 63.1578947368421, 
-                "languages": 4.0, 
+                "weight": 7.894736842105263, 
+                "id": "I", 
                 "families": 3.0, 
-                "id": "I"
-            }, 
-            {
-                "weight": 4832.876712328767, 
-                "languages": 73.0, 
-                "families": 21.0, 
-                "id": "we (inclusive)"
+                "languages": 4.0
             }
         ], 
         [
             {
-                "weight": 3902.7027027027025, 
-                "languages": 75.0, 
-                "families": 19.0, 
-                "id": "we"
-            }, 
-            {
-                "weight": 72.72727272727273, 
-                "languages": 3.0, 
+                "weight": 9.090909090909092, 
+                "id": "we (exclusive)", 
                 "families": 3.0, 
-                "id": "I"
+                "languages": 3.0
             }, 
             {
-                "weight": 3250.7936507936506, 
-                "languages": 67.0, 
-                "families": 16.0, 
-                "id": "we (inclusive)"
-            }
-        ], 
-        [
-            {
-                "weight": 63.1578947368421, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "we"
-            }, 
-            {
-                "weight": 72.72727272727273, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "we (exclusive)"
-            }, 
-            {
-                "weight": 31.683168316831683, 
-                "languages": 2.0, 
+                "weight": 3.9603960396039604, 
+                "id": "we (inclusive)", 
                 "families": 2.0, 
-                "id": "we (inclusive)"
-            }
-        ], 
-        [
-            {
-                "weight": 4832.876712328767, 
-                "languages": 73.0, 
-                "families": 21.0, 
-                "id": "we"
+                "languages": 2.0
             }, 
             {
-                "weight": 3250.7936507936506, 
-                "languages": 67.0, 
-                "families": 16.0, 
-                "id": "we (exclusive)"
-            }, 
-            {
-                "weight": 31.683168316831683, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "I"
+                "weight": 7.894736842105263, 
+                "id": "we", 
+                "families": 3.0, 
+                "languages": 4.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 87, 
+            "id": "we (exclusive)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.942", 
+            "out_edge": []
+        }, 
+        {
+            "community": 87, 
+            "id": "we (inclusive)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "2.941", 
+            "out_edge": []
+        }, 
+        {
+            "community": 87, 
+            "id": "we", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "2.94", 
+            "out_edge": []
+        }, 
+        {
+            "community": 87, 
+            "id": "I", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "2.91", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

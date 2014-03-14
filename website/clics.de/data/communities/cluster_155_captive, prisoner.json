@@ -1,97 +1,97 @@
 {
-    "nodes": [
-        {
-            "key": "19.43", 
-            "body_part": 0, 
-            "community": 155, 
-            "id": "servant", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "21.39", 
-            "body_part": 0, 
-            "community": 155, 
-            "id": "prison, jail", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.47", 
-            "body_part": 0, 
-            "community": 155, 
-            "id": "captive, prisoner", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.42", 
-            "body_part": 0, 
-            "community": 155, 
-            "id": "slave", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 8.88888888888889, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "captive, prisoner"
-            }, 
-            {
-                "weight": 632.0987654320987, 
-                "languages": 19.0, 
-                "families": 8.0, 
-                "id": "slave"
-            }
-        ], 
-        [
-            {
-                "weight": 235.29411764705884, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "captive, prisoner"
-            }
-        ], 
-        [
-            {
-                "weight": 235.29411764705884, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "prison, jail"
-            }, 
-            {
-                "weight": 8.88888888888889, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "servant"
-            }, 
-            {
-                "weight": 351.219512195122, 
-                "languages": 8.0, 
+                "weight": 43.90243902439025, 
+                "id": "slave", 
                 "families": 6.0, 
-                "id": "slave"
+                "languages": 8.0
+            }, 
+            {
+                "weight": 29.411764705882355, 
+                "id": "prison, jail", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 1.1111111111111112, 
+                "id": "servant", 
+                "families": 1.0, 
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 351.219512195122, 
-                "languages": 8.0, 
+                "weight": 43.90243902439025, 
+                "id": "captive, prisoner", 
                 "families": 6.0, 
-                "id": "captive, prisoner"
+                "languages": 8.0
             }, 
             {
-                "weight": 632.0987654320987, 
-                "languages": 19.0, 
+                "weight": 79.01234567901234, 
+                "id": "servant", 
                 "families": 8.0, 
-                "id": "servant"
+                "languages": 19.0
+            }
+        ], 
+        [
+            {
+                "weight": 29.411764705882355, 
+                "id": "captive, prisoner", 
+                "families": 5.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.1111111111111112, 
+                "id": "captive, prisoner", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 79.01234567901234, 
+                "id": "slave", 
+                "families": 8.0, 
+                "languages": 19.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 155, 
+            "id": "captive, prisoner", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "20.47", 
+            "out_edge": []
+        }, 
+        {
+            "community": 155, 
+            "id": "slave", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.42", 
+            "out_edge": []
+        }, 
+        {
+            "community": 155, 
+            "id": "prison, jail", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.39", 
+            "out_edge": []
+        }, 
+        {
+            "community": 155, 
+            "id": "servant", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.43", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

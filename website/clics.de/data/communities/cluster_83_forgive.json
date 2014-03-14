@@ -1,240 +1,240 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0309278350515463, 
+                "id": "forgive", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "untie", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 21.333333333333336, 
+                "id": "acquit", 
+                "families": 4.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 4.123711340206185, 
+                "id": "let, permit", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.571428571428571, 
+                "id": "release, let go", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 60.37735849056604, 
+                "id": "untie", 
+                "families": 8.0, 
+                "languages": 11.0
+            }
+        ], 
+        [
+            {
+                "weight": 66.66666666666666, 
+                "id": "let, permit", 
+                "families": 8.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 3.571428571428571, 
+                "id": "open", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 31.645569620253166, 
+                "id": "acquit", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 102.04081632653062, 
+                "id": "untie", 
+                "families": 10.0, 
+                "languages": 14.0
+            }
+        ], 
+        [
+            {
+                "weight": 66.66666666666666, 
+                "id": "release, let go", 
+                "families": 8.0, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 4.123711340206185, 
+                "id": "forgive", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.2658227848101267, 
+                "id": "acquit", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 102.04081632653062, 
+                "id": "release, let go", 
+                "families": 10.0, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "id": "forgive", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 60.37735849056604, 
+                "id": "open", 
+                "families": 8.0, 
+                "languages": 11.0
+            }, 
+            {
+                "weight": 4.878048780487805, 
+                "id": "acquit", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 31.645569620253166, 
+                "id": "release, let go", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 21.333333333333336, 
+                "id": "forgive", 
+                "families": 4.0, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 4.878048780487805, 
+                "id": "untie", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.2658227848101267, 
+                "id": "let, permit", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "9.161", 
-            "body_part": 0, 
             "community": 83, 
-            "id": "untie", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "forgive", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "16.69", 
+            "out_edge": []
         }, 
         {
-            "key": "11.34", 
+            "community": 83, 
+            "id": "open", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "12.24", 
+            "out_edge": []
+        }, 
+        {
             "community": 83, 
             "id": "release, let go", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "11.34", 
             "out_edge": [
                 [
-                    "cluster_117_send", 
+                    "cluster_117_rule, govern", 
                     "send", 
                     7.0, 
-                    373.3333333333333
+                    46.666666666666664
                 ], 
                 [
                     "cluster_141_fall", 
                     "drop (vb)", 
                     5.0, 
-                    194.1747572815534
+                    24.271844660194176
                 ], 
                 [
                     "cluster_35_finish", 
                     "cease, stop", 
                     4.0, 
-                    120.75471698113208
+                    15.09433962264151
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "19.47", 
-            "body_part": 0, 
             "community": 83, 
             "id": "let, permit", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "19.47", 
             "out_edge": [
                 [
-                    "cluster_10_lend", 
+                    "cluster_10_trade, barter", 
                     "give", 
                     7.0, 
-                    366.3551401869159
+                    45.794392523364486
                 ], 
                 [
                     "cluster_145_because", 
                     "cause", 
                     5.0, 
-                    227.27272727272728
+                    28.40909090909091
                 ], 
                 [
-                    "cluster_33_build", 
+                    "cluster_33_do, make", 
                     "put", 
                     4.0, 
-                    120.75471698113208
+                    15.09433962264151
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "21.34", 
+            "community": 83, 
+            "id": "untie", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "9.161", 
+            "out_edge": []
+        }, 
+        {
             "community": 83, 
             "id": "acquit", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "21.34", 
             "out_edge": [
                 [
                     "cluster_49_preserve, look after", 
                     "save, rescue", 
                     4.0, 
-                    166.23376623376623
+                    20.77922077922078
                 ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.24", 
-            "body_part": 0, 
-            "community": 83, 
-            "id": "open", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.69", 
-            "body_part": 0, 
-            "community": 83, 
-            "id": "forgive", 
-            "out_edge": [], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 39.02439024390244, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 483.0188679245283, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "open"
-            }, 
-            {
-                "weight": 816.3265306122449, 
-                "languages": 14.0, 
-                "families": 10.0, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "forgive"
-            }
-        ], 
-        [
-            {
-                "weight": 253.16455696202533, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 816.3265306122449, 
-                "languages": 14.0, 
-                "families": 10.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "open"
-            }, 
-            {
-                "weight": 533.3333333333333, 
-                "languages": 18.0, 
-                "families": 8.0, 
-                "id": "let, permit"
-            }
-        ], 
-        [
-            {
-                "weight": 10.126582278481013, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 533.3333333333333, 
-                "languages": 18.0, 
-                "families": 8.0, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 32.98969072164948, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "forgive"
-            }
-        ], 
-        [
-            {
-                "weight": 39.02439024390244, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 170.66666666666669, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "forgive"
-            }, 
-            {
-                "weight": 253.16455696202533, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 10.126582278481013, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "let, permit"
-            }
-        ], 
-        [
-            {
-                "weight": 483.0188679245283, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "release, let go"
-            }
-        ], 
-        [
-            {
-                "weight": 170.66666666666669, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 7.8431372549019605, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 8.24742268041237, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "forgive"
-            }, 
-            {
-                "weight": 32.98969072164948, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "let, permit"
-            }
-        ]
-    ], 
     "directed": false
 }

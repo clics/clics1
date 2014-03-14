@@ -1,181 +1,181 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.847457627118644, 
+                "id": "yesterday", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 419.76744186046517, 
+                "id": "early", 
+                "families": 19.0, 
+                "languages": 26.0
+            }, 
+            {
+                "weight": 133.33333333333331, 
+                "id": "tomorrow", 
+                "families": 12.0, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 31.858407079646017, 
+                "id": "dawn", 
+                "families": 6.0, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.847457627118644, 
+                "id": "morning", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 41.52542372881356, 
+                "id": "tomorrow", 
+                "families": 7.0, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 419.76744186046517, 
+                "id": "morning", 
+                "families": 19.0, 
+                "languages": 26.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "id": "tomorrow", 
+                "families": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 15.09433962264151, 
+                "id": "dawn", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 133.33333333333331, 
+                "id": "morning", 
+                "families": 12.0, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 41.52542372881356, 
+                "id": "yesterday", 
+                "families": 7.0, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 7.377049180327869, 
+                "id": "dawn", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "id": "early", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 31.858407079646017, 
+                "id": "morning", 
+                "families": 6.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 7.377049180327869, 
+                "id": "tomorrow", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 15.09433962264151, 
+                "id": "early", 
+                "families": 4.0, 
+                "languages": 5.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "14.43", 
-            "body_part": 0, 
-            "community": 76, 
-            "id": "dawn", 
-            "out_edge": [
-                [
-                    "cluster_22_white", 
-                    "light (noun)", 
-                    5.0, 
-                    168.0672268907563
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.44", 
-            "body_part": 0, 
             "community": 76, 
             "id": "morning", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.44", 
+            "out_edge": []
         }, 
         {
-            "key": "14.48", 
-            "body_part": 0, 
             "community": 76, 
-            "id": "tomorrow", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "yesterday", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.49", 
+            "out_edge": []
         }, 
         {
-            "key": "14.16", 
-            "body_part": 0, 
             "community": 76, 
             "id": "early", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.16", 
             "out_edge": [
                 [
-                    "cluster_54_immediately", 
+                    "cluster_54_swift, fast, quick", 
                     "soon", 
                     7.0, 
-                    421.505376344086
+                    52.68817204301075
                 ], 
                 [
-                    "cluster_54_immediately", 
+                    "cluster_54_swift, fast, quick", 
                     "swift, fast, quick", 
                     7.0, 
-                    380.58252427184465
+                    47.57281553398058
                 ], 
                 [
                     "cluster_109_first", 
                     "before", 
                     4.0, 
-                    142.22222222222223
+                    17.77777777777778
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "14.49", 
-            "body_part": 0, 
             "community": 76, 
-            "id": "yesterday", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "tomorrow", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.48", 
+            "out_edge": []
+        }, 
+        {
+            "community": 76, 
+            "id": "dawn", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "14.43", 
+            "out_edge": [
+                [
+                    "cluster_22_white", 
+                    "light (noun)", 
+                    5.0, 
+                    21.008403361344538
+                ]
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 254.86725663716814, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "morning"
-            }, 
-            {
-                "weight": 59.01639344262295, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "tomorrow"
-            }, 
-            {
-                "weight": 120.75471698113208, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "early"
-            }
-        ], 
-        [
-            {
-                "weight": 254.86725663716814, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "dawn"
-            }, 
-            {
-                "weight": 1066.6666666666665, 
-                "languages": 17.0, 
-                "families": 12.0, 
-                "id": "tomorrow"
-            }, 
-            {
-                "weight": 3358.1395348837214, 
-                "languages": 26.0, 
-                "families": 19.0, 
-                "id": "early"
-            }, 
-            {
-                "weight": 6.779661016949152, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "yesterday"
-            }
-        ], 
-        [
-            {
-                "weight": 59.01639344262295, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "dawn"
-            }, 
-            {
-                "weight": 1066.6666666666665, 
-                "languages": 17.0, 
-                "families": 12.0, 
-                "id": "morning"
-            }, 
-            {
-                "weight": 7.2727272727272725, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "early"
-            }, 
-            {
-                "weight": 332.20338983050846, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "yesterday"
-            }
-        ], 
-        [
-            {
-                "weight": 120.75471698113208, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "id": "dawn"
-            }, 
-            {
-                "weight": 3358.1395348837214, 
-                "languages": 26.0, 
-                "families": 19.0, 
-                "id": "morning"
-            }, 
-            {
-                "weight": 7.2727272727272725, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tomorrow"
-            }
-        ], 
-        [
-            {
-                "weight": 6.779661016949152, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "morning"
-            }, 
-            {
-                "weight": 332.20338983050846, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "tomorrow"
-            }
-        ]
-    ], 
     "directed": false
 }

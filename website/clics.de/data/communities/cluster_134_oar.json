@@ -1,0 +1,55 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 654.0540540540541, 
+                "id": "paddle (noun)", 
+                "families": 22.0, 
+                "languages": 68.0
+            }
+        ], 
+        [
+            {
+                "weight": 654.0540540540541, 
+                "id": "oar", 
+                "families": 22.0, 
+                "languages": 68.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 134, 
+            "id": "oar", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.85", 
+            "out_edge": [
+                [
+                    "cluster_92_shake", 
+                    "row (vb)", 
+                    5.0, 
+                    26.595744680851062
+                ]
+            ]
+        }, 
+        {
+            "community": 134, 
+            "id": "paddle (noun)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.851", 
+            "out_edge": [
+                [
+                    "cluster_112_spade", 
+                    "spade", 
+                    4.0, 
+                    20.0
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}

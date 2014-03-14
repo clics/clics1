@@ -1,55 +1,55 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 38.297872340425535, 
+                "id": "pupil", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 38.297872340425535, 
+                "id": "teacher", 
+                "families": 6.0, 
+                "languages": 6.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "17.27", 
-            "body_part": 0, 
             "community": 259, 
             "id": "teacher", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.27", 
             "out_edge": [
                 [
                     "cluster_69_king, ruler", 
                     "master", 
                     4.0, 
-                    130.6122448979592
+                    16.3265306122449
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "17.26", 
-            "body_part": 0, 
             "community": 259, 
             "id": "pupil", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.26", 
             "out_edge": [
                 [
                     "cluster_6_son", 
                     "child", 
                     5.0, 
-                    188.67924528301887
+                    23.58490566037736
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 306.3829787234043, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "pupil"
-            }
-        ], 
-        [
-            {
-                "weight": 306.3829787234043, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "teacher"
-            }
-        ]
-    ], 
     "directed": false
 }

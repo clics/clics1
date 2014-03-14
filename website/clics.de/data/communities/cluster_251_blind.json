@@ -1,75 +1,75 @@
 {
-    "nodes": [
-        {
-            "key": "4.97", 
-            "body_part": 0, 
-            "community": 251, 
-            "id": "blind", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.79", 
-            "body_part": 0, 
-            "community": 251, 
-            "id": "blunt, dull", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.215", 
-            "body_part": 1, 
-            "community": 251, 
-            "id": "blink", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
+                "weight": 0.9523809523809524, 
+                "id": "blink", 
                 "families": 1.0, 
-                "id": "blind"
+                "languages": 1.0
             }, 
             {
-                "weight": 66.05504587155964, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "blunt, dull"
-            }, 
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
+                "weight": 3.571428571428571, 
+                "id": "blind", 
                 "families": 2.0, 
-                "id": "blink"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 66.05504587155964, 
-                "languages": 3.0, 
+                "weight": 8.256880733944955, 
+                "id": "blind", 
                 "families": 3.0, 
-                "id": "blind"
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
+                "weight": 3.571428571428571, 
+                "id": "blink", 
                 "families": 2.0, 
-                "id": "blind"
+                "languages": 2.0
             }, 
             {
-                "weight": 7.6190476190476195, 
-                "languages": 1.0, 
+                "weight": 8.256880733944955, 
+                "id": "blunt, dull", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "id": "blind", 
                 "families": 1.0, 
-                "id": "blink"
+                "languages": 1.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 251, 
+            "id": "blink", 
+            "body_part": 1, 
+            "swadesh100": 0, 
+            "key": "4.215", 
+            "out_edge": []
+        }, 
+        {
+            "community": 251, 
+            "id": "blunt, dull", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.79", 
+            "out_edge": []
+        }, 
+        {
+            "community": 251, 
+            "id": "blind", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.97", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

@@ -1,97 +1,97 @@
 {
-    "nodes": [
-        {
-            "key": "17.23", 
-            "body_part": 0, 
-            "community": 128, 
-            "id": "insane, crazy", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.22", 
-            "body_part": 0, 
-            "community": 128, 
-            "id": "foolish, stupid", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.96", 
-            "body_part": 0, 
-            "community": 128, 
-            "id": "mute", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.95", 
-            "body_part": 0, 
-            "community": 128, 
-            "id": "deaf", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1600.0, 
-                "languages": 28.0, 
-                "families": 14.0, 
-                "id": "foolish, stupid"
+                "weight": 3.7383177570093453, 
+                "id": "insane, crazy", 
+                "families": 2.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
+                "weight": 3.571428571428571, 
+                "id": "deaf", 
                 "families": 2.0, 
-                "id": "mute"
-            }
-        ], 
-        [
+                "languages": 2.0
+            }, 
             {
-                "weight": 67.9245283018868, 
-                "languages": 3.0, 
+                "weight": 8.49056603773585, 
+                "id": "foolish, stupid", 
                 "families": 3.0, 
-                "id": "mute"
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.7383177570093453, 
+                "id": "mute", 
+                "families": 2.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1600.0, 
-                "languages": 28.0, 
+                "weight": 200.0, 
+                "id": "foolish, stupid", 
                 "families": 14.0, 
-                "id": "insane, crazy"
+                "languages": 28.0
             }
         ], 
         [
             {
-                "weight": 67.9245283018868, 
-                "languages": 3.0, 
+                "weight": 3.571428571428571, 
+                "id": "mute", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 8.49056603773585, 
+                "id": "mute", 
                 "families": 3.0, 
-                "id": "foolish, stupid"
+                "languages": 3.0
             }, 
             {
-                "weight": 29.906542056074763, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "insane, crazy"
-            }, 
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "deaf"
-            }
-        ], 
-        [
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "mute"
+                "weight": 200.0, 
+                "id": "insane, crazy", 
+                "families": 14.0, 
+                "languages": 28.0
             }
         ]
     ], 
+    "nodes": [
+        {
+            "community": 128, 
+            "id": "mute", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.96", 
+            "out_edge": []
+        }, 
+        {
+            "community": 128, 
+            "id": "insane, crazy", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.23", 
+            "out_edge": []
+        }, 
+        {
+            "community": 128, 
+            "id": "deaf", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "4.95", 
+            "out_edge": []
+        }, 
+        {
+            "community": 128, 
+            "id": "foolish, stupid", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "17.22", 
+            "out_edge": []
+        }
+    ], 
+    "graph": [], 
     "directed": false
 }

@@ -1,176 +1,176 @@
 {
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 7.563025210084033, 
+                "id": "slide, slip", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 20.491803278688526, 
+                "id": "go down", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 113.08411214953271, 
+                "id": "drop (vb)", 
+                "families": 11.0, 
+                "languages": 16.0
+            }, 
+            {
+                "weight": 8.256880733944955, 
+                "id": "land (vb)", 
+                "families": 3.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 7.563025210084033, 
+                "id": "fall", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.8695652173913043, 
+                "id": "slide, slip", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 20.491803278688526, 
+                "id": "fall", 
+                "families": 5.0, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 3.4782608695652173, 
+                "id": "drop (vb)", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 62.13592233009708, 
+                "id": "land (vb)", 
+                "families": 8.0, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 113.08411214953271, 
+                "id": "fall", 
+                "families": 11.0, 
+                "languages": 16.0
+            }, 
+            {
+                "weight": 3.4782608695652173, 
+                "id": "go down", 
+                "families": 2.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9900990099009901, 
+                "id": "land (vb)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 8.256880733944955, 
+                "id": "fall", 
+                "families": 3.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 62.13592233009708, 
+                "id": "go down", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 0.9900990099009901, 
+                "id": "drop (vb)", 
+                "families": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "key": "10.23", 
-            "body_part": 0, 
             "community": 141, 
             "id": "fall", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.23", 
             "out_edge": [
                 [
                     "cluster_142_grow", 
                     "born (to be)", 
                     4.0, 
-                    108.47457627118644
+                    13.559322033898304
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "10.16", 
+            "community": 141, 
+            "id": "slide, slip", 
             "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.42", 
+            "out_edge": []
+        }, 
+        {
+            "community": 141, 
+            "id": "go down", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.473", 
+            "out_edge": []
+        }, 
+        {
             "community": 141, 
             "id": "drop (vb)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.16", 
             "out_edge": [
                 [
                     "cluster_83_forgive", 
                     "release, let go", 
                     5.0, 
-                    194.1747572815534
+                    24.271844660194176
                 ], 
                 [
-                    "cluster_190_drip", 
+                    "cluster_190_dribble", 
                     "drip", 
                     5.0, 
-                    186.9158878504673
+                    23.364485981308412
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }, 
         {
-            "key": "10.473", 
-            "body_part": 0, 
-            "community": 141, 
-            "id": "go down", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.42", 
-            "body_part": 0, 
-            "community": 141, 
-            "id": "slide, slip", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.92", 
-            "body_part": 0, 
             "community": 141, 
             "id": "land (vb)", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "10.92", 
             "out_edge": [
                 [
                     "cluster_56_go", 
                     "go out", 
                     4.0, 
-                    120.75471698113208
+                    15.09433962264151
                 ]
-            ], 
-            "swadesh100": 0
+            ]
         }
     ], 
-    "multigraph": false, 
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 904.6728971962617, 
-                "languages": 16.0, 
-                "families": 11.0, 
-                "id": "drop (vb)"
-            }, 
-            {
-                "weight": 163.9344262295082, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "go down"
-            }, 
-            {
-                "weight": 60.50420168067227, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "slide, slip"
-            }, 
-            {
-                "weight": 66.05504587155964, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "land (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 904.6728971962617, 
-                "languages": 16.0, 
-                "families": 11.0, 
-                "id": "fall"
-            }, 
-            {
-                "weight": 27.82608695652174, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "go down"
-            }, 
-            {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "land (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 163.9344262295082, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "fall"
-            }, 
-            {
-                "weight": 27.82608695652174, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "drop (vb)"
-            }, 
-            {
-                "weight": 497.08737864077665, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "land (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 60.50420168067227, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "fall"
-            }, 
-            {
-                "weight": 6.956521739130435, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "slide, slip"
-            }
-        ], 
-        [
-            {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "drop (vb)"
-            }, 
-            {
-                "weight": 497.08737864077665, 
-                "languages": 8.0, 
-                "families": 8.0, 
-                "id": "go down"
-            }, 
-            {
-                "weight": 66.05504587155964, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "fall"
-            }
-        ]
-    ], 
     "directed": false
 }

@@ -1,0 +1,155 @@
+{
+    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 186.66666666666666, 
+                "id": "green", 
+                "families": 14.0, 
+                "languages": 49.0
+            }, 
+            {
+                "weight": 742.8571428571429, 
+                "id": "raw", 
+                "families": 26.0, 
+                "languages": 45.0
+            }, 
+            {
+                "weight": 21.929824561403507, 
+                "id": "blue", 
+                "families": 5.0, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 186.66666666666666, 
+                "id": "green, unripe", 
+                "families": 14.0, 
+                "languages": 49.0
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "id": "raw", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 736.3636363636364, 
+                "id": "blue", 
+                "families": 27.0, 
+                "languages": 47.0
+            }
+        ], 
+        [
+            {
+                "weight": 742.8571428571429, 
+                "id": "green, unripe", 
+                "families": 26.0, 
+                "languages": 45.0
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "id": "green", 
+                "families": 8.0, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 3.278688524590164, 
+                "id": "blue", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 21.929824561403507, 
+                "id": "green, unripe", 
+                "families": 5.0, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 736.3636363636364, 
+                "id": "green", 
+                "families": 27.0, 
+                "languages": 47.0
+            }, 
+            {
+                "weight": 3.278688524590164, 
+                "id": "raw", 
+                "families": 2.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "community": 45, 
+            "id": "green, unripe", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.124", 
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "young", 
+                    5.0, 
+                    22.93577981651376
+                ]
+            ]
+        }, 
+        {
+            "community": 45, 
+            "id": "green", 
+            "body_part": 0, 
+            "swadesh100": 1, 
+            "key": "15.68", 
+            "out_edge": [
+                [
+                    "cluster_220_red", 
+                    "yellow", 
+                    6.0, 
+                    30.508474576271187
+                ]
+            ]
+        }, 
+        {
+            "community": 45, 
+            "id": "raw", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "5.122", 
+            "out_edge": [
+                [
+                    "cluster_61_dwell, live", 
+                    "live, living, life", 
+                    5.0, 
+                    21.008403361344538
+                ], 
+                [
+                    "cluster_205_wet, damp", 
+                    "wet, damp", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ]
+        }, 
+        {
+            "community": 45, 
+            "id": "blue", 
+            "body_part": 0, 
+            "swadesh100": 0, 
+            "key": "15.67", 
+            "out_edge": [
+                [
+                    "cluster_100_wound, sore", 
+                    "bruise", 
+                    4.0, 
+                    15.841584158415841
+                ]
+            ]
+        }
+    ], 
+    "graph": [], 
+    "directed": false
+}
