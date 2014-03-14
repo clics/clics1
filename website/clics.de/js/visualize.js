@@ -387,7 +387,7 @@ function init(filename,coloring){
 						console.log(d);
 						var outstring = '<b>Links to other communities from \'' +  d.node.label + '\'</b>:<br>';
 						for(var j=0;j<d.node.out_edge.length;j++){
-							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" + d.node.out_edge[j][0] + '</a><br>';
+							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" + d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
 						};
 						return outstring;
 					});
