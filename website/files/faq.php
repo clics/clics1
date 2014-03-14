@@ -3,12 +3,12 @@
 <br>
 <ul>
 <li><a href="faq.php#colexification">What is Colexification?</a></li>
-<li><a href="faq.php#examples">How can I use CLiCS?</a></li>
+<li><a href="faq.php#examples">How can I use CLiCs?</a></li>
 <li><a href="faq.php#visualizations">How do the visualizations work?</a></li> 
 <li><a href="faq.php#data1">What data does CLiCs use?</a></li>
-<li><a href="faq.php#data2">How reliable is the data of CLiCS?</a></li>
-<li><a href="faq.php#data3">How large is the data behind CLiCS?</a></li>
-<li><a href="faq.php#areal">Can areal aspects bias the results of CLiCS?</a></li>
+<li><a href="faq.php#data2">How reliable is the data of CLiCs?</a></li>
+<li><a href="faq.php#data3">How large is the data behind CLiCs?</a></li>
+<li><a href="faq.php#areal">Can areal aspects bias the results of CLiCs?</a></li>
 <li><a href="faq.php#homonymy">What about homonymy?</a></li>
 <li><a href="faq.php#cite">How do I cite CLiCs?</a></li>
 <li><a href="faq.php#contact">Whom should I contact if I have additional questions or want to contribute?</a></li>
