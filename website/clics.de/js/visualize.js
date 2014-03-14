@@ -4,6 +4,7 @@
 var opacity = 100;
 var coloring = "Family";
 
+
 // load data about words for each edge
 var linkByWords = {};
 d3.json('data/words.json',function(words){
@@ -21,7 +22,7 @@ d3.json('data/langsGeo.json',function(langs){
 });
 
 //################ INIT function #####################
-function init(filename,coloring){
+//function init(filename,coloring){
   
   /* debug */
   //document.getElementById("test").innerHTML = filename;
@@ -278,7 +279,8 @@ function init(filename,coloring){
 					
 					infolistoutput.push("<td valign=\"top\">" // style=\"background-color:" 
 					+ c[4] +  "</td><td style=\"background-color:"+backColor+";\">" + c[0] + "</td>"
-           + "<td class=\"infotable\" valign=\"top\"><a target=\"_blank\" href=\"" + c[3] + "\">" + c[1] + "</a>") + "</td>";
+           + "<td class=\"infotable\" valign=\"top\"><a target=\"_blank\" href=\"" + c[3] 
+           + "\">" + c[1] + "</a>") + "</td>";
 				});
         if(wordlist.length == 1)
         {
@@ -291,7 +293,9 @@ function init(filename,coloring){
 				
 				return "<b>" + wordlist.length + " "+ link_label + " for &quot;"+ 
 					d.source.label + "&quot; and &quot;" 
-					+ d.target.label + "&quot;.</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th><th>Form</th></tr><tr>" + 
+					+ d.target.label + 
+					"&quot;.</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th>" + 
+					"<th>Form</th></tr><tr>" + 
 					infolistoutput.join('</tr><tr>') + "</tr></table>";
 			});
 			d3.select('#info').classed('hidden',false)
@@ -387,7 +391,8 @@ function init(filename,coloring){
 						console.log(d);
 						var outstring = '<b>Links to other communities from \'' +  d.node.label + '\'</b>:<br>';
 						for(var j=0;j<d.node.out_edge.length;j++){
-							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" + d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
+							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" 
+							+ d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
 						};
 						return outstring;
 					});
@@ -480,7 +485,7 @@ function init(filename,coloring){
 	force.on('tick',tick);
 	});
 	      
-};
+//};
       
 //############### listener to community selection ###############
 //d3.select('#selectNumber').on('change',function(){
@@ -493,12 +498,10 @@ function init(filename,coloring){
 //############### listener to coloring selection ###############
 d3.select('#coloring').on('change',function(){
 	coloring = this.value;
-	d3.select('svg').remove();
 	d3.select('#info').classed('hidden',true);
 	var colorBool = coloring == 'Family';
 	d3.select('#WorldColorScale').classed('hidden',colorBool);
 	
-	init(filename,coloring);
 })
 
 //############### OPACITY slider ############### 
@@ -519,5 +522,4 @@ d3.select("#weight").on("change", function() {
 	.classed('hidden',false);
 });
 
-init(filename);
 
