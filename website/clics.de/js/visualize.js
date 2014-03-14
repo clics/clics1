@@ -221,7 +221,7 @@ function init(filename,coloring){
 		})
 		.style("stroke", "#CCC")
 		.style('stroke-width',function(d){
-			return lscale(d.weight * 50);
+			return lscale(d.weight);
 		})
 		.style('cursor','pointer')
 		.on('mouseover',function(d,i){
@@ -363,7 +363,10 @@ function init(filename,coloring){
 		})
 		.style("font-family", "Arial")
 		.style("font-size", 12)
-		.style('cursor','pointer')
+		.style('cursor',function(d,i){
+			d.node.out_edge.length > 0 ? cursorvalue = "pointer" : cursorvalue = "arrow";
+			return cursorvalue;
+		})
 		.on('mouseover',function(d,i){
 			//console.log(d);
 
@@ -376,6 +379,20 @@ function init(filename,coloring){
 				d3.selectAll('.link_' + a + "-" + d.node.index)
 					.style('stroke','OliveDrab').style('stroke-opacity',1);
 			});
+			
+			if(d.node.out_edge.length > 0){
+			
+				d3.select("#info")
+					.html(function(){
+						console.log(d);
+						var outstring = '<b>Links to other communities from \'' +  d.node.label + '\'</b>:<br>';
+						for(var j=0;j<d.node.out_edge.length;j++){
+							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" + d.node.out_edge[j][0] + '</a><br>';
+						};
+						return outstring;
+					});
+				d3.select('#info').classed('hidden',false);
+			}
 		})
 		.on('mouseout',function(d,i){
 			d3.selectAll('.aNode')
