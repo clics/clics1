@@ -2,22 +2,14 @@
     "nodes": [
         {
             "key": "19.17", 
-            "body_part": 0, 
             "community": 30, 
             "id": "boundary", 
-            "out_edge": [
-                [
-                    "cluster_35_finish", 
-                    "end", 
-                    6.0, 
-                    316.4835164835165
-                ]
-            ], 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "1.215", 
-            "body_part": 0, 
             "community": 30, 
             "id": "sand", 
             "out_edge": [
@@ -25,95 +17,71 @@
                     "cluster_2_country", 
                     "earth=ground, soil", 
                     5.0, 
-                    168.0672268907563
-                ], 
-                [
-                    "cluster_66_smoke (noun)", 
-                    "dust", 
-                    4.0, 
-                    106.66666666666667
+                    1.0
                 ]
             ], 
+            "body_part": 0, 
             "swadesh100": 1
         }, 
         {
-            "key": "4.162", 
-            "body_part": 1, 
+            "key": "12.43", 
             "community": 30, 
-            "id": "rib", 
+            "id": "near (adv)", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "1.27", 
-            "body_part": 0, 
             "community": 30, 
             "id": "shore", 
             "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.162", 
+            "community": 30, 
+            "id": "rib", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.36", 
+            "community": 30, 
+            "id": "side", 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "12.2", 
-            "body_part": 0, 
             "community": 30, 
             "id": "beside", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "12.353", 
-            "body_part": 0, 
             "community": 30, 
             "id": "edge", 
             "out_edge": [
                 [
                     "cluster_41_beak", 
-                    "mouth", 
-                    10.0, 
-                    707.9646017699115
+                    "lip", 
+                    8.0, 
+                    1.2647058823529411
                 ], 
                 [
                     "cluster_41_beak", 
-                    "lip", 
-                    8.0, 
-                    449.12280701754383
-                ], 
-                [
-                    "cluster_35_finish", 
-                    "end", 
-                    7.0, 
-                    359.6330275229358
+                    "mouth", 
+                    10.0, 
+                    1.2647058823529411
                 ]
             ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.43", 
             "body_part": 0, 
-            "community": 30, 
-            "id": "near (adv)", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.36", 
-            "body_part": 0, 
-            "community": 30, 
-            "id": "side", 
-            "out_edge": [
-                [
-                    "cluster_90_half", 
-                    "half", 
-                    6.0, 
-                    259.4594594594595
-                ], 
-                [
-                    "cluster_90_half", 
-                    "part, piece", 
-                    4.0, 
-                    119.62616822429905
-                ]
-            ], 
             "swadesh100": 0
         }
     ], 
@@ -122,19 +90,19 @@
     "adjacency": [
         [
             {
-                "weight": 73.46938775510205, 
+                "weight": 1.0, 
                 "languages": 4.0, 
                 "families": 3.0, 
                 "id": "shore"
             }, 
             {
-                "weight": 879.1208791208792, 
+                "weight": 1.5294117647058822, 
                 "languages": 14.0, 
                 "families": 10.0, 
                 "id": "edge"
             }, 
             {
-                "weight": 74.22680412371135, 
+                "weight": 1.0, 
                 "languages": 3.0, 
                 "families": 3.0, 
                 "id": "side"
@@ -142,7 +110,7 @@
         ], 
         [
             {
-                "weight": 169.4915254237288, 
+                "weight": 1.0, 
                 "languages": 7.0, 
                 "families": 5.0, 
                 "id": "shore"
@@ -150,77 +118,129 @@
         ], 
         [
             {
-                "weight": 26.229508196721312, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "shore"
+                "weight": 1.2647058823529411, 
+                "languages": 35.0, 
+                "families": 8.0, 
+                "id": "beside"
             }, 
             {
-                "weight": 26.446280991735538, 
-                "languages": 3.0, 
-                "families": 2.0, 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
                 "id": "side"
             }
         ], 
         [
             {
-                "weight": 169.4915254237288, 
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "id": "boundary"
+            }, 
+            {
+                "weight": 1.0, 
                 "languages": 7.0, 
                 "families": 5.0, 
                 "id": "sand"
             }, 
             {
-                "weight": 73.46938775510205, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "boundary"
-            }, 
-            {
-                "weight": 26.229508196721312, 
+                "weight": 1.0, 
                 "languages": 3.0, 
                 "families": 2.0, 
                 "id": "rib"
             }, 
             {
-                "weight": 7.6923076923076925, 
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "side"
+            }, 
+            {
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "beside"
             }, 
             {
-                "weight": 1263.551401869159, 
+                "weight": 1.7941176470588236, 
                 "languages": 38.0, 
                 "families": 13.0, 
                 "id": "edge"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "shore"
             }, 
             {
-                "weight": 175.43859649122805, 
-                "languages": 7.0, 
-                "families": 5.0, 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
                 "id": "side"
             }
         ], 
         [
             {
-                "weight": 7.6923076923076925, 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "boundary"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "near (adv)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "shore"
+            }, 
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 15.0, 
+                "families": 12.0, 
+                "id": "beside"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "rib"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 25.0, 
+                "families": 15.0, 
+                "id": "edge"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "shore"
             }, 
             {
-                "weight": 31.06796116504854, 
+                "weight": 1.0, 
                 "languages": 2.0, 
                 "families": 2.0, 
                 "id": "edge"
             }, 
             {
-                "weight": 512.0, 
+                "weight": 1.2647058823529411, 
                 "languages": 35.0, 
                 "families": 8.0, 
                 "id": "near (adv)"
             }, 
             {
-                "weight": 1252.1739130434783, 
+                "weight": 1.7941176470588236, 
                 "languages": 15.0, 
                 "families": 12.0, 
                 "id": "side"
@@ -228,86 +248,34 @@
         ], 
         [
             {
-                "weight": 879.1208791208792, 
+                "weight": 1.5294117647058822, 
                 "languages": 14.0, 
                 "families": 10.0, 
                 "id": "boundary"
             }, 
             {
-                "weight": 1263.551401869159, 
+                "weight": 1.7941176470588236, 
                 "languages": 38.0, 
                 "families": 13.0, 
                 "id": "shore"
             }, 
             {
-                "weight": 31.06796116504854, 
+                "weight": 1.0, 
                 "languages": 2.0, 
                 "families": 2.0, 
                 "id": "beside"
             }, 
             {
-                "weight": 6.722689075630252, 
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "edge"
             }, 
             {
-                "weight": 1730.7692307692307, 
+                "weight": 2.0588235294117645, 
                 "languages": 25.0, 
                 "families": 15.0, 
                 "id": "side"
-            }
-        ], 
-        [
-            {
-                "weight": 512.0, 
-                "languages": 35.0, 
-                "families": 8.0, 
-                "id": "beside"
-            }, 
-            {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "side"
-            }
-        ], 
-        [
-            {
-                "weight": 74.22680412371135, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "boundary"
-            }, 
-            {
-                "weight": 26.446280991735538, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "rib"
-            }, 
-            {
-                "weight": 175.43859649122805, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "shore"
-            }, 
-            {
-                "weight": 1252.1739130434783, 
-                "languages": 15.0, 
-                "families": 12.0, 
-                "id": "beside"
-            }, 
-            {
-                "weight": 1730.7692307692307, 
-                "languages": 25.0, 
-                "families": 15.0, 
-                "id": "edge"
-            }, 
-            {
-                "weight": 6.6115702479338845, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "near (adv)"
             }
         ]
     ], 

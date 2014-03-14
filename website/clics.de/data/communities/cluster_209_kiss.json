@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "key": "16.29", 
+            "community": 209, 
+            "id": "kiss", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.59", 
+            "community": 209, 
+            "id": "lick", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.16", 
+            "community": 209, 
+            "id": "suck", 
+            "out_edge": [
+                [
+                    "cluster_71_smoke (noun)", 
+                    "smoke (tobacco)", 
+                    5.0, 
+                    22.0
+                ], 
+                [
+                    "cluster_195_stretch", 
+                    "pull", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.3", 
+            "community": 209, 
+            "id": "embrace", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "kiss"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "lick"
+            }, 
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "suck"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "embrace"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "kiss"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "suck"
+            }
+        ], 
+        [
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "kiss"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "lick"
+            }
+        ], 
+        [
+            {
+                "weight": 21.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "kiss"
+            }
+        ]
+    ], 
+    "directed": false
+}

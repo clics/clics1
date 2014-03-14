@@ -1,0 +1,183 @@
+{
+    "nodes": [
+        {
+            "key": "12.4", 
+            "community": 106, 
+            "id": "before", 
+            "out_edge": [
+                [
+                    "cluster_75_morning", 
+                    "early", 
+                    4.0, 
+                    17.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.84", 
+            "community": 106, 
+            "id": "banana tree", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.41", 
+            "community": 106, 
+            "id": "right (side)", 
+            "out_edge": [
+                [
+                    "cluster_11_right, correct", 
+                    "straight", 
+                    6.0, 
+                    30.0
+                ], 
+                [
+                    "cluster_11_right, correct", 
+                    "right, correct", 
+                    5.0, 
+                    22.0
+                ], 
+                [
+                    "cluster_11_right, correct", 
+                    "true", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.25", 
+            "community": 106, 
+            "id": "begin, beginning", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "13.34", 
+            "community": 106, 
+            "id": "first", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "banana tree"
+            }, 
+            {
+                "weight": 206.0, 
+                "languages": 50.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "right (side)"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "begin, beginning"
+            }, 
+            {
+                "weight": 241.0, 
+                "languages": 18.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "first"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "before"
+            }
+        ], 
+        [
+            {
+                "weight": 206.0, 
+                "languages": 50.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "before"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "first"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "before"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "first"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "begin, beginning"
+            }
+        ], 
+        [
+            {
+                "weight": 241.0, 
+                "languages": 18.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "before"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "first"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "begin, beginning"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "right (side)"
+            }
+        ]
+    ], 
+    "directed": false
+}

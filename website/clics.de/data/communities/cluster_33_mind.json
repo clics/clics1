@@ -1,0 +1,333 @@
+{
+    "nodes": [
+        {
+            "key": "16.11", 
+            "community": 33, 
+            "id": "soul, spirit", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.63", 
+            "community": 33, 
+            "id": "shade, shadow", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.41", 
+            "community": 33, 
+            "id": "intention, purpose", 
+            "out_edge": [
+                [
+                    "cluster_119_need, necessity", 
+                    "desire, want", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.11", 
+            "community": 33, 
+            "id": "mind", 
+            "out_edge": [
+                [
+                    "cluster_26_remember", 
+                    "think (= reflect)", 
+                    11.0, 
+                    123.0
+                ], 
+                [
+                    "cluster_101_roof", 
+                    "head", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.44", 
+            "community": 33, 
+            "id": "heart", 
+            "out_edge": [
+                [
+                    "cluster_156_intestines, guts", 
+                    "stomach", 
+                    5.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.203", 
+            "community": 33, 
+            "id": "brain", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.19", 
+            "community": 33, 
+            "id": "idea, notion", 
+            "out_edge": [
+                [
+                    "cluster_26_remember", 
+                    "think (= reflect)", 
+                    6.0, 
+                    36.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.45", 
+            "community": 33, 
+            "id": "liver", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 42.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "shade, shadow"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 63.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 71.0, 
+                "languages": 15.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "heart"
+            }
+        ], 
+        [
+            {
+                "weight": 42.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "soul, spirit"
+            }
+        ], 
+        [
+            {
+                "weight": 129.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 28.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "brain"
+            }
+        ], 
+        [
+            {
+                "weight": 63.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "soul, spirit"
+            }, 
+            {
+                "weight": 28.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "intention, purpose"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "heart"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "brain"
+            }, 
+            {
+                "weight": 432.0, 
+                "languages": 27.0, 
+                "families": 18.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "liver"
+            }
+        ], 
+        [
+            {
+                "weight": 71.0, 
+                "languages": 15.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "soul, spirit"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "liver"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "intention, purpose"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "mind"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "soul, spirit"
+            }, 
+            {
+                "weight": 129.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "intention, purpose"
+            }, 
+            {
+                "weight": 432.0, 
+                "languages": 27.0, 
+                "families": 18.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "heart"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "idea, notion"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "brain"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "mind"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "heart"
+            }
+        ]
+    ], 
+    "directed": false
+}

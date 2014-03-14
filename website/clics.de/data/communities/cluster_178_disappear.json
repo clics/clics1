@@ -1,95 +1,81 @@
 {
+    "nodes": [
+        {
+            "key": "10.491", 
+            "community": 178, 
+            "id": "disappear", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.33", 
+            "community": 178, 
+            "id": "lose", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.32", 
+            "community": 178, 
+            "id": "forget", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 162.5, 
-                "id": "disappear", 
-                "families": 13.0, 
-                "languages": 26.0
-            }, 
-            {
-                "weight": 13.114754098360656, 
-                "id": "forget", 
-                "families": 4.0, 
-                "languages": 5.0
-            }
-        ], 
-        [
-            {
-                "weight": 162.5, 
-                "id": "lose", 
-                "families": 13.0, 
-                "languages": 26.0
-            }, 
-            {
-                "weight": 3.7735849056603774, 
-                "id": "disappear", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "disappear"
             }, 
             {
-                "weight": 0.8620689655172413, 
-                "id": "forget", 
+                "weight": 1.7941176470588236, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "lose"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "forget"
             }
         ], 
         [
             {
-                "weight": 13.114754098360656, 
-                "id": "lose", 
-                "families": 4.0, 
-                "languages": 5.0
+                "weight": 1.7941176470588236, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "id": "disappear"
             }, 
             {
-                "weight": 0.8620689655172413, 
-                "id": "disappear", 
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "forget"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "disappear"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "lose"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 178, 
-            "id": "lose", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.33", 
-            "out_edge": [
-                [
-                    "cluster_9_cut", 
-                    "destroy", 
-                    4.0, 
-                    14.035087719298245
-                ]
-            ]
-        }, 
-        {
-            "community": 178, 
-            "id": "disappear", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "10.491", 
-            "out_edge": [
-                [
-                    "cluster_202_die, dead", 
-                    "die, dead", 
-                    4.0, 
-                    14.15929203539823
-                ]
-            ]
-        }, 
-        {
-            "community": 178, 
-            "id": "forget", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.32", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

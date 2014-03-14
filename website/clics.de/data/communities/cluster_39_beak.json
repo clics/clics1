@@ -1,0 +1,311 @@
+{
+    "nodes": [
+        {
+            "key": "4.231", 
+            "community": 39, 
+            "id": "nostril", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.241", 
+            "community": 39, 
+            "id": "beak", 
+            "out_edge": [
+                [
+                    "cluster_35_finish", 
+                    "end", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.23", 
+            "community": 39, 
+            "id": "nose", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.27", 
+            "community": 39, 
+            "id": "tooth", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.24", 
+            "community": 39, 
+            "id": "mouth", 
+            "out_edge": [
+                [
+                    "cluster_25_shore", 
+                    "edge", 
+                    10.0, 
+                    88.0
+                ], 
+                [
+                    "cluster_133_cheek", 
+                    "face", 
+                    4.0, 
+                    13.0
+                ], 
+                [
+                    "cluster_27_sound, noise", 
+                    "language", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "1.343", 
+            "community": 39, 
+            "id": "headland, point", 
+            "out_edge": [
+                [
+                    "cluster_101_roof", 
+                    "top", 
+                    4.0, 
+                    17.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.25", 
+            "community": 39, 
+            "id": "lip", 
+            "out_edge": [
+                [
+                    "cluster_25_shore", 
+                    "edge", 
+                    8.0, 
+                    56.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.272", 
+            "community": 39, 
+            "id": "molartooth", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "nose"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "molartooth"
+            }, 
+            {
+                "weight": 280.0, 
+                "languages": 28.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "nose"
+            }, 
+            {
+                "weight": 57.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "tooth"
+            }, 
+            {
+                "weight": 112.0, 
+                "languages": 19.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "mouth"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "headland, point"
+            }, 
+            {
+                "weight": 32.0, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "lip"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "tooth"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "headland, point"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "nostril"
+            }, 
+            {
+                "weight": 280.0, 
+                "languages": 28.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "beak"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "mouth"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "headland, point"
+            }, 
+            {
+                "weight": 57.0, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "beak"
+            }, 
+            {
+                "weight": 98.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "molartooth"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "nose"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "tooth"
+            }, 
+            {
+                "weight": 69.0, 
+                "languages": 12.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "lip"
+            }, 
+            {
+                "weight": 112.0, 
+                "languages": 19.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "beak"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "tooth"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "beak"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "nose"
+            }
+        ], 
+        [
+            {
+                "weight": 69.0, 
+                "languages": 12.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "mouth"
+            }, 
+            {
+                "weight": 32.0, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "beak"
+            }
+        ], 
+        [
+            {
+                "weight": 98.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "tooth"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "beak"
+            }
+        ]
+    ], 
+    "directed": false
+}

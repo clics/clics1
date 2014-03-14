@@ -1,126 +1,119 @@
 {
+    "nodes": [
+        {
+            "key": "20.36", 
+            "community": 139, 
+            "id": "tower", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.35", 
+            "community": 139, 
+            "id": "fortress", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.27", 
+            "community": 139, 
+            "id": "wall", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.16", 
+            "community": 139, 
+            "id": "fence", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.19", 
+            "community": 139, 
+            "id": "stable, stall", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 11.842105263157894, 
-                "id": "fortress", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 10.465116279069768, 
-                "id": "stable, stall", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 108.69565217391303, 
-                "id": "wall", 
-                "families": 10.0, 
-                "languages": 15.0
-            }
-        ], 
-        [
-            {
-                "weight": 10.465116279069768, 
-                "id": "fence", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 108.69565217391303, 
-                "id": "fence", 
-                "families": 10.0, 
-                "languages": 15.0
-            }, 
-            {
-                "weight": 5.47945205479452, 
-                "id": "fortress", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 32.0, 
-                "id": "fortress", 
+                "weight": 1.0, 
+                "languages": 9.0, 
                 "families": 4.0, 
-                "languages": 9.0
+                "id": "fortress"
             }
         ], 
         [
             {
-                "weight": 11.842105263157894, 
-                "id": "fence", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 32.0, 
-                "id": "tower", 
+                "weight": 1.0, 
+                "languages": 9.0, 
                 "families": 4.0, 
-                "languages": 9.0
+                "id": "tower"
             }, 
             {
-                "weight": 5.47945205479452, 
-                "id": "wall", 
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "id": "wall"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fence"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "fortress"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "fence"
+            }
+        ], 
+        [
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "wall"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fortress"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "stable, stall"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "fence"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 139, 
-            "id": "fence", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.16", 
-            "out_edge": [
-                [
-                    "cluster_50_house", 
-                    "yard, court", 
-                    4.0, 
-                    16.842105263157894
-                ]
-            ]
-        }, 
-        {
-            "community": 139, 
-            "id": "stable, stall", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.19", 
-            "out_edge": []
-        }, 
-        {
-            "community": 139, 
-            "id": "wall", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "7.27", 
-            "out_edge": []
-        }, 
-        {
-            "community": 139, 
-            "id": "tower", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.36", 
-            "out_edge": []
-        }, 
-        {
-            "community": 139, 
-            "id": "fortress", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.35", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

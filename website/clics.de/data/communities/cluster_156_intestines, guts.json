@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "key": "4.47", 
+            "community": 156, 
+            "id": "womb", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.63", 
+            "community": 156, 
+            "id": "sausage", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.461", 
+            "community": 156, 
+            "id": "intestines, guts", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.46", 
+            "community": 156, 
+            "id": "stomach", 
+            "out_edge": [
+                [
+                    "cluster_33_mind", 
+                    "heart", 
+                    5.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "intestines, guts"
+            }, 
+            {
+                "weight": 91.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "stomach"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "intestines, guts"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "womb"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 4.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "sausage"
+            }, 
+            {
+                "weight": 53.0, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "stomach"
+            }
+        ], 
+        [
+            {
+                "weight": 91.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "womb"
+            }, 
+            {
+                "weight": 53.0, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "intestines, guts"
+            }
+        ]
+    ], 
+    "directed": false
+}

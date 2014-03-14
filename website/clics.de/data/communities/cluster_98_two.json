@@ -1,0 +1,95 @@
+{
+    "nodes": [
+        {
+            "key": "13.37", 
+            "community": 98, 
+            "id": "pair", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "13.2", 
+            "community": 98, 
+            "id": "two", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "2.458", 
+            "community": 98, 
+            "id": "twins", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 25.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "twins"
+            }, 
+            {
+                "weight": 217.0, 
+                "languages": 24.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "two"
+            }
+        ], 
+        [
+            {
+                "weight": 217.0, 
+                "languages": 24.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "pair"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "two"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "twins"
+            }
+        ], 
+        [
+            {
+                "weight": 25.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "pair"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "two"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "twins"
+            }
+        ]
+    ], 
+    "directed": false
+}

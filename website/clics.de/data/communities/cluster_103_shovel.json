@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "key": "8.24", 
+            "community": 103, 
+            "id": "shovel", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.23", 
+            "community": 103, 
+            "id": "spade", 
+            "out_edge": [
+                [
+                    "cluster_135_paddle (noun)", 
+                    "paddle (noun)", 
+                    4.0, 
+                    20.0
+                ], 
+                [
+                    "cluster_162_shoulder", 
+                    "shoulderblade", 
+                    4.0, 
+                    19.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.25", 
+            "community": 103, 
+            "id": "hoe", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 549.0, 
+                "languages": 61.0, 
+                "families": 18.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "spade"
+            }, 
+            {
+                "weight": 11.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "hoe"
+            }
+        ], 
+        [
+            {
+                "weight": 549.0, 
+                "languages": 61.0, 
+                "families": 18.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "shovel"
+            }, 
+            {
+                "weight": 76.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "hoe"
+            }
+        ], 
+        [
+            {
+                "weight": 11.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "shovel"
+            }, 
+            {
+                "weight": 76.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "spade"
+            }
+        ]
+    ], 
+    "directed": false
+}

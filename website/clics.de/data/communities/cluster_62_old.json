@@ -1,0 +1,270 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 49.0, 
+                "weight": 3.7755102040816326, 
+                "id": "old", 
+                "families": 27.0
+            }, 
+            {
+                "languages": 11.0, 
+                "weight": 1.2857142857142856, 
+                "id": "grandfather", 
+                "families": 9.0
+            }, 
+            {
+                "languages": 16.0, 
+                "weight": 1.6122448979591835, 
+                "id": "old woman", 
+                "families": 13.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "ancestors", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 16.0, 
+                "weight": 1.6122448979591835, 
+                "id": "old man", 
+                "families": 13.0
+            }, 
+            {
+                "languages": 17.0, 
+                "weight": 1.5306122448979591, 
+                "id": "grandmother", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "grandfather", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.5306122448979591, 
+                "id": "old", 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "old man", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "grandmother", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "grandfather", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "old", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 49.0, 
+                "weight": 3.7755102040816326, 
+                "id": "old man", 
+                "families": 27.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "grandfather", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.5306122448979591, 
+                "id": "old woman", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "ancestors", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "grandmother", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "old", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 12.0, 
+                "weight": 1.2040816326530612, 
+                "id": "grandmother", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "old woman", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "ancestors", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 11.0, 
+                "weight": 1.2857142857142856, 
+                "id": "old man", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "old", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "ancestors", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 12.0, 
+                "weight": 1.2040816326530612, 
+                "id": "grandfather", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 17.0, 
+                "weight": 1.5306122448979591, 
+                "id": "old woman", 
+                "families": 12.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_5_male", 
+                    "husband", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "old man", 
+            "key": "2.461"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "old woman", 
+            "key": "2.471"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "ancestors", 
+            "key": "2.56"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "old", 
+            "key": "14.15"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a man)", 
+                    "father-in-law (of a man)", 
+                    5.0, 
+                    1.0816326530612246
+                ], 
+                [
+                    "cluster_75_nephew", 
+                    "grandson", 
+                    4.0, 
+                    1.0408163265306123
+                ], 
+                [
+                    "cluster_8_mother-in-law (of a man)", 
+                    "father-in-law (of a woman)", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "grandfather", 
+            "key": "2.46"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a man)", 
+                    "mother-in-law (of a man)", 
+                    6.0, 
+                    1.1224489795918366
+                ], 
+                [
+                    "cluster_8_mother-in-law (of a man)", 
+                    "mother-in-law (of a woman)", 
+                    4.0, 
+                    1.0408163265306123
+                ], 
+                [
+                    "cluster_75_nephew", 
+                    "granddaughter", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 62, 
+            "body_part": 0, 
+            "id": "grandmother", 
+            "key": "2.47"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

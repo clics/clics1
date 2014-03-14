@@ -1,0 +1,109 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 38.0, 
+                "weight": 1.7058823529411764, 
+                "id": "hot", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "perspire", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "fever", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 38.0, 
+                "weight": 1.7058823529411764, 
+                "id": "warm", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.0, 
+                "id": "fever", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "warm", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "fever", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "warm", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.0, 
+                "id": "hot", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "perspire", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 1, 
+            "out_edge": [], 
+            "community": 124, 
+            "body_part": 0, 
+            "id": "warm", 
+            "key": "15.851"
+        }, 
+        {
+            "swadesh100": 1, 
+            "out_edge": [], 
+            "community": 124, 
+            "body_part": 0, 
+            "id": "hot", 
+            "key": "15.85"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 124, 
+            "body_part": 0, 
+            "id": "perspire", 
+            "key": "4.55"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 124, 
+            "body_part": 0, 
+            "id": "fever", 
+            "key": "4.841"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

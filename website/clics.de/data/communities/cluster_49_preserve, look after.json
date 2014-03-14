@@ -1,298 +1,278 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 7.964601769911504, 
-                "id": "help, aid", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 4.166666666666666, 
-                "id": "guard, sentinel", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 637.3493975903615, 
-                "id": "keep, retain", 
-                "families": 23.0, 
-                "languages": 62.0
-            }, 
-            {
-                "weight": 3.6036036036036037, 
-                "id": "cure, heal", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 25.252525252525253, 
-                "id": "save, rescue", 
-                "families": 5.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 52.12765957446809, 
-                "id": "defend", 
-                "families": 7.0, 
-                "languages": 14.0
-            }
-        ], 
-        [
-            {
-                "weight": 7.964601769911504, 
-                "id": "preserve, look after", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 22.93577981651376, 
-                "id": "save, rescue", 
-                "families": 5.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 3.669724770642202, 
-                "id": "defend", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 4.166666666666666, 
-                "id": "preserve, look after", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 1.0869565217391304, 
-                "id": "defend", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 26.881720430107524, 
-                "id": "keep, retain", 
-                "families": 5.0, 
-                "languages": 5.0
-            }
-        ], 
-        [
-            {
-                "weight": 637.3493975903615, 
-                "id": "preserve, look after", 
-                "families": 23.0, 
-                "languages": 62.0
-            }, 
-            {
-                "weight": 3.6036036036036037, 
-                "id": "cure, heal", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 26.881720430107524, 
-                "id": "guard, sentinel", 
-                "families": 5.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 1.0, 
-                "id": "defend", 
-                "families": 1.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.9708737864077669, 
-                "id": "save, rescue", 
-                "families": 1.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.6036036036036037, 
-                "id": "preserve, look after", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 14.953271028037381, 
-                "id": "save, rescue", 
-                "families": 4.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 3.6036036036036037, 
-                "id": "keep, retain", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 14.953271028037381, 
-                "id": "cure, heal", 
-                "families": 4.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 25.252525252525253, 
-                "id": "preserve, look after", 
-                "families": 5.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 22.93577981651376, 
-                "id": "help, aid", 
-                "families": 5.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 70.32967032967034, 
-                "id": "defend", 
-                "families": 8.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 0.9708737864077669, 
-                "id": "keep, retain", 
-                "families": 1.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 52.12765957446809, 
-                "id": "preserve, look after", 
-                "families": 7.0, 
-                "languages": 14.0
-            }, 
-            {
-                "weight": 70.32967032967034, 
-                "id": "save, rescue", 
-                "families": 8.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 3.669724770642202, 
-                "id": "help, aid", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 1.0869565217391304, 
-                "id": "guard, sentinel", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.0, 
-                "id": "keep, retain", 
-                "families": 1.0, 
-                "languages": 3.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "11.24", 
             "community": 49, 
             "id": "preserve, look after", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.24", 
-            "out_edge": []
+            "swadesh100": 0
         }, 
         {
-            "community": 49, 
-            "id": "help, aid", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "19.58", 
-            "out_edge": []
-        }, 
-        {
-            "community": 49, 
-            "id": "guard, sentinel", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.471", 
-            "out_edge": []
-        }, 
-        {
+            "key": "11.17", 
             "community": 49, 
             "id": "keep, retain", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.17", 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "hold", 
                     12.0, 
-                    148.4536082474227
+                    1.5294117647058822
                 ], 
                 [
                     "cluster_116_have", 
                     "own, possess", 
                     9.0, 
-                    83.50515463917526
+                    1.2647058823529411
                 ], 
                 [
                     "cluster_116_have", 
                     "have", 
                     8.0, 
-                    63.366336633663366
+                    1.2647058823529411
                 ]
-            ]
-        }, 
-        {
-            "community": 49, 
-            "id": "cure, heal", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.86", 
-            "out_edge": []
+            "swadesh100": 0
         }, 
         {
+            "key": "11.25", 
             "community": 49, 
             "id": "save, rescue", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.25", 
-            "out_edge": [
-                [
-                    "cluster_83_forgive", 
-                    "acquit", 
-                    4.0, 
-                    20.77922077922078
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
+            "key": "19.58", 
+            "community": 49, 
+            "id": "help, aid", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.86", 
+            "community": 49, 
+            "id": "cure, heal", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.44", 
             "community": 49, 
             "id": "defend", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.44", 
-            "out_edge": [
-                [
-                    "cluster_86_hinder, prevent", 
-                    "hinder, prevent", 
-                    5.0, 
-                    27.173913043478258
-                ], 
-                [
-                    "cluster_86_hinder, prevent", 
-                    "forbid", 
-                    5.0, 
-                    27.173913043478258
-                ]
-            ]
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.471", 
+            "community": 49, 
+            "id": "guard, sentinel", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 4.1764705882352944, 
+                "languages": 62.0, 
+                "families": 23.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "help, aid"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cure, heal"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 7.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "guard, sentinel"
+            }
+        ], 
+        [
+            {
+                "weight": 4.1764705882352944, 
+                "languages": 62.0, 
+                "families": 23.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "guard, sentinel"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cure, heal"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "cure, heal"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "help, aid"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "id": "preserve, look after"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "save, rescue"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "save, rescue"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 7.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "guard, sentinel"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "help, aid"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "defend"
+            }
+        ]
+    ], 
     "directed": false
 }

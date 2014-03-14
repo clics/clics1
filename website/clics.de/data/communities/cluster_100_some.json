@@ -1,0 +1,151 @@
+{
+    "nodes": [
+        {
+            "key": "13.181", 
+            "community": 100, 
+            "id": "some", 
+            "out_edge": [
+                [
+                    "cluster_85_half", 
+                    "part, piece", 
+                    4.0, 
+                    15.0
+                ], 
+                [
+                    "cluster_229_one", 
+                    "one", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.18", 
+            "community": 100, 
+            "id": "thing", 
+            "out_edge": [
+                [
+                    "cluster_84_how?", 
+                    "what?", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "13.17", 
+            "community": 100, 
+            "id": "little (quantity), few", 
+            "out_edge": [
+                [
+                    "cluster_229_one", 
+                    "one", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.56", 
+            "community": 100, 
+            "id": "small, little", 
+            "out_edge": [
+                [
+                    "cluster_5_boy", 
+                    "young", 
+                    9.0, 
+                    71.0
+                ], 
+                [
+                    "cluster_37_low", 
+                    "short", 
+                    7.0, 
+                    41.0
+                ], 
+                [
+                    "cluster_185_narrow", 
+                    "narrow", 
+                    6.0, 
+                    30.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 46.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "thing"
+            }, 
+            {
+                "weight": 137.0, 
+                "languages": 20.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "little (quantity), few"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "small, little"
+            }
+        ], 
+        [
+            {
+                "weight": 46.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "some"
+            }
+        ], 
+        [
+            {
+                "weight": 137.0, 
+                "languages": 20.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "some"
+            }, 
+            {
+                "weight": 265.0, 
+                "languages": 30.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "small, little"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "some"
+            }, 
+            {
+                "weight": 265.0, 
+                "languages": 30.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "little (quantity), few"
+            }
+        ]
+    ], 
+    "directed": false
+}

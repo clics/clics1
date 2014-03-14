@@ -1,0 +1,102 @@
+{
+    "nodes": [
+        {
+            "key": "10.491", 
+            "community": 182, 
+            "id": "disappear", 
+            "out_edge": [
+                [
+                    "cluster_211_die, dead", 
+                    "die, dead", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.33", 
+            "community": 182, 
+            "id": "lose", 
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "destroy", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.32", 
+            "community": 182, 
+            "id": "forget", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 162.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "lose"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "forget"
+            }
+        ], 
+        [
+            {
+                "weight": 162.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "forget"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "disappear"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "lose"
+            }
+        ]
+    ], 
+    "directed": false
+}

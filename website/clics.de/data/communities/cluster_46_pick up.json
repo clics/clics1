@@ -1,261 +1,228 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 25.510204081632654, 
-                "id": "choose", 
-                "families": 5.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 8.91089108910891, 
-                "id": "join, unite", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 234.375, 
-                "id": "raise, lift", 
-                "families": 15.0, 
-                "languages": 41.0
-            }, 
-            {
-                "weight": 8.653846153846153, 
-                "id": "pile up", 
-                "families": 3.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 321.11111111111114, 
-                "id": "collect, gather", 
-                "families": 17.0, 
-                "languages": 36.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.91089108910891, 
-                "id": "pick up", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.9345794392523363, 
-                "id": "join, unite", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 8.333333333333332, 
-                "id": "pile up", 
-                "families": 3.0, 
-                "languages": 9.0
-            }, 
-            {
-                "weight": 172.44897959183675, 
-                "id": "collect, gather", 
-                "families": 13.0, 
-                "languages": 19.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.653846153846153, 
-                "id": "pick up", 
-                "families": 3.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 8.333333333333332, 
-                "id": "join, unite", 
-                "families": 3.0, 
-                "languages": 9.0
-            }, 
-            {
-                "weight": 0.9174311926605505, 
-                "id": "choose", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 77.14285714285715, 
-                "id": "collect, gather", 
-                "families": 9.0, 
-                "languages": 29.0
-            }
-        ], 
-        [
-            {
-                "weight": 25.510204081632654, 
-                "id": "pick up", 
-                "families": 5.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 0.9174311926605505, 
-                "id": "pile up", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 3.8461538461538463, 
-                "id": "choose", 
-                "families": 2.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 15.09433962264151, 
-                "id": "collect, gather", 
-                "families": 4.0, 
-                "languages": 4.0
-            }
-        ], 
-        [
-            {
-                "weight": 321.11111111111114, 
-                "id": "pick up", 
-                "families": 17.0, 
-                "languages": 36.0
-            }, 
-            {
-                "weight": 172.44897959183675, 
-                "id": "join, unite", 
-                "families": 13.0, 
-                "languages": 19.0
-            }, 
-            {
-                "weight": 15.09433962264151, 
-                "id": "choose", 
-                "families": 4.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 77.14285714285715, 
-                "id": "pile up", 
-                "families": 9.0, 
-                "languages": 29.0
-            }
-        ], 
-        [
-            {
-                "weight": 234.375, 
-                "id": "pick up", 
-                "families": 15.0, 
-                "languages": 41.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "12.212", 
             "community": 46, 
             "id": "pick up", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.212", 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "take", 
                     13.0, 
-                    172.44897959183675
+                    1.7941176470588236
                 ], 
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     7.0, 
-                    50.0
-                ], 
-                [
-                    "cluster_9_cut", 
-                    "mow, reap", 
-                    6.0, 
-                    39.56043956043956
+                    1.2647058823529411
                 ]
-            ]
-        }, 
-        {
-            "community": 46, 
-            "id": "join, unite", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.22", 
-            "out_edge": [
-                [
-                    "cluster_230_tie, bind", 
-                    "tie, bind", 
-                    5.0, 
-                    22.321428571428573
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
-            "community": 46, 
-            "id": "pile up", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.213", 
-            "out_edge": [
-                [
-                    "cluster_74_bend", 
-                    "fold", 
-                    4.0, 
-                    14.414414414414415
-                ]
-            ]
-        }, 
-        {
+            "key": "16.622", 
             "community": 46, 
             "id": "choose", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.622", 
-            "out_edge": [
-                [
-                    "cluster_3_get, obtain", 
-                    "take", 
-                    5.0, 
-                    22.93577981651376
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
+            "key": "12.21", 
             "community": 46, 
             "id": "collect, gather", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.21", 
             "out_edge": [
                 [
                     "cluster_9_cut", 
                     "mow, reap", 
                     7.0, 
-                    50.51546391752577
+                    1.2647058823529411
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
         }, 
         {
+            "key": "10.22", 
             "community": 46, 
             "id": "raise, lift", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "10.22", 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.22", 
+            "community": 46, 
+            "id": "join, unite", 
             "out_edge": [
                 [
-                    "cluster_32_climb", 
-                    "rise", 
-                    6.0, 
-                    31.57894736842105
-                ], 
-                [
-                    "cluster_3_get, obtain", 
-                    "take", 
-                    4.0, 
-                    13.559322033898304
+                    "cluster_229_button", 
+                    "tie, bind", 
+                    5.0, 
+                    1.0
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.213", 
+            "community": 46, 
+            "id": "pile up", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "join, unite"
+            }, 
+            {
+                "weight": 2.5882352941176472, 
+                "languages": 36.0, 
+                "families": 17.0, 
+                "id": "collect, gather"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 41.0, 
+                "families": 15.0, 
+                "id": "raise, lift"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "id": "pile up"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "choose"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "collect, gather"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "pick up"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pile up"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "choose"
+            }
+        ], 
+        [
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "join, unite"
+            }, 
+            {
+                "weight": 2.5882352941176472, 
+                "languages": 36.0, 
+                "families": 17.0, 
+                "id": "pick up"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 29.0, 
+                "families": 9.0, 
+                "id": "pile up"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "choose"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 41.0, 
+                "families": 15.0, 
+                "id": "pick up"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "join, unite"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "pick up"
+            }, 
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "id": "collect, gather"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 9.0, 
+                "families": 3.0, 
+                "id": "pile up"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 9.0, 
+                "families": 3.0, 
+                "id": "join, unite"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "id": "pick up"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 29.0, 
+                "families": 9.0, 
+                "id": "collect, gather"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "choose"
+            }
+        ]
+    ], 
     "directed": false
 }

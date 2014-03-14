@@ -1,0 +1,128 @@
+{
+    "nodes": [
+        {
+            "key": "1.852", 
+            "community": 104, 
+            "id": "burn (vb intrans)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "21.46", 
+            "community": 104, 
+            "id": "arson", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.86", 
+            "community": 104, 
+            "id": "light, kindle, ignite", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.851", 
+            "community": 104, 
+            "id": "burn (vb trans)", 
+            "out_edge": [
+                [
+                    "cluster_105_boil (vb)", 
+                    "roast, fry", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "arson"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "light, kindle, ignite"
+            }, 
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 35.0, 
+                "families": 13.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "light, kindle, ignite"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 4.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "arson"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 31.0, 
+                "families": 16.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 35.0, 
+                "families": 13.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "id": "arson"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 31.0, 
+                "families": 16.0, 
+                "id": "light, kindle, ignite"
+            }
+        ]
+    ], 
+    "directed": false
+}

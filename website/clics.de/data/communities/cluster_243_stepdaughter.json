@@ -1,54 +1,48 @@
 {
+    "nodes": [
+        {
+            "key": "2.74", 
+            "community": 243, 
+            "id": "stepdaughter", 
+            "out_edge": [
+                [
+                    "cluster_8_son-in-law (of a man)", 
+                    "daughter-in-law (of a man)", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.73", 
+            "community": 243, 
+            "id": "stepson", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 170.4225352112676, 
-                "id": "stepson", 
+                "weight": 1.7941176470588236, 
+                "languages": 13.0, 
                 "families": 11.0, 
-                "languages": 13.0
+                "id": "stepson"
             }
         ], 
         [
             {
-                "weight": 170.4225352112676, 
-                "id": "stepdaughter", 
+                "weight": 1.7941176470588236, 
+                "languages": 13.0, 
                 "families": 11.0, 
-                "languages": 13.0
+                "id": "stepdaughter"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 243, 
-            "id": "stepdaughter", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "2.74", 
-            "out_edge": [
-                [
-                    "cluster_8_mother-in-law (of a woman)", 
-                    "daughter-in-law (of a woman)", 
-                    4.0, 
-                    18.6046511627907
-                ], 
-                [
-                    "cluster_8_mother-in-law (of a woman)", 
-                    "daughter-in-law (of a man)", 
-                    4.0, 
-                    17.77777777777778
-                ]
-            ]
-        }, 
-        {
-            "community": 243, 
-            "id": "stepson", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "2.73", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

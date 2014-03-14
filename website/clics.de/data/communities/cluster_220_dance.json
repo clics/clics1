@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "key": "16.26", 
+            "community": 220, 
+            "id": "play", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.44", 
+            "community": 220, 
+            "id": "dance", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.252", 
+            "community": 220, 
+            "id": "last, endure", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "dance"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "play"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "last, endure"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "dance"
+            }
+        ]
+    ], 
+    "directed": false
+}

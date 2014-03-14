@@ -1,0 +1,148 @@
+{
+    "nodes": [
+        {
+            "key": "11.31", 
+            "community": 158, 
+            "id": "seek, look for", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.25", 
+            "community": 158, 
+            "id": "throw", 
+            "out_edge": [
+                [
+                    "cluster_21_sow", 
+                    "sow", 
+                    4.0, 
+                    16.0
+                ], 
+                [
+                    "cluster_13_cut", 
+                    "cut down", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.61", 
+            "community": 158, 
+            "id": "hunt", 
+            "out_edge": [
+                [
+                    "cluster_179_pursue", 
+                    "pursue", 
+                    4.0, 
+                    14.0
+                ], 
+                [
+                    "cluster_4_get, obtain", 
+                    "seize, grasp", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.62", 
+            "community": 158, 
+            "id": "shoot", 
+            "out_edge": [
+                [
+                    "cluster_88_strike (hit, beat)", 
+                    "strike (hit, beat)", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.341", 
+            "community": 158, 
+            "id": "divorce", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 30.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "hunt"
+            }
+        ], 
+        [
+            {
+                "weight": 89.0, 
+                "languages": 19.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "shoot"
+            }, 
+            {
+                "weight": 15.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "divorce"
+            }
+        ], 
+        [
+            {
+                "weight": 30.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "seek, look for"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "shoot"
+            }
+        ], 
+        [
+            {
+                "weight": 89.0, 
+                "languages": 19.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "throw"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "hunt"
+            }
+        ], 
+        [
+            {
+                "weight": 15.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "throw"
+            }
+        ]
+    ], 
+    "directed": false
+}

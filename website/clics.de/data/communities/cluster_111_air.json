@@ -1,94 +1,100 @@
 {
+    "nodes": [
+        {
+            "key": "1.71", 
+            "community": 111, 
+            "id": "air", 
+            "out_edge": [
+                [
+                    "cluster_16_time", 
+                    "weather", 
+                    7.0, 
+                    61.0
+                ], 
+                [
+                    "cluster_71_smoke (noun)", 
+                    "sky", 
+                    4.0, 
+                    15.0
+                ], 
+                [
+                    "cluster_231_breathe, breath", 
+                    "breathe, breath", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.58", 
+            "community": 111, 
+            "id": "storm", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.72", 
+            "community": 111, 
+            "id": "wind", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 4.0, 
-                "id": "storm", 
-                "families": 2.0, 
-                "languages": 2.0
+                "weight": 495.0, 
+                "languages": 41.0, 
+                "families": 21.0, 
+                "edge_width": 3.3823529411764706, 
+                "id": "wind"
             }, 
             {
-                "weight": 495.50561797752806, 
-                "id": "wind", 
-                "families": 21.0, 
-                "languages": 41.0
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "storm"
             }
         ], 
         [
             {
                 "weight": 4.0, 
-                "id": "air", 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "air"
             }, 
             {
-                "weight": 22.52252252252252, 
-                "id": "wind", 
+                "weight": 22.0, 
+                "languages": 16.0, 
                 "families": 5.0, 
-                "languages": 16.0
+                "edge_width": 1.0, 
+                "id": "wind"
             }
         ], 
         [
             {
-                "weight": 495.50561797752806, 
-                "id": "air", 
+                "weight": 495.0, 
+                "languages": 41.0, 
                 "families": 21.0, 
-                "languages": 41.0
+                "edge_width": 3.3823529411764706, 
+                "id": "air"
             }, 
             {
-                "weight": 22.52252252252252, 
-                "id": "storm", 
+                "weight": 22.0, 
+                "languages": 16.0, 
                 "families": 5.0, 
-                "languages": 16.0
+                "edge_width": 1.0, 
+                "id": "storm"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 111, 
-            "id": "air", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.71", 
-            "out_edge": [
-                [
-                    "cluster_16_day", 
-                    "weather", 
-                    7.0, 
-                    61.25000000000001
-                ], 
-                [
-                    "cluster_66_smoke (noun)", 
-                    "sky", 
-                    4.0, 
-                    15.238095238095239
-                ], 
-                [
-                    "cluster_234_breathe, breath", 
-                    "breathe, breath", 
-                    4.0, 
-                    15.09433962264151
-                ]
-            ]
-        }, 
-        {
-            "community": 111, 
-            "id": "storm", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.58", 
-            "out_edge": []
-        }, 
-        {
-            "community": 111, 
-            "id": "wind", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.72", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "key": "9.31", 
+            "community": 186, 
+            "id": "rub, wipe", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.37", 
+            "community": 186, 
+            "id": "sweep", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.38", 
+            "community": 186, 
+            "id": "broom", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.48", 
+            "community": 186, 
+            "id": "scrape", 
+            "out_edge": [
+                [
+                    "cluster_164_peel", 
+                    "peel", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 42.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "scrape"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "sweep"
+            }
+        ], 
+        [
+            {
+                "weight": 30.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "rub, wipe"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "broom"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "scrape"
+            }
+        ], 
+        [
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "sweep"
+            }
+        ], 
+        [
+            {
+                "weight": 42.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "rub, wipe"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "sweep"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,185 @@
+{
+    "nodes": [
+        {
+            "key": "2.36", 
+            "community": 125, 
+            "id": "mother", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.521", 
+            "community": 125, 
+            "id": "mother's sister", 
+            "out_edge": [
+                [
+                    "cluster_108_father's brother", 
+                    "mother's brother", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.522", 
+            "community": 125, 
+            "id": "father's sister", 
+            "out_edge": [
+                [
+                    "cluster_10_son-in-law (of a man)", 
+                    "mother-in-law (of a man)", 
+                    10.0, 
+                    98.0
+                ], 
+                [
+                    "cluster_10_son-in-law (of a man)", 
+                    "mother-in-law (of a woman)", 
+                    8.0, 
+                    68.0
+                ], 
+                [
+                    "cluster_108_father's brother", 
+                    "father's brother", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.52", 
+            "community": 125, 
+            "id": "aunt", 
+            "out_edge": [
+                [
+                    "cluster_108_father's brother", 
+                    "uncle", 
+                    6.0, 
+                    39.0
+                ], 
+                [
+                    "cluster_108_father's brother", 
+                    "mother's brother", 
+                    5.0, 
+                    26.0
+                ], 
+                [
+                    "cluster_32_older brother", 
+                    "cousin", 
+                    5.0, 
+                    26.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 137.0, 
+                "languages": 17.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "mother's sister"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "father's sister"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 9.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "aunt"
+            }
+        ], 
+        [
+            {
+                "weight": 137.0, 
+                "languages": 17.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "mother"
+            }, 
+            {
+                "weight": 210.0, 
+                "languages": 43.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "father's sister"
+            }, 
+            {
+                "weight": 612.0, 
+                "languages": 69.0, 
+                "families": 22.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "aunt"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "mother"
+            }, 
+            {
+                "weight": 210.0, 
+                "languages": 43.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "mother's sister"
+            }, 
+            {
+                "weight": 544.0, 
+                "languages": 66.0, 
+                "families": 21.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "aunt"
+            }
+        ], 
+        [
+            {
+                "weight": 23.0, 
+                "languages": 9.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "mother"
+            }, 
+            {
+                "weight": 612.0, 
+                "languages": 69.0, 
+                "families": 22.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "mother's sister"
+            }, 
+            {
+                "weight": 544.0, 
+                "languages": 66.0, 
+                "families": 21.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "father's sister"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "aunt"
+            }
+        ]
+    ], 
+    "directed": false
+}

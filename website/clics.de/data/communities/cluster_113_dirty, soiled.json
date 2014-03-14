@@ -1,107 +1,88 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 0.8264462809917356, 
-                "id": "dirty, soiled", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 7.43801652892562, 
-                "id": "bad", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 42.608695652173914, 
-                "id": "ugly", 
-                "families": 7.0, 
-                "languages": 7.0
-            }
-        ], 
-        [
-            {
-                "weight": 7.43801652892562, 
-                "id": "dirty, soiled", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 523.7623762376238, 
-                "id": "ugly", 
-                "families": 23.0, 
-                "languages": 33.0
-            }
-        ], 
-        [
-            {
-                "weight": 42.608695652173914, 
-                "id": "dirty, soiled", 
-                "families": 7.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 523.7623762376238, 
-                "id": "bad", 
-                "families": 23.0, 
-                "languages": 33.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "15.88", 
             "community": 113, 
             "id": "dirty, soiled", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.88", 
-            "out_edge": [
-                [
-                    "cluster_63_dark (in color)", 
-                    "black", 
-                    5.0, 
-                    20.833333333333336
-                ], 
-                [
-                    "cluster_63_dark (in color)", 
-                    "dark (in color)", 
-                    4.0, 
-                    14.035087719298245
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
+            "key": "16.82", 
+            "community": 113, 
+            "id": "ugly", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.72", 
             "community": 113, 
             "id": "bad", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.72", 
             "out_edge": [
                 [
                     "cluster_26_guilty", 
                     "wrong", 
                     12.0, 
-                    145.45454545454547
-                ], 
-                [
-                    "cluster_88_anger", 
-                    "anger", 
-                    4.0, 
-                    13.114754098360656
+                    1.5294117647058822
                 ]
-            ]
-        }, 
-        {
-            "community": 113, 
-            "id": "ugly", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.82", 
-            "out_edge": []
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "dirty, soiled"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "ugly"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "dirty, soiled"
+            }, 
+            {
+                "weight": 3.6470588235294117, 
+                "languages": 33.0, 
+                "families": 23.0, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "dirty, soiled"
+            }, 
+            {
+                "weight": 3.6470588235294117, 
+                "languages": 33.0, 
+                "families": 23.0, 
+                "id": "ugly"
+            }
+        ]
+    ], 
     "directed": false
 }

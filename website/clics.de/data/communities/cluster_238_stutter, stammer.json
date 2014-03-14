@@ -1,0 +1,69 @@
+{
+    "nodes": [
+        {
+            "key": "18.16", 
+            "community": 238, 
+            "id": "mumble", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.15", 
+            "community": 238, 
+            "id": "whisper", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.211", 
+            "community": 238, 
+            "id": "stutter, stammer", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "whisper"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "stutter, stammer"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "mumble"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "mumble"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stutter, stammer"
+            }
+        ]
+    ], 
+    "directed": false
+}

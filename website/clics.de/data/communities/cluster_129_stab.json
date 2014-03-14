@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "key": "9.223", 
+            "community": 129, 
+            "id": "stab", 
+            "out_edge": [
+                [
+                    "cluster_116_extinguish", 
+                    "kill", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.46", 
+            "community": 129, 
+            "id": "bore", 
+            "out_edge": [
+                [
+                    "cluster_83_hole", 
+                    "hole", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.22", 
+            "community": 129, 
+            "id": "dig", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.461", 
+            "community": 129, 
+            "id": "hollow out", 
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "carve", 
+                    4.0, 
+                    17.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 15.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "dig"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "hollow out"
+            }
+        ], 
+        [
+            {
+                "weight": 15.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "dig"
+            }, 
+            {
+                "weight": 102.0, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "hollow out"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 190.0, 
+                "languages": 26.0, 
+                "families": 14.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "hollow out"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "stab"
+            }, 
+            {
+                "weight": 102.0, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "bore"
+            }, 
+            {
+                "weight": 190.0, 
+                "languages": 26.0, 
+                "families": 14.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "dig"
+            }
+        ]
+    ], 
+    "directed": false
+}

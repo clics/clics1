@@ -1,75 +1,75 @@
 {
+    "nodes": [
+        {
+            "key": "4.97", 
+            "community": 251, 
+            "id": "blind", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.79", 
+            "community": 251, 
+            "id": "blunt, dull", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.215", 
+            "community": 251, 
+            "id": "blink", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.9523809523809524, 
-                "id": "blink", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "blind"
             }, 
             {
-                "weight": 3.571428571428571, 
-                "id": "blind", 
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "blunt, dull"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "id": "blink"
             }
         ], 
         [
             {
-                "weight": 8.256880733944955, 
-                "id": "blind", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 3.0, 
-                "languages": 3.0
+                "id": "blind"
             }
         ], 
         [
             {
-                "weight": 3.571428571428571, 
-                "id": "blink", 
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "id": "blind"
             }, 
             {
-                "weight": 8.256880733944955, 
-                "id": "blunt, dull", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.8264462809917356, 
-                "id": "blind", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "blink"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 251, 
-            "id": "blink", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.215", 
-            "out_edge": []
-        }, 
-        {
-            "community": 251, 
-            "id": "blunt, dull", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.79", 
-            "out_edge": []
-        }, 
-        {
-            "community": 251, 
-            "id": "blind", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.97", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

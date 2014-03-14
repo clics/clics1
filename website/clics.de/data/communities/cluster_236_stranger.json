@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "19.55", 
+            "community": 236, 
+            "id": "stranger", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.56", 
+            "community": 236, 
+            "id": "guest", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.52", 
+            "community": 236, 
+            "id": "enemy", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 26.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "guest"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "enemy"
+            }
+        ], 
+        [
+            {
+                "weight": 26.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "enemy"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "stranger"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "guest"
+            }
+        ]
+    ], 
+    "directed": false
+}

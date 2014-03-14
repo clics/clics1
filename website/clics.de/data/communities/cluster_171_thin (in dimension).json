@@ -1,61 +1,61 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 347.11538461538464, 
+                "languages": 23.0, 
+                "weight": 2.3877551020408161, 
                 "id": "narrow", 
-                "families": 19.0, 
-                "languages": 23.0
+                "families": 19.0
             }
         ], 
         [
             {
-                "weight": 347.11538461538464, 
+                "languages": 23.0, 
+                "weight": 2.3877551020408161, 
                 "id": "thin (in dimension)", 
-                "families": 19.0, 
-                "languages": 23.0
+                "families": 19.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 171, 
-            "id": "thin (in dimension)", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "12.65", 
             "out_edge": [
                 [
                     "cluster_36_inside, in", 
                     "shallow", 
                     5.0, 
-                    22.727272727272727
+                    1.0816326530612246
                 ], 
                 [
                     "cluster_98_soft", 
                     "weak", 
                     4.0, 
-                    13.675213675213676
+                    1.0408163265306123
                 ]
-            ]
+            ], 
+            "community": 171, 
+            "body_part": 0, 
+            "id": "thin (in dimension)", 
+            "key": "12.65"
         }, 
         {
-            "community": 171, 
-            "id": "narrow", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "12.62", 
             "out_edge": [
                 [
                     "cluster_99_some", 
                     "small, little", 
                     6.0, 
-                    30.252100840336134
+                    1.1224489795918366
                 ]
-            ]
+            ], 
+            "community": 171, 
+            "body_part": 0, 
+            "id": "narrow", 
+            "key": "12.62"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

@@ -1,0 +1,98 @@
+{
+    "nodes": [
+        {
+            "key": "17.36", 
+            "community": 218, 
+            "id": "secret", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.16", 
+            "community": 218, 
+            "id": "mumble", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.15", 
+            "community": 218, 
+            "id": "whisper", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.211", 
+            "community": 218, 
+            "id": "stutter, stammer", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "whisper"
+            }
+        ], 
+        [
+            {
+                "weight": 41.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "whisper"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "stutter, stammer"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "secret"
+            }, 
+            {
+                "weight": 41.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "mumble"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "mumble"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "stutter, stammer"
+            }
+        ]
+    ], 
+    "directed": false
+}

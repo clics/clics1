@@ -1,70 +1,74 @@
 {
+    "nodes": [
+        {
+            "key": "11.78", 
+            "community": 196, 
+            "id": "wages", 
+            "out_edge": [
+                [
+                    "cluster_7_trade, barter", 
+                    "pay (vb)", 
+                    4.0, 
+                    17.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.87", 
+            "community": 196, 
+            "id": "price", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.69", 
+            "community": 196, 
+            "id": "tax, tribute", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 5.797101449275362, 
-                "id": "wages", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 103.84615384615385, 
-                "id": "wages", 
+                "weight": 103.0, 
+                "languages": 10.0, 
                 "families": 9.0, 
-                "languages": 10.0
-            }
-        ], 
-        [
-            {
-                "weight": 103.84615384615385, 
-                "id": "price", 
-                "families": 9.0, 
-                "languages": 10.0
+                "edge_width": 1.5294117647058822, 
+                "id": "price"
             }, 
             {
-                "weight": 5.797101449275362, 
-                "id": "tax, tribute", 
+                "weight": 5.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "tax, tribute"
+            }
+        ], 
+        [
+            {
+                "weight": 103.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "wages"
+            }
+        ], 
+        [
+            {
+                "weight": 5.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "wages"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 196, 
-            "id": "tax, tribute", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.69", 
-            "out_edge": []
-        }, 
-        {
-            "community": 196, 
-            "id": "price", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.87", 
-            "out_edge": []
-        }, 
-        {
-            "community": 196, 
-            "id": "wages", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.78", 
-            "out_edge": [
-                [
-                    "cluster_10_trade, barter", 
-                    "pay (vb)", 
-                    4.0, 
-                    17.391304347826086
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 172, 
+            "id": "stocking, sock", 
+            "key": "6.49", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 172, 
+            "id": "boot", 
+            "key": "6.52", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 172, 
+            "id": "shoe", 
+            "key": "6.51", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "boot"
+            }, 
+            {
+                "languages": 7.0, 
+                "weight": 1.4883720930232558, 
+                "families": 6.0, 
+                "id": "shoe"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "stocking, sock"
+            }, 
+            {
+                "languages": 28.0, 
+                "weight": 3.0930232558139537, 
+                "families": 12.0, 
+                "id": "shoe"
+            }
+        ], 
+        [
+            {
+                "languages": 28.0, 
+                "weight": 3.0930232558139537, 
+                "families": 12.0, 
+                "id": "boot"
+            }, 
+            {
+                "languages": 7.0, 
+                "weight": 1.4883720930232558, 
+                "families": 6.0, 
+                "id": "stocking, sock"
+            }
+        ]
+    ], 
+    "directed": false, 
+    "graph": [], 
+    "multigraph": false
+}

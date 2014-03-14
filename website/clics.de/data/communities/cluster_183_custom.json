@@ -1,0 +1,95 @@
+{
+    "nodes": [
+        {
+            "key": "17.49", 
+            "community": 183, 
+            "id": "way, manner", 
+            "out_edge": [
+                [
+                    "cluster_141_road", 
+                    "road", 
+                    5.0, 
+                    26.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.11", 
+            "community": 183, 
+            "id": "law", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.61", 
+            "community": 183, 
+            "id": "custom", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "law"
+            }, 
+            {
+                "weight": 205.0, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "way, manner"
+            }, 
+            {
+                "weight": 33.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "weight": 205.0, 
+                "languages": 19.0, 
+                "families": 12.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "way, manner"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "custom"
+            }, 
+            {
+                "weight": 33.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "law"
+            }
+        ]
+    ], 
+    "directed": false
+}

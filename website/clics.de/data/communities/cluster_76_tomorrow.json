@@ -1,0 +1,181 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 9.0, 
+                "weight": 1.1632653061224489, 
+                "id": "yesterday", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "early", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 17.0, 
+                "weight": 1.5306122448979591, 
+                "id": "morning", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "dawn", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 1.1632653061224489, 
+                "id": "tomorrow", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "morning", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "tomorrow", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0408163265306123, 
+                "id": "dawn", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 26.0, 
+                "weight": 2.7142857142857144, 
+                "id": "morning", 
+                "families": 19.0
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "weight": 1.5306122448979591, 
+                "id": "tomorrow", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "yesterday", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 26.0, 
+                "weight": 2.7142857142857144, 
+                "id": "early", 
+                "families": 19.0
+            }, 
+            {
+                "languages": 7.0, 
+                "weight": 1.1224489795918366, 
+                "id": "dawn", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "tomorrow", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0408163265306123, 
+                "id": "early", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 7.0, 
+                "weight": 1.1224489795918366, 
+                "id": "morning", 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 76, 
+            "body_part": 0, 
+            "id": "tomorrow", 
+            "key": "14.48"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 76, 
+            "body_part": 0, 
+            "id": "yesterday", 
+            "key": "14.49"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_54_immediately", 
+                    "soon", 
+                    7.0, 
+                    1.2040816326530612
+                ], 
+                [
+                    "cluster_54_immediately", 
+                    "swift, fast, quick", 
+                    7.0, 
+                    1.1632653061224489
+                ], 
+                [
+                    "cluster_109_first", 
+                    "before", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 76, 
+            "body_part": 0, 
+            "id": "early", 
+            "key": "14.16"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 76, 
+            "body_part": 0, 
+            "id": "morning", 
+            "key": "14.44"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_22_white", 
+                    "light (noun)", 
+                    5.0, 
+                    1.0816326530612246
+                ]
+            ], 
+            "community": 76, 
+            "body_part": 0, 
+            "id": "dawn", 
+            "key": "14.43"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

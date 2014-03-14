@@ -1,0 +1,215 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 12.0, 
+                "weight": 1.1176470588235294, 
+                "id": "crooked", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 24.0, 
+                "weight": 1.2352941176470589, 
+                "id": "fold", 
+                "families": 11.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "spin", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.1176470588235294, 
+                "id": "twist", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "wind, wrap", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 24.0, 
+                "weight": 1.2352941176470589, 
+                "id": "bend", 
+                "families": 11.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "twist", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "wind, wrap", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "fold", 
+                "families": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "spin", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "bend", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "twist", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "bend", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 11.0, 
+                "weight": 1.1176470588235294, 
+                "id": "twist", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "wind, wrap", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "weight": 1.1176470588235294, 
+                "id": "bend", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "twist", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "crooked", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.1176470588235294, 
+                "id": "bend", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 11.0, 
+                "weight": 1.1176470588235294, 
+                "id": "spin", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "fold", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "wind, wrap", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "bend", 
+            "key": "9.14"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "fold", 
+            "key": "9.15"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "wind, wrap", 
+            "key": "10.14"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_48_braid", 
+                    "weave, plait", 
+                    8.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "spin", 
+            "key": "6.31"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "crooked", 
+            "key": "12.74"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_56_squeeze, wring", 
+                    "squeeze, wring", 
+                    8.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 80, 
+            "body_part": 0, 
+            "id": "twist", 
+            "key": "10.17"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

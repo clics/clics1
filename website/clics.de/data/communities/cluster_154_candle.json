@@ -1,0 +1,116 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "candle", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "beeswax", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "earwax", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "beeswax", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 12.0, 
+                "weight": 1.2352941176470589, 
+                "id": "lamp, torch", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "earwax", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "candle", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "lamp, torch", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "weight": 1.2352941176470589, 
+                "id": "candle", 
+                "families": 11.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "beeswax", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 154, 
+            "body_part": 1, 
+            "id": "earwax", 
+            "key": "4.222"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 154, 
+            "body_part": 0, 
+            "id": "candle", 
+            "key": "7.46"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 154, 
+            "body_part": 0, 
+            "id": "beeswax", 
+            "key": "3.821"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_24_white", 
+                    "light (noun)", 
+                    9.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 154, 
+            "body_part": 0, 
+            "id": "lamp, torch", 
+            "key": "7.45"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

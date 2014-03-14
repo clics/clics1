@@ -1,0 +1,136 @@
+{
+    "nodes": [
+        {
+            "key": "20.36", 
+            "community": 127, 
+            "id": "tower", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.35", 
+            "community": 127, 
+            "id": "fortress", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.27", 
+            "community": 127, 
+            "id": "wall", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.16", 
+            "community": 127, 
+            "id": "fence", 
+            "out_edge": [
+                [
+                    "cluster_42_house", 
+                    "yard, court", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.19", 
+            "community": 127, 
+            "id": "stable, stall", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 32.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "fortress"
+            }
+        ], 
+        [
+            {
+                "weight": 32.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "tower"
+            }, 
+            {
+                "weight": 5.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "wall"
+            }, 
+            {
+                "weight": 11.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "fence"
+            }
+        ], 
+        [
+            {
+                "weight": 5.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "fortress"
+            }, 
+            {
+                "weight": 108.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "fence"
+            }
+        ], 
+        [
+            {
+                "weight": 108.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "wall"
+            }, 
+            {
+                "weight": 11.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "fortress"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "stable, stall"
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "fence"
+            }
+        ]
+    ], 
+    "directed": false
+}

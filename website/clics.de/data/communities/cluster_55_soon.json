@@ -1,0 +1,257 @@
+{
+    "nodes": [
+        {
+            "key": "14.47", 
+            "community": 55, 
+            "id": "today", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.18", 
+            "community": 55, 
+            "id": "now", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.23", 
+            "community": 55, 
+            "id": "hasten, hurry", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.331", 
+            "community": 55, 
+            "id": "soon", 
+            "out_edge": [
+                [
+                    "cluster_75_morning", 
+                    "early", 
+                    7.0, 
+                    52.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.21", 
+            "community": 55, 
+            "id": "swift, fast, quick", 
+            "out_edge": [
+                [
+                    "cluster_75_morning", 
+                    "early", 
+                    7.0, 
+                    47.0
+                ], 
+                [
+                    "cluster_150_pointed", 
+                    "sharp", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.19", 
+            "community": 55, 
+            "id": "immediately", 
+            "out_edge": [
+                [
+                    "cluster_75_morning", 
+                    "early", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "soon"
+            }, 
+            {
+                "weight": 388.0, 
+                "languages": 31.0, 
+                "families": 20.0, 
+                "edge_width": 2.8529411764705883, 
+                "id": "now"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "immediately"
+            }
+        ], 
+        [
+            {
+                "weight": 45.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "soon"
+            }, 
+            {
+                "weight": 388.0, 
+                "languages": 31.0, 
+                "families": 20.0, 
+                "edge_width": 2.8529411764705883, 
+                "id": "today"
+            }, 
+            {
+                "weight": 72.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "immediately"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "soon"
+            }, 
+            {
+                "weight": 71.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "swift, fast, quick"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "immediately"
+            }
+        ], 
+        [
+            {
+                "weight": 227.0, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "swift, fast, quick"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "today"
+            }, 
+            {
+                "weight": 45.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "now"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "hasten, hurry"
+            }, 
+            {
+                "weight": 146.0, 
+                "languages": 18.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "immediately"
+            }
+        ], 
+        [
+            {
+                "weight": 227.0, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "soon"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "swift, fast, quick"
+            }, 
+            {
+                "weight": 71.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "hasten, hurry"
+            }, 
+            {
+                "weight": 43.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "immediately"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "today"
+            }, 
+            {
+                "weight": 146.0, 
+                "languages": 18.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "soon"
+            }, 
+            {
+                "weight": 43.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "swift, fast, quick"
+            }, 
+            {
+                "weight": 72.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "now"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "hasten, hurry"
+            }
+        ]
+    ], 
+    "directed": false
+}

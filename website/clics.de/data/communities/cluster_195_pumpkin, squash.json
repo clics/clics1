@@ -1,48 +1,48 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 251.28205128205127, 
-                "id": "pumpkin, squash", 
-                "families": 14.0, 
-                "languages": 58.0
+                "languages": 58.0, 
+                "weight": 2.0204081632653059, 
+                "id": "gourd", 
+                "families": 14.0
             }
         ], 
         [
             {
-                "weight": 251.28205128205127, 
-                "id": "gourd", 
-                "families": 14.0, 
-                "languages": 58.0
+                "languages": 58.0, 
+                "weight": 2.0204081632653059, 
+                "id": "pumpkin, squash", 
+                "families": 14.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 195, 
-            "id": "gourd", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "8.93", 
-            "out_edge": [
-                [
-                    "cluster_7_saucer", 
-                    "bowl", 
-                    7.0, 
-                    53.84615384615385
-                ]
-            ]
+            "out_edge": [], 
+            "community": 195, 
+            "body_part": 0, 
+            "id": "pumpkin, squash", 
+            "key": "8.931"
         }, 
         {
-            "community": 195, 
-            "id": "pumpkin, squash", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "8.931", 
-            "out_edge": []
+            "out_edge": [
+                [
+                    "cluster_7_pan", 
+                    "bowl", 
+                    7.0, 
+                    1.2040816326530612
+                ]
+            ], 
+            "community": 195, 
+            "body_part": 0, 
+            "id": "gourd", 
+            "key": "8.93"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

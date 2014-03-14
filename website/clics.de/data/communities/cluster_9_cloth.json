@@ -1,0 +1,365 @@
+{
+    "nodes": [
+        {
+            "key": "6.42", 
+            "community": 9, 
+            "id": "woman's dress", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.81", 
+            "community": 9, 
+            "id": "handkerchief, rag", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.82", 
+            "community": 9, 
+            "id": "towel", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.12", 
+            "community": 9, 
+            "id": "clothing, clothes", 
+            "out_edge": [
+                [
+                    "cluster_227_enter", 
+                    "put on (clothes)", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.21", 
+            "community": 9, 
+            "id": "cloth", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.23", 
+            "community": 9, 
+            "id": "linen, flax", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.461", 
+            "community": 9, 
+            "id": "grass-skirt", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.46", 
+            "community": 9, 
+            "id": "skirt", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.44", 
+            "community": 9, 
+            "id": "shirt", 
+            "out_edge": [
+                [
+                    "cluster_73_blanket", 
+                    "coat", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 80.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "handkerchief, rag"
+            }, 
+            {
+                "weight": 108.0, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "skirt"
+            }, 
+            {
+                "weight": 181.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "shirt"
+            }, 
+            {
+                "weight": 289.0, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "clothing, clothes"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "woman's dress"
+            }, 
+            {
+                "weight": 68.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "shirt"
+            }, 
+            {
+                "weight": 32.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "towel"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "clothing, clothes"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 32.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "handkerchief, rag"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "linen, flax"
+            }
+        ], 
+        [
+            {
+                "weight": 289.0, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "woman's dress"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "handkerchief, rag"
+            }, 
+            {
+                "weight": 587.0, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "edge_width": 3.9117647058823528, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "skirt"
+            }, 
+            {
+                "weight": 123.0, 
+                "languages": 12.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "shirt"
+            }
+        ], 
+        [
+            {
+                "weight": 80.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "woman's dress"
+            }, 
+            {
+                "weight": 68.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "handkerchief, rag"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "towel"
+            }, 
+            {
+                "weight": 587.0, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "edge_width": 3.9117647058823528, 
+                "id": "clothing, clothes"
+            }, 
+            {
+                "weight": 24.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "linen, flax"
+            }, 
+            {
+                "weight": 16.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "shirt"
+            }
+        ], 
+        [
+            {
+                "weight": 24.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "towel"
+            }
+        ], 
+        [
+            {
+                "weight": 26.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "skirt"
+            }
+        ], 
+        [
+            {
+                "weight": 108.0, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "woman's dress"
+            }, 
+            {
+                "weight": 28.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "shirt"
+            }, 
+            {
+                "weight": 26.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "grass-skirt"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "clothing, clothes"
+            }
+        ], 
+        [
+            {
+                "weight": 181.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "woman's dress"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "handkerchief, rag"
+            }, 
+            {
+                "weight": 16.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "cloth"
+            }, 
+            {
+                "weight": 28.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "skirt"
+            }, 
+            {
+                "weight": 123.0, 
+                "languages": 12.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "clothing, clothes"
+            }
+        ]
+    ], 
+    "directed": false
+}

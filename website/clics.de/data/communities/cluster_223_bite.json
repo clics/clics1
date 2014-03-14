@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "key": "5.18", 
+            "community": 223, 
+            "id": "chew", 
+            "out_edge": [
+                [
+                    "cluster_14_dinner", 
+                    "eat", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.58", 
+            "community": 223, 
+            "id": "bite", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "7.421", 
+            "community": 223, 
+            "id": "pillow", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "id": "bite"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "id": "chew"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "pillow"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bite"
+            }
+        ]
+    ], 
+    "directed": false
+}

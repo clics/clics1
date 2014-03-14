@@ -2,54 +2,34 @@
     "nodes": [
         {
             "key": "21.33", 
-            "body_part": 0, 
             "community": 121, 
             "id": "convict (vb)", 
-            "out_edge": [
-                [
-                    "cluster_26_guilty", 
-                    "accuse", 
-                    5.0, 
-                    285.7142857142857
-                ]
-            ], 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "21.16", 
-            "body_part": 0, 
             "community": 121, 
             "id": "judge (vb)", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "21.32", 
-            "body_part": 0, 
             "community": 121, 
             "id": "condemn", 
-            "out_edge": [
-                [
-                    "cluster_26_guilty", 
-                    "blame", 
-                    5.0, 
-                    273.972602739726
-                ], 
-                [
-                    "cluster_26_guilty", 
-                    "accuse", 
-                    5.0, 
-                    270.27027027027026
-                ]
-            ], 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "21.17", 
-            "body_part": 0, 
             "community": 121, 
             "id": "judgment", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }
     ], 
@@ -58,13 +38,13 @@
     "adjacency": [
         [
             {
-                "weight": 206.4516129032258, 
+                "weight": 1.0, 
                 "languages": 5.0, 
                 "families": 4.0, 
                 "id": "judge (vb)"
             }, 
             {
-                "weight": 1600.0, 
+                "weight": 2.0588235294117645, 
                 "languages": 29.0, 
                 "families": 10.0, 
                 "id": "condemn"
@@ -72,19 +52,19 @@
         ], 
         [
             {
-                "weight": 206.4516129032258, 
+                "weight": 1.0, 
                 "languages": 5.0, 
                 "families": 4.0, 
                 "id": "convict (vb)"
             }, 
             {
-                "weight": 825.8064516129032, 
+                "weight": 1.5294117647058822, 
                 "languages": 17.0, 
                 "families": 8.0, 
                 "id": "condemn"
             }, 
             {
-                "weight": 307.69230769230774, 
+                "weight": 1.0, 
                 "languages": 6.0, 
                 "families": 5.0, 
                 "id": "judgment"
@@ -92,19 +72,19 @@
         ], 
         [
             {
-                "weight": 1600.0, 
+                "weight": 2.0588235294117645, 
                 "languages": 29.0, 
                 "families": 10.0, 
                 "id": "convict (vb)"
             }, 
             {
-                "weight": 825.8064516129032, 
+                "weight": 1.5294117647058822, 
                 "languages": 17.0, 
                 "families": 8.0, 
                 "id": "judge (vb)"
             }, 
             {
-                "weight": 51.61290322580645, 
+                "weight": 1.0, 
                 "languages": 2.0, 
                 "families": 2.0, 
                 "id": "judgment"
@@ -112,13 +92,13 @@
         ], 
         [
             {
-                "weight": 307.69230769230774, 
+                "weight": 1.0, 
                 "languages": 6.0, 
                 "families": 5.0, 
                 "id": "judge (vb)"
             }, 
             {
-                "weight": 51.61290322580645, 
+                "weight": 1.0, 
                 "languages": 2.0, 
                 "families": 2.0, 
                 "id": "condemn"

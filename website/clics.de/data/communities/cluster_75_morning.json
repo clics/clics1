@@ -1,0 +1,197 @@
+{
+    "nodes": [
+        {
+            "key": "14.43", 
+            "community": 75, 
+            "id": "dawn", 
+            "out_edge": [
+                [
+                    "cluster_24_white", 
+                    "light (noun)", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.44", 
+            "community": 75, 
+            "id": "morning", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.48", 
+            "community": 75, 
+            "id": "tomorrow", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.16", 
+            "community": 75, 
+            "id": "early", 
+            "out_edge": [
+                [
+                    "cluster_55_soon", 
+                    "soon", 
+                    7.0, 
+                    52.0
+                ], 
+                [
+                    "cluster_55_soon", 
+                    "swift, fast, quick", 
+                    7.0, 
+                    47.0
+                ], 
+                [
+                    "cluster_106_first", 
+                    "before", 
+                    4.0, 
+                    17.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.49", 
+            "community": 75, 
+            "id": "yesterday", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "morning"
+            }, 
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "tomorrow"
+            }, 
+            {
+                "weight": 15.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "early"
+            }
+        ], 
+        [
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "dawn"
+            }, 
+            {
+                "weight": 133.0, 
+                "languages": 17.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "tomorrow"
+            }, 
+            {
+                "weight": 419.0, 
+                "languages": 26.0, 
+                "families": 19.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "early"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "yesterday"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "dawn"
+            }, 
+            {
+                "weight": 133.0, 
+                "languages": 17.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "morning"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "early"
+            }, 
+            {
+                "weight": 41.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "yesterday"
+            }
+        ], 
+        [
+            {
+                "weight": 15.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "dawn"
+            }, 
+            {
+                "weight": 419.0, 
+                "languages": 26.0, 
+                "families": 19.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "morning"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "tomorrow"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "morning"
+            }, 
+            {
+                "weight": 41.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "tomorrow"
+            }
+        ]
+    ], 
+    "directed": false
+}

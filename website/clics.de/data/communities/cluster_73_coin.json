@@ -1,0 +1,82 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 32.0, 
+                "weight": 2.7142857142857144, 
+                "id": "money", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.4081632653061225, 
+                "id": "silver", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 32.0, 
+                "weight": 2.7142857142857144, 
+                "id": "coin", 
+                "families": 18.0
+            }, 
+            {
+                "languages": 33.0, 
+                "weight": 2.1836734693877551, 
+                "id": "silver", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "weight": 2.1836734693877551, 
+                "id": "money", 
+                "families": 15.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.4081632653061225, 
+                "id": "coin", 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 73, 
+            "body_part": 0, 
+            "id": "coin", 
+            "key": "11.44"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "fishscale", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 73, 
+            "body_part": 0, 
+            "id": "money", 
+            "key": "11.43"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 73, 
+            "body_part": 0, 
+            "id": "silver", 
+            "key": "9.65"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

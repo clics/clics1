@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "11.53", 
+            "community": 209, 
+            "id": "beggar", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.75", 
+            "community": 209, 
+            "id": "orphan", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.52", 
+            "community": 209, 
+            "id": "poor", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "beggar"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "orphan"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "poor"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "beggar"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "poor"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "beggar"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "orphan"
+            }
+        ]
+    ], 
+    "directed": false
+}

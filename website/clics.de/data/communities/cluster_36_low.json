@@ -2,91 +2,50 @@
     "nodes": [
         {
             "key": "12.3", 
-            "body_part": 0, 
             "community": 36, 
             "id": "down, below", 
-            "out_edge": [
-                [
-                    "cluster_15_leg", 
-                    "bottom", 
-                    5.0, 
-                    198.01980198019803
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.59", 
+            "out_edge": [], 
             "body_part": 0, 
-            "community": 36, 
-            "id": "short", 
-            "out_edge": [
-                [
-                    "cluster_99_some", 
-                    "small, little", 
-                    7.0, 
-                    332.20338983050846
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.7", 
-            "body_part": 0, 
-            "community": 36, 
-            "id": "under", 
-            "out_edge": [
-                [
-                    "cluster_15_leg", 
-                    "bottom", 
-                    5.0, 
-                    204.08163265306123
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.32", 
-            "body_part": 0, 
-            "community": 36, 
-            "id": "low", 
-            "out_edge": [
-                [
-                    "cluster_15_leg", 
-                    "bottom", 
-                    6.0, 
-                    274.2857142857143
-                ], 
-                [
-                    "cluster_99_some", 
-                    "small, little", 
-                    5.0, 
-                    176.99115044247787
-                ]
-            ], 
             "swadesh100": 0
         }, 
         {
             "key": "12.68", 
-            "body_part": 0, 
             "community": 36, 
             "id": "shallow", 
-            "out_edge": [
-                [
-                    "cluster_171_narrow", 
-                    "thin (in dimension)", 
-                    5.0, 
-                    181.8181818181818
-                ]
-            ], 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.7", 
+            "community": 36, 
+            "id": "under", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.59", 
+            "community": 36, 
+            "id": "short", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.32", 
+            "community": 36, 
+            "id": "low", 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "12.5", 
-            "body_part": 0, 
             "community": 36, 
             "id": "inside, in", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }
     ], 
@@ -95,25 +54,25 @@
     "adjacency": [
         [
             {
-                "weight": 5304.109589041096, 
+                "weight": 4.4411764705882355, 
                 "languages": 68.0, 
                 "families": 22.0, 
                 "id": "under"
             }, 
             {
-                "weight": 1265.934065934066, 
+                "weight": 1.7941176470588236, 
                 "languages": 18.0, 
                 "families": 12.0, 
                 "id": "low"
             }, 
             {
-                "weight": 7.920792079207921, 
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "shallow"
             }, 
             {
-                "weight": 313.04347826086956, 
+                "weight": 1.0, 
                 "languages": 6.0, 
                 "families": 6.0, 
                 "id": "inside, in"
@@ -121,33 +80,39 @@
         ], 
         [
             {
-                "weight": 2672.1649484536083, 
-                "languages": 21.0, 
-                "families": 18.0, 
-                "id": "low"
-            }, 
-            {
-                "weight": 28.57142857142857, 
+                "weight": 1.0, 
                 "languages": 2.0, 
                 "families": 2.0, 
-                "id": "shallow"
+                "id": "short"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "down, below"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 12.0, 
+                "families": 8.0, 
+                "id": "low"
             }
         ], 
         [
             {
-                "weight": 5304.109589041096, 
+                "weight": 4.4411764705882355, 
                 "languages": 68.0, 
                 "families": 22.0, 
                 "id": "down, below"
             }, 
             {
-                "weight": 421.505376344086, 
+                "weight": 1.2647058823529411, 
                 "languages": 9.0, 
                 "families": 7.0, 
                 "id": "low"
             }, 
             {
-                "weight": 445.45454545454544, 
+                "weight": 1.2647058823529411, 
                 "languages": 8.0, 
                 "families": 7.0, 
                 "id": "inside, in"
@@ -155,31 +120,45 @@
         ], 
         [
             {
-                "weight": 7.8431372549019605, 
+                "weight": 2.5882352941176472, 
+                "languages": 21.0, 
+                "families": 18.0, 
+                "id": "low"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "shallow"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "inside, in"
             }, 
             {
-                "weight": 2672.1649484536083, 
+                "weight": 2.5882352941176472, 
                 "languages": 21.0, 
                 "families": 18.0, 
                 "id": "short"
             }, 
             {
-                "weight": 1265.934065934066, 
+                "weight": 1.7941176470588236, 
                 "languages": 18.0, 
                 "families": 12.0, 
                 "id": "down, below"
             }, 
             {
-                "weight": 517.1717171717172, 
+                "weight": 1.2647058823529411, 
                 "languages": 12.0, 
                 "families": 8.0, 
                 "id": "shallow"
             }, 
             {
-                "weight": 421.505376344086, 
+                "weight": 1.2647058823529411, 
                 "languages": 9.0, 
                 "families": 7.0, 
                 "id": "under"
@@ -187,45 +166,25 @@
         ], 
         [
             {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "short"
-            }, 
-            {
-                "weight": 7.920792079207921, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "down, below"
-            }, 
-            {
-                "weight": 517.1717171717172, 
-                "languages": 12.0, 
-                "families": 8.0, 
-                "id": "low"
-            }
-        ], 
-        [
-            {
-                "weight": 445.45454545454544, 
+                "weight": 1.2647058823529411, 
                 "languages": 8.0, 
                 "families": 7.0, 
                 "id": "under"
             }, 
             {
-                "weight": 313.04347826086956, 
+                "weight": 1.0, 
                 "languages": 6.0, 
                 "families": 6.0, 
                 "id": "down, below"
             }, 
             {
-                "weight": 7.8431372549019605, 
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "low"
             }, 
             {
-                "weight": 8.24742268041237, 
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
                 "id": "inside, in"

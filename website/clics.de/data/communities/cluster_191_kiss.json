@@ -1,138 +1,125 @@
 {
+    "nodes": [
+        {
+            "key": "16.29", 
+            "community": 191, 
+            "id": "kiss", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.59", 
+            "community": 191, 
+            "id": "lick", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.16", 
+            "community": 191, 
+            "id": "suck", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.92", 
+            "community": 191, 
+            "id": "tapioca, manioc, cassava", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.3", 
+            "community": 191, 
+            "id": "embrace", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.8264462809917356, 
-                "id": "kiss", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "kiss"
             }, 
             {
-                "weight": 21.929824561403507, 
-                "id": "embrace", 
-                "families": 5.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 0.8403361344537815, 
-                "id": "lick", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "lick"
             }, 
             {
-                "weight": 31.03448275862069, 
-                "id": "suck", 
+                "weight": 1.0, 
+                "languages": 7.0, 
                 "families": 6.0, 
-                "languages": 7.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.8403361344537815, 
-                "id": "kiss", 
-                "families": 1.0, 
-                "languages": 1.0
+                "id": "suck"
             }, 
             {
-                "weight": 0.9803921568627451, 
-                "id": "tapioca, manioc, cassava", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 13.793103448275861, 
-                "id": "suck", 
-                "families": 4.0, 
-                "languages": 4.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9803921568627451, 
-                "id": "lick", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 21.929824561403507, 
-                "id": "kiss", 
+                "weight": 1.0, 
+                "languages": 5.0, 
                 "families": 5.0, 
-                "languages": 5.0
+                "id": "embrace"
             }
         ], 
         [
             {
-                "weight": 31.03448275862069, 
-                "id": "kiss", 
-                "families": 6.0, 
-                "languages": 7.0
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "kiss"
             }, 
             {
-                "weight": 13.793103448275861, 
-                "id": "lick", 
+                "weight": 1.0, 
+                "languages": 4.0, 
                 "families": 4.0, 
-                "languages": 4.0
+                "id": "suck"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "tapioca, manioc, cassava"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "kiss"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "lick"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "lick"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "kiss"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 191, 
-            "id": "kiss", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.29", 
-            "out_edge": []
-        }, 
-        {
-            "community": 191, 
-            "id": "lick", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.59", 
-            "out_edge": []
-        }, 
-        {
-            "community": 191, 
-            "id": "tapioca, manioc, cassava", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.92", 
-            "out_edge": []
-        }, 
-        {
-            "community": 191, 
-            "id": "embrace", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.3", 
-            "out_edge": []
-        }, 
-        {
-            "community": 191, 
-            "id": "suck", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.16", 
-            "out_edge": [
-                [
-                    "cluster_66_smoke (noun)", 
-                    "smoke (tobacco)", 
-                    5.0, 
-                    22.321428571428573
-                ], 
-                [
-                    "cluster_189_spread out", 
-                    "pull", 
-                    4.0, 
-                    13.559322033898304
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

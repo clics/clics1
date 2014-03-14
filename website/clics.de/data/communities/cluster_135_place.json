@@ -1,60 +1,54 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 321.11111111111114, 
-                "id": "after", 
-                "families": 17.0, 
-                "languages": 32.0
-            }
-        ], 
-        [
-            {
-                "weight": 321.11111111111114, 
-                "id": "place", 
-                "families": 17.0, 
-                "languages": 32.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "12.11", 
             "community": 135, 
             "id": "place", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.11", 
             "out_edge": [
                 [
                     "cluster_2_country", 
                     "earth, land", 
                     8.0, 
-                    53.78151260504202
-                ], 
-                [
-                    "cluster_35_finish", 
-                    "last", 
-                    6.0, 
-                    31.30434782608696
+                    1.2647058823529411
                 ], 
                 [
                     "cluster_2_country", 
-                    "country", 
+                    "earth=ground, soil", 
                     5.0, 
-                    23.14814814814815
+                    1.0
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
         }, 
         {
+            "key": "12.1", 
             "community": 135, 
             "id": "after", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.1", 
-            "out_edge": []
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 2.5882352941176472, 
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "after"
+            }
+        ], 
+        [
+            {
+                "weight": 2.5882352941176472, 
+                "languages": 32.0, 
+                "families": 17.0, 
+                "id": "place"
+            }
+        ]
+    ], 
     "directed": false
 }

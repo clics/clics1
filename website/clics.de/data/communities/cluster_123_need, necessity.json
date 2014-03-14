@@ -1,130 +1,117 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 26.041666666666668, 
-                "id": "desire, want", 
-                "families": 5.0, 
-                "languages": 5.0
-            }
-        ], 
-        [
-            {
-                "weight": 280.58252427184465, 
-                "id": "desire, want", 
-                "families": 17.0, 
-                "languages": 23.0
-            }, 
-            {
-                "weight": 3.669724770642202, 
-                "id": "need, necessity", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 26.041666666666668, 
-                "id": "hope", 
-                "families": 5.0, 
-                "languages": 5.0
-            }, 
-            {
-                "weight": 280.58252427184465, 
-                "id": "love", 
-                "families": 17.0, 
-                "languages": 23.0
-            }, 
-            {
-                "weight": 63.366336633663366, 
-                "id": "need, necessity", 
-                "families": 8.0, 
-                "languages": 8.0
-            }
-        ], 
-        [
-            {
-                "weight": 63.366336633663366, 
-                "id": "desire, want", 
-                "families": 8.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 3.669724770642202, 
-                "id": "love", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 1.0101010101010102, 
-                "id": "need, necessity", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "16.63", 
             "community": 123, 
             "id": "hope", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.63", 
             "out_edge": [
                 [
                     "cluster_25_remember", 
                     "believe", 
                     4.0, 
-                    17.02127659574468
+                    1.0
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
         }, 
         {
+            "key": "16.27", 
             "community": 123, 
             "id": "love", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.27", 
             "out_edge": [
                 [
                     "cluster_78_anxiety, worry", 
                     "pity", 
                     5.0, 
-                    23.364485981308412
+                    1.0
                 ]
-            ]
-        }, 
-        {
-            "community": 123, 
-            "id": "desire, want", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.62", 
-            "out_edge": [
-                [
-                    "cluster_43_mind", 
-                    "intention, purpose", 
-                    4.0, 
-                    16.3265306122449
-                ], 
-                [
-                    "cluster_164_ask (question, inquire)", 
-                    "ask, request", 
-                    4.0, 
-                    13.91304347826087
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
+            "key": "17.45", 
             "community": 123, 
             "id": "need, necessity", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.45", 
-            "out_edge": []
+            "swadesh100": 0
+        }, 
+        {
+            "key": "16.62", 
+            "community": 123, 
+            "id": "desire, want", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "desire, want"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "need, necessity"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "id": "desire, want"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "need, necessity"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "love"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "desire, want"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "hope"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "need, necessity"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 23.0, 
+                "families": 17.0, 
+                "id": "love"
+            }
+        ]
+    ], 
     "directed": false
 }

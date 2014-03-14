@@ -1,0 +1,153 @@
+{
+    "nodes": [
+        {
+            "key": "1.362", 
+            "community": 126, 
+            "id": "whirlpool", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.35", 
+            "community": 126, 
+            "id": "wave", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.354", 
+            "community": 126, 
+            "id": "hightide", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.353", 
+            "community": 126, 
+            "id": "lowtide", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.323", 
+            "community": 126, 
+            "id": "rough (of sea)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.352", 
+            "community": 126, 
+            "id": "tide", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "wave"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "whirlpool"
+            }, 
+            {
+                "weight": 40.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "rough (of sea)"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "tide"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "lowtide"
+            }, 
+            {
+                "weight": 55.0, 
+                "languages": 10.0, 
+                "families": 5.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "tide"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "hightide"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 6.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "tide"
+            }
+        ], 
+        [
+            {
+                "weight": 40.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "wave"
+            }
+        ], 
+        [
+            {
+                "weight": 55.0, 
+                "languages": 10.0, 
+                "families": 5.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "hightide"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 6.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "lowtide"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "wave"
+            }
+        ]
+    ], 
+    "directed": false
+}

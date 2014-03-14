@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "key": "9.6", 
+            "community": 198, 
+            "id": "smith, blacksmith", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.61", 
+            "community": 198, 
+            "id": "forge", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.35", 
+            "community": 198, 
+            "id": "pour", 
+            "out_edge": [
+                [
+                    "cluster_86_run", 
+                    "flow", 
+                    5.0, 
+                    22.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.63", 
+            "community": 198, 
+            "id": "cast (metals)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "smith, blacksmith"
+            }, 
+            {
+                "weight": 7.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "forge"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "smith, blacksmith"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "cast (metals)"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "pour"
+            }, 
+            {
+                "weight": 46.0, 
+                "languages": 28.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "cast (metals)"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "forge"
+            }, 
+            {
+                "weight": 46.0, 
+                "languages": 28.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "pour"
+            }
+        ]
+    ], 
+    "directed": false
+}

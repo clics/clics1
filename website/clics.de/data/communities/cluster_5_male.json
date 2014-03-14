@@ -1,0 +1,314 @@
+{
+    "nodes": [
+        {
+            "key": "3.41", 
+            "community": 5, 
+            "id": "horse (equine)", 
+            "out_edge": [
+                [
+                    "cluster_18_woman", 
+                    "mare", 
+                    5.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.23", 
+            "community": 5, 
+            "id": "male", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ram", 
+                    7.0, 
+                    1.2647058823529411
+                ], 
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "bull", 
+                    9.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.31", 
+            "community": 5, 
+            "id": "husband", 
+            "out_edge": [
+                [
+                    "cluster_18_woman", 
+                    "wife", 
+                    11.0, 
+                    1.5294117647058822
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.21", 
+            "community": 5, 
+            "id": "man (vs. woman)", 
+            "out_edge": [
+                [
+                    "cluster_27_people (populace)", 
+                    "person, human being", 
+                    16.0, 
+                    2.0588235294117645
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "3.12", 
+            "community": 5, 
+            "id": "male (adj)", 
+            "out_edge": [
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "bull", 
+                    11.0, 
+                    1.5294117647058822
+                ], 
+                [
+                    "cluster_44_lamb", 
+                    "ram", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.38", 
+            "community": 5, 
+            "id": "married man", 
+            "out_edge": [
+                [
+                    "cluster_18_woman", 
+                    "married woman", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.42", 
+            "community": 5, 
+            "id": "stallion", 
+            "out_edge": [
+                [
+                    "cluster_44_lamb", 
+                    "ram", 
+                    4.0, 
+                    1.0
+                ], 
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "bull", 
+                    5.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 16.0, 
+                "families": 9.0, 
+                "id": "stallion"
+            }
+        ], 
+        [
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 23.0, 
+                "families": 14.0, 
+                "id": "husband"
+            }, 
+            {
+                "weight": 6.8235294117647056, 
+                "languages": 71.0, 
+                "families": 33.0, 
+                "id": "man (vs. woman)"
+            }, 
+            {
+                "weight": 9.2058823529411757, 
+                "languages": 101.0, 
+                "families": 38.0, 
+                "id": "male (adj)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "married man"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "stallion"
+            }
+        ], 
+        [
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 23.0, 
+                "families": 14.0, 
+                "id": "male"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "male (adj)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "married man"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "stallion"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 47.0, 
+                "families": 15.0, 
+                "id": "man (vs. woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 47.0, 
+                "families": 15.0, 
+                "id": "husband"
+            }, 
+            {
+                "weight": 6.8235294117647056, 
+                "languages": 71.0, 
+                "families": 33.0, 
+                "id": "male"
+            }, 
+            {
+                "weight": 3.3823529411764706, 
+                "languages": 36.0, 
+                "families": 21.0, 
+                "id": "male (adj)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "married man"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "stallion"
+            }
+        ], 
+        [
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 14.0, 
+                "families": 12.0, 
+                "id": "husband"
+            }, 
+            {
+                "weight": 3.3823529411764706, 
+                "languages": 36.0, 
+                "families": 21.0, 
+                "id": "man (vs. woman)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 11.0, 
+                "families": 11.0, 
+                "id": "stallion"
+            }, 
+            {
+                "weight": 9.2058823529411757, 
+                "languages": 101.0, 
+                "families": 38.0, 
+                "id": "male"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "id": "husband"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "id": "man (vs. woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "male"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "husband"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 16.0, 
+                "families": 9.0, 
+                "id": "horse (equine)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 11.0, 
+                "families": 11.0, 
+                "id": "male (adj)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "man (vs. woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "male"
+            }
+        ]
+    ], 
+    "directed": false
+}

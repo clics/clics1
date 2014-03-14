@@ -1,0 +1,75 @@
+{
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 177, 
+            "id": "snow (noun)", 
+            "key": "1.76", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 177, 
+            "id": "ice", 
+            "key": "1.77", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 177, 
+            "id": "dew", 
+            "key": "1.64", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 17.0, 
+                "weight": 2.5116279069767442, 
+                "families": 11.0, 
+                "id": "ice"
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "dew"
+            }
+        ], 
+        [
+            {
+                "languages": 17.0, 
+                "weight": 2.5116279069767442, 
+                "families": 11.0, 
+                "id": "snow (noun)"
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0930232558139534, 
+                "families": 3.0, 
+                "id": "dew"
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "snow (noun)"
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0930232558139534, 
+                "families": 3.0, 
+                "id": "ice"
+            }
+        ]
+    ], 
+    "directed": false, 
+    "graph": [], 
+    "multigraph": false
+}

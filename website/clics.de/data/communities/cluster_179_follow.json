@@ -1,0 +1,48 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 34.0, 
+                "weight": 2.2941176470588234, 
+                "id": "pursue", 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "languages": 34.0, 
+                "weight": 2.2941176470588234, 
+                "id": "follow", 
+                "families": 23.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 179, 
+            "body_part": 0, 
+            "id": "follow", 
+            "key": "10.52"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_158_hunt", 
+                    "hunt", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "community": 179, 
+            "body_part": 0, 
+            "id": "pursue", 
+            "key": "10.53"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

@@ -1,0 +1,119 @@
+{
+    "nodes": [
+        {
+            "key": "3.81", 
+            "community": 192, 
+            "id": "insect", 
+            "out_edge": [
+                [
+                    "cluster_41_cattle (bovine)", 
+                    "animal", 
+                    6.0, 
+                    45.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.63", 
+            "community": 192, 
+            "id": "conspiracy, plot", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.85", 
+            "community": 192, 
+            "id": "snake", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.84", 
+            "community": 192, 
+            "id": "worm", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "insect"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "snake"
+            }, 
+            {
+                "weight": 56.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "worm"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "snake"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "insect"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "conspiracy, plot"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "worm"
+            }
+        ], 
+        [
+            {
+                "weight": 56.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "insect"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 6.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "snake"
+            }
+        ]
+    ], 
+    "directed": false
+}

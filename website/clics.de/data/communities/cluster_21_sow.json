@@ -1,0 +1,405 @@
+{
+    "nodes": [
+        {
+            "key": "8.531", 
+            "community": 21, 
+            "id": "plant (vb)", 
+            "out_edge": [
+                [
+                    "cluster_20_pasture", 
+                    "plant (noun)", 
+                    5.0, 
+                    25.0
+                ], 
+                [
+                    "cluster_64_do, make", 
+                    "build", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.21", 
+            "community": 21, 
+            "id": "plow", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.32", 
+            "community": 21, 
+            "id": "boar", 
+            "out_edge": [
+                [
+                    "cluster_6_stallion", 
+                    "stallion", 
+                    5.0, 
+                    32.0
+                ], 
+                [
+                    "cluster_6_stallion", 
+                    "male (adj)", 
+                    5.0, 
+                    27.0
+                ], 
+                [
+                    "cluster_6_stallion", 
+                    "male", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.15", 
+            "community": 21, 
+            "id": "cultivate, till", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.35", 
+            "community": 21, 
+            "id": "pig", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.27", 
+            "community": 21, 
+            "id": "hide, conceal", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.34", 
+            "community": 21, 
+            "id": "sow", 
+            "out_edge": [
+                [
+                    "cluster_19_woman", 
+                    "female (adj)", 
+                    6.0, 
+                    39.0
+                ], 
+                [
+                    "cluster_19_woman", 
+                    "female", 
+                    5.0, 
+                    26.0
+                ], 
+                [
+                    "cluster_19_woman", 
+                    "woman", 
+                    5.0, 
+                    24.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "3.73", 
+            "community": 21, 
+            "id": "bear", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.11", 
+            "community": 21, 
+            "id": "farmer", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.78", 
+            "community": 21, 
+            "id": "bury (the dead)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "plow"
+            }, 
+            {
+                "weight": 636.0, 
+                "languages": 41.0, 
+                "families": 22.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "hide, conceal"
+            }, 
+            {
+                "weight": 107.0, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "cultivate, till"
+            }, 
+            {
+                "weight": 44.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "bury (the dead)"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "plant (vb)"
+            }, 
+            {
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 163.0, 
+                "languages": 26.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "cultivate, till"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "farmer"
+            }
+        ], 
+        [
+            {
+                "weight": 30.0, 
+                "languages": 17.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 97.0, 
+                "languages": 24.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "pig"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "bear"
+            }
+        ], 
+        [
+            {
+                "weight": 163.0, 
+                "languages": 26.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "plow"
+            }, 
+            {
+                "weight": 107.0, 
+                "languages": 11.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "plant (vb)"
+            }, 
+            {
+                "weight": 101.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "farmer"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "bury (the dead)"
+            }
+        ], 
+        [
+            {
+                "weight": 184.0, 
+                "languages": 37.0, 
+                "families": 12.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 97.0, 
+                "languages": 24.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "boar"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "plant (vb)"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "bury (the dead)"
+            }
+        ], 
+        [
+            {
+                "weight": 5.0, 
+                "languages": 5.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "plow"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sow"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 17.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "boar"
+            }, 
+            {
+                "weight": 101.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "cultivate, till"
+            }, 
+            {
+                "weight": 184.0, 
+                "languages": 37.0, 
+                "families": 12.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "pig"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "bury (the dead)"
+            }, 
+            {
+                "weight": 636.0, 
+                "languages": 41.0, 
+                "families": 22.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "plant (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "boar"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "plow"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "cultivate, till"
+            }
+        ], 
+        [
+            {
+                "weight": 44.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "plant (vb)"
+            }, 
+            {
+                "weight": 30.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "hide, conceal"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "cultivate, till"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "sow"
+            }
+        ]
+    ], 
+    "directed": false
+}

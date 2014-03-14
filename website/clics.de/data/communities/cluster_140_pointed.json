@@ -1,101 +1,81 @@
 {
+    "nodes": [
+        {
+            "key": "12.352", 
+            "community": 140, 
+            "id": "pointed", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.76", 
+            "community": 140, 
+            "id": "rough", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.78", 
+            "community": 140, 
+            "id": "sharp", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.8403361344537815, 
-                "id": "pointed", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "pointed"
             }, 
             {
-                "weight": 445.45454545454544, 
-                "id": "sharp", 
-                "families": 21.0, 
-                "languages": 47.0
-            }, 
-            {
-                "weight": 3.508771929824561, 
-                "id": "rough", 
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "id": "rough"
+            }, 
+            {
+                "weight": 3.1176470588235294, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "sharp"
             }
         ], 
         [
             {
-                "weight": 445.45454545454544, 
-                "id": "pointed", 
-                "families": 21.0, 
-                "languages": 47.0
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "pointed"
             }, 
             {
-                "weight": 7.964601769911504, 
-                "id": "rough", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 3.0, 
-                "languages": 3.0
+                "id": "sharp"
             }
         ], 
         [
             {
-                "weight": 3.508771929824561, 
-                "id": "pointed", 
-                "families": 2.0, 
-                "languages": 2.0
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "rough"
             }, 
             {
-                "weight": 7.964601769911504, 
-                "id": "sharp", 
-                "families": 3.0, 
-                "languages": 3.0
+                "weight": 3.1176470588235294, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "id": "pointed"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 140, 
-            "id": "pointed", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.352", 
-            "out_edge": [
-                [
-                    "cluster_35_finish", 
-                    "end", 
-                    5.0, 
-                    22.52252252252252
-                ], 
-                [
-                    "cluster_94_roof", 
-                    "top", 
-                    5.0, 
-                    21.551724137931032
-                ]
-            ]
-        }, 
-        {
-            "community": 140, 
-            "id": "sharp", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.78", 
-            "out_edge": [
-                [
-                    "cluster_54_swift, fast, quick", 
-                    "swift, fast, quick", 
-                    4.0, 
-                    13.559322033898304
-                ]
-            ]
-        }, 
-        {
-            "community": 140, 
-            "id": "rough", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.76", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

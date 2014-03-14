@@ -1,0 +1,593 @@
+{
+    "nodes": [
+        {
+            "key": "2.71", 
+            "community": 8, 
+            "id": "stepfather", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.63", 
+            "community": 8, 
+            "id": "son-in-law (of a man)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.64", 
+            "community": 8, 
+            "id": "daughter-in-law (of a man)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.641", 
+            "community": 8, 
+            "id": "daughter-in-law (of a woman)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.62", 
+            "community": 8, 
+            "id": "mother-in-law (of a man)", 
+            "out_edge": [
+                [
+                    "cluster_107_aunt", 
+                    "father's sister", 
+                    10.0, 
+                    1.2647058823529411
+                ], 
+                [
+                    "cluster_107_aunt", 
+                    "aunt", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.61", 
+            "community": 8, 
+            "id": "father-in-law (of a man)", 
+            "out_edge": [
+                [
+                    "cluster_89_father's brother", 
+                    "mother's brother", 
+                    9.0, 
+                    1.2647058823529411
+                ], 
+                [
+                    "cluster_89_father's brother", 
+                    "uncle", 
+                    7.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.72", 
+            "community": 8, 
+            "id": "stepmother", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.621", 
+            "community": 8, 
+            "id": "mother-in-law (of a woman)", 
+            "out_edge": [
+                [
+                    "cluster_107_aunt", 
+                    "father's sister", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.611", 
+            "community": 8, 
+            "id": "father-in-law (of a woman)", 
+            "out_edge": [
+                [
+                    "cluster_89_father's brother", 
+                    "uncle", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "2.631", 
+            "community": 8, 
+            "id": "son-in-law (of a woman)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "stepmother"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stepfather"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 22.0, 
+                "families": 14.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 9.7352941176470598, 
+                "languages": 140.0, 
+                "families": 38.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 8.9411764705882355, 
+                "languages": 125.0, 
+                "families": 36.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stepmother"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 8.9411764705882355, 
+                "languages": 125.0, 
+                "families": 36.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stepmother"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 15.0, 
+                "families": 14.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "stepmother"
+            }, 
+            {
+                "weight": 7.0882352941176467, 
+                "languages": 105.0, 
+                "families": 31.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "stepfather"
+            }, 
+            {
+                "weight": 1.7941176470588236, 
+                "languages": 22.0, 
+                "families": 14.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 12.0, 
+                "families": 9.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 8.147058823529413, 
+                "languages": 107.0, 
+                "families": 33.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "stepfather"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "mother-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0882352941176467, 
+                "languages": 105.0, 
+                "families": 31.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 15.0, 
+                "families": 14.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "stepmother"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "father-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "stepfather"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 8.147058823529413, 
+                "languages": 107.0, 
+                "families": 33.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "son-in-law (of a woman)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "stepfather"
+            }, 
+            {
+                "weight": 9.7352941176470598, 
+                "languages": 140.0, 
+                "families": 38.0, 
+                "id": "son-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "id": "father-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "id": "daughter-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "id": "mother-in-law (of a man)"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "id": "daughter-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "id": "mother-in-law (of a woman)"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "father-in-law (of a woman)"
+            }
+        ]
+    ], 
+    "directed": false
+}

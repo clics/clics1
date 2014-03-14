@@ -1,67 +1,67 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 428.1553398058253, 
+                "languages": 40.0, 
+                "weight": 2.7142857142857144, 
                 "id": "ask, request", 
-                "families": 21.0, 
-                "languages": 40.0
+                "families": 21.0
             }
         ], 
         [
             {
-                "weight": 428.1553398058253, 
+                "languages": 40.0, 
+                "weight": 2.7142857142857144, 
                 "id": "ask (question, inquire)", 
-                "families": 21.0, 
-                "languages": 40.0
+                "families": 21.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 164, 
-            "id": "ask (question, inquire)", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "18.31", 
             "out_edge": [
                 [
-                    "cluster_10_trade, barter", 
+                    "cluster_10_betray", 
                     "answer", 
                     4.0, 
-                    13.675213675213676
+                    1.0408163265306123
                 ]
-            ]
+            ], 
+            "community": 164, 
+            "body_part": 0, 
+            "id": "ask (question, inquire)", 
+            "key": "18.31"
         }, 
         {
-            "community": 164, 
-            "id": "ask, request", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "18.35", 
             "out_edge": [
                 [
-                    "cluster_10_trade, barter", 
+                    "cluster_10_betray", 
                     "borrow", 
                     6.0, 
-                    34.285714285714285
+                    1.1224489795918366
                 ], 
                 [
                     "cluster_21_call (=summon)", 
                     "call (=summon)", 
                     5.0, 
-                    21.367521367521366
+                    1.0816326530612246
                 ], 
                 [
-                    "cluster_123_need, necessity", 
-                    "desire, want", 
+                    "cluster_10_betray", 
+                    "buy", 
                     4.0, 
-                    13.91304347826087
+                    1.0408163265306123
                 ]
-            ]
+            ], 
+            "community": 164, 
+            "body_part": 0, 
+            "id": "ask, request", 
+            "key": "18.35"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

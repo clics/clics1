@@ -1,0 +1,380 @@
+{
+    "nodes": [
+        {
+            "key": "3.18", 
+            "community": 47, 
+            "id": "herdsman", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.24", 
+            "community": 47, 
+            "id": "preserve, look after", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.17", 
+            "community": 47, 
+            "id": "keep, retain", 
+            "out_edge": [
+                [
+                    "cluster_4_get, obtain", 
+                    "hold", 
+                    12.0, 
+                    148.0
+                ], 
+                [
+                    "cluster_130_have", 
+                    "own, possess", 
+                    9.0, 
+                    83.0
+                ], 
+                [
+                    "cluster_130_have", 
+                    "have", 
+                    8.0, 
+                    63.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.25", 
+            "community": 47, 
+            "id": "save, rescue", 
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "acquit", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "19.58", 
+            "community": 47, 
+            "id": "help, aid", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.86", 
+            "community": 47, 
+            "id": "cure, heal", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.44", 
+            "community": 47, 
+            "id": "defend", 
+            "out_edge": [
+                [
+                    "cluster_79_refuse", 
+                    "hinder, prevent", 
+                    5.0, 
+                    27.0
+                ], 
+                [
+                    "cluster_79_refuse", 
+                    "forbid", 
+                    5.0, 
+                    27.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.471", 
+            "community": 47, 
+            "id": "guard, sentinel", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "guard, sentinel"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "herdsman"
+            }, 
+            {
+                "weight": 637.0, 
+                "languages": 62.0, 
+                "families": 23.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 25.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "help, aid"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "cure, heal"
+            }, 
+            {
+                "weight": 52.0, 
+                "languages": 14.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "guard, sentinel"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "herdsman"
+            }, 
+            {
+                "weight": 637.0, 
+                "languages": 62.0, 
+                "families": 23.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "cure, heal"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 26.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "guard, sentinel"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "cure, heal"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 70.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "help, aid"
+            }, 
+            {
+                "weight": 25.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "preserve, look after"
+            }
+        ], 
+        [
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "defend"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "save, rescue"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "save, rescue"
+            }
+        ], 
+        [
+            {
+                "weight": 70.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "save, rescue"
+            }, 
+            {
+                "weight": 52.0, 
+                "languages": 14.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "guard, sentinel"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "help, aid"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "herdsman"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "preserve, look after"
+            }, 
+            {
+                "weight": 26.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "keep, retain"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "defend"
+            }
+        ]
+    ], 
+    "directed": false
+}

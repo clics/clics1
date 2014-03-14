@@ -1,110 +1,103 @@
 {
+    "nodes": [
+        {
+            "key": "17.51", 
+            "community": 181, 
+            "id": "and", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.35", 
+            "community": 181, 
+            "id": "again", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.55", 
+            "community": 181, 
+            "id": "yes, affirmative", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.54", 
+            "community": 181, 
+            "id": "or", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.9615384615384616, 
-                "id": "again", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "and"
             }, 
             {
-                "weight": 10.0, 
-                "id": "and", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.108108108108109, 
-                "id": "and", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9615384615384616, 
-                "id": "or", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 78.64077669902912, 
-                "id": "and", 
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
                 "families": 9.0, 
-                "languages": 9.0
+                "id": "again"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "yes, affirmative"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "or"
             }
         ], 
         [
             {
-                "weight": 10.0, 
-                "id": "or", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 8.108108108108109, 
-                "id": "yes, affirmative", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 78.64077669902912, 
-                "id": "again", 
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
                 "families": 9.0, 
-                "languages": 9.0
+                "id": "and"
             }, 
             {
-                "weight": 1.0101010101010102, 
-                "id": "and", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "or"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "and"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "and"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "again"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 181, 
-            "id": "or", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.54", 
-            "out_edge": []
-        }, 
-        {
-            "community": 181, 
-            "id": "yes, affirmative", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.55", 
-            "out_edge": []
-        }, 
-        {
-            "community": 181, 
-            "id": "again", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.35", 
-            "out_edge": [
-                [
-                    "cluster_77_enough", 
-                    "more", 
-                    6.0, 
-                    31.858407079646017
-                ]
-            ]
-        }, 
-        {
-            "community": 181, 
-            "id": "and", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.51", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

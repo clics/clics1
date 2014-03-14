@@ -1,55 +1,55 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 587.7777777777778, 
+                "languages": 34.0, 
+                "weight": 3.2857142857142856, 
                 "id": "pursue", 
-                "families": 23.0, 
-                "languages": 34.0
+                "families": 23.0
             }
         ], 
         [
             {
-                "weight": 587.7777777777778, 
+                "languages": 34.0, 
+                "weight": 3.2857142857142856, 
                 "id": "follow", 
-                "families": 23.0, 
-                "languages": 34.0
+                "families": 23.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 167, 
-            "id": "follow", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.52", 
             "out_edge": [
                 [
                     "cluster_11_know", 
                     "obey", 
                     4.0, 
-                    14.545454545454545
+                    1.0408163265306123
                 ]
-            ]
+            ], 
+            "community": 167, 
+            "body_part": 0, 
+            "id": "follow", 
+            "key": "10.52"
         }, 
         {
-            "community": 167, 
-            "id": "pursue", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.53", 
             "out_edge": [
                 [
-                    "cluster_138_throw", 
+                    "cluster_138_hunt", 
                     "hunt", 
                     4.0, 
-                    14.285714285714285
+                    1.0408163265306123
                 ]
-            ]
+            ], 
+            "community": 167, 
+            "body_part": 0, 
+            "id": "pursue", 
+            "key": "10.53"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

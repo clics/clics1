@@ -1,114 +1,96 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 280.58252427184465, 
-                "id": "mud", 
-                "families": 17.0, 
-                "languages": 38.0
-            }, 
-            {
-                "weight": 8.181818181818182, 
-                "id": "swamp", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 280.58252427184465, 
-                "id": "clay", 
-                "families": 17.0, 
-                "languages": 38.0
-            }, 
-            {
-                "weight": 75.0, 
-                "id": "swamp", 
-                "families": 9.0, 
-                "languages": 9.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.181818181818182, 
-                "id": "clay", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 75.0, 
-                "id": "mud", 
-                "families": 9.0, 
-                "languages": 9.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "9.73", 
             "community": 150, 
             "id": "clay", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.73", 
             "out_edge": [
                 [
                     "cluster_2_country", 
                     "earth=ground, soil", 
                     11.0, 
-                    112.03703703703705
-                ], 
-                [
-                    "cluster_2_country", 
-                    "earth, land", 
-                    7.0, 
-                    42.98245614035088
-                ], 
-                [
-                    "cluster_2_country", 
-                    "floor", 
-                    6.0, 
-                    33.64485981308411
+                    1.5294117647058822
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
         }, 
         {
+            "key": "1.38", 
             "community": 150, 
-            "id": "mud", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.214", 
+            "id": "swamp", 
             "out_edge": [
                 [
-                    "cluster_66_smoke (noun)", 
-                    "dust", 
+                    "cluster_129_gulf, bay", 
+                    "lake", 
                     4.0, 
-                    13.445378151260504
-                ], 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.214", 
+            "community": 150, 
+            "id": "mud", 
+            "out_edge": [
                 [
                     "cluster_2_country", 
                     "earth=ground, soil", 
                     4.0, 
-                    13.445378151260504
+                    1.0
                 ]
-            ]
-        }, 
-        {
-            "community": 150, 
-            "id": "swamp", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.38", 
-            "out_edge": [
-                [
-                    "cluster_129_lake", 
-                    "lake", 
-                    4.0, 
-                    14.285714285714285
-                ]
-            ]
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "swamp"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 38.0, 
+                "families": 17.0, 
+                "id": "mud"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "clay"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "mud"
+            }
+        ], 
+        [
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 38.0, 
+                "families": 17.0, 
+                "id": "clay"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "id": "swamp"
+            }
+        ]
+    ], 
     "directed": false
 }

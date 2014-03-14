@@ -1,109 +1,109 @@
 {
+    "nodes": [
+        {
+            "key": "4.841", 
+            "community": 132, 
+            "id": "fever", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.85", 
+            "community": 132, 
+            "id": "hot", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.55", 
+            "community": 132, 
+            "id": "perspire", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.851", 
+            "community": 132, 
+            "id": "warm", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 3.5398230088495577, 
-                "id": "fever", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 3.389830508474576, 
-                "id": "perspire", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 308.5714285714286, 
-                "id": "hot", 
-                "families": 18.0, 
-                "languages": 38.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.5398230088495577, 
-                "id": "warm", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 0.8620689655172413, 
-                "id": "perspire", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "perspire"
             }, 
             {
-                "weight": 43.36283185840708, 
-                "id": "hot", 
+                "weight": 1.0, 
+                "languages": 8.0, 
                 "families": 7.0, 
-                "languages": 8.0
-            }
-        ], 
-        [
+                "id": "hot"
+            }, 
             {
-                "weight": 3.389830508474576, 
-                "id": "warm", 
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 0.8620689655172413, 
-                "id": "fever", 
-                "families": 1.0, 
-                "languages": 1.0
+                "id": "warm"
             }
         ], 
         [
             {
-                "weight": 308.5714285714286, 
-                "id": "warm", 
-                "families": 18.0, 
-                "languages": 38.0
+                "weight": 1.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "id": "fever"
             }, 
             {
-                "weight": 43.36283185840708, 
-                "id": "fever", 
-                "families": 7.0, 
-                "languages": 8.0
+                "weight": 2.5882352941176472, 
+                "languages": 38.0, 
+                "families": 18.0, 
+                "id": "warm"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "fever"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "warm"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "fever"
+            }, 
+            {
+                "weight": 2.5882352941176472, 
+                "languages": 38.0, 
+                "families": 18.0, 
+                "id": "hot"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "perspire"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 132, 
-            "id": "warm", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "15.851", 
-            "out_edge": []
-        }, 
-        {
-            "community": 132, 
-            "id": "fever", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.841", 
-            "out_edge": []
-        }, 
-        {
-            "community": 132, 
-            "id": "perspire", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.55", 
-            "out_edge": []
-        }, 
-        {
-            "community": 132, 
-            "id": "hot", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "15.85", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

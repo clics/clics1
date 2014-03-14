@@ -1,141 +1,127 @@
 {
+    "nodes": [
+        {
+            "key": "14.73", 
+            "community": 122, 
+            "id": "year", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.76", 
+            "community": 122, 
+            "id": "summer", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.12", 
+            "community": 122, 
+            "id": "age", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.75", 
+            "community": 122, 
+            "id": "spring", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.9900990099009901, 
-                "id": "spring", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "spring"
             }, 
             {
-                "weight": 95.23809523809523, 
-                "id": "summer", 
+                "weight": 1.2647058823529411, 
+                "languages": 16.0, 
                 "families": 10.0, 
-                "languages": 16.0
+                "id": "summer"
             }, 
             {
-                "weight": 261.6279069767442, 
-                "id": "age", 
+                "weight": 2.3235294117647056, 
+                "languages": 20.0, 
                 "families": 15.0, 
-                "languages": 20.0
+                "id": "age"
             }
         ], 
         [
             {
-                "weight": 0.9900990099009901, 
-                "id": "year", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.1627906976744187, 
-                "id": "age", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 4.040404040404041, 
-                "id": "summer", 
-                "families": 2.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 95.23809523809523, 
-                "id": "year", 
+                "weight": 1.2647058823529411, 
+                "languages": 16.0, 
                 "families": 10.0, 
-                "languages": 16.0
+                "id": "year"
             }, 
             {
-                "weight": 4.081632653061225, 
-                "id": "age", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "spring"
             }, 
             {
-                "weight": 4.040404040404041, 
-                "id": "spring", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "age"
             }
         ], 
         [
             {
-                "weight": 261.6279069767442, 
-                "id": "year", 
-                "families": 15.0, 
-                "languages": 20.0
-            }, 
-            {
-                "weight": 1.1627906976744187, 
-                "id": "spring", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.1764705882352942, 
-                "id": "age", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 4.081632653061225, 
-                "id": "summer", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "summer"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 20.0, 
+                "families": 15.0, 
+                "id": "year"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spring"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "age"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "year"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "id": "summer"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "age"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 122, 
-            "id": "year", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.73", 
-            "out_edge": [
-                [
-                    "cluster_16_day", 
-                    "season", 
-                    6.0, 
-                    40.0
-                ]
-            ]
-        }, 
-        {
-            "community": 122, 
-            "id": "spring", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.75", 
-            "out_edge": []
-        }, 
-        {
-            "community": 122, 
-            "id": "summer", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.76", 
-            "out_edge": []
-        }, 
-        {
-            "community": 122, 
-            "id": "age", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.12", 
-            "out_edge": [
-                [
-                    "cluster_16_day", 
-                    "time", 
-                    5.0, 
-                    31.25
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

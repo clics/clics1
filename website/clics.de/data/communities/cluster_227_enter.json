@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "key": "10.57", 
+            "community": 227, 
+            "id": "enter", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.12", 
+            "community": 227, 
+            "id": "put", 
+            "out_edge": [
+                [
+                    "cluster_7_trade, barter", 
+                    "give", 
+                    7.0, 
+                    41.0
+                ], 
+                [
+                    "cluster_64_do, make", 
+                    "do, make", 
+                    6.0, 
+                    30.0
+                ], 
+                [
+                    "cluster_47_preserve, look after", 
+                    "keep, retain", 
+                    5.0, 
+                    23.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.11", 
+            "community": 227, 
+            "id": "put on (clothes)", 
+            "out_edge": [
+                [
+                    "cluster_9_cloth", 
+                    "clothing, clothes", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "put on (clothes)"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "put"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "enter"
+            }, 
+            {
+                "weight": 42.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "put on (clothes)"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "enter"
+            }, 
+            {
+                "weight": 42.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "put"
+            }
+        ]
+    ], 
+    "directed": false
+}

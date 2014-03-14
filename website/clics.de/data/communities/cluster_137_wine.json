@@ -1,0 +1,87 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "wine", 
+                "families": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "fermented drink", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.1176470588235294, 
+                "id": "beer", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "fermented drink", 
+                "families": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "wine", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.2352941176470589, 
+                "id": "beer", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 1.2352941176470589, 
+                "id": "wine", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.1176470588235294, 
+                "id": "fermented drink", 
+                "families": 8.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 137, 
+            "body_part": 0, 
+            "id": "fermented drink", 
+            "key": "5.94"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 137, 
+            "body_part": 0, 
+            "id": "wine", 
+            "key": "5.92"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 137, 
+            "body_part": 0, 
+            "id": "beer", 
+            "key": "5.93"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

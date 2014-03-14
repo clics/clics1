@@ -1,0 +1,194 @@
+{
+    "nodes": [
+        {
+            "body_part": 1, 
+            "community": 204, 
+            "id": "kidney", 
+            "key": "4.451", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 204, 
+            "id": "mouse, rat", 
+            "key": "3.63", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 204, 
+            "id": "bean", 
+            "key": "5.66", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "community": 204, 
+            "id": "liver", 
+            "key": "4.45", 
+            "out_edge": [], 
+            "swadesh100": 1
+        }, 
+        {
+            "body_part": 0, 
+            "community": 204, 
+            "id": "joyful, glad, happy", 
+            "key": "16.23", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 204, 
+            "id": "wet, damp", 
+            "key": "15.83", 
+            "out_edge": [
+                [
+                    "cluster_45_blue", 
+                    "raw", 
+                    4.0, 
+                    1.1395348837209303
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 1, 
+            "community": 204, 
+            "id": "spleen", 
+            "key": "4.452", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "bean"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "spleen"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "liver"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "bean"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "kidney"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "mouse, rat"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "joyful, glad, happy"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "kidney"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "spleen"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "joyful, glad, happy"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "liver"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "joyful, glad, happy"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "wet, damp"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "liver"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "kidney"
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "id": "liver"
+            }
+        ]
+    ], 
+    "directed": false, 
+    "graph": [], 
+    "multigraph": false
+}

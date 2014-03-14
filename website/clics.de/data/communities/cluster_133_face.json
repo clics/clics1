@@ -1,0 +1,144 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 13.0, 
+                "weight": 1.0, 
+                "id": "face", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "weight": 1.1176470588235294, 
+                "id": "face", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "side of head, temple", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "weight": 1.0, 
+                "id": "eye", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.1176470588235294, 
+                "id": "forehead", 
+                "families": 10.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "side of head, temple", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "cheek", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "forehead", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "face", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "cheek", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "face", 
+                "families": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "side of head, temple", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "cheek", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 1, 
+            "out_edge": [], 
+            "community": 133, 
+            "body_part": 1, 
+            "id": "eye", 
+            "key": "4.21"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 133, 
+            "body_part": 1, 
+            "id": "forehead", 
+            "key": "4.205"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 133, 
+            "body_part": 1, 
+            "id": "face", 
+            "key": "4.204"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 133, 
+            "body_part": 1, 
+            "id": "side of head, temple", 
+            "key": "4.201"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_104_jaw", 
+                    "jaw", 
+                    7.0, 
+                    1.0
+                ]
+            ], 
+            "community": 133, 
+            "body_part": 1, 
+            "id": "cheek", 
+            "key": "4.208"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

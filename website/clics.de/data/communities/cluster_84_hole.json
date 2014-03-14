@@ -1,163 +1,156 @@
 {
+    "nodes": [
+        {
+            "key": "1.28", 
+            "community": 84, 
+            "id": "cave", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.79", 
+            "community": 84, 
+            "id": "grave, tomb", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.85", 
+            "community": 84, 
+            "id": "hole", 
+            "out_edge": [
+                [
+                    "cluster_125_stab", 
+                    "bore", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.212", 
+            "community": 84, 
+            "id": "furrow", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.17", 
+            "community": 84, 
+            "id": "ditch", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 72.05882352941177, 
-                "id": "ditch", 
-                "families": 7.0, 
-                "languages": 16.0
-            }
-        ], 
-        [
-            {
-                "weight": 72.05882352941177, 
-                "id": "furrow", 
-                "families": 7.0, 
-                "languages": 16.0
-            }, 
-            {
-                "weight": 3.9215686274509802, 
-                "id": "cave", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 4.040404040404041, 
-                "id": "grave, tomb", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 49.494949494949495, 
-                "id": "hole", 
-                "families": 7.0, 
-                "languages": 7.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.9215686274509802, 
-                "id": "ditch", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 0.8928571428571428, 
-                "id": "grave, tomb", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "grave, tomb"
             }, 
             {
-                "weight": 286.13861386138615, 
-                "id": "hole", 
+                "weight": 2.3235294117647056, 
+                "languages": 24.0, 
                 "families": 17.0, 
-                "languages": 24.0
+                "id": "hole"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "ditch"
             }
         ], 
         [
             {
-                "weight": 4.040404040404041, 
-                "id": "ditch", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 0.8928571428571428, 
-                "id": "cave", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "cave"
             }, 
             {
-                "weight": 3.5398230088495577, 
-                "id": "hole", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "hole"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "ditch"
             }
         ], 
         [
             {
-                "weight": 286.13861386138615, 
-                "id": "cave", 
+                "weight": 2.3235294117647056, 
+                "languages": 24.0, 
                 "families": 17.0, 
-                "languages": 24.0
+                "id": "cave"
             }, 
             {
-                "weight": 49.494949494949495, 
-                "id": "ditch", 
-                "families": 7.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 3.5398230088495577, 
-                "id": "grave, tomb", 
+                "weight": 1.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
-                "languages": 3.0
+                "id": "grave, tomb"
             }, 
             {
-                "weight": 0.8403361344537815, 
-                "id": "hole", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "hole"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "ditch"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 16.0, 
+                "families": 7.0, 
+                "id": "ditch"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "cave"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "id": "hole"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "grave, tomb"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 16.0, 
+                "families": 7.0, 
+                "id": "furrow"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 84, 
-            "id": "furrow", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.212", 
-            "out_edge": [
-                [
-                    "cluster_55_vine", 
-                    "line", 
-                    4.0, 
-                    21.333333333333336
-                ]
-            ]
-        }, 
-        {
-            "community": 84, 
-            "id": "ditch", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.17", 
-            "out_edge": []
-        }, 
-        {
-            "community": 84, 
-            "id": "cave", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.28", 
-            "out_edge": []
-        }, 
-        {
-            "community": 84, 
-            "id": "grave, tomb", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.79", 
-            "out_edge": []
-        }, 
-        {
-            "community": 84, 
-            "id": "hole", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.85", 
-            "out_edge": [
-                [
-                    "cluster_125_dig", 
-                    "bore", 
-                    4.0, 
-                    14.678899082568808
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "1.77", 
+            "community": 175, 
+            "id": "ice", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.64", 
+            "community": 175, 
+            "id": "dew", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.76", 
+            "community": 175, 
+            "id": "snow (noun)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "dew"
+            }, 
+            {
+                "weight": 135.0, 
+                "languages": 17.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "snow (noun)"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "ice"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "snow (noun)"
+            }
+        ], 
+        [
+            {
+                "weight": 135.0, 
+                "languages": 17.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "ice"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "dew"
+            }
+        ]
+    ], 
+    "directed": false
+}

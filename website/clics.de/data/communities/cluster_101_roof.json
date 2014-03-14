@@ -1,0 +1,209 @@
+{
+    "nodes": [
+        {
+            "key": "4.2", 
+            "community": 101, 
+            "id": "head", 
+            "out_edge": [
+                [
+                    "cluster_59_king, ruler", 
+                    "chief, chieftain", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_1_fur", 
+                    "hair (head)", 
+                    5.0, 
+                    20.0
+                ], 
+                [
+                    "cluster_33_mind", 
+                    "mind", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "12.33", 
+            "community": 101, 
+            "id": "top", 
+            "out_edge": [
+                [
+                    "cluster_17_tall", 
+                    "up, above", 
+                    8.0, 
+                    62.0
+                ], 
+                [
+                    "cluster_35_finish", 
+                    "end", 
+                    7.0, 
+                    44.0
+                ], 
+                [
+                    "cluster_17_tall", 
+                    "high", 
+                    6.0, 
+                    31.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.51", 
+            "community": 101, 
+            "id": "roof", 
+            "out_edge": [
+                [
+                    "cluster_42_house", 
+                    "house", 
+                    7.0, 
+                    42.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.202", 
+            "community": 101, 
+            "id": "skull", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.52", 
+            "community": 101, 
+            "id": "thatch", 
+            "out_edge": [
+                [
+                    "cluster_20_pasture", 
+                    "grass", 
+                    7.0, 
+                    48.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 75.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "skull"
+            }, 
+            {
+                "weight": 86.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "top"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "roof"
+            }
+        ], 
+        [
+            {
+                "weight": 86.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "head"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "skull"
+            }, 
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "roof"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "head"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "skull"
+            }, 
+            {
+                "weight": 31.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "top"
+            }, 
+            {
+                "weight": 105.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "thatch"
+            }
+        ], 
+        [
+            {
+                "weight": 75.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "head"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "top"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "roof"
+            }
+        ], 
+        [
+            {
+                "weight": 105.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "roof"
+            }
+        ]
+    ], 
+    "directed": false
+}

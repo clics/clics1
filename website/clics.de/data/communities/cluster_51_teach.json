@@ -1,0 +1,297 @@
+{
+    "nodes": [
+        {
+            "key": "17.25", 
+            "community": 51, 
+            "id": "teach", 
+            "out_edge": [
+                [
+                    "cluster_23_tell story", 
+                    "explain", 
+                    9.0, 
+                    78.0
+                ], 
+                [
+                    "cluster_23_tell story", 
+                    "show", 
+                    6.0, 
+                    30.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.242", 
+            "community": 51, 
+            "id": "study", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.12", 
+            "community": 51, 
+            "id": "sing", 
+            "out_edge": [
+                [
+                    "cluster_28_call (=summon)", 
+                    "shout, cry out", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.28", 
+            "community": 51, 
+            "id": "school", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.24", 
+            "community": 51, 
+            "id": "learn", 
+            "out_edge": [
+                [
+                    "cluster_18_know", 
+                    "know", 
+                    11.0, 
+                    107.0
+                ], 
+                [
+                    "cluster_18_know", 
+                    "understand", 
+                    5.0, 
+                    22.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "18.52", 
+            "community": 51, 
+            "id": "read", 
+            "out_edge": [
+                [
+                    "cluster_46_try, attempt", 
+                    "count", 
+                    8.0, 
+                    61.0
+                ], 
+                [
+                    "cluster_62_look, look at", 
+                    "look, look at", 
+                    5.0, 
+                    22.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 123.0, 
+                "languages": 29.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "study"
+            }, 
+            {
+                "weight": 132.0, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "learn"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 10.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "read"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sing"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "school"
+            }
+        ], 
+        [
+            {
+                "weight": 123.0, 
+                "languages": 29.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "teach"
+            }, 
+            {
+                "weight": 824.0, 
+                "languages": 67.0, 
+                "families": 26.0, 
+                "edge_width": 5.2352941176470589, 
+                "id": "learn"
+            }, 
+            {
+                "weight": 132.0, 
+                "languages": 29.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "read"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sing"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "school"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "study"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "teach"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "read"
+            }, 
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "learn"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "teach"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "study"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "learn"
+            }
+        ], 
+        [
+            {
+                "weight": 824.0, 
+                "languages": 67.0, 
+                "families": 26.0, 
+                "edge_width": 5.2352941176470589, 
+                "id": "study"
+            }, 
+            {
+                "weight": 132.0, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "teach"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 14.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "read"
+            }, 
+            {
+                "weight": 7.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "sing"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "school"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "languages": 10.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "teach"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 14.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "learn"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "sing"
+            }, 
+            {
+                "weight": 132.0, 
+                "languages": 29.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "study"
+            }
+        ]
+    ], 
+    "directed": false
+}

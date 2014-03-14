@@ -1,41 +1,41 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 31.25, 
+                "languages": 5.0, 
+                "weight": 1.0, 
                 "id": "victory", 
-                "families": 5.0, 
-                "languages": 5.0
+                "families": 5.0
             }
         ], 
         [
             {
-                "weight": 31.25, 
+                "languages": 5.0, 
+                "weight": 1.0, 
                 "id": "defeat", 
-                "families": 5.0, 
-                "languages": 5.0
+                "families": 5.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 255, 
-            "id": "defeat", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "20.42", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 255, 
+            "body_part": 0, 
+            "id": "defeat", 
+            "key": "20.42"
         }, 
         {
-            "community": 255, 
-            "id": "victory", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "20.41", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 255, 
+            "body_part": 0, 
+            "id": "victory", 
+            "key": "20.41"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

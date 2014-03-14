@@ -1,0 +1,246 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "read", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "teach", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "learn", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "study", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "teach", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "learn", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "study", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "weight": 1.0, 
+                "id": "read", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "sing", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 28.0, 
+                "weight": 1.2352941176470589, 
+                "id": "teach", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "school", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 67.0, 
+                "weight": 2.8823529411764706, 
+                "id": "study", 
+                "families": 26.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "sing", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 1.2352941176470589, 
+                "id": "teach", 
+                "families": 11.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "school", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 67.0, 
+                "weight": 2.8823529411764706, 
+                "id": "learn", 
+                "families": 26.0
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 1.2352941176470589, 
+                "id": "read", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "sing", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "read", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "school", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 28.0, 
+                "weight": 1.2352941176470589, 
+                "id": "learn", 
+                "families": 12.0
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 1.2352941176470589, 
+                "id": "study", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "weight": 1.0, 
+                "id": "sing", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 10.0, 
+                "weight": 1.0, 
+                "id": "teach", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 14.0, 
+                "weight": 1.0, 
+                "id": "learn", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 1.2352941176470589, 
+                "id": "study", 
+                "families": 11.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "sing", 
+            "key": "18.12"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "school", 
+            "key": "17.28"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_18_know", 
+                    "know", 
+                    11.0, 
+                    1.2352941176470589
+                ]
+            ], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "learn", 
+            "key": "17.24"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "study", 
+            "key": "17.242"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_23_tell story", 
+                    "explain", 
+                    9.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "teach", 
+            "key": "17.25"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_46_try, attempt", 
+                    "count", 
+                    8.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 51, 
+            "body_part": 0, 
+            "id": "read", 
+            "key": "18.52"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

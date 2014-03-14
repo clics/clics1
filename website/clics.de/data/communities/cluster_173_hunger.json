@@ -1,69 +1,69 @@
 {
+    "nodes": [
+        {
+            "key": "5.15", 
+            "community": 173, 
+            "id": "thirst", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.141", 
+            "community": 173, 
+            "id": "famine", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.14", 
+            "community": 173, 
+            "id": "hunger", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.7874015748031495, 
-                "id": "hunger", 
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "hunger"
+            }
+        ], 
+        [
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 59.0, 
+                "families": 16.0, 
+                "id": "hunger"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "thirst"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 59.0, 
+                "families": 16.0, 
+                "id": "famine"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 3.2520325203252036, 
-                "id": "thirst", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 263.91752577319585, 
-                "id": "famine", 
-                "families": 16.0, 
-                "languages": 59.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.2520325203252036, 
-                "id": "hunger", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 263.91752577319585, 
-                "id": "hunger", 
-                "families": 16.0, 
-                "languages": 59.0
+                "id": "hunger"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 173, 
-            "id": "hunger", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.14", 
-            "out_edge": []
-        }, 
-        {
-            "community": 173, 
-            "id": "thirst", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.15", 
-            "out_edge": []
-        }, 
-        {
-            "community": 173, 
-            "id": "famine", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.141", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

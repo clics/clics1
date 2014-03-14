@@ -1,0 +1,153 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "sew", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.2448979591836735, 
+                "id": "weave", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 35.0, 
+                "weight": 1.9387755102040816, 
+                "id": "weave, plait", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "braid", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "weave", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0408163265306123, 
+                "id": "weave, plait", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "weight": 1.2448979591836735, 
+                "id": "braid", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "sew", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 86.0, 
+                "weight": 4.4285714285714288, 
+                "id": "weave, plait", 
+                "families": 33.0
+            }
+        ], 
+        [
+            {
+                "languages": 35.0, 
+                "weight": 1.9387755102040816, 
+                "id": "braid", 
+                "families": 15.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0408163265306123, 
+                "id": "sew", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 86.0, 
+                "weight": 4.4285714285714288, 
+                "id": "weave", 
+                "families": 33.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 39, 
+            "body_part": 0, 
+            "id": "braid", 
+            "key": "6.921"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 39, 
+            "body_part": 0, 
+            "id": "sew", 
+            "key": "6.35"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "spin", 
+                    4.0, 
+                    1.0408163265306123
+                ], 
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 39, 
+            "body_part": 0, 
+            "id": "weave", 
+            "key": "6.33"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_74_bend", 
+                    "spin", 
+                    8.0, 
+                    1.2448979591836735
+                ], 
+                [
+                    "cluster_74_bend", 
+                    "twist", 
+                    6.0, 
+                    1.1224489795918366
+                ], 
+                [
+                    "cluster_33_do, make", 
+                    "build", 
+                    5.0, 
+                    1.0816326530612246
+                ]
+            ], 
+            "community": 39, 
+            "body_part": 0, 
+            "id": "weave, plait", 
+            "key": "9.75"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

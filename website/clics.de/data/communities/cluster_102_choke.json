@@ -1,0 +1,112 @@
+{
+    "nodes": [
+        {
+            "key": "10.351", 
+            "community": 102, 
+            "id": "dive", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.19", 
+            "community": 102, 
+            "id": "choke", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.751", 
+            "community": 102, 
+            "id": "drowned", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.33", 
+            "community": 102, 
+            "id": "sink", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 62.0, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "sink"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "choke"
+            }, 
+            {
+                "weight": 35.0, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "drowned"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sink"
+            }
+        ], 
+        [
+            {
+                "weight": 35.0, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "choke"
+            }, 
+            {
+                "weight": 234.0, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "sink"
+            }
+        ], 
+        [
+            {
+                "weight": 234.0, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "drowned"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 3.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "choke"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "dive"
+            }
+        ]
+    ], 
+    "directed": false
+}

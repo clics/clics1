@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "4.142", 
+            "community": 104, 
+            "id": "beard", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.209", 
+            "community": 104, 
+            "id": "chin", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.207", 
+            "community": 104, 
+            "id": "jaw", 
+            "out_edge": [
+                [
+                    "cluster_133_cheek", 
+                    "cheek", 
+                    7.0, 
+                    43.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 14.0, 
+                "languages": 10.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "chin"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "languages": 10.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "beard"
+            }, 
+            {
+                "weight": 526.0, 
+                "languages": 35.0, 
+                "families": 22.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "jaw"
+            }
+        ], 
+        [
+            {
+                "weight": 526.0, 
+                "languages": 35.0, 
+                "families": 22.0, 
+                "edge_width": 3.6470588235294117, 
+                "id": "chin"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "jaw"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,264 @@
+{
+    "nodes": [
+        {
+            "key": "10.13", 
+            "community": 92, 
+            "id": "turn around", 
+            "out_edge": [
+                [
+                    "cluster_80_twist", 
+                    "twist", 
+                    5.0, 
+                    22.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.12", 
+            "community": 92, 
+            "id": "turn over", 
+            "out_edge": [
+                [
+                    "cluster_80_twist", 
+                    "twist", 
+                    5.0, 
+                    22.0
+                ], 
+                [
+                    "cluster_7_trade, barter", 
+                    "change", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.22", 
+            "community": 92, 
+            "id": "give back", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.481", 
+            "community": 92, 
+            "id": "come back", 
+            "out_edge": [
+                [
+                    "cluster_172_approach", 
+                    "come", 
+                    6.0, 
+                    30.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.15", 
+            "community": 92, 
+            "id": "roll", 
+            "out_edge": [
+                [
+                    "cluster_80_twist", 
+                    "wind, wrap", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.57", 
+            "community": 92, 
+            "id": "vomit", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 45.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "roll"
+            }, 
+            {
+                "weight": 164.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "give back"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "vomit"
+            }, 
+            {
+                "weight": 57.0, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "come back"
+            }
+        ], 
+        [
+            {
+                "weight": 164.0, 
+                "languages": 26.0, 
+                "families": 13.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "give back"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "come back"
+            }, 
+            {
+                "weight": 33.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "roll"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "roll"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "vomit"
+            }, 
+            {
+                "weight": 47.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "come back"
+            }
+        ], 
+        [
+            {
+                "weight": 57.0, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 47.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "give back"
+            }
+        ], 
+        [
+            {
+                "weight": 45.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 33.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "turn over"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "give back"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "turn around"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "give back"
+            }
+        ]
+    ], 
+    "directed": false
+}

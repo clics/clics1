@@ -1,102 +1,88 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 459.375, 
-                "id": "divide", 
-                "families": 21.0, 
-                "languages": 32.0
-            }, 
-            {
-                "weight": 77.14285714285715, 
-                "id": "share (distribute)", 
-                "families": 9.0, 
-                "languages": 14.0
-            }
-        ], 
-        [
-            {
-                "weight": 459.375, 
-                "id": "separate", 
-                "families": 21.0, 
-                "languages": 32.0
-            }, 
-            {
-                "weight": 269.4736842105263, 
-                "id": "share (distribute)", 
-                "families": 16.0, 
-                "languages": 64.0
-            }
-        ], 
-        [
-            {
-                "weight": 77.14285714285715, 
-                "id": "separate", 
-                "families": 9.0, 
-                "languages": 14.0
-            }, 
-            {
-                "weight": 269.4736842105263, 
-                "id": "divide", 
-                "families": 16.0, 
-                "languages": 64.0
-            }, 
-            {
-                "weight": 0.9345794392523363, 
-                "id": "share (distribute)", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "11.91", 
             "community": 96, 
-            "id": "separate", 
+            "id": "share (distribute)", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.23", 
-            "out_edge": [
-                [
-                    "cluster_9_cut", 
-                    "split", 
-                    6.0, 
-                    32.432432432432435
-                ]
-            ]
+            "swadesh100": 0
         }, 
         {
+            "key": "12.232", 
             "community": 96, 
             "id": "divide", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.232", 
             "out_edge": [
                 [
                     "cluster_9_cut", 
                     "split", 
                     8.0, 
-                    60.37735849056604
+                    1.2647058823529411
                 ]
-            ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
         }, 
         {
+            "key": "12.23", 
             "community": 96, 
-            "id": "share (distribute)", 
+            "id": "separate", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.91", 
-            "out_edge": [
-                [
-                    "cluster_10_trade, barter", 
-                    "give", 
-                    4.0, 
-                    14.035087719298245
-                ]
-            ]
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 64.0, 
+                "families": 16.0, 
+                "id": "divide"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "weight": 2.3235294117647056, 
+                "languages": 64.0, 
+                "families": 16.0, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "weight": 3.3823529411764706, 
+                "languages": 32.0, 
+                "families": 21.0, 
+                "id": "separate"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "id": "share (distribute)"
+            }, 
+            {
+                "weight": 3.3823529411764706, 
+                "languages": 32.0, 
+                "families": 21.0, 
+                "id": "divide"
+            }
+        ]
+    ], 
     "directed": false
 }

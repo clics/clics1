@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "key": "1.324", 
+            "community": 159, 
+            "id": "foam", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.55", 
+            "community": 159, 
+            "id": "meal, flour", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.84", 
+            "community": 159, 
+            "id": "ashes", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "5.51", 
+            "community": 159, 
+            "id": "bread", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.95", 
+            "community": 159, 
+            "id": "soap", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.213", 
+            "community": 159, 
+            "id": "dust", 
+            "out_edge": [
+                [
+                    "cluster_2_country", 
+                    "earth=ground, soil", 
+                    7.0, 
+                    42.0
+                ], 
+                [
+                    "cluster_71_smoke (noun)", 
+                    "smoke (noun)", 
+                    7.0, 
+                    41.0
+                ], 
+                [
+                    "cluster_25_shore", 
+                    "sand", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.53", 
+            "community": 159, 
+            "id": "dough", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "dust"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "soap"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "bread"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "dust"
+            }, 
+            {
+                "weight": 16.0, 
+                "languages": 12.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "dough"
+            }
+        ], 
+        [
+            {
+                "weight": 13.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "dust"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "meal, flour"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "foam"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "foam"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "meal, flour"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "ashes"
+            }
+        ], 
+        [
+            {
+                "weight": 16.0, 
+                "languages": 12.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "meal, flour"
+            }
+        ]
+    ], 
+    "directed": false
+}

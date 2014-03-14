@@ -1,55 +1,55 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 654.0540540540541, 
+                "languages": 68.0, 
+                "weight": 3.5306122448979589, 
                 "id": "paddle (noun)", 
-                "families": 22.0, 
-                "languages": 68.0
+                "families": 22.0
             }
         ], 
         [
             {
-                "weight": 654.0540540540541, 
+                "languages": 68.0, 
+                "weight": 3.5306122448979589, 
                 "id": "oar", 
-                "families": 22.0, 
-                "languages": 68.0
+                "families": 22.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 134, 
-            "id": "oar", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.85", 
             "out_edge": [
                 [
-                    "cluster_92_shake", 
+                    "cluster_92_stir, mix", 
                     "row (vb)", 
                     5.0, 
-                    26.595744680851062
+                    1.0816326530612246
                 ]
-            ]
+            ], 
+            "community": 134, 
+            "body_part": 0, 
+            "id": "oar", 
+            "key": "10.85"
         }, 
         {
-            "community": 134, 
-            "id": "paddle (noun)", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.851", 
             "out_edge": [
                 [
-                    "cluster_112_spade", 
+                    "cluster_112_shovel", 
                     "spade", 
                     4.0, 
-                    20.0
+                    1.0816326530612246
                 ]
-            ]
+            ], 
+            "community": 134, 
+            "body_part": 0, 
+            "id": "paddle (noun)", 
+            "key": "10.851"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

@@ -1,0 +1,160 @@
+{
+    "nodes": [
+        {
+            "key": "10.23", 
+            "community": 151, 
+            "id": "fall", 
+            "out_edge": [
+                [
+                    "cluster_144_born (to be)", 
+                    "born (to be)", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.16", 
+            "community": 151, 
+            "id": "drop (vb)", 
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "release, let go", 
+                    5.0, 
+                    24.0
+                ], 
+                [
+                    "cluster_207_dribble", 
+                    "drip", 
+                    5.0, 
+                    23.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.473", 
+            "community": 151, 
+            "id": "go down", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.92", 
+            "community": 151, 
+            "id": "land (vb)", 
+            "out_edge": [
+                [
+                    "cluster_54_go", 
+                    "go out", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 113.0, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "drop (vb)"
+            }, 
+            {
+                "weight": 20.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "go down"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "land (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 113.0, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "fall"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "go down"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "land (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 20.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "fall"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "drop (vb)"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "land (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "drop (vb)"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "fall"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 8.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "go down"
+            }
+        ]
+    ], 
+    "directed": false
+}

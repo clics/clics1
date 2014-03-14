@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        {
+            "key": "14.34", 
+            "community": 233, 
+            "id": "never", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.31", 
+            "community": 233, 
+            "id": "always", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "13.14", 
+            "community": 233, 
+            "id": "every, all", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "never"
+            }, 
+            {
+                "weight": 15.0, 
+                "languages": 6.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "always"
+            }
+        ], 
+        [
+            {
+                "weight": 15.0, 
+                "languages": 6.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "never"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "always"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "every, all"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "always"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "every, all"
+            }
+        ]
+    ], 
+    "directed": false
+}

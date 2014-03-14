@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "key": "4.344", 
+            "community": 131, 
+            "id": "fingernail", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.345", 
+            "community": 131, 
+            "id": "claw", 
+            "out_edge": [
+                [
+                    "cluster_213_toe", 
+                    "finger", 
+                    6.0, 
+                    31.0
+                ], 
+                [
+                    "cluster_213_toe", 
+                    "toe", 
+                    5.0, 
+                    22.0
+                ]
+            ], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1441.0, 
+                "languages": 90.0, 
+                "families": 35.0, 
+                "edge_width": 7.882352941176471, 
+                "id": "claw"
+            }
+        ], 
+        [
+            {
+                "weight": 1441.0, 
+                "languages": 90.0, 
+                "families": 35.0, 
+                "edge_width": 7.882352941176471, 
+                "id": "fingernail"
+            }
+        ]
+    ], 
+    "directed": false
+}

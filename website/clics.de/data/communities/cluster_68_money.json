@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        {
+            "key": "11.43", 
+            "community": 68, 
+            "id": "money", 
+            "out_edge": [
+                [
+                    "cluster_1_fur", 
+                    "fishscale", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.65", 
+            "community": 68, 
+            "id": "silver", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.44", 
+            "community": 68, 
+            "id": "coin", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 292.0, 
+                "languages": 33.0, 
+                "families": 15.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "silver"
+            }, 
+            {
+                "weight": 426.0, 
+                "languages": 32.0, 
+                "families": 18.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "coin"
+            }
+        ], 
+        [
+            {
+                "weight": 292.0, 
+                "languages": 33.0, 
+                "families": 15.0, 
+                "edge_width": 2.3235294117647056, 
+                "id": "money"
+            }, 
+            {
+                "weight": 105.0, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "coin"
+            }
+        ], 
+        [
+            {
+                "weight": 426.0, 
+                "languages": 32.0, 
+                "families": 18.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "money"
+            }, 
+            {
+                "weight": 105.0, 
+                "languages": 13.0, 
+                "families": 9.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "silver"
+            }
+        ]
+    ], 
+    "directed": false
+}

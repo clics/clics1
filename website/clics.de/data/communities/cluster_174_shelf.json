@@ -1,138 +1,138 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.282051282051282, 
-                "id": "chair", 
-                "families": 1.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 67.12328767123287, 
+                "languages": 8.0, 
+                "weight": 1.1176470588235294, 
                 "id": "table", 
-                "families": 7.0, 
-                "languages": 8.0
+                "families": 7.0
             }, 
             {
-                "weight": 48.0, 
+                "languages": 7.0, 
+                "weight": 1.0, 
                 "id": "shelf", 
-                "families": 6.0, 
-                "languages": 7.0
+                "families": 6.0
             }
         ], 
         [
             {
-                "weight": 67.12328767123287, 
+                "languages": 8.0, 
+                "weight": 1.1176470588235294, 
                 "id": "board", 
-                "families": 7.0, 
-                "languages": 8.0
+                "families": 7.0
             }, 
             {
-                "weight": 9.782608695652174, 
-                "id": "chair", 
-                "families": 3.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 12.162162162162163, 
+                "languages": 3.0, 
+                "weight": 1.0, 
                 "id": "shelf", 
-                "families": 3.0, 
-                "languages": 3.0
+                "families": 3.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "chair", 
+                "families": 3.0
             }
         ], 
         [
             {
-                "weight": 1.282051282051282, 
+                "languages": 7.0, 
+                "weight": 1.0, 
+                "id": "board", 
+                "families": 6.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "table", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "chair", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "chair", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "table", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "shelf", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
                 "id": "anvil", 
-                "families": 1.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 9.782608695652174, 
-                "id": "table", 
-                "families": 3.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 4.25531914893617, 
-                "id": "shelf", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 48.0, 
-                "id": "board", 
-                "families": 6.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 4.25531914893617, 
-                "id": "chair", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 12.162162162162163, 
-                "id": "table", 
-                "families": 3.0, 
-                "languages": 3.0
+                "families": 1.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 174, 
-            "id": "anvil", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "9.62", 
-            "out_edge": []
-        }, 
-        {
-            "community": 174, 
-            "id": "board", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "7.57", 
             "out_edge": [
                 [
-                    "cluster_4_tree", 
+                    "cluster_3_post, pole", 
                     "wood", 
                     9.0, 
-                    89.01098901098901
+                    1.1176470588235294
                 ]
-            ]
+            ], 
+            "community": 174, 
+            "body_part": 0, 
+            "id": "board", 
+            "key": "7.57"
         }, 
         {
+            "swadesh100": 0, 
+            "out_edge": [], 
             "community": 174, 
+            "body_part": 0, 
             "id": "table", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "7.44", 
-            "out_edge": []
+            "key": "7.44"
         }, 
         {
-            "community": 174, 
-            "id": "chair", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "7.43", 
-            "out_edge": []
-        }, 
-        {
+            "out_edge": [], 
             "community": 174, 
+            "body_part": 0, 
             "id": "shelf", 
-            "body_part": 0, 
+            "key": "7.47"
+        }, 
+        {
             "swadesh100": 0, 
-            "key": "7.47", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 174, 
+            "body_part": 0, 
+            "id": "anvil", 
+            "key": "9.62"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 174, 
+            "body_part": 0, 
+            "id": "chair", 
+            "key": "7.43"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

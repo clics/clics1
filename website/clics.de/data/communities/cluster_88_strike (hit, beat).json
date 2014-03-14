@@ -1,0 +1,190 @@
+{
+    "nodes": [
+        {
+            "key": "10.431", 
+            "community": 88, 
+            "id": "kick", 
+            "out_edge": [
+                [
+                    "cluster_56_squeeze, wring", 
+                    "push, shove", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.21", 
+            "community": 88, 
+            "id": "strike (hit, beat)", 
+            "out_edge": [
+                [
+                    "cluster_116_extinguish", 
+                    "kill", 
+                    8.0, 
+                    54.0
+                ], 
+                [
+                    "cluster_158_throw", 
+                    "shoot", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_82_anger", 
+                    "fight (vb)", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.43", 
+            "community": 88, 
+            "id": "attack", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.211", 
+            "community": 88, 
+            "id": "pound with fist", 
+            "out_edge": [
+                [
+                    "cluster_56_squeeze, wring", 
+                    "crush, grind", 
+                    6.0, 
+                    34.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.34", 
+            "community": 88, 
+            "id": "thresh", 
+            "out_edge": [
+                [
+                    "cluster_56_squeeze, wring", 
+                    "crush, grind", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 31.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "pound with fist"
+            }
+        ], 
+        [
+            {
+                "weight": 31.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "kick"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "attack"
+            }, 
+            {
+                "weight": 206.0, 
+                "languages": 19.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "pound with fist"
+            }, 
+            {
+                "weight": 86.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "thresh"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "strike (hit, beat)"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "kick"
+            }, 
+            {
+                "weight": 206.0, 
+                "languages": 19.0, 
+                "families": 14.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 18.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "thresh"
+            }
+        ], 
+        [
+            {
+                "weight": 86.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 18.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "pound with fist"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,252 +1,275 @@
 {
-    "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 0.8771929824561403, 
-                "id": "strong, mighty, powerful", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.9803921568627451, 
-                "id": "loud", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 77.14285714285715, 
-                "id": "hard", 
-                "families": 9.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 9.0, 
-                "id": "dear (costly, expensive)", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 59.813084112149525, 
-                "id": "heavy", 
-                "families": 8.0, 
-                "languages": 31.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9803921568627451, 
-                "id": "difficult", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 33.9622641509434, 
-                "id": "strong, mighty, powerful", 
-                "families": 6.0, 
-                "languages": 14.0
-            }, 
-            {
-                "weight": 47.11538461538461, 
-                "id": "hard", 
-                "families": 7.0, 
-                "languages": 11.0
-            }
-        ], 
-        [
-            {
-                "weight": 77.14285714285715, 
-                "id": "difficult", 
-                "families": 9.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 308.5714285714286, 
-                "id": "strong, mighty, powerful", 
-                "families": 18.0, 
-                "languages": 19.0
-            }, 
-            {
-                "weight": 47.11538461538461, 
-                "id": "loud", 
-                "families": 7.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 0.9090909090909091, 
-                "id": "dear (costly, expensive)", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.8771929824561403, 
-                "id": "difficult", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "strong, mighty, powerful", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 33.9622641509434, 
-                "id": "loud", 
-                "families": 6.0, 
-                "languages": 14.0
-            }, 
-            {
-                "weight": 308.5714285714286, 
-                "id": "hard", 
-                "families": 18.0, 
-                "languages": 19.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "heavy", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 9.0, 
-                "id": "difficult", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.9090909090909091, 
-                "id": "hard", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 8.256880733944955, 
-                "id": "heavy", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 59.813084112149525, 
-                "id": "difficult", 
-                "families": 8.0, 
-                "languages": 31.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "strong, mighty, powerful", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 8.256880733944955, 
-                "id": "dear (costly, expensive)", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ]
-    ], 
     "nodes": [
         {
+            "key": "11.88", 
             "community": 70, 
-            "id": "difficult", 
+            "id": "dear (costly, expensive)", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "17.47", 
-            "out_edge": []
+            "swadesh100": 0
         }, 
         {
+            "key": "17.47", 
             "community": 70, 
-            "id": "loud", 
+            "id": "difficult", 
+            "out_edge": [], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.45", 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.81", 
+            "community": 70, 
+            "id": "heavy", 
             "out_edge": [
                 [
-                    "cluster_24_sound, noise", 
+                    "cluster_46_try, attempt", 
+                    "weigh", 
+                    5.0, 
+                    22.0
+                ], 
+                [
+                    "cluster_144_born (to be)", 
+                    "pregnant", 
+                    5.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.74", 
+            "community": 70, 
+            "id": "hard", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.45", 
+            "community": 70, 
+            "id": "loud", 
+            "out_edge": [
+                [
+                    "cluster_27_sound, noise", 
                     "sound, noise", 
                     5.0, 
-                    24.752475247524753
+                    24.0
+                ], 
+                [
+                    "cluster_205_wide, broad", 
+                    "large, big", 
+                    4.0, 
+                    14.0
                 ], 
                 [
                     "cluster_17_tall", 
                     "tall", 
                     4.0, 
-                    14.953271028037381
-                ], 
-                [
-                    "cluster_188_wide, broad", 
-                    "large, big", 
-                    4.0, 
-                    14.545454545454545
+                    14.0
                 ]
-            ]
-        }, 
-        {
-            "community": 70, 
-            "id": "hard", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.74", 
-            "out_edge": []
+            "swadesh100": 0
         }, 
         {
+            "key": "4.81", 
             "community": 70, 
             "id": "strong, mighty, powerful", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.81", 
             "out_edge": [
                 [
-                    "cluster_12_faithful", 
+                    "cluster_11_right, correct", 
                     "well, health", 
                     7.0, 
-                    43.36283185840708
+                    43.0
                 ], 
                 [
-                    "cluster_188_wide, broad", 
+                    "cluster_205_wide, broad", 
                     "large, big", 
                     4.0, 
-                    13.114754098360656
+                    13.0
                 ]
-            ]
-        }, 
-        {
-            "community": 70, 
-            "id": "dear (costly, expensive)", 
+            ], 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "11.88", 
-            "out_edge": []
-        }, 
-        {
-            "community": 70, 
-            "id": "heavy", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "15.81", 
-            "out_edge": [
-                [
-                    "cluster_40_try, attempt", 
-                    "weigh", 
-                    5.0, 
-                    22.93577981651376
-                ], 
-                [
-                    "cluster_142_grow", 
-                    "pregnant", 
-                    5.0, 
-                    20.833333333333336
-                ]
-            ]
+            "swadesh100": 0
         }
     ], 
+    "multigraph": false, 
     "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "difficult"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "heavy"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "hard"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "loud"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "dear (costly, expensive)"
+            }, 
+            {
+                "weight": 77.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "hard"
+            }, 
+            {
+                "weight": 59.0, 
+                "languages": 31.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "heavy"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "strong, mighty, powerful"
+            }
+        ], 
+        [
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "dear (costly, expensive)"
+            }, 
+            {
+                "weight": 59.0, 
+                "languages": 31.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "difficult"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "strong, mighty, powerful"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "dear (costly, expensive)"
+            }, 
+            {
+                "weight": 77.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "difficult"
+            }, 
+            {
+                "weight": 47.0, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "loud"
+            }, 
+            {
+                "weight": 308.0, 
+                "languages": 19.0, 
+                "families": 18.0, 
+                "edge_width": 2.5882352941176472, 
+                "id": "strong, mighty, powerful"
+            }
+        ], 
+        [
+            {
+                "weight": 33.0, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "strong, mighty, powerful"
+            }, 
+            {
+                "weight": 47.0, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "hard"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "difficult"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "difficult"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "heavy"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "strong, mighty, powerful"
+            }, 
+            {
+                "weight": 33.0, 
+                "languages": 14.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "loud"
+            }, 
+            {
+                "weight": 308.0, 
+                "languages": 19.0, 
+                "families": 18.0, 
+                "edge_width": 2.5882352941176472, 
+                "id": "hard"
+            }
+        ]
+    ], 
     "directed": false
 }

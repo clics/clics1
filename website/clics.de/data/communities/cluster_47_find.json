@@ -1,0 +1,161 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "look, look at", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 31.0, 
+                "weight": 3.4897959183673466, 
+                "id": "meet", 
+                "families": 25.0
+            }, 
+            {
+                "languages": 23.0, 
+                "weight": 1.8163265306122449, 
+                "id": "see", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0408163265306123, 
+                "id": "find", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "meet", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 39.0, 
+                "weight": 3.4081632653061225, 
+                "id": "see", 
+                "families": 25.0
+            }
+        ], 
+        [
+            {
+                "languages": 31.0, 
+                "weight": 3.4897959183673466, 
+                "id": "find", 
+                "families": 25.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "look, look at", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.2040816326530612, 
+                "id": "see", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 23.0, 
+                "weight": 1.8163265306122449, 
+                "id": "find", 
+                "families": 15.0
+            }, 
+            {
+                "languages": 39.0, 
+                "weight": 3.4081632653061225, 
+                "id": "look, look at", 
+                "families": 25.0
+            }, 
+            {
+                "languages": 13.0, 
+                "weight": 1.2040816326530612, 
+                "id": "meet", 
+                "families": 8.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    13.0, 
+                    1.6530612244897958
+                ], 
+                [
+                    "cluster_161_reach, arrive", 
+                    "reach, arrive", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 47, 
+            "body_part": 0, 
+            "id": "find", 
+            "key": "11.32"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_42_learn", 
+                    "read", 
+                    5.0, 
+                    1.0816326530612246
+                ]
+            ], 
+            "community": 47, 
+            "body_part": 0, 
+            "id": "look, look at", 
+            "key": "15.52"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    4.0, 
+                    1.0408163265306123
+                ]
+            ], 
+            "community": 47, 
+            "body_part": 0, 
+            "id": "meet", 
+            "key": "19.65"
+        }, 
+        {
+            "swadesh100": 1, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    6.0, 
+                    1.1224489795918366
+                ], 
+                [
+                    "cluster_11_know", 
+                    "know", 
+                    5.0, 
+                    1.0816326530612246
+                ]
+            ], 
+            "community": 47, 
+            "body_part": 0, 
+            "id": "see", 
+            "key": "15.51"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

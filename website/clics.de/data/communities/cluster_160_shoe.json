@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "6.51", 
+            "community": 160, 
+            "id": "shoe", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.52", 
+            "community": 160, 
+            "id": "boot", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.49", 
+            "community": 160, 
+            "id": "stocking, sock", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 202.0, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "boot"
+            }, 
+            {
+                "weight": 43.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "stocking, sock"
+            }
+        ], 
+        [
+            {
+                "weight": 202.0, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "shoe"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "stocking, sock"
+            }
+        ], 
+        [
+            {
+                "weight": 43.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "shoe"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "boot"
+            }
+        ]
+    ], 
+    "directed": false
+}

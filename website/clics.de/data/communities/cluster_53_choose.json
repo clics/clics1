@@ -1,0 +1,235 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "collect, gather", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "choose", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.0, 
+                "id": "pick up", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "pile up", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 36.0, 
+                "weight": 1.7058823529411764, 
+                "id": "collect, gather", 
+                "families": 17.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.0, 
+                "id": "choose", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "pile up", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "join, unite", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 41.0, 
+                "weight": 1.4705882352941178, 
+                "id": "raise, lift", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 29.0, 
+                "weight": 1.1176470588235294, 
+                "id": "collect, gather", 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "choose", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "pick up", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "join, unite", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "choose", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 36.0, 
+                "weight": 1.7058823529411764, 
+                "id": "pick up", 
+                "families": 17.0
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 1.1176470588235294, 
+                "id": "pile up", 
+                "families": 9.0
+            }, 
+            {
+                "languages": 19.0, 
+                "weight": 1.3529411764705883, 
+                "id": "join, unite", 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "languages": 41.0, 
+                "weight": 1.4705882352941178, 
+                "id": "pick up", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 19.0, 
+                "weight": 1.3529411764705883, 
+                "id": "collect, gather", 
+                "families": 13.0
+            }, 
+            {
+                "languages": 3.0, 
+                "weight": 1.0, 
+                "id": "pick up", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.0, 
+                "id": "pile up", 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "join, unite", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_4_get, obtain", 
+                    "take", 
+                    5.0, 
+                    1.0
+                ]
+            ], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "choose", 
+            "key": "16.622"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_4_get, obtain", 
+                    "take", 
+                    13.0, 
+                    1.3529411764705883
+                ], 
+                [
+                    "cluster_4_get, obtain", 
+                    "get, obtain", 
+                    7.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "pick up", 
+            "key": "12.212"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "pile up", 
+            "key": "12.213"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "mow, reap", 
+                    7.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "collect, gather", 
+            "key": "12.21"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_4_get, obtain", 
+                    "take", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "raise, lift", 
+            "key": "10.22"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 53, 
+            "body_part": 0, 
+            "id": "join, unite", 
+            "key": "12.22"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

@@ -1,55 +1,41 @@
 {
+    "nodes": [
+        {
+            "key": "10.71", 
+            "community": 120, 
+            "id": "road", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "10.72", 
+            "community": 120, 
+            "id": "path", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1475.9036144578313, 
-                "id": "path", 
+                "weight": 8.147058823529413, 
+                "languages": 70.0, 
                 "families": 35.0, 
-                "languages": 70.0
+                "id": "path"
             }
         ], 
         [
             {
-                "weight": 1475.9036144578313, 
-                "id": "road", 
+                "weight": 8.147058823529413, 
+                "languages": 70.0, 
                 "families": 35.0, 
-                "languages": 70.0
+                "id": "road"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 120, 
-            "id": "road", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "10.71", 
-            "out_edge": [
-                [
-                    "cluster_182_custom", 
-                    "way, manner", 
-                    5.0, 
-                    26.881720430107524
-                ]
-            ]
-        }, 
-        {
-            "community": 120, 
-            "id": "path", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "10.72", 
-            "out_edge": [
-                [
-                    "cluster_253_door, gate", 
-                    "door, gate", 
-                    4.0, 
-                    14.15929203539823
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

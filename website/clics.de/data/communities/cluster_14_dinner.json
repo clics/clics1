@@ -1,94 +1,94 @@
 {
     "nodes": [
         {
-            "key": "5.42", 
-            "body_part": 0, 
-            "community": 14, 
-            "id": "breakfast", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.11", 
-            "body_part": 0, 
-            "community": 14, 
-            "id": "eat", 
-            "out_edge": [
-                [
-                    "cluster_225_bite", 
-                    "bite", 
-                    6.0, 
-                    238.01652892561984
-                ], 
-                [
-                    "cluster_66_smoke (noun)", 
-                    "drink", 
-                    5.0, 
-                    162.60162601626016
-                ], 
-                [
-                    "cluster_225_bite", 
-                    "chew", 
-                    4.0, 
-                    104.06504065040652
-                ]
-            ], 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "14.45", 
-            "body_part": 0, 
-            "community": 14, 
-            "id": "noon, midday", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.56", 
-            "body_part": 0, 
-            "community": 14, 
-            "id": "bait", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
             "key": "5.44", 
-            "body_part": 0, 
             "community": 14, 
             "id": "dinner", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "5.45", 
-            "body_part": 0, 
             "community": 14, 
             "id": "supper", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "5.12", 
-            "body_part": 0, 
             "community": 14, 
             "id": "food", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 1
         }, 
         {
             "key": "5.43", 
-            "body_part": 0, 
             "community": 14, 
             "id": "lunch", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
-            "key": "5.41", 
+            "key": "14.45", 
+            "community": 14, 
+            "id": "noon, midday", 
+            "out_edge": [], 
             "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.42", 
+            "community": 14, 
+            "id": "breakfast", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.11", 
+            "community": 14, 
+            "id": "eat", 
+            "out_edge": [
+                [
+                    "cluster_244_bite", 
+                    "bite", 
+                    6.0, 
+                    29.0
+                ], 
+                [
+                    "cluster_71_smoke (noun)", 
+                    "drink", 
+                    5.0, 
+                    20.0
+                ], 
+                [
+                    "cluster_244_bite", 
+                    "chew", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "5.41", 
             "community": 14, 
             "id": "meal (a)", 
             "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.56", 
+            "community": 14, 
+            "id": "bait", 
+            "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }
     ], 
@@ -97,296 +97,342 @@
     "adjacency": [
         [
             {
-                "weight": 185.5072463768116, 
+                "weight": 318.0, 
+                "languages": 28.0, 
+                "families": 13.0, 
+                "edge_width": 2.5882352941176472, 
+                "id": "supper"
+            }, 
+            {
+                "weight": 91.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "food"
+            }, 
+            {
+                "weight": 147.0, 
+                "languages": 18.0, 
+                "families": 10.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "lunch"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 7.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "noon, midday"
+            }, 
+            {
+                "weight": 23.0, 
                 "languages": 4.0, 
                 "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "breakfast"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "eat"
+            }, 
+            {
+                "weight": 163.0, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "meal (a)"
+            }
+        ], 
+        [
+            {
+                "weight": 318.0, 
+                "languages": 28.0, 
+                "families": 13.0, 
+                "edge_width": 2.5882352941176472, 
                 "id": "dinner"
             }, 
             {
-                "weight": 312.5, 
+                "weight": 39.0, 
                 "languages": 5.0, 
                 "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "breakfast"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "food"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "lunch"
+            }, 
+            {
+                "weight": 20.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "meal (a)"
+            }
+        ], 
+        [
+            {
+                "weight": 91.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "dinner"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
                 "id": "supper"
             }, 
             {
                 "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "lunch"
+            }, 
+            {
+                "weight": 1.0, 
                 "languages": 1.0, 
                 "families": 1.0, 
-                "id": "food"
-            }, 
-            {
-                "weight": 529.7297297297297, 
-                "languages": 10.0, 
-                "families": 7.0, 
-                "id": "lunch"
-            }, 
-            {
-                "weight": 84.70588235294117, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 32.98969072164948, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "dinner"
-            }, 
-            {
-                "weight": 683.7606837606837, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "food"
-            }, 
-            {
-                "weight": 30.476190476190478, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "lunch"
-            }, 
-            {
-                "weight": 617.1428571428572, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 142.22222222222223, 
-                "languages": 7.0, 
-                "families": 4.0, 
-                "id": "dinner"
-            }, 
-            {
-                "weight": 32.0, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "lunch"
-            }
-        ], 
-        [
-            {
-                "weight": 196.078431372549, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "food"
-            }, 
-            {
-                "weight": 79.12087912087912, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 32.98969072164948, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "eat"
-            }, 
-            {
-                "weight": 142.22222222222223, 
-                "languages": 7.0, 
-                "families": 4.0, 
-                "id": "noon, midday"
-            }, 
-            {
-                "weight": 185.5072463768116, 
-                "languages": 4.0, 
-                "families": 4.0, 
+                "edge_width": 1.0, 
                 "id": "breakfast"
             }, 
             {
-                "weight": 2550.943396226415, 
-                "languages": 28.0, 
-                "families": 13.0, 
-                "id": "supper"
+                "weight": 85.0, 
+                "languages": 19.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "eat"
             }, 
             {
-                "weight": 728.0898876404494, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "food"
+                "weight": 777.0, 
+                "languages": 70.0, 
+                "families": 26.0, 
+                "edge_width": 4.9705882352941178, 
+                "id": "meal (a)"
             }, 
             {
-                "weight": 1176.4705882352941, 
+                "weight": 24.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "bait"
+            }
+        ], 
+        [
+            {
+                "weight": 147.0, 
                 "languages": 18.0, 
                 "families": 10.0, 
-                "id": "lunch"
-            }, 
-            {
-                "weight": 1308.1081081081081, 
-                "languages": 16.0, 
-                "families": 11.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 2550.943396226415, 
-                "languages": 28.0, 
-                "families": 13.0, 
+                "edge_width": 1.5294117647058822, 
                 "id": "dinner"
             }, 
             {
-                "weight": 312.5, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "breakfast"
-            }, 
-            {
-                "weight": 34.78260869565217, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "food"
-            }, 
-            {
-                "weight": 182.85714285714286, 
+                "weight": 22.0, 
                 "languages": 4.0, 
                 "families": 4.0, 
-                "id": "lunch"
-            }, 
-            {
-                "weight": 166.23376623376623, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 728.0898876404494, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "dinner"
-            }, 
-            {
-                "weight": 683.7606837606837, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "eat"
-            }, 
-            {
-                "weight": 196.078431372549, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "bait"
+                "edge_width": 1.0, 
+                "id": "supper"
             }, 
             {
                 "weight": 8.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "breakfast"
-            }, 
-            {
-                "weight": 34.78260869565217, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "supper"
-            }, 
-            {
-                "weight": 69.90291262135922, 
                 "languages": 3.0, 
                 "families": 3.0, 
-                "id": "lunch"
+                "edge_width": 1.0, 
+                "id": "food"
             }, 
             {
-                "weight": 6216.091954022988, 
-                "languages": 70.0, 
-                "families": 26.0, 
-                "id": "meal (a)"
-            }
-        ], 
-        [
-            {
-                "weight": 1176.4705882352941, 
-                "languages": 18.0, 
-                "families": 10.0, 
-                "id": "dinner"
-            }, 
-            {
-                "weight": 30.476190476190478, 
+                "weight": 4.0, 
                 "languages": 3.0, 
                 "families": 2.0, 
-                "id": "eat"
-            }, 
-            {
-                "weight": 32.0, 
-                "languages": 3.0, 
-                "families": 2.0, 
+                "edge_width": 1.0, 
                 "id": "noon, midday"
             }, 
             {
-                "weight": 529.7297297297297, 
+                "weight": 66.0, 
                 "languages": 10.0, 
                 "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
                 "id": "breakfast"
             }, 
             {
-                "weight": 182.85714285714286, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "supper"
-            }, 
-            {
-                "weight": 69.90291262135922, 
+                "weight": 3.0, 
                 "languages": 3.0, 
-                "families": 3.0, 
-                "id": "food"
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "eat"
             }, 
             {
-                "weight": 455.8139534883721, 
+                "weight": 56.0, 
                 "languages": 9.0, 
                 "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
                 "id": "meal (a)"
             }
         ], 
         [
             {
-                "weight": 1308.1081081081081, 
-                "languages": 16.0, 
-                "families": 11.0, 
+                "weight": 17.0, 
+                "languages": 7.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
                 "id": "dinner"
             }, 
             {
-                "weight": 617.1428571428572, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "eat"
-            }, 
-            {
-                "weight": 79.12087912087912, 
+                "weight": 4.0, 
                 "languages": 3.0, 
-                "families": 3.0, 
-                "id": "bait"
-            }, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "lunch"
+            }
+        ], 
+        [
             {
-                "weight": 84.70588235294117, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "breakfast"
-            }, 
-            {
-                "weight": 166.23376623376623, 
+                "weight": 23.0, 
                 "languages": 4.0, 
                 "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "dinner"
+            }, 
+            {
+                "weight": 39.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
                 "id": "supper"
             }, 
             {
-                "weight": 6216.091954022988, 
-                "languages": 70.0, 
-                "families": 26.0, 
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
                 "id": "food"
             }, 
             {
-                "weight": 455.8139534883721, 
+                "weight": 66.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "lunch"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "meal (a)"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "dinner"
+            }, 
+            {
+                "weight": 85.0, 
+                "languages": 19.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "food"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "lunch"
+            }, 
+            {
+                "weight": 77.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "meal (a)"
+            }
+        ], 
+        [
+            {
+                "weight": 163.0, 
+                "languages": 16.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "dinner"
+            }, 
+            {
+                "weight": 20.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "supper"
+            }, 
+            {
+                "weight": 777.0, 
+                "languages": 70.0, 
+                "families": 26.0, 
+                "edge_width": 4.9705882352941178, 
+                "id": "food"
+            }, 
+            {
+                "weight": 56.0, 
                 "languages": 9.0, 
                 "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
                 "id": "lunch"
+            }, 
+            {
+                "weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "breakfast"
+            }, 
+            {
+                "weight": 77.0, 
+                "languages": 14.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "eat"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "bait"
+            }
+        ], 
+        [
+            {
+                "weight": 24.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "food"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "meal (a)"
             }
         ]
     ], 

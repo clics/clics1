@@ -1,323 +1,357 @@
 {
+    "nodes": [
+        {
+            "key": "1.37", 
+            "community": 65, 
+            "id": "spring, well", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.36", 
+            "community": 65, 
+            "id": "river, stream, brook", 
+            "out_edge": [
+                [
+                    "cluster_136_sea", 
+                    "sea", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.76", 
+            "community": 65, 
+            "id": "sap", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.9", 
+            "community": 65, 
+            "id": "beverage, drink", 
+            "out_edge": [
+                [
+                    "cluster_137_fermented drink", 
+                    "fermented drink", 
+                    5.0, 
+                    23.0
+                ], 
+                [
+                    "cluster_71_smoke (noun)", 
+                    "drink", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.39", 
+            "community": 65, 
+            "id": "waterfall", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.31", 
+            "community": 65, 
+            "id": "water", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "5.64", 
+            "community": 65, 
+            "id": "soup, broth", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.75", 
+            "community": 65, 
+            "id": "rain (noun)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "9.56", 
+            "community": 65, 
+            "id": "glue", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.8264462809917356, 
-                "id": "spring, well", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 8.411214953271028, 
-                "id": "waterfall", 
+                "weight": 8.0, 
+                "languages": 3.0, 
                 "families": 3.0, 
-                "languages": 3.0
+                "edge_width": 1.0, 
+                "id": "waterfall"
             }, 
             {
-                "weight": 13.223140495867769, 
-                "id": "river, stream, brook", 
-                "families": 4.0, 
-                "languages": 6.0
-            }, 
-            {
-                "weight": 3.2520325203252036, 
-                "id": "water", 
+                "weight": 3.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "water"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "spring, well"
+            }, 
+            {
+                "weight": 13.0, 
+                "languages": 6.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
             }
         ], 
         [
             {
-                "weight": 13.223140495867769, 
-                "id": "spring, well", 
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sap"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 4.0, 
                 "families": 4.0, 
-                "languages": 6.0
+                "edge_width": 1.0, 
+                "id": "beverage, drink"
             }, 
             {
-                "weight": 0.8771929824561403, 
-                "id": "sap", 
+                "weight": 0.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.0, 
+                "id": "waterfall"
             }, 
             {
-                "weight": 0.7874015748031495, 
-                "id": "rain (noun)", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.7874015748031495, 
-                "id": "river, stream, brook", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 14.035087719298245, 
-                "id": "beverage, drink", 
-                "families": 4.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 0.8928571428571428, 
-                "id": "waterfall", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 146.95652173913044, 
-                "id": "water", 
+                "weight": 146.0, 
+                "languages": 19.0, 
                 "families": 13.0, 
-                "languages": 19.0
-            }
-        ], 
-        [
+                "edge_width": 1.5294117647058822, 
+                "id": "water"
+            }, 
             {
-                "weight": 0.7874015748031495, 
-                "id": "river, stream, brook", 
+                "weight": 0.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.0, 
+                "id": "rain (noun)"
             }, 
             {
-                "weight": 40.49586776859504, 
-                "id": "water", 
-                "families": 7.0, 
-                "languages": 9.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9345794392523363, 
-                "id": "soup, broth", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.9615384615384616, 
-                "id": "beverage, drink", 
-                "families": 1.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 0.8771929824561403, 
-                "id": "river, stream, brook", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 9.278350515463918, 
-                "id": "glue", 
-                "families": 3.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 22.727272727272727, 
-                "id": "water", 
-                "families": 5.0, 
-                "languages": 17.0
-            }
-        ], 
-        [
-            {
-                "weight": 9.278350515463918, 
-                "id": "sap", 
-                "families": 3.0, 
-                "languages": 4.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.333333333333332, 
-                "id": "soup, broth", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 44.14414414414414, 
-                "id": "water", 
-                "families": 7.0, 
-                "languages": 13.0
-            }, 
-            {
-                "weight": 14.035087719298245, 
-                "id": "river, stream, brook", 
+                "weight": 13.0, 
+                "languages": 6.0, 
                 "families": 4.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 0.9615384615384616, 
-                "id": "sap", 
-                "families": 1.0, 
-                "languages": 4.0
+                "edge_width": 1.0, 
+                "id": "spring, well"
             }
         ], 
         [
             {
-                "weight": 8.411214953271028, 
-                "id": "spring, well", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.8928571428571428, 
-                "id": "river, stream, brook", 
+                "weight": 0.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 8.333333333333332, 
-                "id": "beverage, drink", 
-                "families": 3.0, 
-                "languages": 3.0
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
             }, 
             {
-                "weight": 0.9345794392523363, 
-                "id": "sap", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 3.361344537815126, 
-                "id": "water", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 146.95652173913044, 
-                "id": "river, stream, brook", 
-                "families": 13.0, 
-                "languages": 19.0
-            }, 
-            {
-                "weight": 40.49586776859504, 
-                "id": "rain (noun)", 
-                "families": 7.0, 
-                "languages": 9.0
-            }, 
-            {
-                "weight": 22.727272727272727, 
-                "id": "sap", 
+                "weight": 22.0, 
+                "languages": 17.0, 
                 "families": 5.0, 
-                "languages": 17.0
+                "edge_width": 1.0, 
+                "id": "water"
             }, 
             {
-                "weight": 44.14414414414414, 
-                "id": "beverage, drink", 
+                "weight": 9.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "glue"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 4.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "beverage, drink"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "soup, broth"
+            }
+        ], 
+        [
+            {
+                "weight": 14.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "weight": 44.0, 
+                "languages": 13.0, 
                 "families": 7.0, 
-                "languages": 13.0
+                "edge_width": 1.0, 
+                "id": "water"
             }, 
             {
-                "weight": 3.2520325203252036, 
-                "id": "spring, well", 
-                "families": 2.0, 
-                "languages": 2.0
+                "weight": 0.0, 
+                "languages": 4.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sap"
             }, 
             {
-                "weight": 3.361344537815126, 
-                "id": "soup, broth", 
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "soup, broth"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "spring, well"
+            }
+        ], 
+        [
+            {
+                "weight": 146.0, 
+                "languages": 19.0, 
+                "families": 13.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 17.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "sap"
+            }, 
+            {
+                "weight": 44.0, 
+                "languages": 13.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "beverage, drink"
+            }, 
+            {
+                "weight": 40.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "rain (noun)"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "spring, well"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "soup, broth"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "water"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "sap"
+            }, 
+            {
+                "weight": 8.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "beverage, drink"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "river, stream, brook"
+            }, 
+            {
+                "weight": 40.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "water"
+            }
+        ], 
+        [
+            {
+                "weight": 9.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "sap"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 65, 
-            "id": "spring, well", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.37", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "river, stream, brook", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.36", 
-            "out_edge": [
-                [
-                    "cluster_127_sea", 
-                    "sea", 
-                    4.0, 
-                    14.545454545454545
-                ]
-            ]
-        }, 
-        {
-            "community": 65, 
-            "id": "rain (noun)", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "1.75", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "sap", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.76", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "glue", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.56", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "beverage, drink", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.9", 
-            "out_edge": [
-                [
-                    "cluster_147_wine", 
-                    "fermented drink", 
-                    5.0, 
-                    23.809523809523807
-                ], 
-                [
-                    "cluster_66_smoke (noun)", 
-                    "drink", 
-                    4.0, 
-                    14.035087719298245
-                ]
-            ]
-        }, 
-        {
-            "community": 65, 
-            "id": "waterfall", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "1.39", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "soup, broth", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.64", 
-            "out_edge": []
-        }, 
-        {
-            "community": 65, 
-            "id": "water", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "1.31", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

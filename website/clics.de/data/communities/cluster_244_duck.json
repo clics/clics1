@@ -1,107 +1,107 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0869565217391304, 
+                "languages": 1.0, 
+                "weight": 1.0, 
                 "id": "seagull", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }, 
             {
-                "weight": 4.597701149425287, 
+                "languages": 2.0, 
+                "weight": 1.0, 
                 "id": "goose", 
-                "families": 2.0, 
-                "languages": 2.0
+                "families": 2.0
             }
         ], 
         [
             {
-                "weight": 1.1363636363636365, 
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "yoke", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "duck", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "duck", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "yoke", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "goose", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
                 "id": "bat", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.6666666666666667, 
-                "id": "goose", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 4.597701149425287, 
-                "id": "duck", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 1.6666666666666667, 
-                "id": "yoke", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 1.0869565217391304, 
-                "id": "duck", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 1.1363636363636365, 
-                "id": "yoke", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }
         ]
     ], 
     "nodes": [
         {
+            "swadesh100": 0, 
+            "out_edge": [], 
             "community": 244, 
+            "body_part": 0, 
             "id": "duck", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.57", 
-            "out_edge": []
+            "key": "3.57"
         }, 
         {
-            "community": 244, 
-            "id": "yoke", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.78", 
-            "out_edge": []
-        }, 
-        {
+            "out_edge": [], 
             "community": 244, 
-            "id": "goose", 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.56", 
-            "out_edge": []
-        }, 
-        {
-            "community": 244, 
-            "id": "seagull", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.582", 
-            "out_edge": []
-        }, 
-        {
-            "community": 244, 
             "id": "bat", 
-            "body_part": 0, 
+            "key": "3.591"
+        }, 
+        {
             "swadesh100": 0, 
-            "key": "3.591", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 244, 
+            "body_part": 0, 
+            "id": "seagull", 
+            "key": "3.582"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 244, 
+            "body_part": 0, 
+            "id": "goose", 
+            "key": "3.56"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 244, 
+            "body_part": 0, 
+            "id": "yoke", 
+            "key": "10.78"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

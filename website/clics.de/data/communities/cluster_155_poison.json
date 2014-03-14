@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        {
+            "key": "4.89", 
+            "community": 155, 
+            "id": "poison", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.88", 
+            "community": 155, 
+            "id": "medicine, drug", 
+            "out_edge": [
+                [
+                    "cluster_63_butter", 
+                    "ointment", 
+                    6.0, 
+                    37.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.98", 
+            "community": 155, 
+            "id": "intoxicated", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.96", 
+            "community": 155, 
+            "id": "fish poison (root)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 82.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "medicine, drug"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "intoxicated"
+            }, 
+            {
+                "weight": 81.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "fish poison (root)"
+            }
+        ], 
+        [
+            {
+                "weight": 82.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "poison"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "fish poison (root)"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "poison"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "fish poison (root)"
+            }
+        ], 
+        [
+            {
+                "weight": 81.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "poison"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "medicine, drug"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "intoxicated"
+            }
+        ]
+    ], 
+    "directed": false
+}

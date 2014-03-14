@@ -1,138 +1,138 @@
 {
-    "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 86.95652173913044, 
-                "id": "bathe", 
-                "families": 10.0, 
-                "languages": 18.0
+                "languages": 13.0, 
+                "weight": 1.0816326530612246, 
+                "id": "swim", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 15.0, 
+                "weight": 1.2448979591836735, 
+                "id": "float", 
+                "families": 7.0
             }
         ], 
         [
             {
-                "weight": 61.25000000000001, 
+                "languages": 13.0, 
+                "weight": 1.0816326530612246, 
                 "id": "sail (vb)", 
-                "families": 7.0, 
-                "languages": 15.0
+                "families": 5.0
             }, 
             {
-                "weight": 3.4782608695652173, 
+                "languages": 10.0, 
+                "weight": 1.2040816326530612, 
                 "id": "bathe", 
-                "families": 2.0, 
-                "languages": 2.0
+                "families": 8.0
             }, 
             {
-                "weight": 220.58823529411765, 
-                "id": "swim", 
-                "families": 15.0, 
-                "languages": 45.0
+                "languages": 45.0, 
+                "weight": 1.8979591836734693, 
+                "id": "float", 
+                "families": 15.0
             }
         ], 
         [
             {
-                "weight": 61.25000000000001, 
-                "id": "float", 
-                "families": 7.0, 
-                "languages": 15.0
-            }, 
-            {
-                "weight": 28.08988764044944, 
+                "languages": 10.0, 
+                "weight": 1.2040816326530612, 
                 "id": "swim", 
-                "families": 5.0, 
-                "languages": 13.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.4782608695652173, 
-                "id": "float", 
-                "families": 2.0, 
-                "languages": 2.0
+                "families": 8.0
             }, 
             {
-                "weight": 86.95652173913044, 
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "float", 
+                "families": 2.0
+            }, 
+            {
+                "languages": 18.0, 
+                "weight": 1.3265306122448979, 
                 "id": "wash", 
-                "families": 10.0, 
-                "languages": 18.0
-            }, 
-            {
-                "weight": 55.172413793103445, 
-                "id": "swim", 
-                "families": 8.0, 
-                "languages": 10.0
+                "families": 10.0
             }
         ], 
         [
             {
-                "weight": 220.58823529411765, 
-                "id": "float", 
-                "families": 15.0, 
-                "languages": 45.0
-            }, 
-            {
-                "weight": 28.08988764044944, 
+                "languages": 15.0, 
+                "weight": 1.2448979591836735, 
                 "id": "sail (vb)", 
-                "families": 5.0, 
-                "languages": 13.0
+                "families": 7.0
             }, 
             {
-                "weight": 55.172413793103445, 
+                "languages": 45.0, 
+                "weight": 1.8979591836734693, 
+                "id": "swim", 
+                "families": 15.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
                 "id": "bathe", 
-                "families": 8.0, 
-                "languages": 10.0
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "weight": 1.3265306122448979, 
+                "id": "bathe", 
+                "families": 10.0
             }
         ]
     ], 
     "nodes": [
         {
-            "community": 82, 
-            "id": "wash", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "9.36", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 82, 
+            "body_part": 0, 
+            "id": "sail (vb)", 
+            "key": "10.36"
         }, 
         {
+            "swadesh100": 1, 
+            "out_edge": [], 
             "community": 82, 
-            "id": "float", 
             "body_part": 0, 
+            "id": "swim", 
+            "key": "10.35"
+        }, 
+        {
             "swadesh100": 0, 
-            "key": "10.34", 
+            "out_edge": [], 
+            "community": 82, 
+            "body_part": 0, 
+            "id": "bathe", 
+            "key": "4.69"
+        }, 
+        {
+            "swadesh100": 0, 
             "out_edge": [
                 [
                     "cluster_80_run", 
                     "flow", 
                     5.0, 
-                    22.727272727272727
+                    1.0816326530612246
                 ]
-            ]
+            ], 
+            "community": 82, 
+            "body_part": 0, 
+            "id": "float", 
+            "key": "10.34"
         }, 
         {
-            "community": 82, 
-            "id": "sail (vb)", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "10.36", 
-            "out_edge": []
-        }, 
-        {
+            "out_edge": [], 
             "community": 82, 
-            "id": "bathe", 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.69", 
-            "out_edge": []
-        }, 
-        {
-            "community": 82, 
-            "id": "swim", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "10.35", 
-            "out_edge": []
+            "id": "wash", 
+            "key": "9.36"
         }
     ], 
-    "graph": [], 
+    "multigraph": false, 
     "directed": false
 }

@@ -1,0 +1,129 @@
+{
+    "nodes": [
+        {
+            "key": "5.971", 
+            "community": 228, 
+            "id": "egg yolk", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "15.66", 
+            "community": 228, 
+            "id": "red", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "15.69", 
+            "community": 228, 
+            "id": "yellow", 
+            "out_edge": [
+                [
+                    "cluster_44_wet, damp", 
+                    "green", 
+                    6.0, 
+                    30.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.15", 
+            "community": 228, 
+            "id": "blood", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "4.271", 
+            "community": 228, 
+            "id": "gums", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 14.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "yellow"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "gums"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "red"
+            }, 
+            {
+                "weight": 20.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "yellow"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "blood"
+            }
+        ], 
+        [
+            {
+                "weight": 20.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "red"
+            }, 
+            {
+                "weight": 14.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "egg yolk"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "red"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "egg yolk"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,260 +1,282 @@
 {
+    "nodes": [
+        {
+            "key": "13.35", 
+            "community": 35, 
+            "id": "last", 
+            "out_edge": [
+                [
+                    "cluster_143_place", 
+                    "place", 
+                    6.0, 
+                    31.0
+                ], 
+                [
+                    "cluster_74_late", 
+                    "late", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.35", 
+            "community": 35, 
+            "id": "end", 
+            "out_edge": [
+                [
+                    "cluster_101_roof", 
+                    "top", 
+                    7.0, 
+                    44.0
+                ], 
+                [
+                    "cluster_25_shore", 
+                    "edge", 
+                    7.0, 
+                    44.0
+                ], 
+                [
+                    "cluster_25_shore", 
+                    "boundary", 
+                    6.0, 
+                    39.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.15", 
+            "community": 35, 
+            "id": "stand", 
+            "out_edge": [
+                [
+                    "cluster_38_climb", 
+                    "rise", 
+                    8.0, 
+                    56.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "14.27", 
+            "community": 35, 
+            "id": "finish", 
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "destroy", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.26", 
+            "community": 35, 
+            "id": "end (temporal)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "14.28", 
+            "community": 35, 
+            "id": "cease, stop", 
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "release, let go", 
+                    4.0, 
+                    15.0
+                ], 
+                [
+                    "cluster_57_dwell, live", 
+                    "remain, stay", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 134.57943925233644, 
-                "id": "stand", 
-                "families": 12.0, 
-                "languages": 15.0
-            }, 
-            {
-                "weight": 3.6036036036036037, 
-                "id": "last", 
+                "weight": 3.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "finish"
             }, 
             {
-                "weight": 135.8490566037736, 
-                "id": "finish", 
-                "families": 12.0, 
-                "languages": 16.0
-            }, 
-            {
-                "weight": 15.09433962264151, 
-                "id": "end (temporal)", 
-                "families": 4.0, 
-                "languages": 8.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.6036036036036037, 
-                "id": "cease, stop", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 118.62745098039215, 
-                "id": "end", 
-                "families": 11.0, 
-                "languages": 15.0
-            }, 
-            {
-                "weight": 3.418803418803419, 
-                "id": "finish", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 79.41176470588235, 
-                "id": "end (temporal)", 
+                "weight": 79.0, 
+                "languages": 11.0, 
                 "families": 9.0, 
-                "languages": 11.0
-            }
-        ], 
-        [
-            {
-                "weight": 134.57943925233644, 
-                "id": "cease, stop", 
-                "families": 12.0, 
-                "languages": 15.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9009009009009009, 
-                "id": "end", 
-                "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.2647058823529411, 
+                "id": "end (temporal)"
             }, 
             {
-                "weight": 22.123893805309734, 
-                "id": "finish", 
-                "families": 5.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 118.62745098039215, 
-                "id": "last", 
-                "families": 11.0, 
-                "languages": 15.0
-            }, 
-            {
-                "weight": 352.17391304347825, 
-                "id": "end (temporal)", 
-                "families": 18.0, 
-                "languages": 57.0
-            }
-        ], 
-        [
-            {
-                "weight": 135.8490566037736, 
-                "id": "cease, stop", 
-                "families": 12.0, 
-                "languages": 16.0
-            }, 
-            {
-                "weight": 22.123893805309734, 
-                "id": "end", 
-                "families": 5.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "finish", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 3.418803418803419, 
-                "id": "last", 
+                "weight": 3.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "id": "cease, stop"
             }, 
             {
-                "weight": 115.23809523809523, 
-                "id": "end (temporal)", 
+                "weight": 118.0, 
+                "languages": 15.0, 
                 "families": 11.0, 
-                "languages": 27.0
+                "edge_width": 1.5294117647058822, 
+                "id": "end"
             }
         ], 
         [
             {
-                "weight": 15.09433962264151, 
-                "id": "cease, stop", 
-                "families": 4.0, 
-                "languages": 8.0
+                "weight": 22.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "finish"
             }, 
             {
-                "weight": 79.41176470588235, 
-                "id": "last", 
-                "families": 9.0, 
-                "languages": 11.0
-            }, 
-            {
-                "weight": 115.23809523809523, 
-                "id": "finish", 
-                "families": 11.0, 
-                "languages": 27.0
-            }, 
-            {
-                "weight": 352.17391304347825, 
-                "id": "end", 
+                "weight": 352.0, 
+                "languages": 57.0, 
                 "families": 18.0, 
-                "languages": 57.0
+                "edge_width": 2.8529411764705883, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 118.0, 
+                "languages": 15.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "last"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "end"
+            }
+        ], 
+        [
+            {
+                "weight": 134.0, 
+                "languages": 15.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "cease, stop"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 115.0, 
+                "languages": 27.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 135.0, 
+                "languages": 16.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "cease, stop"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "last"
+            }, 
+            {
+                "weight": 22.0, 
+                "languages": 7.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "end"
+            }
+        ], 
+        [
+            {
+                "weight": 115.0, 
+                "languages": 27.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 15.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "cease, stop"
+            }, 
+            {
+                "weight": 79.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "last"
+            }, 
+            {
+                "weight": 352.0, 
+                "languages": 57.0, 
+                "families": 18.0, 
+                "edge_width": 2.8529411764705883, 
+                "id": "end"
+            }
+        ], 
+        [
+            {
+                "weight": 135.0, 
+                "languages": 16.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "finish"
+            }, 
+            {
+                "weight": 15.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "last"
+            }, 
+            {
+                "weight": 134.0, 
+                "languages": 15.0, 
+                "families": 12.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "stand"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 35, 
-            "id": "cease, stop", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.28", 
-            "out_edge": [
-                [
-                    "cluster_83_forgive", 
-                    "release, let go", 
-                    4.0, 
-                    15.09433962264151
-                ], 
-                [
-                    "cluster_61_dwell, live", 
-                    "remain, stay", 
-                    4.0, 
-                    14.678899082568808
-                ]
-            ]
-        }, 
-        {
-            "community": 35, 
-            "id": "last", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "13.35", 
-            "out_edge": [
-                [
-                    "cluster_135_place", 
-                    "place", 
-                    6.0, 
-                    31.30434782608696
-                ], 
-                [
-                    "cluster_79_late", 
-                    "late", 
-                    4.0, 
-                    15.686274509803921
-                ]
-            ]
-        }, 
-        {
-            "community": 35, 
-            "id": "stand", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "12.15", 
-            "out_edge": [
-                [
-                    "cluster_32_climb", 
-                    "rise", 
-                    8.0, 
-                    56.14035087719298
-                ]
-            ]
-        }, 
-        {
-            "community": 35, 
-            "id": "end", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "12.35", 
-            "out_edge": [
-                [
-                    "cluster_30_side", 
-                    "edge", 
-                    7.0, 
-                    44.95412844036697
-                ], 
-                [
-                    "cluster_94_roof", 
-                    "top", 
-                    7.0, 
-                    44.54545454545455
-                ], 
-                [
-                    "cluster_30_side", 
-                    "boundary", 
-                    6.0, 
-                    39.56043956043956
-                ]
-            ]
-        }, 
-        {
-            "community": 35, 
-            "id": "finish", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.27", 
-            "out_edge": [
-                [
-                    "cluster_9_cut", 
-                    "destroy", 
-                    4.0, 
-                    14.15929203539823
-                ]
-            ]
-        }, 
-        {
-            "community": 35, 
-            "id": "end (temporal)", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.26", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

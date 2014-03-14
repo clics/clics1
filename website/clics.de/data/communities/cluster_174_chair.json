@@ -1,0 +1,150 @@
+{
+    "nodes": [
+        {
+            "key": "9.62", 
+            "community": 174, 
+            "id": "anvil", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.44", 
+            "community": 174, 
+            "id": "table", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.57", 
+            "community": 174, 
+            "id": "board", 
+            "out_edge": [
+                [
+                    "cluster_3_post, pole", 
+                    "wood", 
+                    9.0, 
+                    89.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.43", 
+            "community": 174, 
+            "id": "chair", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.47", 
+            "community": 174, 
+            "id": "shelf", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "chair"
+            }
+        ], 
+        [
+            {
+                "weight": 67.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "board"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "chair"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "shelf"
+            }
+        ], 
+        [
+            {
+                "weight": 48.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "shelf"
+            }, 
+            {
+                "weight": 67.0, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "table"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "anvil"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "shelf"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "table"
+            }
+        ], 
+        [
+            {
+                "weight": 48.0, 
+                "languages": 7.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "board"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "chair"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "table"
+            }
+        ]
+    ], 
+    "directed": false
+}

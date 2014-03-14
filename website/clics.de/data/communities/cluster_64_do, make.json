@@ -1,0 +1,164 @@
+{
+    "nodes": [
+        {
+            "key": "9.12", 
+            "community": 64, 
+            "id": "work", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.11", 
+            "community": 64, 
+            "id": "do, make", 
+            "out_edge": [
+                [
+                    "cluster_23_tell story", 
+                    "say", 
+                    10.0, 
+                    86.0
+                ], 
+                [
+                    "cluster_227_enter", 
+                    "put", 
+                    6.0, 
+                    30.0
+                ], 
+                [
+                    "cluster_142_because", 
+                    "cause", 
+                    5.0, 
+                    24.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.44", 
+            "community": 64, 
+            "id": "build", 
+            "out_edge": [
+                [
+                    "cluster_48_weave", 
+                    "weave, plait", 
+                    5.0, 
+                    23.0
+                ], 
+                [
+                    "cluster_13_cut", 
+                    "carve", 
+                    4.0, 
+                    17.0
+                ], 
+                [
+                    "cluster_21_sow", 
+                    "plant (vb)", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.72", 
+            "community": 64, 
+            "id": "mold (clay etc)", 
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "carve", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 69.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "do, make"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "build"
+            }
+        ], 
+        [
+            {
+                "weight": 69.0, 
+                "languages": 11.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "work"
+            }, 
+            {
+                "weight": 606.0, 
+                "languages": 52.0, 
+                "families": 24.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "build"
+            }, 
+            {
+                "weight": 50.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "mold (clay etc)"
+            }
+        ], 
+        [
+            {
+                "weight": 21.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "work"
+            }, 
+            {
+                "weight": 606.0, 
+                "languages": 52.0, 
+                "families": 24.0, 
+                "edge_width": 4.1764705882352944, 
+                "id": "do, make"
+            }, 
+            {
+                "weight": 39.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "mold (clay etc)"
+            }
+        ], 
+        [
+            {
+                "weight": 50.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "do, make"
+            }, 
+            {
+                "weight": 39.0, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "build"
+            }
+        ]
+    ], 
+    "directed": false
+}

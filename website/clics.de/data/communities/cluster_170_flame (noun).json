@@ -1,0 +1,100 @@
+{
+    "nodes": [
+        {
+            "key": "1.82", 
+            "community": 170, 
+            "id": "flame (noun)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.87", 
+            "community": 170, 
+            "id": "match (noun)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.81", 
+            "community": 170, 
+            "id": "fire", 
+            "out_edge": [
+                [
+                    "cluster_3_post, pole", 
+                    "firewood", 
+                    10.0, 
+                    84.0
+                ], 
+                [
+                    "cluster_24_white", 
+                    "light (noun)", 
+                    9.0, 
+                    69.0
+                ], 
+                [
+                    "cluster_154_beeswax", 
+                    "lamp, torch", 
+                    6.0, 
+                    32.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "match (noun)"
+            }, 
+            {
+                "weight": 243.0, 
+                "languages": 29.0, 
+                "families": 16.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "fire"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "flame (noun)"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "fire"
+            }
+        ], 
+        [
+            {
+                "weight": 243.0, 
+                "languages": 29.0, 
+                "families": 16.0, 
+                "edge_width": 2.0588235294117645, 
+                "id": "flame (noun)"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "match (noun)"
+            }
+        ]
+    ], 
+    "directed": false
+}

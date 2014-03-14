@@ -1,0 +1,170 @@
+{
+    "nodes": [
+        {
+            "key": "17.65", 
+            "community": 142, 
+            "id": "when?", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.52", 
+            "community": 142, 
+            "id": "because", 
+            "out_edge": [
+                [
+                    "cluster_84_how?", 
+                    "why?", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.53", 
+            "community": 142, 
+            "id": "if", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.21", 
+            "community": 142, 
+            "id": "plaintiff", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "17.42", 
+            "community": 142, 
+            "id": "cause", 
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "let, permit", 
+                    5.0, 
+                    28.0
+                ], 
+                [
+                    "cluster_64_do, make", 
+                    "do, make", 
+                    5.0, 
+                    24.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "if"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "when?"
+            }, 
+            {
+                "weight": 36.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "if"
+            }, 
+            {
+                "weight": 93.0, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "cause"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 22.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "when?"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "if"
+            }, 
+            {
+                "weight": 36.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "cause"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "cause"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "plaintiff"
+            }, 
+            {
+                "weight": 93.0, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "because"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,0 +1,222 @@
+{
+    "nodes": [
+        {
+            "key": "10.17", 
+            "community": 74, 
+            "id": "twist", 
+            "out_edge": [
+                [
+                    "cluster_58_squeeze, wring", 
+                    "squeeze, wring", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.14", 
+            "community": 74, 
+            "id": "bend", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.74", 
+            "community": 74, 
+            "id": "crooked", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "6.31", 
+            "community": 74, 
+            "id": "spin", 
+            "out_edge": [
+                [
+                    "cluster_39_weave", 
+                    "weave, plait", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.14", 
+            "community": 74, 
+            "id": "wind, wrap", 
+            "out_edge": [
+                [
+                    "cluster_101_turn over", 
+                    "roll", 
+                    4.0, 
+                    1.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.15", 
+            "community": 74, 
+            "id": "fold", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "spin"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "wind, wrap"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "bend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "crooked"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "fold"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "id": "twist"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spin"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "wind, wrap"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "crooked"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 24.0, 
+                "families": 11.0, 
+                "id": "fold"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "twist"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 12.0, 
+                "families": 10.0, 
+                "id": "bend"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "wind, wrap"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "bend"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "id": "twist"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "id": "spin"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "bend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "id": "twist"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "fold"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "id": "twist"
+            }, 
+            {
+                "weight": 1.5294117647058822, 
+                "languages": 24.0, 
+                "families": 11.0, 
+                "id": "bend"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 10.0, 
+                "families": 6.0, 
+                "id": "wind, wrap"
+            }
+        ]
+    ], 
+    "directed": false
+}

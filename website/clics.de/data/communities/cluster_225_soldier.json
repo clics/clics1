@@ -1,0 +1,48 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 11.0, 
+                "weight": 1.4081632653061225, 
+                "id": "army", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "weight": 1.4081632653061225, 
+                "id": "soldier", 
+                "families": 8.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 225, 
+            "body_part": 0, 
+            "id": "soldier", 
+            "key": "20.17"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_88_anger", 
+                    "war, battle", 
+                    4.0, 
+                    1.0816326530612246
+                ]
+            ], 
+            "community": 225, 
+            "body_part": 0, 
+            "id": "army", 
+            "key": "20.15"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

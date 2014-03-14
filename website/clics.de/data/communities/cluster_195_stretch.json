@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "key": "9.32", 
+            "community": 195, 
+            "id": "stretch", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.34", 
+            "community": 195, 
+            "id": "spread out", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.33", 
+            "community": 195, 
+            "id": "pull", 
+            "out_edge": [
+                [
+                    "cluster_71_smoke (noun)", 
+                    "smoke (tobacco)", 
+                    4.0, 
+                    14.0
+                ], 
+                [
+                    "cluster_209_kiss", 
+                    "suck", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 23.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "spread out"
+            }, 
+            {
+                "weight": 75.0, 
+                "languages": 37.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "pull"
+            }
+        ], 
+        [
+            {
+                "weight": 23.0, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "stretch"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "pull"
+            }
+        ], 
+        [
+            {
+                "weight": 75.0, 
+                "languages": 37.0, 
+                "families": 9.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "stretch"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "spread out"
+            }
+        ]
+    ], 
+    "directed": false
+}

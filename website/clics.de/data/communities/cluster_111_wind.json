@@ -1,0 +1,94 @@
+{
+    "nodes": [
+        {
+            "body_part": 0, 
+            "community": 111, 
+            "id": "storm", 
+            "key": "1.58", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 111, 
+            "id": "wind", 
+            "key": "1.72", 
+            "out_edge": [], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 111, 
+            "id": "air", 
+            "key": "1.71", 
+            "out_edge": [
+                [
+                    "cluster_16_day", 
+                    "weather", 
+                    7.0, 
+                    1.6976744186046511
+                ], 
+                [
+                    "cluster_233_breathe, breath", 
+                    "breathe, breath", 
+                    4.0, 
+                    1.1627906976744187
+                ], 
+                [
+                    "cluster_66_smoke (noun)", 
+                    "sky", 
+                    4.0, 
+                    1.1627906976744187
+                ]
+            ], 
+            "swadesh100": 0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "languages": 16.0, 
+                "weight": 1.2558139534883721, 
+                "families": 5.0, 
+                "id": "wind"
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "air"
+            }
+        ], 
+        [
+            {
+                "languages": 16.0, 
+                "weight": 1.2558139534883721, 
+                "families": 5.0, 
+                "id": "storm"
+            }, 
+            {
+                "languages": 41.0, 
+                "weight": 4.2558139534883725, 
+                "families": 21.0, 
+                "id": "air"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "storm"
+            }, 
+            {
+                "languages": 41.0, 
+                "weight": 4.2558139534883725, 
+                "families": 21.0, 
+                "id": "wind"
+            }
+        ]
+    ], 
+    "directed": false, 
+    "graph": [], 
+    "multigraph": false
+}

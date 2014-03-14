@@ -1,0 +1,208 @@
+{
+    "nodes": [
+        {
+            "key": "10.47", 
+            "community": 54, 
+            "id": "go", 
+            "out_edge": [
+                [
+                    "cluster_172_approach", 
+                    "come", 
+                    8.0, 
+                    54.0
+                ], 
+                [
+                    "cluster_38_climb", 
+                    "ride", 
+                    6.0, 
+                    32.0
+                ], 
+                [
+                    "cluster_86_run", 
+                    "flow", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.49", 
+            "community": 54, 
+            "id": "go away, depart", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.474", 
+            "community": 54, 
+            "id": "go out", 
+            "out_edge": [
+                [
+                    "cluster_144_born (to be)", 
+                    "born (to be)", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_38_climb", 
+                    "rise", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_151_fall", 
+                    "land (vb)", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.66", 
+            "community": 54, 
+            "id": "defecate", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.45", 
+            "community": 54, 
+            "id": "walk", 
+            "out_edge": [
+                [
+                    "cluster_173_stir, mix", 
+                    "move", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_38_climb", 
+                    "ride", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "go"
+            }, 
+            {
+                "weight": 428.0, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "go away, depart"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "go out"
+            }, 
+            {
+                "weight": 377.0, 
+                "languages": 53.0, 
+                "families": 20.0, 
+                "edge_width": 2.8529411764705883, 
+                "id": "walk"
+            }
+        ], 
+        [
+            {
+                "weight": 428.0, 
+                "languages": 47.0, 
+                "families": 21.0, 
+                "edge_width": 3.1176470588235294, 
+                "id": "go"
+            }, 
+            {
+                "weight": 108.0, 
+                "languages": 19.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "go out"
+            }, 
+            {
+                "weight": 41.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "walk"
+            }
+        ], 
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "go"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "defecate"
+            }, 
+            {
+                "weight": 108.0, 
+                "languages": 19.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "go away, depart"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "go out"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "defecate"
+            }
+        ], 
+        [
+            {
+                "weight": 377.0, 
+                "languages": 53.0, 
+                "families": 20.0, 
+                "edge_width": 2.8529411764705883, 
+                "id": "go"
+            }, 
+            {
+                "weight": 41.0, 
+                "languages": 12.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "go away, depart"
+            }
+        ]
+    ], 
+    "directed": false
+}

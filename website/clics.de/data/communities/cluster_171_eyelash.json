@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+            "key": "4.214", 
+            "community": 171, 
+            "id": "eyelash", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.212", 
+            "community": 171, 
+            "id": "eyebrow", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.213", 
+            "community": 171, 
+            "id": "eyelid", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 90.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "eyebrow"
+            }, 
+            {
+                "weight": 44.0, 
+                "languages": 17.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "eyelid"
+            }
+        ], 
+        [
+            {
+                "weight": 90.0, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "eyelash"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "eyelid"
+            }
+        ], 
+        [
+            {
+                "weight": 44.0, 
+                "languages": 17.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "eyelash"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 3.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "eyebrow"
+            }
+        ]
+    ], 
+    "directed": false
+}

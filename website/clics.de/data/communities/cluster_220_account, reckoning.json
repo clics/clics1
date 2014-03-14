@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        {
+            "key": "11.66", 
+            "community": 220, 
+            "id": "account, reckoning", 
+            "out_edge": [
+                [
+                    "cluster_46_try, attempt", 
+                    "count", 
+                    4.0, 
+                    18.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.63", 
+            "community": 220, 
+            "id": "owe", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "11.64", 
+            "community": 220, 
+            "id": "debt", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 22.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "debt"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "owe"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "account, reckoning"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "debt"
+            }
+        ], 
+        [
+            {
+                "weight": 22.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "account, reckoning"
+            }, 
+            {
+                "weight": 62.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "owe"
+            }
+        ]
+    ], 
+    "directed": false
+}

@@ -1,76 +1,69 @@
 {
+    "nodes": [
+        {
+            "key": "4.142", 
+            "community": 114, 
+            "id": "beard", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.209", 
+            "community": 114, 
+            "id": "chin", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "4.207", 
+            "community": 114, 
+            "id": "jaw", 
+            "out_edge": [], 
+            "body_part": 1, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 14.15929203539823, 
-                "id": "chin", 
+                "weight": 1.0, 
+                "languages": 10.0, 
                 "families": 4.0, 
-                "languages": 10.0
+                "id": "chin"
             }
         ], 
         [
             {
-                "weight": 14.15929203539823, 
-                "id": "beard", 
+                "weight": 1.0, 
+                "languages": 10.0, 
                 "families": 4.0, 
-                "languages": 10.0
+                "id": "beard"
             }, 
             {
-                "weight": 526.0869565217391, 
-                "id": "jaw", 
+                "weight": 3.6470588235294117, 
+                "languages": 35.0, 
                 "families": 22.0, 
-                "languages": 35.0
+                "id": "jaw"
             }
         ], 
         [
             {
-                "weight": 526.0869565217391, 
-                "id": "chin", 
+                "weight": 3.6470588235294117, 
+                "languages": 35.0, 
                 "families": 22.0, 
-                "languages": 35.0
+                "id": "chin"
             }, 
             {
-                "weight": 0.8547008547008548, 
-                "id": "jaw", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "jaw"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 114, 
-            "id": "beard", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.142", 
-            "out_edge": []
-        }, 
-        {
-            "community": 114, 
-            "id": "chin", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.209", 
-            "out_edge": []
-        }, 
-        {
-            "community": 114, 
-            "id": "jaw", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.207", 
-            "out_edge": [
-                [
-                    "cluster_130_face", 
-                    "cheek", 
-                    7.0, 
-                    43.36283185840708
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }

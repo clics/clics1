@@ -1,0 +1,128 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "sew", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 8.0, 
+                "weight": 1.1176470588235294, 
+                "id": "weave", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 35.0, 
+                "weight": 1.4705882352941178, 
+                "id": "weave, plait", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "braid", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "weave", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "weave, plait", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "weight": 1.1176470588235294, 
+                "id": "braid", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 4.0, 
+                "weight": 1.0, 
+                "id": "sew", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 86.0, 
+                "weight": 3.9411764705882351, 
+                "id": "weave, plait", 
+                "families": 33.0
+            }
+        ], 
+        [
+            {
+                "languages": 35.0, 
+                "weight": 1.4705882352941178, 
+                "id": "braid", 
+                "families": 15.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "sew", 
+                "families": 4.0
+            }, 
+            {
+                "languages": 86.0, 
+                "weight": 3.9411764705882351, 
+                "id": "weave", 
+                "families": 33.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 48, 
+            "body_part": 0, 
+            "id": "braid", 
+            "key": "6.921"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 48, 
+            "body_part": 0, 
+            "id": "sew", 
+            "key": "6.35"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 48, 
+            "body_part": 0, 
+            "id": "weave", 
+            "key": "6.33"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_80_bend", 
+                    "spin", 
+                    8.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 48, 
+            "body_part": 0, 
+            "id": "weave, plait", 
+            "key": "9.75"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

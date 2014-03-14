@@ -1,0 +1,94 @@
+{
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "id": "reach, arrive", 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "weight": 1.1176470588235294, 
+                "id": "approach", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 33.0, 
+                "weight": 1.3529411764705883, 
+                "id": "come", 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "weight": 1.1176470588235294, 
+                "id": "reach, arrive", 
+                "families": 8.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "come", 
+                "families": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0, 
+                "id": "approach", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "weight": 1.3529411764705883, 
+                "id": "reach, arrive", 
+                "families": 14.0
+            }, 
+            {
+                "languages": 5.0, 
+                "weight": 1.0, 
+                "id": "approach", 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 172, 
+            "body_part": 0, 
+            "id": "reach, arrive", 
+            "key": "10.55"
+        }, 
+        {
+            "swadesh100": 0, 
+            "out_edge": [], 
+            "community": 172, 
+            "body_part": 0, 
+            "id": "approach", 
+            "key": "10.56"
+        }, 
+        {
+            "swadesh100": 1, 
+            "out_edge": [
+                [
+                    "cluster_54_go", 
+                    "go", 
+                    8.0, 
+                    1.1176470588235294
+                ]
+            ], 
+            "community": 172, 
+            "body_part": 0, 
+            "id": "come", 
+            "key": "10.48"
+        }
+    ], 
+    "multigraph": false, 
+    "directed": false
+}

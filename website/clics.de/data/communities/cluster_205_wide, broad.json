@@ -1,0 +1,107 @@
+{
+    "nodes": [
+        {
+            "key": "12.63", 
+            "community": 205, 
+            "id": "thick (in dimension)", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "12.55", 
+            "community": 205, 
+            "id": "large, big", 
+            "out_edge": [
+                [
+                    "cluster_17_tall", 
+                    "tall", 
+                    9.0, 
+                    69.0
+                ], 
+                [
+                    "cluster_17_tall", 
+                    "high", 
+                    7.0, 
+                    41.0
+                ], 
+                [
+                    "cluster_66_enough", 
+                    "much, many", 
+                    5.0, 
+                    20.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 1
+        }, 
+        {
+            "key": "12.61", 
+            "community": 205, 
+            "id": "wide, broad", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 30.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "large, big"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "wide, broad"
+            }
+        ], 
+        [
+            {
+                "weight": 30.0, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "thick (in dimension)"
+            }, 
+            {
+                "weight": 106.0, 
+                "languages": 12.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "wide, broad"
+            }
+        ], 
+        [
+            {
+                "weight": 21.0, 
+                "languages": 6.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "thick (in dimension)"
+            }, 
+            {
+                "weight": 106.0, 
+                "languages": 12.0, 
+                "families": 11.0, 
+                "edge_width": 1.5294117647058822, 
+                "id": "large, big"
+            }, 
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "wide, broad"
+            }
+        ]
+    ], 
+    "directed": false
+}

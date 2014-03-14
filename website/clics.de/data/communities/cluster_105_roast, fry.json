@@ -1,161 +1,161 @@
 {
     "nodes": [
         {
-            "key": "5.23", 
             "body_part": 0, 
             "community": 105, 
             "id": "roast, fry", 
+            "key": "5.23", 
             "out_edge": [
                 [
-                    "cluster_104_arson", 
+                    "cluster_104_burn (vb intrans)", 
                     "burn (vb trans)", 
                     8.0, 
-                    437.60683760683764
+                    1.6279069767441861
                 ]
             ], 
             "swadesh100": 0
         }, 
         {
-            "key": "5.22", 
-            "body_part": 0, 
-            "community": 105, 
-            "id": "boil (vb)", 
-            "out_edge": [
-                [
-                    "cluster_226_full", 
-                    "boil (noun)", 
-                    4.0, 
-                    113.27433628318585
-                ], 
-                [
-                    "cluster_146_ripe", 
-                    "cooked", 
-                    4.0, 
-                    111.30434782608695
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.21", 
-            "body_part": 0, 
-            "community": 105, 
-            "id": "cook", 
-            "out_edge": [
-                [
-                    "cluster_146_ripe", 
-                    "cooked", 
-                    8.0, 
-                    465.45454545454544
-                ], 
-                [
-                    "cluster_104_arson", 
-                    "burn (vb trans)", 
-                    4.0, 
-                    105.78512396694215
-                ]
-            ], 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.24", 
             "body_part": 0, 
             "community": 105, 
             "id": "bake", 
+            "key": "5.24", 
             "out_edge": [
                 [
                     "cluster_95_stove", 
                     "oven", 
                     5.0, 
-                    250.0
+                    1.3488372093023255
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 105, 
+            "id": "cook", 
+            "key": "5.21", 
+            "out_edge": [
+                [
+                    "cluster_146_cooked", 
+                    "cooked", 
+                    8.0, 
+                    1.6627906976744184
+                ], 
+                [
+                    "cluster_104_burn (vb intrans)", 
+                    "burn (vb trans)", 
+                    4.0, 
+                    1.1395348837209303
+                ]
+            ], 
+            "swadesh100": 0
+        }, 
+        {
+            "body_part": 0, 
+            "community": 105, 
+            "id": "boil (vb)", 
+            "key": "5.22", 
+            "out_edge": [
+                [
+                    "cluster_146_cooked", 
+                    "cooked", 
+                    4.0, 
+                    1.1511627906976745
+                ], 
+                [
+                    "cluster_224_full", 
+                    "boil (noun)", 
+                    4.0, 
+                    1.1511627906976745
                 ]
             ], 
             "swadesh100": 0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 26.446280991735538, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "boil (vb)"
-            }, 
-            {
-                "weight": 2408.333333333333, 
                 "languages": 53.0, 
+                "weight": 3.6976744186046511, 
                 "families": 17.0, 
                 "id": "bake"
             }, 
             {
-                "weight": 170.94017094017093, 
                 "languages": 7.0, 
+                "weight": 1.2325581395348837, 
                 "families": 5.0, 
                 "id": "cook"
-            }
-        ], 
-        [
+            }, 
             {
-                "weight": 26.446280991735538, 
                 "languages": 2.0, 
+                "weight": 1.0232558139534884, 
                 "families": 2.0, 
-                "id": "roast, fry"
-            }, 
-            {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "bake"
-            }, 
-            {
-                "weight": 864.2857142857142, 
-                "languages": 29.0, 
-                "families": 11.0, 
-                "id": "cook"
-            }
-        ], 
-        [
-            {
-                "weight": 170.94017094017093, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "roast, fry"
-            }, 
-            {
-                "weight": 864.2857142857142, 
-                "languages": 29.0, 
-                "families": 11.0, 
                 "id": "boil (vb)"
-            }, 
-            {
-                "weight": 369.811320754717, 
-                "languages": 12.0, 
-                "families": 7.0, 
-                "id": "bake"
             }
         ], 
         [
             {
-                "weight": 2408.333333333333, 
                 "languages": 53.0, 
+                "weight": 3.6976744186046511, 
                 "families": 17.0, 
                 "id": "roast, fry"
             }, 
             {
-                "weight": 28.57142857142857, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "boil (vb)"
+                "languages": 12.0, 
+                "weight": 1.5232558139534884, 
+                "families": 7.0, 
+                "id": "cook"
             }, 
             {
-                "weight": 369.811320754717, 
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "boil (vb)"
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "weight": 1.2325581395348837, 
+                "families": 5.0, 
+                "id": "roast, fry"
+            }, 
+            {
                 "languages": 12.0, 
+                "weight": 1.5232558139534884, 
                 "families": 7.0, 
+                "id": "bake"
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 2.2441860465116279, 
+                "families": 11.0, 
+                "id": "boil (vb)"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "weight": 1.0232558139534884, 
+                "families": 2.0, 
+                "id": "roast, fry"
+            }, 
+            {
+                "languages": 2.0, 
+                "weight": 1.0348837209302326, 
+                "families": 2.0, 
+                "id": "bake"
+            }, 
+            {
+                "languages": 29.0, 
+                "weight": 2.2441860465116279, 
+                "families": 11.0, 
                 "id": "cook"
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "graph": [], 
+    "multigraph": false
 }

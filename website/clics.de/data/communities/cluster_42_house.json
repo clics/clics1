@@ -1,0 +1,326 @@
+{
+    "nodes": [
+        {
+            "key": "12.6", 
+            "community": 42, 
+            "id": "outside", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.14", 
+            "community": 42, 
+            "id": "tent", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "21.15", 
+            "community": 42, 
+            "id": "court", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.12", 
+            "community": 42, 
+            "id": "house", 
+            "out_edge": [
+                [
+                    "cluster_101_roof", 
+                    "roof", 
+                    7.0, 
+                    42.0
+                ], 
+                [
+                    "cluster_2_country", 
+                    "village", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.15", 
+            "community": 42, 
+            "id": "yard, court", 
+            "out_edge": [
+                [
+                    "cluster_127_fence", 
+                    "fence", 
+                    4.0, 
+                    16.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.131", 
+            "community": 42, 
+            "id": "garden-house", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.13", 
+            "community": 42, 
+            "id": "hut", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "7.21", 
+            "community": 42, 
+            "id": "room", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 0.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "outside"
+            }, 
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "yard, court"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "house"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 25.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "yard, court"
+            }, 
+            {
+                "weight": 31.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "hut"
+            }
+        ], 
+        [
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "house"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "yard, court"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "room"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "tent"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "court"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "yard, court"
+            }, 
+            {
+                "weight": 194.0, 
+                "languages": 25.0, 
+                "families": 14.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "hut"
+            }, 
+            {
+                "weight": 28.0, 
+                "languages": 22.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "garden-house"
+            }, 
+            {
+                "weight": 63.0, 
+                "languages": 32.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "room"
+            }
+        ], 
+        [
+            {
+                "weight": 9.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "outside"
+            }, 
+            {
+                "weight": 21.0, 
+                "languages": 25.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "tent"
+            }, 
+            {
+                "weight": 12.0, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 1.0, 
+                "id": "court"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "house"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "room"
+            }
+        ], 
+        [
+            {
+                "weight": 28.0, 
+                "languages": 22.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "house"
+            }, 
+            {
+                "weight": 175.0, 
+                "languages": 20.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "hut"
+            }, 
+            {
+                "weight": 5.0, 
+                "languages": 14.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "room"
+            }
+        ], 
+        [
+            {
+                "weight": 31.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "tent"
+            }, 
+            {
+                "weight": 194.0, 
+                "languages": 25.0, 
+                "families": 14.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "house"
+            }, 
+            {
+                "weight": 175.0, 
+                "languages": 20.0, 
+                "families": 11.0, 
+                "edge_width": 1.7941176470588236, 
+                "id": "garden-house"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "room"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0, 
+                "id": "court"
+            }, 
+            {
+                "weight": 63.0, 
+                "languages": 32.0, 
+                "families": 8.0, 
+                "edge_width": 1.2647058823529411, 
+                "id": "house"
+            }, 
+            {
+                "weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "yard, court"
+            }, 
+            {
+                "weight": 5.0, 
+                "languages": 14.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "garden-house"
+            }, 
+            {
+                "weight": 17.0, 
+                "languages": 8.0, 
+                "families": 4.0, 
+                "edge_width": 1.0, 
+                "id": "hut"
+            }
+        ]
+    ], 
+    "directed": false
+}

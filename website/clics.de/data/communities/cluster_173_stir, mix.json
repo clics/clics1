@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "key": "5.49", 
+            "community": 173, 
+            "id": "stir, mix", 
+            "out_edge": [
+                [
+                    "cluster_230_shiver", 
+                    "shake", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.11", 
+            "community": 173, 
+            "id": "move", 
+            "out_edge": [
+                [
+                    "cluster_54_go", 
+                    "walk", 
+                    5.0, 
+                    21.0
+                ], 
+                [
+                    "cluster_7_trade, barter", 
+                    "change", 
+                    4.0, 
+                    14.0
+                ], 
+                [
+                    "cluster_54_go", 
+                    "go", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "1.45", 
+            "community": 173, 
+            "id": "earthquake", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "5.54", 
+            "community": 173, 
+            "id": "knead", 
+            "out_edge": [
+                [
+                    "cluster_56_squeeze, wring", 
+                    "press", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "10.852", 
+            "community": 173, 
+            "id": "row (vb)", 
+            "out_edge": [
+                [
+                    "cluster_135_paddle (noun)", 
+                    "oar", 
+                    5.0, 
+                    26.0
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
+    "multigraph": false, 
+    "graph": [], 
+    "adjacency": [
+        [
+            {
+                "weight": 32.0, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "move"
+            }, 
+            {
+                "weight": 47.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "knead"
+            }, 
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "row (vb)"
+            }
+        ], 
+        [
+            {
+                "weight": 32.0, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 1.0, 
+                "id": "stir, mix"
+            }, 
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "earthquake"
+            }
+        ], 
+        [
+            {
+                "weight": 3.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 1.0, 
+                "id": "move"
+            }
+        ], 
+        [
+            {
+                "weight": 47.0, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 1.0, 
+                "id": "stir, mix"
+            }
+        ], 
+        [
+            {
+                "weight": 23.0, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 1.0, 
+                "id": "stir, mix"
+            }
+        ]
+    ], 
+    "directed": false
+}

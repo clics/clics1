@@ -2,23 +2,22 @@
     "nodes": [
         {
             "key": "1.861", 
-            "body_part": 0, 
             "community": 110, 
             "id": "extinguish", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "21.42", 
-            "body_part": 0, 
             "community": 110, 
             "id": "murder", 
             "out_edge": [], 
+            "body_part": 0, 
             "swadesh100": 0
         }, 
         {
             "key": "4.76", 
-            "body_part": 0, 
             "community": 110, 
             "id": "kill", 
             "out_edge": [
@@ -26,21 +25,10 @@
                     "cluster_85_strike (hit, beat)", 
                     "strike (hit, beat)", 
                     8.0, 
-                    437.60683760683764
-                ], 
-                [
-                    "cluster_125_stab", 
-                    "stab", 
-                    4.0, 
-                    109.40170940170941
-                ], 
-                [
-                    "cluster_88_anger", 
-                    "fight (vb)", 
-                    4.0, 
-                    105.78512396694215
+                    1.2647058823529411
                 ]
             ], 
+            "body_part": 0, 
             "swadesh100": 1
         }
     ], 
@@ -49,13 +37,13 @@
     "adjacency": [
         [
             {
-                "weight": 116.36363636363636, 
+                "weight": 1.0, 
                 "languages": 5.0, 
                 "families": 4.0, 
                 "id": "murder"
             }, 
             {
-                "weight": 445.2173913043478, 
+                "weight": 1.2647058823529411, 
                 "languages": 15.0, 
                 "families": 8.0, 
                 "id": "kill"
@@ -63,13 +51,13 @@
         ], 
         [
             {
-                "weight": 116.36363636363636, 
+                "weight": 1.0, 
                 "languages": 5.0, 
                 "families": 4.0, 
                 "id": "extinguish"
             }, 
             {
-                "weight": 3232.3232323232323, 
+                "weight": 3.1176470588235294, 
                 "languages": 30.0, 
                 "families": 20.0, 
                 "id": "kill"
@@ -77,13 +65,13 @@
         ], 
         [
             {
-                "weight": 445.2173913043478, 
+                "weight": 1.2647058823529411, 
                 "languages": 15.0, 
                 "families": 8.0, 
                 "id": "extinguish"
             }, 
             {
-                "weight": 3232.3232323232323, 
+                "weight": 3.1176470588235294, 
                 "languages": 30.0, 
                 "families": 20.0, 
                 "id": "murder"

@@ -1,177 +1,144 @@
 {
+    "nodes": [
+        {
+            "key": "10.431", 
+            "community": 85, 
+            "id": "kick", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.21", 
+            "community": 85, 
+            "id": "strike (hit, beat)", 
+            "out_edge": [
+                [
+                    "cluster_110_extinguish", 
+                    "kill", 
+                    8.0, 
+                    1.2647058823529411
+                ]
+            ], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "20.43", 
+            "community": 85, 
+            "id": "attack", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "9.211", 
+            "community": 85, 
+            "id": "pound with fist", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }, 
+        {
+            "key": "8.34", 
+            "community": 85, 
+            "id": "thresh", 
+            "out_edge": [], 
+            "body_part": 0, 
+            "swadesh100": 0
+        }
+    ], 
     "multigraph": false, 
+    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 3.8461538461538463, 
-                "id": "pound with fist", 
-                "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 31.858407079646017, 
-                "id": "strike (hit, beat)", 
+                "weight": 1.0, 
+                "languages": 8.0, 
                 "families": 6.0, 
-                "languages": 8.0
-            }
-        ], 
-        [
-            {
-                "weight": 18.6046511627907, 
-                "id": "pound with fist", 
-                "families": 4.0, 
-                "languages": 4.0
+                "id": "strike (hit, beat)"
             }, 
             {
-                "weight": 86.17021276595744, 
-                "id": "strike (hit, beat)", 
-                "families": 9.0, 
-                "languages": 10.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.8461538461538463, 
-                "id": "kick", 
+                "weight": 1.0, 
+                "languages": 2.0, 
                 "families": 2.0, 
-                "languages": 2.0
-            }, 
-            {
-                "weight": 18.6046511627907, 
-                "id": "thresh", 
-                "families": 4.0, 
-                "languages": 4.0
-            }, 
-            {
-                "weight": 206.31578947368422, 
-                "id": "strike (hit, beat)", 
-                "families": 14.0, 
-                "languages": 19.0
+                "id": "pound with fist"
             }
         ], 
         [
             {
-                "weight": 8.737864077669903, 
-                "id": "strike (hit, beat)", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 31.858407079646017, 
-                "id": "kick", 
+                "weight": 1.0, 
+                "languages": 8.0, 
                 "families": 6.0, 
-                "languages": 8.0
+                "id": "kick"
             }, 
             {
-                "weight": 86.17021276595744, 
-                "id": "thresh", 
-                "families": 9.0, 
-                "languages": 10.0
-            }, 
-            {
-                "weight": 206.31578947368422, 
-                "id": "pound with fist", 
-                "families": 14.0, 
-                "languages": 19.0
-            }, 
-            {
-                "weight": 8.737864077669903, 
-                "id": "attack", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.8264462809917356, 
-                "id": "strike (hit, beat)", 
+                "weight": 1.0, 
+                "languages": 1.0, 
                 "families": 1.0, 
-                "languages": 1.0
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "attack"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 19.0, 
+                "families": 14.0, 
+                "id": "pound with fist"
+            }, 
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "thresh"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "id": "strike (hit, beat)"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "id": "kick"
+            }, 
+            {
+                "weight": 2.0588235294117645, 
+                "languages": 19.0, 
+                "families": 14.0, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "thresh"
+            }
+        ], 
+        [
+            {
+                "weight": 1.2647058823529411, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "id": "strike (hit, beat)"
+            }, 
+            {
+                "weight": 1.0, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "id": "pound with fist"
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 85, 
-            "id": "kick", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "10.431", 
-            "out_edge": [
-                [
-                    "cluster_58_squeeze, wring", 
-                    "push, shove", 
-                    4.0, 
-                    13.675213675213676
-                ]
-            ]
-        }, 
-        {
-            "community": 85, 
-            "id": "thresh", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.34", 
-            "out_edge": [
-                [
-                    "cluster_58_squeeze, wring", 
-                    "crush, grind", 
-                    4.0, 
-                    16.0
-                ]
-            ]
-        }, 
-        {
-            "community": 85, 
-            "id": "pound with fist", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.211", 
-            "out_edge": [
-                [
-                    "cluster_58_squeeze, wring", 
-                    "crush, grind", 
-                    6.0, 
-                    34.61538461538461
-                ]
-            ]
-        }, 
-        {
-            "community": 85, 
-            "id": "attack", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.43", 
-            "out_edge": []
-        }, 
-        {
-            "community": 85, 
-            "id": "strike (hit, beat)", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.21", 
-            "out_edge": [
-                [
-                    "cluster_110_kill", 
-                    "kill", 
-                    8.0, 
-                    54.700854700854705
-                ], 
-                [
-                    "cluster_138_throw", 
-                    "shoot", 
-                    5.0, 
-                    21.551724137931032
-                ], 
-                [
-                    "cluster_88_anger", 
-                    "fight (vb)", 
-                    4.0, 
-                    13.559322033898304
-                ]
-            ]
-        }
-    ], 
-    "graph": [], 
     "directed": false
 }
