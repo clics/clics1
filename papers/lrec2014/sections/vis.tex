@@ -93,7 +93,7 @@ in order to provide a better overview of the connectivity of certain concepts (s
 
 The visualization is implemented in JavaScript using the D3 library \cite{D3}.\footnote{\url{http://d3js.org}} The force-directed graph is  generated with the \texttt{force()} function from the \texttt{d3.layout} module. The layout implementation uses position Verlet integration for simple constraints \cite{Dwyer2009}.\footnote{See \url{https://github.com/mbostock/d3/wiki/Force-Layout} for a description of the implementation.} In order to ensure that the concept labels are located close to the concept nodes, a second force layout (with a static weight of $1$) for each concept link to the node is set up. 
 
-The color values for the world map gradient scale are computed from the two-dimensional geographical coordinates that are given as an input. The latitude [-90;90] and longitude [-180;180] values are thereby normalized between [0;1] and serve as the input for the function \texttt{cl2pix}.\footnote{The code was adapted from the GNU C code by David Dalrymple (\url{http://davidad.net/colorviz/}) and translated into JavaScript.}
+The color values for the world map gradient scale are computed from the two-dimensional geographical coordinates that are given as an input. The latitude [-90;90] and longitude [-180;180] values are thereby normalized between [0;1] and serve as the input for the function \texttt{cl2pix}.\footnote{The code was adapted from the GNU C code by David Dalrymple (\url{http://davidad.net/colorviz/}, accessed on January 25th, 2014) and translated into JavaScript.}
 
 \begin{verbatim}
 function cl2pix(c,l){
@@ -107,7 +107,16 @@ function cl2pix(c,l){
  };
 \end{verbatim}
 
-The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes as input the three values for \texttt{[L,a,b]}. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries.\footnote{See \url{http://davidad.net/colorviz/} for the difference between using the L*a*b* and HSV color space in terms of transitions between different color hues.} For the coloring of the language families, the background colors are generated with the categorical scale functions of the \texttt{d3.scale} module. 
+The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes as input the three values for \texttt{[L,a,b]}. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries. As can be seen in Figure \ref{lab vs hsv}, the color gradient in the L*a*b* color space exhibits a much smoother perceptual transition between the color hues on the x-axis. 
+%\footnote{See \url{http://davidad.net/colorviz/} for the difference between using the L*a*b* and HSV color space in terms of transitions between different color hues.} 
+For the coloring of the language families, the background colors are generated with the categorical scale functions of the \texttt{d3.scale} module. 
+
+\begin{figure}[h]
+    \centering
+   \includegraphics[width=0.48\textwidth]{img/Lab_HSV.png}
+    \caption{Comparison between two-dimensional color gradients in the L*a*b* (top) and HSV (bottom) color space}
+    \label{lab vs hsv}
+\end{figure}
 
 
 The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. 
