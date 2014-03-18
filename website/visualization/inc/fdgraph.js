@@ -1,29 +1,9 @@
 //############### GLOBAL VARIABLES ##################
 // store the community number
-var select = document.getElementById("selectNumber");  
+//var select = document.getElementById("selectNumber");  
 var opacity = 100;
-var filename;
-var coloring = "Family";
+var coloring = "Geolocation";
 
-// create the dropdown options and call init with the first community/cluster
-var clusters = [];
-d3.tsv('data/communities.csv',function(communities){
-	communities.forEach(function(a){
-		clusters.push(a.name);
-		var el = document.createElement("option");
-		var s = a.name.substring(0,a.name.length-5);
-		var parts = s.split("_");
-		el.textContent = parts[1] + ": " + parts[2];
-		el.value = a.name;
-		if(parts[1] == "2"){
-			el.selected = true;
-		}
-		select.appendChild(el);
-	});
-	// call with the first community/cluster
-	filename = clusters[1];
-	init(filename);
-});
 
 // load data about words for each edge
 var linkByWords = {};
@@ -43,13 +23,16 @@ d3.json('data/langsGeo.json',function(langs){
 
 //################ INIT function #####################
 function init(filename,coloring){
+  
+  /* debug */
+  //document.getElementById("test").innerHTML = filename;
 
 	// the default coloring is family
    	coloring = typeof coloring !== 'undefined' ? coloring : 'Family';
 
 	// open community file
 	d3.json('../../communities/' + filename,function(data){
-	//d3.json('../../communities/cluster_10_edge.json',function(data){
+	//d3.json('data/foot_16.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
 	nodesById = {};
@@ -111,7 +94,8 @@ function init(filename,coloring){
     
     for(var i=0;i < data.nodes.length; i++){
         var node = {
-            label : data.nodes[i].id
+            label : data.nodes[i].id,
+            out_edge : data.nodes[i].out_edge
         };
         nodes.push(node);
         labelAnchors.push({
@@ -128,7 +112,8 @@ function init(filename,coloring){
 			links.push({
 				source : nodesById[data.adjacency[i][j].id],
 				target : i,
-				weight : scale(data.adjacency[i][j].weight)
+				weight : scale(data.adjacency[i][j].weight),
+        edge_width : data.adjacency[i][j].edge_width, // addon JML
 			});
 		}
     };
@@ -175,7 +160,7 @@ function init(filename,coloring){
     }
     
 	// plot the graph on an SVG
-	var w = 1260, h = 800, pad = 50;
+	var w = 600, h = 400, pad = 50;
 	var labelDistance = 0;
 
 	var vis = d3.select("#vis")
@@ -238,7 +223,7 @@ function init(filename,coloring){
 		})
 		.style("stroke", "#CCC")
 		.style('stroke-width',function(d){
-			return lscale(d.weight);
+      return d.edge_width
 		})
 		.style('cursor','pointer')
 		.on('mouseover',function(d,i){
@@ -258,6 +243,7 @@ function init(filename,coloring){
 				var infolist = [];
 				wordlist.forEach(function(b){
 				   var parts = b.split(":")
+				   //console.log(parts[0]);
 				   var lg = langByInfo[parts[0]];
 				   var fam = lg[4].split(',')[0];
 				   infolist.push([fam,parts[1],lg[2],lg[3],lg[0],lg[5],lg[6]]);
@@ -283,7 +269,7 @@ function init(filename,coloring){
 				var infolistoutput = [];
 				infolist.forEach(function(c){
 					var backColor = famscale(c[0]);
-					if(coloring == "Geolocation"){
+					if(coloring == "Family"){
 						lab = cl2pix(longsScale(c[5]),latsScale(c[6]));
 						//console.log(lab);
 						//console.log(c[5],c[6]);
@@ -291,18 +277,28 @@ function init(filename,coloring){
 						//console.log(col);
 						backColor = col;
 					}
+					// taken from http://www.jasondavies.com/coffee-wheel/
+					var fontcolor = brightness(d3.rgb(backColor)) < 125 ? "#eee" : "#000";
 					
-					infolistoutput.push("<td valign=\"top\" style=\"background-color:" 
-					//+ famscale(c[0]) + ";\">" +
-					//+ col + ";\">" +
-					+ backColor + ";\">" + 
-					 c[4] + " (" + c[0] + ") [<a href="+c[3]+" target=\"_blank\">" 
-					 + c[2] + "</a>]: </td><td valign=\"top\">" + c[1]) + "</td>";
+					infolistoutput.push("<td valign=\"top\">" // style=\"background-color:" 
+					+ c[4] +  "</td><td valign='top' style=\"background-color:"+backColor+"; color:" + fontcolor + ";\">" + c[0] + "</td>"
+           + "<td class=\"infotable\" valign=\"top\"><a target=\"_blank\" href=\"" + c[3] 
+           + "\">" + c[1] + "</a>") + "</td>";
 				});
+        if(wordlist.length == 1)
+        {
+          var link_label = 'link';
+        }
+        else
+        {
+          var link_label = 'links';
+        }
 				
-				return "<b>" + wordlist.length + " links found between <br />\""+ 
-					d.source.label + "\" and \"" 
-					+ d.target.label + "\"</b><br><table class=\"infotable\"><tr>" + 
+				return "<b>" + wordlist.length + " "+ link_label + " for &quot;"+ 
+					d.source.label + "&quot; and &quot;" 
+					+ d.target.label + 
+					"&quot;.</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th>" + 
+					"<th>Form</th></tr><tr>" + 
 					infolistoutput.join('</tr><tr>') + "</tr></table>";
 			});
 			d3.select('#info').classed('hidden',false)
@@ -357,12 +353,27 @@ function init(filename,coloring){
 			return "aNode aNode_" + d.node.index;
 		})
 		.text(function(d, i) {
-			return i % 2 == 0 ? "" : d.node.label
+			return i % 2 == 0 ? "" : d.node.label;
 		})
 		.style("fill", "#555")
+		.style("font-weight",function(d,i){
+			//console.log(d);
+			// make concepts with outer edges bold
+			if(d.node.out_edge.length > 0){
+				return "bold";
+			}
+			else{
+				return "normal";
+			}
+			
+			//return "underline";
+		})
 		.style("font-family", "Arial")
 		.style("font-size", 12)
-		.style('cursor','pointer')
+		.style('cursor',function(d,i){
+			d.node.out_edge.length > 0 ? cursorvalue = "pointer" : cursorvalue = "arrow";
+			return cursorvalue;
+		})
 		.on('mouseover',function(d,i){
 			//console.log(d);
 
@@ -375,6 +386,21 @@ function init(filename,coloring){
 				d3.selectAll('.link_' + a + "-" + d.node.index)
 					.style('stroke','OliveDrab').style('stroke-opacity',1);
 			});
+			
+			if(d.node.out_edge.length > 0){
+			
+				d3.select("#info")
+					.html(function(){
+						console.log(d);
+						var outstring = '<b>Links to other communities from \'' +  d.node.label + '\'</b>:<br>';
+						for(var j=0;j<d.node.out_edge.length;j++){
+							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" 
+							+ d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
+						};
+						return outstring;
+					});
+				d3.select('#info').classed('hidden',false);
+			}
 		})
 		.on('mouseout',function(d,i){
 			d3.selectAll('.aNode')
@@ -385,6 +411,14 @@ function init(filename,coloring){
 				.style('stroke','#CCC')
 			.style('stroke-opacity',opacity/100)
 			;
+		})
+		.append('title')
+		.text(function(d,i){
+			var outstring = '';
+			for(var j=0;j<d.node.out_edge.length;j++){
+				outstring += d.node.out_edge[j][0] + '\n';
+			};
+			return outstring;
 		})
 		;
 
@@ -451,10 +485,17 @@ function init(filename,coloring){
 		return [L,a,b];
 	};
 	
+	// taken from http://www.jasondavies.com/coffee-wheel/
+	function brightness(rgb) {
+  	return rgb.r * .299 + rgb.g * .587 + rgb.b * .114;
+	}
+	
 	force.on('tick',tick);
 	});
 	      
 };
+
+init("cluster_73_money.json");
       
 //############### listener to community selection ###############
 d3.select('#selectNumber').on('change',function(){
@@ -467,12 +508,10 @@ d3.select('#selectNumber').on('change',function(){
 //############### listener to coloring selection ###############
 d3.select('#coloring').on('change',function(){
 	coloring = this.value;
-	d3.select('svg').remove();
 	d3.select('#info').classed('hidden',true);
 	var colorBool = coloring == 'Family';
 	d3.select('#WorldColorScale').classed('hidden',colorBool);
 	
-	init(filename,coloring);
 })
 
 //############### OPACITY slider ############### 
@@ -492,3 +531,5 @@ d3.select("#weight").on("change", function() {
 	d3.selectAll('.weight_' + lineweight)
 	.classed('hidden',false);
 });
+
+

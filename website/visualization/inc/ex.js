@@ -32,7 +32,7 @@ d3.json('data/langsGeo.json',function(langs){
 
 	// open community file
 	//d3.json('data/communities/' + filename,function(data){
-	d3.json('data/wheel66.json',function(data){
+	d3.json('data/foot_16.json',function(data){
 
 	// dictionary to convert IDs (node names) to numbers
 	nodesById = {};

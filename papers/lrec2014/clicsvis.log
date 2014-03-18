@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  17 MAR 2014 17:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  18 MAR 2014 20:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -494,13 +494,16 @@ File: img/countryconnections.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/countryconnections.pdf used on input line 43.
 (pdftex.def)             Requested size: 234.90381pt x 188.54262pt.
 
-<img/moneysilverexample.pdf, id=116, 312.45796pt x 156.52728pt>
-File: img/moneysilverexample.pdf Graphic file (type pdf)
+<img/MoneySilverAreasNEU.pdf, id=116, 384.58623pt x 157.42072pt>
+File: img/MoneySilverAreasNEU.pdf Graphic file (type pdf)
 
-<use img/moneysilverexample.pdf>
-Package pdftex.def Info: img/moneysilverexample.pdf used on input line 53.
-(pdftex.def)             Requested size: 489.38731pt x 245.17513pt.
+<use img/MoneySilverAreasNEU.pdf>
+Package pdftex.def Info: img/MoneySilverAreasNEU.pdf used on input line 53.
+(pdftex.def)             Requested size: 489.38731pt x 200.32802pt.
  [3 <./img/completeNetworkLabels.jpg>]
+Underfull \vbox (badness 5622) has occurred while \output is active []
+
+
 <img/ColorScaleWorld.png, id=138, 1253.68375pt x 627.34375pt>
 File: img/ColorScaleWorld.png Graphic file (type png)
 
@@ -513,14 +516,14 @@ Underfull \hbox (badness 1515) in paragraph at lines 83--86
 ribed
  []
 
-[4 <./img/moneysilverexample.pdf> <./img/countryconnections.pdf> <./img/ColorSc
-aleWorld.png>]
+[4 <./img/MoneySilverAreasNEU.pdf> <./img/countryconnections.pdf> <./img/ColorS
+caleWorld.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 94--94
 [][][]\OT1/ptm/m/n/9 See []$\OT1/pcr/m/n/9 https : / / github . com / mbostock 
 / d3 / wiki /
  []
 
-<img/Lab_HSV.png, id=293, 722.7pt x 1145.27875pt>
+<img/Lab_HSV.png, id=286, 722.7pt x 1145.27875pt>
 File: img/Lab_HSV.png Graphic file (type png)
  <use img/Lab_HSV.png>
 Package pdftex.def Info: img/Lab_HSV.png used on input line 116.
@@ -535,30 +538,34 @@ Underfull \hbox (badness 1024) in paragraph at lines 122--123
 10 func-tion from the
  []
 
-<img/moneysilverAreas1.pdf, id=297, 143.02034pt x 318.14648pt>
+<img/moneysilverAreas1.pdf, id=290, 214.20561pt x 641.87692pt>
 File: img/moneysilverAreas1.pdf Graphic file (type pdf)
 
 <use img/moneysilverAreas1.pdf>
 Package pdftex.def Info: img/moneysilverAreas1.pdf used on input line 130.
-(pdftex.def)             Requested size: 116.4774pt x 259.10991pt.
+(pdftex.def)             Requested size: 116.4774pt x 349.02756pt.
 
-<img/moneysilverAreas2.pdf, id=298, 143.0203pt x 324.3863pt>
+<img/moneysilverAreas2.pdf, id=291, 212.00916pt x 468.73177pt>
 File: img/moneysilverAreas2.pdf Graphic file (type pdf)
 
 <use img/moneysilverAreas2.pdf>
 Package pdftex.def Info: img/moneysilverAreas2.pdf used on input line 131.
-(pdftex.def)             Requested size: 116.4774pt x 264.19183pt.
+(pdftex.def)             Requested size: 116.4774pt x 257.51717pt.
 
-<img/wheelfootAreal.pdf, id=299, 372.22559pt x 234.56253pt>
-File: img/wheelfootAreal.pdf Graphic file (type pdf)
+<img/wheelfootAreal_new.pdf, id=292, 494.95541pt x 308.54482pt>
+File: img/wheelfootAreal_new.pdf Graphic file (type pdf)
 
-<use img/wheelfootAreal.pdf>
-Package pdftex.def Info: img/wheelfootAreal.pdf used on input line 139.
-(pdftex.def)             Requested size: 489.38731pt x 308.39584pt.
+<use img/wheelfootAreal_new.pdf>
+Package pdftex.def Info: img/wheelfootAreal_new.pdf used on input line 139.
+(pdftex.def)             Requested size: 489.38731pt x 305.08366pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2103) has occurred while \output is active []
 
- [5 <./img/Lab_HSV.png>]) [6 <./img/wheelfootAreal.pdf>] (./clicsvis.bbl
+ [5 <./img/Lab_HSV.png>])
+Overfull \vbox (4.34842pt too high) has occurred while \output is active []
+
+
+[6 <./img/wheelfootAreal_new.pdf>] (./clicsvis.bbl
 Underfull \hbox (badness 1668) in paragraph at lines 4--9
 \OT1/ptm/m/it/10 am Beispiel der ro-man-is-chen Sprachen\OT1/ptm/m/n/10 .  Niem
 eyer,
@@ -590,15 +597,11 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `clicsvis.out' has not changed.
 (rerunfilecheck)             Checksum: C6D00002BA4573370346483D9FC8A28F;891.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
  8837 strings out of 493633
- 123598 string characters out of 3143378
+ 123623 string characters out of 3143378
  225125 words of memory out of 3000000
  11936 multiletter control sequences out of 15000+200000
  33719 words of font info for 71 fonts, out of 3000000 for 9000
@@ -613,10 +616,10 @@ type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/tipa/xipasl10.pf
 b>
-Output written on clicsvis.pdf (7 pages, 4495748 bytes).
+Output written on clicsvis.pdf (7 pages, 2589890 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 434 compressed objects within 5 object streams
+ 521 PDF objects out of 1000 (max. 8388607)
+ 398 compressed objects within 4 object streams
  52 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
