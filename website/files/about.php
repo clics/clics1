@@ -21,7 +21,7 @@ between possible cognates in the establishment of genetic relations between lang
 </tr>
 <tr>
   <th style="background-color:#ffa600;width:100px">Date:</th>
-  <td> TBA </td>
+  <td> ::date:: </td>
   <td></td>
 </tr>
 <tr>

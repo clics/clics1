@@ -112,7 +112,8 @@ d3.json('data/langsGeo.json',function(langs){
 			links.push({
 				source : nodesById[data.adjacency[i][j].id],
 				target : i,
-				weight : scale(data.adjacency[i][j].weight)
+				weight : scale(data.adjacency[i][j].weight),
+        edge_width : data.adjacency[i][j].edge_width, // addon JML
 			});
 		}
     };
@@ -222,7 +223,7 @@ d3.json('data/langsGeo.json',function(langs){
 		})
 		.style("stroke", "#CCC")
 		.style('stroke-width',function(d){
-			return lscale(d.weight);
+      return d.edge_width
 		})
 		.style('cursor','pointer')
 		.on('mouseover',function(d,i){
