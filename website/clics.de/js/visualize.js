@@ -277,9 +277,10 @@ d3.json('data/langsGeo.json',function(langs){
 						//console.log(col);
 						backColor = col;
 					}
+					var fontcolor = brightness(d3.rgb(backColor)) < 125 ? "#eee" : "#000";
 					
 					infolistoutput.push("<td valign=\"top\">" // style=\"background-color:" 
-					+ c[4] +  "</td><td style=\"background-color:"+backColor+";\">" + c[0] + "</td>"
+					+ c[4] +  "</td><td style=\"background-color:"+backColor+"; color:" + fontcolor + ";\">" + c[0] + "</td>"
            + "<td class=\"infotable\" valign=\"top\"><a target=\"_blank\" href=\"" + c[3] 
            + "\">" + c[1] + "</a>") + "</td>";
 				});
@@ -482,6 +483,10 @@ d3.json('data/langsGeo.json',function(langs){
 		var b = Math.cos(angle)*r;
 		return [L,a,b];
 	};
+	
+	function brightness(rgb) {
+  	return rgb.r * .299 + rgb.g * .587 + rgb.b * .114;
+	}
 	
 	force.on('tick',tick);
 	});
