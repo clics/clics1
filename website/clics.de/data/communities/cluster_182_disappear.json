@@ -1,24 +1,67 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "id": "forget", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 26.0, 
+                "id": "disappear", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 162.0, 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "lose", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "disappear", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 26.0, 
+                "id": "lose", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 162.0, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "forget", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "disappear", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "10.491", 
-            "community": 182, 
-            "id": "disappear", 
-            "out_edge": [
-                [
-                    "cluster_211_die, dead", 
-                    "die, dead", 
-                    4.0, 
-                    14.0
-                ]
-            ], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "11.33", 
-            "community": 182, 
-            "id": "lose", 
             "out_edge": [
                 [
                     "cluster_13_cut", 
@@ -27,76 +70,33 @@
                     14.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 182, 
+            "id": "lose", 
+            "key": "11.33"
         }, 
         {
-            "key": "17.32", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 182, 
             "id": "forget", 
-            "out_edge": [], 
+            "key": "17.32"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_211_die, dead", 
+                    "die, dead", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "community": 182, 
+            "id": "disappear", 
+            "key": "10.491"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 3.0, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "disappear"
-            }, 
-            {
-                "weight": 162.0, 
-                "languages": 26.0, 
-                "families": 13.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "lose"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "forget"
-            }
-        ], 
-        [
-            {
-                "weight": 162.0, 
-                "languages": 26.0, 
-                "families": 13.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "disappear"
-            }, 
-            {
-                "weight": 13.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "forget"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "disappear"
-            }, 
-            {
-                "weight": 13.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "lose"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

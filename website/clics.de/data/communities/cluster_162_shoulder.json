@@ -1,47 +1,194 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 6.0, 
+                "id": "collarbone", 
+                "edge_width": 1.0, 
+                "weight": 27.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "back", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "bone", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "shoulder", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "id": "shoulderblade", 
+                "edge_width": 1.0, 
+                "weight": 27.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "bone", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "shoulder", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "shoulderblade", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "spine", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "shoulder", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "collarbone", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "shoulderblade", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "spine", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "collarbone", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "shoulderblade", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "back", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "spine", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shoulder", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "id": "back", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "bone", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shoulder", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "4.302", 
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [
+                [
+                    "cluster_103_hoe", 
+                    "spade", 
+                    4.0, 
+                    19.0
+                ]
+            ], 
+            "community": 162, 
+            "id": "shoulderblade", 
+            "key": "4.301"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
             "community": 162, 
             "id": "collarbone", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "key": "4.302"
         }, 
         {
-            "key": "4.16", 
-            "community": 162, 
-            "id": "bone", 
-            "out_edge": [
-                [
-                    "cluster_12_leg", 
-                    "leg", 
-                    4.0, 
-                    13.0
-                ]
-            ], 
+            "swadesh100": 0, 
             "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.3", 
-            "community": 162, 
-            "id": "shoulder", 
-            "out_edge": [
-                [
-                    "cluster_36_hand", 
-                    "arm", 
-                    4.0, 
-                    13.0
-                ]
-            ], 
-            "body_part": 1, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.19", 
-            "community": 162, 
-            "id": "back", 
             "out_edge": [
                 [
                     "cluster_85_half", 
@@ -50,201 +197,54 @@
                     31.0
                 ], 
                 [
-                    "cluster_143_place", 
+                    "cluster_143_after", 
                     "place", 
                     5.0, 
                     20.0
                 ]
             ], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "community": 162, 
+            "id": "back", 
+            "key": "4.19"
         }, 
         {
-            "key": "4.191", 
-            "community": 162, 
-            "id": "spine", 
-            "out_edge": [], 
+            "swadesh100": 1, 
             "body_part": 1, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.301", 
-            "community": 162, 
-            "id": "shoulderblade", 
             "out_edge": [
                 [
-                    "cluster_103_shovel", 
-                    "spade", 
+                    "cluster_12_leg", 
+                    "leg", 
                     4.0, 
-                    19.0
+                    13.0
                 ]
             ], 
+            "community": 162, 
+            "id": "bone", 
+            "key": "4.16"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 1, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_36_hand", 
+                    "arm", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 162, 
+            "id": "shoulder", 
+            "key": "4.3"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
+            "community": 162, 
+            "id": "spine", 
+            "key": "4.191"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "bone"
-            }, 
-            {
-                "weight": 8.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "shoulder"
-            }, 
-            {
-                "weight": 27.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "shoulderblade"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "spine"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "shoulderblade"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "collarbone"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "shoulder"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "spine"
-            }, 
-            {
-                "weight": 14.0, 
-                "languages": 6.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "shoulderblade"
-            }, 
-            {
-                "weight": 8.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "collarbone"
-            }, 
-            {
-                "weight": 13.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "back"
-            }
-        ], 
-        [
-            {
-                "weight": 13.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "shoulder"
-            }, 
-            {
-                "weight": 30.0, 
-                "languages": 9.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "spine"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "shoulderblade"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "bone"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "shoulder"
-            }, 
-            {
-                "weight": 30.0, 
-                "languages": 9.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "back"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "bone"
-            }, 
-            {
-                "weight": 14.0, 
-                "languages": 6.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "shoulder"
-            }, 
-            {
-                "weight": 27.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "collarbone"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "back"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

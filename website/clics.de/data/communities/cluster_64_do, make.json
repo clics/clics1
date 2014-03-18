@@ -1,17 +1,140 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 8.0, 
+                "id": "build", 
+                "edge_width": 1.0, 
+                "weight": 39.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "do, make", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 50.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "id": "build", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "do, make", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 69.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "id": "mold (clay etc)", 
+                "edge_width": 1.0, 
+                "weight": 39.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "work", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 52.0, 
+                "id": "do, make", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 606.0, 
+                "families": 24.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "id": "mold (clay etc)", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 50.0, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "work", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 69.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 52.0, 
+                "id": "build", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 606.0, 
+                "families": 24.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "9.12", 
-            "community": 64, 
-            "id": "work", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_13_cut", 
+                    "carve", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "community": 64, 
+            "id": "mold (clay etc)", 
+            "key": "9.72"
         }, 
         {
-            "key": "9.11", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 64, 
-            "id": "do, make", 
+            "id": "work", 
+            "key": "9.12"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_48_braid", 
+                    "weave, plait", 
+                    5.0, 
+                    23.0
+                ], 
+                [
+                    "cluster_13_cut", 
+                    "carve", 
+                    4.0, 
+                    17.0
+                ], 
+                [
+                    "cluster_21_sow", 
+                    "plant (vb)", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "community": 64, 
+            "id": "build", 
+            "key": "9.44"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_23_tell story", 
@@ -32,133 +155,10 @@
                     24.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.44", 
             "community": 64, 
-            "id": "build", 
-            "out_edge": [
-                [
-                    "cluster_48_weave", 
-                    "weave, plait", 
-                    5.0, 
-                    23.0
-                ], 
-                [
-                    "cluster_13_cut", 
-                    "carve", 
-                    4.0, 
-                    17.0
-                ], 
-                [
-                    "cluster_21_sow", 
-                    "plant (vb)", 
-                    4.0, 
-                    14.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.72", 
-            "community": 64, 
-            "id": "mold (clay etc)", 
-            "out_edge": [
-                [
-                    "cluster_13_cut", 
-                    "carve", 
-                    4.0, 
-                    20.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "do, make", 
+            "key": "9.11"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 69.0, 
-                "languages": 11.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "do, make"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "build"
-            }
-        ], 
-        [
-            {
-                "weight": 69.0, 
-                "languages": 11.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "work"
-            }, 
-            {
-                "weight": 606.0, 
-                "languages": 52.0, 
-                "families": 24.0, 
-                "edge_width": 4.1764705882352944, 
-                "id": "build"
-            }, 
-            {
-                "weight": 50.0, 
-                "languages": 10.0, 
-                "families": 7.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "mold (clay etc)"
-            }
-        ], 
-        [
-            {
-                "weight": 21.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "work"
-            }, 
-            {
-                "weight": 606.0, 
-                "languages": 52.0, 
-                "families": 24.0, 
-                "edge_width": 4.1764705882352944, 
-                "id": "do, make"
-            }, 
-            {
-                "weight": 39.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "mold (clay etc)"
-            }
-        ], 
-        [
-            {
-                "weight": 50.0, 
-                "languages": 10.0, 
-                "families": 7.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "do, make"
-            }, 
-            {
-                "weight": 39.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "build"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

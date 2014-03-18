@@ -1,107 +1,115 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "seagull", 
+                "edge_width": 1.0, 
+                "weight": 1.0869565217391304, 
                 "families": 1.0
             }, 
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "goose", 
+                "edge_width": 1.0, 
+                "weight": 4.597701149425287, 
                 "families": 2.0
             }
         ], 
         [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "yoke", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "duck", 
+                "edge_width": 1.0, 
+                "weight": 1.1363636363636365, 
                 "families": 1.0
             }
         ], 
         [
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "duck", 
+                "edge_width": 1.0, 
+                "weight": 4.597701149425287, 
                 "families": 2.0
             }, 
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "yoke", 
+                "edge_width": 1.0, 
+                "weight": 1.6666666666666667, 
                 "families": 1.0
             }
         ], 
         [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "goose", 
+                "id": "duck", 
+                "edge_width": 1.0, 
+                "weight": 1.0869565217391304, 
                 "families": 1.0
-            }, 
+            }
+        ], 
+        [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "bat", 
+                "edge_width": 1.0, 
+                "weight": 1.1363636363636365, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "goose", 
+                "edge_width": 1.0, 
+                "weight": 1.6666666666666667, 
                 "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 244, 
-            "body_part": 0, 
             "id": "duck", 
             "key": "3.57"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 244, 
-            "body_part": 0, 
             "id": "bat", 
             "key": "3.591"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 244, 
-            "body_part": 0, 
-            "id": "seagull", 
-            "key": "3.582"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 244, 
-            "body_part": 0, 
             "id": "goose", 
             "key": "3.56"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 244, 
+            "id": "seagull", 
+            "key": "3.582"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
+            "out_edge": [], 
+            "community": 244, 
             "id": "yoke", 
             "key": "10.78"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

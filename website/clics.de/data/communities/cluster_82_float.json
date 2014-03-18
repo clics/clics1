@@ -1,138 +1,150 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 15.0, 
+                "id": "sail (vb)", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 61.25000000000001, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 45.0, 
+                "id": "swim", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 220.58823529411765, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "bathe", 
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "id": "bathe", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 86.95652173913044, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 45.0, 
+                "id": "float", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 220.58823529411765, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 13.0, 
+                "id": "sail (vb)", 
+                "edge_width": 1.0, 
+                "weight": 28.08988764044944, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "bathe", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.172413793103445, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "id": "float", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 61.25000000000001, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 13.0, 
+                "id": "swim", 
+                "edge_width": 1.0, 
+                "weight": 28.08988764044944, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "float", 
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 18.0, 
+                "id": "wash", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 86.95652173913044, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "swim", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.172413793103445, 
+                "families": 8.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 82, 
-            "id": "float", 
-            "key": "10.34", 
             "out_edge": [
                 [
                     "cluster_80_run", 
                     "flow", 
                     5.0, 
-                    1.2558139534883721
+                    22.727272727272727
                 ]
             ], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
             "community": 82, 
-            "id": "swim", 
-            "key": "10.35", 
-            "out_edge": [], 
-            "swadesh100": 1
+            "id": "float", 
+            "key": "10.34"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
+            "out_edge": [], 
             "community": 82, 
             "id": "wash", 
-            "key": "9.36", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "key": "9.36"
         }, 
         {
+            "swadesh100": 1, 
             "body_part": 0, 
+            "out_edge": [], 
+            "community": 82, 
+            "id": "swim", 
+            "key": "10.35"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 82, 
             "id": "sail (vb)", 
-            "key": "10.36", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "key": "10.36"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
+            "out_edge": [], 
             "community": 82, 
             "id": "bathe", 
-            "key": "4.69", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "key": "4.69"
         }
     ], 
-    "adjacency": [
-        [
-            {
-                "languages": 45.0, 
-                "weight": 3.2209302325581395, 
-                "families": 15.0, 
-                "id": "swim"
-            }, 
-            {
-                "languages": 15.0, 
-                "weight": 1.6976744186046511, 
-                "families": 7.0, 
-                "id": "sail (vb)"
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0232558139534884, 
-                "families": 2.0, 
-                "id": "bathe"
-            }
-        ], 
-        [
-            {
-                "languages": 45.0, 
-                "weight": 3.2209302325581395, 
-                "families": 15.0, 
-                "id": "float"
-            }, 
-            {
-                "languages": 13.0, 
-                "weight": 1.3139534883720931, 
-                "families": 5.0, 
-                "id": "sail (vb)"
-            }, 
-            {
-                "languages": 10.0, 
-                "weight": 1.6279069767441861, 
-                "families": 8.0, 
-                "id": "bathe"
-            }
-        ], 
-        [
-            {
-                "languages": 18.0, 
-                "weight": 2.0, 
-                "families": 10.0, 
-                "id": "bathe"
-            }
-        ], 
-        [
-            {
-                "languages": 15.0, 
-                "weight": 1.6976744186046511, 
-                "families": 7.0, 
-                "id": "float"
-            }, 
-            {
-                "languages": 13.0, 
-                "weight": 1.3139534883720931, 
-                "families": 5.0, 
-                "id": "swim"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "weight": 1.0232558139534884, 
-                "families": 2.0, 
-                "id": "float"
-            }, 
-            {
-                "languages": 10.0, 
-                "weight": 1.6279069767441861, 
-                "families": 8.0, 
-                "id": "swim"
-            }, 
-            {
-                "languages": 18.0, 
-                "weight": 2.0, 
-                "families": 10.0, 
-                "id": "wash"
-            }
-        ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    "graph": []
 }

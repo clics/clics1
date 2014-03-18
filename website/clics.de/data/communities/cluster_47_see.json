@@ -1,161 +1,173 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 13.0, 
+                "id": "meet", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.172413793103445, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 39.0, 
+                "id": "look, look at", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 612.7450980392157, 
+                "families": 25.0
+            }, 
+            {
+                "languages": 23.0, 
+                "id": "find", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 202.7027027027027, 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "id": "see", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.172413793103445, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "look, look at", 
+                "edge_width": 1.0, 
+                "weight": 0.819672131147541, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 31.0, 
+                "id": "find", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 644.3298969072165, 
+                "families": 25.0
+            }
+        ], 
+        [
+            {
+                "languages": 39.0, 
+                "id": "see", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 612.7450980392157, 
+                "families": 25.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "meet", 
+                "edge_width": 1.0, 
+                "weight": 0.819672131147541, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "find", 
+                "edge_width": 1.0, 
+                "weight": 13.223140495867769, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 23.0, 
+                "id": "see", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 202.7027027027027, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 31.0, 
+                "id": "meet", 
+                "edge_width": 4.1764705882352944, 
+                "weight": 644.3298969072165, 
+                "families": 25.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "look, look at", 
+                "edge_width": 1.0, 
+                "weight": 13.223140495867769, 
+                "families": 4.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "swadesh100": 1, 
             "body_part": 0, 
-            "community": 47, 
-            "id": "see", 
-            "key": "15.51", 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     6.0, 
-                    1.3604651162790697
+                    31.858407079646017
                 ], 
                 [
                     "cluster_11_know", 
                     "know", 
                     5.0, 
-                    1.2209302325581395
+                    20.32520325203252
                 ]
             ], 
-            "swadesh100": 1
+            "community": 47, 
+            "id": "see", 
+            "key": "15.51"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 47, 
-            "id": "meet", 
-            "key": "19.65", 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     4.0, 
-                    1.1511627906976745
+                    14.414414414414415
                 ]
             ], 
-            "swadesh100": 0
+            "community": 47, 
+            "id": "meet", 
+            "key": "19.65"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 47, 
-            "id": "look, look at", 
-            "key": "15.52", 
             "out_edge": [
                 [
-                    "cluster_42_teach", 
+                    "cluster_42_learn", 
                     "read", 
                     5.0, 
-                    1.2441860465116279
+                    22.321428571428573
                 ]
             ], 
-            "swadesh100": 0
+            "community": 47, 
+            "id": "look, look at", 
+            "key": "15.52"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 47, 
-            "id": "find", 
-            "key": "11.32", 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     13.0, 
-                    2.8023255813953485
+                    162.5
                 ], 
                 [
                     "cluster_161_reach, arrive", 
                     "reach, arrive", 
                     4.0, 
-                    1.1395348837209303
+                    13.333333333333334
                 ]
             ], 
-            "swadesh100": 0
+            "community": 47, 
+            "id": "find", 
+            "key": "11.32"
         }
     ], 
-    "adjacency": [
-        [
-            {
-                "languages": 13.0, 
-                "weight": 1.6279069767441861, 
-                "families": 8.0, 
-                "id": "meet"
-            }, 
-            {
-                "languages": 39.0, 
-                "weight": 4.5, 
-                "families": 25.0, 
-                "id": "look, look at"
-            }, 
-            {
-                "languages": 23.0, 
-                "weight": 3.0930232558139537, 
-                "families": 15.0, 
-                "id": "find"
-            }
-        ], 
-        [
-            {
-                "languages": 13.0, 
-                "weight": 1.6279069767441861, 
-                "families": 8.0, 
-                "id": "see"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "look, look at"
-            }, 
-            {
-                "languages": 31.0, 
-                "weight": 4.5348837209302326, 
-                "families": 25.0, 
-                "id": "find"
-            }
-        ], 
-        [
-            {
-                "languages": 39.0, 
-                "weight": 4.5, 
-                "families": 25.0, 
-                "id": "see"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "meet"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.1395348837209303, 
-                "families": 4.0, 
-                "id": "find"
-            }
-        ], 
-        [
-            {
-                "languages": 23.0, 
-                "weight": 3.0930232558139537, 
-                "families": 15.0, 
-                "id": "see"
-            }, 
-            {
-                "languages": 31.0, 
-                "weight": 4.5348837209302326, 
-                "families": 25.0, 
-                "id": "meet"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.1395348837209303, 
-                "families": 4.0, 
-                "id": "look, look at"
-            }
-        ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    "graph": []
 }

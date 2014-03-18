@@ -1,109 +1,133 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 9.0, 
-                "weight": 1.1176470588235294, 
-                "id": "stone, rock", 
-                "families": 8.0
-            }, 
-            {
-                "languages": 7.0, 
-                "weight": 1.0, 
-                "id": "cliff, precipice", 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "weight": 1.1176470588235294, 
-                "id": "mountain, hill", 
-                "families": 8.0
-            }, 
-            {
-                "languages": 38.0, 
-                "weight": 1.0, 
-                "id": "cliff, precipice", 
-                "families": 5.0
-            }, 
-            {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "reef", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
                 "families": 2.0
-            }
-        ], 
-        [
+            }, 
             {
-                "languages": 5.0, 
-                "weight": 1.0, 
-                "id": "reef", 
-                "families": 5.0
+                "languages": 9.0, 
+                "id": "mountain, hill", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 54.0, 
+                "families": 8.0
             }, 
             {
                 "languages": 38.0, 
-                "weight": 1.0, 
-                "id": "stone, rock", 
+                "id": "cliff, precipice", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
                 "families": 5.0
-            }, 
-            {
-                "languages": 7.0, 
-                "weight": 1.0, 
-                "id": "mountain, hill", 
-                "families": 4.0
             }
         ], 
         [
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "stone, rock", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
                 "families": 2.0
             }, 
             {
                 "languages": 5.0, 
-                "weight": 1.0, 
                 "id": "cliff, precipice", 
+                "edge_width": 1.0, 
+                "weight": 32.0, 
                 "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "id": "stone, rock", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 54.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "cliff, precipice", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 38.0, 
+                "id": "stone, rock", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "reef", 
+                "edge_width": 1.0, 
+                "weight": 32.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "mountain, hill", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 1, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 167, 
-            "body_part": 0, 
-            "id": "mountain, hill", 
-            "key": "1.22"
-        }, 
-        {
-            "swadesh100": 1, 
-            "out_edge": [], 
-            "community": 167, 
-            "body_part": 0, 
             "id": "stone, rock", 
             "key": "1.44"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 167, 
+            "id": "reef", 
+            "key": "1.342"
+        }, 
+        {
+            "swadesh100": 1, 
             "body_part": 0, 
-            "id": "cliff, precipice", 
-            "key": "1.222"
+            "out_edge": [
+                [
+                    "cluster_101_roof", 
+                    "top", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "community": 167, 
+            "id": "mountain, hill", 
+            "key": "1.22"
         }, 
         {
             "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 167, 
             "body_part": 0, 
-            "id": "reef", 
-            "key": "1.342"
+            "out_edge": [
+                [
+                    "cluster_25_edge", 
+                    "edge", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "community": 167, 
+            "id": "cliff, precipice", 
+            "key": "1.222"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

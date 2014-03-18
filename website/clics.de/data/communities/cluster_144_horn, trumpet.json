@@ -1,119 +1,129 @@
 {
-    "nodes": [
-        {
-            "key": "4.17", 
-            "community": 144, 
-            "id": "horn", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "7.33", 
-            "community": 144, 
-            "id": "chimney", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.71", 
-            "community": 144, 
-            "id": "flute", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.691", 
-            "community": 144, 
-            "id": "pipe", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.73", 
-            "community": 144, 
-            "id": "horn, trumpet", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 18.0, 
-                "families": 7.0, 
-                "id": "horn, trumpet"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 9.0, 
-                "families": 4.0, 
-                "id": "horn, trumpet"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "pipe"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 12.0, 
-                "families": 7.0, 
-                "id": "horn, trumpet"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "horn, trumpet"
+                "id": "flute", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 57.647058823529406, 
+                "families": 7.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "chimney"
-            }
-        ], 
-        [
+                "languages": 4.0, 
+                "id": "pipe", 
+                "edge_width": 1.0, 
+                "weight": 5.194805194805195, 
+                "families": 2.0
+            }, 
             {
-                "weight": 1.2647058823529411, 
                 "languages": 18.0, 
-                "families": 7.0, 
-                "id": "horn"
+                "id": "horn", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 52.12765957446809, 
+                "families": 7.0
             }, 
             {
-                "weight": 1.0, 
                 "languages": 9.0, 
-                "families": 4.0, 
-                "id": "chimney"
-            }, 
+                "id": "chimney", 
+                "edge_width": 1.0, 
+                "weight": 23.18840579710145, 
+                "families": 4.0
+            }
+        ], 
+        [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "pipe"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 12.0, 
-                "families": 7.0, 
-                "id": "flute"
+                "id": "horn, trumpet", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 57.647058823529406, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "chimney", 
+                "edge_width": 1.0, 
+                "weight": 6.0606060606060606, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "horn, trumpet", 
+                "edge_width": 1.0, 
+                "weight": 5.194805194805195, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "id": "horn, trumpet", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 52.12765957446809, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "pipe", 
+                "edge_width": 1.0, 
+                "weight": 6.0606060606060606, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "horn, trumpet", 
+                "edge_width": 1.0, 
+                "weight": 23.18840579710145, 
+                "families": 4.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 144, 
+            "id": "horn, trumpet", 
+            "key": "18.73"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 144, 
+            "id": "flute", 
+            "key": "18.71"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 144, 
+            "id": "pipe", 
+            "key": "8.691"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 1, 
+            "out_edge": [], 
+            "community": 144, 
+            "id": "horn", 
+            "key": "4.17"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 144, 
+            "id": "chimney", 
+            "key": "7.33"
+        }
+    ], 
+    "graph": []
 }

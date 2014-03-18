@@ -1,0 +1,126 @@
+{
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "id": "ridgepole", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "beam", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "square", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "rafter", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "beam", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 102.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "ridgepole", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 30.0, 
+                "id": "beam", 
+                "edge_width": 2.3235294117647056, 
+                "weight": 272.0, 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "square", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "ridgepole", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 102.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 30.0, 
+                "id": "rafter", 
+                "edge_width": 2.3235294117647056, 
+                "weight": 272.0, 
+                "families": 14.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 109, 
+            "id": "square", 
+            "key": "12.78"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 109, 
+            "id": "ridgepole", 
+            "key": "7.53"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 109, 
+            "id": "rafter", 
+            "key": "7.54"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_3_tree", 
+                    "post, pole", 
+                    6.0, 
+                    38.0
+                ]
+            ], 
+            "community": 109, 
+            "id": "beam", 
+            "key": "7.55"
+        }
+    ], 
+    "graph": []
+}

@@ -1,75 +1,81 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 3.4782608695652173, 
+                "languages": 3.0, 
                 "id": "eyelid", 
-                "families": 2.0, 
-                "languages": 3.0
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
             }, 
             {
-                "weight": 90.09009009009009, 
+                "languages": 15.0, 
                 "id": "eyelash", 
-                "families": 10.0, 
-                "languages": 15.0
+                "edge_width": 1.2647058823529411, 
+                "weight": 90.09009009009009, 
+                "families": 10.0
             }
         ], 
         [
             {
-                "weight": 3.4782608695652173, 
+                "languages": 3.0, 
                 "id": "eyebrow", 
-                "families": 2.0, 
-                "languages": 3.0
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
             }, 
             {
-                "weight": 44.14414414414414, 
+                "languages": 17.0, 
                 "id": "eyelash", 
-                "families": 7.0, 
-                "languages": 17.0
+                "edge_width": 1.0, 
+                "weight": 44.14414414414414, 
+                "families": 7.0
             }
         ], 
         [
             {
-                "weight": 90.09009009009009, 
+                "languages": 15.0, 
                 "id": "eyebrow", 
-                "families": 10.0, 
-                "languages": 15.0
+                "edge_width": 1.2647058823529411, 
+                "weight": 90.09009009009009, 
+                "families": 10.0
             }, 
             {
-                "weight": 44.14414414414414, 
+                "languages": 17.0, 
                 "id": "eyelid", 
-                "families": 7.0, 
-                "languages": 17.0
+                "edge_width": 1.0, 
+                "weight": 44.14414414414414, 
+                "families": 7.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
             "community": 169, 
             "id": "eyebrow", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.212", 
-            "out_edge": []
+            "key": "4.212"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
             "community": 169, 
             "id": "eyelid", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.213", 
-            "out_edge": []
+            "key": "4.213"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
             "community": 169, 
             "id": "eyelash", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.214", 
-            "out_edge": []
+            "key": "4.214"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

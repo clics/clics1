@@ -1,103 +1,119 @@
 {
-    "nodes": [
-        {
-            "key": "17.51", 
-            "community": 181, 
-            "id": "and", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.35", 
-            "community": 181, 
-            "id": "again", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.55", 
-            "community": 181, 
-            "id": "yes, affirmative", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.54", 
-            "community": 181, 
-            "id": "or", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
+                "languages": 3.0, 
+                "id": "and", 
+                "edge_width": 1.0, 
+                "weight": 8.108108108108109, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "and"
+                "id": "again", 
+                "edge_width": 1.0, 
+                "weight": 0.9615384615384616, 
+                "families": 1.0
             }, 
             {
-                "weight": 1.2647058823529411, 
+                "languages": 3.0, 
+                "id": "and", 
+                "edge_width": 1.0, 
+                "weight": 10.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "or", 
+                "edge_width": 1.0, 
+                "weight": 0.9615384615384616, 
+                "families": 1.0
+            }, 
+            {
                 "languages": 9.0, 
-                "families": 9.0, 
-                "id": "again"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "yes, affirmative"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "or"
+                "id": "and", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 78.64077669902912, 
+                "families": 9.0
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
+                "languages": 3.0, 
+                "id": "yes, affirmative", 
+                "edge_width": 1.0, 
+                "weight": 8.108108108108109, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "or", 
+                "edge_width": 1.0, 
+                "weight": 10.0, 
+                "families": 3.0
+            }, 
+            {
                 "languages": 9.0, 
-                "families": 9.0, 
-                "id": "and"
+                "id": "again", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 78.64077669902912, 
+                "families": 9.0
             }, 
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "or"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "and"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "and"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "again"
+                "id": "and", 
+                "edge_width": 1.0, 
+                "weight": 1.0101010101010102, 
+                "families": 1.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 181, 
+            "id": "yes, affirmative", 
+            "key": "17.55"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 181, 
+            "id": "or", 
+            "key": "17.54"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_77_enough", 
+                    "more", 
+                    6.0, 
+                    31.858407079646017
+                ]
+            ], 
+            "community": 181, 
+            "id": "again", 
+            "key": "14.35"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 181, 
+            "id": "and", 
+            "key": "17.51"
+        }
+    ], 
+    "graph": []
 }

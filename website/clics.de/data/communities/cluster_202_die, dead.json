@@ -1,36 +1,37 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 156.4814814814815, 
+                "languages": 15.0, 
                 "id": "die, dead", 
-                "families": 13.0, 
-                "languages": 15.0
+                "edge_width": 1.7941176470588236, 
+                "weight": 156.4814814814815, 
+                "families": 13.0
             }
         ], 
         [
             {
-                "weight": 156.4814814814815, 
+                "languages": 15.0, 
                 "id": "corpse", 
-                "families": 13.0, 
-                "languages": 15.0
+                "edge_width": 1.7941176470588236, 
+                "weight": 156.4814814814815, 
+                "families": 13.0
             }, 
             {
-                "weight": 0.8, 
+                "languages": 1.0, 
                 "id": "die, dead", 
-                "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.0, 
+                "weight": 0.8, 
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 202, 
-            "id": "corpse", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "4.77", 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_67_body", 
@@ -38,14 +39,14 @@
                     7.0, 
                     44.14414414414414
                 ]
-            ]
+            ], 
+            "community": 202, 
+            "id": "corpse", 
+            "key": "4.77"
         }, 
         {
-            "community": 202, 
-            "id": "die, dead", 
-            "body_part": 0, 
             "swadesh100": 1, 
-            "key": "4.75", 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_178_disappear", 
@@ -54,14 +55,16 @@
                     14.15929203539823
                 ], 
                 [
-                    "cluster_110_kill", 
+                    "cluster_110_murder", 
                     "kill", 
                     4.0, 
                     13.008130081300814
                 ]
-            ]
+            ], 
+            "community": 202, 
+            "id": "die, dead", 
+            "key": "4.75"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

@@ -1,189 +1,236 @@
 {
-    "nodes": [
-        {
-            "key": "20.13", 
-            "community": 88, 
-            "id": "war, battle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.44", 
-            "community": 88, 
-            "id": "envy, jealousy", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.42", 
-            "community": 88, 
-            "id": "anger", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.41", 
-            "community": 88, 
-            "id": "hate", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.62", 
-            "community": 88, 
-            "id": "strife, quarrel", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.11", 
-            "community": 88, 
-            "id": "fight (vb)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "anger"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 11.0, 
-                "families": 11.0, 
-                "id": "strife, quarrel"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "id": "fight (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "hate"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "anger"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "strife, quarrel"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "war, battle"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "envy, jealousy"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "hate"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "strife, quarrel"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fight (vb)"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "envy, jealousy"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "anger"
-            }
-        ], 
-        [
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 11.0, 
-                "families": 11.0, 
-                "id": "war, battle"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "envy, jealousy"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "anger"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
                 "languages": 14.0, 
-                "families": 13.0, 
-                "id": "fight (vb)"
+                "id": "strife, quarrel", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 165.68627450980392, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 13.0, 
+                "id": "war, battle", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 103.09278350515463, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "anger", 
+                "edge_width": 1.0, 
+                "weight": 0.8130081300813009, 
+                "families": 1.0
             }
         ], 
         [
             {
-                "weight": 1.5294117647058822, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "id": "war, battle"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "anger"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
                 "languages": 14.0, 
-                "families": 13.0, 
-                "id": "strife, quarrel"
+                "id": "fight (vb)", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 165.68627450980392, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "anger", 
+                "edge_width": 1.0, 
+                "weight": 14.15929203539823, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "war, battle", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.95505617977528, 
+                "families": 11.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "envy, jealousy", 
+                "edge_width": 1.0, 
+                "weight": 0.9090909090909091, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "fight (vb)", 
+                "edge_width": 1.0, 
+                "weight": 0.8130081300813009, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "strife, quarrel", 
+                "edge_width": 1.0, 
+                "weight": 14.15929203539823, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "war, battle", 
+                "edge_width": 1.0, 
+                "weight": 3.7383177570093453, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "envy, jealousy", 
+                "edge_width": 1.0, 
+                "weight": 3.389830508474576, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "hate", 
+                "edge_width": 1.0, 
+                "weight": 3.389830508474576, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "anger", 
+                "edge_width": 1.0, 
+                "weight": 3.389830508474576, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "envy, jealousy", 
+                "edge_width": 1.0, 
+                "weight": 0.8849557522123894, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "id": "fight (vb)", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 103.09278350515463, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "anger", 
+                "edge_width": 1.0, 
+                "weight": 3.7383177570093453, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "strife, quarrel", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.95505617977528, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "strife, quarrel", 
+                "edge_width": 1.0, 
+                "weight": 0.9090909090909091, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "anger", 
+                "edge_width": 1.0, 
+                "weight": 3.389830508474576, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "hate", 
+                "edge_width": 1.0, 
+                "weight": 0.8849557522123894, 
+                "families": 1.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_85_strike (hit, beat)", 
+                    "strike (hit, beat)", 
+                    4.0, 
+                    13.559322033898304
+                ], 
+                [
+                    "cluster_110_murder", 
+                    "kill", 
+                    4.0, 
+                    13.223140495867769
+                ]
+            ], 
+            "community": 88, 
+            "id": "fight (vb)", 
+            "key": "20.11"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 88, 
+            "id": "strife, quarrel", 
+            "key": "19.62"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_113_dirty, soiled", 
+                    "bad", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ], 
+            "community": 88, 
+            "id": "anger", 
+            "key": "16.42"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 88, 
+            "id": "hate", 
+            "key": "16.41"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_227_army", 
+                    "army", 
+                    4.0, 
+                    20.77922077922078
+                ]
+            ], 
+            "community": 88, 
+            "id": "war, battle", 
+            "key": "20.13"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 88, 
+            "id": "envy, jealousy", 
+            "key": "16.44"
+        }
+    ], 
+    "graph": []
 }

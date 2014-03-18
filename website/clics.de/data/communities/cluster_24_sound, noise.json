@@ -1,200 +1,256 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "sound, noise", 
+                "edge_width": 1.0, 
+                "weight": 0.9009009009009009, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "word", 
+                "edge_width": 1.0, 
+                "weight": 3.5398230088495577, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 50.0, 
+                "id": "voice", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 234.375, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "language", 
+                "edge_width": 1.0, 
+                "weight": 0.8771929824561403, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "sound, noise", 
+                "edge_width": 1.0, 
+                "weight": 3.5398230088495577, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "voice", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 167.32673267326732, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 61.0, 
+                "id": "language", 
+                "edge_width": 8.147058823529413, 
+                "weight": 1475.9036144578313, 
+                "families": 35.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "tongue", 
+                "edge_width": 1.0, 
+                "weight": 7.5, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 50.0, 
+                "id": "sound, noise", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 234.375, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "word", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 167.32673267326732, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 21.0, 
+                "id": "language", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 227.27272727272728, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "tongue", 
+                "edge_width": 1.0, 
+                "weight": 0.847457627118644, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "sound, noise", 
+                "edge_width": 1.0, 
+                "weight": 0.8771929824561403, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 61.0, 
+                "id": "word", 
+                "edge_width": 8.147058823529413, 
+                "weight": 1475.9036144578313, 
+                "families": 35.0
+            }, 
+            {
+                "languages": 21.0, 
+                "id": "voice", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 227.27272727272728, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 63.0, 
+                "id": "tongue", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 88.49557522123894, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "word", 
+                "edge_width": 1.0, 
+                "weight": 7.5, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "voice", 
+                "edge_width": 1.0, 
+                "weight": 0.847457627118644, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 63.0, 
+                "id": "language", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 88.49557522123894, 
+                "families": 10.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "4.26", 
-            "community": 24, 
-            "id": "tongue", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "18.11", 
-            "community": 24, 
-            "id": "voice", 
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_91_collar", 
-                    "throat", 
-                    8.0, 
-                    1.2647058823529411
+                    "cluster_70_strong, mighty, powerful", 
+                    "loud", 
+                    5.0, 
+                    24.752475247524753
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 24, 
+            "id": "sound, noise", 
+            "key": "15.44"
         }, 
         {
-            "key": "18.24", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_20_tell story", 
+                    "speech (make a)", 
+                    7.0, 
+                    49.0
+                ], 
+                [
+                    "cluster_20_tell story", 
+                    "speak, talk", 
+                    7.0, 
+                    42.608695652173914
+                ], 
+                [
+                    "cluster_41_beak", 
+                    "mouth", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ], 
             "community": 24, 
-            "id": "language", 
+            "id": "word", 
+            "key": "18.26"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_91_neck", 
+                    "throat", 
+                    8.0, 
+                    57.65765765765766
+                ], 
+                [
+                    "cluster_20_tell story", 
+                    "speak, talk", 
+                    7.0, 
+                    44.14414414414414
+                ], 
+                [
+                    "cluster_20_tell story", 
+                    "speech (make a)", 
+                    6.0, 
+                    37.11340206185567
+                ]
+            ], 
+            "community": 24, 
+            "id": "voice", 
+            "key": "18.11"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_20_tell story", 
                     "speech (make a)", 
                     10.0, 
-                    1.5294117647058822
+                    103.09278350515463
                 ], 
                 [
                     "cluster_20_tell story", 
                     "speak, talk", 
                     6.0, 
-                    1.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.26", 
-            "community": 24, 
-            "id": "word", 
-            "out_edge": [
+                    31.03448275862069
+                ], 
                 [
-                    "cluster_20_tell story", 
-                    "speak, talk", 
-                    7.0, 
-                    1.0
+                    "cluster_41_beak", 
+                    "mouth", 
+                    4.0, 
+                    13.559322033898304
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 24, 
+            "id": "language", 
+            "key": "18.24"
         }, 
         {
-            "key": "15.44", 
-            "community": 24, 
-            "id": "sound, noise", 
+            "swadesh100": 1, 
+            "body_part": 1, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 24, 
+            "id": "tongue", 
+            "key": "4.26"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 63.0, 
-                "families": 10.0, 
-                "id": "language"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "voice"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "word"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tongue"
-            }, 
-            {
-                "weight": 2.0588235294117645, 
-                "languages": 21.0, 
-                "families": 15.0, 
-                "id": "language"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
-                "languages": 16.0, 
-                "families": 13.0, 
-                "id": "word"
-            }, 
-            {
-                "weight": 2.0588235294117645, 
-                "languages": 50.0, 
-                "families": 15.0, 
-                "id": "sound, noise"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 63.0, 
-                "families": 10.0, 
-                "id": "tongue"
-            }, 
-            {
-                "weight": 2.0588235294117645, 
-                "languages": 21.0, 
-                "families": 15.0, 
-                "id": "voice"
-            }, 
-            {
-                "weight": 8.147058823529413, 
-                "languages": 61.0, 
-                "families": 35.0, 
-                "id": "word"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sound, noise"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "tongue"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
-                "languages": 16.0, 
-                "families": 13.0, 
-                "id": "voice"
-            }, 
-            {
-                "weight": 8.147058823529413, 
-                "languages": 61.0, 
-                "families": 35.0, 
-                "id": "language"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "sound, noise"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "language"
-            }, 
-            {
-                "weight": 2.0588235294117645, 
-                "languages": 50.0, 
-                "families": 15.0, 
-                "id": "voice"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "word"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sound, noise"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

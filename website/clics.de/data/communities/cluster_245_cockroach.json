@@ -1,107 +1,115 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
                 "languages": 1.0, 
+                "id": "centipede", 
+                "edge_width": 1.0, 
                 "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
                 "id": "grasshopper", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
+                "edge_width": 1.0, 
                 "weight": 1.0, 
-                "id": "centipede", 
                 "families": 1.0
             }
         ], 
         [
             {
                 "languages": 1.0, 
+                "id": "scorpion", 
+                "edge_width": 1.0, 
                 "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "cockroach", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "scorpion", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "cockroach", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "centipede", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
                 "id": "stingray", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.0, 
-                "id": "centipede", 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "scorpion", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "cockroach", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "cockroach", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.0, 
-                "id": "scorpion", 
-                "families": 2.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 245, 
-            "body_part": 0, 
             "id": "cockroach", 
             "key": "3.816"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 245, 
-            "body_part": 0, 
-            "id": "scorpion", 
-            "key": "3.815"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 245, 
-            "body_part": 0, 
             "id": "stingray", 
             "key": "3.664"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 245, 
+            "id": "centipede", 
+            "key": "3.814"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
+            "out_edge": [], 
+            "community": 245, 
             "id": "grasshopper", 
             "key": "3.93"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 245, 
-            "body_part": 0, 
-            "id": "centipede", 
-            "key": "3.814"
+            "id": "scorpion", 
+            "key": "3.815"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

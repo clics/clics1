@@ -1,113 +1,121 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "reach, arrive", 
+                "edge_width": 1.0, 
+                "weight": 0.8130081300813009, 
                 "families": 1.0
             }, 
             {
                 "languages": 9.0, 
-                "weight": 1.2040816326530612, 
                 "id": "approach", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 58.18181818181818, 
                 "families": 8.0
             }, 
             {
                 "languages": 33.0, 
-                "weight": 1.693877551020408, 
                 "id": "come", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 178.1818181818182, 
                 "families": 14.0
             }
         ], 
         [
             {
                 "languages": 9.0, 
-                "weight": 1.2040816326530612, 
                 "id": "reach, arrive", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 58.18181818181818, 
                 "families": 8.0
-            }, 
-            {
-                "languages": 5.0, 
-                "weight": 1.0816326530612246, 
-                "id": "come", 
-                "families": 5.0
             }, 
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "approach", 
+                "edge_width": 1.0, 
+                "weight": 0.9009009009009009, 
                 "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "come", 
+                "edge_width": 1.0, 
+                "weight": 22.123893805309734, 
+                "families": 5.0
             }
         ], 
         [
             {
                 "languages": 33.0, 
-                "weight": 1.693877551020408, 
                 "id": "reach, arrive", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 178.1818181818182, 
                 "families": 14.0
             }, 
             {
                 "languages": 5.0, 
-                "weight": 1.0816326530612246, 
                 "id": "approach", 
+                "edge_width": 1.0, 
+                "weight": 22.123893805309734, 
                 "families": 5.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_3_get, obtain", 
                     "get, obtain", 
                     4.0, 
-                    1.0408163265306123
+                    14.15929203539823
                 ], 
                 [
-                    "cluster_47_find", 
+                    "cluster_47_see", 
                     "find", 
                     4.0, 
-                    1.0408163265306123
+                    13.333333333333334
                 ]
             ], 
             "community": 161, 
-            "body_part": 0, 
             "id": "reach, arrive", 
             "key": "10.55"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 161, 
-            "body_part": 0, 
             "id": "approach", 
             "key": "10.56"
         }, 
         {
             "swadesh100": 1, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_56_go", 
                     "go", 
                     8.0, 
-                    1.2040816326530612
+                    54.700854700854705
                 ], 
                 [
                     "cluster_101_turn over", 
                     "come back", 
                     6.0, 
-                    1.1224489795918366
+                    30.76923076923077
                 ]
             ], 
             "community": 161, 
-            "body_part": 0, 
             "id": "come", 
             "key": "10.48"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

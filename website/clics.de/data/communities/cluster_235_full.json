@@ -1,88 +1,88 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "full", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "boil (noun)", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "swelling", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "boil (noun)", 
+                "edge_width": 1.0, 
+                "weight": 44.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "full", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "swelling", 
+                "edge_width": 1.0, 
+                "weight": 44.0, 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "4.856", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 235, 
-            "id": "boil (noun)", 
+            "id": "full", 
+            "key": "13.21"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 235, 
+            "id": "swelling", 
+            "key": "4.853"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_114_boil (vb)", 
+                    "cluster_114_cook", 
                     "boil (vb)", 
                     4.0, 
                     14.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "13.21", 
             "community": 235, 
-            "id": "full", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.853", 
-            "community": 235, 
-            "id": "swelling", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "boil (noun)", 
+            "key": "4.856"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "full"
-            }, 
-            {
-                "weight": 44.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "swelling"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "boil (noun)"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "full"
-            }
-        ], 
-        [
-            {
-                "weight": 44.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "boil (noun)"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "swelling"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

@@ -1,63 +1,178 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "who?", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "how?", 
+                "edge_width": 1.0, 
+                "weight": 43.0, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "what?", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "id": "who?", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "how?", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "where?", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "what?", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "why?", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 13.0, 
+                "id": "which?", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "how?", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 12.0, 
+                "id": "what?", 
+                "edge_width": 1.0, 
+                "weight": 29.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "who?", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "why?", 
+                "edge_width": 1.0, 
+                "weight": 43.0, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "which?", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "where?", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "what?", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "id": "how?", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "which?", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "id": "who?", 
+                "edge_width": 1.0, 
+                "weight": 29.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "why?", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "which?", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "how?", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "17.66", 
-            "community": 84, 
-            "id": "where?", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.64", 
-            "community": 84, 
-            "id": "what?", 
-            "out_edge": [
-                [
-                    "cluster_100_some", 
-                    "thing", 
-                    4.0, 
-                    13.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "17.68", 
-            "community": 84, 
-            "id": "who?", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "17.61", 
-            "community": 84, 
-            "id": "how?", 
-            "out_edge": [
-                [
-                    "cluster_168_how many?", 
-                    "how much?", 
-                    4.0, 
-                    13.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.67", 
-            "community": 84, 
-            "id": "which?", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.69", 
-            "community": 84, 
-            "id": "why?", 
             "out_edge": [
                 [
                     "cluster_142_because", 
@@ -66,179 +181,64 @@
                     14.0
                 ]
             ], 
+            "community": 84, 
+            "id": "why?", 
+            "key": "17.69"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 84, 
+            "id": "which?", 
+            "key": "17.67"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 84, 
+            "id": "who?", 
+            "key": "17.68"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_168_how many?", 
+                    "how much?", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 84, 
+            "id": "how?", 
+            "key": "17.61"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 84, 
+            "id": "where?", 
+            "key": "17.66"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_100_some", 
+                    "thing", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 84, 
+            "id": "what?", 
+            "key": "17.64"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 30.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 30.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "why?"
-            }, 
-            {
-                "weight": 29.0, 
-                "languages": 12.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 56.0, 
-                "languages": 16.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 20.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 29.0, 
-                "languages": 12.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "why?"
-            }, 
-            {
-                "weight": 56.0, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 30.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "where?"
-            }, 
-            {
-                "weight": 20.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "which?"
-            }, 
-            {
-                "weight": 43.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "why?"
-            }
-        ], 
-        [
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "where?"
-            }, 
-            {
-                "weight": 56.0, 
-                "languages": 16.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 56.0, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "how?"
-            }
-        ], 
-        [
-            {
-                "weight": 30.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "what?"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "who?"
-            }, 
-            {
-                "weight": 43.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "how?"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

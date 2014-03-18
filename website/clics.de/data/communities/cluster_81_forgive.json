@@ -1,57 +1,180 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 18.0, 
+                "id": "let, permit", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 66.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "untie", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 102.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "acquit", 
+                "edge_width": 1.0, 
+                "weight": 31.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "open", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "id": "release, let go", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 66.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "forgive", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "acquit", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "release, let go", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "untie", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 60.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "let, permit", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "acquit", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "forgive", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "untie", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "id": "release, let go", 
+                "edge_width": 1.0, 
+                "weight": 31.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "let, permit", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "forgive", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "untie", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "id": "release, let go", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 102.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "forgive", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "acquit", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 11.0, 
+                "id": "open", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 60.0, 
+                "families": 8.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "21.34", 
-            "community": 81, 
-            "id": "acquit", 
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_47_preserve, look after", 
-                    "save, rescue", 
-                    4.0, 
-                    20.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.161", 
-            "community": 81, 
-            "id": "untie", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.69", 
-            "community": 81, 
-            "id": "forgive", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.24", 
-            "community": 81, 
-            "id": "open", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "11.34", 
-            "community": 81, 
-            "id": "release, let go", 
-            "out_edge": [
-                [
-                    "cluster_118_send", 
+                    "cluster_118_command, order", 
                     "send", 
                     7.0, 
                     46.0
                 ], 
                 [
-                    "cluster_151_fall", 
+                    "cluster_151_land (vb)", 
                     "drop (vb)", 
                     5.0, 
                     24.0
@@ -63,16 +186,16 @@
                     15.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 81, 
+            "id": "release, let go", 
+            "key": "11.34"
         }, 
         {
-            "key": "19.47", 
-            "community": 81, 
-            "id": "let, permit", 
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_7_trade, barter", 
+                    "cluster_7_betray", 
                     "give", 
                     7.0, 
                     45.0
@@ -90,172 +213,49 @@
                     15.0
                 ]
             ], 
+            "community": 81, 
+            "id": "let, permit", 
+            "key": "19.47"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 81, 
+            "id": "open", 
+            "key": "12.24"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 81, 
+            "id": "forgive", 
+            "key": "16.69"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_47_preserve, look after", 
+                    "save, rescue", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "community": 81, 
+            "id": "acquit", 
+            "key": "21.34"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 81, 
+            "id": "untie", 
+            "key": "9.161"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "let, permit"
-            }, 
-            {
-                "weight": 31.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "forgive"
-            }
-        ], 
-        [
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 60.0, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "open"
-            }, 
-            {
-                "weight": 102.0, 
-                "languages": 14.0, 
-                "families": 10.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "forgive"
-            }
-        ], 
-        [
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "let, permit"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "forgive"
-            }
-        ], 
-        [
-            {
-                "weight": 60.0, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "release, let go"
-            }
-        ], 
-        [
-            {
-                "weight": 31.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "open"
-            }, 
-            {
-                "weight": 102.0, 
-                "languages": 14.0, 
-                "families": 10.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "untie"
-            }, 
-            {
-                "weight": 66.0, 
-                "languages": 18.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "let, permit"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "acquit"
-            }, 
-            {
-                "weight": 66.0, 
-                "languages": 18.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "release, let go"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "forgive"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

@@ -1,28 +1,79 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "match (noun)", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 29.0, 
+                "id": "fire", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 243.0, 
+                "families": 16.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "flame (noun)", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "fire", 
+                "edge_width": 1.0, 
+                "weight": 23.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 29.0, 
+                "id": "flame (noun)", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 243.0, 
+                "families": 16.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "match (noun)", 
+                "edge_width": 1.0, 
+                "weight": 23.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "1.82", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 170, 
             "id": "flame (noun)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "key": "1.82"
         }, 
         {
-            "key": "1.87", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 170, 
             "id": "match (noun)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "key": "1.87"
         }, 
         {
-            "key": "1.81", 
-            "community": 170, 
-            "id": "fire", 
+            "swadesh100": 1, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_3_post, pole", 
+                    "cluster_3_tree", 
                     "firewood", 
                     10.0, 
                     84.0
@@ -40,61 +91,10 @@
                     32.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "community": 170, 
+            "id": "fire", 
+            "key": "1.81"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "match (noun)"
-            }, 
-            {
-                "weight": 243.0, 
-                "languages": 29.0, 
-                "families": 16.0, 
-                "edge_width": 2.0588235294117645, 
-                "id": "fire"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "flame (noun)"
-            }, 
-            {
-                "weight": 23.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "fire"
-            }
-        ], 
-        [
-            {
-                "weight": 243.0, 
-                "languages": 29.0, 
-                "families": 16.0, 
-                "edge_width": 2.0588235294117645, 
-                "id": "flame (noun)"
-            }, 
-            {
-                "weight": 23.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "match (noun)"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

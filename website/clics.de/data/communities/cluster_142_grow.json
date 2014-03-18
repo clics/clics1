@@ -1,179 +1,194 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "weight": 1.0, 
-                "id": "born (to be)", 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
                 "languages": 12.0, 
-                "weight": 1.3265306122448979, 
-                "id": "conceive", 
-                "families": 9.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "weight": 1.2040816326530612, 
-                "id": "conceive", 
-                "families": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "grow", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "weight": 1.1224489795918366, 
-                "id": "born (to be)", 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 12.0, 
-                "weight": 1.3265306122448979, 
                 "id": "pregnant", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 81.0, 
                 "families": 9.0
             }, 
             {
+                "languages": 1.0, 
+                "id": "born (to be)", 
+                "edge_width": 1.0, 
+                "weight": 0.9708737864077669, 
+                "families": 1.0
+            }, 
+            {
                 "languages": 7.0, 
-                "weight": 1.2040816326530612, 
                 "id": "beget (of father)", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.32183908045977, 
                 "families": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "born (to be)", 
-                "families": 1.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "grow", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "beget (of father)", 
-                "families": 1.0
-            }, 
-            {
                 "languages": 3.0, 
-                "weight": 1.0, 
                 "id": "born (to be)", 
+                "edge_width": 1.0, 
+                "weight": 7.627118644067797, 
                 "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "grow", 
+                "edge_width": 1.0, 
+                "weight": 0.8, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "beget (of father)", 
+                "edge_width": 1.0, 
+                "weight": 0.9090909090909091, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "born (to be)", 
+                "edge_width": 1.0, 
+                "weight": 4.597701149425287, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "id": "conceive", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 81.0, 
+                "families": 9.0
             }
         ], 
         [
             {
                 "languages": 1.0, 
-                "weight": 1.0, 
                 "id": "conceive", 
+                "edge_width": 1.0, 
+                "weight": 0.9708737864077669, 
                 "families": 1.0
             }, 
             {
+                "languages": 9.0, 
+                "id": "beget (of father)", 
+                "edge_width": 1.0, 
+                "weight": 36.0, 
+                "families": 6.0
+            }, 
+            {
                 "languages": 3.0, 
-                "weight": 1.0, 
                 "id": "grow", 
+                "edge_width": 1.0, 
+                "weight": 7.627118644067797, 
                 "families": 3.0
             }, 
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "booty, spoils", 
+                "edge_width": 1.0, 
+                "weight": 4.597701149425287, 
                 "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "id": "conceive", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 56.32183908045977, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "grow", 
+                "edge_width": 1.0, 
+                "weight": 0.9090909090909091, 
+                "families": 1.0
             }, 
             {
                 "languages": 9.0, 
-                "weight": 1.1224489795918366, 
-                "id": "beget (of father)", 
+                "id": "born (to be)", 
+                "edge_width": 1.0, 
+                "weight": 36.0, 
                 "families": 6.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 142, 
-            "body_part": 0, 
-            "id": "booty, spoils", 
-            "key": "20.48"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [
-                [
-                    "cluster_70_strong, mighty, powerful", 
-                    "heavy", 
-                    5.0, 
-                    1.0816326530612246
-                ]
-            ], 
-            "community": 142, 
-            "body_part": 0, 
-            "id": "pregnant", 
-            "key": "4.73"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 142, 
-            "body_part": 0, 
-            "id": "beget (of father)", 
-            "key": "4.71"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 142, 
-            "body_part": 0, 
             "id": "conceive", 
             "key": "4.732"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 142, 
-            "body_part": 0, 
             "id": "grow", 
             "key": "12.53"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 142, 
+            "id": "booty, spoils", 
+            "key": "20.48"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_70_strong, mighty, powerful", 
+                    "heavy", 
+                    5.0, 
+                    20.833333333333336
+                ]
+            ], 
+            "community": 142, 
+            "id": "pregnant", 
+            "key": "4.73"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_56_go", 
                     "go out", 
                     5.0, 
-                    1.0816326530612246
+                    21.73913043478261
                 ], 
                 [
                     "cluster_141_fall", 
                     "fall", 
                     4.0, 
-                    1.0408163265306123
+                    13.559322033898304
                 ]
             ], 
             "community": 142, 
-            "body_part": 0, 
             "id": "born (to be)", 
             "key": "4.72"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 142, 
+            "id": "beget (of father)", 
+            "key": "4.71"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

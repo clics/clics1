@@ -1,372 +1,463 @@
 {
-    "nodes": [
-        {
-            "key": "3.28", 
-            "community": 44, 
-            "id": "ewe", 
-            "out_edge": [
-                [
-                    "cluster_18_woman", 
-                    "mare", 
-                    6.0, 
-                    1.2647058823529411
-                ], 
-                [
-                    "cluster_18_woman", 
-                    "female (adj)", 
-                    7.0, 
-                    1.2647058823529411
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.38", 
-            "community": 44, 
-            "id": "kid", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.29", 
-            "community": 44, 
-            "id": "lamb", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.36", 
-            "community": 44, 
-            "id": "goat", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.45", 
-            "community": 44, 
-            "id": "foal, colt", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.37", 
-            "community": 44, 
-            "id": "he-goat", 
-            "out_edge": [
-                [
-                    "cluster_5_male", 
-                    "male (adj)", 
-                    5.0, 
-                    1.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.24", 
-            "community": 44, 
-            "id": "calf", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.26", 
-            "community": 44, 
-            "id": "ram", 
-            "out_edge": [
-                [
-                    "cluster_5_male", 
-                    "male (adj)", 
-                    8.0, 
-                    1.2647058823529411
-                ], 
-                [
-                    "cluster_5_male", 
-                    "male", 
-                    7.0, 
-                    1.2647058823529411
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.25", 
-            "community": 44, 
-            "id": "sheep", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 2.0, 
-                "families": 2.0, 
-                "id": "goat"
+                "id": "lamb", 
+                "edge_width": 1.0, 
+                "weight": 5.714285714285714, 
+                "families": 2.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
-                "families": 7.0, 
-                "id": "ram"
-            }, 
-            {
-                "weight": 2.8529411764705883, 
-                "languages": 57.0, 
-                "families": 14.0, 
-                "id": "sheep"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "calf"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "goat"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "foal, colt"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "he-goat"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "ewe"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "kid"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "goat"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "foal, colt"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "calf"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "ram"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "sheep"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "ewe"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "kid"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "id": "he-goat"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "ram"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "sheep"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "kid"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "calf"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "kid"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "id": "goat"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "ram"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "kid"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 11.0, 
-                "families": 8.0, 
-                "id": "foal, colt"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
-                "families": 7.0, 
-                "id": "ewe"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "he-goat"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "goat"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "lamb"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
                 "languages": 24.0, 
-                "families": 9.0, 
-                "id": "sheep"
+                "id": "sheep", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 132.78688524590163, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "ewe", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 77.77777777777779, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "goat", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "he-goat", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 83.05084745762711, 
+                "families": 7.0
             }
         ], 
         [
             {
-                "weight": 2.8529411764705883, 
-                "languages": 57.0, 
-                "families": 14.0, 
-                "id": "ewe"
+                "languages": 11.0, 
+                "id": "foal, colt", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 79.01234567901234, 
+                "families": 8.0
             }, 
             {
-                "weight": 1.5294117647058822, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "lamb"
+                "languages": 3.0, 
+                "id": "kid", 
+                "edge_width": 1.0, 
+                "weight": 11.842105263157894, 
+                "families": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "goat"
-            }, 
+                "languages": 7.0, 
+                "id": "lamb", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 63.63636363636363, 
+                "families": 7.0
+            }
+        ], 
+        [
             {
-                "weight": 1.5294117647058822, 
                 "languages": 24.0, 
-                "families": 9.0, 
-                "id": "ram"
+                "id": "ram", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 132.78688524590163, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 57.0, 
+                "id": "ewe", 
+                "edge_width": 2.8529411764705883, 
+                "weight": 350.0, 
+                "families": 14.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "goat", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "lamb", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 100.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "id": "ram", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 83.05084745762711, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "kid", 
+                "edge_width": 1.0, 
+                "weight": 6.557377049180328, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "goat", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 60.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "id": "calf", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 79.01234567901234, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "kid", 
+                "edge_width": 1.0, 
+                "weight": 22.857142857142858, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "lamb", 
+                "edge_width": 1.0, 
+                "weight": 49.31506849315068, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "calf", 
+                "edge_width": 1.0, 
+                "weight": 11.842105263157894, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "lamb", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "goat", 
+                "edge_width": 1.0, 
+                "weight": 6.153846153846154, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "foal, colt", 
+                "edge_width": 1.0, 
+                "weight": 22.857142857142858, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "he-goat", 
+                "edge_width": 1.0, 
+                "weight": 6.557377049180328, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "id": "ram", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 77.77777777777779, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 57.0, 
+                "id": "sheep", 
+                "edge_width": 2.8529411764705883, 
+                "weight": 350.0, 
+                "families": 14.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "goat", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "lamb", 
+                "edge_width": 1.0, 
+                "weight": 23.52941176470588, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "ram", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "sheep", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "he-goat", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 60.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "kid", 
+                "edge_width": 1.0, 
+                "weight": 6.153846153846154, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "ewe", 
+                "edge_width": 1.0, 
+                "weight": 5.88235294117647, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "lamb", 
+                "edge_width": 1.0, 
+                "weight": 1.4084507042253522, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "ram", 
+                "edge_width": 1.0, 
+                "weight": 5.714285714285714, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "calf", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 63.63636363636363, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "sheep", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 100.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "foal, colt", 
+                "edge_width": 1.0, 
+                "weight": 49.31506849315068, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "kid", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "ewe", 
+                "edge_width": 1.0, 
+                "weight": 23.52941176470588, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "goat", 
+                "edge_width": 1.0, 
+                "weight": 1.4084507042253522, 
+                "families": 1.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_5_stallion", 
+                    "male (adj)", 
+                    8.0, 
+                    80.0
+                ], 
+                [
+                    "cluster_5_stallion", 
+                    "male", 
+                    7.0, 
+                    55.68181818181818
+                ], 
+                [
+                    "cluster_5_stallion", 
+                    "stallion", 
+                    4.0, 
+                    22.857142857142858
+                ]
+            ], 
+            "community": 44, 
+            "id": "ram", 
+            "key": "3.26"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "child", 
+                    5.0, 
+                    23.58490566037736
+                ], 
+                [
+                    "cluster_6_son", 
+                    "offspring (son or daughter)", 
+                    4.0, 
+                    17.02127659574468
+                ]
+            ], 
+            "community": 44, 
+            "id": "calf", 
+            "key": "3.24"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 44, 
+            "id": "sheep", 
+            "key": "3.25"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_5_stallion", 
+                    "male (adj)", 
+                    5.0, 
+                    31.645569620253166
+                ]
+            ], 
+            "community": 44, 
+            "id": "he-goat", 
+            "key": "3.37"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_5_stallion", 
+                    "stallion", 
+                    5.0, 
+                    32.89473684210527
+                ], 
+                [
+                    "cluster_6_son", 
+                    "son", 
+                    5.0, 
+                    25.252525252525253
+                ], 
+                [
+                    "cluster_6_son", 
+                    "child", 
+                    5.0, 
+                    24.752475247524753
+                ]
+            ], 
+            "community": 44, 
+            "id": "foal, colt", 
+            "key": "3.45"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 44, 
+            "id": "kid", 
+            "key": "3.38"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_18_wife", 
+                    "female (adj)", 
+                    7.0, 
+                    58.333333333333336
+                ], 
+                [
+                    "cluster_18_wife", 
+                    "mare", 
+                    6.0, 
+                    52.17391304347826
+                ], 
+                [
+                    "cluster_18_wife", 
+                    "female", 
+                    6.0, 
+                    42.35294117647059
+                ]
+            ], 
+            "community": 44, 
+            "id": "ewe", 
+            "key": "3.28"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 44, 
+            "id": "goat", 
+            "key": "3.36"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "offspring (son or daughter)", 
+                    4.0, 
+                    19.047619047619047
+                ]
+            ], 
+            "community": 44, 
+            "id": "lamb", 
+            "key": "3.29"
+        }
+    ], 
+    "graph": []
 }

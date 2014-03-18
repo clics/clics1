@@ -1,129 +1,129 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "egg yolk", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "red", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "blood", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "yellow", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "gums", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "yellow", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "red", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "id": "egg yolk", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "red", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "5.971", 
-            "community": 228, 
-            "id": "egg yolk", 
+            "swadesh100": 0, 
+            "body_part": 1, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 228, 
+            "id": "gums", 
+            "key": "4.271"
         }, 
         {
-            "key": "15.66", 
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 228, 
             "id": "red", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "key": "15.66"
         }, 
         {
-            "key": "15.69", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 228, 
-            "id": "yellow", 
+            "id": "egg yolk", 
+            "key": "5.971"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 1, 
+            "out_edge": [], 
+            "community": 228, 
+            "id": "blood", 
+            "key": "4.15"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_44_wet, damp", 
+                    "cluster_44_green, unripe", 
                     "green", 
                     6.0, 
                     30.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.15", 
             "community": 228, 
-            "id": "blood", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.271", 
-            "community": 228, 
-            "id": "gums", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "id": "yellow", 
+            "key": "15.69"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 14.0, 
-                "languages": 8.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "yellow"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "gums"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "red"
-            }, 
-            {
-                "weight": 20.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "yellow"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "blood"
-            }
-        ], 
-        [
-            {
-                "weight": 20.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "red"
-            }, 
-            {
-                "weight": 14.0, 
-                "languages": 8.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "egg yolk"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "red"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "egg yolk"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

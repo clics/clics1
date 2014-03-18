@@ -1,67 +1,67 @@
 {
-    "nodes": [
-        {
-            "key": "20.28", 
-            "community": 178, 
-            "id": "gun, cannon", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.21", 
-            "community": 178, 
-            "id": "weapons, arms", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.665", 
-            "community": 178, 
-            "id": "freshwater eel", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 75.0, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "weapons, arms"
+                "languages": 1.0, 
+                "id": "weapons, arms", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
             }
         ], 
         [
             {
-                "weight": 75.0, 
-                "languages": 13.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "gun, cannon"
+                "languages": 1.0, 
+                "id": "freshwater eel", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "freshwater eel"
+                "languages": 13.0, 
+                "id": "gun, cannon", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.0, 
+                "families": 8.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "weapons, arms"
+                "languages": 13.0, 
+                "id": "weapons, arms", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.0, 
+                "families": 8.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 178, 
+            "id": "freshwater eel", 
+            "key": "3.665"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 178, 
+            "id": "weapons, arms", 
+            "key": "20.21"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 178, 
+            "id": "gun, cannon", 
+            "key": "20.28"
+        }
+    ], 
+    "graph": []
 }

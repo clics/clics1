@@ -1,9 +1,166 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "bamboo", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "spear", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "knife", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "knife", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "sword", 
+                "edge_width": 1.0, 
+                "weight": 5.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "bamboo", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "sickle, scythe", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "sword", 
+                "edge_width": 1.0, 
+                "weight": 18.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "spear", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 136.0, 
+                "id": "knife", 
+                "edge_width": 10.0, 
+                "weight": 2062.0, 
+                "families": 38.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "id": "knife", 
+                "edge_width": 1.0, 
+                "weight": 18.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "sickle, scythe", 
+                "edge_width": 1.0, 
+                "weight": 5.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "spear", 
+                "edge_width": 1.0, 
+                "weight": 19.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "bamboo", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "sword", 
+                "edge_width": 1.0, 
+                "weight": 19.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "knife", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "20.26", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 184, 
-            "id": "spear", 
+            "id": "bamboo", 
+            "key": "8.94"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 184, 
+            "id": "sickle, scythe", 
+            "key": "8.33"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 184, 
+            "id": "knife", 
+            "key": "5.38"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 184, 
+            "id": "sword", 
+            "key": "20.27"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_117_arrow", 
@@ -12,167 +169,10 @@
                     15.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.38", 
             "community": 184, 
-            "id": "knife", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.33", 
-            "community": 184, 
-            "id": "sickle, scythe", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.94", 
-            "community": 184, 
-            "id": "bamboo", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.27", 
-            "community": 184, 
-            "id": "sword", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "spear", 
+            "key": "20.26"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 19.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "sword"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "knife"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "bamboo"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "spear"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "bamboo"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "sickle, scythe"
-            }, 
-            {
-                "weight": 2062.0, 
-                "languages": 136.0, 
-                "families": 38.0, 
-                "edge_width": 10.0, 
-                "id": "knife"
-            }, 
-            {
-                "weight": 18.0, 
-                "languages": 6.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "sword"
-            }
-        ], 
-        [
-            {
-                "weight": 5.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "sword"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "knife"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "spear"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "knife"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "bamboo"
-            }
-        ], 
-        [
-            {
-                "weight": 19.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "spear"
-            }, 
-            {
-                "weight": 18.0, 
-                "languages": 6.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "knife"
-            }, 
-            {
-                "weight": 5.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "sickle, scythe"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

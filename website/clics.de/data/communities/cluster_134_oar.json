@@ -1,55 +1,57 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
                 "languages": 68.0, 
-                "weight": 3.5306122448979589, 
                 "id": "paddle (noun)", 
+                "edge_width": 4.4411764705882355, 
+                "weight": 654.0540540540541, 
                 "families": 22.0
             }
         ], 
         [
             {
                 "languages": 68.0, 
-                "weight": 3.5306122448979589, 
                 "id": "oar", 
+                "edge_width": 4.4411764705882355, 
+                "weight": 654.0540540540541, 
                 "families": 22.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_92_stir, mix", 
+                    "cluster_92_shake", 
                     "row (vb)", 
                     5.0, 
-                    1.0816326530612246
+                    26.595744680851062
                 ]
             ], 
             "community": 134, 
-            "body_part": 0, 
             "id": "oar", 
             "key": "10.85"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_112_shovel", 
+                    "cluster_112_hoe", 
                     "spade", 
                     4.0, 
-                    1.0816326530612246
+                    20.0
                 ]
             ], 
             "community": 134, 
-            "body_part": 0, 
             "id": "paddle (noun)", 
             "key": "10.851"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

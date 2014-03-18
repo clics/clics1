@@ -1,0 +1,185 @@
+{
+    "adjacency": [
+        [
+            {
+                "languages": 9.0, 
+                "id": "niece", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 78.0, 
+                "id": "granddaughter", 
+                "edge_width": 7.6176470588235299, 
+                "weight": 1360.0, 
+                "families": 34.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "nephew", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 93.0, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "id": "grandson", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 15.0, 
+                "id": "granddaughter", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 99.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 44.0, 
+                "id": "nephew", 
+                "edge_width": 4.4411764705882355, 
+                "weight": 677.0, 
+                "families": 24.0
+            }
+        ], 
+        [
+            {
+                "languages": 78.0, 
+                "id": "grandson", 
+                "edge_width": 7.6176470588235299, 
+                "weight": 1360.0, 
+                "families": 34.0
+            }, 
+            {
+                "languages": 15.0, 
+                "id": "niece", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 99.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "nephew", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 16.0, 
+                "id": "grandson", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 93.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 44.0, 
+                "id": "niece", 
+                "edge_width": 4.4411764705882355, 
+                "weight": 677.0, 
+                "families": 24.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "granddaughter", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_77_old", 
+                    "grandfather", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 89, 
+            "id": "grandson", 
+            "key": "2.48"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_32_younger brother", 
+                    "cousin", 
+                    9.0, 
+                    86.0
+                ], 
+                [
+                    "cluster_5_son", 
+                    "daughter", 
+                    8.0, 
+                    59.0
+                ], 
+                [
+                    "cluster_10_mother-in-law (of a woman)", 
+                    "daughter-in-law (of a man)", 
+                    5.0, 
+                    24.0
+                ]
+            ], 
+            "community": 89, 
+            "id": "niece", 
+            "key": "2.54"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_77_old", 
+                    "grandmother", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 89, 
+            "id": "granddaughter", 
+            "key": "2.49"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_32_younger brother", 
+                    "cousin", 
+                    8.0, 
+                    65.0
+                ], 
+                [
+                    "cluster_5_son", 
+                    "son", 
+                    7.0, 
+                    44.0
+                ], 
+                [
+                    "cluster_5_son", 
+                    "offspring (son or daughter)", 
+                    5.0, 
+                    24.0
+                ]
+            ], 
+            "community": 89, 
+            "id": "nephew", 
+            "key": "2.53"
+        }
+    ], 
+    "graph": []
+}

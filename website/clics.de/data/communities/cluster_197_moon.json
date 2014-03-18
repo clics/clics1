@@ -1,43 +1,43 @@
 {
-    "nodes": [
-        {
-            "key": "1.53", 
-            "community": 197, 
-            "id": "moon", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "14.71", 
-            "community": 197, 
-            "id": "month", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1975.0, 
                 "languages": 118.0, 
-                "families": 40.0, 
+                "id": "moon", 
                 "edge_width": 9.4705882352941178, 
-                "id": "month"
+                "weight": 1975.0, 
+                "families": 40.0
             }
         ], 
         [
             {
-                "weight": 1975.0, 
                 "languages": 118.0, 
-                "families": 40.0, 
+                "id": "month", 
                 "edge_width": 9.4705882352941178, 
-                "id": "moon"
+                "weight": 1975.0, 
+                "families": 40.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 197, 
+            "id": "month", 
+            "key": "14.71"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 197, 
+            "id": "moon", 
+            "key": "1.53"
+        }
+    ], 
+    "graph": []
 }

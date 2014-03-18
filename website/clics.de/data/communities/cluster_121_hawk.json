@@ -1,112 +1,112 @@
 {
-    "nodes": [
-        {
-            "key": "3.585", 
-            "community": 121, 
-            "id": "hawk", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.586", 
-            "community": 121, 
-            "id": "vulture", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.593", 
-            "community": 121, 
-            "id": "crow", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.584", 
-            "community": 121, 
-            "id": "eagle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 0.0, 
+                "languages": 3.0, 
+                "id": "vulture", 
+                "edge_width": 1.0, 
+                "weight": 9.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "id": "eagle", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 100.0, 
+                "families": 10.0
+            }, 
+            {
                 "languages": 1.0, 
-                "families": 1.0, 
+                "id": "hawk", 
                 "edge_width": 1.0, 
-                "id": "hawk"
+                "weight": 0.0, 
+                "families": 1.0
             }, 
             {
-                "weight": 24.0, 
                 "languages": 6.0, 
-                "families": 5.0, 
+                "id": "vulture", 
                 "edge_width": 1.0, 
-                "id": "vulture"
-            }, 
-            {
-                "weight": 100.0, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "eagle"
-            }
-        ], 
-        [
-            {
                 "weight": 24.0, 
-                "languages": 6.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "hawk"
-            }, 
-            {
-                "weight": 9.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "crow"
-            }, 
-            {
-                "weight": 47.0, 
-                "languages": 20.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "eagle"
+                "families": 5.0
             }
         ], 
         [
             {
-                "weight": 9.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "vulture"
-            }
-        ], 
-        [
-            {
-                "weight": 100.0, 
                 "languages": 13.0, 
-                "families": 10.0, 
+                "id": "hawk", 
                 "edge_width": 1.5294117647058822, 
-                "id": "hawk"
+                "weight": 100.0, 
+                "families": 10.0
             }, 
             {
-                "weight": 47.0, 
                 "languages": 20.0, 
-                "families": 7.0, 
+                "id": "vulture", 
                 "edge_width": 1.0, 
-                "id": "vulture"
+                "weight": 47.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "crow", 
+                "edge_width": 1.0, 
+                "weight": 9.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "hawk", 
+                "edge_width": 1.0, 
+                "weight": 24.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 20.0, 
+                "id": "eagle", 
+                "edge_width": 1.0, 
+                "weight": 47.0, 
+                "families": 7.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 121, 
+            "id": "crow", 
+            "key": "3.593"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 121, 
+            "id": "hawk", 
+            "key": "3.585"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 121, 
+            "id": "eagle", 
+            "key": "3.584"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 121, 
+            "id": "vulture", 
+            "key": "3.586"
+        }
+    ], 
+    "graph": []
 }

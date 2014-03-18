@@ -1,17 +1,182 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "id": "bracelet", 
+                "edge_width": 1.0, 
+                "weight": 10.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "circle", 
+                "edge_width": 1.0, 
+                "weight": 17.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "id": "circle", 
+                "edge_width": 1.0, 
+                "weight": 38.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "round", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 145.0, 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "ring (for finger)", 
+                "edge_width": 1.0, 
+                "weight": 17.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "bracelet", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "sphere, ball", 
+                "edge_width": 1.0, 
+                "weight": 38.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 31.0, 
+                "id": "round", 
+                "edge_width": 2.5882352941176472, 
+                "weight": 348.0, 
+                "families": 18.0
+            }, 
+            {
+                "languages": 19.0, 
+                "id": "wheel", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 114.0, 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "ring (for finger)", 
+                "edge_width": 1.0, 
+                "weight": 10.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "wheel", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "circle", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "bracelet", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 19.0, 
+                "id": "circle", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 114.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "round", 
+                "edge_width": 1.0, 
+                "weight": 15.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "wheel", 
+                "edge_width": 1.0, 
+                "weight": 15.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 31.0, 
+                "id": "circle", 
+                "edge_width": 2.5882352941176472, 
+                "weight": 348.0, 
+                "families": 18.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "sphere, ball", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 145.0, 
+                "families": 12.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "12.81", 
-            "community": 49, 
-            "id": "round", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 1
+            "out_edge": [], 
+            "community": 49, 
+            "id": "ring (for finger)", 
+            "key": "6.73"
         }, 
         {
-            "key": "10.76", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 49, 
-            "id": "wheel", 
+            "id": "sphere, ball", 
+            "key": "12.83"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 49, 
+            "id": "circle", 
+            "key": "12.82"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 49, 
+            "id": "bracelet", 
+            "key": "6.74"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_12_leg", 
@@ -20,183 +185,18 @@
                     23.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 49, 
+            "id": "wheel", 
+            "key": "10.76"
         }, 
         {
-            "key": "12.83", 
-            "community": 49, 
-            "id": "sphere, ball", 
-            "out_edge": [], 
+            "swadesh100": 1, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.82", 
-            "community": 49, 
-            "id": "circle", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.73", 
             "community": 49, 
-            "id": "ring (for finger)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.74", 
-            "community": 49, 
-            "id": "bracelet", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "round", 
+            "key": "12.81"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 348.0, 
-                "languages": 31.0, 
-                "families": 18.0, 
-                "edge_width": 2.5882352941176472, 
-                "id": "circle"
-            }, 
-            {
-                "weight": 145.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "sphere, ball"
-            }, 
-            {
-                "weight": 15.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "wheel"
-            }
-        ], 
-        [
-            {
-                "weight": 114.0, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "circle"
-            }, 
-            {
-                "weight": 15.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "round"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "bracelet"
-            }
-        ], 
-        [
-            {
-                "weight": 38.0, 
-                "languages": 9.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "circle"
-            }, 
-            {
-                "weight": 145.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "round"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "bracelet"
-            }, 
-            {
-                "weight": 348.0, 
-                "languages": 31.0, 
-                "families": 18.0, 
-                "edge_width": 2.5882352941176472, 
-                "id": "round"
-            }, 
-            {
-                "weight": 17.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "ring (for finger)"
-            }, 
-            {
-                "weight": 114.0, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "wheel"
-            }, 
-            {
-                "weight": 38.0, 
-                "languages": 9.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "sphere, ball"
-            }
-        ], 
-        [
-            {
-                "weight": 17.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "circle"
-            }, 
-            {
-                "weight": 10.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "bracelet"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "circle"
-            }, 
-            {
-                "weight": 10.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "ring (for finger)"
-            }, 
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "wheel"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

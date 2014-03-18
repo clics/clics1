@@ -1,78 +1,92 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 30.0, 
-                "id": "bury (the dead)", 
-                "families": 6.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 3.7037037037037033, 
-                "id": "secret", 
-                "families": 2.0, 
-                "languages": 3.0
-            }, 
-            {
+                "languages": 1.0, 
+                "id": "hide, conceal", 
+                "edge_width": 1.0, 
                 "weight": 1.0869565217391304, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "hide, conceal", 
+                "edge_width": 1.0, 
+                "weight": 3.7037037037037033, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "bury (the dead)", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "secret", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "hide, conceal", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "secret", 
+                "edge_width": 1.0, 
+                "weight": 3.7037037037037033, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "bury (the dead)", 
+                "edge_width": 1.0, 
+                "weight": 30.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 1.0, 
                 "id": "rudder", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 30.0, 
-                "id": "hide, conceal", 
-                "families": 6.0, 
-                "languages": 7.0
-            }, 
-            {
-                "weight": 0.9345794392523363, 
-                "id": "secret", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 3.7037037037037033, 
-                "id": "hide, conceal", 
-                "families": 2.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.9345794392523363, 
-                "id": "bury (the dead)", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
+                "edge_width": 1.0, 
                 "weight": 1.0869565217391304, 
-                "id": "hide, conceal", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 224, 
-            "id": "hide, conceal", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "12.27", 
-            "out_edge": []
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 224, 
+            "id": "rudder", 
+            "key": "10.86"
         }, 
         {
-            "community": 224, 
-            "id": "bury (the dead)", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "4.78", 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 224, 
+            "id": "secret", 
+            "key": "17.36"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_31_sow", 
@@ -80,25 +94,19 @@
                     7.0, 
                     44.14414414414414
                 ]
-            ]
+            ], 
+            "community": 224, 
+            "id": "bury (the dead)", 
+            "key": "4.78"
         }, 
         {
-            "community": 224, 
-            "id": "secret", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "17.36", 
-            "out_edge": []
-        }, 
-        {
-            "community": 224, 
-            "id": "rudder", 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "10.86", 
-            "out_edge": []
+            "out_edge": [], 
+            "community": 224, 
+            "id": "hide, conceal", 
+            "key": "12.27"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

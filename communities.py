@@ -14,6 +14,7 @@ import igraph as ig
 import networkx as nx
 from clics_lib.gml2json import graph2json
 from sys import argv
+import numpy as np
 
 # read the graph from gml
 g = ig.read("output/clics_b.gml")
@@ -81,6 +82,20 @@ for edge in g.es:
                 families = edge['families']
                 )
 
+# calculate scaled weights for edge widths
+all_weights = []
+for nA,nB,d in newg.edges(data=True):
+
+    w = int(d['weight']+0.5)
+
+    all_weights += [w - w % 50]
+
+u_weights = sorted(set(all_weights))
+weight_scale = dict(zip(u_weights,np.linspace(1,10,len(u_weights))))
+for nA,nB,d in newg.edges(data=True):
+    w = int(d['weight']+0.5)
+    w = w - w % 50
+    d['edge_width'] = weight_scale[w]
 
 comms = []
 for i,s in enumerate(communities.subgraphs()):
@@ -156,8 +171,8 @@ import matplotlib.pyplot as plt
 gcoms = []
 
 import os
-os.system('git rm website/data/communities/*.json')
-os.system('rm website/data/communities/*.json')
+os.system('git rm website/clics.de/data/communities/*.json')
+os.system('rm website/clics.de/data/communities/*.json')
 
 # write all communities to separate json-graphs, write names to file
 f = open('output/communitiesNew.csv','w')
@@ -227,3 +242,7 @@ print(a)
 with open('statsoncdec.stats','w') as f:
     f.write(a)
 
+os.system('git add website/clics.de/data/communities/*.json')
+with open('output/clics_c.gml','w') as f:
+    for line in nx.generate_gml(newg):
+        f.write(line+'\n')

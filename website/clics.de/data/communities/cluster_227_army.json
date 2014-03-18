@@ -1,30 +1,30 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 101.58730158730158, 
+                "languages": 11.0, 
                 "id": "soldier", 
-                "families": 8.0, 
-                "languages": 11.0
+                "edge_width": 1.5294117647058822, 
+                "weight": 101.58730158730158, 
+                "families": 8.0
             }
         ], 
         [
             {
-                "weight": 101.58730158730158, 
+                "languages": 11.0, 
                 "id": "army", 
-                "families": 8.0, 
-                "languages": 11.0
+                "edge_width": 1.5294117647058822, 
+                "weight": 101.58730158730158, 
+                "families": 8.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 227, 
-            "id": "army", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "20.15", 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_88_anger", 
@@ -32,17 +32,19 @@
                     4.0, 
                     20.77922077922078
                 ]
-            ]
+            ], 
+            "community": 227, 
+            "id": "army", 
+            "key": "20.15"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 227, 
             "id": "soldier", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.17", 
-            "out_edge": []
+            "key": "20.17"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

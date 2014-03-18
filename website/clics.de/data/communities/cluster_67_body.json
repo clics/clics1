@@ -1,115 +1,152 @@
 {
-    "nodes": [
-        {
-            "key": "3.65", 
-            "community": 67, 
-            "id": "fish", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.13", 
-            "community": 67, 
-            "id": "flesh", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "5.61", 
-            "community": 67, 
-            "id": "meat", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.11", 
-            "community": 67, 
-            "id": "body", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "flesh"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "meat"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "fish"
-            }, 
-            {
-                "weight": 9.7352941176470598, 
-                "languages": 106.0, 
-                "families": 40.0, 
-                "id": "meat"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 33.0, 
-                "families": 12.0, 
-                "id": "body"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "fish"
-            }, 
-            {
-                "weight": 9.7352941176470598, 
-                "languages": 106.0, 
-                "families": 40.0, 
-                "id": "flesh"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "body"
-            }
-        ], 
-        [
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 33.0, 
-                "families": 12.0, 
-                "id": "flesh"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "meat"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "body"
+                "id": "body", 
+                "edge_width": 1.0, 
+                "weight": 0.8403361344537815, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 33.0, 
+                "id": "flesh", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.8490566037736, 
+                "families": 12.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "meat", 
+                "edge_width": 1.0, 
+                "weight": 21.367521367521366, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "id": "body", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.8490566037736, 
+                "families": 12.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "fish", 
+                "edge_width": 1.0, 
+                "weight": 7.627118644067797, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 106.0, 
+                "id": "meat", 
+                "edge_width": 9.7352941176470598, 
+                "weight": 2000.0, 
+                "families": 40.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "flesh", 
+                "edge_width": 1.0, 
+                "weight": 7.627118644067797, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "meat", 
+                "edge_width": 1.0, 
+                "weight": 13.223140495867769, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "body", 
+                "edge_width": 1.0, 
+                "weight": 21.367521367521366, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 106.0, 
+                "id": "flesh", 
+                "edge_width": 9.7352941176470598, 
+                "weight": 2000.0, 
+                "families": 40.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "fish", 
+                "edge_width": 1.0, 
+                "weight": 13.223140495867769, 
+                "families": 4.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [
+                [
+                    "cluster_202_die, dead", 
+                    "corpse", 
+                    7.0, 
+                    44.14414414414414
+                ], 
+                [
+                    "cluster_4_tree", 
+                    "tree trunk", 
+                    6.0, 
+                    32.432432432432435
+                ], 
+                [
+                    "cluster_27_relatives, kinsmen", 
+                    "person, human being", 
+                    5.0, 
+                    21.367521367521366
+                ]
+            ], 
+            "community": 67, 
+            "id": "body", 
+            "key": "4.11"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 1, 
+            "out_edge": [], 
+            "community": 67, 
+            "id": "flesh", 
+            "key": "4.13"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 67, 
+            "id": "fish", 
+            "key": "3.65"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_51_cattle (bovine)", 
+                    "animal", 
+                    6.0, 
+                    33.64485981308411
+                ]
+            ], 
+            "community": 67, 
+            "id": "meat", 
+            "key": "5.61"
+        }
+    ], 
+    "graph": []
 }

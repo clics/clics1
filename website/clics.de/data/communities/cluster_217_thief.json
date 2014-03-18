@@ -1,50 +1,50 @@
 {
-    "nodes": [
-        {
-            "key": "21.51", 
-            "community": 217, 
-            "id": "steal", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "21.52", 
-            "community": 217, 
-            "id": "thief", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 69.0, 
+                "languages": 1.0, 
+                "id": "thief", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
                 "languages": 10.0, 
-                "families": 9.0, 
+                "id": "steal", 
                 "edge_width": 1.2647058823529411, 
-                "id": "thief"
+                "weight": 69.0, 
+                "families": 9.0
             }
         ], 
         [
             {
-                "weight": 69.0, 
                 "languages": 10.0, 
-                "families": 9.0, 
+                "id": "thief", 
                 "edge_width": 1.2647058823529411, 
-                "id": "steal"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "thief"
+                "weight": 69.0, 
+                "families": 9.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 217, 
+            "id": "thief", 
+            "key": "21.52"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 217, 
+            "id": "steal", 
+            "key": "21.51"
+        }
+    ], 
+    "graph": []
 }

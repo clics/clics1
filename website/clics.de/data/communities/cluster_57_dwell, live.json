@@ -1,33 +1,201 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "id": "sit", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "live, living, life", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "remain, stay", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 53.0, 
+                "id": "dwell, live", 
+                "edge_width": 2.8529411764705883, 
+                "weight": 353.0, 
+                "families": 19.0
+            }
+        ], 
+        [
+            {
+                "languages": 13.0, 
+                "id": "sit", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "remain, stay", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "dwell, live", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "remains, left overs", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "live, living, life", 
+                "edge_width": 1.0, 
+                "weight": 13.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "crouch", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "sit", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 57.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 22.0, 
+                "id": "dwell, live", 
+                "edge_width": 2.3235294117647056, 
+                "weight": 258.0, 
+                "families": 16.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "remain, stay", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "id": "sit", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 90.0, 
+                "families": 10.0
+            }, 
+            {
+                "languages": 53.0, 
+                "id": "live, living, life", 
+                "edge_width": 2.8529411764705883, 
+                "weight": 353.0, 
+                "families": 19.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "crouch", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 22.0, 
+                "id": "remain, stay", 
+                "edge_width": 2.3235294117647056, 
+                "weight": 258.0, 
+                "families": 16.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "dwell, live", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "live, living, life", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 13.0, 
+                "id": "crouch", 
+                "edge_width": 1.0, 
+                "weight": 22.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "remain, stay", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 57.0, 
+                "families": 8.0
+            }, 
+            {
+                "languages": 15.0, 
+                "id": "dwell, live", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 90.0, 
+                "families": 10.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "7.11", 
-            "community": 57, 
-            "id": "dwell, live", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_44_green, unripe", 
+                    "raw", 
+                    5.0, 
+                    21.0
+                ]
+            ], 
+            "community": 57, 
+            "id": "live, living, life", 
+            "key": "4.74"
         }, 
         {
-            "key": "12.17", 
-            "community": 57, 
-            "id": "remains, left overs", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 57, 
+            "id": "crouch", 
+            "key": "10.413"
         }, 
         {
-            "key": "12.13", 
-            "community": 57, 
-            "id": "sit", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "12.16", 
-            "community": 57, 
-            "id": "remain, stay", 
             "out_edge": [
                 [
                     "cluster_35_finish", 
@@ -36,202 +204,34 @@
                     14.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 57, 
+            "id": "remain, stay", 
+            "key": "12.16"
         }, 
         {
-            "key": "10.413", 
-            "community": 57, 
-            "id": "crouch", 
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 57, 
+            "id": "remains, left overs", 
+            "key": "12.17"
         }, 
         {
-            "key": "4.74", 
-            "community": 57, 
-            "id": "live, living, life", 
-            "out_edge": [
-                [
-                    "cluster_44_wet, damp", 
-                    "raw", 
-                    5.0, 
-                    21.0
-                ]
-            ], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 57, 
+            "id": "dwell, live", 
+            "key": "7.11"
+        }, 
+        {
+            "swadesh100": 1, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 57, 
+            "id": "sit", 
+            "key": "12.13"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 258.0, 
-                "languages": 22.0, 
-                "families": 16.0, 
-                "edge_width": 2.3235294117647056, 
-                "id": "remain, stay"
-            }, 
-            {
-                "weight": 353.0, 
-                "languages": 53.0, 
-                "families": 19.0, 
-                "edge_width": 2.8529411764705883, 
-                "id": "live, living, life"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "dwell, live"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "crouch"
-            }, 
-            {
-                "weight": 90.0, 
-                "languages": 15.0, 
-                "families": 10.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "sit"
-            }
-        ], 
-        [
-            {
-                "weight": 3.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "remain, stay"
-            }
-        ], 
-        [
-            {
-                "weight": 57.0, 
-                "languages": 10.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "remain, stay"
-            }, 
-            {
-                "weight": 90.0, 
-                "languages": 15.0, 
-                "families": 10.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "dwell, live"
-            }, 
-            {
-                "weight": 22.0, 
-                "languages": 13.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "crouch"
-            }, 
-            {
-                "weight": 20.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "live, living, life"
-            }
-        ], 
-        [
-            {
-                "weight": 57.0, 
-                "languages": 10.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "sit"
-            }, 
-            {
-                "weight": 258.0, 
-                "languages": 22.0, 
-                "families": 16.0, 
-                "edge_width": 2.3235294117647056, 
-                "id": "dwell, live"
-            }, 
-            {
-                "weight": 3.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "remains, left overs"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "crouch"
-            }, 
-            {
-                "weight": 13.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "live, living, life"
-            }
-        ], 
-        [
-            {
-                "weight": 22.0, 
-                "languages": 13.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "sit"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "dwell, live"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "remain, stay"
-            }
-        ], 
-        [
-            {
-                "weight": 20.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "sit"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "live, living, life"
-            }, 
-            {
-                "weight": 353.0, 
-                "languages": 53.0, 
-                "families": 19.0, 
-                "edge_width": 2.8529411764705883, 
-                "id": "dwell, live"
-            }, 
-            {
-                "weight": 13.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "remain, stay"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

@@ -1,69 +1,137 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 14.0, 
+                "id": "waist", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "part, piece", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 21.0, 
+                "id": "half", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 186.0, 
+                "families": 14.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "navel", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "id": "middle, center", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "belt, girdle", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "half", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "middle, center", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "half", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 80.0, 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "waist", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "id": "middle, center", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 186.0, 
+                "families": 14.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "waist", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "part, piece", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 80.0, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "half", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "middle, center", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "13.24", 
-            "community": 85, 
-            "id": "half", 
-            "out_edge": [
-                [
-                    "cluster_25_shore", 
-                    "side", 
-                    6.0, 
-                    32.0
-                ]
-            ], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.43", 
-            "community": 85, 
-            "id": "navel", 
             "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.57", 
-            "community": 85, 
-            "id": "belt, girdle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.37", 
             "community": 85, 
             "id": "middle, center", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "key": "12.37"
         }, 
         {
-            "key": "13.23", 
-            "community": 85, 
-            "id": "part, piece", 
-            "out_edge": [
-                [
-                    "cluster_100_some", 
-                    "some", 
-                    4.0, 
-                    15.0
-                ], 
-                [
-                    "cluster_25_shore", 
-                    "side", 
-                    4.0, 
-                    14.0
-                ]
-            ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.462", 
-            "community": 85, 
-            "id": "waist", 
+            "swadesh100": 0, 
+            "body_part": 1, 
             "out_edge": [
                 [
                     "cluster_12_leg", 
@@ -78,130 +146,62 @@
                     31.0
                 ]
             ], 
+            "community": 85, 
+            "id": "waist", 
+            "key": "4.462"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_100_some", 
+                    "some", 
+                    4.0, 
+                    15.0
+                ], 
+                [
+                    "cluster_25_edge", 
+                    "side", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "community": 85, 
+            "id": "part, piece", 
+            "key": "13.23"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 85, 
+            "id": "belt, girdle", 
+            "key": "6.57"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_25_edge", 
+                    "side", 
+                    6.0, 
+                    32.0
+                ]
+            ], 
+            "community": 85, 
+            "id": "half", 
+            "key": "13.24"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 1, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 85, 
+            "id": "navel", 
+            "key": "4.43"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "half"
-            }, 
-            {
-                "weight": 186.0, 
-                "languages": 21.0, 
-                "families": 14.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "middle, center"
-            }, 
-            {
-                "weight": 80.0, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "part, piece"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "waist"
-            }
-        ], 
-        [
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "middle, center"
-            }
-        ], 
-        [
-            {
-                "weight": 8.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "waist"
-            }
-        ], 
-        [
-            {
-                "weight": 186.0, 
-                "languages": 21.0, 
-                "families": 14.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "half"
-            }, 
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "navel"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "part, piece"
-            }, 
-            {
-                "weight": 75.0, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "waist"
-            }
-        ], 
-        [
-            {
-                "weight": 80.0, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "half"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "middle, center"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "half"
-            }, 
-            {
-                "weight": 75.0, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "middle, center"
-            }, 
-            {
-                "weight": 8.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "belt, girdle"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

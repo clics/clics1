@@ -1,272 +1,297 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 10.0, 
+                "id": "stir, mix", 
+                "edge_width": 1.0, 
+                "weight": 47.11538461538461, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "owl", 
+                "edge_width": 1.0, 
+                "weight": 0.7874015748031495, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shake", 
+                "edge_width": 1.0, 
+                "weight": 0.8264462809917356, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "id": "shake", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.70093457943925, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "earthquake", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "move", 
+                "edge_width": 1.0, 
+                "weight": 0.8695652173913043, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "stir, mix", 
+                "edge_width": 1.0, 
+                "weight": 0.8620689655172413, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "move", 
+                "edge_width": 1.0, 
+                "weight": 7.964601769911504, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "earthquake", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "shiver", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 75.70093457943925, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "owl", 
+                "edge_width": 1.0, 
+                "weight": 0.8264462809917356, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "stir, mix", 
+                "edge_width": 1.0, 
+                "weight": 14.15929203539823, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "move", 
+                "edge_width": 1.0, 
+                "weight": 3.7735849056603774, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shiver", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "shake", 
+                "edge_width": 1.0, 
+                "weight": 0.9345794392523363, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "shake", 
+                "edge_width": 1.0, 
+                "weight": 7.964601769911504, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "earthquake", 
+                "edge_width": 1.0, 
+                "weight": 3.7735849056603774, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shiver", 
+                "edge_width": 1.0, 
+                "weight": 0.8695652173913043, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "stir, mix", 
+                "edge_width": 1.0, 
+                "weight": 32.432432432432435, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "stir, mix", 
+                "edge_width": 1.0, 
+                "weight": 23.364485981308412, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "id": "knead", 
+                "edge_width": 1.0, 
+                "weight": 47.11538461538461, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "row (vb)", 
+                "edge_width": 1.0, 
+                "weight": 23.364485981308412, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "shiver", 
+                "edge_width": 1.0, 
+                "weight": 0.8620689655172413, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "shake", 
+                "edge_width": 1.0, 
+                "weight": 14.15929203539823, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "move", 
+                "edge_width": 1.0, 
+                "weight": 32.432432432432435, 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 92, 
-            "id": "knead", 
-            "key": "5.54", 
             "out_edge": [
                 [
                     "cluster_58_squeeze, wring", 
                     "press", 
                     4.0, 
-                    1.1627906976744187
+                    15.238095238095239
                 ]
             ], 
-            "swadesh100": 0
+            "community": 92, 
+            "id": "knead", 
+            "key": "5.54"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
+            "out_edge": [], 
             "community": 92, 
-            "id": "move", 
-            "key": "10.11", 
+            "id": "owl", 
+            "key": "3.596"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 92, 
+            "id": "shiver", 
+            "key": "4.68"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 92, 
+            "id": "shake", 
+            "key": "10.26"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 92, 
+            "id": "earthquake", 
+            "key": "1.45"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_56_go", 
                     "walk", 
                     5.0, 
-                    1.2441860465116279
+                    21.551724137931032
                 ], 
                 [
-                    "cluster_10_lend", 
+                    "cluster_10_betray", 
                     "change", 
                     4.0, 
-                    1.1627906976744187
+                    14.814814814814813
                 ], 
                 [
                     "cluster_56_go", 
                     "go", 
                     4.0, 
-                    1.1511627906976745
+                    13.675213675213676
                 ]
             ], 
-            "swadesh100": 0
+            "community": 92, 
+            "id": "move", 
+            "key": "10.11"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 92, 
-            "id": "row (vb)", 
-            "key": "10.852", 
             "out_edge": [
                 [
-                    "cluster_134_paddle (noun)", 
+                    "cluster_134_oar", 
                     "oar", 
                     5.0, 
-                    1.3023255813953489
+                    26.595744680851062
                 ]
             ], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
             "community": 92, 
-            "id": "earthquake", 
-            "key": "1.45", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "id": "row (vb)", 
+            "key": "10.852"
         }, 
         {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "community": 92, 
-            "id": "shiver", 
-            "key": "4.68", 
             "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
-            "community": 92, 
-            "id": "owl", 
-            "key": "3.596", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
-            "community": 92, 
-            "id": "shake", 
-            "key": "10.26", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
             "community": 92, 
             "id": "stir, mix", 
-            "key": "5.49", 
-            "out_edge": [], 
-            "swadesh100": 0
+            "key": "5.49"
         }
     ], 
-    "adjacency": [
-        [
-            {
-                "languages": 10.0, 
-                "weight": 1.5348837209302326, 
-                "families": 7.0, 
-                "id": "stir, mix"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "shiver"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.0813953488372092, 
-                "families": 3.0, 
-                "id": "shake"
-            }, 
-            {
-                "languages": 9.0, 
-                "weight": 1.3604651162790697, 
-                "families": 6.0, 
-                "id": "stir, mix"
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0348837209302326, 
-                "families": 2.0, 
-                "id": "earthquake"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "weight": 1.2558139534883721, 
-                "families": 5.0, 
-                "id": "stir, mix"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "weight": 1.0348837209302326, 
-                "families": 2.0, 
-                "id": "move"
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "shake"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "shiver"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "move"
-            }, 
-            {
-                "languages": 10.0, 
-                "weight": 1.8720930232558139, 
-                "families": 9.0, 
-                "id": "shake"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "stir, mix"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "earthquake"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "owl"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "shake"
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "weight": 1.8720930232558139, 
-                "families": 9.0, 
-                "id": "shiver"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "owl"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.1511627906976745, 
-                "families": 4.0, 
-                "id": "stir, mix"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.0813953488372092, 
-                "families": 3.0, 
-                "id": "move"
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "earthquake"
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "weight": 1.5348837209302326, 
-                "families": 7.0, 
-                "id": "knead"
-            }, 
-            {
-                "languages": 9.0, 
-                "weight": 1.3604651162790697, 
-                "families": 6.0, 
-                "id": "move"
-            }, 
-            {
-                "languages": 5.0, 
-                "weight": 1.2558139534883721, 
-                "families": 5.0, 
-                "id": "row (vb)"
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.1511627906976745, 
-                "families": 4.0, 
-                "id": "shake"
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0, 
-                "id": "shiver"
-            }
-        ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    "graph": []
 }

@@ -1,41 +1,43 @@
 {
-    "nodes": [
-        {
-            "key": "16.25", 
-            "community": 168, 
-            "id": "laugh", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.251", 
-            "community": 168, 
-            "id": "smile", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 3.6470588235294117, 
                 "languages": 37.0, 
-                "families": 22.0, 
-                "id": "smile"
+                "id": "smile", 
+                "edge_width": 3.6470588235294117, 
+                "weight": 520.4301075268817, 
+                "families": 22.0
             }
         ], 
         [
             {
-                "weight": 3.6470588235294117, 
                 "languages": 37.0, 
-                "families": 22.0, 
-                "id": "laugh"
+                "id": "laugh", 
+                "edge_width": 3.6470588235294117, 
+                "weight": 520.4301075268817, 
+                "families": 22.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 168, 
+            "id": "laugh", 
+            "key": "16.25"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 168, 
+            "id": "smile", 
+            "key": "16.251"
+        }
+    ], 
+    "graph": []
 }

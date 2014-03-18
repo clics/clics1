@@ -1,113 +1,122 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 3.0, 
-                "weight": 1.0, 
-                "id": "jewel", 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "rattle", 
-                "families": 1.0
-            }, 
-            {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "flower", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
                 "families": 2.0
             }
         ], 
         [
             {
-                "languages": 3.0, 
-                "weight": 1.0, 
-                "id": "ornament, adornment", 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "jewel", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "ornament, adornment", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
                 "languages": 2.0, 
-                "weight": 1.0, 
-                "id": "ornament, adornment", 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "bunch", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "ornament, adornment", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
                 "families": 2.0
             }
         ], 
         [
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "flower", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
                 "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "rattle", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "jewel", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "ornament, adornment", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "ornament, adornment", 
+                "edge_width": 1.0, 
+                "weight": 14.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "jewel", 
+                "edge_width": 1.0, 
+                "weight": 2.0, 
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 216, 
-            "body_part": 0, 
-            "id": "ornament, adornment", 
-            "key": "6.71"
+            "id": "bunch", 
+            "key": "5.712"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 216, 
-            "body_part": 0, 
-            "id": "jewel", 
-            "key": "6.72"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 216, 
-            "body_part": 0, 
-            "id": "rattle", 
-            "key": "18.74"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 216, 
-            "body_part": 0, 
             "id": "flower", 
             "key": "8.57"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 216, 
+            "id": "ornament, adornment", 
+            "key": "6.71"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "id": "bunch", 
-            "key": "5.712"
+            "out_edge": [], 
+            "community": 216, 
+            "id": "rattle", 
+            "key": "18.74"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 216, 
+            "id": "jewel", 
+            "key": "6.72"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

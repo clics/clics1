@@ -1,86 +1,70 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
+                "languages": 46.0, 
+                "id": "toe", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 208.33333333333334, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "thumb", 
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 46.0, 
+                "id": "finger", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 208.33333333333334, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "toe", 
+                "edge_width": 1.0, 
                 "weight": 0.8403361344537815, 
-                "id": "toe", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }, 
             {
-                "weight": 208.33333333333334, 
-                "id": "finger", 
-                "families": 15.0, 
-                "languages": 46.0
-            }, 
-            {
-                "weight": 0.8849557522123894, 
+                "languages": 1.0, 
                 "id": "thumb", 
-                "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.0, 
+                "weight": 0.8849557522123894, 
+                "families": 1.0
             }
         ], 
         [
             {
-                "weight": 208.33333333333334, 
-                "id": "toe", 
-                "families": 15.0, 
-                "languages": 46.0
-            }, 
-            {
-                "weight": 3.4782608695652173, 
-                "id": "thumb", 
-                "families": 2.0, 
-                "languages": 2.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.8849557522123894, 
-                "id": "toe", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 3.4782608695652173, 
+                "languages": 2.0, 
                 "id": "finger", 
-                "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "weight": 3.4782608695652173, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "toe", 
+                "edge_width": 1.0, 
+                "weight": 0.8849557522123894, 
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 204, 
-            "id": "toe", 
-            "body_part": 1, 
             "swadesh100": 0, 
-            "key": "4.38", 
+            "body_part": 1, 
             "out_edge": [
                 [
-                    "cluster_108_claw", 
-                    "claw", 
-                    5.0, 
-                    22.321428571428573
-                ], 
-                [
-                    "cluster_15_leg", 
-                    "foot", 
-                    4.0, 
-                    13.333333333333334
-                ]
-            ]
-        }, 
-        {
-            "community": 204, 
-            "id": "finger", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.34", 
-            "out_edge": [
-                [
-                    "cluster_108_claw", 
+                    "cluster_108_fingernail", 
                     "claw", 
                     6.0, 
                     31.57894736842105
@@ -91,17 +75,40 @@
                     6.0, 
                     29.75206611570248
                 ]
-            ]
+            ], 
+            "community": 204, 
+            "id": "finger", 
+            "key": "4.34"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [
+                [
+                    "cluster_108_fingernail", 
+                    "claw", 
+                    5.0, 
+                    22.321428571428573
+                ], 
+                [
+                    "cluster_15_leg", 
+                    "foot", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ], 
+            "community": 204, 
+            "id": "toe", 
+            "key": "4.38"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 1, 
+            "out_edge": [], 
             "community": 204, 
             "id": "thumb", 
-            "body_part": 1, 
-            "swadesh100": 0, 
-            "key": "4.342", 
-            "out_edge": []
+            "key": "4.342"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

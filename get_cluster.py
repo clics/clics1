@@ -13,7 +13,7 @@ import networkx as nx
 import igraph as ig
 from sys import argv
 
-gml = ig.read('output/clics.gml')
+gml = ig.read('output/clics_b.gml')
 
 g = nx.Graph()
 
@@ -21,7 +21,7 @@ for edge in gml.es:
     source = gml.vs[edge.source]['concept']
     target = gml.vs[edge.target]['concept']
     weight = edge['weight']
-    g.add_edge(source,target,weight=weight)
+    g.add_edge(source,target,**edge.attributes())
 
 subg = nx.Graph()
 queue = [(argv[1], g.edge[argv[1]],0)]
@@ -40,9 +40,9 @@ while queue:
     if generation > 2:
         break
 
-nx.write_gml(subg, argv[1]+str(len(subg.nodes()))+'.gml')
+nx.write_gml(subg, 'output/'+argv[1]+str(len(subg.nodes()))+'.gml')
 
 from clics_lib.gml2json import *
-gml2json(argv[1]+str(len(subg.nodes()))+'.gml')
+gml2json('output/'+argv[1]+str(len(subg.nodes()))+'.gml')
 
 

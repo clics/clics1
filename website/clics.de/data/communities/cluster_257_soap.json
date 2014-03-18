@@ -1,63 +1,67 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
+                "languages": 1.0, 
+                "id": "soap", 
+                "edge_width": 1.0, 
                 "weight": 0.9803921568627451, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "soap", 
+                "edge_width": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
                 "id": "vomit", 
-                "families": 1.0, 
-                "languages": 1.0
+                "edge_width": 1.0, 
+                "weight": 0.9803921568627451, 
+                "families": 1.0
             }, 
             {
-                "weight": 1.0, 
+                "languages": 1.0, 
                 "id": "foam", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 0.9803921568627451, 
-                "id": "soap", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
+                "edge_width": 1.0, 
                 "weight": 1.0, 
-                "id": "soap", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 257, 
-            "id": "soap", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "6.95", 
-            "out_edge": []
-        }, 
-        {
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 257, 
             "id": "vomit", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "4.57", 
-            "out_edge": []
+            "key": "4.57"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 257, 
             "id": "foam", 
-            "body_part": 0, 
+            "key": "1.324"
+        }, 
+        {
             "swadesh100": 0, 
-            "key": "1.324", 
-            "out_edge": []
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 257, 
+            "id": "soap", 
+            "key": "6.95"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

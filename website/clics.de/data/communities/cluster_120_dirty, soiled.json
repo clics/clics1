@@ -1,38 +1,67 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 3.0, 
+                "id": "dirty, soiled", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 33.0, 
+                "id": "ugly", 
+                "edge_width": 3.6470588235294117, 
+                "weight": 523.0, 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "bad", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "dirty, soiled", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "ugly", 
+                "edge_width": 1.0, 
+                "weight": 42.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "id": "bad", 
+                "edge_width": 3.6470588235294117, 
+                "weight": 523.0, 
+                "families": 23.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "dirty, soiled", 
+                "edge_width": 1.0, 
+                "weight": 42.0, 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "15.88", 
-            "community": 120, 
-            "id": "dirty, soiled", 
-            "out_edge": [
-                [
-                    "cluster_67_dark (in color)", 
-                    "black", 
-                    5.0, 
-                    20.0
-                ], 
-                [
-                    "cluster_67_dark (in color)", 
-                    "dark (in color)", 
-                    4.0, 
-                    14.0
-                ]
-            ], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.82", 
-            "community": 120, 
-            "id": "ugly", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "16.72", 
-            "community": 120, 
-            "id": "bad", 
             "out_edge": [
                 [
                     "cluster_22_guilty", 
@@ -47,68 +76,39 @@
                     13.0
                 ]
             ], 
+            "community": 120, 
+            "id": "bad", 
+            "key": "16.72"
+        }, 
+        {
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_67_dark (in color)", 
+                    "black", 
+                    5.0, 
+                    20.0
+                ], 
+                [
+                    "cluster_67_dark (in color)", 
+                    "dark (in color)", 
+                    4.0, 
+                    14.0
+                ]
+            ], 
+            "community": 120, 
+            "id": "dirty, soiled", 
+            "key": "15.88"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 120, 
+            "id": "ugly", 
+            "key": "16.82"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "dirty, soiled"
-            }, 
-            {
-                "weight": 42.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "ugly"
-            }, 
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "bad"
-            }
-        ], 
-        [
-            {
-                "weight": 42.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "dirty, soiled"
-            }, 
-            {
-                "weight": 523.0, 
-                "languages": 33.0, 
-                "families": 23.0, 
-                "edge_width": 3.6470588235294117, 
-                "id": "bad"
-            }
-        ], 
-        [
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "dirty, soiled"
-            }, 
-            {
-                "weight": 523.0, 
-                "languages": 33.0, 
-                "families": 23.0, 
-                "edge_width": 3.6470588235294117, 
-                "id": "ugly"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

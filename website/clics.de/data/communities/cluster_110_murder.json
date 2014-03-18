@@ -1,94 +1,100 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 5.0, 
-                "weight": 1.0408163265306123, 
-                "id": "extinguish", 
-                "families": 4.0
+                "languages": 30.0, 
+                "id": "kill", 
+                "edge_width": 3.1176470588235294, 
+                "weight": 404.04040404040404, 
+                "families": 20.0
             }, 
             {
-                "languages": 30.0, 
-                "weight": 2.6326530612244898, 
-                "id": "kill", 
-                "families": 20.0
+                "languages": 5.0, 
+                "id": "extinguish", 
+                "edge_width": 1.0, 
+                "weight": 14.545454545454545, 
+                "families": 4.0
             }
         ], 
         [
             {
-                "languages": 5.0, 
-                "weight": 1.0408163265306123, 
+                "languages": 30.0, 
                 "id": "murder", 
-                "families": 4.0
+                "edge_width": 3.1176470588235294, 
+                "weight": 404.04040404040404, 
+                "families": 20.0
             }, 
             {
                 "languages": 15.0, 
-                "weight": 1.2040816326530612, 
-                "id": "kill", 
+                "id": "extinguish", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.65217391304348, 
                 "families": 8.0
             }
         ], 
         [
             {
-                "languages": 30.0, 
-                "weight": 2.6326530612244898, 
+                "languages": 5.0, 
                 "id": "murder", 
-                "families": 20.0
+                "edge_width": 1.0, 
+                "weight": 14.545454545454545, 
+                "families": 4.0
             }, 
             {
                 "languages": 15.0, 
-                "weight": 1.2040816326530612, 
-                "id": "extinguish", 
+                "id": "kill", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 55.65217391304348, 
                 "families": 8.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 110, 
-            "body_part": 0, 
             "id": "murder", 
             "key": "21.42"
         }, 
         {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 110, 
-            "body_part": 0, 
-            "id": "extinguish", 
-            "key": "1.861"
-        }, 
-        {
             "swadesh100": 1, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_85_strike (hit, beat)", 
                     "strike (hit, beat)", 
                     8.0, 
-                    1.2040816326530612
+                    54.700854700854705
+                ], 
+                [
+                    "cluster_125_dig", 
+                    "stab", 
+                    4.0, 
+                    13.675213675213676
                 ], 
                 [
                     "cluster_88_anger", 
                     "fight (vb)", 
                     4.0, 
-                    1.0408163265306123
-                ], 
-                [
-                    "cluster_125_hollow out", 
-                    "stab", 
-                    4.0, 
-                    1.0408163265306123
+                    13.223140495867769
                 ]
             ], 
             "community": 110, 
-            "body_part": 0, 
             "id": "kill", 
             "key": "4.76"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 110, 
+            "id": "extinguish", 
+            "key": "1.861"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

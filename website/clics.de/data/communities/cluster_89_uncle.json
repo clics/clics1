@@ -1,139 +1,90 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 23.14814814814815, 
-                "id": "father", 
-                "families": 5.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 653.0864197530864, 
-                "id": "father's brother", 
-                "families": 23.0, 
-                "languages": 68.0
-            }, 
-            {
+                "languages": 73.0, 
+                "id": "uncle", 
+                "edge_width": 5.7647058823529411, 
                 "weight": 972.0000000000001, 
-                "id": "mother's brother", 
-                "families": 27.0, 
-                "languages": 73.0
-            }
-        ], 
-        [
-            {
-                "weight": 23.14814814814815, 
-                "id": "uncle", 
-                "families": 5.0, 
-                "languages": 8.0
+                "families": 27.0
             }, 
             {
-                "weight": 112.03703703703705, 
+                "languages": 44.0, 
                 "id": "father's brother", 
-                "families": 11.0, 
-                "languages": 18.0
-            }
-        ], 
-        [
-            {
-                "weight": 653.0864197530864, 
-                "id": "uncle", 
-                "families": 23.0, 
-                "languages": 68.0
-            }, 
-            {
-                "weight": 112.03703703703705, 
-                "id": "father", 
-                "families": 11.0, 
-                "languages": 18.0
-            }, 
-            {
+                "edge_width": 2.0588235294117645, 
                 "weight": 241.93548387096774, 
-                "id": "mother's brother", 
-                "families": 15.0, 
-                "languages": 44.0
+                "families": 15.0
             }
         ], 
         [
             {
+                "languages": 73.0, 
+                "id": "mother's brother", 
+                "edge_width": 5.7647058823529411, 
                 "weight": 972.0000000000001, 
-                "id": "uncle", 
-                "families": 27.0, 
-                "languages": 73.0
+                "families": 27.0
             }, 
             {
-                "weight": 241.93548387096774, 
+                "languages": 8.0, 
+                "id": "father", 
+                "edge_width": 1.0, 
+                "weight": 23.14814814814815, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 68.0, 
                 "id": "father's brother", 
-                "families": 15.0, 
-                "languages": 44.0
+                "edge_width": 4.4411764705882355, 
+                "weight": 653.0864197530864, 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "id": "uncle", 
+                "edge_width": 1.0, 
+                "weight": 23.14814814814815, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 18.0, 
+                "id": "father's brother", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 112.03703703703705, 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "languages": 68.0, 
+                "id": "uncle", 
+                "edge_width": 4.4411764705882355, 
+                "weight": 653.0864197530864, 
+                "families": 23.0
+            }, 
+            {
+                "languages": 44.0, 
+                "id": "mother's brother", 
+                "edge_width": 2.0588235294117645, 
+                "weight": 241.93548387096774, 
+                "families": 15.0
+            }, 
+            {
+                "languages": 18.0, 
+                "id": "father", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 112.03703703703705, 
+                "families": 11.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 89, 
-            "id": "uncle", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "2.51", 
-            "out_edge": [
-                [
-                    "cluster_8_mother-in-law (of a woman)", 
-                    "father-in-law (of a man)", 
-                    7.0, 
-                    50.0
-                ], 
-                [
-                    "cluster_107_aunt", 
-                    "aunt", 
-                    6.0, 
-                    39.56043956043956
-                ], 
-                [
-                    "cluster_8_mother-in-law (of a woman)", 
-                    "father-in-law (of a woman)", 
-                    4.0, 
-                    16.842105263157894
-                ]
-            ]
-        }, 
-        {
-            "community": 89, 
-            "id": "father", 
             "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "2.35", 
-            "out_edge": [
-                [
-                    "cluster_8_mother-in-law (of a woman)", 
-                    "stepfather", 
-                    5.0, 
-                    23.58490566037736
-                ]
-            ]
-        }, 
-        {
-            "community": 89, 
-            "id": "father's brother", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "2.512", 
-            "out_edge": [
-                [
-                    "cluster_107_aunt", 
-                    "father's sister", 
-                    4.0, 
-                    15.238095238095239
-                ]
-            ]
-        }, 
-        {
-            "community": 89, 
-            "id": "mother's brother", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "2.511", 
             "out_edge": [
                 [
                     "cluster_8_mother-in-law (of a woman)", 
@@ -153,9 +104,68 @@
                     5.0, 
                     26.041666666666668
                 ]
-            ]
+            ], 
+            "community": 89, 
+            "id": "mother's brother", 
+            "key": "2.511"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a man)", 
+                    7.0, 
+                    50.0
+                ], 
+                [
+                    "cluster_107_aunt", 
+                    "aunt", 
+                    6.0, 
+                    39.56043956043956
+                ], 
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "father-in-law (of a woman)", 
+                    4.0, 
+                    16.842105263157894
+                ]
+            ], 
+            "community": 89, 
+            "id": "uncle", 
+            "key": "2.51"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_8_mother-in-law (of a woman)", 
+                    "stepfather", 
+                    5.0, 
+                    23.58490566037736
+                ]
+            ], 
+            "community": 89, 
+            "id": "father", 
+            "key": "2.35"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_107_aunt", 
+                    "father's sister", 
+                    4.0, 
+                    15.238095238095239
+                ]
+            ], 
+            "community": 89, 
+            "id": "father's brother", 
+            "key": "2.512"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

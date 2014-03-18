@@ -1,9 +1,83 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "id": "mortar", 
+                "edge_width": 1.0, 
+                "weight": 15.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "mill", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "pestle", 
+                "edge_width": 1.0, 
+                "weight": 15.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 10.0, 
+                "id": "mortar", 
+                "edge_width": 1.0, 
+                "weight": 15.0, 
+                "families": 4.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "mill", 
+                "edge_width": 1.0, 
+                "weight": 27.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "pestle", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "mortar", 
+                "edge_width": 1.0, 
+                "weight": 27.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "5.57", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 226, 
-            "id": "mill", 
+            "id": "pestle", 
+            "key": "5.59"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 226, 
+            "id": "mortar", 
+            "key": "5.58"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_56_squeeze, wring", 
@@ -12,84 +86,10 @@
                     16.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.59", 
             "community": 226, 
-            "id": "pestle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "5.58", 
-            "community": 226, 
-            "id": "mortar", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "mill", 
+            "key": "5.57"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "pestle"
-            }, 
-            {
-                "weight": 27.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "mortar"
-            }
-        ], 
-        [
-            {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "edge_width": 1.0, 
-                "id": "mill"
-            }, 
-            {
-                "weight": 15.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "mortar"
-            }
-        ], 
-        [
-            {
-                "weight": 27.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "mill"
-            }, 
-            {
-                "weight": 15.0, 
-                "languages": 5.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "pestle"
-            }, 
-            {
-                "weight": 15.0, 
-                "languages": 10.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "mortar"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

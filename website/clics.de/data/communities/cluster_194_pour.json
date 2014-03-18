@@ -1,78 +1,84 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
-                "weight": 46.75324675324675, 
+                "languages": 28.0, 
                 "id": "pour", 
-                "families": 6.0, 
-                "languages": 28.0
+                "edge_width": 1.0, 
+                "weight": 46.75324675324675, 
+                "families": 6.0
             }, 
             {
-                "weight": 8.51063829787234, 
+                "languages": 2.0, 
                 "id": "forge", 
-                "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "weight": 8.51063829787234, 
+                "families": 2.0
             }
         ], 
         [
             {
-                "weight": 46.75324675324675, 
+                "languages": 28.0, 
                 "id": "cast (metals)", 
-                "families": 6.0, 
-                "languages": 28.0
+                "edge_width": 1.0, 
+                "weight": 46.75324675324675, 
+                "families": 6.0
             }, 
             {
+                "languages": 1.0, 
+                "id": "pour", 
+                "edge_width": 1.0, 
                 "weight": 0.8695652173913043, 
-                "id": "pour", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }
         ], 
         [
             {
+                "languages": 1.0, 
+                "id": "smith, blacksmith", 
+                "edge_width": 1.0, 
                 "weight": 1.5873015873015872, 
-                "id": "smith, blacksmith", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }, 
             {
-                "weight": 7.4074074074074066, 
+                "languages": 2.0, 
                 "id": "forge", 
-                "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "weight": 7.4074074074074066, 
+                "families": 2.0
             }
         ], 
         [
             {
-                "weight": 8.51063829787234, 
+                "languages": 2.0, 
                 "id": "cast (metals)", 
-                "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "weight": 8.51063829787234, 
+                "families": 2.0
             }, 
             {
-                "weight": 7.4074074074074066, 
+                "languages": 2.0, 
                 "id": "smith, blacksmith", 
-                "families": 2.0, 
-                "languages": 2.0
+                "edge_width": 1.0, 
+                "weight": 7.4074074074074066, 
+                "families": 2.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 194, 
             "id": "cast (metals)", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.63", 
-            "out_edge": []
+            "key": "9.63"
         }, 
         {
-            "community": 194, 
-            "id": "pour", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "9.35", 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_80_run", 
@@ -80,25 +86,27 @@
                     5.0, 
                     22.123893805309734
                 ]
-            ]
+            ], 
+            "community": 194, 
+            "id": "pour", 
+            "key": "9.35"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 194, 
             "id": "smith, blacksmith", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.6", 
-            "out_edge": []
+            "key": "9.6"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 194, 
             "id": "forge", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "9.61", 
-            "out_edge": []
+            "key": "9.61"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

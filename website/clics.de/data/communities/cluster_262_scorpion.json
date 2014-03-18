@@ -1,63 +1,67 @@
 {
-    "multigraph": false, 
     "adjacency": [
         [
             {
+                "languages": 4.0, 
+                "id": "scorpion", 
+                "edge_width": 1.0, 
                 "weight": 4.081632653061225, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "scorpion", 
+                "edge_width": 1.0, 
+                "weight": 1.0869565217391304, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
                 "id": "centipede", 
-                "families": 2.0, 
-                "languages": 4.0
+                "edge_width": 1.0, 
+                "weight": 4.081632653061225, 
+                "families": 2.0
             }, 
             {
-                "weight": 1.0869565217391304, 
+                "languages": 1.0, 
                 "id": "stingray", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 4.081632653061225, 
-                "id": "scorpion", 
-                "families": 2.0, 
-                "languages": 4.0
-            }
-        ], 
-        [
-            {
+                "edge_width": 1.0, 
                 "weight": 1.0869565217391304, 
-                "id": "scorpion", 
-                "families": 1.0, 
-                "languages": 1.0
+                "families": 1.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "community": 262, 
-            "id": "scorpion", 
-            "body_part": 0, 
             "swadesh100": 0, 
-            "key": "3.815", 
-            "out_edge": []
-        }, 
-        {
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 262, 
             "id": "centipede", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.814", 
-            "out_edge": []
+            "key": "3.814"
         }, 
         {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 262, 
             "id": "stingray", 
-            "body_part": 0, 
+            "key": "3.664"
+        }, 
+        {
             "swadesh100": 0, 
-            "key": "3.664", 
-            "out_edge": []
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 262, 
+            "id": "scorpion", 
+            "key": "3.815"
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

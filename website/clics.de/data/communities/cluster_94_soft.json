@@ -1,12 +1,184 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "slide, slip", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "smooth", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "id": "slide, slip", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "soft", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.0, 
+                "families": 12.0
+            }, 
+            {
+                "languages": 21.0, 
+                "id": "flat", 
+                "edge_width": 1.0, 
+                "weight": 46.0, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "weak", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "tired, weary", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "soft", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "weak", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "id": "lazy", 
+                "edge_width": 1.0, 
+                "weight": 7.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "weak", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "tired, weary", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "lazy", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "soft", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 14.0, 
+                "id": "smooth", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 135.0, 
+                "families": 12.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "weak", 
+                "edge_width": 1.0, 
+                "weight": 42.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "id": "smooth", 
+                "edge_width": 1.0, 
+                "weight": 46.0, 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "lazy", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "soft", 
+                "edge_width": 1.0, 
+                "weight": 42.0, 
+                "families": 7.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "smooth", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "tired, weary", 
+                "edge_width": 1.0, 
+                "weight": 21.0, 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "15.77", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 94, 
-            "id": "smooth", 
+            "id": "slide, slip", 
+            "key": "10.42"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_11_right, correct", 
+                    "cluster_11_good", 
                     "straight", 
                     7.0, 
                     44.0
@@ -18,13 +190,37 @@
                     14.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 94, 
+            "id": "smooth", 
+            "key": "15.77"
         }, 
         {
-            "key": "12.71", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 94, 
-            "id": "flat", 
+            "id": "lazy", 
+            "key": "4.92"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 94, 
+            "id": "tired, weary", 
+            "key": "4.91"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 94, 
+            "id": "soft", 
+            "key": "15.75"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_20_pasture", 
@@ -33,227 +229,31 @@
                     45.0
                 ], 
                 [
-                    "cluster_11_right, correct", 
+                    "cluster_11_good", 
                     "straight", 
                     6.0, 
                     32.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 94, 
+            "id": "flat", 
+            "key": "12.71"
         }, 
         {
-            "key": "15.75", 
-            "community": 94, 
-            "id": "soft", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.92", 
-            "community": 94, 
-            "id": "lazy", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.91", 
-            "community": 94, 
-            "id": "tired, weary", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.42", 
-            "community": 94, 
-            "id": "slide, slip", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.82", 
-            "community": 94, 
-            "id": "weak", 
             "out_edge": [
                 [
-                    "cluster_185_narrow", 
+                    "cluster_185_thin (in dimension)", 
                     "thin (in dimension)", 
                     4.0, 
                     13.0
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 94, 
+            "id": "weak", 
+            "key": "4.82"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 46.0, 
-                "languages": 21.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "flat"
-            }, 
-            {
-                "weight": 8.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "slide, slip"
-            }, 
-            {
-                "weight": 135.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 46.0, 
-                "languages": 21.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "smooth"
-            }
-        ], 
-        [
-            {
-                "weight": 135.0, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "edge_width": 1.5294117647058822, 
-                "id": "smooth"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 42.0, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "weak"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "soft"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 7.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "weak"
-            }
-        ], 
-        [
-            {
-                "weight": 8.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "smooth"
-            }, 
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "slide, slip"
-            }
-        ], 
-        [
-            {
-                "weight": 0.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "edge_width": 1.0, 
-                "id": "smooth"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "lazy"
-            }, 
-            {
-                "weight": 21.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "tired, weary"
-            }, 
-            {
-                "weight": 42.0, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "edge_width": 1.0, 
-                "id": "soft"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }

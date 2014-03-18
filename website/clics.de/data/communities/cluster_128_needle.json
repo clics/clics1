@@ -1,119 +1,119 @@
 {
-    "nodes": [
-        {
-            "key": "6.63", 
-            "community": 128, 
-            "id": "pin", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.36", 
-            "community": 128, 
-            "id": "needle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.5", 
-            "community": 128, 
-            "id": "nail", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.37", 
-            "community": 128, 
-            "id": "awl", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 196.0, 
-                "languages": 22.0, 
-                "families": 13.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "needle"
-            }, 
-            {
-                "weight": 19.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "nail"
-            }
-        ], 
-        [
-            {
-                "weight": 196.0, 
-                "languages": 22.0, 
-                "families": 13.0, 
-                "edge_width": 1.7941176470588236, 
-                "id": "pin"
-            }, 
-            {
-                "weight": 9.0, 
                 "languages": 3.0, 
-                "families": 3.0, 
+                "id": "needle", 
                 "edge_width": 1.0, 
-                "id": "nail"
-            }, 
-            {
                 "weight": 9.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "awl"
-            }
-        ], 
-        [
-            {
-                "weight": 19.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "edge_width": 1.0, 
-                "id": "pin"
+                "families": 3.0
             }, 
             {
-                "weight": 9.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "edge_width": 1.0, 
-                "id": "needle"
-            }, 
-            {
-                "weight": 4.0, 
                 "languages": 2.0, 
-                "families": 2.0, 
+                "id": "nail", 
                 "edge_width": 1.0, 
-                "id": "awl"
+                "weight": 4.0, 
+                "families": 2.0
             }
         ], 
         [
             {
-                "weight": 9.0, 
                 "languages": 3.0, 
-                "families": 3.0, 
+                "id": "awl", 
                 "edge_width": 1.0, 
-                "id": "needle"
+                "weight": 9.0, 
+                "families": 3.0
             }, 
             {
-                "weight": 4.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
+                "languages": 22.0, 
+                "id": "pin", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 196.0, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "nail", 
                 "edge_width": 1.0, 
-                "id": "nail"
+                "weight": 9.0, 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "languages": 22.0, 
+                "id": "needle", 
+                "edge_width": 1.7941176470588236, 
+                "weight": 196.0, 
+                "families": 13.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "nail", 
+                "edge_width": 1.0, 
+                "weight": 19.0, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "id": "awl", 
+                "edge_width": 1.0, 
+                "weight": 4.0, 
+                "families": 2.0
+            }, 
+            {
+                "languages": 3.0, 
+                "id": "needle", 
+                "edge_width": 1.0, 
+                "weight": 9.0, 
+                "families": 3.0
+            }, 
+            {
+                "languages": 4.0, 
+                "id": "pin", 
+                "edge_width": 1.0, 
+                "weight": 19.0, 
+                "families": 4.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 128, 
+            "id": "awl", 
+            "key": "6.37"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 128, 
+            "id": "needle", 
+            "key": "6.36"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 128, 
+            "id": "pin", 
+            "key": "6.63"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 128, 
+            "id": "nail", 
+            "key": "9.5"
+        }
+    ], 
+    "graph": []
 }

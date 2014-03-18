@@ -1,105 +1,105 @@
 {
-    "nodes": [
-        {
-            "key": "21.39", 
-            "community": 134, 
-            "id": "prison, jail", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.42", 
-            "community": 134, 
-            "id": "slave", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.47", 
-            "community": 134, 
-            "id": "captive, prisoner", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.43", 
-            "community": 134, 
-            "id": "servant", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 29.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "captive, prisoner"
-            }
-        ], 
-        [
-            {
-                "weight": 43.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "captive, prisoner"
-            }, 
-            {
-                "weight": 79.0, 
-                "languages": 19.0, 
-                "families": 8.0, 
-                "edge_width": 1.2647058823529411, 
-                "id": "servant"
-            }
-        ], 
-        [
-            {
-                "weight": 29.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "edge_width": 1.0, 
-                "id": "prison, jail"
-            }, 
-            {
-                "weight": 43.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "edge_width": 1.0, 
-                "id": "slave"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
+                "id": "servant", 
                 "edge_width": 1.0, 
-                "id": "servant"
+                "weight": 1.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 7.0, 
+                "id": "prison, jail", 
+                "edge_width": 1.0, 
+                "weight": 29.0, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 8.0, 
+                "id": "slave", 
+                "edge_width": 1.0, 
+                "weight": 43.0, 
+                "families": 6.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
+                "id": "captive, prisoner", 
                 "edge_width": 1.0, 
-                "id": "captive, prisoner"
+                "weight": 1.0, 
+                "families": 1.0
             }, 
             {
-                "weight": 79.0, 
                 "languages": 19.0, 
-                "families": 8.0, 
+                "id": "slave", 
                 "edge_width": 1.2647058823529411, 
-                "id": "slave"
+                "weight": 79.0, 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "id": "captive, prisoner", 
+                "edge_width": 1.0, 
+                "weight": 29.0, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "id": "captive, prisoner", 
+                "edge_width": 1.0, 
+                "weight": 43.0, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 19.0, 
+                "id": "servant", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 79.0, 
+                "families": 8.0
             }
         ]
     ], 
-    "directed": false
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 134, 
+            "id": "captive, prisoner", 
+            "key": "20.47"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 134, 
+            "id": "servant", 
+            "key": "19.43"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 134, 
+            "id": "prison, jail", 
+            "key": "21.39"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
+            "community": 134, 
+            "id": "slave", 
+            "key": "19.42"
+        }
+    ], 
+    "graph": []
 }

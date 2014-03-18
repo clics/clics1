@@ -1,121 +1,160 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
                 "languages": 3.0, 
-                "weight": 1.0, 
                 "id": "fall", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
                 "families": 3.0
             }, 
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "drop (vb)", 
-                "families": 1.0
+                "languages": 8.0, 
+                "id": "go down", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 62.0, 
+                "families": 8.0
             }, 
             {
-                "languages": 8.0, 
-                "weight": 1.1176470588235294, 
-                "id": "go down", 
-                "families": 8.0
+                "languages": 1.0, 
+                "id": "drop (vb)", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
             }
         ], 
         [
             {
                 "languages": 3.0, 
-                "weight": 1.0, 
                 "id": "land (vb)", 
+                "edge_width": 1.0, 
+                "weight": 8.0, 
                 "families": 3.0
             }, 
             {
                 "languages": 7.0, 
-                "weight": 1.0, 
                 "id": "go down", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
                 "families": 5.0
             }, 
             {
                 "languages": 16.0, 
-                "weight": 1.2352941176470589, 
                 "id": "drop (vb)", 
-                "families": 11.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "land (vb)", 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "weight": 1.0, 
-                "id": "go down", 
-                "families": 2.0
-            }, 
-            {
-                "languages": 16.0, 
-                "weight": 1.2352941176470589, 
-                "id": "fall", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 113.0, 
                 "families": 11.0
             }
         ], 
         [
             {
                 "languages": 8.0, 
-                "weight": 1.1176470588235294, 
                 "id": "land (vb)", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 62.0, 
                 "families": 8.0
             }, 
             {
                 "languages": 7.0, 
-                "weight": 1.0, 
                 "id": "fall", 
+                "edge_width": 1.0, 
+                "weight": 20.0, 
                 "families": 5.0
             }, 
             {
                 "languages": 2.0, 
-                "weight": 1.0, 
                 "id": "drop (vb)", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "land (vb)", 
+                "edge_width": 1.0, 
+                "weight": 0.0, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 16.0, 
+                "id": "fall", 
+                "edge_width": 1.5294117647058822, 
+                "weight": 113.0, 
+                "families": 11.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "go down", 
+                "edge_width": 1.0, 
+                "weight": 3.0, 
                 "families": 2.0
             }
         ]
     ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
             "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 151, 
             "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_54_go", 
+                    "go out", 
+                    4.0, 
+                    15.0
+                ]
+            ], 
+            "community": 151, 
             "id": "land (vb)", 
             "key": "10.92"
         }, 
         {
             "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 151, 
             "body_part": 0, 
+            "out_edge": [
+                [
+                    "cluster_144_grow", 
+                    "born (to be)", 
+                    4.0, 
+                    13.0
+                ]
+            ], 
+            "community": 151, 
             "id": "fall", 
             "key": "10.23"
         }, 
         {
             "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [], 
             "community": 151, 
-            "body_part": 0, 
-            "id": "drop (vb)", 
-            "key": "10.16"
+            "id": "go down", 
+            "key": "10.473"
         }, 
         {
             "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 151, 
             "body_part": 0, 
-            "id": "go down", 
-            "key": "10.473"
+            "out_edge": [
+                [
+                    "cluster_81_forgive", 
+                    "release, let go", 
+                    5.0, 
+                    24.0
+                ], 
+                [
+                    "cluster_207_drip", 
+                    "drip", 
+                    5.0, 
+                    23.0
+                ]
+            ], 
+            "community": 151, 
+            "id": "drop (vb)", 
+            "key": "10.16"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

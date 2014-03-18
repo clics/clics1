@@ -1,151 +1,170 @@
 {
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "id": "if", 
+                "edge_width": 1.0, 
+                "weight": 0.9708737864077669, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 6.0, 
+                "id": "because", 
+                "edge_width": 1.0, 
+                "weight": 36.36363636363637, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 5.0, 
+                "id": "when?", 
+                "edge_width": 1.0, 
+                "weight": 22.93577981651376, 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "id": "if", 
+                "edge_width": 1.0, 
+                "weight": 36.36363636363637, 
+                "families": 6.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "because", 
+                "edge_width": 1.0, 
+                "weight": 0.9523809523809524, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 9.0, 
+                "id": "cause", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 93.10344827586206, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "when?", 
+                "edge_width": 1.0, 
+                "weight": 3.5398230088495577, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "id": "cause", 
+                "edge_width": 1.0, 
+                "weight": 1.36986301369863, 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "id": "if", 
+                "edge_width": 1.0, 
+                "weight": 22.93577981651376, 
+                "families": 5.0
+            }, 
+            {
+                "languages": 2.0, 
+                "id": "because", 
+                "edge_width": 1.0, 
+                "weight": 3.5398230088495577, 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "id": "because", 
+                "edge_width": 1.2647058823529411, 
+                "weight": 93.10344827586206, 
+                "families": 9.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "cause", 
+                "edge_width": 1.0, 
+                "weight": 1.1764705882352942, 
+                "families": 1.0
+            }, 
+            {
+                "languages": 1.0, 
+                "id": "plaintiff", 
+                "edge_width": 1.0, 
+                "weight": 1.36986301369863, 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "17.65", 
-            "community": 145, 
-            "id": "when?", 
-            "out_edge": [], 
+            "swadesh100": 0, 
             "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [], 
+            "community": 145, 
+            "id": "if", 
+            "key": "17.53"
         }, 
         {
-            "key": "17.52", 
-            "community": 145, 
-            "id": "because", 
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_93_how?", 
                     "why?", 
                     4.0, 
-                    1.0
+                    14.814814814814813
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.53", 
             "community": 145, 
-            "id": "if", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "because", 
+            "key": "17.52"
         }, 
         {
-            "key": "21.21", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 145, 
             "id": "plaintiff", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "key": "21.21"
         }, 
         {
-            "key": "17.42", 
+            "swadesh100": 0, 
+            "body_part": 0, 
+            "out_edge": [], 
             "community": 145, 
-            "id": "cause", 
+            "id": "when?", 
+            "key": "17.65"
+        }, 
+        {
+            "swadesh100": 0, 
+            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_33_do, make", 
+                    "cluster_83_forgive", 
+                    "let, permit", 
+                    5.0, 
+                    28.40909090909091
+                ], 
+                [
+                    "cluster_33_build", 
                     "do, make", 
                     5.0, 
-                    1.0
+                    24.752475247524753
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 145, 
+            "id": "cause", 
+            "key": "17.42"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
-    "adjacency": [
-        [
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "if"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "because"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "when?"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "if"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "cause"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "because"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "when?"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "if"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "because"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cause"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cause"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "plaintiff"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
-                "families": 9.0, 
-                "id": "because"
-            }
-        ]
-    ], 
-    "directed": false
+    "graph": []
 }
