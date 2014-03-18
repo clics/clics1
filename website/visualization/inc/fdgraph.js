@@ -495,7 +495,7 @@ function init(filename,coloring){
 	      
 };
 
-init("cluster_73_money.json");
+init("cluster_2_country.json");
       
 //############### listener to community selection ###############
 d3.select('#selectNumber').on('change',function(){

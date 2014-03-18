@@ -40,7 +40,7 @@ The visualization features various interactive functionalities that are designed
 
 \begin{figure}[htbp]
 \begin{center}
-\includegraphics[width=0.48\textwidth]{img/countryconnections}
+\includegraphics[width=0.48\textwidth]{img/earthland.pdf}
 \caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts}
 \label{EarthLand}
 \end{center}
@@ -126,12 +126,17 @@ The  dragging and panning functionalities of the graph are implemented with the 
 In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the location of the languages. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas} for the full list of languages showing this colexification pattern). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
 
 \begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.238\textwidth]{img/moneysilverAreas1.pdf}
-\includegraphics[width=0.238\textwidth]{img/moneysilverAreas2.pdf}
+%\begin{center}
+%\includegraphics[width=0.238\textwidth]{img/moneysilverAreas1.pdf}
+%\includegraphics[width=0.238\textwidth]{img/moneysilverAreas2.pdf}
+\hspace{-0.4cm}
+\begin{tabular}[t]{ll}
+\includegraphics[width=0.238\textwidth]{img/moneysilverAreas1.pdf} &
+\hspace{-0.2cm} \raisebox{2.8cm}{\includegraphics[width=0.238\textwidth]{img/moneysilverAreas2.pdf}}
+\end{tabular}
 \caption{Languages and words contributing to the connections of lexical associations for the concepts ``money'' and ``silver''}
 \label{MoneySilverAreas}
-\end{center}
+%\end{center}
 \end{figure}
 
 \begin{figure*}[htbp]
