@@ -277,7 +277,7 @@ d3.json('data/langsGeo.json',function(langs){
 						//console.log(col);
 						backColor = col;
 					}
-					# taken from http://www.jasondavies.com/coffee-wheel/
+					// taken from http://www.jasondavies.com/coffee-wheel/
 					var fontcolor = brightness(d3.rgb(backColor)) < 125 ? "#eee" : "#000";
 					
 					infolistoutput.push("<td valign=\"top\">" // style=\"background-color:" 
@@ -485,7 +485,7 @@ d3.json('data/langsGeo.json',function(langs){
 		return [L,a,b];
 	};
 	
-	# taken from http://www.jasondavies.com/coffee-wheel/
+	// taken from http://www.jasondavies.com/coffee-wheel/
 	function brightness(rgb) {
   	return rgb.r * .299 + rgb.g * .587 + rgb.b * .114;
 	}
