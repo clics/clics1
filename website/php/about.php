@@ -86,20 +86,37 @@ between possible cognates in the establishment of genetic relations between lang
 <br>
 <table>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Release:</b></td>
+  <th style="background-color:#ffa600;width:100px">Release:</th>
   <td> 1.0 </td>
   <td></td>
 </tr>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
+  <th style="background-color:#ffa600;width:100px">Date:</th>
   <td> TBA </td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Editors:</b></td>
-  <td> Johann-Mattis List, Thomas Mayer, Anselm Terhalle, Matthias Urban </td>
+  <td> 
+    <div class="popup">Johann-Mattis List<sup>1</sup>,<div class="text"><br>Research Center Deutscher Sprachatlas, Philipps-University Marburg<br></div></div> 
+    <div class="popup">Thomas Mayer<sup>1</sup>,<div class="text"><br>Research Center Deutscher Sprachatlas, Philipps-University Marburg<br></div></div>
+    <div class="popup">Anselm Terhalle<sup>2</sup>,<div class="text"><br>Institue for Romance Philology, Heinrich-Heine University Düsseldorf<br></div></div> 
+    <div class="popup">Matthias Urban<sup>3</sup><div class="text"><br>Leiden University Center for Linguistics<br></div></div> 
+  </td>
   <td></td>
-</tr></table>
+</tr>
+<!--<tr>
+  <th style="background-color:#ffa600;width:100px">Projects:</th>
+  <td> 
+    <a href="http://quanthistling.info">Quantitative Historical Linguistics</a> (Philipps-University Marburg) in cooperation with  
+    <a href="http://paralleltext.info">ParallelText</a> (Philipps-University Marburg), 
+    <a href="http://www.sfb991/uni-duesseldorf.de">SFB 991</a> (Heinrich-Heine University Düsseldorf)
+ and
+    <a href="http://mesandlingk.eu">MesAndLingK</a> (Leiden University Centre for Linguistics).
+  </td>
+  <td></td>
+</tr>-->
+</table>
 
 <!--This corresponds to a total number of 45,282 words for which we automatically inferred 16,043 instances of colexification.-->
 
@@ -130,7 +147,7 @@ between possible cognates in the establishment of genetic relations between lang
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 14, 2014, 17:48 CET</p>
+ <p>Last updated on Mar. 18, 2014, 08:31 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

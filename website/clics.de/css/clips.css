@@ -447,6 +447,13 @@ div.popup:hover div.hidden{
 div.hidden li {
   font-weight: normal;
 }
+div.popup div.text{
+  display: none;
+}
+div.popup:hover div.text{
+  display:inline;
+  color: Blue;
+}
 span.info {
   width:20px;
   padding-left:5px;

@@ -15,20 +15,37 @@ between possible cognates in the establishment of genetic relations between lang
 <br>
 <table>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Release:</b></td>
+  <th style="background-color:#ffa600;width:100px">Release:</th>
   <td> 1.0 </td>
   <td></td>
 </tr>
 <tr>
-  <td style="background-color:#ffa600;width:100px"><b>Date:</b></td>
+  <th style="background-color:#ffa600;width:100px">Date:</th>
   <td> TBA </td>
   <td></td>
 </tr>
 <tr>
   <td style="background-color:#ffa600;width:100px"><b>Editors:</b></td>
-  <td> Johann-Mattis List, Thomas Mayer, Anselm Terhalle, Matthias Urban </td>
+  <td> 
+    <div class="popup">Johann-Mattis List<sup>1</sup>,<div class="text"><br>Research Center Deutscher Sprachatlas, Philipps-University Marburg<br></div></div> 
+    <div class="popup">Thomas Mayer<sup>1</sup>,<div class="text"><br>Research Center Deutscher Sprachatlas, Philipps-University Marburg<br></div></div>
+    <div class="popup">Anselm Terhalle<sup>2</sup>,<div class="text"><br>Institue for Romance Philology, Heinrich-Heine University Düsseldorf<br></div></div> 
+    <div class="popup">Matthias Urban<sup>3</sup><div class="text"><br>Leiden University Center for Linguistics<br></div></div> 
+  </td>
   <td></td>
-</tr></table>
+</tr>
+<!--<tr>
+  <th style="background-color:#ffa600;width:100px">Projects:</th>
+  <td> 
+    ::href!http://quanthistling.info!Quantitative Historical Linguistics:: (Philipps-University Marburg) in cooperation with  
+    ::href!http://paralleltext.info!ParallelText:: (Philipps-University Marburg), 
+    ::href!http://www.sfb991/uni-duesseldorf.de!SFB 991:: (Heinrich-Heine University Düsseldorf)
+ and
+    ::href!http://mesandlingk.eu!MesAndLingK:: (Leiden University Centre for Linguistics).
+  </td>
+  <td></td>
+</tr>-->
+</table>
 
 <!--This corresponds to a total number of 45,282 words for which we automatically inferred 16,043 instances of colexification.-->
 
