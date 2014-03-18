@@ -1,244 +1,311 @@
 {
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "cheese", 
+            "key": "5.88", 
+            "id": "cheese", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 4.938271604938271, 
+            "label": "cheese", 
+            "frequency": 151.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "breast (of woman)", 
+            "key": "4.41", 
+            "id": "breast (of woman)", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 0.8, 
+            "label": "breast (of woman)", 
+            "frequency": 275.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "nipple, teat", 
+            "key": "4.412", 
+            "id": "nipple, teat", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "nipple, teat", 
+            "frequency": 251.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "chest", 
+            "key": "4.4", 
+            "id": "chest", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 3.389830508474576, 
+            "label": "chest", 
+            "frequency": 269.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "udder", 
+            "key": "4.42", 
+            "id": "udder", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 0.9345794392523363, 
+            "label": "udder", 
+            "frequency": 209.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "milk (noun)", 
+            "key": "5.86", 
+            "id": "milk (noun)", 
+            "community": 34, 
+            "out_edge": [], 
+            "normalized_weight": 1.1904761904761905, 
+            "label": "milk (noun)", 
+            "frequency": 227.0
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 1.0, 
-                "id": "chest", 
+                "normalized_weight": 1.36986301369863, 
+                "weight": 1.36986301369863, 
                 "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "udder"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.938271604938271, 
+                "weight": 4.938271604938271, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "milk (noun)"
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "normalized_weight": 1139.240506329114, 
+                "weight": 1139.240506329114, 
+                "edge_width": 6.2941176470588234, 
+                "families": 30.0, 
+                "id": "udder"
+            }, 
+            {
+                "languages": 20.0, 
+                "normalized_weight": 113.08411214953271, 
+                "weight": 113.08411214953271, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "milk (noun)"
+            }, 
+            {
+                "languages": 39.0, 
+                "normalized_weight": 445.45454545454544, 
+                "weight": 445.45454545454544, 
+                "edge_width": 3.1176470588235294, 
+                "families": 21.0, 
+                "id": "nipple, teat"
+            }, 
+            {
+                "languages": 36.0, 
+                "normalized_weight": 155.04587155963304, 
+                "weight": 155.04587155963304, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "chest"
+            }
+        ], 
+        [
+            {
+                "languages": 19.0, 
+                "normalized_weight": 250.0, 
+                "weight": 250.0, 
+                "edge_width": 2.3235294117647056, 
+                "families": 15.0, 
+                "id": "udder"
+            }, 
+            {
+                "languages": 39.0, 
+                "normalized_weight": 445.45454545454544, 
+                "weight": 445.45454545454544, 
+                "edge_width": 3.1176470588235294, 
+                "families": 21.0, 
+                "id": "breast (of woman)"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 8.108108108108109, 
+                "weight": 8.108108108108109, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "milk (noun)"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.4482758620689653, 
+                "weight": 3.4482758620689653, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "chest"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.8095238095238098, 
+                "weight": 3.8095238095238098, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "udder"
+            }, 
+            {
+                "languages": 36.0, 
+                "normalized_weight": 155.04587155963304, 
+                "weight": 155.04587155963304, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "breast (of woman)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "milk (noun)"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.4482758620689653, 
+                "weight": 3.4482758620689653, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "nipple, teat"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
                 "weight": 0.8403361344537815, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "udder", 
                 "edge_width": 1.0, 
-                "weight": 3.8095238095238098, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "nipple, teat", 
-                "edge_width": 1.0, 
-                "weight": 3.4482758620689653, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 36.0, 
-                "id": "breast (of woman)", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 155.04587155963304, 
-                "families": 13.0
-            }, 
+                "families": 1.0, 
+                "id": "chest"
+            }
+        ], 
+        [
             {
                 "languages": 1.0, 
-                "id": "milk (noun)", 
+                "normalized_weight": 1.36986301369863, 
+                "weight": 1.36986301369863, 
                 "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "chest", 
-                "edge_width": 1.0, 
-                "weight": 3.4482758620689653, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 19.0, 
-                "id": "udder", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 250.0, 
-                "families": 15.0
-            }, 
-            {
-                "languages": 39.0, 
-                "id": "breast (of woman)", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 445.45454545454544, 
-                "families": 21.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "milk (noun)", 
-                "edge_width": 1.0, 
-                "weight": 8.108108108108109, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 36.0, 
-                "id": "chest", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 155.04587155963304, 
-                "families": 13.0
+                "families": 1.0, 
+                "id": "cheese"
             }, 
             {
                 "languages": 47.0, 
-                "id": "udder", 
-                "edge_width": 6.2941176470588234, 
+                "normalized_weight": 1139.240506329114, 
                 "weight": 1139.240506329114, 
-                "families": 30.0
-            }, 
-            {
-                "languages": 39.0, 
-                "id": "nipple, teat", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 445.45454545454544, 
-                "families": 21.0
-            }, 
-            {
-                "languages": 20.0, 
-                "id": "milk (noun)", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 113.08411214953271, 
-                "families": 11.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "udder", 
-                "edge_width": 1.0, 
-                "weight": 1.36986301369863, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "milk (noun)", 
-                "edge_width": 1.0, 
-                "weight": 4.938271604938271, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "chest", 
-                "edge_width": 1.0, 
-                "weight": 3.8095238095238098, 
-                "families": 2.0
+                "edge_width": 6.2941176470588234, 
+                "families": 30.0, 
+                "id": "breast (of woman)"
             }, 
             {
                 "languages": 13.0, 
-                "id": "milk (noun)", 
-                "edge_width": 1.5294117647058822, 
+                "normalized_weight": 107.5268817204301, 
                 "weight": 107.5268817204301, 
-                "families": 10.0
+                "edge_width": 1.5294117647058822, 
+                "families": 10.0, 
+                "id": "milk (noun)"
             }, 
             {
                 "languages": 19.0, 
-                "id": "nipple, teat", 
-                "edge_width": 2.3235294117647056, 
+                "normalized_weight": 250.0, 
                 "weight": 250.0, 
-                "families": 15.0
+                "edge_width": 2.3235294117647056, 
+                "families": 15.0, 
+                "id": "nipple, teat"
             }, 
             {
-                "languages": 47.0, 
-                "id": "breast (of woman)", 
-                "edge_width": 6.2941176470588234, 
-                "weight": 1139.240506329114, 
-                "families": 30.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "cheese", 
+                "languages": 2.0, 
+                "normalized_weight": 3.8095238095238098, 
+                "weight": 3.8095238095238098, 
                 "edge_width": 1.0, 
-                "weight": 1.36986301369863, 
-                "families": 1.0
+                "families": 2.0, 
+                "id": "chest"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "id": "chest", 
+                "languages": 2.0, 
+                "normalized_weight": 4.938271604938271, 
+                "weight": 4.938271604938271, 
                 "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 13.0, 
-                "id": "udder", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 107.5268817204301, 
-                "families": 10.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "nipple, teat", 
-                "edge_width": 1.0, 
-                "weight": 8.108108108108109, 
-                "families": 3.0
+                "families": 2.0, 
+                "id": "cheese"
             }, 
             {
                 "languages": 20.0, 
-                "id": "breast (of woman)", 
-                "edge_width": 1.5294117647058822, 
+                "normalized_weight": 113.08411214953271, 
                 "weight": 113.08411214953271, 
-                "families": 11.0
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "breast (of woman)"
             }, 
             {
-                "languages": 2.0, 
-                "id": "cheese", 
+                "languages": 13.0, 
+                "normalized_weight": 107.5268817204301, 
+                "weight": 107.5268817204301, 
+                "edge_width": 1.5294117647058822, 
+                "families": 10.0, 
+                "id": "udder"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 8.108108108108109, 
+                "weight": 8.108108108108109, 
                 "edge_width": 1.0, 
-                "weight": 4.938271604938271, 
-                "families": 2.0
+                "families": 3.0, 
+                "id": "nipple, teat"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "chest"
             }
         ]
-    ], 
-    "directed": false, 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "body_part": 1, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "chest", 
-            "key": "4.4"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 1, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "nipple, teat", 
-            "key": "4.412"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 1, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "breast (of woman)", 
-            "key": "4.41"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "cheese", 
-            "key": "5.88"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 1, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "udder", 
-            "key": "4.42"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 34, 
-            "id": "milk (noun)", 
-            "key": "5.86"
-        }
-    ], 
-    "graph": []
+    ]
 }

@@ -1,75 +1,103 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "praise", 
             "key": "16.79", 
-            "community": 218, 
             "id": "praise", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.45", 
             "community": 218, 
-            "id": "boast", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.0869565217391304, 
+            "label": "praise", 
+            "frequency": 221.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "proud", 
             "key": "16.48", 
-            "community": 218, 
             "id": "proud", 
+            "community": 218, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.0869565217391304, 
+            "label": "proud", 
+            "frequency": 227.0
+        }, 
+        {
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "families": 1.0, 
+            "key": "18.45", 
+            "id": "boast", 
+            "community": 218, 
+            "out_edge": [], 
+            "normalized_weight": 1.098901098901099
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 1.0, 
-                "id": "boast"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "proud"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 1.1235955056179776, 
+                "weight": 1.1235955056179776, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "boast"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
+                "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "praise"
             }, 
             {
-                "weight": 1.2647058823529411, 
                 "languages": 11.0, 
+                "normalized_weight": 58.333333333333336, 
+                "weight": 58.333333333333336, 
+                "edge_width": 1.2647058823529411, 
                 "families": 7.0, 
-                "id": "proud"
+                "id": "boast"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 1.1235955056179776, 
+                "weight": 1.1235955056179776, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "praise"
             }, 
             {
-                "weight": 1.2647058823529411, 
                 "languages": 11.0, 
+                "normalized_weight": 58.333333333333336, 
+                "weight": 58.333333333333336, 
+                "edge_width": 1.2647058823529411, 
                 "families": 7.0, 
-                "id": "boast"
+                "id": "proud"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

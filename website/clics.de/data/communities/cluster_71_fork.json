@@ -1,212 +1,275 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 3.0, 
-                "id": "fork", 
-                "edge_width": 1.0, 
-                "weight": 11.25, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "spoon", 
-                "edge_width": 1.0, 
-                "weight": 11.25, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 43.0, 
-                "id": "fork", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 276.9230769230769, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "fishhook", 
-                "edge_width": 1.0, 
-                "weight": 1.1764705882352942, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "hook", 
-                "edge_width": 1.0, 
-                "weight": 48.0, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "rake", 
-                "edge_width": 1.0, 
-                "weight": 38.46153846153847, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "tongs", 
-                "edge_width": 1.0, 
-                "weight": 5.970149253731343, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "fork", 
-                "edge_width": 1.0, 
-                "weight": 1.1764705882352942, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 29.0, 
-                "id": "hook", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 294.2528735632184, 
-                "families": 16.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "rake", 
-                "edge_width": 1.0, 
-                "weight": 1.1627906976744187, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "anchor", 
-                "edge_width": 1.0, 
-                "weight": 11.688311688311687, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "fork", 
-                "edge_width": 1.0, 
-                "weight": 48.0, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 29.0, 
-                "id": "fishhook", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 294.2528735632184, 
-                "families": 16.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "fork", 
-                "edge_width": 1.0, 
-                "weight": 38.46153846153847, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "hook", 
-                "edge_width": 1.0, 
-                "weight": 1.1627906976744187, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "hook", 
-                "edge_width": 1.0, 
-                "weight": 11.688311688311687, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "tongs", 
-                "edge_width": 1.0, 
-                "weight": 1.4925373134328357, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "anchor", 
-                "edge_width": 1.0, 
-                "weight": 1.4925373134328357, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "fork", 
-                "edge_width": 1.0, 
-                "weight": 5.970149253731343, 
-                "families": 2.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 71, 
-            "id": "spoon", 
-            "key": "5.37"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 71, 
-            "id": "fork", 
-            "key": "8.26"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 71, 
-            "id": "fishhook", 
-            "key": "20.52"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 71, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "hook", 
+            "key": "12.75", 
             "id": "hook", 
-            "key": "12.75"
+            "community": 71, 
+            "out_edge": [], 
+            "normalized_weight": 0.9009009009009009, 
+            "label": "hook", 
+            "frequency": 227.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "fishhook", 
+            "key": "20.52", 
+            "id": "fishhook", 
             "community": 71, 
-            "id": "rake", 
-            "key": "8.27"
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "fishhook", 
+            "frequency": 217.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "fork", 
+            "key": "8.26", 
+            "id": "fork", 
             "community": 71, 
-            "id": "anchor", 
-            "key": "10.89"
+            "out_edge": [], 
+            "normalized_weight": 11.25, 
+            "label": "fork", 
+            "frequency": 189.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "spoon", 
+            "key": "5.37", 
+            "id": "spoon", 
             "community": 71, 
+            "out_edge": [], 
+            "normalized_weight": 0.9345794392523363, 
+            "label": "spoon", 
+            "frequency": 217.0
+        }, 
+        {
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "families": 2.0, 
+            "key": "5.391", 
             "id": "tongs", 
-            "key": "5.391"
+            "community": 71, 
+            "out_edge": [], 
+            "normalized_weight": 5.970149253731343
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "anchor", 
+            "key": "10.89", 
+            "id": "anchor", 
+            "community": 71, 
+            "out_edge": [], 
+            "normalized_weight": 1.0638297872340425, 
+            "label": "anchor", 
+            "frequency": 122.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "rake", 
+            "key": "8.27", 
+            "id": "rake", 
+            "community": 71, 
+            "out_edge": [], 
+            "normalized_weight": 1.0638297872340425, 
+            "label": "rake", 
+            "frequency": 173.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 29.0, 
+                "normalized_weight": 294.2528735632184, 
+                "weight": 294.2528735632184, 
+                "edge_width": 2.3235294117647056, 
+                "families": 16.0, 
+                "id": "fishhook"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 11.688311688311687, 
+                "weight": 11.688311688311687, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "anchor"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 48.0, 
+                "weight": 48.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "fork"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1627906976744187, 
+                "weight": 1.1627906976744187, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "rake"
+            }
+        ], 
+        [
+            {
+                "languages": 29.0, 
+                "normalized_weight": 294.2528735632184, 
+                "weight": 294.2528735632184, 
+                "edge_width": 2.3235294117647056, 
+                "families": 16.0, 
+                "id": "hook"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
+                "weight": 1.1764705882352942, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "fork"
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "normalized_weight": 48.0, 
+                "weight": 48.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "hook"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
+                "weight": 1.1764705882352942, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "fishhook"
+            }, 
+            {
+                "languages": 43.0, 
+                "normalized_weight": 276.9230769230769, 
+                "weight": 276.9230769230769, 
+                "edge_width": 2.3235294117647056, 
+                "families": 12.0, 
+                "id": "fork"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 11.25, 
+                "weight": 11.25, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "spoon"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 5.970149253731343, 
+                "weight": 5.970149253731343, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "tongs"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 38.46153846153847, 
+                "weight": 38.46153846153847, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "rake"
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "normalized_weight": 11.25, 
+                "weight": 11.25, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "fork"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.4925373134328357, 
+                "weight": 1.4925373134328357, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "anchor"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 5.970149253731343, 
+                "weight": 5.970149253731343, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "fork"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 11.688311688311687, 
+                "weight": 11.688311688311687, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "hook"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.4925373134328357, 
+                "weight": 1.4925373134328357, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "tongs"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1627906976744187, 
+                "weight": 1.1627906976744187, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "hook"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 38.46153846153847, 
+                "weight": 38.46153846153847, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "fork"
+            }
+        ]
+    ]
 }

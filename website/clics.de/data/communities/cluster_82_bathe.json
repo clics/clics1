@@ -1,131 +1,197 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "10.36", 
-            "community": 82, 
-            "id": "sail (vb)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "4.69", 
-            "community": 82, 
-            "id": "bathe", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.34", 
-            "community": 82, 
-            "id": "float", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.35", 
-            "community": 82, 
-            "id": "swim", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "wash", 
             "key": "9.36", 
-            "community": 82, 
             "id": "wash", 
+            "community": 82, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 7.5, 
+            "label": "wash", 
+            "frequency": 297.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "sail (vb)", 
+            "key": "10.36", 
+            "id": "sail (vb)", 
+            "community": 82, 
+            "out_edge": [], 
+            "normalized_weight": 1.0752688172043012, 
+            "label": "sail (vb)", 
+            "frequency": 136.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bathe", 
+            "key": "4.69", 
+            "id": "bathe", 
+            "community": 82, 
+            "out_edge": [], 
+            "normalized_weight": 0.8547008547008548, 
+            "label": "bathe", 
+            "frequency": 260.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "float", 
+            "key": "10.34", 
+            "id": "float", 
+            "community": 82, 
+            "out_edge": [
+                [
+                    "cluster_80_run", 
+                    "flow", 
+                    5.0, 
+                    22.727272727272727
+                ]
+            ], 
+            "normalized_weight": 0.9259259259259258, 
+            "label": "float", 
+            "frequency": 241.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "swim", 
+            "key": "10.35", 
+            "id": "swim", 
+            "community": 82, 
+            "out_edge": [], 
+            "normalized_weight": 0.8333333333333334, 
+            "label": "swim", 
+            "frequency": 255.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 15.0, 
-                "families": 7.0, 
-                "id": "float"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 13.0, 
-                "families": 5.0, 
-                "id": "swim"
+                "languages": 18.0, 
+                "normalized_weight": 86.95652173913044, 
+                "weight": 86.95652173913044, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "bathe"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "float"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
-                "families": 8.0, 
+                "languages": 13.0, 
+                "normalized_weight": 28.08988764044944, 
+                "weight": 28.08988764044944, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
                 "id": "swim"
             }, 
             {
-                "weight": 1.2647058823529411, 
+                "languages": 15.0, 
+                "normalized_weight": 61.25000000000001, 
+                "weight": 61.25000000000001, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "float"
+            }
+        ], 
+        [
+            {
                 "languages": 18.0, 
+                "normalized_weight": 86.95652173913044, 
+                "weight": 86.95652173913044, 
+                "edge_width": 1.2647058823529411, 
                 "families": 10.0, 
                 "id": "wash"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 55.172413793103445, 
+                "weight": 55.172413793103445, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "swim"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.4782608695652173, 
+                "weight": 3.4782608695652173, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "float"
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
+                "languages": 2.0, 
+                "normalized_weight": 3.4782608695652173, 
+                "weight": 3.4782608695652173, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "bathe"
+            }, 
+            {
                 "languages": 15.0, 
+                "normalized_weight": 61.25000000000001, 
+                "weight": 61.25000000000001, 
+                "edge_width": 1.2647058823529411, 
                 "families": 7.0, 
                 "id": "sail (vb)"
             }, 
             {
-                "weight": 2.0588235294117645, 
                 "languages": 45.0, 
+                "normalized_weight": 220.58823529411765, 
+                "weight": 220.58823529411765, 
+                "edge_width": 2.0588235294117645, 
                 "families": 15.0, 
                 "id": "swim"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "bathe"
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "languages": 10.0, 
+                "normalized_weight": 55.172413793103445, 
+                "weight": 55.172413793103445, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "bathe"
+            }, 
+            {
                 "languages": 13.0, 
+                "normalized_weight": 28.08988764044944, 
+                "weight": 28.08988764044944, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "sail (vb)"
             }, 
             {
-                "weight": 2.0588235294117645, 
                 "languages": 45.0, 
+                "normalized_weight": 220.58823529411765, 
+                "weight": 220.58823529411765, 
+                "edge_width": 2.0588235294117645, 
                 "families": 15.0, 
                 "id": "float"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
-                "families": 8.0, 
-                "id": "bathe"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 18.0, 
-                "families": 10.0, 
-                "id": "bathe"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

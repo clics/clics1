@@ -1,41 +1,59 @@
 {
     "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "smile", 
+            "key": "16.251", 
+            "id": "smile", 
+            "community": 168, 
+            "out_edge": [], 
+            "normalized_weight": 1.0204081632653061, 
+            "label": "smile", 
+            "frequency": 210.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "laugh", 
+            "key": "16.25", 
+            "id": "laugh", 
+            "community": 168, 
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "laugh", 
+            "frequency": 255.0
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 37.0, 
-                "weight": 3.0816326530612241, 
-                "id": "laugh", 
-                "families": 22.0
+                "normalized_weight": 520.4301075268817, 
+                "weight": 520.4301075268817, 
+                "edge_width": 3.6470588235294117, 
+                "families": 22.0, 
+                "id": "laugh"
             }
         ], 
         [
             {
                 "languages": 37.0, 
-                "weight": 3.0816326530612241, 
-                "id": "smile", 
-                "families": 22.0
+                "normalized_weight": 520.4301075268817, 
+                "weight": 520.4301075268817, 
+                "edge_width": 3.6470588235294117, 
+                "families": 22.0, 
+                "id": "smile"
             }
         ]
-    ], 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 168, 
-            "body_part": 0, 
-            "id": "smile", 
-            "key": "16.251"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 168, 
-            "body_part": 0, 
-            "id": "laugh", 
-            "key": "16.25"
-        }
-    ], 
-    "multigraph": false, 
-    "directed": false
+    ]
 }

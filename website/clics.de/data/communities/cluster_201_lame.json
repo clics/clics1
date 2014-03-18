@@ -1,50 +1,67 @@
 {
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "limp", 
+            "key": "10.451", 
+            "id": "limp", 
+            "community": 201, 
+            "out_edge": [], 
+            "normalized_weight": 0.8771929824561403, 
+            "label": "limp", 
+            "frequency": 225.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "lame", 
+            "key": "4.94", 
+            "id": "lame", 
+            "community": 201, 
+            "out_edge": [], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "lame", 
+            "frequency": 255.0
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "id": "lame", 
-                "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }, 
-            {
                 "languages": 42.0, 
-                "id": "limp", 
-                "edge_width": 2.0588235294117645, 
+                "normalized_weight": 234.375, 
                 "weight": 234.375, 
-                "families": 15.0
+                "edge_width": 2.0588235294117645, 
+                "families": 15.0, 
+                "id": "lame"
             }
         ], 
         [
             {
                 "languages": 42.0, 
-                "id": "lame", 
-                "edge_width": 2.0588235294117645, 
+                "normalized_weight": 234.375, 
                 "weight": 234.375, 
-                "families": 15.0
+                "edge_width": 2.0588235294117645, 
+                "families": 15.0, 
+                "id": "limp"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "lame"
             }
         ]
-    ], 
-    "directed": false, 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 201, 
-            "id": "lame", 
-            "key": "4.94"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 201, 
-            "id": "limp", 
-            "key": "10.451"
-        }
-    ], 
-    "graph": []
+    ]
 }

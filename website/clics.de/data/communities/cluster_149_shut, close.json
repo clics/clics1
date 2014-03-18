@@ -1,48 +1,66 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "shut, close", 
             "key": "12.25", 
-            "community": 149, 
             "id": "shut, close", 
+            "community": 149, 
             "out_edge": [
                 [
                     "cluster_229_button", 
                     "tie, bind", 
                     4.0, 
-                    1.0
+                    13.675213675213676
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9090909090909091, 
+            "label": "shut, close", 
+            "frequency": 277.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "cover", 
             "key": "12.26", 
-            "community": 149, 
             "id": "cover", 
+            "community": 149, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 3.8095238095238098, 
+            "label": "cover", 
+            "frequency": 293.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 3.3823529411764706, 
                 "languages": 27.0, 
+                "normalized_weight": 459.375, 
+                "weight": 459.375, 
+                "edge_width": 3.3823529411764706, 
                 "families": 21.0, 
                 "id": "cover"
             }
         ], 
         [
             {
-                "weight": 3.3823529411764706, 
                 "languages": 27.0, 
+                "normalized_weight": 459.375, 
+                "weight": 459.375, 
+                "edge_width": 3.3823529411764706, 
                 "families": 21.0, 
                 "id": "shut, close"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

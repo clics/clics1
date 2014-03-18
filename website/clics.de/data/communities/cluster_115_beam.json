@@ -1,109 +1,164 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "7.54", 
-            "community": 115, 
-            "id": "rafter", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "beam", 
             "key": "7.55", 
-            "community": 115, 
             "id": "beam", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "7.53", 
             "community": 115, 
-            "id": "ridgepole", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_4_tree", 
+                    "post, pole", 
+                    6.0, 
+                    38.70967741935484
+                ]
+            ], 
+            "normalized_weight": 0.9433962264150944, 
+            "label": "beam", 
+            "frequency": 218.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 30.0, 
+            "weight": 14.0, 
+            "swadesh100": 0.0, 
+            "families": 14.0, 
+            "concept": "rafter", 
+            "key": "7.54", 
+            "id": "rafter", 
+            "community": 115, 
+            "out_edge": [], 
+            "normalized_weight": 272.22222222222223, 
+            "label": "rafter", 
+            "frequency": 222.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "square", 
             "key": "12.78", 
-            "community": 115, 
             "id": "square", 
+            "community": 115, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.2345679012345678, 
+            "label": "square", 
+            "frequency": 179.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "ridgepole", 
+            "key": "7.53", 
+            "id": "ridgepole", 
+            "community": 115, 
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "ridgepole", 
+            "frequency": 161.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 2.3235294117647056, 
                 "languages": 30.0, 
+                "normalized_weight": 272.22222222222223, 
+                "weight": 272.22222222222223, 
+                "edge_width": 2.3235294117647056, 
+                "families": 14.0, 
+                "id": "rafter"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
+                "weight": 1.1764705882352942, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "square"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 102.53164556962024, 
+                "weight": 102.53164556962024, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "ridgepole"
+            }
+        ], 
+        [
+            {
+                "languages": 30.0, 
+                "normalized_weight": 272.22222222222223, 
+                "weight": 272.22222222222223, 
+                "edge_width": 2.3235294117647056, 
                 "families": 14.0, 
                 "id": "beam"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 20.51282051282051, 
+                "weight": 20.51282051282051, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
                 "id": "ridgepole"
             }
         ], 
         [
             {
-                "weight": 2.3235294117647056, 
-                "languages": 30.0, 
-                "families": 14.0, 
-                "id": "rafter"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "ridgepole"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
+                "weight": 1.1764705882352942, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "square"
+                "id": "beam"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 1.2345679012345678, 
+                "weight": 1.2345679012345678, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "ridgepole"
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "languages": 10.0, 
+                "normalized_weight": 102.53164556962024, 
+                "weight": 102.53164556962024, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "beam"
+            }, 
+            {
                 "languages": 4.0, 
+                "normalized_weight": 20.51282051282051, 
+                "weight": 20.51282051282051, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
                 "id": "rafter"
             }, 
             {
-                "weight": 1.5294117647058822, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "beam"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 1.2345679012345678, 
+                "weight": 1.2345679012345678, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "square"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "beam"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "ridgepole"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

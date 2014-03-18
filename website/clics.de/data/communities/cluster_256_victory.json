@@ -1,41 +1,54 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "languages": 5.0, 
+            "weight": 5.0, 
+            "families": 5.0, 
             "key": "20.41", 
-            "community": 256, 
             "id": "victory", 
+            "community": 256, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 31.25
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "defeat", 
             "key": "20.42", 
-            "community": 256, 
             "id": "defeat", 
+            "community": 256, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.0, 
+            "label": "defeat", 
+            "frequency": 202.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 5.0, 
+                "normalized_weight": 31.25, 
+                "weight": 31.25, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "defeat"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 5.0, 
+                "normalized_weight": 31.25, 
+                "weight": 31.25, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "victory"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

@@ -1,99 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 4.0, 
-                "id": "lick", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "kiss", 
-                "edge_width": 1.0, 
-                "weight": 31.03448275862069, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "kiss", 
-                "edge_width": 1.0, 
-                "weight": 21.929824561403507, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "lick", 
-                "edge_width": 1.0, 
-                "weight": 0.9803921568627451, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "id": "suck", 
-                "edge_width": 1.0, 
-                "weight": 31.03448275862069, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "embrace", 
-                "edge_width": 1.0, 
-                "weight": 21.929824561403507, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "lick", 
-                "edge_width": 1.0, 
-                "weight": 0.8403361344537815, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "kiss", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "suck", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "tapioca, manioc, cassava", 
-                "edge_width": 1.0, 
-                "weight": 0.9803921568627451, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "kiss", 
-                "edge_width": 1.0, 
-                "weight": 0.8403361344537815, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "suck", 
+            "key": "5.16", 
+            "id": "suck", 
+            "community": 191, 
             "out_edge": [
                 [
                     "cluster_66_smoke (noun)", 
@@ -102,48 +20,172 @@
                     22.321428571428573
                 ], 
                 [
-                    "cluster_189_spread out", 
+                    "cluster_189_stretch", 
                     "pull", 
                     4.0, 
                     13.559322033898304
                 ]
             ], 
-            "community": 191, 
-            "id": "suck", 
-            "key": "5.16"
+            "normalized_weight": 0.847457627118644, 
+            "label": "suck", 
+            "frequency": 298.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 191, 
-            "id": "embrace", 
-            "key": "16.3"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 191, 
-            "id": "tapioca, manioc, cassava", 
-            "key": "8.92"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 191, 
-            "id": "kiss", 
-            "key": "16.29"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 191, 
+            "body_part": 0.0, 
+            "languages": 4.0, 
+            "weight": 4.0, 
+            "swadesh100": 0.0, 
+            "families": 4.0, 
+            "concept": "lick", 
+            "key": "4.59", 
             "id": "lick", 
-            "key": "4.59"
+            "community": 191, 
+            "out_edge": [], 
+            "normalized_weight": 13.793103448275861, 
+            "label": "lick", 
+            "frequency": 238.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "kiss", 
+            "key": "16.29", 
+            "id": "kiss", 
+            "community": 191, 
+            "out_edge": [], 
+            "normalized_weight": 0.8264462809917356, 
+            "label": "kiss", 
+            "frequency": 250.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 5.0, 
+            "weight": 5.0, 
+            "swadesh100": 0.0, 
+            "families": 5.0, 
+            "concept": "embrace", 
+            "key": "16.3", 
+            "id": "embrace", 
+            "community": 191, 
+            "out_edge": [], 
+            "normalized_weight": 21.929824561403507, 
+            "label": "embrace", 
+            "frequency": 238.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "tapioca, manioc, cassava", 
+            "key": "8.92", 
+            "id": "tapioca, manioc, cassava", 
+            "community": 191, 
+            "out_edge": [], 
+            "label": "tapioca, manioc, cassava", 
+            "frequency": 149.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "lick"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 31.03448275862069, 
+                "weight": 31.03448275862069, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "kiss"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
+                "weight": 0.8403361344537815, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "kiss"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9803921568627451, 
+                "weight": 0.9803921568627451, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "tapioca, manioc, cassava"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "suck"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
+                "weight": 0.8403361344537815, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "lick"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "kiss"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "embrace"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 31.03448275862069, 
+                "weight": 31.03448275862069, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "suck"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "kiss"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9803921568627451, 
+                "weight": 0.9803921568627451, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "lick"
+            }
+        ]
+    ]
 }

@@ -1,282 +1,346 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 15.0, 
-                "id": "stand", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 134.0, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "last", 
-                "edge_width": 1.0, 
-                "weight": 3.0, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 16.0, 
-                "id": "finish", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 135.0, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "end (temporal)", 
-                "edge_width": 1.0, 
-                "weight": 15.0, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "cease, stop", 
-                "edge_width": 1.0, 
-                "weight": 3.0, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 15.0, 
-                "id": "end", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 118.0, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "finish", 
-                "edge_width": 1.0, 
-                "weight": 3.0, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 11.0, 
-                "id": "end (temporal)", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 79.0, 
-                "families": 9.0
-            }
-        ], 
-        [
-            {
-                "languages": 16.0, 
-                "id": "cease, stop", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 135.0, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "end", 
-                "edge_width": 1.0, 
-                "weight": 22.0, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "finish", 
-                "edge_width": 1.0, 
-                "weight": 0.0, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "last", 
-                "edge_width": 1.0, 
-                "weight": 3.0, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 27.0, 
-                "id": "end (temporal)", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 115.0, 
-                "families": 11.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "cease, stop", 
-                "edge_width": 1.0, 
-                "weight": 15.0, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 57.0, 
-                "id": "end", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 352.0, 
-                "families": 18.0
-            }, 
-            {
-                "languages": 27.0, 
-                "id": "finish", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 115.0, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 11.0, 
-                "id": "last", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 79.0, 
-                "families": 9.0
-            }
-        ], 
-        [
-            {
-                "languages": 15.0, 
-                "id": "cease, stop", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 134.0, 
-                "families": 12.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "end", 
-                "edge_width": 1.0, 
-                "weight": 0.0, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "finish", 
-                "edge_width": 1.0, 
-                "weight": 22.0, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 15.0, 
-                "id": "last", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 118.0, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 57.0, 
-                "id": "end (temporal)", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 352.0, 
-                "families": 18.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_81_forgive", 
-                    "release, let go", 
-                    4.0, 
-                    15.0
-                ], 
-                [
-                    "cluster_57_dwell, live", 
-                    "remain, stay", 
-                    4.0, 
-                    14.0
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "end (temporal)", 
+            "key": "14.26", 
+            "id": "end (temporal)", 
             "community": 35, 
-            "id": "cease, stop", 
-            "key": "14.28"
+            "out_edge": [], 
+            "normalized_weight": 0.9615384615384616, 
+            "label": "end (temporal)", 
+            "frequency": 223.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_143_after", 
-                    "place", 
-                    6.0, 
-                    31.0
-                ], 
-                [
-                    "cluster_74_late", 
-                    "late", 
-                    4.0, 
-                    15.0
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "finish", 
+            "key": "14.27", 
+            "id": "finish", 
             "community": 35, 
-            "id": "last", 
-            "key": "13.35"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_13_cut", 
+                    "cluster_9_cut", 
                     "destroy", 
                     4.0, 
-                    14.0
+                    14.15929203539823
                 ]
             ], 
-            "community": 35, 
-            "id": "finish", 
-            "key": "14.27"
+            "normalized_weight": 0.9259259259259258, 
+            "label": "finish", 
+            "frequency": 317.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "cease, stop", 
+            "key": "14.28", 
+            "id": "cease, stop", 
             "community": 35, 
-            "id": "end (temporal)", 
-            "key": "14.26"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_38_climb", 
+                    "cluster_83_forgive", 
+                    "release, let go", 
+                    4.0, 
+                    15.09433962264151
+                ], 
+                [
+                    "cluster_61_dwell, live", 
+                    "remain, stay", 
+                    4.0, 
+                    14.678899082568808
+                ]
+            ], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "cease, stop", 
+            "frequency": 301.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "stand", 
+            "key": "12.15", 
+            "id": "stand", 
+            "community": 35, 
+            "out_edge": [
+                [
+                    "cluster_32_go up", 
                     "rise", 
                     8.0, 
-                    56.0
+                    56.14035087719298
                 ]
             ], 
-            "community": 35, 
-            "id": "stand", 
-            "key": "12.15"
+            "normalized_weight": 0.9174311926605505, 
+            "label": "stand", 
+            "frequency": 263.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "end", 
+            "key": "12.35", 
+            "id": "end", 
+            "community": 35, 
             "out_edge": [
                 [
-                    "cluster_25_edge", 
+                    "cluster_30_shore", 
                     "edge", 
                     7.0, 
-                    44.0
+                    44.95412844036697
                 ], 
                 [
-                    "cluster_101_roof", 
+                    "cluster_94_roof", 
                     "top", 
                     7.0, 
-                    44.0
+                    44.54545454545455
                 ], 
                 [
-                    "cluster_25_edge", 
+                    "cluster_30_shore", 
                     "boundary", 
                     6.0, 
-                    39.0
+                    39.56043956043956
                 ]
             ], 
+            "normalized_weight": 0.8547008547008548, 
+            "label": "end", 
+            "frequency": 269.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "last", 
+            "key": "13.35", 
+            "id": "last", 
             "community": 35, 
-            "id": "end", 
-            "key": "12.35"
+            "out_edge": [
+                [
+                    "cluster_135_place", 
+                    "place", 
+                    6.0, 
+                    31.30434782608696
+                ], 
+                [
+                    "cluster_79_late", 
+                    "late", 
+                    4.0, 
+                    15.686274509803921
+                ]
+            ], 
+            "normalized_weight": 3.6036036036036037, 
+            "label": "last", 
+            "frequency": 257.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 27.0, 
+                "normalized_weight": 115.23809523809523, 
+                "weight": 115.23809523809523, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "finish"
+            }, 
+            {
+                "languages": 57.0, 
+                "normalized_weight": 352.17391304347825, 
+                "weight": 352.17391304347825, 
+                "edge_width": 2.8529411764705883, 
+                "families": 18.0, 
+                "id": "end"
+            }, 
+            {
+                "languages": 11.0, 
+                "normalized_weight": 79.41176470588235, 
+                "weight": 79.41176470588235, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "last"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 15.09433962264151, 
+                "weight": 15.09433962264151, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "cease, stop"
+            }
+        ], 
+        [
+            {
+                "languages": 27.0, 
+                "normalized_weight": 115.23809523809523, 
+                "weight": 115.23809523809523, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8130081300813009, 
+                "weight": 0.8130081300813009, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "finish"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 22.123893805309734, 
+                "weight": 22.123893805309734, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "end"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "last"
+            }, 
+            {
+                "languages": 16.0, 
+                "normalized_weight": 135.8490566037736, 
+                "weight": 135.8490566037736, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "cease, stop"
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "normalized_weight": 15.09433962264151, 
+                "weight": 15.09433962264151, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "languages": 16.0, 
+                "normalized_weight": 135.8490566037736, 
+                "weight": 135.8490566037736, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "finish"
+            }, 
+            {
+                "languages": 15.0, 
+                "normalized_weight": 134.57943925233644, 
+                "weight": 134.57943925233644, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "stand"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.6036036036036037, 
+                "weight": 3.6036036036036037, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "last"
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "normalized_weight": 134.57943925233644, 
+                "weight": 134.57943925233644, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "cease, stop"
+            }
+        ], 
+        [
+            {
+                "languages": 57.0, 
+                "normalized_weight": 352.17391304347825, 
+                "weight": 352.17391304347825, 
+                "edge_width": 2.8529411764705883, 
+                "families": 18.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 22.123893805309734, 
+                "weight": 22.123893805309734, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "finish"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9009009009009009, 
+                "weight": 0.9009009009009009, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "end"
+            }, 
+            {
+                "languages": 15.0, 
+                "normalized_weight": 118.62745098039215, 
+                "weight": 118.62745098039215, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "last"
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "normalized_weight": 79.41176470588235, 
+                "weight": 79.41176470588235, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "end (temporal)"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "finish"
+            }, 
+            {
+                "languages": 15.0, 
+                "normalized_weight": 118.62745098039215, 
+                "weight": 118.62745098039215, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "end"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.6036036036036037, 
+                "weight": 3.6036036036036037, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "cease, stop"
+            }
+        ]
+    ]
 }

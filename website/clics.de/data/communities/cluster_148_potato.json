@@ -1,75 +1,104 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "potato", 
             "key": "5.7", 
-            "community": 148, 
             "id": "potato", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.912", 
             "community": 148, 
-            "id": "yam", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9345794392523363, 
+            "label": "potato", 
+            "frequency": 206.0
         }, 
         {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "sweet potato", 
             "key": "8.91", 
-            "community": 148, 
             "id": "sweet potato", 
+            "community": 148, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "label": "sweet potato", 
+            "frequency": 156.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "yam", 
+            "key": "8.912", 
+            "id": "yam", 
+            "community": 148, 
+            "out_edge": [], 
+            "normalized_weight": 1.1111111111111112, 
+            "label": "yam", 
+            "frequency": 100.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "yam"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
                 "languages": 14.0, 
+                "normalized_weight": 180.0, 
+                "weight": 180.0, 
+                "edge_width": 1.7941176470588236, 
                 "families": 12.0, 
                 "id": "sweet potato"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 21.052631578947366, 
+                "weight": 21.052631578947366, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "yam"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "potato"
-            }, 
-            {
-                "weight": 2.3235294117647056, 
-                "languages": 19.0, 
-                "families": 13.0, 
-                "id": "sweet potato"
-            }
-        ], 
-        [
-            {
-                "weight": 1.7941176470588236, 
                 "languages": 14.0, 
+                "normalized_weight": 180.0, 
+                "weight": 180.0, 
+                "edge_width": 1.7941176470588236, 
                 "families": 12.0, 
                 "id": "potato"
             }, 
             {
-                "weight": 2.3235294117647056, 
                 "languages": 19.0, 
+                "normalized_weight": 268.25396825396825, 
+                "weight": 268.25396825396825, 
+                "edge_width": 2.3235294117647056, 
                 "families": 13.0, 
                 "id": "yam"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 21.052631578947366, 
+                "weight": 21.052631578947366, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "potato"
+            }, 
+            {
+                "languages": 19.0, 
+                "normalized_weight": 268.25396825396825, 
+                "weight": 268.25396825396825, 
+                "edge_width": 2.3235294117647056, 
+                "families": 13.0, 
+                "id": "sweet potato"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

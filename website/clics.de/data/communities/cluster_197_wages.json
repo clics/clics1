@@ -1,0 +1,99 @@
+{
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "wages", 
+            "key": "11.78", 
+            "id": "wages", 
+            "community": 197, 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "pay (vb)", 
+                    4.0, 
+                    17.391304347826086
+                ]
+            ], 
+            "normalized_weight": 1.0638297872340425, 
+            "label": "wages", 
+            "frequency": 226.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "tax, tribute", 
+            "key": "11.69", 
+            "id": "tax, tribute", 
+            "community": 197, 
+            "out_edge": [], 
+            "normalized_weight": 1.36986301369863, 
+            "label": "tax, tribute", 
+            "frequency": 196.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "price", 
+            "key": "11.87", 
+            "id": "price", 
+            "community": 197, 
+            "out_edge": [], 
+            "normalized_weight": 0.9259259259259258, 
+            "label": "price", 
+            "frequency": 205.0
+        }
+    ], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 5.797101449275362, 
+                "weight": 5.797101449275362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "tax, tribute"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 103.84615384615385, 
+                "weight": 103.84615384615385, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "price"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 5.797101449275362, 
+                "weight": 5.797101449275362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "wages"
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "normalized_weight": 103.84615384615385, 
+                "weight": 103.84615384615385, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "wages"
+            }
+        ]
+    ]
+}

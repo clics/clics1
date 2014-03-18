@@ -1,52 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 15.0, 
-                "id": "die, dead", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 156.4814814814815, 
-                "families": 13.0
-            }
-        ], 
-        [
-            {
-                "languages": 15.0, 
-                "id": "corpse", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 156.4814814814815, 
-                "families": 13.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "die, dead", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_67_body", 
-                    "body", 
-                    7.0, 
-                    44.14414414414414
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 2.0, 
+            "swadesh100": 1.0, 
+            "families": 2.0, 
+            "concept": "die, dead", 
+            "key": "4.75", 
+            "id": "die, dead", 
             "community": 202, 
-            "id": "corpse", 
-            "key": "4.77"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_178_disappear", 
@@ -55,16 +20,63 @@
                     14.15929203539823
                 ], 
                 [
-                    "cluster_110_murder", 
+                    "cluster_110_extinguish", 
                     "kill", 
                     4.0, 
                     13.008130081300814
                 ]
             ], 
+            "normalized_weight": 3.2, 
+            "label": "die, dead", 
+            "frequency": 413.0
+        }, 
+        {
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "families": 2.0, 
+            "key": "4.77", 
+            "id": "corpse", 
             "community": 202, 
-            "id": "die, dead", 
-            "key": "4.75"
+            "out_edge": [
+                [
+                    "cluster_67_body", 
+                    "body", 
+                    7.0, 
+                    44.14414414414414
+                ]
+            ], 
+            "normalized_weight": 3.6036036036036037
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8, 
+                "weight": 0.8, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "die, dead"
+            }, 
+            {
+                "languages": 15.0, 
+                "normalized_weight": 156.4814814814815, 
+                "weight": 156.4814814814815, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "corpse"
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "normalized_weight": 156.4814814814815, 
+                "weight": 156.4814814814815, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "die, dead"
+            }
+        ]
+    ]
 }

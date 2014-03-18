@@ -1,91 +1,121 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 5.0, 
-                "id": "spider", 
-                "edge_width": 1.0, 
-                "weight": 8.411214953271028, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "spider web", 
-                "edge_width": 1.0, 
-                "weight": 8.411214953271028, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "fisherman", 
-                "edge_width": 1.0, 
-                "weight": 0.8620689655172413, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "turtle", 
-                "edge_width": 1.0, 
-                "weight": 0.8849557522123894, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "spider", 
-                "edge_width": 1.0, 
-                "weight": 0.8620689655172413, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "spider", 
-                "edge_width": 1.0, 
-                "weight": 0.8849557522123894, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 246, 
-            "id": "spider web", 
-            "key": "3.819"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 246, 
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "spider", 
+            "key": "3.818", 
             "id": "spider", 
-            "key": "3.818"
+            "community": 246, 
+            "out_edge": [], 
+            "label": "spider", 
+            "frequency": 240.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 246, 
-            "id": "fisherman", 
-            "key": "20.51"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 246, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "turtle", 
+            "key": "3.98", 
             "id": "turtle", 
-            "key": "3.98"
+            "community": 246, 
+            "out_edge": [], 
+            "normalized_weight": 0.8849557522123894, 
+            "label": "turtle", 
+            "frequency": 247.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "spider web", 
+            "key": "3.819", 
+            "id": "spider web", 
+            "community": 246, 
+            "out_edge": [], 
+            "normalized_weight": 1.0, 
+            "label": "spider web", 
+            "frequency": 219.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "fisherman", 
+            "key": "20.51", 
+            "id": "fisherman", 
+            "community": 246, 
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "fisherman", 
+            "frequency": 214.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8849557522123894, 
+                "weight": 0.8849557522123894, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "turtle"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 8.411214953271028, 
+                "weight": 8.411214953271028, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "spider web"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8620689655172413, 
+                "weight": 0.8620689655172413, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "fisherman"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8849557522123894, 
+                "weight": 0.8849557522123894, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "spider"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 8.411214953271028, 
+                "weight": 8.411214953271028, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "spider"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8620689655172413, 
+                "weight": 0.8620689655172413, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "spider"
+            }
+        ]
+    ]
 }

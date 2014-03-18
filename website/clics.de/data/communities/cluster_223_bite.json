@@ -1,70 +1,106 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "5.18", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "pillow", 
+            "key": "7.421", 
+            "id": "pillow", 
             "community": 223, 
+            "out_edge": [], 
+            "normalized_weight": 0.8695652173913043, 
+            "label": "pillow", 
+            "frequency": 221.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "chew", 
+            "key": "5.18", 
             "id": "chew", 
+            "community": 223, 
             "out_edge": [
                 [
-                    "cluster_14_dinner", 
+                    "cluster_14_meal (a)", 
                     "eat", 
                     4.0, 
-                    1.0
+                    13.008130081300814
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9433962264150944, 
+            "label": "chew", 
+            "frequency": 262.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "bite", 
             "key": "4.58", 
-            "community": 223, 
             "id": "bite", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "7.421", 
             "community": 223, 
-            "id": "pillow", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_14_meal (a)", 
+                    "eat", 
+                    6.0, 
+                    29.75206611570248
+                ]
+            ], 
+            "normalized_weight": 0.9433962264150944, 
+            "label": "bite", 
+            "frequency": 277.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.2647058823529411, 
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "bite"
+            }
+        ], 
+        [
+            {
                 "languages": 14.0, 
+                "normalized_weight": 69.23076923076923, 
+                "weight": 69.23076923076923, 
+                "edge_width": 1.2647058823529411, 
                 "families": 9.0, 
                 "id": "bite"
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "chew"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "pillow"
-            }
-        ], 
-        [
+            }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bite"
+                "languages": 14.0, 
+                "normalized_weight": 69.23076923076923, 
+                "weight": 69.23076923076923, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "chew"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

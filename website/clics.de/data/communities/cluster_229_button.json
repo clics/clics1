@@ -1,82 +1,123 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "button", 
             "key": "6.62", 
-            "community": 229, 
             "id": "button", 
+            "community": 229, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "label": "button", 
+            "frequency": 194.0
         }, 
         {
-            "key": "9.16", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "knot (noun)", 
+            "key": "9.192", 
+            "id": "knot (noun)", 
             "community": 229, 
+            "out_edge": [], 
+            "normalized_weight": 1.0, 
+            "label": "knot (noun)", 
+            "frequency": 241.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "tie, bind", 
+            "key": "9.16", 
             "id": "tie, bind", 
+            "community": 229, 
             "out_edge": [
                 [
-                    "cluster_74_twist", 
+                    "cluster_47_join, unite", 
+                    "join, unite", 
+                    5.0, 
+                    22.321428571428573
+                ], 
+                [
+                    "cluster_74_bend", 
                     "wind, wrap", 
                     5.0, 
-                    1.0
+                    21.1864406779661
+                ], 
+                [
+                    "cluster_149_shut, close", 
+                    "shut, close", 
+                    4.0, 
+                    13.675213675213676
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.192", 
-            "community": 229, 
-            "id": "knot (noun)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.8130081300813009, 
+            "label": "tie, bind", 
+            "frequency": 312.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tie, bind"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 17.582417582417584, 
+                "weight": 17.582417582417584, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
                 "id": "knot (noun)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9900990099009901, 
+                "weight": 0.9900990099009901, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "tie, bind"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 17.582417582417584, 
+                "weight": 17.582417582417584, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
                 "id": "button"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 6.0, 
+                "normalized_weight": 13.91304347826087, 
+                "weight": 13.91304347826087, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
-                "id": "knot (noun)"
+                "id": "tie, bind"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
+                "languages": 1.0, 
+                "normalized_weight": 0.9900990099009901, 
+                "weight": 0.9900990099009901, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
                 "id": "button"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 6.0, 
+                "normalized_weight": 13.91304347826087, 
+                "weight": 13.91304347826087, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
-                "id": "tie, bind"
+                "id": "knot (noun)"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

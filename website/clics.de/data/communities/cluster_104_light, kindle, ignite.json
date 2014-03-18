@@ -1,0 +1,186 @@
+{
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "light, kindle, ignite", 
+            "key": "1.86", 
+            "id": "light, kindle, ignite", 
+            "community": 104, 
+            "out_edge": [], 
+            "normalized_weight": 0.9174311926605505, 
+            "label": "light, kindle, ignite", 
+            "frequency": 311.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 1.0, 
+            "families": 2.0, 
+            "concept": "burn (vb intrans)", 
+            "key": "1.852", 
+            "id": "burn (vb intrans)", 
+            "community": 104, 
+            "out_edge": [], 
+            "normalized_weight": 4.545454545454546, 
+            "label": "burn (vb intrans)", 
+            "frequency": 250.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "arson", 
+            "key": "21.46", 
+            "id": "arson", 
+            "community": 104, 
+            "out_edge": [], 
+            "normalized_weight": 1.3157894736842104, 
+            "label": "arson", 
+            "frequency": 145.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "burn (vb trans)", 
+            "key": "1.851", 
+            "id": "burn (vb trans)", 
+            "community": 104, 
+            "out_edge": [
+                [
+                    "cluster_105_bake", 
+                    "roast, fry", 
+                    8.0, 
+                    54.700854700854705
+                ], 
+                [
+                    "cluster_105_bake", 
+                    "cook", 
+                    4.0, 
+                    13.223140495867769
+                ]
+            ], 
+            "normalized_weight": 0.7936507936507936, 
+            "label": "burn (vb trans)", 
+            "frequency": 294.0
+        }
+    ], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.395604395604396, 
+                "weight": 4.395604395604396, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "arson"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 13.445378151260504, 
+                "weight": 13.445378151260504, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "languages": 31.0, 
+                "normalized_weight": 230.63063063063063, 
+                "weight": 230.63063063063063, 
+                "edge_width": 2.0588235294117645, 
+                "families": 16.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 13.445378151260504, 
+                "weight": 13.445378151260504, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "light, kindle, ignite"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.545454545454546, 
+                "weight": 4.545454545454546, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "arson"
+            }, 
+            {
+                "languages": 35.0, 
+                "normalized_weight": 152.25225225225225, 
+                "weight": 152.25225225225225, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.395604395604396, 
+                "weight": 4.395604395604396, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "light, kindle, ignite"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.545454545454546, 
+                "weight": 4.545454545454546, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 56.32183908045977, 
+                "weight": 56.32183908045977, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "burn (vb trans)"
+            }
+        ], 
+        [
+            {
+                "languages": 31.0, 
+                "normalized_weight": 230.63063063063063, 
+                "weight": 230.63063063063063, 
+                "edge_width": 2.0588235294117645, 
+                "families": 16.0, 
+                "id": "light, kindle, ignite"
+            }, 
+            {
+                "languages": 35.0, 
+                "normalized_weight": 152.25225225225225, 
+                "weight": 152.25225225225225, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "burn (vb intrans)"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 56.32183908045977, 
+                "weight": 56.32183908045977, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "arson"
+            }
+        ]
+    ]
+}

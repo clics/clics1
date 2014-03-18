@@ -1,164 +1,214 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 5.0, 
-                "id": "paint (noun)", 
-                "edge_width": 1.0, 
-                "weight": 24.0, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "color", 
-                "edge_width": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 35.0, 
-                "id": "dye", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 252.0, 
-                "families": 15.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "write", 
-                "edge_width": 1.0, 
-                "weight": 14.0, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "paint (vb)", 
-                "edge_width": 1.0, 
-                "weight": 24.0, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "paint (noun)", 
-                "edge_width": 1.0, 
-                "weight": 0.0, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 34.0, 
-                "id": "dye", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 111.0, 
-                "families": 10.0
-            }, 
-            {
-                "languages": 37.0, 
-                "id": "color", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 257.0, 
-                "families": 14.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "paint (vb)", 
-                "edge_width": 1.0, 
-                "weight": 1.0, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 37.0, 
-                "id": "paint (noun)", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 257.0, 
-                "families": 14.0
-            }, 
-            {
-                "languages": 12.0, 
-                "id": "dye", 
-                "edge_width": 1.0, 
-                "weight": 30.0, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 35.0, 
-                "id": "paint (vb)", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 252.0, 
-                "families": 15.0
-            }, 
-            {
-                "languages": 34.0, 
-                "id": "paint (noun)", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 111.0, 
-                "families": 10.0
-            }, 
-            {
-                "languages": 12.0, 
-                "id": "color", 
-                "edge_width": 1.0, 
-                "weight": 30.0, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "paint (vb)", 
-                "edge_width": 1.0, 
-                "weight": 14.0, 
-                "families": 4.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 72, 
-            "id": "paint (vb)", 
-            "key": "9.89"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 72, 
-            "id": "paint (noun)", 
-            "key": "9.88"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 72, 
-            "id": "color", 
-            "key": "15.61"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 72, 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "dye", 
+            "key": "6.39", 
             "id": "dye", 
-            "key": "6.39"
+            "community": 72, 
+            "out_edge": [], 
+            "normalized_weight": 3.9215686274509802, 
+            "label": "dye", 
+            "frequency": 215.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "color", 
+            "key": "15.61", 
+            "id": "color", 
             "community": 72, 
+            "out_edge": [], 
+            "normalized_weight": 1.1494252873563218, 
+            "label": "color", 
+            "frequency": 180.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "paint (noun)", 
+            "key": "9.88", 
+            "id": "paint (noun)", 
+            "community": 72, 
+            "out_edge": [], 
+            "normalized_weight": 0.9900990099009901, 
+            "label": "paint (noun)", 
+            "frequency": 240.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "paint (vb)", 
+            "key": "9.89", 
+            "id": "paint (vb)", 
+            "community": 72, 
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "paint (vb)", 
+            "frequency": 250.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "write", 
+            "key": "18.51", 
             "id": "write", 
-            "key": "18.51"
+            "community": 72, 
+            "out_edge": [], 
+            "normalized_weight": 0.8130081300813009, 
+            "label": "write", 
+            "frequency": 240.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 12.0, 
+                "normalized_weight": 30.864197530864196, 
+                "weight": 30.864197530864196, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "color"
+            }, 
+            {
+                "languages": 34.0, 
+                "normalized_weight": 111.11111111111111, 
+                "weight": 111.11111111111111, 
+                "edge_width": 1.5294117647058822, 
+                "families": 10.0, 
+                "id": "paint (noun)"
+            }, 
+            {
+                "languages": 35.0, 
+                "normalized_weight": 252.80898876404495, 
+                "weight": 252.80898876404495, 
+                "edge_width": 2.3235294117647056, 
+                "families": 15.0, 
+                "id": "paint (vb)"
+            }
+        ], 
+        [
+            {
+                "languages": 12.0, 
+                "normalized_weight": 30.864197530864196, 
+                "weight": 30.864197530864196, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "dye"
+            }, 
+            {
+                "languages": 37.0, 
+                "normalized_weight": 257.89473684210526, 
+                "weight": 257.89473684210526, 
+                "edge_width": 2.3235294117647056, 
+                "families": 14.0, 
+                "id": "paint (noun)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0752688172043012, 
+                "weight": 1.0752688172043012, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "paint (vb)"
+            }
+        ], 
+        [
+            {
+                "languages": 34.0, 
+                "normalized_weight": 111.11111111111111, 
+                "weight": 111.11111111111111, 
+                "edge_width": 1.5294117647058822, 
+                "families": 10.0, 
+                "id": "dye"
+            }, 
+            {
+                "languages": 37.0, 
+                "normalized_weight": 257.89473684210526, 
+                "weight": 257.89473684210526, 
+                "edge_width": 2.3235294117647056, 
+                "families": 14.0, 
+                "id": "color"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9708737864077669, 
+                "weight": 0.9708737864077669, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "paint (noun)"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 24.271844660194176, 
+                "weight": 24.271844660194176, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "paint (vb)"
+            }
+        ], 
+        [
+            {
+                "languages": 35.0, 
+                "normalized_weight": 252.80898876404495, 
+                "weight": 252.80898876404495, 
+                "edge_width": 2.3235294117647056, 
+                "families": 15.0, 
+                "id": "dye"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0752688172043012, 
+                "weight": 1.0752688172043012, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "color"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 24.271844660194176, 
+                "weight": 24.271844660194176, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "paint (noun)"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 14.285714285714285, 
+                "weight": 14.285714285714285, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "write"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 14.285714285714285, 
+                "weight": 14.285714285714285, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "paint (vb)"
+            }
+        ]
+    ]
 }

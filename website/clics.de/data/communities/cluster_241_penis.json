@@ -1,107 +1,161 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "4.18", 
-            "community": 241, 
-            "id": "tail", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "3.594", 
-            "community": 241, 
-            "id": "dove", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.75", 
-            "community": 241, 
-            "id": "deer", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "penis", 
             "key": "4.492", 
-            "community": 241, 
             "id": "penis", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "community": 241, 
+            "out_edge": [
+                [
+                    "cluster_37_fowl", 
+                    "bird", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "penis", 
+            "frequency": 303.0
         }, 
         {
-            "key": "4.271", 
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "tail", 
+            "key": "4.18", 
+            "id": "tail", 
             "community": 241, 
-            "id": "gums", 
             "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "normalized_weight": 0.9174311926605505, 
+            "label": "tail", 
+            "frequency": 264.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "deer", 
+            "key": "3.75", 
+            "id": "deer", 
+            "community": 241, 
+            "out_edge": [], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "deer", 
+            "frequency": 265.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "gums", 
+            "key": "4.271", 
+            "id": "gums", 
+            "community": 241, 
+            "out_edge": [], 
+            "normalized_weight": 0.9523809523809524, 
+            "label": "gums", 
+            "frequency": 211.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "dove", 
+            "key": "3.594", 
+            "id": "dove", 
+            "community": 241, 
+            "out_edge": [], 
+            "label": "dove", 
+            "frequency": 249.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "penis"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "deer"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "penis"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tail"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "tail"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "dove"
             }, 
             {
-                "weight": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 3.225806451612903, 
+                "weight": 3.225806451612903, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "tail"
+            }, 
+            {
                 "languages": 1.0, 
+                "normalized_weight": 0.9009009009009009, 
+                "weight": 0.9009009009009009, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "gums"
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 3.225806451612903, 
+                "weight": 3.225806451612903, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "penis"
+            }, 
+            {
                 "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
+                "weight": 0.8403361344537815, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "deer"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
+                "weight": 0.8403361344537815, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "tail"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9009009009009009, 
+                "weight": 0.9009009009009009, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "penis"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "penis"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

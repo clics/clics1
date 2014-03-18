@@ -1,75 +1,108 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 7.0, 
+            "weight": 6.0, 
+            "swadesh100": 0.0, 
+            "families": 6.0, 
+            "concept": "shoe", 
             "key": "6.51", 
-            "community": 172, 
             "id": "shoe", 
+            "community": 172, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 43.373493975903614, 
+            "label": "shoe", 
+            "frequency": 232.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "boot", 
             "key": "6.52", 
-            "community": 172, 
             "id": "boot", 
+            "community": 172, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 5.128205128205128, 
+            "label": "boot", 
+            "frequency": 181.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "stocking, sock", 
             "key": "6.49", 
-            "community": 172, 
             "id": "stocking, sock", 
+            "community": 172, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9803921568627451, 
+            "label": "stocking, sock", 
+            "frequency": 209.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 2.0588235294117645, 
                 "languages": 28.0, 
+                "normalized_weight": 202.8169014084507, 
+                "weight": 202.8169014084507, 
+                "edge_width": 2.0588235294117645, 
                 "families": 12.0, 
                 "id": "boot"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 7.0, 
+                "normalized_weight": 43.373493975903614, 
+                "weight": 43.373493975903614, 
+                "edge_width": 1.0, 
                 "families": 6.0, 
                 "id": "stocking, sock"
             }
         ], 
         [
             {
-                "weight": 2.0588235294117645, 
                 "languages": 28.0, 
+                "normalized_weight": 202.8169014084507, 
+                "weight": 202.8169014084507, 
+                "edge_width": 2.0588235294117645, 
                 "families": 12.0, 
                 "id": "shoe"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 1.3333333333333335, 
+                "weight": 1.3333333333333335, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "stocking, sock"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 7.0, 
+                "normalized_weight": 43.373493975903614, 
+                "weight": 43.373493975903614, 
+                "edge_width": 1.0, 
                 "families": 6.0, 
                 "id": "shoe"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 1.3333333333333335, 
+                "weight": 1.3333333333333335, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "boot"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

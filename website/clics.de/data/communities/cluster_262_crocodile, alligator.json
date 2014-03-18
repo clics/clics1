@@ -1,69 +1,100 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "3.95", 
-            "community": 262, 
-            "id": "frog", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "lizard", 
             "key": "3.96", 
-            "community": 262, 
             "id": "lizard", 
+            "community": 262, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 3.6363636363636362, 
+            "label": "lizard", 
+            "frequency": 263.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "crocodile, alligator", 
             "key": "3.97", 
-            "community": 262, 
             "id": "crocodile, alligator", 
+            "community": 262, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9259259259259258, 
+            "label": "crocodile, alligator", 
+            "frequency": 221.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "frog", 
+            "key": "3.95", 
+            "id": "frog", 
+            "community": 262, 
+            "out_edge": [], 
+            "normalized_weight": 0.8695652173913043, 
+            "label": "frog", 
+            "frequency": 248.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lizard"
-            }
-        ], 
-        [
+                "languages": 2.0, 
+                "normalized_weight": 3.6363636363636362, 
+                "weight": 3.6363636363636362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "crocodile, alligator"
+            }, 
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 0.819672131147541, 
+                "weight": 0.819672131147541, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "frog"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "crocodile, alligator"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "lizard"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 1.0101010101010102, 
+                "weight": 1.0101010101010102, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "crocodile, alligator"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.6363636363636362, 
+                "weight": 3.6363636363636362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "lizard"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.819672131147541, 
+                "weight": 0.819672131147541, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "lizard"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

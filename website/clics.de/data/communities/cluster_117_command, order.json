@@ -1,68 +1,60 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 11.0, 
-                "id": "rule, govern", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 75.29411764705883, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 25.0, 
-                "id": "send", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 396.7032967032967, 
-                "families": 19.0
-            }
-        ], 
-        [
-            {
-                "languages": 25.0, 
-                "id": "command, order", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 396.7032967032967, 
-                "families": 19.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "rule, govern", 
-                "edge_width": 1.0, 
-                "weight": 16.842105263157894, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 11.0, 
-                "id": "command, order", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 75.29411764705883, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "send", 
-                "edge_width": 1.0, 
-                "weight": 16.842105263157894, 
-                "families": 4.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "rule, govern", 
+            "key": "19.31", 
+            "id": "rule, govern", 
             "community": 117, 
-            "id": "command, order", 
-            "key": "19.45"
+            "out_edge": [
+                [
+                    "cluster_23_bring", 
+                    "drive", 
+                    5.0, 
+                    30.48780487804878
+                ], 
+                [
+                    "cluster_23_bring", 
+                    "lead (vb)", 
+                    5.0, 
+                    27.472527472527474
+                ]
+            ], 
+            "normalized_weight": 10.465116279069768, 
+            "label": "rule, govern", 
+            "frequency": 216.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "command, order", 
+            "key": "19.45", 
+            "id": "command, order", 
+            "community": 117, 
+            "out_edge": [], 
+            "normalized_weight": 0.9090909090909091, 
+            "label": "command, order", 
+            "frequency": 274.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "send", 
+            "key": "10.63", 
+            "id": "send", 
+            "community": 117, 
             "out_edge": [
                 [
                     "cluster_83_forgive", 
@@ -83,31 +75,66 @@
                     14.678899082568808
                 ]
             ], 
-            "community": 117, 
-            "id": "send", 
-            "key": "10.63"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_23_bring", 
-                    "drive", 
-                    5.0, 
-                    30.48780487804878
-                ], 
-                [
-                    "cluster_23_bring", 
-                    "lead (vb)", 
-                    5.0, 
-                    27.472527472527474
-                ]
-            ], 
-            "community": 117, 
-            "id": "rule, govern", 
-            "key": "19.31"
+            "normalized_weight": 0.9615384615384616, 
+            "label": "send", 
+            "frequency": 275.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 11.0, 
+                "normalized_weight": 75.29411764705883, 
+                "weight": 75.29411764705883, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "command, order"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.842105263157894, 
+                "weight": 16.842105263157894, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "send"
+            }
+        ], 
+        [
+            {
+                "languages": 11.0, 
+                "normalized_weight": 75.29411764705883, 
+                "weight": 75.29411764705883, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "rule, govern"
+            }, 
+            {
+                "languages": 25.0, 
+                "normalized_weight": 396.7032967032967, 
+                "weight": 396.7032967032967, 
+                "edge_width": 2.8529411764705883, 
+                "families": 19.0, 
+                "id": "send"
+            }
+        ], 
+        [
+            {
+                "languages": 25.0, 
+                "normalized_weight": 396.7032967032967, 
+                "weight": 396.7032967032967, 
+                "edge_width": 2.8529411764705883, 
+                "families": 19.0, 
+                "id": "command, order"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.842105263157894, 
+                "weight": 16.842105263157894, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "rule, govern"
+            }
+        ]
+    ]
 }

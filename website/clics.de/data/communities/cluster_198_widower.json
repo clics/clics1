@@ -1,41 +1,55 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "widower", 
             "key": "2.77", 
-            "body_part": 0, 
-            "community": 198, 
             "id": "widower", 
+            "community": 198, 
             "out_edge": [], 
-            "swadesh100": 0
+            "label": "widower", 
+            "frequency": 210.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "widow", 
             "key": "2.76", 
-            "body_part": 0, 
-            "community": 198, 
             "id": "widow", 
+            "community": 198, 
             "out_edge": [], 
-            "swadesh100": 0
+            "normalized_weight": 3.7037037037037033, 
+            "label": "widow", 
+            "frequency": 231.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 2757.446808510638, 
                 "languages": 34.0, 
+                "normalized_weight": 344.6808510638298, 
+                "weight": 344.6808510638298, 
+                "edge_width": 2.5882352941176472, 
                 "families": 18.0, 
                 "id": "widow"
             }
         ], 
         [
             {
-                "weight": 2757.446808510638, 
                 "languages": 34.0, 
+                "normalized_weight": 344.6808510638298, 
+                "weight": 344.6808510638298, 
+                "edge_width": 2.5882352941176472, 
                 "families": 18.0, 
                 "id": "widower"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

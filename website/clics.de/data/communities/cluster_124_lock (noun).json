@@ -1,75 +1,108 @@
 {
     "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "lock (noun)", 
+            "key": "7.23", 
+            "id": "lock (noun)", 
+            "community": 124, 
+            "out_edge": [], 
+            "normalized_weight": 1.1904761904761905, 
+            "label": "lock (noun)", 
+            "frequency": 180.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "key", 
+            "key": "7.24", 
+            "id": "key", 
+            "community": 124, 
+            "out_edge": [], 
+            "normalized_weight": 1.3157894736842104, 
+            "label": "key", 
+            "frequency": 166.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "latch, door-bolt", 
+            "key": "7.231", 
+            "id": "latch, door-bolt", 
+            "community": 124, 
+            "out_edge": [], 
+            "normalized_weight": 1.098901098901099, 
+            "label": "latch, door-bolt", 
+            "frequency": 187.0
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 18.0, 
-                "weight": 1.5306122448979591, 
-                "id": "key", 
-                "families": 9.0
+                "normalized_weight": 132.78688524590163, 
+                "weight": 132.78688524590163, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "key"
             }, 
             {
                 "languages": 17.0, 
-                "weight": 2.3469387755102042, 
-                "id": "latch, door-bolt", 
-                "families": 14.0
+                "normalized_weight": 332.20338983050846, 
+                "weight": 332.20338983050846, 
+                "edge_width": 2.5882352941176472, 
+                "families": 14.0, 
+                "id": "latch, door-bolt"
             }
         ], 
         [
             {
                 "languages": 18.0, 
-                "weight": 1.5306122448979591, 
-                "id": "lock (noun)", 
-                "families": 9.0
+                "normalized_weight": 132.78688524590163, 
+                "weight": 132.78688524590163, 
+                "edge_width": 1.5294117647058822, 
+                "families": 9.0, 
+                "id": "lock (noun)"
             }, 
             {
                 "languages": 4.0, 
-                "weight": 1.0816326530612246, 
-                "id": "latch, door-bolt", 
-                "families": 4.0
+                "normalized_weight": 26.229508196721312, 
+                "weight": 26.229508196721312, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "latch, door-bolt"
             }
         ], 
         [
             {
                 "languages": 17.0, 
-                "weight": 2.3469387755102042, 
-                "id": "lock (noun)", 
-                "families": 14.0
+                "normalized_weight": 332.20338983050846, 
+                "weight": 332.20338983050846, 
+                "edge_width": 2.5882352941176472, 
+                "families": 14.0, 
+                "id": "lock (noun)"
             }, 
             {
                 "languages": 4.0, 
-                "weight": 1.0816326530612246, 
-                "id": "key", 
-                "families": 4.0
+                "normalized_weight": 26.229508196721312, 
+                "weight": 26.229508196721312, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "key"
             }
         ]
-    ], 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 124, 
-            "body_part": 0, 
-            "id": "lock (noun)", 
-            "key": "7.23"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 124, 
-            "body_part": 0, 
-            "id": "key", 
-            "key": "7.24"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 124, 
-            "body_part": 0, 
-            "id": "latch, door-bolt", 
-            "key": "7.231"
-        }
-    ], 
-    "multigraph": false, 
-    "directed": false
+    ]
 }

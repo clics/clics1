@@ -1,214 +1,318 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "14.47", 
-            "community": 54, 
-            "id": "today", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.18", 
-            "community": 54, 
-            "id": "now", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "14.23", 
-            "community": 54, 
-            "id": "hasten, hurry", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "soon", 
             "key": "14.331", 
-            "community": 54, 
             "id": "soon", 
+            "community": 54, 
             "out_edge": [
                 [
-                    "cluster_76_morning", 
+                    "cluster_76_tomorrow", 
                     "early", 
                     7.0, 
-                    1.2647058823529411
+                    52.68817204301075
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 8.035714285714286, 
+            "label": "soon", 
+            "frequency": 261.0
         }, 
         {
-            "key": "14.21", 
-            "community": 54, 
-            "id": "swift, fast, quick", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "immediately", 
             "key": "14.19", 
-            "community": 54, 
             "id": "immediately", 
+            "community": 54, 
+            "out_edge": [
+                [
+                    "cluster_76_tomorrow", 
+                    "early", 
+                    4.0, 
+                    15.686274509803921
+                ]
+            ], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "immediately", 
+            "frequency": 280.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "swift, fast, quick", 
+            "key": "14.21", 
+            "id": "swift, fast, quick", 
+            "community": 54, 
+            "out_edge": [
+                [
+                    "cluster_76_tomorrow", 
+                    "early", 
+                    7.0, 
+                    47.57281553398058
+                ], 
+                [
+                    "cluster_140_pointed", 
+                    "sharp", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ], 
+            "normalized_weight": 0.8130081300813009, 
+            "label": "swift, fast, quick", 
+            "frequency": 365.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "hasten, hurry", 
+            "key": "14.23", 
+            "id": "hasten, hurry", 
+            "community": 54, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9433962264150944, 
+            "label": "hasten, hurry", 
+            "frequency": 306.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "now", 
+            "key": "14.18", 
+            "id": "now", 
+            "community": 54, 
+            "out_edge": [], 
+            "label": "now", 
+            "frequency": 277.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "today", 
+            "key": "14.47", 
+            "id": "today", 
+            "community": 54, 
+            "out_edge": [], 
+            "normalized_weight": 3.418803418803419, 
+            "label": "today", 
+            "frequency": 252.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
-                "families": 1.0, 
-                "id": "soon"
-            }, 
-            {
-                "weight": 2.8529411764705883, 
-                "languages": 31.0, 
-                "families": 20.0, 
-                "id": "now"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "immediately"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "soon"
-            }, 
-            {
-                "weight": 2.8529411764705883, 
-                "languages": 31.0, 
-                "families": 20.0, 
-                "id": "today"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
-                "families": 9.0, 
-                "id": "immediately"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "soon"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "swift, fast, quick"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "immediately"
-            }
-        ], 
-        [
-            {
-                "weight": 2.0588235294117645, 
-                "languages": 21.0, 
-                "families": 15.0, 
-                "id": "swift, fast, quick"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "normalized_weight": 0.8928571428571428, 
+                "weight": 0.8928571428571428, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "today"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "now"
+                "languages": 18.0, 
+                "normalized_weight": 146.9387755102041, 
+                "weight": 146.9387755102041, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "immediately"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 8.256880733944955, 
+                "weight": 8.256880733944955, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "hasten, hurry"
             }, 
             {
-                "weight": 1.5294117647058822, 
-                "languages": 18.0, 
-                "families": 12.0, 
-                "id": "immediately"
+                "languages": 7.0, 
+                "normalized_weight": 45.794392523364486, 
+                "weight": 45.794392523364486, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "now"
+            }, 
+            {
+                "languages": 21.0, 
+                "normalized_weight": 227.27272727272728, 
+                "weight": 227.27272727272728, 
+                "edge_width": 2.0588235294117645, 
+                "families": 15.0, 
+                "id": "swift, fast, quick"
             }
         ], 
         [
             {
-                "weight": 2.0588235294117645, 
-                "languages": 21.0, 
-                "families": 15.0, 
+                "languages": 18.0, 
+                "normalized_weight": 146.9387755102041, 
+                "weight": 146.9387755102041, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
                 "id": "soon"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "swift, fast, quick"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 14.0, 
-                "families": 9.0, 
-                "id": "hasten, hurry"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "immediately"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "today"
             }, 
             {
-                "weight": 1.5294117647058822, 
-                "languages": 18.0, 
-                "families": 12.0, 
-                "id": "soon"
+                "languages": 1.0, 
+                "normalized_weight": 0.8547008547008548, 
+                "weight": 0.8547008547008548, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "hasten, hurry"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 8.0, 
-                "families": 7.0, 
-                "id": "swift, fast, quick"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 10.0, 
+                "normalized_weight": 72.97297297297297, 
+                "weight": 72.97297297297297, 
+                "edge_width": 1.2647058823529411, 
                 "families": 9.0, 
                 "id": "now"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
+                "languages": 8.0, 
+                "normalized_weight": 43.36283185840708, 
+                "weight": 43.36283185840708, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "swift, fast, quick"
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "normalized_weight": 227.27272727272728, 
+                "weight": 227.27272727272728, 
+                "edge_width": 2.0588235294117645, 
+                "families": 15.0, 
+                "id": "soon"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 43.36283185840708, 
+                "weight": 43.36283185840708, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "immediately"
+            }, 
+            {
+                "languages": 14.0, 
+                "normalized_weight": 71.68141592920354, 
+                "weight": 71.68141592920354, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
                 "id": "hasten, hurry"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8130081300813009, 
+                "weight": 0.8130081300813009, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "swift, fast, quick"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 8.256880733944955, 
+                "weight": 8.256880733944955, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "soon"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8547008547008548, 
+                "weight": 0.8547008547008548, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "immediately"
+            }, 
+            {
+                "languages": 14.0, 
+                "normalized_weight": 71.68141592920354, 
+                "weight": 71.68141592920354, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "swift, fast, quick"
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "normalized_weight": 45.794392523364486, 
+                "weight": 45.794392523364486, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "soon"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 72.97297297297297, 
+                "weight": 72.97297297297297, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "immediately"
+            }, 
+            {
+                "languages": 31.0, 
+                "normalized_weight": 388.3495145631068, 
+                "weight": 388.3495145631068, 
+                "edge_width": 2.8529411764705883, 
+                "families": 20.0, 
+                "id": "today"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8928571428571428, 
+                "weight": 0.8928571428571428, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "soon"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "immediately"
+            }, 
+            {
+                "languages": 31.0, 
+                "normalized_weight": 388.3495145631068, 
+                "weight": 388.3495145631068, 
+                "edge_width": 2.8529411764705883, 
+                "families": 20.0, 
+                "id": "now"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

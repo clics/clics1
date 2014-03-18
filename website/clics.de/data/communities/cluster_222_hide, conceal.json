@@ -1,97 +1,148 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "12.27", 
-            "community": 222, 
-            "id": "hide, conceal", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "17.36", 
-            "community": 222, 
-            "id": "secret", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.86", 
-            "community": 222, 
-            "id": "rudder", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bury (the dead)", 
             "key": "4.78", 
-            "community": 222, 
             "id": "bury (the dead)", 
+            "community": 222, 
+            "out_edge": [
+                [
+                    "cluster_31_sow", 
+                    "plant (vb)", 
+                    7.0, 
+                    44.14414414414414
+                ]
+            ], 
+            "normalized_weight": 0.9259259259259258, 
+            "label": "bury (the dead)", 
+            "frequency": 261.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "rudder", 
+            "key": "10.86", 
+            "id": "rudder", 
+            "community": 222, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.282051282051282, 
+            "label": "rudder", 
+            "frequency": 138.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "secret", 
+            "key": "17.36", 
+            "id": "secret", 
+            "community": 222, 
+            "out_edge": [], 
+            "normalized_weight": 3.7037037037037033, 
+            "label": "secret", 
+            "frequency": 222.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "hide, conceal", 
+            "key": "12.27", 
+            "id": "hide, conceal", 
+            "community": 222, 
+            "out_edge": [], 
+            "normalized_weight": 3.1746031746031744, 
+            "label": "hide, conceal", 
+            "frequency": 303.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 2.0, 
+                "languages": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "weight": 0.9345794392523363, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
                 "id": "secret"
             }, 
             {
-                "weight": 1.0, 
+                "languages": 7.0, 
+                "normalized_weight": 30.0, 
+                "weight": 30.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "hide, conceal"
+            }
+        ], 
+        [
+            {
                 "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "hide, conceal"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "weight": 0.9345794392523363, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "bury (the dead)"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 3.7037037037037033, 
+                "weight": 3.7037037037037033, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "hide, conceal"
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "normalized_weight": 30.0, 
+                "weight": 30.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "bury (the dead)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "rudder"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "bury (the dead)"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
                 "languages": 3.0, 
+                "normalized_weight": 3.7037037037037033, 
+                "weight": 3.7037037037037033, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
-                "id": "hide, conceal"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "bury (the dead)"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "hide, conceal"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
                 "id": "secret"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 6.0, 
-                "id": "hide, conceal"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

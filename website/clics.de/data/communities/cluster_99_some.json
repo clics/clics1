@@ -1,118 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 30.0, 
-                "id": "little (quantity), few", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 265.13761467889907, 
-                "families": 17.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "some", 
-                "edge_width": 1.0, 
-                "weight": 3.418803418803419, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 30.0, 
-                "id": "small, little", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 265.13761467889907, 
-                "families": 17.0
-            }, 
-            {
-                "languages": 20.0, 
-                "id": "some", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 137.14285714285714, 
-                "families": 12.0
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "id": "some", 
-                "edge_width": 1.0, 
-                "weight": 46.666666666666664, 
-                "families": 7.0
-            }
-        ], 
-        [
-            {
-                "languages": 20.0, 
-                "id": "little (quantity), few", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 137.14285714285714, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "small, little", 
-                "edge_width": 1.0, 
-                "weight": 3.418803418803419, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "thing", 
-                "edge_width": 1.0, 
-                "weight": 46.666666666666664, 
-                "families": 7.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_6_son", 
-                    "young", 
-                    9.0, 
-                    71.68141592920354
-                ], 
-                [
-                    "cluster_36_inside, in", 
-                    "short", 
-                    7.0, 
-                    41.52542372881356
-                ], 
-                [
-                    "cluster_171_thin (in dimension)", 
-                    "narrow", 
-                    6.0, 
-                    30.252100840336134
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "thing", 
+            "key": "11.18", 
+            "id": "thing", 
             "community": 99, 
-            "id": "small, little", 
-            "key": "12.56"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_236_one", 
-                    "one", 
-                    4.0, 
-                    13.223140495867769
-                ]
-            ], 
-            "community": 99, 
-            "id": "little (quantity), few", 
-            "key": "13.17"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_93_how?", 
@@ -121,13 +20,20 @@
                     13.675213675213676
                 ]
             ], 
-            "community": 99, 
-            "id": "thing", 
-            "key": "11.18"
+            "normalized_weight": 0.8620689655172413, 
+            "label": "thing", 
+            "frequency": 259.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "some", 
+            "key": "13.181", 
+            "id": "some", 
+            "community": 99, 
             "out_edge": [
                 [
                     "cluster_90_half", 
@@ -136,16 +42,146 @@
                     15.53398058252427
                 ], 
                 [
-                    "cluster_236_one", 
+                    "cluster_235_one", 
                     "one", 
                     4.0, 
                     14.035087719298245
                 ]
             ], 
+            "normalized_weight": 0.9009009009009009, 
+            "label": "some", 
+            "frequency": 283.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 1.0, 
+            "families": 2.0, 
+            "concept": "small, little", 
+            "key": "12.56", 
+            "id": "small, little", 
             "community": 99, 
-            "id": "some", 
-            "key": "13.181"
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "young", 
+                    9.0, 
+                    71.68141592920354
+                ], 
+                [
+                    "cluster_36_low", 
+                    "short", 
+                    7.0, 
+                    41.52542372881356
+                ], 
+                [
+                    "cluster_171_narrow", 
+                    "narrow", 
+                    6.0, 
+                    30.252100840336134
+                ]
+            ], 
+            "normalized_weight": 3.225806451612903, 
+            "label": "small, little", 
+            "frequency": 340.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "little (quantity), few", 
+            "key": "13.17", 
+            "id": "little (quantity), few", 
+            "community": 99, 
+            "out_edge": [
+                [
+                    "cluster_235_one", 
+                    "one", 
+                    4.0, 
+                    13.223140495867769
+                ]
+            ], 
+            "normalized_weight": 0.8064516129032258, 
+            "label": "little (quantity), few", 
+            "frequency": 300.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 9.0, 
+                "normalized_weight": 46.666666666666664, 
+                "weight": 46.666666666666664, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "some"
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "normalized_weight": 46.666666666666664, 
+                "weight": 46.666666666666664, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "thing"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "small, little"
+            }, 
+            {
+                "languages": 20.0, 
+                "normalized_weight": 137.14285714285714, 
+                "weight": 137.14285714285714, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "little (quantity), few"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.418803418803419, 
+                "weight": 3.418803418803419, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "some"
+            }, 
+            {
+                "languages": 30.0, 
+                "normalized_weight": 265.13761467889907, 
+                "weight": 265.13761467889907, 
+                "edge_width": 2.3235294117647056, 
+                "families": 17.0, 
+                "id": "little (quantity), few"
+            }
+        ], 
+        [
+            {
+                "languages": 20.0, 
+                "normalized_weight": 137.14285714285714, 
+                "weight": 137.14285714285714, 
+                "edge_width": 1.5294117647058822, 
+                "families": 12.0, 
+                "id": "some"
+            }, 
+            {
+                "languages": 30.0, 
+                "normalized_weight": 265.13761467889907, 
+                "weight": 265.13761467889907, 
+                "edge_width": 2.3235294117647056, 
+                "families": 17.0, 
+                "id": "small, little"
+            }
+        ]
+    ]
 }

@@ -1,0 +1,207 @@
+{
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "blue", 
+            "key": "15.67", 
+            "id": "blue", 
+            "community": 46, 
+            "out_edge": [
+                [
+                    "cluster_100_wound, sore", 
+                    "bruise", 
+                    4.0, 
+                    15.841584158415841
+                ]
+            ], 
+            "normalized_weight": 0.819672131147541, 
+            "label": "blue", 
+            "frequency": 246.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "raw", 
+            "key": "5.122", 
+            "id": "raw", 
+            "community": 46, 
+            "out_edge": [
+                [
+                    "cluster_61_dwell, live", 
+                    "live, living, life", 
+                    5.0, 
+                    21.008403361344538
+                ], 
+                [
+                    "cluster_205_liver", 
+                    "wet, damp", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ], 
+            "normalized_weight": 0.847457627118644, 
+            "label": "raw", 
+            "frequency": 254.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "green, unripe", 
+            "key": "5.124", 
+            "id": "green, unripe", 
+            "community": 46, 
+            "out_edge": [
+                [
+                    "cluster_6_son", 
+                    "young", 
+                    5.0, 
+                    22.93577981651376
+                ]
+            ], 
+            "normalized_weight": 0.8849557522123894, 
+            "label": "green, unripe", 
+            "frequency": 305.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "green", 
+            "key": "15.68", 
+            "id": "green", 
+            "community": 46, 
+            "out_edge": [
+                [
+                    "cluster_228_red", 
+                    "yellow", 
+                    6.0, 
+                    30.508474576271187
+                ]
+            ], 
+            "normalized_weight": 0.9090909090909091, 
+            "label": "green", 
+            "frequency": 245.0
+        }
+    ], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 47.0, 
+                "normalized_weight": 736.3636363636364, 
+                "weight": 736.3636363636364, 
+                "edge_width": 4.7058823529411766, 
+                "families": 27.0, 
+                "id": "green"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.278688524590164, 
+                "weight": 3.278688524590164, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "raw"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "green, unripe"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.278688524590164, 
+                "weight": 3.278688524590164, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "blue"
+            }, 
+            {
+                "languages": 45.0, 
+                "normalized_weight": 742.8571428571429, 
+                "weight": 742.8571428571429, 
+                "edge_width": 4.7058823529411766, 
+                "families": 26.0, 
+                "id": "green, unripe"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 55.172413793103445, 
+                "weight": 55.172413793103445, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "green"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "blue"
+            }, 
+            {
+                "languages": 45.0, 
+                "normalized_weight": 742.8571428571429, 
+                "weight": 742.8571428571429, 
+                "edge_width": 4.7058823529411766, 
+                "families": 26.0, 
+                "id": "raw"
+            }, 
+            {
+                "languages": 49.0, 
+                "normalized_weight": 186.66666666666666, 
+                "weight": 186.66666666666666, 
+                "edge_width": 1.7941176470588236, 
+                "families": 14.0, 
+                "id": "green"
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "normalized_weight": 736.3636363636364, 
+                "weight": 736.3636363636364, 
+                "edge_width": 4.7058823529411766, 
+                "families": 27.0, 
+                "id": "blue"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 55.172413793103445, 
+                "weight": 55.172413793103445, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "raw"
+            }, 
+            {
+                "languages": 49.0, 
+                "normalized_weight": 186.66666666666666, 
+                "weight": 186.66666666666666, 
+                "edge_width": 1.7941176470588236, 
+                "families": 14.0, 
+                "id": "green, unripe"
+            }
+        ]
+    ]
+}

@@ -1,107 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "sling", 
-                "edge_width": 1.0, 
-                "weight": 1.0752688172043012, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "chain", 
-                "edge_width": 1.0, 
-                "weight": 1.1904761904761905, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "chain", 
-                "edge_width": 1.0, 
-                "weight": 17.391304347826086, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 21.0, 
-                "id": "bead", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 174.22680412371133, 
-                "families": 13.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "sling", 
-                "edge_width": 1.0, 
-                "weight": 1.1904761904761905, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "necklace", 
-                "edge_width": 1.0, 
-                "weight": 17.391304347826086, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "chain", 
-                "edge_width": 1.0, 
-                "weight": 1.3333333333333335, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 21.0, 
-                "id": "necklace", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 174.22680412371133, 
-                "families": 13.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bead", 
+            "key": "6.76", 
+            "id": "bead", 
             "community": 154, 
-            "id": "sling", 
-            "key": "20.23"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_91_neck", 
-                    "collar", 
-                    7.0, 
-                    55.68181818181818
-                ]
-            ], 
-            "community": 154, 
-            "id": "necklace", 
-            "key": "6.75"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 154, 
-            "id": "chain", 
-            "key": "9.18"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_19_fruit", 
@@ -110,10 +20,131 @@
                     46.666666666666664
                 ]
             ], 
+            "normalized_weight": 0.9174311926605505, 
+            "label": "bead", 
+            "frequency": 206.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "chain", 
+            "key": "9.18", 
+            "id": "chain", 
             "community": 154, 
-            "id": "bead", 
-            "key": "6.76"
+            "out_edge": [], 
+            "normalized_weight": 1.0204081632653061, 
+            "label": "chain", 
+            "frequency": 194.0
+        }, 
+        {
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "families": 1.0, 
+            "key": "6.75", 
+            "id": "necklace", 
+            "community": 154, 
+            "out_edge": [
+                [
+                    "cluster_91_collar", 
+                    "collar", 
+                    7.0, 
+                    55.68181818181818
+                ]
+            ], 
+            "normalized_weight": 0.8695652173913043
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "sling", 
+            "key": "20.23", 
+            "id": "sling", 
+            "community": 154, 
+            "out_edge": [], 
+            "normalized_weight": 1.0752688172043012, 
+            "label": "sling", 
+            "frequency": 163.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 21.0, 
+                "normalized_weight": 174.22680412371133, 
+                "weight": 174.22680412371133, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "necklace"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.3333333333333335, 
+                "weight": 1.3333333333333335, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "chain"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 17.391304347826086, 
+                "weight": 17.391304347826086, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "necklace"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1904761904761905, 
+                "weight": 1.1904761904761905, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "sling"
+            }
+        ], 
+        [
+            {
+                "languages": 21.0, 
+                "normalized_weight": 174.22680412371133, 
+                "weight": 174.22680412371133, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "bead"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 17.391304347826086, 
+                "weight": 17.391304347826086, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "chain"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1904761904761905, 
+                "weight": 1.1904761904761905, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "chain"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0752688172043012, 
+                "weight": 1.0752688172043012, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "sling"
+            }
+        ]
+    ]
 }

@@ -1,27 +1,46 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0, 
-            "community": 170, 
-            "id": "month", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "month", 
             "key": "14.71", 
+            "id": "month", 
+            "community": 170, 
             "out_edge": [], 
-            "swadesh100": 0
+            "normalized_weight": 0.847457627118644, 
+            "label": "month", 
+            "frequency": 218.0
         }, 
         {
-            "body_part": 0, 
-            "community": 170, 
-            "id": "moon", 
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 1.0, 
+            "families": 3.0, 
+            "concept": "moon", 
             "key": "1.53", 
+            "id": "moon", 
+            "community": 170, 
             "out_edge": [], 
-            "swadesh100": 1
+            "normalized_weight": 7.377049180327869, 
+            "label": "moon", 
+            "frequency": 246.0
         }
     ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 118.0, 
-                "weight": 4.9651162790697674, 
+                "normalized_weight": 1975.3086419753085, 
+                "weight": 1975.3086419753085, 
+                "edge_width": 9.4705882352941178, 
                 "families": 40.0, 
                 "id": "moon"
             }
@@ -29,13 +48,12 @@
         [
             {
                 "languages": 118.0, 
-                "weight": 4.9651162790697674, 
+                "normalized_weight": 1975.3086419753085, 
+                "weight": 1975.3086419753085, 
+                "edge_width": 9.4705882352941178, 
                 "families": 40.0, 
                 "id": "month"
             }
         ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    ]
 }

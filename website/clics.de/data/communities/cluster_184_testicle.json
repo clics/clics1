@@ -1,30 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 24.0, 
-                "id": "egg", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 241.50943396226415, 
-                "families": 16.0
-            }
-        ], 
-        [
-            {
-                "languages": 24.0, 
-                "id": "testicle", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 241.50943396226415, 
-                "families": 16.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 1, 
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "testicle", 
+            "key": "4.49", 
+            "id": "testicle", 
+            "community": 184, 
             "out_edge": [
                 [
                     "cluster_19_fruit", 
@@ -33,18 +20,47 @@
                     13.91304347826087
                 ]
             ], 
-            "community": 184, 
-            "id": "testicle", 
-            "key": "4.49"
+            "normalized_weight": 0.8547008547008548, 
+            "label": "testicle", 
+            "frequency": 256.0
         }, 
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 184, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "egg", 
+            "key": "5.97", 
             "id": "egg", 
-            "key": "5.97"
+            "community": 184, 
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "egg", 
+            "frequency": 240.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 24.0, 
+                "normalized_weight": 241.50943396226415, 
+                "weight": 241.50943396226415, 
+                "edge_width": 2.0588235294117645, 
+                "families": 16.0, 
+                "id": "egg"
+            }
+        ], 
+        [
+            {
+                "languages": 24.0, 
+                "normalized_weight": 241.50943396226415, 
+                "weight": 241.50943396226415, 
+                "edge_width": 2.0588235294117645, 
+                "families": 16.0, 
+                "id": "testicle"
+            }
+        ]
+    ]
 }

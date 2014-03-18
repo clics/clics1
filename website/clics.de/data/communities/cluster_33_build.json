@@ -1,238 +1,20 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "put on (clothes)", 
-                "edge_width": 1.0, 
-                "weight": 0.9803921568627451, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 10.0, 
-                "id": "do, make", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 50.0, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "build", 
-                "edge_width": 1.0, 
-                "weight": 39.130434782608695, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "put on (clothes)", 
-                "edge_width": 1.0, 
-                "weight": 42.98245614035088, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "do, make", 
-                "edge_width": 1.0, 
-                "weight": 30.76923076923077, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "build", 
-                "edge_width": 1.0, 
-                "weight": 14.285714285714285, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "mold (clay etc)", 
-                "edge_width": 1.0, 
-                "weight": 0.9803921568627451, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "put", 
-                "edge_width": 1.0, 
-                "weight": 42.98245614035088, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "do, make", 
-                "edge_width": 1.0, 
-                "weight": 3.278688524590164, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "build", 
-                "edge_width": 1.0, 
-                "weight": 3.4782608695652173, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "put on (clothes)", 
-                "edge_width": 1.0, 
-                "weight": 3.4782608695652173, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "mold (clay etc)", 
-                "edge_width": 1.0, 
-                "weight": 39.130434782608695, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "put", 
-                "edge_width": 1.0, 
-                "weight": 14.285714285714285, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "work", 
-                "edge_width": 1.0, 
-                "weight": 21.929824561403507, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 52.0, 
-                "id": "do, make", 
-                "edge_width": 4.1764705882352944, 
-                "weight": 606.3157894736843, 
-                "families": 24.0
-            }
-        ], 
-        [
-            {
-                "languages": 11.0, 
-                "id": "do, make", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 69.23076923076923, 
-                "families": 9.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "build", 
-                "edge_width": 1.0, 
-                "weight": 21.929824561403507, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "put on (clothes)", 
-                "edge_width": 1.0, 
-                "weight": 3.278688524590164, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 10.0, 
-                "id": "mold (clay etc)", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 50.0, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "put", 
-                "edge_width": 1.0, 
-                "weight": 30.76923076923077, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 11.0, 
-                "id": "work", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 69.23076923076923, 
-                "families": 9.0
-            }, 
-            {
-                "languages": 52.0, 
-                "id": "build", 
-                "edge_width": 4.1764705882352944, 
-                "weight": 606.3157894736843, 
-                "families": 24.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_9_cut", 
-                    "carve", 
-                    4.0, 
-                    20.0
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "build", 
+            "key": "9.44", 
+            "id": "build", 
             "community": 33, 
-            "id": "mold (clay etc)", 
-            "key": "9.72"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_10_betray", 
-                    "give", 
-                    7.0, 
-                    41.88034188034188
-                ], 
-                [
-                    "cluster_49_preserve, look after", 
-                    "keep, retain", 
-                    5.0, 
-                    23.14814814814815
-                ], 
-                [
-                    "cluster_83_forgive", 
-                    "let, permit", 
-                    4.0, 
-                    15.09433962264151
-                ]
-            ], 
-            "community": 33, 
-            "id": "put", 
-            "key": "12.12"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_13_cloth", 
-                    "clothing, clothes", 
-                    5.0, 
-                    21.551724137931032
-                ]
-            ], 
-            "community": 33, 
-            "id": "put on (clothes)", 
-            "key": "6.11"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_39_braid", 
+                    "cluster_39_weave, plait", 
                     "weave, plait", 
                     5.0, 
                     23.58490566037736
@@ -250,21 +32,91 @@
                     14.814814814814813
                 ]
             ], 
-            "community": 33, 
-            "id": "build", 
-            "key": "9.44"
+            "normalized_weight": 0.9708737864077669, 
+            "label": "build", 
+            "frequency": 259.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 33, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "work", 
+            "key": "9.12", 
             "id": "work", 
-            "key": "9.12"
+            "community": 33, 
+            "out_edge": [], 
+            "normalized_weight": 0.847457627118644, 
+            "label": "work", 
+            "frequency": 269.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "mold (clay etc)", 
+            "key": "9.72", 
+            "id": "mold (clay etc)", 
+            "community": 33, 
+            "out_edge": [
+                [
+                    "cluster_9_cut", 
+                    "carve", 
+                    4.0, 
+                    20.0
+                ]
+            ], 
+            "normalized_weight": 1.3157894736842104, 
+            "label": "mold (clay etc)", 
+            "frequency": 179.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "put", 
+            "key": "12.12", 
+            "id": "put", 
+            "community": 33, 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "give", 
+                    7.0, 
+                    41.88034188034188
+                ], 
+                [
+                    "cluster_45_preserve, look after", 
+                    "keep, retain", 
+                    5.0, 
+                    23.14814814814815
+                ], 
+                [
+                    "cluster_83_forgive", 
+                    "let, permit", 
+                    4.0, 
+                    15.09433962264151
+                ]
+            ], 
+            "normalized_weight": 0.9433962264150944, 
+            "label": "put", 
+            "frequency": 306.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "do, make", 
+            "key": "9.11", 
+            "id": "do, make", 
+            "community": 33, 
             "out_edge": [
                 [
                     "cluster_20_tell story", 
@@ -279,16 +131,224 @@
                     24.752475247524753
                 ], 
                 [
-                    "cluster_10_betray", 
+                    "cluster_10_lend", 
                     "give", 
                     4.0, 
                     13.008130081300814
                 ]
             ], 
+            "normalized_weight": 0.9090909090909091, 
+            "label": "do, make", 
+            "frequency": 299.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "put on (clothes)", 
+            "key": "6.11", 
+            "id": "put on (clothes)", 
             "community": 33, 
-            "id": "do, make", 
-            "key": "9.11"
+            "out_edge": [
+                [
+                    "cluster_13_cloth", 
+                    "clothing, clothes", 
+                    5.0, 
+                    21.551724137931032
+                ]
+            ], 
+            "label": "put on (clothes)", 
+            "frequency": 279.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 52.0, 
+                "normalized_weight": 606.3157894736843, 
+                "weight": 606.3157894736843, 
+                "edge_width": 4.1764705882352944, 
+                "families": 24.0, 
+                "id": "do, make"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "work"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 39.130434782608695, 
+                "weight": 39.130434782608695, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "mold (clay etc)"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 14.285714285714285, 
+                "weight": 14.285714285714285, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "put"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.4782608695652173, 
+                "weight": 3.4782608695652173, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "put on (clothes)"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.929824561403507, 
+                "weight": 21.929824561403507, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "build"
+            }, 
+            {
+                "languages": 11.0, 
+                "normalized_weight": 69.23076923076923, 
+                "weight": 69.23076923076923, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "do, make"
+            }
+        ], 
+        [
+            {
+                "languages": 8.0, 
+                "normalized_weight": 39.130434782608695, 
+                "weight": 39.130434782608695, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "build"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 50.0, 
+                "weight": 50.0, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "do, make"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9803921568627451, 
+                "weight": 0.9803921568627451, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "put on (clothes)"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 14.285714285714285, 
+                "weight": 14.285714285714285, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "build"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 30.76923076923077, 
+                "weight": 30.76923076923077, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "do, make"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 42.98245614035088, 
+                "weight": 42.98245614035088, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "put on (clothes)"
+            }
+        ], 
+        [
+            {
+                "languages": 52.0, 
+                "normalized_weight": 606.3157894736843, 
+                "weight": 606.3157894736843, 
+                "edge_width": 4.1764705882352944, 
+                "families": 24.0, 
+                "id": "build"
+            }, 
+            {
+                "languages": 11.0, 
+                "normalized_weight": 69.23076923076923, 
+                "weight": 69.23076923076923, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "work"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 50.0, 
+                "weight": 50.0, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "mold (clay etc)"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 30.76923076923077, 
+                "weight": 30.76923076923077, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "put"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.278688524590164, 
+                "weight": 3.278688524590164, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "put on (clothes)"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.4782608695652173, 
+                "weight": 3.4782608695652173, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "build"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.278688524590164, 
+                "weight": 3.278688524590164, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "do, make"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9803921568627451, 
+                "weight": 0.9803921568627451, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "mold (clay etc)"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 42.98245614035088, 
+                "weight": 42.98245614035088, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "put"
+            }
+        ]
+    ]
 }

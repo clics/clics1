@@ -1,30 +1,17 @@
 {
+    "graph": [], 
     "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 1144.047619047619, 
-                "id": "how many?", 
-                "families": 31.0, 
-                "languages": 101.0
-            }
-        ], 
-        [
-            {
-                "weight": 1144.047619047619, 
-                "id": "how much?", 
-                "families": 31.0, 
-                "languages": 101.0
-            }
-        ]
-    ], 
     "nodes": [
         {
-            "community": 152, 
-            "id": "how much?", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "how much?", 
             "key": "17.63", 
+            "id": "how much?", 
+            "community": 152, 
             "out_edge": [
                 [
                     "cluster_93_how?", 
@@ -32,17 +19,48 @@
                     4.0, 
                     13.91304347826087
                 ]
-            ]
+            ], 
+            "normalized_weight": 0.9433962264150944, 
+            "label": "how much?", 
+            "frequency": 239.0
         }, 
         {
-            "community": 152, 
-            "id": "how many?", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "how many?", 
             "key": "17.62", 
-            "out_edge": []
+            "id": "how many?", 
+            "community": 152, 
+            "out_edge": [], 
+            "normalized_weight": 0.8695652173913043, 
+            "label": "how many?", 
+            "frequency": 236.0
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 101.0, 
+                "normalized_weight": 1144.047619047619, 
+                "weight": 1144.047619047619, 
+                "edge_width": 6.2941176470588234, 
+                "families": 31.0, 
+                "id": "how many?"
+            }
+        ], 
+        [
+            {
+                "languages": 101.0, 
+                "normalized_weight": 1144.047619047619, 
+                "weight": 1144.047619047619, 
+                "edge_width": 6.2941176470588234, 
+                "families": 31.0, 
+                "id": "how much?"
+            }
+        ]
+    ]
 }

@@ -1,95 +1,123 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 2.0, 
-                "id": "custom", 
-                "edge_width": 1.0, 
-                "weight": 1.1235955056179776, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "law", 
-                "edge_width": 1.0, 
-                "weight": 33.78378378378378, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 19.0, 
-                "id": "way, manner", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 205.7142857142857, 
-                "families": 12.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "id": "custom", 
-                "edge_width": 1.0, 
-                "weight": 33.78378378378378, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "way, manner", 
-                "edge_width": 1.0, 
-                "weight": 1.4285714285714286, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 19.0, 
-                "id": "custom", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 205.7142857142857, 
-                "families": 12.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "law", 
-                "edge_width": 1.0, 
-                "weight": 1.4285714285714286, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "way, manner", 
+            "key": "17.49", 
+            "id": "way, manner", 
             "community": 182, 
-            "id": "custom", 
-            "key": "19.61"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 182, 
-            "id": "law", 
-            "key": "21.11"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_120_road", 
+                    "cluster_120_path", 
                     "road", 
                     5.0, 
                     26.881720430107524
                 ]
             ], 
+            "normalized_weight": 1.098901098901099, 
+            "label": "way, manner", 
+            "frequency": 253.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "law", 
+            "key": "21.11", 
+            "id": "law", 
             "community": 182, 
-            "id": "way, manner", 
-            "key": "17.49"
+            "out_edge": [], 
+            "normalized_weight": 1.0752688172043012, 
+            "label": "law", 
+            "frequency": 204.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "custom", 
+            "key": "19.61", 
+            "id": "custom", 
+            "community": 182, 
+            "out_edge": [], 
+            "normalized_weight": 1.282051282051282, 
+            "label": "custom", 
+            "frequency": 252.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.4285714285714286, 
+                "weight": 1.4285714285714286, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "law"
+            }, 
+            {
+                "languages": 19.0, 
+                "normalized_weight": 205.7142857142857, 
+                "weight": 205.7142857142857, 
+                "edge_width": 2.0588235294117645, 
+                "families": 12.0, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.4285714285714286, 
+                "weight": 1.4285714285714286, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "way, manner"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 33.78378378378378, 
+                "weight": 33.78378378378378, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "custom"
+            }
+        ], 
+        [
+            {
+                "languages": 19.0, 
+                "normalized_weight": 205.7142857142857, 
+                "weight": 205.7142857142857, 
+                "edge_width": 2.0588235294117645, 
+                "families": 12.0, 
+                "id": "way, manner"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 33.78378378378378, 
+                "weight": 33.78378378378378, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "law"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 1.1235955056179776, 
+                "weight": 1.1235955056179776, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "custom"
+            }
+        ]
+    ]
 }

@@ -1,107 +1,153 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "10.412", 
-            "community": 212, 
-            "id": "kneel", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "knee", 
             "key": "4.36", 
-            "community": 212, 
             "id": "knee", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 1
-        }, 
-        {
-            "key": "4.312", 
             "community": 212, 
-            "id": "armpit", 
             "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "normalized_weight": 0.8130081300813009, 
+            "label": "knee", 
+            "frequency": 251.0
         }, 
         {
-            "key": "4.32", 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "families": 2.0, 
+            "key": "10.412", 
+            "id": "kneel", 
             "community": 212, 
-            "id": "elbow", 
             "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
+            "normalized_weight": 3.361344537815126
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "corner", 
             "key": "12.76", 
-            "community": 212, 
             "id": "corner", 
+            "community": 212, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9090909090909091, 
+            "label": "corner", 
+            "frequency": 244.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "elbow", 
+            "key": "4.32", 
+            "id": "elbow", 
+            "community": 212, 
+            "out_edge": [], 
+            "normalized_weight": 1.0, 
+            "label": "elbow", 
+            "frequency": 245.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "armpit", 
+            "key": "4.312", 
+            "id": "armpit", 
+            "community": 212, 
+            "out_edge": [], 
+            "normalized_weight": 0.8333333333333334, 
+            "label": "armpit", 
+            "frequency": 239.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
-                "families": 2.0, 
-                "id": "knee"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "normalized_weight": 3.361344537815126, 
+                "weight": 3.361344537815126, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "kneel"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 13.114754098360656, 
+                "weight": 13.114754098360656, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
                 "id": "elbow"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
+                "languages": 2.0, 
+                "normalized_weight": 3.361344537815126, 
+                "weight": 3.361344537815126, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "knee"
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.894736842105263, 
+                "weight": 7.894736842105263, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
                 "id": "elbow"
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "languages": 3.0, 
+                "normalized_weight": 7.894736842105263, 
+                "weight": 7.894736842105263, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "corner"
+            }, 
+            {
                 "languages": 4.0, 
+                "normalized_weight": 13.114754098360656, 
+                "weight": 13.114754098360656, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
                 "id": "knee"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 0.8333333333333334, 
+                "weight": 0.8333333333333334, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "armpit"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "corner"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
+                "languages": 1.0, 
+                "normalized_weight": 0.8333333333333334, 
+                "weight": 0.8333333333333334, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
                 "id": "elbow"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

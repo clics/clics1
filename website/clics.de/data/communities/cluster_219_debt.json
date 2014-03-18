@@ -1,82 +1,115 @@
 {
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "languages": 10.0, 
-                "weight": 1.2448979591836735, 
-                "id": "owe", 
-                "families": 7.0
-            }, 
-            {
-                "languages": 4.0, 
-                "weight": 1.0816326530612246, 
-                "id": "account, reckoning", 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "weight": 1.2448979591836735, 
-                "id": "debt", 
-                "families": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "account, reckoning", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "weight": 1.0816326530612246, 
-                "id": "debt", 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "owe", 
-                "families": 1.0
-            }
-        ]
-    ], 
+    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "account, reckoning", 
+            "key": "11.66", 
+            "id": "account, reckoning", 
             "community": 219, 
-            "body_part": 0, 
-            "id": "debt", 
-            "key": "11.64"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 219, 
-            "body_part": 0, 
-            "id": "owe", 
-            "key": "11.63"
-        }, 
-        {
-            "swadesh100": 0, 
             "out_edge": [
                 [
                     "cluster_40_try, attempt", 
                     "count", 
                     4.0, 
-                    1.0408163265306123
+                    18.181818181818183
                 ]
             ], 
+            "normalized_weight": 1.0309278350515463, 
+            "label": "account, reckoning", 
+            "frequency": 187.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "owe", 
+            "key": "11.63", 
+            "id": "owe", 
             "community": 219, 
-            "body_part": 0, 
-            "id": "account, reckoning", 
-            "key": "11.66"
+            "out_edge": [], 
+            "normalized_weight": 0.9523809523809524, 
+            "label": "owe", 
+            "frequency": 186.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "debt", 
+            "key": "11.64", 
+            "id": "debt", 
+            "community": 219, 
+            "out_edge": [], 
+            "normalized_weight": 1.2345679012345678, 
+            "label": "debt", 
+            "frequency": 198.0
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.2987012987012987, 
+                "weight": 1.2987012987012987, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "owe"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 22.22222222222222, 
+                "weight": 22.22222222222222, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "debt"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.2987012987012987, 
+                "weight": 1.2987012987012987, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "account, reckoning"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 62.0253164556962, 
+                "weight": 62.0253164556962, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "debt"
+            }
+        ], 
+        [
+            {
+                "languages": 10.0, 
+                "normalized_weight": 62.0253164556962, 
+                "weight": 62.0253164556962, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "owe"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 22.22222222222222, 
+                "weight": 22.22222222222222, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "account, reckoning"
+            }
+        ]
+    ]
 }

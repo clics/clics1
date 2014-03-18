@@ -1,41 +1,54 @@
 {
     "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "families": 1.0, 
+            "key": "7.64", 
+            "id": "adobe", 
+            "community": 249, 
+            "out_edge": [], 
+            "normalized_weight": 1.282051282051282
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "brick", 
+            "key": "7.62", 
+            "id": "brick", 
+            "community": 249, 
+            "out_edge": [], 
+            "normalized_weight": 1.1111111111111112, 
+            "label": "brick", 
+            "frequency": 168.0
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 7.0, 
-                "weight": 1.2448979591836735, 
-                "id": "brick", 
-                "families": 6.0
+                "normalized_weight": 65.45454545454545, 
+                "weight": 65.45454545454545, 
+                "edge_width": 1.2647058823529411, 
+                "families": 6.0, 
+                "id": "brick"
             }
         ], 
         [
             {
                 "languages": 7.0, 
-                "weight": 1.2448979591836735, 
-                "id": "adobe", 
-                "families": 6.0
+                "normalized_weight": 65.45454545454545, 
+                "weight": 65.45454545454545, 
+                "edge_width": 1.2647058823529411, 
+                "families": 6.0, 
+                "id": "adobe"
             }
         ]
-    ], 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 249, 
-            "body_part": 0, 
-            "id": "adobe", 
-            "key": "7.64"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 249, 
-            "body_part": 0, 
-            "id": "brick", 
-            "key": "7.62"
-        }
-    ], 
-    "multigraph": false, 
-    "directed": false
+    ]
 }

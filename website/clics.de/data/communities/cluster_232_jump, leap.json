@@ -1,63 +1,92 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "jump, leap", 
             "key": "10.43", 
-            "community": 232, 
             "id": "jump, leap", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.352", 
             "community": 232, 
-            "id": "splash", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9009009009009009, 
+            "label": "jump, leap", 
+            "frequency": 302.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "fly (vb)", 
             "key": "10.37", 
-            "community": 232, 
             "id": "fly (vb)", 
+            "community": 232, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.1363636363636365, 
+            "label": "fly (vb)", 
+            "frequency": 250.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "splash", 
+            "key": "10.352", 
+            "id": "splash", 
+            "community": 232, 
+            "out_edge": [], 
+            "normalized_weight": 3.6363636363636362, 
+            "label": "splash", 
+            "frequency": 237.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "splash"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 11.0, 
+                "normalized_weight": 53.333333333333336, 
+                "weight": 53.333333333333336, 
+                "edge_width": 1.2647058823529411, 
                 "families": 8.0, 
                 "id": "fly (vb)"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.6363636363636362, 
+                "weight": 3.6363636363636362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "splash"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
+                "languages": 11.0, 
+                "normalized_weight": 53.333333333333336, 
+                "weight": 53.333333333333336, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
                 "id": "jump, leap"
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 11.0, 
-                "families": 8.0, 
+                "languages": 2.0, 
+                "normalized_weight": 3.6363636363636362, 
+                "weight": 3.6363636363636362, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
                 "id": "jump, leap"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

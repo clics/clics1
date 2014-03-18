@@ -1,159 +1,32 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "worm", 
-                "edge_width": 1.0, 
-                "weight": 0.9433962264150944, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "grasshopper", 
-                "edge_width": 1.0, 
-                "weight": 1.0309278350515463, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "insect", 
-                "edge_width": 1.0, 
-                "weight": 1.25, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "cockroach", 
-                "edge_width": 1.0, 
-                "weight": 0.9433962264150944, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "insect", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 56.32183908045977, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "snake", 
-                "edge_width": 1.0, 
-                "weight": 3.361344537815126, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "cockroach", 
-                "edge_width": 1.0, 
-                "weight": 1.25, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "worm", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 56.32183908045977, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "grasshopper", 
-                "edge_width": 1.0, 
-                "weight": 1.1904761904761905, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "insect", 
-                "edge_width": 1.0, 
-                "weight": 1.4925373134328357, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "snake", 
-                "edge_width": 1.0, 
-                "weight": 4.301075268817205, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "worm", 
-                "edge_width": 1.0, 
-                "weight": 3.361344537815126, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "insect", 
-                "edge_width": 1.0, 
-                "weight": 4.301075268817205, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "conspiracy, plot", 
-                "edge_width": 1.0, 
-                "weight": 1.1627906976744187, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "cockroach", 
-                "edge_width": 1.0, 
-                "weight": 1.0309278350515463, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "insect", 
-                "edge_width": 1.0, 
-                "weight": 1.1904761904761905, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "snake", 
-                "edge_width": 1.0, 
-                "weight": 1.1627906976744187, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "snake", 
+            "key": "3.85", 
+            "id": "snake", 
             "community": 175, 
-            "id": "cockroach", 
-            "key": "3.816"
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "snake", 
+            "frequency": 256.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "insect", 
+            "key": "3.81", 
+            "id": "insect", 
             "community": 175, 
-            "id": "worm", 
-            "key": "3.84"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_51_cattle (bovine)", 
@@ -162,34 +35,220 @@
                     45.56962025316456
                 ]
             ], 
-            "community": 175, 
-            "id": "insect", 
-            "key": "3.81"
+            "normalized_weight": 1.098901098901099, 
+            "label": "insect", 
+            "frequency": 179.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "worm", 
+            "key": "3.84", 
+            "id": "worm", 
             "community": 175, 
-            "id": "snake", 
-            "key": "3.85"
+            "out_edge": [], 
+            "normalized_weight": 1.0204081632653061, 
+            "label": "worm", 
+            "frequency": 282.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "cockroach", 
+            "key": "3.816", 
+            "id": "cockroach", 
             "community": 175, 
-            "id": "grasshopper", 
-            "key": "3.93"
+            "out_edge": [], 
+            "normalized_weight": 0.9900990099009901, 
+            "label": "cockroach", 
+            "frequency": 208.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 175, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "conspiracy, plot", 
+            "key": "19.63", 
             "id": "conspiracy, plot", 
-            "key": "19.63"
+            "community": 175, 
+            "out_edge": [], 
+            "normalized_weight": 1.1904761904761905, 
+            "label": "conspiracy, plot", 
+            "frequency": 169.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "grasshopper", 
+            "key": "3.93", 
+            "id": "grasshopper", 
+            "community": 175, 
+            "out_edge": [], 
+            "normalized_weight": 1.0638297872340425, 
+            "label": "grasshopper", 
+            "frequency": 212.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1627906976744187, 
+                "weight": 1.1627906976744187, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "conspiracy, plot"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.301075268817205, 
+                "weight": 4.301075268817205, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "insect"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 3.361344537815126, 
+                "weight": 3.361344537815126, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "worm"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 4.301075268817205, 
+                "weight": 4.301075268817205, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "snake"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1904761904761905, 
+                "weight": 1.1904761904761905, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "grasshopper"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.4925373134328357, 
+                "weight": 1.4925373134328357, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "insect"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 56.32183908045977, 
+                "weight": 56.32183908045977, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "worm"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.25, 
+                "weight": 1.25, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "cockroach"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 3.361344537815126, 
+                "weight": 3.361344537815126, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "snake"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 56.32183908045977, 
+                "weight": 56.32183908045977, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "insect"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9433962264150944, 
+                "weight": 0.9433962264150944, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "cockroach"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0309278350515463, 
+                "weight": 1.0309278350515463, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "grasshopper"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.25, 
+                "weight": 1.25, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "insect"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9433962264150944, 
+                "weight": 0.9433962264150944, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "worm"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1627906976744187, 
+                "weight": 1.1627906976744187, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "snake"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1904761904761905, 
+                "weight": 1.1904761904761905, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "insect"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0309278350515463, 
+                "weight": 1.0309278350515463, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "cockroach"
+            }
+        ]
+    ]
 }

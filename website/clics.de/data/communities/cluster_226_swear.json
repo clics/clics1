@@ -1,75 +1,108 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "swear", 
             "key": "21.24", 
-            "community": 226, 
             "id": "swear", 
+            "community": 226, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.3513513513513513, 
+            "label": "swear", 
+            "frequency": 172.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 4.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "oath", 
             "key": "21.25", 
-            "community": 226, 
             "id": "oath", 
+            "community": 226, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 16.9811320754717, 
+            "label": "oath", 
+            "frequency": 155.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "promise", 
             "key": "18.36", 
-            "community": 226, 
             "id": "promise", 
+            "community": 226, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9708737864077669, 
+            "label": "promise", 
+            "frequency": 202.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 16.9811320754717, 
+                "weight": 16.9811320754717, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "oath"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 5.0, 
+                "normalized_weight": 35.2112676056338, 
+                "weight": 35.2112676056338, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "promise"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 16.9811320754717, 
+                "weight": 16.9811320754717, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "swear"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 3.0, 
+                "normalized_weight": 12.676056338028168, 
+                "weight": 12.676056338028168, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "promise"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 5.0, 
+                "normalized_weight": 35.2112676056338, 
+                "weight": 35.2112676056338, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "swear"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 3.0, 
+                "normalized_weight": 12.676056338028168, 
+                "weight": 12.676056338028168, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "oath"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

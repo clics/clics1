@@ -1,88 +1,32 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 3.0, 
-                "id": "dirty, soiled", 
-                "edge_width": 1.0, 
-                "weight": 7.43801652892562, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 33.0, 
-                "id": "ugly", 
-                "edge_width": 3.6470588235294117, 
-                "weight": 523.7623762376238, 
-                "families": 23.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "bad", 
-                "edge_width": 1.0, 
-                "weight": 7.43801652892562, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "dirty, soiled", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "ugly", 
-                "edge_width": 1.0, 
-                "weight": 42.608695652173914, 
-                "families": 7.0
-            }
-        ], 
-        [
-            {
-                "languages": 33.0, 
-                "id": "bad", 
-                "edge_width": 3.6470588235294117, 
-                "weight": 523.7623762376238, 
-                "families": 23.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "dirty, soiled", 
-                "edge_width": 1.0, 
-                "weight": 42.608695652173914, 
-                "families": 7.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_26_guilty", 
-                    "wrong", 
-                    12.0, 
-                    145.45454545454547
-                ], 
-                [
-                    "cluster_88_anger", 
-                    "anger", 
-                    4.0, 
-                    13.114754098360656
-                ]
-            ], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "ugly", 
+            "key": "16.82", 
+            "id": "ugly", 
             "community": 113, 
-            "id": "bad", 
-            "key": "16.72"
+            "out_edge": [], 
+            "normalized_weight": 0.8333333333333334, 
+            "label": "ugly", 
+            "frequency": 264.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "dirty, soiled", 
+            "key": "15.88", 
+            "id": "dirty, soiled", 
+            "community": 113, 
             "out_edge": [
                 [
                     "cluster_63_dark (in color)", 
@@ -97,18 +41,102 @@
                     14.035087719298245
                 ]
             ], 
-            "community": 113, 
-            "id": "dirty, soiled", 
-            "key": "15.88"
+            "normalized_weight": 0.8064516129032258, 
+            "label": "dirty, soiled", 
+            "frequency": 319.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bad", 
+            "key": "16.72", 
+            "id": "bad", 
             "community": 113, 
-            "id": "ugly", 
-            "key": "16.82"
+            "out_edge": [
+                [
+                    "cluster_26_guilty", 
+                    "wrong", 
+                    12.0, 
+                    145.45454545454547
+                ], 
+                [
+                    "cluster_88_anger", 
+                    "anger", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ], 
+            "normalized_weight": 0.7936507936507936, 
+            "label": "bad", 
+            "frequency": 312.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 7.0, 
+                "normalized_weight": 42.608695652173914, 
+                "weight": 42.608695652173914, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "dirty, soiled"
+            }, 
+            {
+                "languages": 33.0, 
+                "normalized_weight": 523.7623762376238, 
+                "weight": 523.7623762376238, 
+                "edge_width": 3.6470588235294117, 
+                "families": 23.0, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "normalized_weight": 42.608695652173914, 
+                "weight": 42.608695652173914, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "ugly"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "dirty, soiled"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.43801652892562, 
+                "weight": 7.43801652892562, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "bad"
+            }
+        ], 
+        [
+            {
+                "languages": 33.0, 
+                "normalized_weight": 523.7623762376238, 
+                "weight": 523.7623762376238, 
+                "edge_width": 3.6470588235294117, 
+                "families": 23.0, 
+                "id": "ugly"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.43801652892562, 
+                "weight": 7.43801652892562, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "dirty, soiled"
+            }
+        ]
+    ]
 }

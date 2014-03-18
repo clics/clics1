@@ -1,176 +1,47 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 6.0, 
-                "id": "smoke (noun)", 
-                "edge_width": 1.0, 
-                "weight": 30.252100840336134, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 28.0, 
-                "id": "cloud", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 106.14035087719299, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "sky", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "fog", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "cloud", 
-                "edge_width": 1.0, 
-                "weight": 20.833333333333336, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 28.0, 
-                "id": "fog", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 106.14035087719299, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "smoke (noun)", 
-                "edge_width": 1.0, 
-                "weight": 29.508196721311474, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "sky", 
-                "edge_width": 1.0, 
-                "weight": 20.833333333333336, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "fog", 
-                "edge_width": 1.0, 
-                "weight": 30.252100840336134, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 21.0, 
-                "id": "smoke (tobacco)", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 57.14285714285714, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "cloud", 
-                "edge_width": 1.0, 
-                "weight": 29.508196721311474, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 7.0, 
-                "id": "dust", 
-                "edge_width": 1.0, 
-                "weight": 41.52542372881356, 
-                "families": 7.0
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "id": "smoke (tobacco)", 
-                "edge_width": 1.0, 
-                "weight": 31.57894736842105, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 21.0, 
-                "id": "smoke (noun)", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 57.14285714285714, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "drink", 
-                "edge_width": 1.0, 
-                "weight": 31.57894736842105, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "dust", 
-                "edge_width": 1.0, 
-                "weight": 0.8620689655172413, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "dust", 
-                "edge_width": 1.0, 
-                "weight": 13.223140495867769, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "id": "smoke (noun)", 
-                "edge_width": 1.0, 
-                "weight": 41.52542372881356, 
-                "families": 7.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "smoke (tobacco)", 
-                "edge_width": 1.0, 
-                "weight": 0.8620689655172413, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "ashes", 
-                "edge_width": 1.0, 
-                "weight": 13.223140495867769, 
-                "families": 4.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "cloud", 
+            "key": "1.73", 
+            "id": "cloud", 
             "community": 66, 
-            "id": "fog", 
-            "key": "1.74"
+            "out_edge": [], 
+            "normalized_weight": 1.1111111111111112, 
+            "label": "cloud", 
+            "frequency": 273.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "fog", 
+            "key": "1.74", 
+            "id": "fog", 
+            "community": 66, 
+            "out_edge": [], 
+            "normalized_weight": 1.1494252873563218, 
+            "label": "fog", 
+            "frequency": 254.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "sky", 
+            "key": "1.51", 
+            "id": "sky", 
+            "community": 66, 
             "out_edge": [
                 [
                     "cluster_94_roof", 
@@ -179,7 +50,7 @@
                     21.367521367521366
                 ], 
                 [
-                    "cluster_111_wind", 
+                    "cluster_111_air", 
                     "air", 
                     4.0, 
                     15.238095238095239
@@ -191,29 +62,69 @@
                     13.559322033898304
                 ]
             ], 
-            "community": 66, 
-            "id": "sky", 
-            "key": "1.51"
+            "normalized_weight": 0.8130081300813009, 
+            "label": "sky", 
+            "frequency": 256.0
         }, 
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "ashes", 
+            "key": "1.84", 
+            "id": "ashes", 
+            "community": 66, 
             "out_edge": [], 
-            "community": 66, 
-            "id": "cloud", 
-            "key": "1.73"
+            "normalized_weight": 0.7874015748031495, 
+            "label": "ashes", 
+            "frequency": 242.0
         }, 
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "dust", 
+            "key": "1.213", 
+            "id": "dust", 
             "community": 66, 
-            "id": "smoke (noun)", 
-            "key": "1.83"
+            "out_edge": [
+                [
+                    "cluster_2_country", 
+                    "earth=ground, soil", 
+                    7.0, 
+                    42.608695652173914
+                ], 
+                [
+                    "cluster_203_meal, flour", 
+                    "meal, flour", 
+                    5.0, 
+                    22.52252252252252
+                ], 
+                [
+                    "cluster_150_swamp", 
+                    "mud", 
+                    4.0, 
+                    13.445378151260504
+                ]
+            ], 
+            "normalized_weight": 0.8928571428571428, 
+            "label": "dust", 
+            "frequency": 269.0
         }, 
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "drink", 
+            "key": "5.13", 
+            "id": "drink", 
+            "community": 66, 
             "out_edge": [
                 [
                     "cluster_14_meal (a)", 
@@ -228,13 +139,20 @@
                     14.035087719298245
                 ]
             ], 
-            "community": 66, 
-            "id": "drink", 
-            "key": "5.13"
+            "normalized_weight": 0.8620689655172413, 
+            "label": "drink", 
+            "frequency": 262.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "smoke (tobacco)", 
+            "key": "8.69", 
+            "id": "smoke (tobacco)", 
+            "community": 66, 
             "out_edge": [
                 [
                     "cluster_191_kiss", 
@@ -243,51 +161,209 @@
                     22.321428571428573
                 ], 
                 [
-                    "cluster_189_spread out", 
+                    "cluster_189_stretch", 
                     "pull", 
                     4.0, 
                     14.15929203539823
                 ]
             ], 
-            "community": 66, 
-            "id": "smoke (tobacco)", 
-            "key": "8.69"
+            "normalized_weight": 0.8849557522123894, 
+            "label": "smoke (tobacco)", 
+            "frequency": 229.0
         }, 
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "smoke (noun)", 
+            "key": "1.83", 
+            "id": "smoke (noun)", 
+            "community": 66, 
             "out_edge": [], 
-            "community": 66, 
-            "id": "ashes", 
-            "key": "1.84"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_2_country", 
-                    "earth=ground, soil", 
-                    7.0, 
-                    42.608695652173914
-                ], 
-                [
-                    "cluster_203_whale", 
-                    "meal, flour", 
-                    5.0, 
-                    22.52252252252252
-                ], 
-                [
-                    "cluster_150_mud", 
-                    "mud", 
-                    4.0, 
-                    13.445378151260504
-                ]
-            ], 
-            "community": 66, 
-            "id": "dust", 
-            "key": "1.213"
+            "normalized_weight": 0.8333333333333334, 
+            "label": "smoke (noun)", 
+            "frequency": 243.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 9.0, 
+                "normalized_weight": 20.833333333333336, 
+                "weight": 20.833333333333336, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "sky"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 29.508196721311474, 
+                "weight": 29.508196721311474, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "smoke (noun)"
+            }, 
+            {
+                "languages": 28.0, 
+                "normalized_weight": 106.14035087719299, 
+                "weight": 106.14035087719299, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "fog"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "sky"
+            }, 
+            {
+                "languages": 28.0, 
+                "normalized_weight": 106.14035087719299, 
+                "weight": 106.14035087719299, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "cloud"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 30.252100840336134, 
+                "weight": 30.252100840336134, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "smoke (noun)"
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "normalized_weight": 20.833333333333336, 
+                "weight": 20.833333333333336, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "cloud"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "fog"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 13.223140495867769, 
+                "weight": 13.223140495867769, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "dust"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 13.223140495867769, 
+                "weight": 13.223140495867769, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "ashes"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8620689655172413, 
+                "weight": 0.8620689655172413, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "smoke (tobacco)"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 41.52542372881356, 
+                "weight": 41.52542372881356, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "smoke (noun)"
+            }
+        ], 
+        [
+            {
+                "languages": 9.0, 
+                "normalized_weight": 31.57894736842105, 
+                "weight": 31.57894736842105, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "smoke (tobacco)"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8620689655172413, 
+                "weight": 0.8620689655172413, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "dust"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 31.57894736842105, 
+                "weight": 31.57894736842105, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "drink"
+            }, 
+            {
+                "languages": 21.0, 
+                "normalized_weight": 57.14285714285714, 
+                "weight": 57.14285714285714, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "smoke (noun)"
+            }
+        ], 
+        [
+            {
+                "languages": 7.0, 
+                "normalized_weight": 41.52542372881356, 
+                "weight": 41.52542372881356, 
+                "edge_width": 1.0, 
+                "families": 7.0, 
+                "id": "dust"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 29.508196721311474, 
+                "weight": 29.508196721311474, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "cloud"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 30.252100840336134, 
+                "weight": 30.252100840336134, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "fog"
+            }, 
+            {
+                "languages": 21.0, 
+                "normalized_weight": 57.14285714285714, 
+                "weight": 57.14285714285714, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "smoke (tobacco)"
+            }
+        ]
+    ]
 }

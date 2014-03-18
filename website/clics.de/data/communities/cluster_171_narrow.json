@@ -1,41 +1,79 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "narrow", 
             "key": "12.62", 
-            "community": 171, 
             "id": "narrow", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 171, 
+            "out_edge": [
+                [
+                    "cluster_99_some", 
+                    "small, little", 
+                    6.0, 
+                    30.252100840336134
+                ]
+            ], 
+            "normalized_weight": 0.8849557522123894, 
+            "label": "narrow", 
+            "frequency": 294.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "thin (in dimension)", 
             "key": "12.65", 
-            "community": 171, 
             "id": "thin (in dimension)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 171, 
+            "out_edge": [
+                [
+                    "cluster_36_low", 
+                    "shallow", 
+                    5.0, 
+                    22.727272727272727
+                ], 
+                [
+                    "cluster_98_soft", 
+                    "weak", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "thin (in dimension)", 
+            "frequency": 301.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 2.5882352941176472, 
                 "languages": 23.0, 
+                "normalized_weight": 347.11538461538464, 
+                "weight": 347.11538461538464, 
+                "edge_width": 2.5882352941176472, 
                 "families": 19.0, 
                 "id": "thin (in dimension)"
             }
         ], 
         [
             {
-                "weight": 2.5882352941176472, 
                 "languages": 23.0, 
+                "normalized_weight": 347.11538461538464, 
+                "weight": 347.11538461538464, 
+                "edge_width": 2.5882352941176472, 
                 "families": 19.0, 
                 "id": "narrow"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

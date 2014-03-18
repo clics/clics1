@@ -1,41 +1,54 @@
 {
     "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "sugar", 
+            "key": "5.85", 
+            "id": "sugar", 
+            "community": 257, 
+            "out_edge": [], 
+            "normalized_weight": 1.1363636363636365, 
+            "label": "sugar", 
+            "frequency": 169.0
+        }, 
+        {
+            "languages": 4.0, 
+            "weight": 4.0, 
+            "families": 4.0, 
+            "key": "8.941", 
+            "id": "sugar cane", 
+            "community": 257, 
+            "out_edge": [], 
+            "normalized_weight": 19.047619047619047
+        }
+    ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 4.0, 
-                "weight": 1.0408163265306123, 
-                "id": "sugar", 
-                "families": 4.0
+                "normalized_weight": 19.047619047619047, 
+                "weight": 19.047619047619047, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "sugar cane"
             }
         ], 
         [
             {
                 "languages": 4.0, 
-                "weight": 1.0408163265306123, 
-                "id": "sugar cane", 
-                "families": 4.0
+                "normalized_weight": 19.047619047619047, 
+                "weight": 19.047619047619047, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "sugar"
             }
         ]
-    ], 
-    "nodes": [
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 257, 
-            "body_part": 0, 
-            "id": "sugar cane", 
-            "key": "8.941"
-        }, 
-        {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 257, 
-            "body_part": 0, 
-            "id": "sugar", 
-            "key": "5.85"
-        }
-    ], 
-    "multigraph": false, 
-    "directed": false
+    ]
 }

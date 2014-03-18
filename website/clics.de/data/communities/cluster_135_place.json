@@ -1,54 +1,78 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "place", 
             "key": "12.11", 
-            "community": 135, 
             "id": "place", 
+            "community": 135, 
             "out_edge": [
                 [
                     "cluster_2_country", 
                     "earth, land", 
                     8.0, 
-                    1.2647058823529411
+                    53.78151260504202
+                ], 
+                [
+                    "cluster_35_finish", 
+                    "last", 
+                    6.0, 
+                    31.30434782608696
                 ], 
                 [
                     "cluster_2_country", 
-                    "earth=ground, soil", 
+                    "country", 
                     5.0, 
-                    1.0
+                    23.14814814814815
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 7.964601769911504, 
+            "label": "place", 
+            "frequency": 559.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "after", 
             "key": "12.1", 
-            "community": 135, 
             "id": "after", 
+            "community": 135, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.1363636363636365, 
+            "label": "after", 
+            "frequency": 227.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 2.5882352941176472, 
                 "languages": 32.0, 
+                "normalized_weight": 321.11111111111114, 
+                "weight": 321.11111111111114, 
+                "edge_width": 2.5882352941176472, 
                 "families": 17.0, 
                 "id": "after"
             }
         ], 
         [
             {
-                "weight": 2.5882352941176472, 
                 "languages": 32.0, 
+                "normalized_weight": 321.11111111111114, 
+                "weight": 321.11111111111114, 
+                "edge_width": 2.5882352941176472, 
                 "families": 17.0, 
                 "id": "place"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

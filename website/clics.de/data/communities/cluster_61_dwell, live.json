@@ -1,162 +1,32 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 4.0, 
-                "id": "live, living, life", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "crouch", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 10.0, 
-                "id": "sit", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 57.14285714285714, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 22.0, 
-                "id": "dwell, live", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 258.5858585858586, 
-                "families": 16.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "remain, stay", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "live, living, life", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "sit", 
-                "edge_width": 1.0, 
-                "weight": 20.66115702479339, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 53.0, 
-                "id": "dwell, live", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 353.92156862745094, 
-                "families": 19.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "remain, stay", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 13.0, 
-                "id": "sit", 
-                "edge_width": 1.0, 
-                "weight": 22.93577981651376, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "dwell, live", 
-                "edge_width": 1.0, 
-                "weight": 0.9259259259259258, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "live, living, life", 
-                "edge_width": 1.0, 
-                "weight": 20.66115702479339, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 13.0, 
-                "id": "crouch", 
-                "edge_width": 1.0, 
-                "weight": 22.93577981651376, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 10.0, 
-                "id": "remain, stay", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 57.14285714285714, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 15.0, 
-                "id": "dwell, live", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 90.09009009009009, 
-                "families": 10.0
-            }
-        ], 
-        [
-            {
-                "languages": 22.0, 
-                "id": "remain, stay", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 258.5858585858586, 
-                "families": 16.0
-            }, 
-            {
-                "languages": 53.0, 
-                "id": "live, living, life", 
-                "edge_width": 2.8529411764705883, 
-                "weight": 353.92156862745094, 
-                "families": 19.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "crouch", 
-                "edge_width": 1.0, 
-                "weight": 0.9259259259259258, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 15.0, 
-                "id": "sit", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 90.09009009009009, 
-                "families": 10.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "dwell, live", 
-                "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "dwell, live", 
+            "key": "7.11", 
+            "id": "dwell, live", 
+            "community": 61, 
+            "out_edge": [], 
+            "normalized_weight": 0.9523809523809524, 
+            "label": "dwell, live", 
+            "frequency": 275.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "remain, stay", 
+            "key": "12.16", 
+            "id": "remain, stay", 
+            "community": 61, 
             "out_edge": [
                 [
                     "cluster_35_finish", 
@@ -165,49 +35,234 @@
                     14.678899082568808
                 ]
             ], 
-            "community": 61, 
-            "id": "remain, stay", 
-            "key": "12.16"
+            "normalized_weight": 0.9615384615384616, 
+            "label": "remain, stay", 
+            "frequency": 273.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "live, living, life", 
+            "key": "4.74", 
+            "id": "live, living, life", 
+            "community": 61, 
             "out_edge": [
                 [
-                    "cluster_45_green, unripe", 
+                    "cluster_46_blue", 
                     "raw", 
                     5.0, 
                     21.008403361344538
                 ]
             ], 
-            "community": 61, 
-            "id": "live, living, life", 
-            "key": "4.74"
+            "normalized_weight": 0.7936507936507936, 
+            "label": "live, living, life", 
+            "frequency": 416.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 61, 
-            "id": "crouch", 
-            "key": "10.413"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 61, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "sit", 
+            "key": "12.13", 
             "id": "sit", 
-            "key": "12.13"
+            "community": 61, 
+            "out_edge": [], 
+            "normalized_weight": 0.9090909090909091, 
+            "label": "sit", 
+            "frequency": 268.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "crouch", 
+            "key": "10.413", 
+            "id": "crouch", 
             "community": 61, 
-            "id": "dwell, live", 
-            "key": "7.11"
+            "out_edge": [], 
+            "normalized_weight": 0.9259259259259258, 
+            "label": "crouch", 
+            "frequency": 223.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "dwell, live"
+            }, 
+            {
+                "languages": 22.0, 
+                "normalized_weight": 258.5858585858586, 
+                "weight": 258.5858585858586, 
+                "edge_width": 2.3235294117647056, 
+                "families": 16.0, 
+                "id": "remain, stay"
+            }, 
+            {
+                "languages": 53.0, 
+                "normalized_weight": 353.92156862745094, 
+                "weight": 353.92156862745094, 
+                "edge_width": 2.8529411764705883, 
+                "families": 19.0, 
+                "id": "live, living, life"
+            }, 
+            {
+                "languages": 15.0, 
+                "normalized_weight": 90.09009009009009, 
+                "weight": 90.09009009009009, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "sit"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9259259259259258, 
+                "weight": 0.9259259259259258, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "crouch"
+            }
+        ], 
+        [
+            {
+                "languages": 22.0, 
+                "normalized_weight": 258.5858585858586, 
+                "weight": 258.5858585858586, 
+                "edge_width": 2.3235294117647056, 
+                "families": 16.0, 
+                "id": "dwell, live"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 57.14285714285714, 
+                "weight": 57.14285714285714, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "sit"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "live, living, life"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "weight": 0.9345794392523363, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "crouch"
+            }
+        ], 
+        [
+            {
+                "languages": 53.0, 
+                "normalized_weight": 353.92156862745094, 
+                "weight": 353.92156862745094, 
+                "edge_width": 2.8529411764705883, 
+                "families": 19.0, 
+                "id": "dwell, live"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 20.66115702479339, 
+                "weight": 20.66115702479339, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "sit"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8, 
+                "weight": 0.8, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "live, living, life"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "remain, stay"
+            }
+        ], 
+        [
+            {
+                "languages": 15.0, 
+                "normalized_weight": 90.09009009009009, 
+                "weight": 90.09009009009009, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "dwell, live"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 57.14285714285714, 
+                "weight": 57.14285714285714, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "remain, stay"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 20.66115702479339, 
+                "weight": 20.66115702479339, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "live, living, life"
+            }, 
+            {
+                "languages": 13.0, 
+                "normalized_weight": 22.93577981651376, 
+                "weight": 22.93577981651376, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "crouch"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9259259259259258, 
+                "weight": 0.9259259259259258, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "dwell, live"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "weight": 0.9345794392523363, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "remain, stay"
+            }, 
+            {
+                "languages": 13.0, 
+                "normalized_weight": 22.93577981651376, 
+                "weight": 22.93577981651376, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "sit"
+            }
+        ]
+    ]
 }

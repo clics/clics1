@@ -1,67 +1,97 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "have", 
             "key": "11.11", 
-            "community": 116, 
             "id": "have", 
+            "community": 116, 
             "out_edge": [
                 [
-                    "cluster_49_preserve, look after", 
+                    "cluster_3_get, obtain", 
+                    "hold", 
+                    9.0, 
+                    78.64077669902912
+                ], 
+                [
+                    "cluster_45_preserve, look after", 
                     "keep, retain", 
                     8.0, 
-                    1.2647058823529411
+                    63.366336633663366
                 ], 
                 [
-                    "cluster_3_get, obtain", 
-                    "hold", 
-                    9.0, 
-                    1.2647058823529411
+                    "cluster_23_bring", 
+                    "carry-in-hand", 
+                    4.0, 
+                    15.841584158415841
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.8695652173913043, 
+            "label": "have", 
+            "frequency": 233.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "own, possess", 
             "key": "11.12", 
-            "community": 116, 
             "id": "own, possess", 
+            "community": 116, 
             "out_edge": [
+                [
+                    "cluster_45_preserve, look after", 
+                    "keep, retain", 
+                    9.0, 
+                    83.50515463917526
+                ], 
                 [
                     "cluster_3_get, obtain", 
                     "hold", 
                     9.0, 
-                    1.2647058823529411
+                    81.0
                 ], 
                 [
-                    "cluster_49_preserve, look after", 
-                    "keep, retain", 
-                    9.0, 
-                    1.2647058823529411
+                    "cluster_69_king, ruler", 
+                    "master", 
+                    4.0, 
+                    16.3265306122449
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.098901098901099, 
+            "label": "own, possess", 
+            "frequency": 234.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 5.7647058823529411, 
                 "languages": 66.0, 
+                "normalized_weight": 967.9012345679013, 
+                "weight": 967.9012345679013, 
+                "edge_width": 5.7647058823529411, 
                 "families": 28.0, 
                 "id": "own, possess"
             }
         ], 
         [
             {
-                "weight": 5.7647058823529411, 
                 "languages": 66.0, 
+                "normalized_weight": 967.9012345679013, 
+                "weight": 967.9012345679013, 
+                "edge_width": 5.7647058823529411, 
                 "families": 28.0, 
                 "id": "have"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

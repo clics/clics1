@@ -1,41 +1,85 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "ask, request", 
             "key": "18.35", 
-            "community": 164, 
             "id": "ask, request", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 164, 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "borrow", 
+                    6.0, 
+                    34.285714285714285
+                ], 
+                [
+                    "cluster_21_call (=summon)", 
+                    "call (=summon)", 
+                    5.0, 
+                    21.367521367521366
+                ], 
+                [
+                    "cluster_123_need, necessity", 
+                    "desire, want", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "ask, request", 
+            "frequency": 262.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "ask (question, inquire)", 
             "key": "18.31", 
-            "community": 164, 
             "id": "ask (question, inquire)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "community": 164, 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "answer", 
+                    4.0, 
+                    13.675213675213676
+                ]
+            ], 
+            "normalized_weight": 0.8064516129032258, 
+            "label": "ask (question, inquire)", 
+            "frequency": 259.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 3.1176470588235294, 
                 "languages": 40.0, 
+                "normalized_weight": 428.1553398058253, 
+                "weight": 428.1553398058253, 
+                "edge_width": 3.1176470588235294, 
                 "families": 21.0, 
                 "id": "ask (question, inquire)"
             }
         ], 
         [
             {
-                "weight": 3.1176470588235294, 
                 "languages": 40.0, 
+                "normalized_weight": 428.1553398058253, 
+                "weight": 428.1553398058253, 
+                "edge_width": 3.1176470588235294, 
                 "families": 21.0, 
                 "id": "ask, request"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

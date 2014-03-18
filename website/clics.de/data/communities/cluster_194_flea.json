@@ -1,0 +1,157 @@
+{
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "intoxicated", 
+            "key": "4.98", 
+            "id": "intoxicated", 
+            "community": 194, 
+            "out_edge": [], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "intoxicated", 
+            "frequency": 273.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "flea", 
+            "key": "3.813", 
+            "id": "flea", 
+            "community": 194, 
+            "out_edge": [], 
+            "normalized_weight": 1.0752688172043012, 
+            "label": "flea", 
+            "frequency": 225.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "louse", 
+            "key": "3.811", 
+            "id": "louse", 
+            "community": 194, 
+            "out_edge": [], 
+            "normalized_weight": 0.7936507936507936, 
+            "label": "louse", 
+            "frequency": 241.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "nit (louse egg)", 
+            "key": "3.812", 
+            "id": "nit (louse egg)", 
+            "community": 194, 
+            "out_edge": [], 
+            "normalized_weight": 8.256880733944955, 
+            "label": "nit (louse egg)", 
+            "frequency": 197.0
+        }
+    ], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8771929824561403, 
+                "weight": 0.8771929824561403, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "flea"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.819672131147541, 
+                "weight": 0.819672131147541, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "louse"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8771929824561403, 
+                "weight": 0.8771929824561403, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "intoxicated"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 74.31192660550458, 
+                "weight": 74.31192660550458, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "louse"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9708737864077669, 
+                "weight": 0.9708737864077669, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "nit (louse egg)"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.819672131147541, 
+                "weight": 0.819672131147541, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "intoxicated"
+            }, 
+            {
+                "languages": 10.0, 
+                "normalized_weight": 74.31192660550458, 
+                "weight": 74.31192660550458, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "flea"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 8.256880733944955, 
+                "weight": 8.256880733944955, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "nit (louse egg)"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9708737864077669, 
+                "weight": 0.9708737864077669, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "flea"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 8.256880733944955, 
+                "weight": 8.256880733944955, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "louse"
+            }
+        ]
+    ]
+}

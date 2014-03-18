@@ -1,121 +1,164 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "wheat", 
             "key": "8.43", 
-            "community": 185, 
             "id": "wheat", 
+            "community": 185, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.2658227848101267, 
+            "label": "wheat", 
+            "frequency": 158.0
         }, 
         {
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "families": 2.0, 
             "key": "8.44", 
-            "community": 185, 
             "id": "barley", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.45", 
             "community": 185, 
-            "id": "rye", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 11.428571428571429
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 3.0, 
+            "weight": 3.0, 
+            "swadesh100": 0.0, 
+            "families": 3.0, 
+            "concept": "oats", 
             "key": "8.46", 
-            "community": 185, 
             "id": "oats", 
+            "community": 185, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 29.03225806451613, 
+            "label": "oats", 
+            "frequency": 125.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "rye", 
+            "key": "8.45", 
+            "id": "rye", 
+            "community": 185, 
+            "out_edge": [], 
+            "label": "rye", 
+            "frequency": 118.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 7.8431372549019605, 
+                "weight": 7.8431372549019605, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "barley"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "rye"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 2.0408163265306123, 
+                "weight": 2.0408163265306123, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "oats"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "wheat"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "oats"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 9.523809523809524, 
+                "weight": 9.523809523809524, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "rye"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 7.8431372549019605, 
+                "weight": 7.8431372549019605, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "wheat"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 3.0, 
+                "normalized_weight": 22.5, 
+                "weight": 22.5, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "oats"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 11.428571428571429, 
+                "weight": 11.428571428571429, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
-                "id": "barley"
+                "id": "rye"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 2.0408163265306123, 
+                "weight": 2.0408163265306123, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "wheat"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 3.0, 
-                "families": 3.0, 
-                "id": "rye"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "normalized_weight": 22.5, 
+                "weight": 22.5, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "barley"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 29.03225806451613, 
+                "weight": 29.03225806451613, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "rye"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 9.523809523809524, 
+                "weight": 9.523809523809524, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "wheat"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 11.428571428571429, 
+                "weight": 11.428571428571429, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "barley"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 29.03225806451613, 
+                "weight": 29.03225806451613, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "oats"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

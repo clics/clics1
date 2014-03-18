@@ -1,41 +1,50 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "families": 2.0, 
             "key": "7.16", 
-            "community": 259, 
             "id": "men's house", 
+            "community": 259, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 7.142857142857142
         }, 
         {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "meeting house", 
             "key": "7.18", 
-            "community": 259, 
             "id": "meeting house", 
+            "community": 259, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "label": "meeting house", 
+            "frequency": 156.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 7.142857142857142, 
+                "weight": 7.142857142857142, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "meeting house"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 7.142857142857142, 
+                "weight": 7.142857142857142, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "men's house"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

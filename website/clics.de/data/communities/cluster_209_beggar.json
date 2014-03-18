@@ -1,81 +1,116 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "11.53", 
-            "community": 209, 
-            "id": "beggar", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "orphan", 
             "key": "2.75", 
-            "community": 209, 
             "id": "orphan", 
+            "community": 209, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9345794392523363, 
+            "label": "orphan", 
+            "frequency": 246.0
         }, 
         {
-            "key": "11.52", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "beggar", 
+            "key": "11.53", 
+            "id": "beggar", 
             "community": 209, 
-            "id": "poor", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9090909090909091, 
+            "label": "beggar", 
+            "frequency": 216.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "poor", 
+            "key": "11.52", 
+            "id": "poor", 
+            "community": 209, 
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "poor", 
+            "frequency": 258.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
+                "languages": 5.0, 
+                "normalized_weight": 24.271844660194176, 
+                "weight": 24.271844660194176, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "poor"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.49484536082474, 
+                "weight": 16.49484536082474, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "beggar"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.49484536082474, 
+                "weight": 16.49484536082474, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "orphan"
+            }, 
+            {
                 "languages": 1.0, 
+                "normalized_weight": 1.0526315789473684, 
+                "weight": 1.0526315789473684, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "beggar"
             }, 
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "orphan"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 9.0, 
+                "normalized_weight": 51.041666666666664, 
+                "weight": 51.041666666666664, 
+                "edge_width": 1.2647058823529411, 
                 "families": 7.0, 
                 "id": "poor"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "beggar"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 5.0, 
-                "families": 5.0, 
-                "id": "poor"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
-                "families": 7.0, 
-                "id": "beggar"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
+                "normalized_weight": 24.271844660194176, 
+                "weight": 24.271844660194176, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "orphan"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 51.041666666666664, 
+                "weight": 51.041666666666664, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "beggar"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

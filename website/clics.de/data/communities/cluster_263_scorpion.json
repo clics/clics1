@@ -1,63 +1,92 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 4.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "scorpion", 
             "key": "3.815", 
-            "community": 263, 
             "id": "scorpion", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.814", 
             "community": 263, 
-            "id": "centipede", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 4.081632653061225, 
+            "label": "scorpion", 
+            "frequency": 210.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "stingray", 
             "key": "3.664", 
-            "community": 263, 
             "id": "stingray", 
+            "community": 263, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.1363636363636365, 
+            "label": "stingray", 
+            "frequency": 142.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "centipede", 
+            "key": "3.814", 
+            "id": "centipede", 
+            "community": 263, 
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "centipede", 
+            "frequency": 185.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
-                "id": "centipede"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
                 "families": 1.0, 
                 "id": "stingray"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 4.081632653061225, 
+                "weight": 4.081632653061225, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "centipede"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 2.0, 
+                "languages": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "weight": 1.0869565217391304, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
                 "id": "scorpion"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 4.081632653061225, 
+                "weight": 4.081632653061225, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
                 "id": "scorpion"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

@@ -1,41 +1,69 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0, 
-            "community": 193, 
-            "id": "headband, headdress", 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "headband, headdress", 
             "key": "6.78", 
+            "id": "headband, headdress", 
+            "community": 193, 
             "out_edge": [], 
-            "swadesh100": 0
+            "normalized_weight": 1.3513513513513513, 
+            "label": "headband, headdress", 
+            "frequency": 251.0
         }, 
         {
-            "body_part": 0, 
-            "community": 193, 
-            "id": "helmet", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "helmet", 
             "key": "20.33", 
+            "id": "helmet", 
+            "community": 193, 
             "out_edge": [], 
-            "swadesh100": 0
+            "normalized_weight": 1.4705882352941175, 
+            "label": "helmet", 
+            "frequency": 154.0
         }, 
         {
-            "body_part": 0, 
-            "community": 193, 
-            "id": "hat, cap", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "hat, cap", 
             "key": "6.55", 
+            "id": "hat, cap", 
+            "community": 193, 
             "out_edge": [], 
-            "swadesh100": 0
+            "normalized_weight": 0.8928571428571428, 
+            "label": "hat, cap", 
+            "frequency": 288.0
         }
     ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 3.0, 
-                "weight": 1.1511627906976745, 
+                "normalized_weight": 13.636363636363635, 
+                "weight": 13.636363636363635, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "helmet"
             }, 
             {
                 "languages": 10.0, 
-                "weight": 1.3023255813953489, 
+                "normalized_weight": 26.881720430107524, 
+                "weight": 26.881720430107524, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "hat, cap"
             }
@@ -43,13 +71,17 @@
         [
             {
                 "languages": 3.0, 
-                "weight": 1.1511627906976745, 
+                "normalized_weight": 13.636363636363635, 
+                "weight": 13.636363636363635, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "headband, headdress"
             }, 
             {
                 "languages": 6.0, 
-                "weight": 1.3837209302325582, 
+                "normalized_weight": 33.78378378378378, 
+                "weight": 33.78378378378378, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "hat, cap"
             }
@@ -57,19 +89,20 @@
         [
             {
                 "languages": 10.0, 
-                "weight": 1.3023255813953489, 
+                "normalized_weight": 26.881720430107524, 
+                "weight": 26.881720430107524, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "headband, headdress"
             }, 
             {
                 "languages": 6.0, 
-                "weight": 1.3837209302325582, 
+                "normalized_weight": 33.78378378378378, 
+                "weight": 33.78378378378378, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "helmet"
             }
         ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    ]
 }

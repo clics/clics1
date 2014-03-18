@@ -1,215 +1,284 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 18.0, 
-                "id": "bee", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 164.07766990291262, 
-                "families": 13.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "beehive", 
-                "edge_width": 1.0, 
-                "weight": 9.090909090909092, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "nest", 
-                "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 18.0, 
-                "id": "wasp", 
-                "edge_width": 1.7941176470588236, 
-                "weight": 164.07766990291262, 
-                "families": 13.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "beehive", 
-                "edge_width": 1.0, 
-                "weight": 16.0, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 14.0, 
-                "id": "honey", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 95.23809523809523, 
-                "families": 10.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "nest", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 16.0, 
-                "id": "honey", 
-                "edge_width": 1.0, 
-                "weight": 46.75324675324675, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "beehive", 
-                "edge_width": 1.0, 
-                "weight": 16.49484536082474, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 14.0, 
-                "id": "bee", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 95.23809523809523, 
-                "families": 10.0
-            }, 
-            {
-                "languages": 16.0, 
-                "id": "mead", 
-                "edge_width": 1.0, 
-                "weight": 46.75324675324675, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "basket", 
-                "edge_width": 1.0, 
-                "weight": 9.090909090909092, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "bee", 
-                "edge_width": 1.0, 
-                "weight": 16.0, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "nest", 
-                "edge_width": 1.0, 
-                "weight": 16.0, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "honey", 
-                "edge_width": 1.0, 
-                "weight": 16.49484536082474, 
-                "families": 4.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "beehive", 
-                "edge_width": 1.0, 
-                "weight": 16.0, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "basket", 
-                "edge_width": 1.0, 
-                "weight": 0.8695652173913043, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "bed", 
-                "edge_width": 1.0, 
-                "weight": 13.793103448275861, 
-                "families": 4.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
-            "id": "wasp", 
-            "key": "3.823"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
-            "id": "basket", 
-            "key": "9.76"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
-            "id": "bee", 
-            "key": "3.82"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
-            "id": "bed", 
-            "key": "7.42"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "mead", 
+            "key": "5.91", 
             "id": "mead", 
-            "key": "5.91"
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 1.1363636363636365, 
+            "label": "mead", 
+            "frequency": 124.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 59, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "families": 1.0, 
+            "key": "5.84", 
             "id": "honey", 
-            "key": "5.84"
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 1.0204081632653061
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bee", 
+            "key": "3.82", 
+            "id": "bee", 
             "community": 59, 
-            "id": "beehive", 
-            "key": "3.822"
+            "out_edge": [], 
+            "normalized_weight": 0.9708737864077669, 
+            "label": "bee", 
+            "frequency": 256.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bed", 
+            "key": "7.42", 
+            "id": "bed", 
             "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 0.8547008547008548, 
+            "label": "bed", 
+            "frequency": 278.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "wasp", 
+            "key": "3.823", 
+            "id": "wasp", 
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 0.9523809523809524, 
+            "label": "wasp", 
+            "frequency": 244.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "basket", 
+            "key": "9.76", 
+            "id": "basket", 
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 0.8333333333333334, 
+            "label": "basket", 
+            "frequency": 310.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "nest", 
+            "key": "3.58", 
             "id": "nest", 
-            "key": "3.58"
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 0.8620689655172413, 
+            "label": "nest", 
+            "frequency": 242.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "beehive", 
+            "key": "3.822", 
+            "id": "beehive", 
+            "community": 59, 
+            "out_edge": [], 
+            "normalized_weight": 0.9433962264150944, 
+            "label": "beehive", 
+            "frequency": 198.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 16.0, 
+                "normalized_weight": 46.75324675324675, 
+                "weight": 46.75324675324675, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "honey"
+            }
+        ], 
+        [
+            {
+                "languages": 16.0, 
+                "normalized_weight": 46.75324675324675, 
+                "weight": 46.75324675324675, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "mead"
+            }, 
+            {
+                "languages": 14.0, 
+                "normalized_weight": 95.23809523809523, 
+                "weight": 95.23809523809523, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "bee"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.49484536082474, 
+                "weight": 16.49484536082474, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "beehive"
+            }
+        ], 
+        [
+            {
+                "languages": 14.0, 
+                "normalized_weight": 95.23809523809523, 
+                "weight": 95.23809523809523, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "honey"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.0, 
+                "weight": 16.0, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "beehive"
+            }, 
+            {
+                "languages": 18.0, 
+                "normalized_weight": 164.07766990291262, 
+                "weight": 164.07766990291262, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "wasp"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "nest"
+            }
+        ], 
+        [
+            {
+                "languages": 18.0, 
+                "normalized_weight": 164.07766990291262, 
+                "weight": 164.07766990291262, 
+                "edge_width": 1.7941176470588236, 
+                "families": 13.0, 
+                "id": "bee"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "nest"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 9.090909090909092, 
+                "weight": 9.090909090909092, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "beehive"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 13.793103448275861, 
+                "weight": 13.793103448275861, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "bed"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.0, 
+                "weight": 16.0, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "beehive"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "basket"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.49484536082474, 
+                "weight": 16.49484536082474, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "honey"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.0, 
+                "weight": 16.0, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "bee"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 16.0, 
+                "weight": 16.0, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "nest"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 9.090909090909092, 
+                "weight": 9.090909090909092, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "basket"
+            }
+        ]
+    ]
 }

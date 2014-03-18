@@ -1,90 +1,34 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 2.0, 
-                "id": "pointed", 
-                "edge_width": 1.0, 
-                "weight": 3.508771929824561, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "sharp", 
-                "edge_width": 1.0, 
-                "weight": 7.964601769911504, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "rough", 
-                "edge_width": 1.0, 
-                "weight": 7.964601769911504, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 47.0, 
-                "id": "pointed", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 445.45454545454544, 
-                "families": 21.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "pointed", 
-                "edge_width": 1.0, 
-                "weight": 0.8403361344537815, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 47.0, 
-                "id": "sharp", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 445.45454545454544, 
-                "families": 21.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "rough", 
-                "edge_width": 1.0, 
-                "weight": 3.508771929824561, 
-                "families": 2.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "languages": 4.0, 
+            "weight": 4.0, 
+            "families": 4.0, 
+            "key": "15.78", 
+            "id": "sharp", 
             "community": 140, 
-            "id": "rough", 
-            "key": "15.76"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_54_swift, fast, quick", 
+                    "cluster_54_soon", 
                     "swift, fast, quick", 
                     4.0, 
                     13.559322033898304
                 ]
             ], 
-            "community": 140, 
-            "id": "sharp", 
-            "key": "15.78"
+            "normalized_weight": 13.559322033898304
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "pointed", 
+            "key": "12.352", 
+            "id": "pointed", 
+            "community": 140, 
             "out_edge": [
                 [
                     "cluster_35_finish", 
@@ -99,10 +43,89 @@
                     21.551724137931032
                 ]
             ], 
+            "normalized_weight": 0.8264462809917356, 
+            "label": "pointed", 
+            "frequency": 263.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "rough", 
+            "key": "15.76", 
+            "id": "rough", 
             "community": 140, 
-            "id": "pointed", 
-            "key": "12.352"
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "rough", 
+            "frequency": 252.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 47.0, 
+                "normalized_weight": 445.45454545454544, 
+                "weight": 445.45454545454544, 
+                "edge_width": 3.1176470588235294, 
+                "families": 21.0, 
+                "id": "pointed"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.964601769911504, 
+                "weight": 7.964601769911504, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "rough"
+            }
+        ], 
+        [
+            {
+                "languages": 47.0, 
+                "normalized_weight": 445.45454545454544, 
+                "weight": 445.45454545454544, 
+                "edge_width": 3.1176470588235294, 
+                "families": 21.0, 
+                "id": "sharp"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8403361344537815, 
+                "weight": 0.8403361344537815, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "pointed"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.508771929824561, 
+                "weight": 3.508771929824561, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "rough"
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.964601769911504, 
+                "weight": 7.964601769911504, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "sharp"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.508771929824561, 
+                "weight": 3.508771929824561, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "pointed"
+            }
+        ]
+    ]
 }

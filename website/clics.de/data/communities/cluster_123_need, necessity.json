@@ -1,127 +1,17 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "need, necessity", 
-                "edge_width": 1.0, 
-                "weight": 1.0101010101010102, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "desire, want", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 63.366336633663366, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "love", 
-                "edge_width": 1.0, 
-                "weight": 3.669724770642202, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "need, necessity", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 63.366336633663366, 
-                "families": 8.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "hope", 
-                "edge_width": 1.0, 
-                "weight": 26.041666666666668, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 23.0, 
-                "id": "love", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 280.58252427184465, 
-                "families": 17.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "desire, want", 
-                "edge_width": 1.0, 
-                "weight": 26.041666666666668, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 23.0, 
-                "id": "desire, want", 
-                "edge_width": 2.3235294117647056, 
-                "weight": 280.58252427184465, 
-                "families": 17.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "need, necessity", 
-                "edge_width": 1.0, 
-                "weight": 3.669724770642202, 
-                "families": 2.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "love", 
+            "key": "16.27", 
+            "id": "love", 
             "community": 123, 
-            "id": "need, necessity", 
-            "key": "17.45"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_43_idea, notion", 
-                    "intention, purpose", 
-                    4.0, 
-                    16.3265306122449
-                ], 
-                [
-                    "cluster_164_ask (question, inquire)", 
-                    "ask, request", 
-                    4.0, 
-                    13.91304347826087
-                ]
-            ], 
-            "community": 123, 
-            "id": "desire, want", 
-            "key": "16.62"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_25_think (= reflect)", 
-                    "believe", 
-                    4.0, 
-                    17.02127659574468
-                ]
-            ], 
-            "community": 123, 
-            "id": "hope", 
-            "key": "16.63"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_78_anxiety, worry", 
@@ -130,10 +20,152 @@
                     23.364485981308412
                 ]
             ], 
+            "normalized_weight": 0.8264462809917356, 
+            "label": "love", 
+            "frequency": 316.0
+        }, 
+        {
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "families": 1.0, 
+            "key": "16.63", 
+            "id": "hope", 
             "community": 123, 
-            "id": "love", 
-            "key": "16.27"
+            "out_edge": [
+                [
+                    "cluster_25_think (= reflect)", 
+                    "believe", 
+                    4.0, 
+                    17.02127659574468
+                ]
+            ], 
+            "normalized_weight": 1.2195121951219512
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "desire, want", 
+            "key": "16.62", 
+            "id": "desire, want", 
+            "community": 123, 
+            "out_edge": [
+                [
+                    "cluster_43_idea, notion", 
+                    "intention, purpose", 
+                    4.0, 
+                    16.3265306122449
+                ], 
+                [
+                    "cluster_164_ask, request", 
+                    "ask, request", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ], 
+            "normalized_weight": 0.8264462809917356, 
+            "label": "desire, want", 
+            "frequency": 368.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "need, necessity", 
+            "key": "17.45", 
+            "id": "need, necessity", 
+            "community": 123, 
+            "out_edge": [], 
+            "normalized_weight": 1.0416666666666665, 
+            "label": "need, necessity", 
+            "frequency": 270.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.669724770642202, 
+                "weight": 3.669724770642202, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "need, necessity"
+            }, 
+            {
+                "languages": 23.0, 
+                "normalized_weight": 280.58252427184465, 
+                "weight": 280.58252427184465, 
+                "edge_width": 2.3235294117647056, 
+                "families": 17.0, 
+                "id": "desire, want"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 26.041666666666668, 
+                "weight": 26.041666666666668, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "desire, want"
+            }
+        ], 
+        [
+            {
+                "languages": 23.0, 
+                "normalized_weight": 280.58252427184465, 
+                "weight": 280.58252427184465, 
+                "edge_width": 2.3235294117647056, 
+                "families": 17.0, 
+                "id": "love"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 26.041666666666668, 
+                "weight": 26.041666666666668, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "hope"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 63.366336633663366, 
+                "weight": 63.366336633663366, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "need, necessity"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.669724770642202, 
+                "weight": 3.669724770642202, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "love"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 63.366336633663366, 
+                "weight": 63.366336633663366, 
+                "edge_width": 1.2647058823529411, 
+                "families": 8.0, 
+                "id": "desire, want"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.0101010101010102, 
+                "weight": 1.0101010101010102, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "need, necessity"
+            }
+        ]
+    ]
 }

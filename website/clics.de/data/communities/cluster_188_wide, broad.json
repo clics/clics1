@@ -1,67 +1,47 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 12.0, 
-                "id": "wide, broad", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 106.14035087719299, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "thick (in dimension)", 
-                "edge_width": 1.0, 
-                "weight": 30.0, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 12.0, 
-                "id": "large, big", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 106.14035087719299, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "wide, broad", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "thick (in dimension)", 
-                "edge_width": 1.0, 
-                "weight": 21.1864406779661, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "large, big", 
-                "edge_width": 1.0, 
-                "weight": 30.0, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "wide, broad", 
-                "edge_width": 1.0, 
-                "weight": 21.1864406779661, 
-                "families": 5.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 1, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "thick (in dimension)", 
+            "key": "12.63", 
+            "id": "thick (in dimension)", 
+            "community": 188, 
+            "out_edge": [], 
+            "normalized_weight": 0.8403361344537815, 
+            "label": "thick (in dimension)", 
+            "frequency": 265.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "wide, broad", 
+            "key": "12.61", 
+            "id": "wide, broad", 
+            "community": 188, 
+            "out_edge": [], 
+            "normalized_weight": 0.847457627118644, 
+            "label": "wide, broad", 
+            "frequency": 276.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 5.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "large, big", 
+            "key": "12.55", 
+            "id": "large, big", 
+            "community": 188, 
             "out_edge": [
                 [
                     "cluster_17_tall", 
@@ -82,26 +62,74 @@
                     20.32520325203252
                 ]
             ], 
-            "community": 188, 
-            "id": "large, big", 
-            "key": "12.55"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 188, 
-            "id": "wide, broad", 
-            "key": "12.61"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 188, 
-            "id": "thick (in dimension)", 
-            "key": "12.63"
+            "normalized_weight": 0.8333333333333334, 
+            "label": "large, big", 
+            "frequency": 298.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.1864406779661, 
+                "weight": 21.1864406779661, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "wide, broad"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 30.0, 
+                "weight": 30.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "large, big"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 21.1864406779661, 
+                "weight": 21.1864406779661, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "thick (in dimension)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8264462809917356, 
+                "weight": 0.8264462809917356, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "wide, broad"
+            }, 
+            {
+                "languages": 12.0, 
+                "normalized_weight": 106.14035087719299, 
+                "weight": 106.14035087719299, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "large, big"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 30.0, 
+                "weight": 30.0, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "thick (in dimension)"
+            }, 
+            {
+                "languages": 12.0, 
+                "normalized_weight": 106.14035087719299, 
+                "weight": 106.14035087719299, 
+                "edge_width": 1.5294117647058822, 
+                "families": 11.0, 
+                "id": "wide, broad"
+            }
+        ]
+    ]
 }

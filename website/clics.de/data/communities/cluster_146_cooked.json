@@ -1,54 +1,72 @@
 {
     "graph": [], 
-    "adjacency": [
-        [
-            {
-                "languages": 30.0, 
-                "weight": 2.8367346938775508, 
-                "id": "ripe", 
-                "families": 21.0
-            }
-        ], 
-        [
-            {
-                "languages": 30.0, 
-                "weight": 2.8367346938775508, 
-                "id": "cooked", 
-                "families": 21.0
-            }
-        ]
-    ], 
+    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "cooked", 
+            "key": "5.121", 
+            "id": "cooked", 
+            "community": 146, 
             "out_edge": [
                 [
                     "cluster_105_bake", 
                     "cook", 
                     8.0, 
-                    1.2040816326530612
+                    58.18181818181818
                 ], 
                 [
                     "cluster_105_bake", 
                     "boil (vb)", 
                     4.0, 
-                    1.0408163265306123
+                    13.91304347826087
                 ]
             ], 
-            "community": 146, 
-            "body_part": 0, 
-            "id": "cooked", 
-            "key": "5.121"
+            "normalized_weight": 0.8620689655172413, 
+            "label": "cooked", 
+            "frequency": 237.0
         }, 
         {
-            "swadesh100": 0, 
-            "out_edge": [], 
-            "community": 146, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "ripe", 
+            "key": "5.123", 
             "id": "ripe", 
-            "key": "5.123"
+            "community": 146, 
+            "out_edge": [], 
+            "normalized_weight": 1.0204081632653061, 
+            "label": "ripe", 
+            "frequency": 274.0
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 30.0, 
+                "normalized_weight": 459.375, 
+                "weight": 459.375, 
+                "edge_width": 3.3823529411764706, 
+                "families": 21.0, 
+                "id": "ripe"
+            }
+        ], 
+        [
+            {
+                "languages": 30.0, 
+                "normalized_weight": 459.375, 
+                "weight": 459.375, 
+                "edge_width": 3.3823529411764706, 
+                "families": 21.0, 
+                "id": "cooked"
+            }
+        ]
+    ]
 }

@@ -1,152 +1,47 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "if", 
-                "edge_width": 1.0, 
-                "weight": 0.9708737864077669, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "because", 
-                "edge_width": 1.0, 
-                "weight": 36.36363636363637, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "when?", 
-                "edge_width": 1.0, 
-                "weight": 22.93577981651376, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "if", 
-                "edge_width": 1.0, 
-                "weight": 36.36363636363637, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "because", 
-                "edge_width": 1.0, 
-                "weight": 0.9523809523809524, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "cause", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 93.10344827586206, 
-                "families": 9.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "when?", 
-                "edge_width": 1.0, 
-                "weight": 3.5398230088495577, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "cause", 
-                "edge_width": 1.0, 
-                "weight": 1.36986301369863, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "id": "if", 
-                "edge_width": 1.0, 
-                "weight": 22.93577981651376, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "because", 
-                "edge_width": 1.0, 
-                "weight": 3.5398230088495577, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "id": "because", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 93.10344827586206, 
-                "families": 9.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "cause", 
-                "edge_width": 1.0, 
-                "weight": 1.1764705882352942, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "plaintiff", 
-                "edge_width": 1.0, 
-                "weight": 1.36986301369863, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 145, 
+            "body_part": 0.0, 
+            "languages": 6.0, 
+            "weight": 6.0, 
+            "swadesh100": 0.0, 
+            "families": 6.0, 
+            "concept": "if", 
+            "key": "17.53", 
             "id": "if", 
-            "key": "17.53"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_93_how?", 
-                    "why?", 
-                    4.0, 
-                    14.814814814814813
-                ]
-            ], 
             "community": 145, 
-            "id": "because", 
-            "key": "17.52"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 145, 
-            "id": "plaintiff", 
-            "key": "21.21"
+            "normalized_weight": 36.36363636363637, 
+            "label": "if", 
+            "frequency": 277.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 145, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "when?", 
+            "key": "17.65", 
             "id": "when?", 
-            "key": "17.65"
+            "community": 145, 
+            "out_edge": [], 
+            "normalized_weight": 0.8064516129032258, 
+            "label": "when?", 
+            "frequency": 259.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "cause", 
+            "key": "17.42", 
+            "id": "cause", 
+            "community": 145, 
             "out_edge": [
                 [
                     "cluster_83_forgive", 
@@ -161,10 +56,163 @@
                     24.752475247524753
                 ]
             ], 
+            "normalized_weight": 1.1764705882352942, 
+            "label": "cause", 
+            "frequency": 248.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "because", 
+            "key": "17.52", 
+            "id": "because", 
             "community": 145, 
-            "id": "cause", 
-            "key": "17.42"
+            "out_edge": [
+                [
+                    "cluster_93_how?", 
+                    "why?", 
+                    4.0, 
+                    14.814814814814813
+                ]
+            ], 
+            "normalized_weight": 0.9523809523809524, 
+            "label": "because", 
+            "frequency": 291.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "plaintiff", 
+            "key": "21.21", 
+            "id": "plaintiff", 
+            "community": 145, 
+            "out_edge": [], 
+            "normalized_weight": 1.5384615384615385, 
+            "label": "plaintiff", 
+            "frequency": 141.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 22.93577981651376, 
+                "weight": 22.93577981651376, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "when?"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 36.36363636363637, 
+                "weight": 36.36363636363637, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "because"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9708737864077669, 
+                "weight": 0.9708737864077669, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "if"
+            }
+        ], 
+        [
+            {
+                "languages": 5.0, 
+                "normalized_weight": 22.93577981651376, 
+                "weight": 22.93577981651376, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "if"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.5398230088495577, 
+                "weight": 3.5398230088495577, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
+                "weight": 1.1764705882352942, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "cause"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 93.10344827586206, 
+                "weight": 93.10344827586206, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "because"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.36986301369863, 
+                "weight": 1.36986301369863, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "plaintiff"
+            }
+        ], 
+        [
+            {
+                "languages": 6.0, 
+                "normalized_weight": 36.36363636363637, 
+                "weight": 36.36363636363637, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "if"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 3.5398230088495577, 
+                "weight": 3.5398230088495577, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "when?"
+            }, 
+            {
+                "languages": 9.0, 
+                "normalized_weight": 93.10344827586206, 
+                "weight": 93.10344827586206, 
+                "edge_width": 1.2647058823529411, 
+                "families": 9.0, 
+                "id": "cause"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9523809523809524, 
+                "weight": 0.9523809523809524, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "because"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.36986301369863, 
+                "weight": 1.36986301369863, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "cause"
+            }
+        ]
+    ]
 }

@@ -1,41 +1,59 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "swallow", 
             "key": "5.181", 
-            "community": 269, 
             "id": "swallow", 
+            "community": 269, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.819672131147541, 
+            "label": "swallow", 
+            "frequency": 257.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "hiccough", 
             "key": "4.521", 
-            "community": 269, 
             "id": "hiccough", 
+            "community": 269, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 3.4482758620689653, 
+            "label": "hiccough", 
+            "frequency": 218.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 3.4482758620689653, 
+                "weight": 3.4482758620689653, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "hiccough"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 3.4482758620689653, 
+                "weight": 3.4482758620689653, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "swallow"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

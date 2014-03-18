@@ -1,0 +1,148 @@
+{
+    "graph": [], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "forge", 
+            "key": "9.61", 
+            "id": "forge", 
+            "community": 195, 
+            "out_edge": [], 
+            "normalized_weight": 8.51063829787234, 
+            "label": "forge", 
+            "frequency": 144.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "smith, blacksmith", 
+            "key": "9.6", 
+            "id": "smith, blacksmith", 
+            "community": 195, 
+            "out_edge": [], 
+            "normalized_weight": 1.5873015873015872, 
+            "label": "smith, blacksmith", 
+            "frequency": 172.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "cast (metals)", 
+            "key": "9.63", 
+            "id": "cast (metals)", 
+            "community": 195, 
+            "out_edge": [], 
+            "normalized_weight": 1.7857142857142856, 
+            "label": "cast (metals)", 
+            "frequency": 143.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "pour", 
+            "key": "9.35", 
+            "id": "pour", 
+            "community": 195, 
+            "out_edge": [
+                [
+                    "cluster_80_run", 
+                    "flow", 
+                    5.0, 
+                    22.123893805309734
+                ]
+            ], 
+            "normalized_weight": 0.847457627118644, 
+            "label": "pour", 
+            "frequency": 285.0
+        }
+    ], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 7.4074074074074066, 
+                "weight": 7.4074074074074066, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "smith, blacksmith"
+            }, 
+            {
+                "languages": 2.0, 
+                "normalized_weight": 8.51063829787234, 
+                "weight": 8.51063829787234, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "cast (metals)"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 7.4074074074074066, 
+                "weight": 7.4074074074074066, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "forge"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.5873015873015872, 
+                "weight": 1.5873015873015872, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "smith, blacksmith"
+            }
+        ], 
+        [
+            {
+                "languages": 2.0, 
+                "normalized_weight": 8.51063829787234, 
+                "weight": 8.51063829787234, 
+                "edge_width": 1.0, 
+                "families": 2.0, 
+                "id": "forge"
+            }, 
+            {
+                "languages": 28.0, 
+                "normalized_weight": 46.75324675324675, 
+                "weight": 46.75324675324675, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "pour"
+            }
+        ], 
+        [
+            {
+                "languages": 28.0, 
+                "normalized_weight": 46.75324675324675, 
+                "weight": 46.75324675324675, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "cast (metals)"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
+                "weight": 0.8695652173913043, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "pour"
+            }
+        ]
+    ]
+}

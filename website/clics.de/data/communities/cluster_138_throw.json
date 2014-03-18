@@ -1,114 +1,187 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "11.31", 
-            "community": 138, 
-            "id": "seek, look for", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "throw", 
             "key": "10.25", 
-            "community": 138, 
             "id": "throw", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "20.61", 
             "community": 138, 
-            "id": "hunt", 
             "out_edge": [
                 [
-                    "cluster_167_pursue", 
-                    "pursue", 
+                    "cluster_31_sow", 
+                    "sow", 
                     4.0, 
-                    1.0
+                    16.0
+                ], 
+                [
+                    "cluster_9_cut", 
+                    "cut down", 
+                    4.0, 
+                    13.793103448275861
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 0.9174311926605505, 
+            "label": "throw", 
+            "frequency": 320.0
         }, 
         {
-            "key": "20.62", 
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "seek, look for", 
+            "key": "11.31", 
+            "id": "seek, look for", 
             "community": 138, 
-            "id": "shoot", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "label": "seek, look for", 
+            "frequency": 267.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "divorce", 
             "key": "2.341", 
-            "community": 138, 
             "id": "divorce", 
+            "community": 138, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 4.0, 
+            "label": "divorce", 
+            "frequency": 209.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "shoot", 
+            "key": "20.62", 
+            "id": "shoot", 
+            "community": 138, 
+            "out_edge": [
+                [
+                    "cluster_85_strike (hit, beat)", 
+                    "strike (hit, beat)", 
+                    5.0, 
+                    21.551724137931032
+                ]
+            ], 
+            "normalized_weight": 0.8928571428571428, 
+            "label": "shoot", 
+            "frequency": 293.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "hunt", 
+            "key": "20.61", 
+            "id": "hunt", 
+            "community": 138, 
+            "out_edge": [
+                [
+                    "cluster_167_follow", 
+                    "pursue", 
+                    4.0, 
+                    14.285714285714285
+                ], 
+                [
+                    "cluster_3_get, obtain", 
+                    "seize, grasp", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ], 
+            "normalized_weight": 0.8547008547008548, 
+            "label": "hunt", 
+            "frequency": 257.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
+                "languages": 4.0, 
+                "normalized_weight": 15.384615384615385, 
+                "weight": 15.384615384615385, 
+                "edge_width": 1.0, 
+                "families": 4.0, 
+                "id": "divorce"
+            }, 
+            {
+                "languages": 19.0, 
+                "normalized_weight": 89.28571428571429, 
+                "weight": 89.28571428571429, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "shoot"
+            }
+        ], 
+        [
+            {
                 "languages": 6.0, 
+                "normalized_weight": 30.76923076923077, 
+                "weight": 30.76923076923077, 
+                "edge_width": 1.0, 
                 "families": 6.0, 
                 "id": "hunt"
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "shoot"
-            }, 
-            {
-                "weight": 1.0, 
                 "languages": 4.0, 
+                "normalized_weight": 15.384615384615385, 
+                "weight": 15.384615384615385, 
+                "edge_width": 1.0, 
                 "families": 4.0, 
-                "id": "divorce"
+                "id": "throw"
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "languages": 19.0, 
+                "normalized_weight": 89.28571428571429, 
+                "weight": 89.28571428571429, 
+                "edge_width": 1.2647058823529411, 
+                "families": 10.0, 
+                "id": "throw"
+            }, 
+            {
+                "languages": 5.0, 
+                "normalized_weight": 21.367521367521366, 
+                "weight": 21.367521367521366, 
+                "edge_width": 1.0, 
+                "families": 5.0, 
+                "id": "hunt"
+            }
+        ], 
+        [
+            {
                 "languages": 6.0, 
+                "normalized_weight": 30.76923076923077, 
+                "weight": 30.76923076923077, 
+                "edge_width": 1.0, 
                 "families": 6.0, 
                 "id": "seek, look for"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 5.0, 
+                "normalized_weight": 21.367521367521366, 
+                "weight": 21.367521367521366, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "shoot"
             }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 19.0, 
-                "families": 10.0, 
-                "id": "throw"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "hunt"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "throw"
-            }
         ]
-    ], 
-    "directed": false
+    ]
 }

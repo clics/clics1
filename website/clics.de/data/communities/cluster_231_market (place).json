@@ -1,47 +1,67 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "11.85", 
+            "body_part": 0.0, 
+            "languages": 7.0, 
+            "weight": 7.0, 
+            "swadesh100": 0.0, 
+            "families": 7.0, 
+            "concept": "store, shop", 
+            "key": "11.86", 
+            "id": "store, shop", 
             "community": 231, 
-            "id": "market (place)", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 75.38461538461539, 
+            "label": "store, shop", 
+            "frequency": 226.0
         }, 
         {
-            "key": "11.86", 
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "market (place)", 
+            "key": "11.85", 
+            "id": "market (place)", 
             "community": 231, 
-            "id": "store, shop", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 6.0606060606060606, 
+            "label": "market (place)", 
+            "frequency": 181.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "market (place)"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
                 "languages": 7.0, 
+                "normalized_weight": 75.38461538461539, 
+                "weight": 75.38461538461539, 
+                "edge_width": 1.2647058823529411, 
                 "families": 7.0, 
-                "id": "store, shop"
+                "id": "market (place)"
             }
         ], 
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
-                "families": 7.0, 
+                "languages": 1.0, 
+                "normalized_weight": 1.4925373134328357, 
+                "weight": 1.4925373134328357, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
                 "id": "market (place)"
+            }, 
+            {
+                "languages": 7.0, 
+                "normalized_weight": 75.38461538461539, 
+                "weight": 75.38461538461539, 
+                "edge_width": 1.2647058823529411, 
+                "families": 7.0, 
+                "id": "store, shop"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

@@ -1,47 +1,74 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "no, negative", 
             "key": "17.56", 
-            "community": 253, 
             "id": "no, negative", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "community": 253, 
+            "out_edge": [
+                [
+                    "cluster_86_forbid", 
+                    "deny", 
+                    4.0, 
+                    15.09433962264151
+                ]
+            ], 
+            "normalized_weight": 0.9090909090909091, 
+            "label": "no, negative", 
+            "frequency": 353.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "zero, nothing", 
             "key": "13.0", 
-            "community": 253, 
             "id": "zero, nothing", 
+            "community": 253, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "normalized_weight": 1.1494252873563218, 
+            "label": "zero, nothing", 
+            "frequency": 213.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 3.0, 
+                "normalized_weight": 7.317073170731707, 
+                "weight": 7.317073170731707, 
+                "edge_width": 1.0, 
                 "families": 3.0, 
                 "id": "no, negative"
             }, 
             {
-                "weight": 1.0, 
                 "languages": 7.0, 
+                "normalized_weight": 25.252525252525253, 
+                "weight": 25.252525252525253, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "zero, nothing"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 7.0, 
+                "normalized_weight": 25.252525252525253, 
+                "weight": 25.252525252525253, 
+                "edge_width": 1.0, 
                 "families": 5.0, 
                 "id": "no, negative"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

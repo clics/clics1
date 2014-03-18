@@ -1,195 +1,250 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 6.0, 
-                "id": "spindle", 
-                "edge_width": 1.0, 
-                "weight": 12.32876712328767, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "arrow", 
-                "edge_width": 1.0, 
-                "weight": 10.975609756097562, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "arrow", 
-                "edge_width": 1.0, 
-                "weight": 33.33333333333333, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "rainbow", 
-                "edge_width": 1.0, 
-                "weight": 7.6923076923076925, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 20.0, 
-                "id": "arch", 
-                "edge_width": 1.0, 
-                "weight": 47.368421052631575, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "bow", 
-                "edge_width": 1.0, 
-                "weight": 7.6923076923076925, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "rainbow", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 20.0, 
-                "id": "bow", 
-                "edge_width": 1.0, 
-                "weight": 47.368421052631575, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "spindle", 
-                "edge_width": 1.0, 
-                "weight": 1.3888888888888888, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "arrow", 
-                "edge_width": 1.0, 
-                "weight": 1.2345679012345678, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "axle", 
-                "edge_width": 1.0, 
-                "weight": 12.32876712328767, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "arrow", 
-                "edge_width": 1.0, 
-                "weight": 0.9615384615384616, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "arch", 
-                "edge_width": 1.0, 
-                "weight": 1.3888888888888888, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "axle", 
-                "edge_width": 1.0, 
-                "weight": 10.975609756097562, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "bow", 
-                "edge_width": 1.0, 
-                "weight": 33.33333333333333, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "spindle", 
-                "edge_width": 1.0, 
-                "weight": 0.9615384615384616, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "arch", 
-                "edge_width": 1.0, 
-                "weight": 1.2345679012345678, 
-                "families": 1.0
-            }
-        ]
-    ], 
-    "directed": false, 
+    "graph": [], 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 133, 
-            "id": "axle", 
-            "key": "10.77"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 133, 
-            "id": "bow", 
-            "key": "20.24"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 133, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "rainbow", 
+            "key": "1.59", 
             "id": "rainbow", 
-            "key": "1.59"
+            "community": 133, 
+            "out_edge": [], 
+            "normalized_weight": 0.9803921568627451, 
+            "label": "rainbow", 
+            "frequency": 245.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 133, 
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "arch", 
+            "key": "7.58", 
             "id": "arch", 
-            "key": "7.58"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
             "community": 133, 
-            "id": "spindle", 
-            "key": "6.32"
+            "out_edge": [], 
+            "label": "arch", 
+            "frequency": 150.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "bow", 
+            "key": "20.24", 
+            "id": "bow", 
+            "community": 133, 
+            "out_edge": [], 
+            "normalized_weight": 0.8547008547008548, 
+            "label": "bow", 
+            "frequency": 231.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "spindle", 
+            "key": "6.32", 
+            "id": "spindle", 
+            "community": 133, 
+            "out_edge": [], 
+            "normalized_weight": 1.0752688172043012, 
+            "label": "spindle", 
+            "frequency": 193.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 2.0, 
+            "weight": 2.0, 
+            "swadesh100": 0.0, 
+            "families": 2.0, 
+            "concept": "axle", 
+            "key": "10.77", 
+            "id": "axle", 
+            "community": 133, 
+            "out_edge": [], 
+            "normalized_weight": 4.597701149425287, 
+            "label": "axle", 
+            "frequency": 148.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "arrow", 
+            "key": "20.25", 
+            "id": "arrow", 
+            "community": 133, 
             "out_edge": [
                 [
-                    "cluster_52_iron", 
+                    "cluster_52_knife", 
                     "spear", 
                     4.0, 
                     15.238095238095239
                 ]
             ], 
-            "community": 133, 
-            "id": "arrow", 
-            "key": "20.25"
+            "normalized_weight": 0.8547008547008548, 
+            "label": "arrow", 
+            "frequency": 243.0
         }
     ], 
-    "graph": []
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.8, 
+                "weight": 0.8, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "rainbow"
+            }, 
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.6923076923076925, 
+                "weight": 7.6923076923076925, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "bow"
+            }
+        ], 
+        [
+            {
+                "languages": 20.0, 
+                "normalized_weight": 47.368421052631575, 
+                "weight": 47.368421052631575, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "bow"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.2345679012345678, 
+                "weight": 1.2345679012345678, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "arrow"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.3888888888888888, 
+                "weight": 1.3888888888888888, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "spindle"
+            }
+        ], 
+        [
+            {
+                "languages": 3.0, 
+                "normalized_weight": 7.6923076923076925, 
+                "weight": 7.6923076923076925, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "rainbow"
+            }, 
+            {
+                "languages": 20.0, 
+                "normalized_weight": 47.368421052631575, 
+                "weight": 47.368421052631575, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "arch"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 33.33333333333333, 
+                "weight": 33.33333333333333, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "arrow"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.3888888888888888, 
+                "weight": 1.3888888888888888, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "arch"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9615384615384616, 
+                "weight": 0.9615384615384616, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "arrow"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 12.32876712328767, 
+                "weight": 12.32876712328767, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "axle"
+            }
+        ], 
+        [
+            {
+                "languages": 4.0, 
+                "normalized_weight": 10.975609756097562, 
+                "weight": 10.975609756097562, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "arrow"
+            }, 
+            {
+                "languages": 6.0, 
+                "normalized_weight": 12.32876712328767, 
+                "weight": 12.32876712328767, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "spindle"
+            }
+        ], 
+        [
+            {
+                "languages": 1.0, 
+                "normalized_weight": 1.2345679012345678, 
+                "weight": 1.2345679012345678, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "arch"
+            }, 
+            {
+                "languages": 8.0, 
+                "normalized_weight": 33.33333333333333, 
+                "weight": 33.33333333333333, 
+                "edge_width": 1.0, 
+                "families": 6.0, 
+                "id": "bow"
+            }, 
+            {
+                "languages": 1.0, 
+                "normalized_weight": 0.9615384615384616, 
+                "weight": 0.9615384615384616, 
+                "edge_width": 1.0, 
+                "families": 1.0, 
+                "id": "spindle"
+            }, 
+            {
+                "languages": 4.0, 
+                "normalized_weight": 10.975609756097562, 
+                "weight": 10.975609756097562, 
+                "edge_width": 1.0, 
+                "families": 3.0, 
+                "id": "axle"
+            }
+        ]
+    ]
 }

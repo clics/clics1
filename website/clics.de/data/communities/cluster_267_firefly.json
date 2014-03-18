@@ -1,41 +1,55 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
+            "body_part": 0.0, 
+            "swadesh100": 0.0, 
+            "concept": "firefly", 
             "key": "3.91", 
-            "community": 267, 
             "id": "firefly", 
+            "community": 267, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "label": "firefly", 
+            "frequency": 186.0
         }, 
         {
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "star", 
             "key": "1.54", 
-            "community": 267, 
             "id": "star", 
+            "community": 267, 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "normalized_weight": 0.8, 
+            "label": "star", 
+            "frequency": 247.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 3.7735849056603774, 
+                "weight": 3.7735849056603774, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "star"
             }
         ], 
         [
             {
-                "weight": 1.0, 
                 "languages": 2.0, 
+                "normalized_weight": 3.7735849056603774, 
+                "weight": 3.7735849056603774, 
+                "edge_width": 1.0, 
                 "families": 2.0, 
                 "id": "firefly"
             }
         ]
-    ], 
-    "directed": false
+    ]
 }

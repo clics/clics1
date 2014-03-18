@@ -1,41 +1,60 @@
 {
+    "graph": [], 
+    "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0, 
-            "community": 120, 
-            "id": "path", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 0.0, 
+            "families": 1.0, 
+            "concept": "path", 
             "key": "10.72", 
+            "id": "path", 
+            "community": 120, 
             "out_edge": [
                 [
-                    "cluster_254_window", 
+                    "cluster_254_door, gate", 
                     "door, gate", 
                     4.0, 
-                    1.1511627906976745
+                    14.15929203539823
                 ]
             ], 
-            "swadesh100": 0
+            "normalized_weight": 0.9009009009009009, 
+            "label": "path", 
+            "frequency": 268.0
         }, 
         {
-            "body_part": 0, 
-            "community": 120, 
-            "id": "road", 
+            "body_part": 0.0, 
+            "languages": 1.0, 
+            "weight": 1.0, 
+            "swadesh100": 1.0, 
+            "families": 1.0, 
+            "concept": "road", 
             "key": "10.71", 
+            "id": "road", 
+            "community": 120, 
             "out_edge": [
                 [
                     "cluster_182_custom", 
                     "way, manner", 
                     5.0, 
-                    1.3023255813953489
+                    26.881720430107524
                 ]
             ], 
-            "swadesh100": 1
+            "normalized_weight": 0.9900990099009901, 
+            "label": "road", 
+            "frequency": 261.0
         }
     ], 
+    "directed": false, 
     "adjacency": [
         [
             {
                 "languages": 70.0, 
-                "weight": 4.8837209302325579, 
+                "normalized_weight": 1475.9036144578313, 
+                "weight": 1475.9036144578313, 
+                "edge_width": 8.147058823529413, 
                 "families": 35.0, 
                 "id": "road"
             }
@@ -43,13 +62,12 @@
         [
             {
                 "languages": 70.0, 
-                "weight": 4.8837209302325579, 
+                "normalized_weight": 1475.9036144578313, 
+                "weight": 1475.9036144578313, 
+                "edge_width": 8.147058823529413, 
                 "families": 35.0, 
                 "id": "path"
             }
         ]
-    ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    ]
 }
