@@ -1,125 +1,173 @@
 {
-    "nodes": [
-        {
-            "key": "3.72", 
-            "community": 236, 
-            "id": "lion", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.74", 
-            "community": 236, 
-            "id": "fox", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.77", 
-            "community": 236, 
-            "id": "cross", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.662", 
-            "community": 236, 
-            "id": "porpoise, dolphin", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.71", 
-            "community": 236, 
-            "id": "wolf", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fox"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cross"
-            }, 
-            {
-                "weight": 1.0, 
+                "normalized_weight": 4.597701149425287, 
+                "id": "wolf", 
                 "languages": 2.0, 
+                "weight": 4.597701149425287, 
                 "families": 2.0, 
-                "id": "wolf"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lion"
+                "edge_width": 1.0
             }, 
             {
-                "weight": 1.0, 
+                "normalized_weight": 1.0869565217391304, 
+                "id": "cross", 
                 "languages": 1.0, 
+                "weight": 1.0869565217391304, 
                 "families": 1.0, 
-                "id": "wolf"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "lion"
+                "edge_width": 1.0
             }, 
             {
-                "weight": 1.0, 
+                "normalized_weight": 1.0, 
+                "id": "fox", 
                 "languages": 1.0, 
+                "weight": 1.0, 
                 "families": 1.0, 
-                "id": "cross"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "normalized_weight": 1.36986301369863, 
+                "id": "wolf", 
                 "languages": 1.0, 
+                "weight": 1.36986301369863, 
                 "families": 1.0, 
-                "id": "wolf"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "normalized_weight": 4.597701149425287, 
+                "id": "lion", 
                 "languages": 2.0, 
+                "weight": 4.597701149425287, 
                 "families": 2.0, 
-                "id": "lion"
+                "edge_width": 1.0
             }, 
             {
-                "weight": 1.0, 
+                "normalized_weight": 1.36986301369863, 
+                "id": "porpoise, dolphin", 
                 "languages": 1.0, 
+                "weight": 1.36986301369863, 
                 "families": 1.0, 
-                "id": "fox"
+                "edge_width": 1.0
             }, 
             {
-                "weight": 1.0, 
+                "normalized_weight": 1.1235955056179776, 
+                "id": "fox", 
                 "languages": 1.0, 
+                "weight": 1.1235955056179776, 
                 "families": 1.0, 
-                "id": "porpoise, dolphin"
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 1.0869565217391304, 
+                "id": "lion", 
+                "languages": 1.0, 
+                "weight": 1.0869565217391304, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 1.1764705882352942, 
+                "id": "cross", 
+                "languages": 1.0, 
+                "weight": 1.1764705882352942, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 1.0, 
+                "id": "lion", 
+                "languages": 1.0, 
+                "weight": 1.0, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 1.1235955056179776, 
+                "id": "wolf", 
+                "languages": 1.0, 
+                "weight": 1.1235955056179776, 
+                "families": 1.0, 
+                "edge_width": 1.0
             }
         ]
     ], 
-    "directed": false
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "lion", 
+            "frequency": 192.0, 
+            "languages": 1.0, 
+            "key": "3.72", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.282051282051282, 
+            "body_part": 0.0, 
+            "label": "lion", 
+            "community": 236, 
+            "concept": "lion", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "porpoise, dolphin", 
+            "frequency": 128.0, 
+            "languages": 1.0, 
+            "key": "3.662", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.36986301369863, 
+            "body_part": 0.0, 
+            "label": "porpoise, dolphin", 
+            "community": 236, 
+            "concept": "porpoise, dolphin", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "id": "wolf", 
+            "frequency": 181.0, 
+            "out_edge": [], 
+            "key": "3.71", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0, 
+            "label": "wolf", 
+            "community": 236, 
+            "concept": "wolf"
+        }, 
+        {
+            "out_edge": [], 
+            "id": "cross", 
+            "frequency": 177.0, 
+            "languages": 1.0, 
+            "key": "12.77", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.0869565217391304, 
+            "body_part": 0.0, 
+            "label": "cross", 
+            "community": 236, 
+            "concept": "cross", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "fox", 
+            "languages": 1.0, 
+            "key": "3.74", 
+            "normalized_weight": 1.1235955056179776, 
+            "community": 236, 
+            "weight": 1.0, 
+            "families": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

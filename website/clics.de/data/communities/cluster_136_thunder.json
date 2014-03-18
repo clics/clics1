@@ -2,80 +2,102 @@
     "adjacency": [
         [
             {
-                "languages": 4.0, 
+                "normalized_weight": 13.675213675213676, 
                 "id": "lightning", 
-                "edge_width": 1.0, 
+                "languages": 4.0, 
                 "weight": 13.675213675213676, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 17.0, 
+                "normalized_weight": 116.34615384615385, 
                 "id": "lightning (as striking)", 
-                "edge_width": 1.5294117647058822, 
+                "languages": 17.0, 
                 "weight": 116.34615384615385, 
-                "families": 11.0
+                "families": 11.0, 
+                "edge_width": 1.7258064516129032
             }
         ], 
         [
             {
-                "languages": 4.0, 
+                "normalized_weight": 13.675213675213676, 
                 "id": "thunder", 
-                "edge_width": 1.0, 
+                "languages": 4.0, 
                 "weight": 13.675213675213676, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 74.0, 
+                "normalized_weight": 537.7777777777778, 
                 "id": "lightning (as striking)", 
-                "edge_width": 3.6470588235294117, 
+                "languages": 74.0, 
                 "weight": 537.7777777777778, 
-                "families": 22.0
+                "families": 22.0, 
+                "edge_width": 4.774193548387097
             }
         ], 
         [
             {
-                "languages": 17.0, 
+                "normalized_weight": 116.34615384615385, 
                 "id": "thunder", 
-                "edge_width": 1.5294117647058822, 
+                "languages": 17.0, 
                 "weight": 116.34615384615385, 
-                "families": 11.0
+                "families": 11.0, 
+                "edge_width": 1.7258064516129032
             }, 
             {
-                "languages": 74.0, 
+                "normalized_weight": 537.7777777777778, 
                 "id": "lightning", 
-                "edge_width": 3.6470588235294117, 
+                "languages": 74.0, 
                 "weight": 537.7777777777778, 
-                "families": 22.0
+                "families": 22.0, 
+                "edge_width": 4.774193548387097
             }
         ]
     ], 
-    "directed": false, 
-    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 136, 
             "id": "thunder", 
-            "key": "1.56"
+            "frequency": 261.0, 
+            "languages": 2.0, 
+            "key": "1.56", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 3.508771929824561, 
+            "body_part": 0.0, 
+            "label": "thunder", 
+            "community": 136, 
+            "concept": "thunder", 
+            "weight": 2.0, 
+            "families": 2.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 136, 
             "id": "lightning", 
-            "key": "1.55"
+            "frequency": 250.0, 
+            "languages": 2.0, 
+            "key": "1.55", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 3.6036036036036037, 
+            "body_part": 0.0, 
+            "label": "lightning", 
+            "community": 136, 
+            "concept": "lightning", 
+            "weight": 2.0, 
+            "families": 2.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 136, 
             "id": "lightning (as striking)", 
-            "key": "1.57"
+            "languages": 2.0, 
+            "key": "1.57", 
+            "normalized_weight": 3.8095238095238098, 
+            "community": 136, 
+            "weight": 2.0, 
+            "families": 2.0
         }
     ], 
-    "graph": []
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

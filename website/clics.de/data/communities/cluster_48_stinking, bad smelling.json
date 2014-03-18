@@ -1,242 +1,359 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "rotten", 
+            "normalized_weight": 0.7936507936507936, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "5.125", 
+            "label": "rotten", 
+            "swadesh100": 0.0, 
+            "frequency": 299.0, 
+            "weight": 1.0, 
             "community": 48, 
+            "out_edge": [], 
             "id": "rotten", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
+            "concept": "pus", 
+            "normalized_weight": 21.929824561403507, 
+            "families": 5.0, 
+            "body_part": 0.0, 
             "key": "4.857", 
+            "label": "pus", 
+            "swadesh100": 0.0, 
+            "frequency": 232.0, 
+            "weight": 5.0, 
             "community": 48, 
-            "id": "pus", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "pus", 
+            "languages": 8.0
         }, 
         {
-            "key": "15.22", 
+            "concept": "stinking, bad smelling", 
+            "body_part": 0.0, 
+            "key": "15.26", 
+            "label": "stinking, bad smelling", 
+            "swadesh100": 0.0, 
+            "frequency": 293.0, 
             "community": 48, 
-            "id": "smell (vb trans)", 
+            "out_edge": [], 
+            "id": "stinking, bad smelling"
+        }, 
+        {
+            "concept": "fragrant, good smelling", 
+            "normalized_weight": 1.2987012987012987, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "15.25", 
+            "label": "fragrant, good smelling", 
+            "swadesh100": 0.0, 
+            "frequency": 265.0, 
+            "weight": 1.0, 
+            "community": 48, 
+            "out_edge": [
+                [
+                    "cluster_60_bitter", 
+                    "sweet", 
+                    5.0, 
+                    21.73913043478261
+                ]
+            ], 
+            "id": "fragrant, good smelling", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "smell (vb intrans)", 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "15.21", 
+            "label": "smell (vb intrans)", 
+            "swadesh100": 0.0, 
+            "frequency": 249.0, 
+            "weight": 1.0, 
+            "community": 48, 
+            "out_edge": [
+                [
+                    "cluster_11_know", 
+                    "feel", 
+                    4.0, 
+                    14.545454545454545
+                ]
+            ], 
+            "id": "smell (vb intrans)", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "smell (vb trans)", 
+            "normalized_weight": 0.8547008547008548, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "15.22", 
+            "label": "smell (vb trans)", 
+            "swadesh100": 0.0, 
+            "frequency": 234.0, 
+            "weight": 1.0, 
+            "community": 48, 
             "out_edge": [
                 [
                     "cluster_11_know", 
                     "feel", 
                     8.0, 
-                    1.2647058823529411
+                    62.745098039215684
+                ], 
+                [
+                    "cluster_11_know", 
+                    "hear", 
+                    5.0, 
+                    21.73913043478261
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "smell (vb trans)", 
+            "languages": 1.0
         }, 
         {
+            "concept": "sniff", 
+            "normalized_weight": 0.9009009009009009, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "15.212", 
+            "label": "sniff", 
+            "swadesh100": 0.0, 
+            "frequency": 230.0, 
+            "weight": 1.0, 
             "community": 48, 
+            "out_edge": [], 
             "id": "sniff", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.25", 
-            "community": 48, 
-            "id": "fragrant, good smelling", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.26", 
-            "community": 48, 
-            "id": "stinking, bad smelling", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "15.21", 
-            "community": 48, 
-            "id": "smell (vb intrans)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.2647058823529411, 
-                "languages": 14.0, 
-                "families": 10.0, 
-                "id": "stinking, bad smelling"
+                "weight": 3.3057851239669422, 
+                "normalized_weight": 3.3057851239669422, 
+                "families": 2.0, 
+                "id": "smell (vb intrans)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 8.0, 
+                "weight": 21.929824561403507, 
+                "normalized_weight": 21.929824561403507, 
                 "families": 5.0, 
-                "id": "pus"
+                "id": "pus", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "smell (vb intrans)"
+                "weight": 88.49557522123894, 
+                "normalized_weight": 88.49557522123894, 
+                "families": 10.0, 
+                "id": "stinking, bad smelling", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 14.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 8.0, 
+                "weight": 21.929824561403507, 
+                "normalized_weight": 21.929824561403507, 
                 "families": 5.0, 
-                "id": "rotten"
+                "id": "rotten", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
                 "families": 2.0, 
-                "id": "stinking, bad smelling"
+                "id": "stinking, bad smelling", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fragrant, good smelling"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
-                "languages": 28.0, 
-                "families": 13.0, 
-                "id": "smell (vb intrans)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "stinking, bad smelling"
-            }, 
-            {
-                "weight": 3.6470588235294117, 
-                "languages": 63.0, 
-                "families": 21.0, 
-                "id": "sniff"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fragrant, good smelling"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "id": "smell (vb intrans)"
-            }, 
-            {
-                "weight": 3.6470588235294117, 
-                "languages": 63.0, 
-                "families": 21.0, 
-                "id": "smell (vb trans)"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "smell (vb intrans)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
+                "weight": 14.285714285714285, 
+                "normalized_weight": 14.285714285714285, 
                 "families": 4.0, 
-                "id": "stinking, bad smelling"
+                "id": "fragrant, good smelling", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "smell (vb trans)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "sniff"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 14.0, 
+                "weight": 88.49557522123894, 
+                "normalized_weight": 88.49557522123894, 
                 "families": 10.0, 
-                "id": "rotten"
+                "id": "rotten", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 14.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 7.0, 
+                "weight": 43.36283185840708, 
+                "normalized_weight": 43.36283185840708, 
                 "families": 7.0, 
-                "id": "smell (vb intrans)"
+                "id": "smell (vb intrans)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 7.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "fragrant, good smelling"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 0.8695652173913043, 
+                "normalized_weight": 0.8695652173913043, 
                 "families": 1.0, 
-                "id": "smell (vb trans)"
+                "id": "smell (vb trans)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
                 "families": 2.0, 
-                "id": "pus"
+                "id": "pus", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "rotten"
+                "weight": 0.9433962264150944, 
+                "normalized_weight": 0.9433962264150944, 
+                "families": 1.0, 
+                "id": "sniff", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 7.0, 
-                "id": "stinking, bad smelling"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
+                "weight": 32.72727272727273, 
+                "normalized_weight": 32.72727272727273, 
                 "families": 6.0, 
-                "id": "fragrant, good smelling"
+                "id": "smell (vb intrans)", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
             }, 
             {
-                "weight": 1.7941176470588236, 
-                "languages": 28.0, 
-                "families": 13.0, 
-                "id": "smell (vb trans)"
+                "weight": 0.9009009009009009, 
+                "normalized_weight": 0.9009009009009009, 
+                "families": 1.0, 
+                "id": "smell (vb trans)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 13.0, 
+                "weight": 14.285714285714285, 
+                "normalized_weight": 14.285714285714285, 
+                "families": 4.0, 
+                "id": "stinking, bad smelling", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 32.72727272727273, 
+                "normalized_weight": 32.72727272727273, 
+                "families": 6.0, 
+                "id": "fragrant, good smelling", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 3.3057851239669422, 
+                "normalized_weight": 3.3057851239669422, 
+                "families": 2.0, 
+                "id": "rotten", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 99.00990099009901, 
+                "normalized_weight": 99.00990099009901, 
                 "families": 10.0, 
-                "id": "sniff"
+                "id": "sniff", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 164.07766990291262, 
+                "normalized_weight": 164.07766990291262, 
+                "families": 13.0, 
+                "id": "smell (vb trans)", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 43.36283185840708, 
+                "normalized_weight": 43.36283185840708, 
+                "families": 7.0, 
+                "id": "stinking, bad smelling", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9009009009009009, 
+                "normalized_weight": 0.9009009009009009, 
+                "families": 1.0, 
+                "id": "fragrant, good smelling", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 164.07766990291262, 
+                "normalized_weight": 164.07766990291262, 
+                "families": 13.0, 
+                "id": "smell (vb intrans)", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 512.7906976744187, 
+                "normalized_weight": 512.7906976744187, 
+                "families": 21.0, 
+                "id": "sniff", 
+                "edge_width": 5.591836734693878, 
+                "languages": 63.0
+            }, 
+            {
+                "weight": 0.8695652173913043, 
+                "normalized_weight": 0.8695652173913043, 
+                "families": 1.0, 
+                "id": "stinking, bad smelling", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9433962264150944, 
+                "normalized_weight": 0.9433962264150944, 
+                "families": 1.0, 
+                "id": "fragrant, good smelling", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 99.00990099009901, 
+                "normalized_weight": 99.00990099009901, 
+                "families": 10.0, 
+                "id": "smell (vb intrans)", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 512.7906976744187, 
+                "normalized_weight": 512.7906976744187, 
+                "families": 21.0, 
+                "id": "smell (vb trans)", 
+                "edge_width": 5.591836734693878, 
+                "languages": 63.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

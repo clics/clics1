@@ -1,59 +1,59 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 5.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "brush", 
-            "key": "6.92", 
-            "id": "brush", 
-            "community": 207, 
-            "out_edge": [], 
-            "normalized_weight": 1.5151515151515151, 
-            "label": "brush", 
-            "frequency": 168.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "comb", 
-            "key": "6.91", 
-            "id": "comb", 
-            "community": 207, 
-            "out_edge": [], 
-            "normalized_weight": 0.819672131147541, 
-            "label": "comb", 
-            "frequency": 239.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 32.0, 
-                "normalized_weight": 95.29411764705881, 
                 "weight": 95.29411764705881, 
-                "edge_width": 1.2647058823529411, 
+                "normalized_weight": 95.29411764705881, 
+                "languages": 32.0, 
                 "families": 9.0, 
+                "edge_width": 1.3724489795918366, 
                 "id": "comb"
             }
         ], 
         [
             {
-                "languages": 32.0, 
-                "normalized_weight": 95.29411764705881, 
                 "weight": 95.29411764705881, 
-                "edge_width": 1.2647058823529411, 
+                "normalized_weight": 95.29411764705881, 
+                "languages": 32.0, 
                 "families": 9.0, 
+                "edge_width": 1.3724489795918366, 
                 "id": "brush"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "6.92", 
+            "swadesh100": 0.0, 
+            "frequency": 168.0, 
+            "languages": 5.0, 
+            "out_edge": [], 
+            "label": "brush", 
+            "concept": "brush", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 207, 
+            "normalized_weight": 1.5151515151515151, 
+            "families": 1.0, 
+            "id": "brush"
+        }, 
+        {
+            "key": "6.91", 
+            "swadesh100": 0.0, 
+            "frequency": 239.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "comb", 
+            "concept": "comb", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 207, 
+            "normalized_weight": 0.819672131147541, 
+            "families": 1.0, 
+            "id": "comb"
+        }
+    ], 
+    "graph": []
 }

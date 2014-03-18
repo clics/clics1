@@ -1,45 +1,20 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "father's brother", 
-            "key": "2.512", 
-            "id": "father's brother", 
-            "community": 89, 
-            "out_edge": [
-                [
-                    "cluster_107_aunt", 
-                    "father's sister", 
-                    4.0, 
-                    15.238095238095239
-                ]
-            ], 
-            "normalized_weight": 0.9259259259259258, 
-            "label": "father's brother", 
-            "frequency": 241.0
-        }, 
-        {
-            "languages": 11.0, 
-            "weight": 9.0, 
+            "normalized_weight": 81.0, 
             "families": 9.0, 
             "key": "2.511", 
-            "id": "mother's brother", 
-            "community": 89, 
             "out_edge": [
                 [
-                    "cluster_8_daughter-in-law (of a man)", 
+                    "cluster_8_father-in-law (of a woman)", 
                     "father-in-law (of a man)", 
                     9.0, 
                     81.0
                 ], 
                 [
-                    "cluster_8_daughter-in-law (of a man)", 
+                    "cluster_8_father-in-law (of a woman)", 
                     "father-in-law (of a woman)", 
                     6.0, 
                     37.11340206185567
@@ -51,43 +26,69 @@
                     26.041666666666668
                 ]
             ], 
-            "normalized_weight": 81.0
+            "weight": 9.0, 
+            "community": 89, 
+            "id": "mother's brother", 
+            "languages": 11.0
         }, 
         {
+            "concept": "father's brother", 
+            "normalized_weight": 0.9259259259259258, 
+            "families": 1.0, 
             "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
+            "key": "2.512", 
+            "label": "father's brother", 
             "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "father", 
-            "key": "2.35", 
-            "id": "father", 
+            "frequency": 241.0, 
+            "weight": 1.0, 
             "community": 89, 
             "out_edge": [
                 [
-                    "cluster_8_daughter-in-law (of a man)", 
+                    "cluster_107_aunt", 
+                    "father's sister", 
+                    4.0, 
+                    15.238095238095239
+                ]
+            ], 
+            "id": "father's brother", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "father", 
+            "normalized_weight": 3.571428571428571, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "2.35", 
+            "label": "father", 
+            "swadesh100": 0.0, 
+            "frequency": 305.0, 
+            "weight": 2.0, 
+            "community": 89, 
+            "out_edge": [
+                [
+                    "cluster_8_father-in-law (of a woman)", 
                     "stepfather", 
                     5.0, 
                     23.58490566037736
                 ]
             ], 
-            "normalized_weight": 3.571428571428571, 
-            "label": "father", 
-            "frequency": 305.0
+            "id": "father", 
+            "languages": 2.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "uncle", 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "2.51", 
-            "id": "uncle", 
+            "label": "uncle", 
+            "swadesh100": 0.0, 
+            "frequency": 252.0, 
+            "weight": 1.0, 
             "community": 89, 
             "out_edge": [
                 [
-                    "cluster_8_daughter-in-law (of a man)", 
+                    "cluster_8_father-in-law (of a woman)", 
                     "father-in-law (of a man)", 
                     7.0, 
                     50.0
@@ -99,106 +100,105 @@
                     39.56043956043956
                 ], 
                 [
-                    "cluster_29_older brother", 
-                    "cousin", 
+                    "cluster_8_father-in-law (of a woman)", 
+                    "father-in-law (of a woman)", 
                     4.0, 
                     16.842105263157894
                 ]
             ], 
-            "normalized_weight": 0.9708737864077669, 
-            "label": "uncle", 
-            "frequency": 252.0
+            "id": "uncle", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 44.0, 
-                "normalized_weight": 241.93548387096774, 
                 "weight": 241.93548387096774, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "mother's brother"
-            }, 
-            {
-                "languages": 18.0, 
-                "normalized_weight": 112.03703703703705, 
-                "weight": 112.03703703703705, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "father"
-            }, 
-            {
-                "languages": 68.0, 
-                "normalized_weight": 653.0864197530864, 
-                "weight": 653.0864197530864, 
-                "edge_width": 4.4411764705882355, 
-                "families": 23.0, 
-                "id": "uncle"
-            }
-        ], 
-        [
-            {
-                "languages": 44.0, 
                 "normalized_weight": 241.93548387096774, 
-                "weight": 241.93548387096774, 
-                "edge_width": 2.0588235294117645, 
                 "families": 15.0, 
-                "id": "father's brother"
+                "id": "father's brother", 
+                "edge_width": 3.2040816326530615, 
+                "languages": 44.0
             }, 
             {
-                "languages": 73.0, 
-                "normalized_weight": 972.0000000000001, 
                 "weight": 972.0000000000001, 
-                "edge_width": 5.7647058823529411, 
+                "normalized_weight": 972.0000000000001, 
                 "families": 27.0, 
-                "id": "uncle"
+                "id": "uncle", 
+                "edge_width": 7.795918367346939, 
+                "languages": 73.0
             }
         ], 
         [
             {
-                "languages": 18.0, 
-                "normalized_weight": 112.03703703703705, 
-                "weight": 112.03703703703705, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "father's brother"
+                "weight": 241.93548387096774, 
+                "normalized_weight": 241.93548387096774, 
+                "families": 15.0, 
+                "id": "mother's brother", 
+                "edge_width": 3.2040816326530615, 
+                "languages": 44.0
             }, 
             {
-                "languages": 8.0, 
-                "normalized_weight": 23.14814814814815, 
-                "weight": 23.14814814814815, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "uncle"
-            }
-        ], 
-        [
-            {
-                "languages": 68.0, 
-                "normalized_weight": 653.0864197530864, 
                 "weight": 653.0864197530864, 
-                "edge_width": 4.4411764705882355, 
+                "normalized_weight": 653.0864197530864, 
                 "families": 23.0, 
-                "id": "father's brother"
+                "id": "uncle", 
+                "edge_width": 6.6938775510204085, 
+                "languages": 68.0
             }, 
             {
-                "languages": 73.0, 
-                "normalized_weight": 972.0000000000001, 
-                "weight": 972.0000000000001, 
-                "edge_width": 5.7647058823529411, 
-                "families": 27.0, 
-                "id": "mother's brother"
+                "weight": 112.03703703703705, 
+                "normalized_weight": 112.03703703703705, 
+                "families": 11.0, 
+                "id": "father", 
+                "edge_width": 2.0102040816326534, 
+                "languages": 18.0
+            }
+        ], 
+        [
+            {
+                "weight": 112.03703703703705, 
+                "normalized_weight": 112.03703703703705, 
+                "families": 11.0, 
+                "id": "father's brother", 
+                "edge_width": 2.0102040816326534, 
+                "languages": 18.0
             }, 
             {
-                "languages": 8.0, 
-                "normalized_weight": 23.14814814814815, 
                 "weight": 23.14814814814815, 
-                "edge_width": 1.0, 
+                "normalized_weight": 23.14814814814815, 
                 "families": 5.0, 
-                "id": "father"
+                "id": "uncle", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 972.0000000000001, 
+                "normalized_weight": 972.0000000000001, 
+                "families": 27.0, 
+                "id": "mother's brother", 
+                "edge_width": 7.795918367346939, 
+                "languages": 73.0
+            }, 
+            {
+                "weight": 653.0864197530864, 
+                "normalized_weight": 653.0864197530864, 
+                "families": 23.0, 
+                "id": "father's brother", 
+                "edge_width": 6.6938775510204085, 
+                "languages": 68.0
+            }, 
+            {
+                "weight": 23.14814814814815, 
+                "normalized_weight": 23.14814814814815, 
+                "families": 5.0, 
+                "id": "father", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

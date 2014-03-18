@@ -1,54 +1,54 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "day-before-yesterday", 
-            "key": "14.491", 
-            "id": "day-before-yesterday", 
-            "community": 237, 
-            "out_edge": [], 
-            "normalized_weight": 0.8771929824561403, 
-            "label": "day-before-yesterday", 
-            "frequency": 204.0
-        }, 
-        {
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "families": 3.0, 
-            "key": "14.481", 
-            "id": "day-after-tomorrow", 
-            "community": 237, 
-            "out_edge": [], 
-            "normalized_weight": 7.758620689655173
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 9.0, 
-                "normalized_weight": 47.57281553398058, 
                 "weight": 47.57281553398058, 
-                "edge_width": 1.0, 
+                "normalized_weight": 47.57281553398058, 
+                "languages": 9.0, 
                 "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
                 "id": "day-after-tomorrow"
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "normalized_weight": 47.57281553398058, 
                 "weight": 47.57281553398058, 
-                "edge_width": 1.0, 
+                "normalized_weight": 47.57281553398058, 
+                "languages": 9.0, 
                 "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
                 "id": "day-before-yesterday"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "14.491", 
+            "swadesh100": 0.0, 
+            "frequency": 204.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "day-before-yesterday", 
+            "concept": "day-before-yesterday", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 237, 
+            "normalized_weight": 0.8771929824561403, 
+            "families": 1.0, 
+            "id": "day-before-yesterday"
+        }, 
+        {
+            "key": "14.481", 
+            "languages": 3.0, 
+            "out_edge": [], 
+            "weight": 3.0, 
+            "community": 237, 
+            "normalized_weight": 7.758620689655173, 
+            "families": 3.0, 
+            "id": "day-after-tomorrow"
+        }
+    ], 
+    "graph": []
 }

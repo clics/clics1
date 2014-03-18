@@ -1,146 +1,199 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "spit", 
-                "edge_width": 1.0, 
-                "weight": 0.819672131147541, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "naked, bare", 
-                "edge_width": 1.0, 
-                "weight": 3.508771929824561, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "drum", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "naked, bare", 
-                "edge_width": 1.0, 
-                "weight": 3.571428571428571, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "dry", 
-                "edge_width": 1.0, 
-                "weight": 3.361344537815126, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "empty", 
-                "edge_width": 1.0, 
-                "weight": 3.361344537815126, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "empty", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "bald", 
-                "edge_width": 1.0, 
-                "weight": 0.819672131147541, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "spit", 
-                "edge_width": 1.0, 
-                "weight": 0.7874015748031495, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "bald", 
-                "edge_width": 1.0, 
-                "weight": 3.508771929824561, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 3.0, 
-                "id": "empty", 
-                "edge_width": 1.0, 
-                "weight": 3.571428571428571, 
-                "families": 2.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "naked, bare", 
+            "normalized_weight": 0.9009009009009009, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "4.99", 
+            "label": "naked, bare", 
+            "swadesh100": 0.0, 
+            "frequency": 272.0, 
+            "weight": 1.0, 
             "community": 223, 
-            "id": "bald", 
-            "key": "4.93"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 223, 
-            "id": "empty", 
-            "key": "13.22"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 223, 
-            "id": "dry", 
-            "key": "15.84"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 223, 
-            "id": "drum", 
-            "key": "18.72"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 223, 
-            "id": "spit", 
-            "key": "4.56"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 223, 
             "id": "naked, bare", 
-            "key": "4.99"
+            "languages": 1.0
+        }, 
+        {
+            "concept": "empty", 
+            "normalized_weight": 0.847457627118644, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "13.22", 
+            "label": "empty", 
+            "swadesh100": 0.0, 
+            "frequency": 253.0, 
+            "weight": 1.0, 
+            "community": 223, 
+            "out_edge": [], 
+            "id": "empty", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "drum", 
+            "normalized_weight": 1.0638297872340425, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.72", 
+            "label": "drum", 
+            "swadesh100": 0.0, 
+            "frequency": 212.0, 
+            "weight": 1.0, 
+            "community": 223, 
+            "out_edge": [], 
+            "id": "drum", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "spit", 
+            "normalized_weight": 0.8547008547008548, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "4.56", 
+            "label": "spit", 
+            "swadesh100": 0.0, 
+            "frequency": 302.0, 
+            "weight": 1.0, 
+            "community": 223, 
+            "out_edge": [], 
+            "id": "spit", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "dry", 
+            "normalized_weight": 0.8, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "15.84", 
+            "label": "dry", 
+            "swadesh100": 1.0, 
+            "frequency": 280.0, 
+            "weight": 1.0, 
+            "community": 223, 
+            "out_edge": [], 
+            "id": "dry", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "bald", 
+            "normalized_weight": 0.9090909090909091, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "4.93", 
+            "label": "bald", 
+            "swadesh100": 0.0, 
+            "frequency": 251.0, 
+            "weight": 1.0, 
+            "community": 223, 
+            "out_edge": [], 
+            "id": "bald", 
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.571428571428571, 
+                "normalized_weight": 3.571428571428571, 
+                "families": 2.0, 
+                "id": "empty", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
+                "families": 2.0, 
+                "id": "bald", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.571428571428571, 
+                "normalized_weight": 3.571428571428571, 
+                "families": 2.0, 
+                "id": "naked, bare", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "drum", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "dry", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "empty", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.7874015748031495, 
+                "normalized_weight": 0.7874015748031495, 
+                "families": 1.0, 
+                "id": "spit", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "families": 1.0, 
+                "id": "bald", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "empty", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
+                "families": 2.0, 
+                "id": "naked, bare", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "families": 1.0, 
+                "id": "spit", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ]
     ], 
     "graph": []
 }

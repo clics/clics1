@@ -1,48 +1,66 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "8.931", 
-            "community": 195, 
-            "id": "pumpkin, squash", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "gourd", 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "8.93", 
+            "label": "gourd", 
+            "swadesh100": 0.0, 
+            "frequency": 238.0, 
+            "weight": 1.0, 
             "community": 195, 
-            "id": "gourd", 
             "out_edge": [
                 [
-                    "cluster_7_pot, cooking vessel", 
+                    "cluster_7_bowl", 
                     "bowl", 
                     7.0, 
-                    1.2647058823529411
+                    53.84615384615385
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "gourd", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "pumpkin, squash", 
+            "normalized_weight": 1.1904761904761905, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "8.931", 
+            "label": "pumpkin, squash", 
+            "swadesh100": 0.0, 
+            "frequency": 214.0, 
+            "weight": 1.0, 
+            "community": 195, 
+            "out_edge": [], 
+            "id": "pumpkin, squash", 
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 2.3235294117647056, 
-                "languages": 58.0, 
+                "weight": 251.28205128205127, 
+                "normalized_weight": 251.28205128205127, 
                 "families": 14.0, 
-                "id": "gourd"
+                "id": "pumpkin, squash", 
+                "edge_width": 3.295918367346939, 
+                "languages": 58.0
             }
         ], 
         [
             {
-                "weight": 2.3235294117647056, 
-                "languages": 58.0, 
+                "weight": 251.28205128205127, 
+                "normalized_weight": 251.28205128205127, 
                 "families": 14.0, 
-                "id": "pumpkin, squash"
+                "id": "gourd", 
+                "edge_width": 3.295918367346939, 
+                "languages": 58.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

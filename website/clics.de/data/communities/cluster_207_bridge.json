@@ -1,0 +1,108 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "bridge", 
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "10.74", 
+            "label": "bridge", 
+            "swadesh100": 0.0, 
+            "frequency": 202.0, 
+            "weight": 1.0, 
+            "community": 207, 
+            "out_edge": [], 
+            "id": "bridge", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "ladder", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "7.37", 
+            "label": "ladder", 
+            "swadesh100": 0.0, 
+            "frequency": 223.0, 
+            "weight": 1.0, 
+            "community": 207, 
+            "out_edge": [], 
+            "id": "ladder", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "harbor, port", 
+            "normalized_weight": 5.633802816901409, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "10.91", 
+            "label": "harbor, port", 
+            "swadesh100": 0.0, 
+            "frequency": 194.0, 
+            "weight": 2.0, 
+            "community": 207, 
+            "out_edge": [], 
+            "id": "harbor, port", 
+            "languages": 3.0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 83.50515463917526, 
+                "normalized_weight": 83.50515463917526, 
+                "families": 9.0, 
+                "id": "ladder", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 10.465116279069768, 
+                "normalized_weight": 10.465116279069768, 
+                "families": 3.0, 
+                "id": "harbor, port", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 83.50515463917526, 
+                "normalized_weight": 83.50515463917526, 
+                "families": 9.0, 
+                "id": "bridge", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "normalized_weight": 1.0638297872340425, 
+                "families": 1.0, 
+                "id": "harbor, port", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.465116279069768, 
+                "normalized_weight": 10.465116279069768, 
+                "families": 3.0, 
+                "id": "bridge", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 1.0638297872340425, 
+                "normalized_weight": 1.0638297872340425, 
+                "families": 1.0, 
+                "id": "ladder", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "graph": []
+}

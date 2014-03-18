@@ -1,226 +1,33 @@
 {
+    "directed": false, 
     "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 824.390243902439, 
-                "id": "learn", 
-                "families": 26.0, 
-                "languages": 67.0
-            }, 
-            {
-                "weight": 123.46938775510203, 
-                "id": "teach", 
-                "families": 11.0, 
-                "languages": 29.0
-            }, 
-            {
-                "weight": 1.1494252873563218, 
-                "id": "school", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.9090909090909091, 
-                "id": "sing", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 132.96703296703296, 
-                "id": "read", 
-                "families": 11.0, 
-                "languages": 29.0
-            }
-        ], 
-        [
-            {
-                "weight": 7.5, 
-                "id": "learn", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "teach", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 0.9090909090909091, 
-                "id": "study", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 22.321428571428573, 
-                "id": "read", 
-                "families": 5.0, 
-                "languages": 6.0
-            }
-        ], 
-        [
-            {
-                "weight": 14.545454545454545, 
-                "id": "learn", 
-                "families": 4.0, 
-                "languages": 14.0
-            }, 
-            {
-                "weight": 132.96703296703296, 
-                "id": "study", 
-                "families": 11.0, 
-                "languages": 29.0
-            }, 
-            {
-                "weight": 22.321428571428573, 
-                "id": "sing", 
-                "families": 5.0, 
-                "languages": 6.0
-            }, 
-            {
-                "weight": 14.414414414414415, 
-                "id": "teach", 
-                "families": 4.0, 
-                "languages": 10.0
-            }
-        ], 
-        [
-            {
-                "weight": 1.0101010101010102, 
-                "id": "school", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 132.11009174311928, 
-                "id": "teach", 
-                "families": 12.0, 
-                "languages": 28.0
-            }, 
-            {
-                "weight": 824.390243902439, 
-                "id": "study", 
-                "families": 26.0, 
-                "languages": 67.0
-            }, 
-            {
-                "weight": 7.5, 
-                "id": "sing", 
-                "families": 3.0, 
-                "languages": 3.0
-            }, 
-            {
-                "weight": 14.545454545454545, 
-                "id": "read", 
-                "families": 4.0, 
-                "languages": 14.0
-            }
-        ], 
-        [
-            {
-                "weight": 1.0101010101010102, 
-                "id": "learn", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.1494252873563218, 
-                "id": "study", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 1.0, 
-                "id": "teach", 
-                "families": 1.0, 
-                "languages": 1.0
-            }
-        ], 
-        [
-            {
-                "weight": 132.11009174311928, 
-                "id": "learn", 
-                "families": 12.0, 
-                "languages": 28.0
-            }, 
-            {
-                "weight": 1.0, 
-                "id": "school", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 123.46938775510203, 
-                "id": "study", 
-                "families": 11.0, 
-                "languages": 29.0
-            }, 
-            {
-                "weight": 0.8130081300813009, 
-                "id": "sing", 
-                "families": 1.0, 
-                "languages": 1.0
-            }, 
-            {
-                "weight": 14.414414414414415, 
-                "id": "read", 
-                "families": 4.0, 
-                "languages": 10.0
-            }
-        ]
-    ], 
     "nodes": [
         {
-            "community": 42, 
-            "id": "study", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "study", 
+            "normalized_weight": 3.9215686274509802, 
+            "families": 2.0, 
+            "body_part": 0.0, 
             "key": "17.242", 
-            "out_edge": []
+            "label": "study", 
+            "swadesh100": 0.0, 
+            "frequency": 242.0, 
+            "weight": 2.0, 
+            "community": 42, 
+            "out_edge": [], 
+            "id": "study", 
+            "languages": 2.0
         }, 
         {
-            "community": 42, 
-            "id": "sing", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "18.12", 
-            "out_edge": [
-                [
-                    "cluster_21_call (=summon)", 
-                    "shout, cry out", 
-                    4.0, 
-                    13.114754098360656
-                ]
-            ]
-        }, 
-        {
-            "community": 42, 
-            "id": "read", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "18.52", 
-            "out_edge": [
-                [
-                    "cluster_40_try, attempt", 
-                    "count", 
-                    8.0, 
-                    61.53846153846154
-                ], 
-                [
-                    "cluster_47_look, look at", 
-                    "look, look at", 
-                    5.0, 
-                    22.321428571428573
-                ]
-            ]
-        }, 
-        {
-            "community": 42, 
-            "id": "learn", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "learn", 
+            "normalized_weight": 7.5, 
+            "families": 3.0, 
+            "body_part": 0.0, 
             "key": "17.24", 
+            "label": "learn", 
+            "swadesh100": 0.0, 
+            "frequency": 289.0, 
+            "weight": 3.0, 
+            "community": 42, 
             "out_edge": [
                 [
                     "cluster_11_know", 
@@ -234,22 +41,61 @@
                     5.0, 
                     22.727272727272727
                 ]
-            ]
+            ], 
+            "id": "learn", 
+            "languages": 3.0
         }, 
         {
+            "concept": "read", 
+            "normalized_weight": 0.8771929824561403, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.52", 
+            "label": "read", 
+            "swadesh100": 0.0, 
+            "frequency": 211.0, 
+            "weight": 1.0, 
             "community": 42, 
-            "id": "school", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "out_edge": [
+                [
+                    "cluster_40_try, attempt", 
+                    "count", 
+                    8.0, 
+                    61.53846153846154
+                ], 
+                [
+                    "cluster_47_see", 
+                    "look, look at", 
+                    5.0, 
+                    22.321428571428573
+                ]
+            ], 
+            "id": "read", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "school", 
+            "normalized_weight": 0.9900990099009901, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "17.28", 
-            "out_edge": []
+            "label": "school", 
+            "swadesh100": 0.0, 
+            "frequency": 192.0, 
+            "weight": 1.0, 
+            "community": 42, 
+            "out_edge": [], 
+            "id": "school", 
+            "languages": 1.0
         }, 
         {
-            "community": 42, 
-            "id": "teach", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "teach", 
+            "body_part": 0.0, 
             "key": "17.25", 
+            "label": "teach", 
+            "swadesh100": 0.0, 
+            "frequency": 281.0, 
+            "community": 42, 
             "out_edge": [
                 [
                     "cluster_20_tell story", 
@@ -263,9 +109,253 @@
                     6.0, 
                     30.76923076923077
                 ]
-            ]
+            ], 
+            "id": "teach"
+        }, 
+        {
+            "concept": "sing", 
+            "normalized_weight": 0.8333333333333334, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.12", 
+            "label": "sing", 
+            "swadesh100": 0.0, 
+            "frequency": 257.0, 
+            "weight": 1.0, 
+            "community": 42, 
+            "out_edge": [
+                [
+                    "cluster_21_call (=summon)", 
+                    "shout, cry out", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ], 
+            "id": "sing", 
+            "languages": 1.0
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "adjacency": [
+        [
+            {
+                "weight": 132.96703296703296, 
+                "normalized_weight": 132.96703296703296, 
+                "families": 11.0, 
+                "id": "read", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 29.0
+            }, 
+            {
+                "weight": 824.390243902439, 
+                "normalized_weight": 824.390243902439, 
+                "families": 26.0, 
+                "id": "learn", 
+                "edge_width": 7.5204081632653068, 
+                "languages": 67.0
+            }, 
+            {
+                "weight": 1.1494252873563218, 
+                "normalized_weight": 1.1494252873563218, 
+                "families": 1.0, 
+                "id": "school", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 123.46938775510203, 
+                "normalized_weight": 123.46938775510203, 
+                "families": 11.0, 
+                "id": "teach", 
+                "edge_width": 2.1020408163265305, 
+                "languages": 29.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "sing", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 824.390243902439, 
+                "normalized_weight": 824.390243902439, 
+                "families": 26.0, 
+                "id": "study", 
+                "edge_width": 7.5204081632653068, 
+                "languages": 67.0
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "families": 4.0, 
+                "id": "read", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "families": 1.0, 
+                "id": "school", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 132.11009174311928, 
+                "normalized_weight": 132.11009174311928, 
+                "families": 12.0, 
+                "id": "teach", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 7.5, 
+                "normalized_weight": 7.5, 
+                "families": 3.0, 
+                "id": "sing", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 132.96703296703296, 
+                "normalized_weight": 132.96703296703296, 
+                "families": 11.0, 
+                "id": "study", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 29.0
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "families": 4.0, 
+                "id": "learn", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 14.414414414414415, 
+                "normalized_weight": 14.414414414414415, 
+                "families": 4.0, 
+                "id": "teach", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 22.321428571428573, 
+                "normalized_weight": 22.321428571428573, 
+                "families": 5.0, 
+                "id": "sing", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.1494252873563218, 
+                "normalized_weight": 1.1494252873563218, 
+                "families": 1.0, 
+                "id": "study", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "families": 1.0, 
+                "id": "learn", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.0, 
+                "normalized_weight": 1.0, 
+                "families": 1.0, 
+                "id": "teach", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 123.46938775510203, 
+                "normalized_weight": 123.46938775510203, 
+                "families": 11.0, 
+                "id": "study", 
+                "edge_width": 2.1020408163265305, 
+                "languages": 29.0
+            }, 
+            {
+                "weight": 14.414414414414415, 
+                "normalized_weight": 14.414414414414415, 
+                "families": 4.0, 
+                "id": "read", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 1.0, 
+                "normalized_weight": 1.0, 
+                "families": 1.0, 
+                "id": "school", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
+                "families": 1.0, 
+                "id": "sing", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 132.11009174311928, 
+                "normalized_weight": 132.11009174311928, 
+                "families": 12.0, 
+                "id": "learn", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 28.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "study", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 7.5, 
+                "normalized_weight": 7.5, 
+                "families": 3.0, 
+                "id": "learn", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
+                "families": 1.0, 
+                "id": "teach", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 22.321428571428573, 
+                "normalized_weight": 22.321428571428573, 
+                "families": 5.0, 
+                "id": "read", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 6.0
+            }
+        ]
+    ], 
+    "graph": []
 }

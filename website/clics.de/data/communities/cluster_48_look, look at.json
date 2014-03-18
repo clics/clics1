@@ -1,0 +1,213 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "meet"
+            }, 
+            {
+                "weight": 612.7450980392157, 
+                "normalized_weight": 612.7450980392157, 
+                "languages": 39.0, 
+                "families": 25.0, 
+                "edge_width": 6.2193877551020407, 
+                "id": "see"
+            }, 
+            {
+                "weight": 13.223140495867769, 
+                "normalized_weight": 13.223140495867769, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "find"
+            }
+        ], 
+        [
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "look, look at"
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "normalized_weight": 55.172413793103445, 
+                "languages": 13.0, 
+                "families": 8.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "see"
+            }, 
+            {
+                "weight": 644.3298969072165, 
+                "normalized_weight": 644.3298969072165, 
+                "languages": 31.0, 
+                "families": 25.0, 
+                "edge_width": 6.4132653061224492, 
+                "id": "find"
+            }
+        ], 
+        [
+            {
+                "weight": 612.7450980392157, 
+                "normalized_weight": 612.7450980392157, 
+                "languages": 39.0, 
+                "families": 25.0, 
+                "edge_width": 6.2193877551020407, 
+                "id": "look, look at"
+            }, 
+            {
+                "weight": 55.172413793103445, 
+                "normalized_weight": 55.172413793103445, 
+                "languages": 13.0, 
+                "families": 8.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "meet"
+            }, 
+            {
+                "weight": 202.7027027027027, 
+                "normalized_weight": 202.7027027027027, 
+                "languages": 23.0, 
+                "families": 15.0, 
+                "edge_width": 2.4387755102040813, 
+                "id": "find"
+            }
+        ], 
+        [
+            {
+                "weight": 13.223140495867769, 
+                "normalized_weight": 13.223140495867769, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "look, look at"
+            }, 
+            {
+                "weight": 644.3298969072165, 
+                "normalized_weight": 644.3298969072165, 
+                "languages": 31.0, 
+                "families": 25.0, 
+                "edge_width": 6.4132653061224492, 
+                "id": "meet"
+            }, 
+            {
+                "weight": 202.7027027027027, 
+                "normalized_weight": 202.7027027027027, 
+                "languages": 23.0, 
+                "families": 15.0, 
+                "edge_width": 2.4387755102040813, 
+                "id": "see"
+            }
+        ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "15.52", 
+            "swadesh100": 0.0, 
+            "frequency": 290.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_42_teach", 
+                    "read", 
+                    5.0, 
+                    22.321428571428573
+                ]
+            ], 
+            "label": "look, look at", 
+            "concept": "look, look at", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 48, 
+            "normalized_weight": 0.8064516129032258, 
+            "families": 1.0, 
+            "id": "look, look at"
+        }, 
+        {
+            "key": "19.65", 
+            "swadesh100": 0.0, 
+            "frequency": 272.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    4.0, 
+                    14.414414414414415
+                ]
+            ], 
+            "label": "meet", 
+            "concept": "meet", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 48, 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "id": "meet"
+        }, 
+        {
+            "key": "15.51", 
+            "swadesh100": 1.0, 
+            "frequency": 278.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    6.0, 
+                    31.858407079646017
+                ], 
+                [
+                    "cluster_11_know", 
+                    "know", 
+                    5.0, 
+                    20.32520325203252
+                ]
+            ], 
+            "label": "see", 
+            "concept": "see", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 48, 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "id": "see"
+        }, 
+        {
+            "key": "11.32", 
+            "swadesh100": 0.0, 
+            "frequency": 270.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    13.0, 
+                    162.5
+                ], 
+                [
+                    "cluster_161_reach, arrive", 
+                    "reach, arrive", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ], 
+            "label": "find", 
+            "concept": "find", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 48, 
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "id": "find"
+        }
+    ], 
+    "graph": []
+}

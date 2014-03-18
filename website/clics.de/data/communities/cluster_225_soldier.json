@@ -1,28 +1,34 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 101.58730158730158, 
+                "normalized_weight": 101.58730158730158, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.4693877551020407, 
+                "id": "soldier"
+            }
+        ], 
+        [
+            {
+                "weight": 101.58730158730158, 
+                "normalized_weight": 101.58730158730158, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.4693877551020407, 
+                "id": "army"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "soldier", 
-            "key": "20.17", 
-            "id": "soldier", 
-            "community": 225, 
-            "out_edge": [], 
-            "label": "soldier", 
-            "frequency": 211.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "army", 
             "key": "20.15", 
-            "id": "army", 
-            "community": 225, 
+            "swadesh100": 0.0, 
+            "frequency": 202.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_88_anger", 
@@ -31,32 +37,26 @@
                     20.77922077922078
                 ]
             ], 
-            "normalized_weight": 1.1764705882352942, 
             "label": "army", 
-            "frequency": 202.0
+            "concept": "army", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 225, 
+            "normalized_weight": 1.1764705882352942, 
+            "families": 1.0, 
+            "id": "army"
+        }, 
+        {
+            "key": "20.17", 
+            "swadesh100": 0.0, 
+            "frequency": 211.0, 
+            "label": "soldier", 
+            "concept": "soldier", 
+            "body_part": 0.0, 
+            "community": 225, 
+            "id": "soldier", 
+            "out_edge": []
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 11.0, 
-                "normalized_weight": 101.58730158730158, 
-                "weight": 101.58730158730158, 
-                "edge_width": 1.5294117647058822, 
-                "families": 8.0, 
-                "id": "army"
-            }
-        ], 
-        [
-            {
-                "languages": 11.0, 
-                "normalized_weight": 101.58730158730158, 
-                "weight": 101.58730158730158, 
-                "edge_width": 1.5294117647058822, 
-                "families": 8.0, 
-                "id": "soldier"
-            }
-        ]
-    ]
+    "graph": []
 }

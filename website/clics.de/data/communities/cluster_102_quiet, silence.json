@@ -1,16 +1,17 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "quiet, silence", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "15.46", 
-            "id": "quiet, silence", 
+            "label": "quiet, silence", 
+            "swadesh100": 0.0, 
+            "frequency": 311.0, 
+            "weight": 1.0, 
             "community": 102, 
             "out_edge": [
                 [
@@ -20,49 +21,34 @@
                     58.18181818181818
                 ]
             ], 
-            "normalized_weight": 0.8695652173913043, 
-            "label": "quiet, silence", 
-            "frequency": 311.0
+            "id": "quiet, silence", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "silent (be)", 
-            "key": "18.23", 
-            "id": "silent (be)", 
-            "community": 102, 
-            "out_edge": [], 
             "normalized_weight": 0.8928571428571428, 
-            "label": "silent (be)", 
-            "frequency": 241.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
             "families": 1.0, 
-            "concept": "calm (of sea)", 
-            "key": "1.322", 
-            "id": "calm (of sea)", 
+            "body_part": 0.0, 
+            "key": "18.23", 
+            "label": "silent (be)", 
+            "swadesh100": 0.0, 
+            "frequency": 241.0, 
+            "weight": 1.0, 
             "community": 102, 
             "out_edge": [], 
-            "normalized_weight": 1.1764705882352942, 
-            "label": "calm (of sea)", 
-            "frequency": 208.0
+            "id": "silent (be)", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "peace", 
+            "normalized_weight": 0.9615384615384616, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "20.14", 
-            "id": "peace", 
+            "label": "peace", 
+            "swadesh100": 0.0, 
+            "frequency": 206.0, 
+            "weight": 1.0, 
             "community": 102, 
             "out_edge": [
                 [
@@ -72,132 +58,146 @@
                     18.181818181818183
                 ]
             ], 
-            "normalized_weight": 0.9615384615384616, 
-            "label": "peace", 
-            "frequency": 206.0
+            "id": "peace", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "calm (of sea)", 
+            "normalized_weight": 1.1764705882352942, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "1.322", 
+            "label": "calm (of sea)", 
+            "swadesh100": 0.0, 
+            "frequency": 208.0, 
+            "weight": 1.0, 
+            "community": 102, 
+            "out_edge": [], 
+            "id": "calm (of sea)", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8695652173913043, 
                 "weight": 0.8695652173913043, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.8695652173913043, 
                 "families": 1.0, 
-                "id": "quiet, silence"
+                "id": "quiet, silence", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "languages": 29.0, 
-                "normalized_weight": 421.05263157894734, 
                 "weight": 421.05263157894734, 
-                "edge_width": 3.1176470588235294, 
+                "normalized_weight": 421.05263157894734, 
                 "families": 20.0, 
-                "id": "silent (be)"
+                "id": "silent (be)", 
+                "edge_width": 4.8571428571428577, 
+                "languages": 29.0
             }, 
             {
-                "languages": 31.0, 
-                "normalized_weight": 161.79775280898875, 
-                "weight": 161.79775280898875, 
-                "edge_width": 1.7941176470588236, 
-                "families": 12.0, 
-                "id": "calm (of sea)"
-            }, 
-            {
-                "languages": 6.0, 
-                "normalized_weight": 26.31578947368421, 
                 "weight": 26.31578947368421, 
-                "edge_width": 1.0, 
+                "normalized_weight": 26.31578947368421, 
                 "families": 5.0, 
-                "id": "peace"
-            }
-        ], 
-        [
-            {
-                "languages": 29.0, 
-                "normalized_weight": 421.05263157894734, 
-                "weight": 421.05263157894734, 
-                "edge_width": 3.1176470588235294, 
-                "families": 20.0, 
-                "id": "quiet, silence"
+                "id": "peace", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 6.0
             }, 
             {
-                "languages": 4.0, 
-                "normalized_weight": 16.666666666666664, 
-                "weight": 16.666666666666664, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "calm (of sea)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
-                "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "peace"
-            }
-        ], 
-        [
-            {
-                "languages": 31.0, 
-                "normalized_weight": 161.79775280898875, 
                 "weight": 161.79775280898875, 
-                "edge_width": 1.7941176470588236, 
+                "normalized_weight": 161.79775280898875, 
                 "families": 12.0, 
-                "id": "quiet, silence"
+                "id": "calm (of sea)", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 31.0
+            }
+        ], 
+        [
+            {
+                "weight": 421.05263157894734, 
+                "normalized_weight": 421.05263157894734, 
+                "families": 20.0, 
+                "id": "quiet, silence", 
+                "edge_width": 4.8571428571428577, 
+                "languages": 29.0
             }, 
             {
-                "languages": 4.0, 
-                "normalized_weight": 16.666666666666664, 
-                "weight": 16.666666666666664, 
+                "weight": 1.0204081632653061, 
+                "normalized_weight": 1.0204081632653061, 
+                "families": 1.0, 
+                "id": "peace", 
                 "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "silent (be)"
+                "languages": 1.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.1764705882352942, 
+                "weight": 16.666666666666664, 
+                "normalized_weight": 16.666666666666664, 
+                "families": 4.0, 
+                "id": "calm (of sea)", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }
+        ], 
+        [
+            {
+                "weight": 26.31578947368421, 
+                "normalized_weight": 26.31578947368421, 
+                "families": 5.0, 
+                "id": "quiet, silence", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 1.0204081632653061, 
+                "normalized_weight": 1.0204081632653061, 
+                "families": 1.0, 
+                "id": "silent (be)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 4.819277108433735, 
+                "normalized_weight": 4.819277108433735, 
+                "families": 2.0, 
+                "id": "calm (of sea)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 161.79775280898875, 
+                "normalized_weight": 161.79775280898875, 
+                "families": 12.0, 
+                "id": "quiet, silence", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 31.0
+            }, 
+            {
+                "weight": 16.666666666666664, 
+                "normalized_weight": 16.666666666666664, 
+                "families": 4.0, 
+                "id": "silent (be)", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 4.819277108433735, 
+                "normalized_weight": 4.819277108433735, 
+                "families": 2.0, 
+                "id": "peace", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
                 "weight": 1.1764705882352942, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.1764705882352942, 
                 "families": 1.0, 
-                "id": "calm (of sea)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.819277108433735, 
-                "weight": 4.819277108433735, 
+                "id": "calm (of sea)", 
                 "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "peace"
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "normalized_weight": 26.31578947368421, 
-                "weight": 26.31578947368421, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "quiet, silence"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
-                "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "silent (be)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.819277108433735, 
-                "weight": 4.819277108433735, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "calm (of sea)"
+                "languages": 1.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

@@ -1,54 +1,54 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "families": 1.0, 
-            "key": "20.21", 
-            "id": "weapons, arms", 
-            "community": 214, 
-            "out_edge": [], 
-            "normalized_weight": 1.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "gun, cannon", 
-            "key": "20.28", 
-            "id": "gun, cannon", 
-            "community": 214, 
-            "out_edge": [], 
-            "normalized_weight": 8.653846153846153, 
-            "label": "gun, cannon", 
-            "frequency": 299.0
-        }
-    ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 13.0, 
                 "normalized_weight": 75.29411764705883, 
+                "id": "gun, cannon", 
+                "languages": 13.0, 
                 "weight": 75.29411764705883, 
-                "edge_width": 1.2647058823529411, 
                 "families": 8.0, 
-                "id": "gun, cannon"
+                "edge_width": 1.435483870967742
             }
         ], 
         [
             {
-                "languages": 13.0, 
                 "normalized_weight": 75.29411764705883, 
+                "id": "weapons, arms", 
+                "languages": 13.0, 
                 "weight": 75.29411764705883, 
-                "edge_width": 1.2647058823529411, 
                 "families": 8.0, 
-                "id": "weapons, arms"
+                "edge_width": 1.435483870967742
             }
         ]
-    ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "weapons, arms", 
+            "languages": 1.0, 
+            "key": "20.21", 
+            "normalized_weight": 1.0, 
+            "community": 214, 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "gun, cannon", 
+            "frequency": 299.0, 
+            "languages": 3.0, 
+            "key": "20.28", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 8.653846153846153, 
+            "body_part": 0.0, 
+            "label": "gun, cannon", 
+            "community": 214, 
+            "concept": "gun, cannon", 
+            "weight": 3.0, 
+            "families": 3.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

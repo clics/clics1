@@ -1,121 +1,194 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "refuse", 
+            "normalized_weight": 1.098901098901099, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "18.37", 
+            "label": "refuse", 
+            "swadesh100": 0.0, 
+            "frequency": 205.0, 
+            "weight": 1.0, 
             "community": 86, 
+            "out_edge": [], 
             "id": "refuse", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
-            "key": "19.59", 
-            "community": 86, 
-            "id": "hinder, prevent", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "forbid", 
+            "normalized_weight": 1.0526315789473684, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "18.38", 
+            "label": "forbid", 
+            "swadesh100": 0.0, 
+            "frequency": 219.0, 
+            "weight": 1.0, 
             "community": 86, 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    27.173913043478258
+                ]
+            ], 
             "id": "forbid", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
-            "key": "18.34", 
+            "concept": "hinder, prevent", 
+            "normalized_weight": 1.0526315789473684, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "19.59", 
+            "label": "hinder, prevent", 
+            "swadesh100": 0.0, 
+            "frequency": 267.0, 
+            "weight": 1.0, 
             "community": 86, 
+            "out_edge": [
+                [
+                    "cluster_49_preserve, look after", 
+                    "defend", 
+                    5.0, 
+                    27.173913043478258
+                ]
+            ], 
+            "id": "hinder, prevent", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "deny", 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.34", 
+            "label": "deny", 
+            "swadesh100": 0.0, 
+            "frequency": 215.0, 
+            "weight": 1.0, 
+            "community": 86, 
+            "out_edge": [
+                [
+                    "cluster_252_no, negative", 
+                    "no, negative", 
+                    4.0, 
+                    15.09433962264151
+                ]
+            ], 
             "id": "deny", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "hinder, prevent"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 10.0, 
+                "weight": 120.48192771084338, 
+                "normalized_weight": 120.48192771084338, 
                 "families": 10.0, 
-                "id": "forbid"
+                "id": "forbid", 
+                "edge_width": 2.1020408163265305, 
+                "languages": 10.0
             }, 
             {
-                "weight": 2.3235294117647056, 
-                "languages": 26.0, 
-                "families": 14.0, 
-                "id": "deny"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 10.0, 
+                "normalized_weight": 10.0, 
                 "families": 3.0, 
-                "id": "refuse"
+                "id": "hinder, prevent", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.7941176470588236, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "forbid"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "deny"
-            }
-        ], 
-        [
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 10.0, 
-                "families": 10.0, 
-                "id": "refuse"
-            }, 
-            {
-                "weight": 1.7941176470588236, 
-                "languages": 14.0, 
-                "families": 12.0, 
-                "id": "hinder, prevent"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 7.0, 
-                "families": 5.0, 
-                "id": "deny"
-            }
-        ], 
-        [
-            {
-                "weight": 2.3235294117647056, 
-                "languages": 26.0, 
+                "weight": 254.54545454545453, 
+                "normalized_weight": 254.54545454545453, 
                 "families": 14.0, 
-                "id": "refuse"
+                "id": "deny", 
+                "edge_width": 3.295918367346939, 
+                "languages": 26.0
+            }
+        ], 
+        [
+            {
+                "weight": 120.48192771084338, 
+                "normalized_weight": 120.48192771084338, 
+                "families": 10.0, 
+                "id": "refuse", 
+                "edge_width": 2.1020408163265305, 
+                "languages": 10.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "hinder, prevent"
+                "weight": 167.4418604651163, 
+                "normalized_weight": 167.4418604651163, 
+                "families": 12.0, 
+                "id": "hinder, prevent", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 14.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 7.0, 
+                "weight": 27.472527472527474, 
+                "normalized_weight": 27.472527472527474, 
                 "families": 5.0, 
-                "id": "forbid"
+                "id": "deny", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "normalized_weight": 10.0, 
+                "families": 3.0, 
+                "id": "refuse", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 167.4418604651163, 
+                "normalized_weight": 167.4418604651163, 
+                "families": 12.0, 
+                "id": "forbid", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 1.0526315789473684, 
+                "normalized_weight": 1.0526315789473684, 
+                "families": 1.0, 
+                "id": "deny", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 254.54545454545453, 
+                "normalized_weight": 254.54545454545453, 
+                "families": 14.0, 
+                "id": "refuse", 
+                "edge_width": 3.295918367346939, 
+                "languages": 26.0
+            }, 
+            {
+                "weight": 27.472527472527474, 
+                "normalized_weight": 27.472527472527474, 
+                "families": 5.0, 
+                "id": "forbid", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 1.0526315789473684, 
+                "normalized_weight": 1.0526315789473684, 
+                "families": 1.0, 
+                "id": "hinder, prevent", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

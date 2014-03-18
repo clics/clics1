@@ -1,17 +1,109 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 10.0, 
+                "normalized_weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "and"
+            }, 
+            {
+                "weight": 0.9615384615384616, 
+                "normalized_weight": 0.9615384615384616, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "again"
+            }
+        ], 
+        [
+            {
+                "weight": 0.9615384615384616, 
+                "normalized_weight": 0.9615384615384616, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "or"
+            }, 
+            {
+                "weight": 78.64077669902912, 
+                "normalized_weight": 78.64077669902912, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "edge_width": 1.1785714285714286, 
+                "id": "and"
+            }
+        ], 
+        [
+            {
+                "weight": 10.0, 
+                "normalized_weight": 10.0, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "or"
+            }, 
+            {
+                "weight": 78.64077669902912, 
+                "normalized_weight": 78.64077669902912, 
+                "languages": 9.0, 
+                "families": 9.0, 
+                "edge_width": 1.1785714285714286, 
+                "id": "again"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "and"
+            }, 
+            {
+                "weight": 8.108108108108109, 
+                "normalized_weight": 8.108108108108109, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "yes, affirmative"
+            }
+        ], 
+        [
+            {
+                "weight": 8.108108108108109, 
+                "normalized_weight": 8.108108108108109, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "and"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "17.54", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "again", 
-            "key": "14.35", 
-            "id": "again", 
+            "frequency": 222.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "or", 
+            "concept": "or", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 181, 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "id": "or"
+        }, 
+        {
+            "key": "14.35", 
+            "swadesh100": 0.0, 
+            "frequency": 302.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_77_enough", 
@@ -20,137 +112,45 @@
                     31.858407079646017
                 ]
             ], 
-            "normalized_weight": 0.8064516129032258, 
             "label": "again", 
-            "frequency": 302.0
+            "concept": "again", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 181, 
+            "normalized_weight": 0.8064516129032258, 
+            "families": 1.0, 
+            "id": "again"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "and", 
             "key": "17.51", 
-            "id": "and", 
-            "community": 181, 
+            "swadesh100": 0.0, 
+            "frequency": 260.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 1.0526315789473684, 
             "label": "and", 
-            "frequency": 260.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
+            "concept": "and", 
             "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "or", 
-            "key": "17.54", 
-            "id": "or", 
+            "body_part": 0.0, 
             "community": 181, 
-            "out_edge": [], 
-            "normalized_weight": 1.0101010101010102, 
-            "label": "or", 
-            "frequency": 222.0
+            "normalized_weight": 1.0526315789473684, 
+            "families": 1.0, 
+            "id": "and"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "yes, affirmative", 
             "key": "17.55", 
-            "id": "yes, affirmative", 
-            "community": 181, 
+            "swadesh100": 0.0, 
+            "frequency": 300.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 0.7936507936507936, 
             "label": "yes, affirmative", 
-            "frequency": 300.0
+            "concept": "yes, affirmative", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 181, 
+            "normalized_weight": 0.7936507936507936, 
+            "families": 1.0, 
+            "id": "yes, affirmative"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 9.0, 
-                "normalized_weight": 78.64077669902912, 
-                "weight": 78.64077669902912, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "and"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9615384615384616, 
-                "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "or"
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "normalized_weight": 78.64077669902912, 
-                "weight": 78.64077669902912, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "again"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "and"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 10.0, 
-                "weight": 10.0, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "or"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.108108108108109, 
-                "weight": 8.108108108108109, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "yes, affirmative"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9615384615384616, 
-                "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "again"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 10.0, 
-                "weight": 10.0, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "and"
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.108108108108109, 
-                "weight": 8.108108108108109, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "and"
-            }
-        ]
-    ]
+    "graph": []
 }

@@ -1,92 +1,92 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "sleep", 
-            "key": "4.61", 
-            "id": "sleep", 
-            "community": 187, 
-            "out_edge": [], 
-            "normalized_weight": 0.8695652173913043, 
-            "label": "sleep", 
-            "frequency": 280.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 1.0, 
-            "families": 2.0, 
-            "concept": "lie down", 
-            "key": "12.14", 
-            "id": "lie down", 
-            "community": 187, 
-            "out_edge": [], 
-            "normalized_weight": 3.361344537815126, 
-            "label": "lie down", 
-            "frequency": 288.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "dream", 
-            "key": "4.62", 
-            "id": "dream", 
-            "community": 187, 
-            "out_edge": [], 
-            "normalized_weight": 0.8264462809917356, 
-            "label": "dream", 
-            "frequency": 275.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 9.0, 
-                "normalized_weight": 30.252100840336134, 
-                "weight": 30.252100840336134, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "dream"
-            }, 
-            {
-                "languages": 20.0, 
-                "normalized_weight": 104.3103448275862, 
                 "weight": 104.3103448275862, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "lie down"
-            }
-        ], 
-        [
-            {
-                "languages": 20.0, 
                 "normalized_weight": 104.3103448275862, 
-                "weight": 104.3103448275862, 
-                "edge_width": 1.5294117647058822, 
+                "languages": 20.0, 
                 "families": 11.0, 
+                "edge_width": 1.4693877551020407, 
                 "id": "sleep"
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "normalized_weight": 30.252100840336134, 
+                "weight": 104.3103448275862, 
+                "normalized_weight": 104.3103448275862, 
+                "languages": 20.0, 
+                "families": 11.0, 
+                "edge_width": 1.4693877551020407, 
+                "id": "lie down"
+            }, 
+            {
                 "weight": 30.252100840336134, 
-                "edge_width": 1.0, 
+                "normalized_weight": 30.252100840336134, 
+                "languages": 9.0, 
                 "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "dream"
+            }
+        ], 
+        [
+            {
+                "weight": 30.252100840336134, 
+                "normalized_weight": 30.252100840336134, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
                 "id": "sleep"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "12.14", 
+            "swadesh100": 1.0, 
+            "frequency": 288.0, 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "label": "lie down", 
+            "concept": "lie down", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 187, 
+            "normalized_weight": 3.361344537815126, 
+            "families": 2.0, 
+            "id": "lie down"
+        }, 
+        {
+            "key": "4.61", 
+            "swadesh100": 1.0, 
+            "frequency": 280.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "sleep", 
+            "concept": "sleep", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 187, 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "id": "sleep"
+        }, 
+        {
+            "key": "4.62", 
+            "swadesh100": 0.0, 
+            "frequency": 275.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "dream", 
+            "concept": "dream", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 187, 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "id": "dream"
+        }
+    ], 
+    "graph": []
 }

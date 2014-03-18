@@ -1,75 +1,103 @@
 {
-    "nodes": [
-        {
-            "key": "1.55", 
-            "community": 136, 
-            "id": "lightning", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.57", 
-            "community": 136, 
-            "id": "lightning (as striking)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "1.56", 
-            "community": 136, 
-            "id": "thunder", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "weight": 3.6470588235294117, 
-                "languages": 74.0, 
-                "families": 22.0, 
-                "id": "lightning (as striking)"
-            }, 
-            {
-                "weight": 1.0, 
+                "weight": 13.675213675213676, 
+                "normalized_weight": 13.675213675213676, 
                 "languages": 4.0, 
                 "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
                 "id": "thunder"
+            }, 
+            {
+                "weight": 537.7777777777778, 
+                "normalized_weight": 537.7777777777778, 
+                "languages": 74.0, 
+                "families": 22.0, 
+                "edge_width": 5.5408163265306118, 
+                "id": "lightning (as striking)"
             }
         ], 
         [
             {
-                "weight": 3.6470588235294117, 
-                "languages": 74.0, 
-                "families": 22.0, 
+                "weight": 13.675213675213676, 
+                "normalized_weight": 13.675213675213676, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
                 "id": "lightning"
             }, 
             {
-                "weight": 1.5294117647058822, 
+                "weight": 116.34615384615385, 
+                "normalized_weight": 116.34615384615385, 
                 "languages": 17.0, 
                 "families": 11.0, 
-                "id": "thunder"
+                "edge_width": 1.5663265306122449, 
+                "id": "lightning (as striking)"
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
+                "weight": 537.7777777777778, 
+                "normalized_weight": 537.7777777777778, 
+                "languages": 74.0, 
+                "families": 22.0, 
+                "edge_width": 5.5408163265306118, 
                 "id": "lightning"
             }, 
             {
-                "weight": 1.5294117647058822, 
+                "weight": 116.34615384615385, 
+                "normalized_weight": 116.34615384615385, 
                 "languages": 17.0, 
                 "families": 11.0, 
-                "id": "lightning (as striking)"
+                "edge_width": 1.5663265306122449, 
+                "id": "thunder"
             }
         ]
     ], 
-    "directed": false
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "1.55", 
+            "swadesh100": 0.0, 
+            "frequency": 250.0, 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "label": "lightning", 
+            "concept": "lightning", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 136, 
+            "normalized_weight": 3.6036036036036037, 
+            "families": 2.0, 
+            "id": "lightning"
+        }, 
+        {
+            "key": "1.56", 
+            "swadesh100": 0.0, 
+            "frequency": 261.0, 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "label": "thunder", 
+            "concept": "thunder", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 136, 
+            "normalized_weight": 3.508771929824561, 
+            "families": 2.0, 
+            "id": "thunder"
+        }, 
+        {
+            "key": "1.57", 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "weight": 2.0, 
+            "community": 136, 
+            "normalized_weight": 3.8095238095238098, 
+            "families": 2.0, 
+            "id": "lightning (as striking)"
+        }
+    ], 
+    "graph": []
 }

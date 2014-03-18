@@ -1,67 +1,67 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "fine", 
-            "key": "21.38", 
-            "id": "fine", 
-            "community": 247, 
-            "out_edge": [], 
-            "normalized_weight": 1.1111111111111112, 
-            "label": "fine", 
-            "frequency": 155.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "penalty, punishment", 
-            "key": "21.37", 
-            "id": "penalty, punishment", 
-            "community": 247, 
-            "out_edge": [], 
-            "normalized_weight": 4.938271604938271, 
-            "label": "penalty, punishment", 
-            "frequency": 216.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 10.0, 
-                "normalized_weight": 40.32258064516129, 
                 "weight": 40.32258064516129, 
-                "edge_width": 1.0, 
+                "normalized_weight": 40.32258064516129, 
+                "languages": 10.0, 
                 "families": 5.0, 
+                "edge_width": 0.88775510204081631, 
                 "id": "penalty, punishment"
             }
         ], 
         [
             {
-                "languages": 10.0, 
-                "normalized_weight": 40.32258064516129, 
                 "weight": 40.32258064516129, 
-                "edge_width": 1.0, 
+                "normalized_weight": 40.32258064516129, 
+                "languages": 10.0, 
                 "families": 5.0, 
+                "edge_width": 0.88775510204081631, 
                 "id": "fine"
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.3333333333333335, 
                 "weight": 1.3333333333333335, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.3333333333333335, 
+                "languages": 1.0, 
                 "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "penalty, punishment"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "21.38", 
+            "swadesh100": 0.0, 
+            "frequency": 155.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "fine", 
+            "concept": "fine", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 247, 
+            "normalized_weight": 1.1111111111111112, 
+            "families": 1.0, 
+            "id": "fine"
+        }, 
+        {
+            "key": "21.37", 
+            "swadesh100": 0.0, 
+            "frequency": 216.0, 
+            "languages": 3.0, 
+            "out_edge": [], 
+            "label": "penalty, punishment", 
+            "concept": "penalty, punishment", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 247, 
+            "normalized_weight": 4.938271604938271, 
+            "families": 2.0, 
+            "id": "penalty, punishment"
+        }
+    ], 
+    "graph": []
 }

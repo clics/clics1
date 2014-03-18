@@ -1,120 +1,120 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "silk", 
-            "key": "6.25", 
-            "id": "silk", 
-            "community": 248, 
-            "out_edge": [], 
-            "normalized_weight": 1.2345679012345678, 
-            "label": "silk", 
-            "frequency": 146.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "enter", 
-            "key": "10.57", 
-            "id": "enter", 
-            "community": 248, 
-            "out_edge": [], 
-            "normalized_weight": 0.8, 
-            "label": "enter", 
-            "frequency": 286.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "freshwater eel", 
-            "key": "3.665", 
-            "id": "freshwater eel", 
-            "community": 248, 
-            "out_edge": [], 
-            "normalized_weight": 0.9615384615384616, 
-            "label": "freshwater eel", 
-            "frequency": 148.0
-        }, 
-        {
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "families": 1.0, 
-            "key": "6.48", 
-            "id": "trousers", 
-            "community": 248, 
-            "out_edge": [], 
-            "normalized_weight": 1.36986301369863
-        }
-    ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
                 "normalized_weight": 1.1627906976744187, 
+                "id": "enter", 
+                "languages": 1.0, 
                 "weight": 1.1627906976744187, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "enter"
+                "edge_width": 1.0
             }, 
             {
-                "languages": 1.0, 
                 "normalized_weight": 1.4084507042253522, 
+                "id": "trousers", 
+                "languages": 1.0, 
                 "weight": 1.4084507042253522, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "trousers"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
                 "normalized_weight": 1.1627906976744187, 
+                "id": "silk", 
+                "languages": 1.0, 
                 "weight": 1.1627906976744187, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "silk"
+                "edge_width": 1.0
             }, 
             {
-                "languages": 1.0, 
                 "normalized_weight": 0.9615384615384616, 
+                "id": "freshwater eel", 
+                "languages": 1.0, 
                 "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "freshwater eel"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
                 "normalized_weight": 0.9615384615384616, 
+                "id": "enter", 
+                "languages": 1.0, 
                 "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "enter"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "languages": 1.0, 
                 "normalized_weight": 1.4084507042253522, 
+                "id": "silk", 
+                "languages": 1.0, 
                 "weight": 1.4084507042253522, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "silk"
+                "edge_width": 1.0
             }
         ]
-    ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "silk", 
+            "frequency": 146.0, 
+            "languages": 1.0, 
+            "key": "6.25", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.2345679012345678, 
+            "body_part": 0.0, 
+            "label": "silk", 
+            "community": 248, 
+            "concept": "silk", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "enter", 
+            "frequency": 286.0, 
+            "languages": 1.0, 
+            "key": "10.57", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8, 
+            "body_part": 0.0, 
+            "label": "enter", 
+            "community": 248, 
+            "concept": "enter", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "freshwater eel", 
+            "frequency": 148.0, 
+            "languages": 1.0, 
+            "key": "3.665", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9615384615384616, 
+            "body_part": 0.0, 
+            "label": "freshwater eel", 
+            "community": 248, 
+            "concept": "freshwater eel", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "trousers", 
+            "languages": 1.0, 
+            "key": "6.48", 
+            "normalized_weight": 1.36986301369863, 
+            "community": 248, 
+            "weight": 1.0, 
+            "families": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

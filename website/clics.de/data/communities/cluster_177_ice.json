@@ -1,75 +1,104 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "ice", 
+            "normalized_weight": 0.9433962264150944, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "1.77", 
+            "label": "ice", 
+            "swadesh100": 0.0, 
+            "frequency": 226.0, 
+            "weight": 1.0, 
             "community": 177, 
+            "out_edge": [], 
             "id": "ice", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
-            "key": "1.64", 
-            "community": 177, 
-            "id": "dew", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "snow (noun)", 
+            "body_part": 0.0, 
             "key": "1.76", 
+            "label": "snow (noun)", 
+            "swadesh100": 0.0, 
+            "frequency": 183.0, 
             "community": 177, 
-            "id": "snow (noun)", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "snow (noun)"
+        }, 
+        {
+            "concept": "dew", 
+            "normalized_weight": 0.8849557522123894, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "1.64", 
+            "label": "dew", 
+            "swadesh100": 0.0, 
+            "frequency": 227.0, 
+            "weight": 1.0, 
+            "community": 177, 
+            "out_edge": [], 
+            "id": "dew", 
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "dew"
+                "weight": 135.95505617977528, 
+                "normalized_weight": 135.95505617977528, 
+                "families": 11.0, 
+                "id": "snow (noun)", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 17.0
             }, 
             {
-                "weight": 1.5294117647058822, 
-                "languages": 17.0, 
-                "families": 11.0, 
-                "id": "snow (noun)"
+                "weight": 8.823529411764707, 
+                "normalized_weight": 8.823529411764707, 
+                "families": 3.0, 
+                "id": "dew", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "ice"
+                "weight": 135.95505617977528, 
+                "normalized_weight": 135.95505617977528, 
+                "families": 11.0, 
+                "id": "ice", 
+                "edge_width": 2.1938775510204085, 
+                "languages": 17.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
                 "families": 2.0, 
-                "id": "snow (noun)"
+                "id": "dew", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 1.5294117647058822, 
-                "languages": 17.0, 
-                "families": 11.0, 
-                "id": "ice"
+                "weight": 8.823529411764707, 
+                "normalized_weight": 8.823529411764707, 
+                "families": 3.0, 
+                "id": "ice", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
                 "families": 2.0, 
-                "id": "dew"
+                "id": "snow (noun)", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

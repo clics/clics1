@@ -1,17 +1,34 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 562.7659574468086, 
+                "normalized_weight": 562.7659574468086, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "edge_width": 5.8316326530612246, 
+                "id": "peel"
+            }
+        ], 
+        [
+            {
+                "weight": 562.7659574468086, 
+                "normalized_weight": 562.7659574468086, 
+                "languages": 38.0, 
+                "families": 23.0, 
+                "edge_width": 5.8316326530612246, 
+                "id": "flay, skin"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "flay, skin", 
             "key": "9.29", 
-            "id": "flay, skin", 
-            "community": 153, 
+            "swadesh100": 0.0, 
+            "frequency": 248.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_1_fur", 
@@ -20,23 +37,23 @@
                     22.727272727272727
                 ]
             ], 
-            "normalized_weight": 0.8849557522123894, 
             "label": "flay, skin", 
-            "frequency": 248.0
+            "concept": "flay, skin", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 153, 
+            "normalized_weight": 0.8849557522123894, 
+            "families": 1.0, 
+            "id": "flay, skin"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "peel", 
             "key": "5.46", 
-            "id": "peel", 
-            "community": 153, 
+            "swadesh100": 0.0, 
+            "frequency": 293.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
-                    "cluster_179_rub, wipe", 
+                    "cluster_179_sweep", 
                     "scrape", 
                     5.0, 
                     21.551724137931032
@@ -48,32 +65,15 @@
                     13.333333333333334
                 ]
             ], 
-            "normalized_weight": 0.8333333333333334, 
             "label": "peel", 
-            "frequency": 293.0
+            "concept": "peel", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 153, 
+            "normalized_weight": 0.8333333333333334, 
+            "families": 1.0, 
+            "id": "peel"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 38.0, 
-                "normalized_weight": 562.7659574468086, 
-                "weight": 562.7659574468086, 
-                "edge_width": 3.9117647058823528, 
-                "families": 23.0, 
-                "id": "peel"
-            }
-        ], 
-        [
-            {
-                "languages": 38.0, 
-                "normalized_weight": 562.7659574468086, 
-                "weight": 562.7659574468086, 
-                "edge_width": 3.9117647058823528, 
-                "families": 23.0, 
-                "id": "flay, skin"
-            }
-        ]
-    ]
+    "graph": []
 }

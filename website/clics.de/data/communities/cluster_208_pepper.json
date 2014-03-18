@@ -1,55 +1,55 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "pepper", 
-            "key": "5.82", 
-            "id": "pepper", 
-            "community": 208, 
-            "out_edge": [], 
-            "label": "pepper", 
-            "frequency": 175.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 26.0, 
-            "weight": 11.0, 
-            "swadesh100": 0.0, 
-            "families": 11.0, 
-            "concept": "chili pepper", 
-            "key": "5.821", 
-            "id": "chili pepper", 
-            "community": 208, 
-            "out_edge": [], 
-            "normalized_weight": 163.51351351351352, 
-            "label": "chili pepper", 
-            "frequency": 193.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 26.0, 
-                "normalized_weight": 163.51351351351352, 
                 "weight": 163.51351351351352, 
-                "edge_width": 1.7941176470588236, 
+                "normalized_weight": 163.51351351351352, 
+                "languages": 26.0, 
                 "families": 11.0, 
+                "edge_width": 2.0510204081632653, 
                 "id": "chili pepper"
             }
         ], 
         [
             {
-                "languages": 26.0, 
-                "normalized_weight": 163.51351351351352, 
                 "weight": 163.51351351351352, 
-                "edge_width": 1.7941176470588236, 
+                "normalized_weight": 163.51351351351352, 
+                "languages": 26.0, 
                 "families": 11.0, 
+                "edge_width": 2.0510204081632653, 
                 "id": "pepper"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "5.82", 
+            "swadesh100": 0.0, 
+            "frequency": 175.0, 
+            "label": "pepper", 
+            "concept": "pepper", 
+            "body_part": 0.0, 
+            "community": 208, 
+            "id": "pepper", 
+            "out_edge": []
+        }, 
+        {
+            "key": "5.821", 
+            "swadesh100": 0.0, 
+            "frequency": 193.0, 
+            "languages": 26.0, 
+            "out_edge": [], 
+            "label": "chili pepper", 
+            "concept": "chili pepper", 
+            "weight": 11.0, 
+            "body_part": 0.0, 
+            "community": 208, 
+            "normalized_weight": 163.51351351351352, 
+            "families": 11.0, 
+            "id": "chili pepper"
+        }
+    ], 
+    "graph": []
 }

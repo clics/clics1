@@ -2,149 +2,178 @@
     "adjacency": [
         [
             {
+                "normalized_weight": 0.8547008547008548, 
+                "id": "sew", 
                 "languages": 1.0, 
-                "id": "sew", 
-                "edge_width": 1.0, 
                 "weight": 0.8547008547008548, 
-                "families": 1.0
+                "families": 1.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 8.0, 
+                "normalized_weight": 60.952380952380956, 
                 "id": "weave", 
-                "edge_width": 1.2647058823529411, 
+                "languages": 8.0, 
                 "weight": 60.952380952380956, 
-                "families": 8.0
+                "families": 8.0, 
+                "edge_width": 1.435483870967742
             }, 
             {
-                "languages": 35.0, 
+                "normalized_weight": 236.84210526315786, 
                 "id": "weave, plait", 
-                "edge_width": 2.0588235294117645, 
+                "languages": 35.0, 
                 "weight": 236.84210526315786, 
-                "families": 15.0
+                "families": 15.0, 
+                "edge_width": 2.596774193548387
             }
         ], 
         [
             {
+                "normalized_weight": 0.8547008547008548, 
+                "id": "braid", 
                 "languages": 1.0, 
-                "id": "braid", 
-                "edge_width": 1.0, 
                 "weight": 0.8547008547008548, 
-                "families": 1.0
+                "families": 1.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 4.0, 
+                "normalized_weight": 13.675213675213676, 
                 "id": "weave", 
-                "edge_width": 1.0, 
+                "languages": 4.0, 
                 "weight": 13.675213675213676, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 5.0, 
+                "normalized_weight": 14.035087719298245, 
                 "id": "weave, plait", 
-                "edge_width": 1.0, 
+                "languages": 5.0, 
                 "weight": 14.035087719298245, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }
         ], 
         [
             {
+                "normalized_weight": 60.952380952380956, 
+                "id": "braid", 
                 "languages": 8.0, 
-                "id": "braid", 
-                "edge_width": 1.2647058823529411, 
                 "weight": 60.952380952380956, 
-                "families": 8.0
+                "families": 8.0, 
+                "edge_width": 1.435483870967742
             }, 
             {
-                "languages": 4.0, 
+                "normalized_weight": 13.675213675213676, 
                 "id": "sew", 
-                "edge_width": 1.0, 
+                "languages": 4.0, 
                 "weight": 13.675213675213676, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 86.0, 
+                "normalized_weight": 1361.25, 
                 "id": "weave, plait", 
-                "edge_width": 7.6176470588235299, 
+                "languages": 86.0, 
                 "weight": 1361.25, 
-                "families": 33.0
+                "families": 33.0, 
+                "edge_width": 8.258064516129032
             }
         ], 
         [
             {
-                "languages": 35.0, 
+                "normalized_weight": 236.84210526315786, 
                 "id": "braid", 
-                "edge_width": 2.0588235294117645, 
+                "languages": 35.0, 
                 "weight": 236.84210526315786, 
-                "families": 15.0
+                "families": 15.0, 
+                "edge_width": 2.596774193548387
             }, 
             {
-                "languages": 5.0, 
+                "normalized_weight": 14.035087719298245, 
                 "id": "sew", 
-                "edge_width": 1.0, 
+                "languages": 5.0, 
                 "weight": 14.035087719298245, 
-                "families": 4.0
+                "families": 4.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 86.0, 
+                "normalized_weight": 1361.25, 
                 "id": "weave", 
-                "edge_width": 7.6176470588235299, 
+                "languages": 86.0, 
                 "weight": 1361.25, 
-                "families": 33.0
+                "families": 33.0, 
+                "edge_width": 8.258064516129032
             }
         ]
     ], 
-    "directed": false, 
-    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 39, 
             "id": "braid", 
-            "key": "6.921"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "frequency": 241.0, 
+            "languages": 1.0, 
+            "key": "6.921", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8695652173913043, 
+            "body_part": 0.0, 
+            "label": "braid", 
             "community": 39, 
-            "id": "sew", 
-            "key": "6.35"
+            "concept": "braid", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "out_edge": [], 
+            "id": "sew", 
+            "frequency": 253.0, 
+            "languages": 1.0, 
+            "key": "6.35", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8620689655172413, 
+            "body_part": 0.0, 
+            "label": "sew", 
+            "community": 39, 
+            "concept": "sew", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
             "out_edge": [
                 [
-                    "cluster_74_bend", 
+                    "cluster_74_twist", 
                     "spin", 
                     4.0, 
                     14.678899082568808
                 ], 
                 [
-                    "cluster_74_bend", 
+                    "cluster_74_twist", 
                     "twist", 
                     4.0, 
                     14.414414414414415
                 ]
             ], 
-            "community": 39, 
             "id": "weave", 
-            "key": "6.33"
+            "frequency": 235.0, 
+            "languages": 1.0, 
+            "key": "6.33", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.847457627118644, 
+            "body_part": 0.0, 
+            "label": "weave", 
+            "community": 39, 
+            "concept": "weave", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_74_bend", 
+                    "cluster_74_twist", 
                     "spin", 
                     8.0, 
                     62.745098039215684
                 ], 
                 [
-                    "cluster_74_bend", 
+                    "cluster_74_twist", 
                     "twist", 
                     6.0, 
                     33.9622641509434
@@ -156,10 +185,21 @@
                     23.58490566037736
                 ]
             ], 
-            "community": 39, 
             "id": "weave, plait", 
-            "key": "9.75"
+            "frequency": 255.0, 
+            "languages": 1.0, 
+            "key": "9.75", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9708737864077669, 
+            "body_part": 0.0, 
+            "label": "weave, plait", 
+            "community": 39, 
+            "concept": "weave, plait", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
-    "graph": []
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

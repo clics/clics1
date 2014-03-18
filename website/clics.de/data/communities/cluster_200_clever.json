@@ -1,43 +1,59 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 43.0, 
-                "id": "wise", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 220.2247191011236, 
-                "families": 14.0
-            }
-        ], 
-        [
-            {
-                "languages": 43.0, 
-                "id": "clever", 
-                "edge_width": 2.0588235294117645, 
-                "weight": 220.2247191011236, 
-                "families": 14.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "clever", 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "16.84", 
+            "label": "clever", 
+            "swadesh100": 0.0, 
+            "frequency": 263.0, 
+            "weight": 1.0, 
             "community": 200, 
+            "out_edge": [], 
             "id": "clever", 
-            "key": "16.84"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "wise", 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "17.21", 
+            "label": "wise", 
+            "swadesh100": 0.0, 
+            "frequency": 248.0, 
+            "weight": 1.0, 
             "community": 200, 
+            "out_edge": [], 
             "id": "wise", 
-            "key": "17.21"
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 220.2247191011236, 
+                "normalized_weight": 220.2247191011236, 
+                "families": 14.0, 
+                "id": "wise", 
+                "edge_width": 3.0204081632653064, 
+                "languages": 43.0
+            }
+        ], 
+        [
+            {
+                "weight": 220.2247191011236, 
+                "normalized_weight": 220.2247191011236, 
+                "families": 14.0, 
+                "id": "clever", 
+                "edge_width": 3.0204081632653064, 
+                "languages": 43.0
+            }
+        ]
     ], 
     "graph": []
 }

@@ -1,177 +1,177 @@
 {
-    "graph": [], 
-    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "normalized_weight": 0.8771929824561403, 
+                "id": "wrinkled", 
+                "languages": 1.0, 
+                "weight": 0.8771929824561403, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 42.98245614035088, 
+                "id": "scrape", 
+                "languages": 12.0, 
+                "weight": 42.98245614035088, 
+                "families": 7.0, 
+                "edge_width": 1.2903225806451613
+            }, 
+            {
+                "normalized_weight": 30.76923076923077, 
+                "id": "sweep", 
+                "languages": 8.0, 
+                "weight": 30.76923076923077, 
+                "families": 6.0, 
+                "edge_width": 1.1451612903225807
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 22.123893805309734, 
+                "id": "sweep", 
+                "languages": 5.0, 
+                "weight": 22.123893805309734, 
+                "families": 5.0, 
+                "edge_width": 1.1451612903225807
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 0.8771929824561403, 
+                "id": "rub, wipe", 
+                "languages": 1.0, 
+                "weight": 0.8771929824561403, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 42.98245614035088, 
+                "id": "rub, wipe", 
+                "languages": 12.0, 
+                "weight": 42.98245614035088, 
+                "families": 7.0, 
+                "edge_width": 1.2903225806451613
+            }, 
+            {
+                "normalized_weight": 3.278688524590164, 
+                "id": "sweep", 
+                "languages": 2.0, 
+                "weight": 3.278688524590164, 
+                "families": 2.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 30.76923076923077, 
+                "id": "rub, wipe", 
+                "languages": 8.0, 
+                "weight": 30.76923076923077, 
+                "families": 6.0, 
+                "edge_width": 1.1451612903225807
+            }, 
+            {
+                "normalized_weight": 22.123893805309734, 
+                "id": "broom", 
+                "languages": 5.0, 
+                "weight": 22.123893805309734, 
+                "families": 5.0, 
+                "edge_width": 1.1451612903225807
+            }, 
+            {
+                "normalized_weight": 3.278688524590164, 
+                "id": "scrape", 
+                "languages": 2.0, 
+                "weight": 3.278688524590164, 
+                "families": 2.0, 
+                "edge_width": 1.0
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "rub, wipe", 
-            "key": "9.31", 
-            "id": "rub, wipe", 
-            "community": 179, 
             "out_edge": [], 
+            "id": "rub, wipe", 
+            "frequency": 311.0, 
+            "languages": 3.0, 
+            "key": "9.31", 
+            "swadesh100": 0.0, 
             "normalized_weight": 0.8403361344537815, 
+            "body_part": 0.0, 
             "label": "rub, wipe", 
-            "frequency": 311.0
+            "community": 179, 
+            "concept": "rub, wipe", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 8.0, 
-            "weight": 5.0, 
+            "out_edge": [], 
+            "id": "broom", 
+            "frequency": 239.0, 
+            "languages": 1.0, 
+            "key": "9.38", 
             "swadesh100": 0.0, 
-            "families": 5.0, 
-            "concept": "scrape", 
-            "key": "5.48", 
-            "id": "scrape", 
+            "normalized_weight": 1.0101010101010102, 
+            "body_part": 0.0, 
+            "label": "broom", 
             "community": 179, 
+            "concept": "broom", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "id": "wrinkled", 
+            "frequency": 250.0, 
+            "out_edge": [], 
+            "key": "15.89", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0, 
+            "label": "wrinkled", 
+            "community": 179, 
+            "concept": "wrinkled"
+        }, 
+        {
             "out_edge": [
                 [
-                    "cluster_153_flay, skin", 
+                    "cluster_153_peel", 
                     "peel", 
                     5.0, 
                     21.551724137931032
                 ]
             ], 
+            "id": "scrape", 
+            "frequency": 316.0, 
+            "languages": 8.0, 
+            "key": "5.48", 
+            "swadesh100": 0.0, 
             "normalized_weight": 21.551724137931032, 
+            "body_part": 0.0, 
             "label": "scrape", 
-            "frequency": 316.0
+            "community": 179, 
+            "concept": "scrape", 
+            "weight": 5.0, 
+            "families": 5.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "sweep", 
-            "key": "9.37", 
+            "out_edge": [], 
             "id": "sweep", 
-            "community": 179, 
-            "out_edge": [], 
-            "normalized_weight": 0.819672131147541, 
-            "label": "sweep", 
-            "frequency": 239.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "wrinkled", 
-            "key": "15.89", 
-            "id": "wrinkled", 
-            "community": 179, 
-            "out_edge": [], 
-            "label": "wrinkled", 
-            "frequency": 250.0
-        }, 
-        {
-            "body_part": 0.0, 
+            "frequency": 239.0, 
             "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "9.37", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "broom", 
-            "key": "9.38", 
-            "id": "broom", 
+            "normalized_weight": 0.819672131147541, 
+            "body_part": 0.0, 
+            "label": "sweep", 
             "community": 179, 
-            "out_edge": [], 
-            "normalized_weight": 1.0101010101010102, 
-            "label": "broom", 
-            "frequency": 239.0
+            "concept": "sweep", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
+    "graph": [], 
     "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 8.0, 
-                "normalized_weight": 30.76923076923077, 
-                "weight": 30.76923076923077, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "sweep"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "wrinkled"
-            }, 
-            {
-                "languages": 12.0, 
-                "normalized_weight": 42.98245614035088, 
-                "weight": 42.98245614035088, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "scrape"
-            }
-        ], 
-        [
-            {
-                "languages": 12.0, 
-                "normalized_weight": 42.98245614035088, 
-                "weight": 42.98245614035088, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "rub, wipe"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.278688524590164, 
-                "weight": 3.278688524590164, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "sweep"
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "normalized_weight": 30.76923076923077, 
-                "weight": 30.76923076923077, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "rub, wipe"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.278688524590164, 
-                "weight": 3.278688524590164, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "scrape"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 22.123893805309734, 
-                "weight": 22.123893805309734, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "broom"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "rub, wipe"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "normalized_weight": 22.123893805309734, 
-                "weight": 22.123893805309734, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "sweep"
-            }
-        ]
-    ]
+    "multigraph": false
 }

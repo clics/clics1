@@ -1,17 +1,34 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 587.7777777777778, 
+                "normalized_weight": 587.7777777777778, 
+                "languages": 34.0, 
+                "families": 23.0, 
+                "edge_width": 5.9285714285714288, 
+                "id": "pursue"
+            }
+        ], 
+        [
+            {
+                "weight": 587.7777777777778, 
+                "normalized_weight": 587.7777777777778, 
+                "languages": 34.0, 
+                "families": 23.0, 
+                "edge_width": 5.9285714285714288, 
+                "id": "follow"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "follow", 
             "key": "10.52", 
-            "id": "follow", 
-            "community": 167, 
+            "swadesh100": 0.0, 
+            "frequency": 271.0, 
+            "languages": 2.0, 
             "out_edge": [
                 [
                     "cluster_11_know", 
@@ -20,54 +37,37 @@
                     14.545454545454545
                 ]
             ], 
-            "normalized_weight": 3.5398230088495577, 
             "label": "follow", 
-            "frequency": 271.0
+            "concept": "follow", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 167, 
+            "normalized_weight": 3.5398230088495577, 
+            "families": 2.0, 
+            "id": "follow"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "pursue", 
             "key": "10.53", 
-            "id": "pursue", 
-            "community": 167, 
+            "swadesh100": 0.0, 
+            "frequency": 256.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
-                    "cluster_138_throw", 
+                    "cluster_138_shoot", 
                     "hunt", 
                     4.0, 
                     14.285714285714285
                 ]
             ], 
-            "normalized_weight": 0.9433962264150944, 
             "label": "pursue", 
-            "frequency": 256.0
+            "concept": "pursue", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 167, 
+            "normalized_weight": 0.9433962264150944, 
+            "families": 1.0, 
+            "id": "pursue"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 34.0, 
-                "normalized_weight": 587.7777777777778, 
-                "weight": 587.7777777777778, 
-                "edge_width": 3.9117647058823528, 
-                "families": 23.0, 
-                "id": "pursue"
-            }
-        ], 
-        [
-            {
-                "languages": 34.0, 
-                "normalized_weight": 587.7777777777778, 
-                "weight": 587.7777777777778, 
-                "edge_width": 3.9117647058823528, 
-                "families": 23.0, 
-                "id": "follow"
-            }
-        ]
-    ]
+    "graph": []
 }

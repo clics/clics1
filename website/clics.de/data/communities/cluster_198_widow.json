@@ -1,42 +1,54 @@
 {
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 34.0, 
-                "id": "widower", 
-                "edge_width": 2.5882352941176472, 
                 "weight": 344.6808510638298, 
-                "families": 18.0
+                "normalized_weight": 344.6808510638298, 
+                "languages": 34.0, 
+                "families": 18.0, 
+                "edge_width": 3.7959183673469385, 
+                "id": "widower"
             }
         ], 
         [
             {
-                "languages": 34.0, 
-                "id": "widow", 
-                "edge_width": 2.5882352941176472, 
                 "weight": 344.6808510638298, 
-                "families": 18.0
+                "normalized_weight": 344.6808510638298, 
+                "languages": 34.0, 
+                "families": 18.0, 
+                "edge_width": 3.7959183673469385, 
+                "id": "widow"
             }
         ]
     ], 
-    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "key": "2.76", 
+            "swadesh100": 0.0, 
+            "frequency": 231.0, 
+            "languages": 2.0, 
             "out_edge": [], 
+            "label": "widow", 
+            "concept": "widow", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
             "community": 198, 
-            "id": "widow", 
-            "key": "2.76"
+            "normalized_weight": 3.7037037037037033, 
+            "families": 2.0, 
+            "id": "widow"
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "key": "2.77", 
+            "swadesh100": 0.0, 
+            "frequency": 210.0, 
+            "label": "widower", 
+            "concept": "widower", 
+            "body_part": 0.0, 
             "community": 198, 
             "id": "widower", 
-            "key": "2.77"
+            "out_edge": []
         }
     ], 
     "graph": []

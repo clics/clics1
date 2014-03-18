@@ -2,32 +2,30 @@
     "adjacency": [
         [
             {
-                "languages": 38.0, 
+                "normalized_weight": 562.7659574468086, 
                 "id": "flay, skin", 
-                "edge_width": 3.9117647058823528, 
+                "languages": 38.0, 
                 "weight": 562.7659574468086, 
-                "families": 23.0
+                "families": 23.0, 
+                "edge_width": 5.064516129032258
             }
         ], 
         [
             {
-                "languages": 38.0, 
+                "normalized_weight": 562.7659574468086, 
                 "id": "peel", 
-                "edge_width": 3.9117647058823528, 
+                "languages": 38.0, 
                 "weight": 562.7659574468086, 
-                "families": 23.0
+                "families": 23.0, 
+                "edge_width": 5.064516129032258
             }
         ]
     ], 
-    "directed": false, 
-    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
-                    "cluster_179_sweep", 
+                    "cluster_179_rub, wipe", 
                     "scrape", 
                     5.0, 
                     21.551724137931032
@@ -39,13 +37,20 @@
                     13.333333333333334
                 ]
             ], 
-            "community": 153, 
             "id": "peel", 
-            "key": "5.46"
+            "frequency": 293.0, 
+            "languages": 1.0, 
+            "key": "5.46", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8333333333333334, 
+            "body_part": 0.0, 
+            "label": "peel", 
+            "community": 153, 
+            "concept": "peel", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_1_fur", 
@@ -54,10 +59,21 @@
                     22.727272727272727
                 ]
             ], 
-            "community": 153, 
             "id": "flay, skin", 
-            "key": "9.29"
+            "frequency": 248.0, 
+            "languages": 1.0, 
+            "key": "9.29", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8849557522123894, 
+            "body_part": 0.0, 
+            "label": "flay, skin", 
+            "community": 153, 
+            "concept": "flay, skin", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
-    "graph": []
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

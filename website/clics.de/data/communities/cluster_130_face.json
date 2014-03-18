@@ -1,106 +1,170 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 3.8461538461538463, 
+                "normalized_weight": 3.8461538461538463, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "side of head, temple"
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "cheek"
+            }, 
+            {
+                "weight": 41.88034188034188, 
+                "normalized_weight": 41.88034188034188, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "face"
+            }
+        ], 
+        [
+            {
+                "weight": 86.20689655172413, 
+                "normalized_weight": 86.20689655172413, 
+                "languages": 13.0, 
+                "families": 10.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "forehead"
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "monkey"
+            }, 
+            {
+                "weight": 40.833333333333336, 
+                "normalized_weight": 40.833333333333336, 
+                "languages": 13.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "eye"
+            }, 
+            {
+                "weight": 41.88034188034188, 
+                "normalized_weight": 41.88034188034188, 
+                "languages": 9.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "cheek"
+            }, 
+            {
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "side of head, temple"
+            }
+        ], 
+        [
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "monkey"
+            }, 
+            {
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "side of head, temple"
+            }, 
+            {
+                "weight": 86.20689655172413, 
+                "normalized_weight": 86.20689655172413, 
+                "languages": 13.0, 
+                "families": 10.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "face"
+            }
+        ], 
+        [
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "forehead"
+            }, 
+            {
+                "weight": 1.0526315789473684, 
+                "normalized_weight": 1.0526315789473684, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "monkey"
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "face"
+            }
+        ], 
+        [
+            {
+                "weight": 40.833333333333336, 
+                "normalized_weight": 40.833333333333336, 
+                "languages": 13.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "face"
+            }
+        ], 
+        [
+            {
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "forehead"
+            }, 
+            {
+                "weight": 3.8461538461538463, 
+                "normalized_weight": 3.8461538461538463, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "cheek"
+            }, 
+            {
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "face"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "monkey", 
-            "key": "3.76", 
-            "id": "monkey", 
-            "community": 130, 
-            "out_edge": [], 
-            "normalized_weight": 1.0526315789473684, 
-            "label": "monkey", 
-            "frequency": 235.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "side of head, temple", 
-            "key": "4.201", 
-            "id": "side of head, temple", 
-            "community": 130, 
-            "out_edge": [], 
-            "normalized_weight": 0.9708737864077669, 
-            "label": "side of head, temple", 
-            "frequency": 177.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 2.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "face", 
-            "key": "4.204", 
-            "id": "face", 
-            "community": 130, 
-            "out_edge": [
-                [
-                    "cluster_41_beak", 
-                    "mouth", 
-                    4.0, 
-                    13.114754098360656
-                ]
-            ], 
-            "normalized_weight": 0.8333333333333334, 
-            "label": "face", 
-            "frequency": 282.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "forehead", 
-            "key": "4.205", 
-            "id": "forehead", 
-            "community": 130, 
-            "out_edge": [], 
-            "normalized_weight": 0.819672131147541, 
-            "label": "forehead", 
-            "frequency": 244.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "eye", 
-            "key": "4.21", 
-            "id": "eye", 
-            "community": 130, 
-            "out_edge": [
-                [
-                    "cluster_19_fruit", 
-                    "seed", 
-                    4.0, 
-                    13.333333333333334
-                ]
-            ], 
-            "normalized_weight": 0.9174311926605505, 
-            "label": "eye", 
-            "frequency": 240.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "cheek", 
             "key": "4.208", 
-            "id": "cheek", 
-            "community": 130, 
+            "swadesh100": 0.0, 
+            "frequency": 244.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_114_jaw", 
@@ -109,168 +173,104 @@
                     43.36283185840708
                 ]
             ], 
-            "normalized_weight": 0.9174311926605505, 
             "label": "cheek", 
-            "frequency": 244.0
+            "concept": "cheek", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 130, 
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "id": "cheek"
+        }, 
+        {
+            "key": "4.204", 
+            "swadesh100": 0.0, 
+            "frequency": 282.0, 
+            "languages": 2.0, 
+            "out_edge": [
+                [
+                    "cluster_41_beak", 
+                    "mouth", 
+                    4.0, 
+                    13.114754098360656
+                ]
+            ], 
+            "label": "face", 
+            "concept": "face", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 130, 
+            "normalized_weight": 0.8333333333333334, 
+            "families": 1.0, 
+            "id": "face"
+        }, 
+        {
+            "key": "4.205", 
+            "swadesh100": 0.0, 
+            "frequency": 244.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "forehead", 
+            "concept": "forehead", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 130, 
+            "normalized_weight": 0.819672131147541, 
+            "families": 1.0, 
+            "id": "forehead"
+        }, 
+        {
+            "key": "3.76", 
+            "swadesh100": 0.0, 
+            "frequency": 235.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "monkey", 
+            "concept": "monkey", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 130, 
+            "normalized_weight": 1.0526315789473684, 
+            "families": 1.0, 
+            "id": "monkey"
+        }, 
+        {
+            "key": "4.21", 
+            "swadesh100": 1.0, 
+            "frequency": 240.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_19_fruit", 
+                    "seed", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ], 
+            "label": "eye", 
+            "concept": "eye", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 130, 
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "id": "eye"
+        }, 
+        {
+            "key": "4.201", 
+            "swadesh100": 0.0, 
+            "frequency": 177.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "side of head, temple", 
+            "concept": "side of head, temple", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 130, 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "id": "side of head, temple"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0526315789473684, 
-                "weight": 1.0526315789473684, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "monkey"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "forehead"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "face"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7735849056603774, 
-                "weight": 3.7735849056603774, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "forehead"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.8461538461538463, 
-                "weight": 3.8461538461538463, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "cheek"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7735849056603774, 
-                "weight": 3.7735849056603774, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "face"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "monkey"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 40.833333333333336, 
-                "weight": 40.833333333333336, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "eye"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7735849056603774, 
-                "weight": 3.7735849056603774, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "side of head, temple"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 41.88034188034188, 
-                "weight": 41.88034188034188, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "cheek"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 86.20689655172413, 
-                "weight": 86.20689655172413, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "forehead"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "monkey"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7735849056603774, 
-                "weight": 3.7735849056603774, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "side of head, temple"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 86.20689655172413, 
-                "weight": 86.20689655172413, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "face"
-            }
-        ], 
-        [
-            {
-                "languages": 13.0, 
-                "normalized_weight": 40.833333333333336, 
-                "weight": 40.833333333333336, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "face"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.8461538461538463, 
-                "weight": 3.8461538461538463, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "side of head, temple"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "cheek"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 41.88034188034188, 
-                "weight": 41.88034188034188, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "face"
-            }
-        ]
-    ]
+    "graph": []
 }

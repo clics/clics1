@@ -1,97 +1,148 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "smith, blacksmith", 
+            "normalized_weight": 1.5873015873015872, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "9.6", 
+            "label": "smith, blacksmith", 
+            "swadesh100": 0.0, 
+            "frequency": 172.0, 
+            "weight": 1.0, 
             "community": 194, 
+            "out_edge": [], 
             "id": "smith, blacksmith", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
-            "key": "9.61", 
-            "community": 194, 
-            "id": "forge", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.35", 
-            "community": 194, 
-            "id": "pour", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "cast (metals)", 
+            "normalized_weight": 1.7857142857142856, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "9.63", 
+            "label": "cast (metals)", 
+            "swadesh100": 0.0, 
+            "frequency": 143.0, 
+            "weight": 1.0, 
             "community": 194, 
-            "id": "cast (metals)", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "cast (metals)", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "pour", 
+            "normalized_weight": 0.847457627118644, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "9.35", 
+            "label": "pour", 
+            "swadesh100": 0.0, 
+            "frequency": 285.0, 
+            "weight": 1.0, 
+            "community": 194, 
+            "out_edge": [
+                [
+                    "cluster_80_run", 
+                    "flow", 
+                    5.0, 
+                    22.123893805309734
+                ]
+            ], 
+            "id": "pour", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "forge", 
+            "normalized_weight": 8.51063829787234, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "9.61", 
+            "label": "forge", 
+            "swadesh100": 0.0, 
+            "frequency": 144.0, 
+            "weight": 2.0, 
+            "community": 194, 
+            "out_edge": [], 
+            "id": "forge", 
+            "languages": 2.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 1.5873015873015872, 
+                "normalized_weight": 1.5873015873015872, 
                 "families": 1.0, 
-                "id": "smith, blacksmith"
+                "id": "smith, blacksmith", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 7.4074074074074066, 
+                "normalized_weight": 7.4074074074074066, 
                 "families": 2.0, 
-                "id": "forge"
+                "id": "forge", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "smith, blacksmith"
+                "weight": 46.75324675324675, 
+                "normalized_weight": 46.75324675324675, 
+                "families": 6.0, 
+                "id": "pour", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 28.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 8.51063829787234, 
+                "normalized_weight": 8.51063829787234, 
                 "families": 2.0, 
-                "id": "cast (metals)"
+                "id": "forge", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 46.75324675324675, 
+                "normalized_weight": 46.75324675324675, 
+                "families": 6.0, 
+                "id": "cast (metals)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 0.8695652173913043, 
+                "normalized_weight": 0.8695652173913043, 
                 "families": 1.0, 
-                "id": "pour"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 28.0, 
-                "families": 6.0, 
-                "id": "cast (metals)"
+                "id": "pour", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 7.4074074074074066, 
+                "normalized_weight": 7.4074074074074066, 
                 "families": 2.0, 
-                "id": "forge"
+                "id": "smith, blacksmith", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 28.0, 
-                "families": 6.0, 
-                "id": "pour"
+                "weight": 8.51063829787234, 
+                "normalized_weight": 8.51063829787234, 
+                "families": 2.0, 
+                "id": "cast (metals)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

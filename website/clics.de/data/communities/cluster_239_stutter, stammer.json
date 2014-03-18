@@ -1,74 +1,100 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "stutter, stammer", 
-                "edge_width": 1.0, 
-                "weight": 1.0309278350515463, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "mumble", 
-                "edge_width": 1.0, 
-                "weight": 4.761904761904762, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "mumble", 
-                "edge_width": 1.0, 
-                "weight": 41.86046511627907, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "stutter, stammer", 
-                "edge_width": 1.0, 
-                "weight": 4.761904761904762, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "whisper", 
-                "edge_width": 1.0, 
-                "weight": 41.86046511627907, 
-                "families": 6.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "stutter, stammer", 
+            "normalized_weight": 0.9615384615384616, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.211", 
+            "label": "stutter, stammer", 
+            "swadesh100": 0.0, 
+            "frequency": 227.0, 
+            "weight": 1.0, 
             "community": 239, 
+            "out_edge": [], 
             "id": "stutter, stammer", 
-            "key": "18.211"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "mumble", 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.16", 
+            "label": "mumble", 
+            "swadesh100": 0.0, 
+            "frequency": 191.0, 
+            "weight": 1.0, 
             "community": 239, 
-            "id": "whisper", 
-            "key": "18.15"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 239, 
             "id": "mumble", 
-            "key": "18.16"
+            "languages": 1.0
+        }, 
+        {
+            "concept": "whisper", 
+            "normalized_weight": 0.9803921568627451, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.15", 
+            "label": "whisper", 
+            "swadesh100": 0.0, 
+            "frequency": 217.0, 
+            "weight": 1.0, 
+            "community": 239, 
+            "out_edge": [], 
+            "id": "whisper", 
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.0309278350515463, 
+                "normalized_weight": 1.0309278350515463, 
+                "families": 1.0, 
+                "id": "stutter, stammer", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 4.761904761904762, 
+                "normalized_weight": 4.761904761904762, 
+                "families": 2.0, 
+                "id": "mumble", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 4.761904761904762, 
+                "normalized_weight": 4.761904761904762, 
+                "families": 2.0, 
+                "id": "stutter, stammer", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 41.86046511627907, 
+                "normalized_weight": 41.86046511627907, 
+                "families": 6.0, 
+                "id": "whisper", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 41.86046511627907, 
+                "normalized_weight": 41.86046511627907, 
+                "families": 6.0, 
+                "id": "mumble", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 6.0
+            }
+        ]
     ], 
     "graph": []
 }

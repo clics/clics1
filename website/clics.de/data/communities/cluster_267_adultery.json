@@ -1,41 +1,55 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "adultery", 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "21.43", 
-            "body_part": 0, 
+            "label": "adultery", 
+            "swadesh100": 0.0, 
+            "frequency": 179.0, 
+            "weight": 1.0, 
             "community": 267, 
-            "id": "adultery", 
             "out_edge": [], 
-            "swadesh100": 0
+            "id": "adultery", 
+            "languages": 1.0
         }, 
         {
+            "concept": "prostitute", 
+            "body_part": 0.0, 
             "key": "19.72", 
-            "body_part": 0, 
+            "label": "prostitute", 
+            "swadesh100": 0.0, 
+            "frequency": 236.0, 
             "community": 267, 
-            "id": "prostitute", 
             "out_edge": [], 
-            "swadesh100": 0
+            "id": "prostitute"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 40.0, 
-                "languages": 3.0, 
+                "weight": 5.0, 
+                "normalized_weight": 5.0, 
                 "families": 2.0, 
-                "id": "prostitute"
+                "id": "prostitute", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 40.0, 
-                "languages": 3.0, 
+                "weight": 5.0, 
+                "normalized_weight": 5.0, 
                 "families": 2.0, 
-                "id": "adultery"
+                "id": "adultery", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

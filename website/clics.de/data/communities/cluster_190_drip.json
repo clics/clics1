@@ -1,32 +1,34 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 247.25274725274727, 
+                "normalized_weight": 247.25274725274727, 
+                "languages": 22.0, 
+                "families": 15.0, 
+                "edge_width": 2.8265306122448979, 
+                "id": "dribble"
+            }
+        ], 
+        [
+            {
+                "weight": 247.25274725274727, 
+                "normalized_weight": 247.25274725274727, 
+                "languages": 22.0, 
+                "families": 15.0, 
+                "edge_width": 2.8265306122448979, 
+                "id": "drip"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 22.0, 
-            "weight": 15.0, 
-            "swadesh100": 0.0, 
-            "families": 15.0, 
-            "concept": "dribble", 
-            "key": "4.591", 
-            "id": "dribble", 
-            "community": 190, 
-            "out_edge": [], 
-            "normalized_weight": 247.25274725274727, 
-            "label": "dribble", 
-            "frequency": 208.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "drip", 
             "key": "10.24", 
-            "id": "drip", 
-            "community": 190, 
+            "swadesh100": 0.0, 
+            "frequency": 258.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_141_fall", 
@@ -35,32 +37,30 @@
                     23.364485981308412
                 ]
             ], 
-            "normalized_weight": 0.9090909090909091, 
             "label": "drip", 
-            "frequency": 258.0
+            "concept": "drip", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 190, 
+            "normalized_weight": 0.9090909090909091, 
+            "families": 1.0, 
+            "id": "drip"
+        }, 
+        {
+            "key": "4.591", 
+            "swadesh100": 0.0, 
+            "frequency": 208.0, 
+            "languages": 22.0, 
+            "out_edge": [], 
+            "label": "dribble", 
+            "concept": "dribble", 
+            "weight": 15.0, 
+            "body_part": 0.0, 
+            "community": 190, 
+            "normalized_weight": 247.25274725274727, 
+            "families": 15.0, 
+            "id": "dribble"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 22.0, 
-                "normalized_weight": 247.25274725274727, 
-                "weight": 247.25274725274727, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "drip"
-            }
-        ], 
-        [
-            {
-                "languages": 22.0, 
-                "normalized_weight": 247.25274725274727, 
-                "weight": 247.25274725274727, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "dribble"
-            }
-        ]
-    ]
+    "graph": []
 }

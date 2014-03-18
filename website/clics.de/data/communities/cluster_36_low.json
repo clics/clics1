@@ -1,16 +1,17 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "low", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "12.32", 
-            "id": "low", 
+            "label": "low", 
+            "swadesh100": 0.0, 
+            "frequency": 241.0, 
+            "weight": 1.0, 
             "community": 36, 
             "out_edge": [
                 [
@@ -26,78 +27,19 @@
                     22.123893805309734
                 ]
             ], 
-            "normalized_weight": 0.8695652173913043, 
-            "label": "low", 
-            "frequency": 241.0
+            "id": "low", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "under", 
-            "key": "12.7", 
-            "id": "under", 
-            "community": 36, 
-            "out_edge": [
-                [
-                    "cluster_15_leg", 
-                    "bottom", 
-                    5.0, 
-                    25.510204081632654
-                ]
-            ], 
-            "normalized_weight": 1.1363636363636365, 
-            "label": "under", 
-            "frequency": 221.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "inside, in", 
-            "key": "12.5", 
-            "id": "inside, in", 
-            "community": 36, 
-            "out_edge": [], 
-            "normalized_weight": 1.0752688172043012, 
-            "label": "inside, in", 
-            "frequency": 273.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 6.0, 
-            "weight": 5.0, 
-            "swadesh100": 0.0, 
-            "families": 5.0, 
-            "concept": "down, below", 
-            "key": "12.3", 
-            "id": "down, below", 
-            "community": 36, 
-            "out_edge": [
-                [
-                    "cluster_15_leg", 
-                    "bottom", 
-                    5.0, 
-                    24.752475247524753
-                ]
-            ], 
-            "normalized_weight": 24.752475247524753, 
-            "label": "down, below", 
-            "frequency": 277.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "short", 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "12.59", 
-            "id": "short", 
+            "label": "short", 
+            "swadesh100": 0.0, 
+            "frequency": 266.0, 
+            "weight": 1.0, 
             "community": 36, 
             "out_edge": [
                 [
@@ -107,19 +49,78 @@
                     41.52542372881356
                 ]
             ], 
-            "normalized_weight": 0.8264462809917356, 
-            "label": "short", 
-            "frequency": 266.0
+            "id": "short", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
+            "concept": "inside, in", 
+            "normalized_weight": 1.0752688172043012, 
             "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.5", 
+            "label": "inside, in", 
+            "swadesh100": 0.0, 
+            "frequency": 273.0, 
+            "weight": 1.0, 
+            "community": 36, 
+            "out_edge": [], 
+            "id": "inside, in", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "under", 
+            "normalized_weight": 1.1363636363636365, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.7", 
+            "label": "under", 
+            "swadesh100": 0.0, 
+            "frequency": 221.0, 
+            "weight": 1.0, 
+            "community": 36, 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    5.0, 
+                    25.510204081632654
+                ]
+            ], 
+            "id": "under", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "down, below", 
+            "normalized_weight": 24.752475247524753, 
+            "families": 5.0, 
+            "body_part": 0.0, 
+            "key": "12.3", 
+            "label": "down, below", 
+            "swadesh100": 0.0, 
+            "frequency": 277.0, 
+            "weight": 5.0, 
+            "community": 36, 
+            "out_edge": [
+                [
+                    "cluster_15_leg", 
+                    "bottom", 
+                    5.0, 
+                    24.752475247524753
+                ]
+            ], 
+            "id": "down, below", 
+            "languages": 6.0
+        }, 
+        {
             "concept": "shallow", 
+            "normalized_weight": 1.2048192771084338, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "12.68", 
-            "id": "shallow", 
+            "label": "shallow", 
+            "swadesh100": 0.0, 
+            "frequency": 230.0, 
+            "weight": 1.0, 
             "community": 36, 
             "out_edge": [
                 [
@@ -129,192 +130,191 @@
                     22.727272727272727
                 ]
             ], 
-            "normalized_weight": 1.2048192771084338, 
-            "label": "shallow", 
-            "frequency": 230.0
+            "id": "shallow", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 18.0, 
-                "normalized_weight": 158.24175824175825, 
+                "weight": 52.68817204301075, 
+                "normalized_weight": 52.68817204301075, 
+                "families": 7.0, 
+                "id": "under", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 9.0
+            }, 
+            {
                 "weight": 158.24175824175825, 
-                "edge_width": 1.7941176470588236, 
+                "normalized_weight": 158.24175824175825, 
                 "families": 12.0, 
-                "id": "down, below"
+                "id": "down, below", 
+                "edge_width": 2.3775510204081636, 
+                "languages": 18.0
             }, 
             {
-                "languages": 9.0, 
-                "normalized_weight": 52.68817204301075, 
-                "weight": 52.68817204301075, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "under"
-            }, 
-            {
-                "languages": 12.0, 
-                "normalized_weight": 64.64646464646465, 
                 "weight": 64.64646464646465, 
-                "edge_width": 1.2647058823529411, 
+                "normalized_weight": 64.64646464646465, 
                 "families": 8.0, 
-                "id": "shallow"
+                "id": "shallow", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 12.0
             }, 
             {
-                "languages": 21.0, 
-                "normalized_weight": 334.02061855670104, 
                 "weight": 334.02061855670104, 
-                "edge_width": 2.5882352941176472, 
+                "normalized_weight": 334.02061855670104, 
                 "families": 18.0, 
-                "id": "short"
+                "id": "short", 
+                "edge_width": 4.0306122448979593, 
+                "languages": 21.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.9803921568627451, 
                 "weight": 0.9803921568627451, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.9803921568627451, 
                 "families": 1.0, 
-                "id": "inside, in"
+                "id": "inside, in", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ], 
         [
             {
-                "languages": 9.0, 
-                "normalized_weight": 52.68817204301075, 
-                "weight": 52.68817204301075, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "low"
+                "weight": 334.02061855670104, 
+                "normalized_weight": 334.02061855670104, 
+                "families": 18.0, 
+                "id": "low", 
+                "edge_width": 4.0306122448979593, 
+                "languages": 21.0
             }, 
             {
-                "languages": 68.0, 
-                "normalized_weight": 663.013698630137, 
-                "weight": 663.013698630137, 
-                "edge_width": 4.4411764705882355, 
-                "families": 22.0, 
-                "id": "down, below"
-            }, 
+                "weight": 3.571428571428571, 
+                "normalized_weight": 3.571428571428571, 
+                "families": 2.0, 
+                "id": "shallow", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
             {
-                "languages": 8.0, 
-                "normalized_weight": 55.68181818181818, 
                 "weight": 55.68181818181818, 
-                "edge_width": 1.2647058823529411, 
+                "normalized_weight": 55.68181818181818, 
                 "families": 7.0, 
-                "id": "inside, in"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9803921568627451, 
-                "weight": 0.9803921568627451, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "low"
+                "id": "under", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 8.0
             }, 
             {
-                "languages": 6.0, 
-                "normalized_weight": 39.130434782608695, 
                 "weight": 39.130434782608695, 
-                "edge_width": 1.0, 
+                "normalized_weight": 39.130434782608695, 
                 "families": 6.0, 
-                "id": "down, below"
+                "id": "down, below", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
             }, 
             {
-                "languages": 8.0, 
-                "normalized_weight": 55.68181818181818, 
-                "weight": 55.68181818181818, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "under"
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "families": 1.0, 
+                "id": "low", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.0309278350515463, 
                 "weight": 1.0309278350515463, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.0309278350515463, 
                 "families": 1.0, 
-                "id": "inside, in"
+                "id": "inside, in", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ], 
         [
             {
-                "languages": 18.0, 
-                "normalized_weight": 158.24175824175825, 
-                "weight": 158.24175824175825, 
-                "edge_width": 1.7941176470588236, 
-                "families": 12.0, 
-                "id": "low"
-            }, 
-            {
-                "languages": 68.0, 
-                "normalized_weight": 663.013698630137, 
                 "weight": 663.013698630137, 
-                "edge_width": 4.4411764705882355, 
+                "normalized_weight": 663.013698630137, 
                 "families": 22.0, 
-                "id": "under"
+                "id": "down, below", 
+                "edge_width": 6.7857142857142856, 
+                "languages": 68.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.9900990099009901, 
+                "weight": 52.68817204301075, 
+                "normalized_weight": 52.68817204301075, 
+                "families": 7.0, 
+                "id": "low", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 55.68181818181818, 
+                "normalized_weight": 55.68181818181818, 
+                "families": 7.0, 
+                "id": "inside, in", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 663.013698630137, 
+                "normalized_weight": 663.013698630137, 
+                "families": 22.0, 
+                "id": "under", 
+                "edge_width": 6.7857142857142856, 
+                "languages": 68.0
+            }, 
+            {
+                "weight": 158.24175824175825, 
+                "normalized_weight": 158.24175824175825, 
+                "families": 12.0, 
+                "id": "low", 
+                "edge_width": 2.3775510204081636, 
+                "languages": 18.0
+            }, 
+            {
                 "weight": 0.9900990099009901, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.9900990099009901, 
                 "families": 1.0, 
-                "id": "shallow"
+                "id": "shallow", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "languages": 6.0, 
-                "normalized_weight": 39.130434782608695, 
                 "weight": 39.130434782608695, 
-                "edge_width": 1.0, 
+                "normalized_weight": 39.130434782608695, 
                 "families": 6.0, 
-                "id": "inside, in"
+                "id": "inside, in", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
             }
         ], 
         [
             {
-                "languages": 21.0, 
-                "normalized_weight": 334.02061855670104, 
-                "weight": 334.02061855670104, 
-                "edge_width": 2.5882352941176472, 
-                "families": 18.0, 
-                "id": "low"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.571428571428571, 
-                "weight": 3.571428571428571, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "shallow"
-            }
-        ], 
-        [
-            {
-                "languages": 12.0, 
-                "normalized_weight": 64.64646464646465, 
-                "weight": 64.64646464646465, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "low"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9900990099009901, 
                 "weight": 0.9900990099009901, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.9900990099009901, 
                 "families": 1.0, 
-                "id": "down, below"
+                "id": "down, below", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "languages": 2.0, 
-                "normalized_weight": 3.571428571428571, 
+                "weight": 64.64646464646465, 
+                "normalized_weight": 64.64646464646465, 
+                "families": 8.0, 
+                "id": "low", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 12.0
+            }, 
+            {
                 "weight": 3.571428571428571, 
-                "edge_width": 1.0, 
+                "normalized_weight": 3.571428571428571, 
                 "families": 2.0, 
-                "id": "short"
+                "id": "short", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

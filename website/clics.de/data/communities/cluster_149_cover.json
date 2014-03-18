@@ -1,49 +1,65 @@
 {
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 27.0, 
-                "id": "shut, close", 
-                "edge_width": 3.3823529411764706, 
                 "weight": 459.375, 
-                "families": 21.0
+                "normalized_weight": 459.375, 
+                "languages": 27.0, 
+                "families": 21.0, 
+                "edge_width": 4.8622448979591839, 
+                "id": "shut, close"
             }
         ], 
         [
             {
-                "languages": 27.0, 
-                "id": "cover", 
-                "edge_width": 3.3823529411764706, 
                 "weight": 459.375, 
-                "families": 21.0
+                "normalized_weight": 459.375, 
+                "languages": 27.0, 
+                "families": 21.0, 
+                "edge_width": 4.8622448979591839, 
+                "id": "cover"
             }
         ]
     ], 
-    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "key": "12.26", 
+            "swadesh100": 0.0, 
+            "frequency": 293.0, 
+            "languages": 2.0, 
             "out_edge": [], 
+            "label": "cover", 
+            "concept": "cover", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
             "community": 149, 
-            "id": "cover", 
-            "key": "12.26"
+            "normalized_weight": 3.8095238095238098, 
+            "families": 2.0, 
+            "id": "cover"
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "key": "12.25", 
+            "swadesh100": 0.0, 
+            "frequency": 277.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
-                    "cluster_230_tie, bind", 
+                    "cluster_229_knot (noun)", 
                     "tie, bind", 
                     4.0, 
                     13.675213675213676
                 ]
             ], 
+            "label": "shut, close", 
+            "concept": "shut, close", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 149, 
-            "id": "shut, close", 
-            "key": "12.25"
+            "normalized_weight": 0.9090909090909091, 
+            "families": 1.0, 
+            "id": "shut, close"
         }
     ], 
     "graph": []

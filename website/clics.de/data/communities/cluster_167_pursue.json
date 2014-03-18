@@ -1,41 +1,73 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "pursue", 
+            "normalized_weight": 0.9433962264150944, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "10.53", 
+            "label": "pursue", 
+            "swadesh100": 0.0, 
+            "frequency": 256.0, 
+            "weight": 1.0, 
             "community": 167, 
+            "out_edge": [
+                [
+                    "cluster_138_throw", 
+                    "hunt", 
+                    4.0, 
+                    14.285714285714285
+                ]
+            ], 
             "id": "pursue", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
+            "concept": "follow", 
+            "normalized_weight": 3.5398230088495577, 
+            "families": 2.0, 
+            "body_part": 0.0, 
             "key": "10.52", 
+            "label": "follow", 
+            "swadesh100": 0.0, 
+            "frequency": 271.0, 
+            "weight": 2.0, 
             "community": 167, 
+            "out_edge": [
+                [
+                    "cluster_11_know", 
+                    "obey", 
+                    4.0, 
+                    14.545454545454545
+                ]
+            ], 
             "id": "follow", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 2.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 3.9117647058823528, 
-                "languages": 34.0, 
+                "weight": 587.7777777777778, 
+                "normalized_weight": 587.7777777777778, 
                 "families": 23.0, 
-                "id": "follow"
+                "id": "follow", 
+                "edge_width": 6.1428571428571432, 
+                "languages": 34.0
             }
         ], 
         [
             {
-                "weight": 3.9117647058823528, 
-                "languages": 34.0, 
+                "weight": 587.7777777777778, 
+                "normalized_weight": 587.7777777777778, 
                 "families": 23.0, 
-                "id": "pursue"
+                "id": "pursue", 
+                "edge_width": 6.1428571428571432, 
+                "languages": 34.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

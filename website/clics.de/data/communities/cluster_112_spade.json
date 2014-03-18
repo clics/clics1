@@ -1,59 +1,21 @@
 {
+    "directed": false, 
     "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 76.5625, 
-                "id": "hoe", 
-                "families": 7.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 549.1525423728813, 
-                "id": "shovel", 
-                "families": 18.0, 
-                "languages": 61.0
-            }
-        ], 
-        [
-            {
-                "weight": 549.1525423728813, 
-                "id": "spade", 
-                "families": 18.0, 
-                "languages": 61.0
-            }, 
-            {
-                "weight": 11.688311688311687, 
-                "id": "hoe", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ], 
-        [
-            {
-                "weight": 76.5625, 
-                "id": "spade", 
-                "families": 7.0, 
-                "languages": 8.0
-            }, 
-            {
-                "weight": 11.688311688311687, 
-                "id": "shovel", 
-                "families": 3.0, 
-                "languages": 3.0
-            }
-        ]
-    ], 
     "nodes": [
         {
-            "community": 112, 
-            "id": "spade", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "spade", 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "8.23", 
+            "label": "spade", 
+            "swadesh100": 0.0, 
+            "frequency": 194.0, 
+            "weight": 1.0, 
+            "community": 112, 
             "out_edge": [
                 [
-                    "cluster_134_oar", 
+                    "cluster_134_paddle (noun)", 
                     "paddle (noun)", 
                     4.0, 
                     20.0
@@ -64,25 +26,96 @@
                     4.0, 
                     19.753086419753085
                 ]
-            ]
+            ], 
+            "id": "spade", 
+            "languages": 1.0
         }, 
         {
-            "community": 112, 
-            "id": "shovel", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.24", 
-            "out_edge": []
-        }, 
-        {
-            "community": 112, 
-            "id": "hoe", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "hoe", 
+            "normalized_weight": 1.0309278350515463, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "8.25", 
-            "out_edge": []
+            "label": "hoe", 
+            "swadesh100": 0.0, 
+            "frequency": 191.0, 
+            "weight": 1.0, 
+            "community": 112, 
+            "out_edge": [], 
+            "id": "hoe", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "shovel", 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "8.24", 
+            "label": "shovel", 
+            "swadesh100": 0.0, 
+            "frequency": 222.0, 
+            "weight": 1.0, 
+            "community": 112, 
+            "out_edge": [], 
+            "id": "shovel", 
+            "languages": 1.0
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "adjacency": [
+        [
+            {
+                "weight": 76.5625, 
+                "normalized_weight": 76.5625, 
+                "families": 7.0, 
+                "id": "hoe", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 549.1525423728813, 
+                "normalized_weight": 549.1525423728813, 
+                "families": 18.0, 
+                "id": "shovel", 
+                "edge_width": 5.8673469387755102, 
+                "languages": 61.0
+            }
+        ], 
+        [
+            {
+                "weight": 76.5625, 
+                "normalized_weight": 76.5625, 
+                "families": 7.0, 
+                "id": "spade", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 11.688311688311687, 
+                "normalized_weight": 11.688311688311687, 
+                "families": 3.0, 
+                "id": "shovel", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 549.1525423728813, 
+                "normalized_weight": 549.1525423728813, 
+                "families": 18.0, 
+                "id": "spade", 
+                "edge_width": 5.8673469387755102, 
+                "languages": 61.0
+            }, 
+            {
+                "weight": 11.688311688311687, 
+                "normalized_weight": 11.688311688311687, 
+                "families": 3.0, 
+                "id": "hoe", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }
+        ]
+    ], 
+    "graph": []
 }

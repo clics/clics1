@@ -1,57 +1,75 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 7.0, 
-                "id": "he/she/it", 
-                "edge_width": 1.0, 
-                "weight": 13.333333333333334, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 20.0, 
-                "id": "they", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 108.03571428571428, 
-                "families": 11.0
-            }
-        ], 
-        [
-            {
-                "languages": 20.0, 
-                "id": "he/she/it", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 108.03571428571428, 
-                "families": 11.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "they", 
-                "edge_width": 1.0, 
-                "weight": 0.8264462809917356, 
-                "families": 1.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "he/she/it", 
+            "normalized_weight": 0.8130081300813009, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "2.93", 
+            "label": "he/she/it", 
+            "swadesh100": 0.0, 
+            "frequency": 405.0, 
+            "weight": 1.0, 
             "community": 218, 
+            "out_edge": [], 
             "id": "he/she/it", 
-            "key": "2.93"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "they", 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "2.96", 
+            "label": "they", 
+            "swadesh100": 0.0, 
+            "frequency": 302.0, 
+            "weight": 1.0, 
             "community": 218, 
+            "out_edge": [], 
             "id": "they", 
-            "key": "2.96"
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 13.333333333333334, 
+                "normalized_weight": 13.333333333333334, 
+                "families": 4.0, 
+                "id": "he/she/it", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 7.0
+            }, 
+            {
+                "weight": 108.03571428571428, 
+                "normalized_weight": 108.03571428571428, 
+                "families": 11.0, 
+                "id": "they", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 20.0
+            }
+        ], 
+        [
+            {
+                "weight": 108.03571428571428, 
+                "normalized_weight": 108.03571428571428, 
+                "families": 11.0, 
+                "id": "he/she/it", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 20.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "families": 1.0, 
+                "id": "they", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ]
     ], 
     "graph": []
 }

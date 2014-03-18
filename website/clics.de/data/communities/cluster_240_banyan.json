@@ -1,67 +1,88 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 7.0, 
-                "id": "fig", 
-                "edge_width": 1.0, 
-                "weight": 10.81081081081081, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "olive", 
-                "edge_width": 1.0, 
-                "weight": 2.857142857142857, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "id": "banyan", 
-                "edge_width": 1.0, 
-                "weight": 10.81081081081081, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "banyan", 
-                "edge_width": 1.0, 
-                "weight": 2.857142857142857, 
-                "families": 1.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "fig", 
+            "body_part": 0.0, 
+            "key": "5.75", 
+            "label": "fig", 
+            "swadesh100": 0.0, 
+            "frequency": 131.0, 
             "community": 240, 
-            "id": "banyan", 
-            "key": "8.85"
+            "out_edge": [], 
+            "id": "fig"
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "olive", 
+            "normalized_weight": 1.4084507042253522, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.78", 
+            "label": "olive", 
+            "swadesh100": 0.0, 
+            "frequency": 90.0, 
+            "weight": 1.0, 
             "community": 240, 
-            "id": "fig", 
-            "key": "5.75"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 240, 
             "id": "olive", 
-            "key": "5.78"
+            "languages": 1.0
+        }, 
+        {
+            "concept": "banyan", 
+            "normalized_weight": 10.81081081081081, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "8.85", 
+            "label": "banyan", 
+            "swadesh100": 0.0, 
+            "frequency": 98.0, 
+            "weight": 2.0, 
+            "community": 240, 
+            "out_edge": [], 
+            "id": "banyan", 
+            "languages": 7.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 10.81081081081081, 
+                "normalized_weight": 10.81081081081081, 
+                "families": 2.0, 
+                "id": "banyan", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 2.857142857142857, 
+                "normalized_weight": 2.857142857142857, 
+                "families": 1.0, 
+                "id": "banyan", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 2.857142857142857, 
+                "normalized_weight": 2.857142857142857, 
+                "families": 1.0, 
+                "id": "olive", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 10.81081081081081, 
+                "normalized_weight": 10.81081081081081, 
+                "families": 2.0, 
+                "id": "fig", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 7.0
+            }
+        ]
     ], 
     "graph": []
 }

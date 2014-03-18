@@ -1,41 +1,54 @@
 {
+    "directed": false, 
     "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "sugar", 
+            "normalized_weight": 1.1363636363636365, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.85", 
+            "label": "sugar", 
+            "swadesh100": 0.0, 
+            "frequency": 169.0, 
+            "weight": 1.0, 
+            "community": 256, 
+            "out_edge": [], 
+            "id": "sugar", 
+            "languages": 1.0
+        }, 
+        {
+            "normalized_weight": 19.047619047619047, 
+            "families": 4.0, 
+            "key": "8.941", 
+            "out_edge": [], 
+            "weight": 4.0, 
+            "community": 256, 
+            "id": "sugar cane", 
+            "languages": 4.0
+        }
+    ], 
     "adjacency": [
         [
             {
                 "weight": 19.047619047619047, 
-                "id": "sugar cane", 
+                "normalized_weight": 19.047619047619047, 
                 "families": 4.0, 
+                "id": "sugar cane", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 4.0
             }
         ], 
         [
             {
                 "weight": 19.047619047619047, 
-                "id": "sugar", 
+                "normalized_weight": 19.047619047619047, 
                 "families": 4.0, 
+                "id": "sugar", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 4.0
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 256, 
-            "id": "sugar", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "5.85", 
-            "out_edge": []
-        }, 
-        {
-            "community": 256, 
-            "id": "sugar cane", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "8.941", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

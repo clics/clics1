@@ -1,115 +1,115 @@
 {
-    "graph": [], 
-    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "normalized_weight": 97.59036144578313, 
+                "id": "perjury", 
+                "languages": 9.0, 
+                "weight": 97.59036144578313, 
+                "families": 9.0, 
+                "edge_width": 1.5806451612903225
+            }, 
+            {
+                "normalized_weight": 93.45794392523365, 
+                "id": "deceit", 
+                "languages": 17.0, 
+                "weight": 93.45794392523365, 
+                "families": 10.0, 
+                "edge_width": 1.5806451612903225
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 93.45794392523365, 
+                "id": "lie, tell lies", 
+                "languages": 17.0, 
+                "weight": 93.45794392523365, 
+                "families": 10.0, 
+                "edge_width": 1.5806451612903225
+            }, 
+            {
+                "normalized_weight": 46.75324675324675, 
+                "id": "perjury", 
+                "languages": 6.0, 
+                "weight": 46.75324675324675, 
+                "families": 6.0, 
+                "edge_width": 1.2903225806451613
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 97.59036144578313, 
+                "id": "lie, tell lies", 
+                "languages": 9.0, 
+                "weight": 97.59036144578313, 
+                "families": 9.0, 
+                "edge_width": 1.5806451612903225
+            }, 
+            {
+                "normalized_weight": 46.75324675324675, 
+                "id": "deceit", 
+                "languages": 6.0, 
+                "weight": 46.75324675324675, 
+                "families": 6.0, 
+                "edge_width": 1.2903225806451613
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 17.0, 
-            "weight": 10.0, 
-            "swadesh100": 0.0, 
-            "families": 10.0, 
-            "concept": "lie, tell lies", 
-            "key": "16.67", 
-            "id": "lie, tell lies", 
-            "community": 160, 
             "out_edge": [], 
+            "id": "lie, tell lies", 
+            "frequency": 286.0, 
+            "languages": 17.0, 
+            "key": "16.67", 
+            "swadesh100": 0.0, 
             "normalized_weight": 93.45794392523365, 
+            "body_part": 0.0, 
             "label": "lie, tell lies", 
-            "frequency": 286.0
+            "community": 160, 
+            "concept": "lie, tell lies", 
+            "weight": 10.0, 
+            "families": 10.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "deceit", 
-            "key": "16.68", 
-            "id": "deceit", 
-            "community": 160, 
             "out_edge": [
                 [
-                    "cluster_10_lend", 
+                    "cluster_10_betray", 
                     "betray", 
                     6.0, 
                     40.0
                 ]
             ], 
+            "id": "deceit", 
+            "frequency": 252.0, 
+            "languages": 1.0, 
+            "key": "16.68", 
+            "swadesh100": 0.0, 
             "normalized_weight": 0.8620689655172413, 
+            "body_part": 0.0, 
             "label": "deceit", 
-            "frequency": 252.0
+            "community": 160, 
+            "concept": "deceit", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "perjury", 
-            "key": "21.47", 
-            "id": "perjury", 
-            "community": 160, 
             "out_edge": [], 
+            "id": "perjury", 
+            "frequency": 142.0, 
+            "languages": 3.0, 
+            "key": "21.47", 
+            "swadesh100": 0.0, 
             "normalized_weight": 16.9811320754717, 
+            "body_part": 0.0, 
             "label": "perjury", 
-            "frequency": 142.0
+            "community": 160, 
+            "concept": "perjury", 
+            "weight": 3.0, 
+            "families": 3.0
         }
     ], 
+    "graph": [], 
     "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 17.0, 
-                "normalized_weight": 93.45794392523365, 
-                "weight": 93.45794392523365, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "deceit"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 97.59036144578313, 
-                "weight": 97.59036144578313, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "perjury"
-            }
-        ], 
-        [
-            {
-                "languages": 17.0, 
-                "normalized_weight": 93.45794392523365, 
-                "weight": 93.45794392523365, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "lie, tell lies"
-            }, 
-            {
-                "languages": 6.0, 
-                "normalized_weight": 46.75324675324675, 
-                "weight": 46.75324675324675, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "perjury"
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "normalized_weight": 97.59036144578313, 
-                "weight": 97.59036144578313, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "lie, tell lies"
-            }, 
-            {
-                "languages": 6.0, 
-                "normalized_weight": 46.75324675324675, 
-                "weight": 46.75324675324675, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "deceit"
-            }
-        ]
-    ]
+    "multigraph": false
 }

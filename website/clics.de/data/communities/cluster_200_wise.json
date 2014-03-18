@@ -1,59 +1,59 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "wise", 
-            "key": "17.21", 
-            "id": "wise", 
-            "community": 200, 
-            "out_edge": [], 
-            "normalized_weight": 1.0101010101010102, 
-            "label": "wise", 
-            "frequency": 248.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "clever", 
-            "key": "16.84", 
-            "id": "clever", 
-            "community": 200, 
-            "out_edge": [], 
-            "normalized_weight": 0.9708737864077669, 
-            "label": "clever", 
-            "frequency": 263.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 43.0, 
-                "normalized_weight": 220.2247191011236, 
                 "weight": 220.2247191011236, 
-                "edge_width": 2.0588235294117645, 
+                "normalized_weight": 220.2247191011236, 
+                "languages": 43.0, 
                 "families": 14.0, 
+                "edge_width": 2.6326530612244898, 
                 "id": "clever"
             }
         ], 
         [
             {
-                "languages": 43.0, 
-                "normalized_weight": 220.2247191011236, 
                 "weight": 220.2247191011236, 
-                "edge_width": 2.0588235294117645, 
+                "normalized_weight": 220.2247191011236, 
+                "languages": 43.0, 
                 "families": 14.0, 
+                "edge_width": 2.6326530612244898, 
                 "id": "wise"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "17.21", 
+            "swadesh100": 0.0, 
+            "frequency": 248.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "wise", 
+            "concept": "wise", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 200, 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "id": "wise"
+        }, 
+        {
+            "key": "16.84", 
+            "swadesh100": 0.0, 
+            "frequency": 263.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "clever", 
+            "concept": "clever", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 200, 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "id": "clever"
+        }
+    ], 
+    "graph": []
 }

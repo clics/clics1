@@ -1,75 +1,104 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0, 
-            "community": 148, 
-            "id": "yam", 
+            "concept": "yam", 
+            "normalized_weight": 1.1111111111111112, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "8.912", 
+            "label": "yam", 
+            "swadesh100": 0.0, 
+            "frequency": 100.0, 
+            "weight": 1.0, 
+            "community": 148, 
             "out_edge": [], 
-            "swadesh100": 0
+            "id": "yam", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0, 
-            "community": 148, 
-            "id": "sweet potato", 
+            "concept": "sweet potato", 
+            "body_part": 0.0, 
             "key": "8.91", 
+            "label": "sweet potato", 
+            "swadesh100": 0.0, 
+            "frequency": 156.0, 
+            "community": 148, 
             "out_edge": [], 
-            "swadesh100": 0
+            "id": "sweet potato"
         }, 
         {
-            "body_part": 0, 
-            "community": 148, 
-            "id": "potato", 
+            "concept": "potato", 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "5.7", 
+            "label": "potato", 
+            "swadesh100": 0.0, 
+            "frequency": 206.0, 
+            "weight": 1.0, 
+            "community": 148, 
             "out_edge": [], 
-            "swadesh100": 0
+            "id": "potato", 
+            "languages": 1.0
         }
     ], 
     "adjacency": [
         [
             {
-                "languages": 19.0, 
-                "weight": 3.5116279069767442, 
+                "weight": 268.25396825396825, 
+                "normalized_weight": 268.25396825396825, 
                 "families": 13.0, 
-                "id": "sweet potato"
+                "id": "sweet potato", 
+                "edge_width": 3.3877551020408165, 
+                "languages": 19.0
             }, 
             {
-                "languages": 4.0, 
-                "weight": 1.2325581395348837, 
+                "weight": 21.052631578947366, 
+                "normalized_weight": 21.052631578947366, 
                 "families": 4.0, 
-                "id": "potato"
+                "id": "potato", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 4.0
             }
         ], 
         [
             {
-                "languages": 19.0, 
-                "weight": 3.5116279069767442, 
+                "weight": 268.25396825396825, 
+                "normalized_weight": 268.25396825396825, 
                 "families": 13.0, 
-                "id": "yam"
+                "id": "yam", 
+                "edge_width": 3.3877551020408165, 
+                "languages": 19.0
             }, 
             {
-                "languages": 14.0, 
-                "weight": 2.941860465116279, 
+                "weight": 180.0, 
+                "normalized_weight": 180.0, 
                 "families": 12.0, 
-                "id": "potato"
+                "id": "potato", 
+                "edge_width": 2.6530612244897958, 
+                "languages": 14.0
             }
         ], 
         [
             {
-                "languages": 4.0, 
-                "weight": 1.2325581395348837, 
+                "weight": 21.052631578947366, 
+                "normalized_weight": 21.052631578947366, 
                 "families": 4.0, 
-                "id": "yam"
+                "id": "yam", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 4.0
             }, 
             {
-                "languages": 14.0, 
-                "weight": 2.941860465116279, 
+                "weight": 180.0, 
+                "normalized_weight": 180.0, 
                 "families": 12.0, 
-                "id": "sweet potato"
+                "id": "sweet potato", 
+                "edge_width": 2.6530612244897958, 
+                "languages": 14.0
             }
         ]
     ], 
-    "directed": false, 
-    "graph": [], 
-    "multigraph": false
+    "graph": []
 }

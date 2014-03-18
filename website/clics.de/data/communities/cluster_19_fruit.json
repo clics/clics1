@@ -1,92 +1,494 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 1.1494252873563218, 
+                "normalized_weight": 1.1494252873563218, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 5.063291139240507, 
+                "normalized_weight": 5.063291139240507, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "grain (barley, oats etc)"
+            }
+        ], 
+        [
+            {
+                "weight": 5.063291139240507, 
+                "normalized_weight": 5.063291139240507, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "rice"
+            }, 
+            {
+                "weight": 1.098901098901099, 
+                "normalized_weight": 1.098901098901099, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "grain (barley, oats etc)"
+            }, 
+            {
+                "weight": 465.1162790697675, 
+                "normalized_weight": 465.1162790697675, 
+                "languages": 36.0, 
+                "families": 20.0, 
+                "edge_width": 4.9591836734693873, 
+                "id": "seed"
+            }, 
+            {
+                "weight": 53.2608695652174, 
+                "normalized_weight": 53.2608695652174, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 10.227272727272728, 
+                "normalized_weight": 10.227272727272728, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "crop, harvest"
+            }, 
+            {
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "nut"
+            }, 
+            {
+                "weight": 9.183673469387756, 
+                "normalized_weight": 9.183673469387756, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "maize, corn"
+            }
+        ], 
+        [
+            {
+                "weight": 1.5384615384615385, 
+                "normalized_weight": 1.5384615384615385, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "citrus fruit"
+            }, 
+            {
+                "weight": 60.49382716049383, 
+                "normalized_weight": 60.49382716049383, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 5.128205128205128, 
+                "normalized_weight": 5.128205128205128, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "crop, harvest"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0416666666666665, 
+                "normalized_weight": 1.0416666666666665, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 1.4084507042253522, 
+                "normalized_weight": 1.4084507042253522, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "coconut"
+            }
+        ], 
+        [
+            {
+                "weight": 4.878048780487805, 
+                "normalized_weight": 4.878048780487805, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 1.5384615384615385, 
+                "normalized_weight": 1.5384615384615385, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "vegetables"
+            }
+        ], 
+        [
+            {
+                "weight": 1.1494252873563218, 
+                "normalized_weight": 1.1494252873563218, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "rice"
+            }, 
+            {
+                "weight": 53.2608695652174, 
+                "normalized_weight": 53.2608695652174, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "grain (barley, oats etc)"
+            }, 
+            {
+                "weight": 60.49382716049383, 
+                "normalized_weight": 60.49382716049383, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "vegetables"
+            }, 
+            {
+                "weight": 1.0416666666666665, 
+                "normalized_weight": 1.0416666666666665, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "palm tree"
+            }, 
+            {
+                "weight": 4.878048780487805, 
+                "normalized_weight": 4.878048780487805, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "citrus fruit"
+            }, 
+            {
+                "weight": 0.9523809523809524, 
+                "normalized_weight": 0.9523809523809524, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 26.881720430107524, 
+                "normalized_weight": 26.881720430107524, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "crop, harvest"
+            }, 
+            {
+                "weight": 33.64485981308411, 
+                "normalized_weight": 33.64485981308411, 
+                "languages": 11.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "seed"
+            }, 
+            {
+                "weight": 9.67741935483871, 
+                "normalized_weight": 9.67741935483871, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "nut"
+            }
+        ], 
+        [
+            {
+                "weight": 4.878048780487805, 
+                "normalized_weight": 4.878048780487805, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "crop, harvest"
+            }
+        ], 
+        [
+            {
+                "weight": 9.183673469387756, 
+                "normalized_weight": 9.183673469387756, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "grain (barley, oats etc)"
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "seed"
+            }
+        ], 
+        [
+            {
+                "weight": 86.17021276595744, 
+                "normalized_weight": 86.17021276595744, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "nut"
+            }, 
+            {
+                "weight": 33.64485981308411, 
+                "normalized_weight": 33.64485981308411, 
+                "languages": 11.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "maize, corn"
+            }, 
+            {
+                "weight": 465.1162790697675, 
+                "normalized_weight": 465.1162790697675, 
+                "languages": 36.0, 
+                "families": 20.0, 
+                "edge_width": 4.9591836734693873, 
+                "id": "grain (barley, oats etc)"
+            }
+        ], 
+        [
+            {
+                "weight": 5.797101449275362, 
+                "normalized_weight": 5.797101449275362, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "nut"
+            }, 
+            {
+                "weight": 1.4084507042253522, 
+                "normalized_weight": 1.4084507042253522, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "palm tree"
+            }
+        ], 
+        [
+            {
+                "weight": 4.878048780487805, 
+                "normalized_weight": 4.878048780487805, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "autumn"
+            }, 
+            {
+                "weight": 26.881720430107524, 
+                "normalized_weight": 26.881720430107524, 
+                "languages": 5.0, 
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 10.227272727272728, 
+                "normalized_weight": 10.227272727272728, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "grain (barley, oats etc)"
+            }, 
+            {
+                "weight": 5.128205128205128, 
+                "normalized_weight": 5.128205128205128, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "vegetables"
+            }
+        ], 
+        [
+            {
+                "weight": 9.67741935483871, 
+                "normalized_weight": 9.67741935483871, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "fruit"
+            }, 
+            {
+                "weight": 5.797101449275362, 
+                "normalized_weight": 5.797101449275362, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "coconut"
+            }, 
+            {
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "grain (barley, oats etc)"
+            }, 
+            {
+                "weight": 86.17021276595744, 
+                "normalized_weight": 86.17021276595744, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "seed"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "citrus fruit", 
-            "key": "8.83", 
-            "id": "citrus fruit", 
-            "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 1.5384615384615385, 
-            "label": "citrus fruit", 
-            "frequency": 136.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "rice", 
             "key": "8.48", 
-            "id": "rice", 
-            "community": 19, 
+            "swadesh100": 0.0, 
+            "frequency": 165.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 1.1363636363636365, 
             "label": "rice", 
-            "frequency": 165.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
+            "concept": "rice", 
             "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "maize, corn", 
-            "key": "8.47", 
-            "id": "maize, corn", 
+            "body_part": 0.0, 
             "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 1.1904761904761905, 
-            "label": "maize, corn", 
-            "frequency": 231.0
+            "normalized_weight": 1.1363636363636365, 
+            "families": 1.0, 
+            "id": "rice"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "8.42", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "coconut", 
-            "key": "8.82", 
-            "id": "coconut", 
+            "frequency": 209.0, 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "label": "grain (barley, oats etc)", 
+            "concept": "grain (barley, oats etc)", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
             "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 1.1111111111111112, 
-            "label": "coconut", 
-            "frequency": 112.0
+            "normalized_weight": 6.896551724137931, 
+            "families": 2.0, 
+            "id": "grain (barley, oats etc)"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "5.65", 
             "swadesh100": 0.0, 
+            "frequency": 173.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "vegetables", 
+            "concept": "vegetables", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 1.2195121951219512, 
             "families": 1.0, 
-            "concept": "palm tree", 
+            "id": "vegetables"
+        }, 
+        {
             "key": "8.81", 
-            "id": "palm tree", 
-            "community": 19, 
+            "swadesh100": 0.0, 
+            "frequency": 180.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 1.4084507042253522, 
             "label": "palm tree", 
-            "frequency": 180.0
+            "concept": "palm tree", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 1.4084507042253522, 
+            "families": 1.0, 
+            "id": "palm tree"
         }, 
         {
-            "body_part": 0.0, 
+            "key": "8.83", 
+            "swadesh100": 0.0, 
+            "frequency": 136.0, 
             "languages": 1.0, 
+            "out_edge": [], 
+            "label": "citrus fruit", 
+            "concept": "citrus fruit", 
             "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "seed", 
-            "key": "8.311", 
-            "id": "seed", 
+            "body_part": 0.0, 
             "community": 19, 
+            "normalized_weight": 1.5384615384615385, 
+            "families": 1.0, 
+            "id": "citrus fruit"
+        }, 
+        {
+            "key": "5.71", 
+            "swadesh100": 0.0, 
+            "frequency": 234.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "fruit", 
+            "concept": "fruit", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 0.8928571428571428, 
+            "families": 1.0, 
+            "id": "fruit"
+        }, 
+        {
+            "key": "14.77", 
+            "swadesh100": 0.0, 
+            "frequency": 167.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "autumn", 
+            "concept": "autumn", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 1.1111111111111112, 
+            "families": 1.0, 
+            "id": "autumn"
+        }, 
+        {
+            "key": "8.47", 
+            "swadesh100": 0.0, 
+            "frequency": 231.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "maize, corn", 
+            "concept": "maize, corn", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 1.1904761904761905, 
+            "families": 1.0, 
+            "id": "maize, corn"
+        }, 
+        {
+            "key": "8.311", 
+            "swadesh100": 1.0, 
+            "frequency": 266.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_154_chain", 
@@ -107,462 +509,60 @@
                     13.333333333333334
                 ]
             ], 
-            "normalized_weight": 0.8695652173913043, 
             "label": "seed", 
-            "frequency": 266.0
+            "concept": "seed", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "id": "seed"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "8.82", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "autumn", 
-            "key": "14.77", 
-            "id": "autumn", 
-            "community": 19, 
+            "frequency": 112.0, 
+            "languages": 1.0, 
             "out_edge": [], 
+            "label": "coconut", 
+            "concept": "coconut", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 19, 
             "normalized_weight": 1.1111111111111112, 
-            "label": "autumn", 
-            "frequency": 167.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
             "families": 1.0, 
-            "concept": "fruit", 
-            "key": "5.71", 
-            "id": "fruit", 
-            "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 0.8928571428571428, 
-            "label": "fruit", 
-            "frequency": 234.0
+            "id": "coconut"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "vegetables", 
-            "key": "5.65", 
-            "id": "vegetables", 
-            "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 1.2195121951219512, 
-            "label": "vegetables", 
-            "frequency": 173.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "crop, harvest", 
             "key": "8.41", 
-            "id": "crop, harvest", 
-            "community": 19, 
+            "swadesh100": 0.0, 
+            "frequency": 232.0, 
+            "languages": 3.0, 
             "out_edge": [], 
-            "normalized_weight": 10.0, 
             "label": "crop, harvest", 
-            "frequency": 232.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "grain (barley, oats etc)", 
-            "key": "8.42", 
-            "id": "grain (barley, oats etc)", 
-            "community": 19, 
-            "out_edge": [], 
-            "normalized_weight": 6.896551724137931, 
-            "label": "grain (barley, oats etc)", 
-            "frequency": 209.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 4.0, 
+            "concept": "crop, harvest", 
             "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "nut", 
-            "key": "5.77", 
-            "id": "nut", 
+            "body_part": 0.0, 
             "community": 19, 
+            "normalized_weight": 10.0, 
+            "families": 3.0, 
+            "id": "crop, harvest"
+        }, 
+        {
+            "key": "5.77", 
+            "swadesh100": 0.0, 
+            "frequency": 181.0, 
+            "languages": 4.0, 
             "out_edge": [], 
-            "normalized_weight": 9.67741935483871, 
             "label": "nut", 
-            "frequency": 181.0
+            "concept": "nut", 
+            "weight": 3.0, 
+            "body_part": 0.0, 
+            "community": 19, 
+            "normalized_weight": 9.67741935483871, 
+            "families": 3.0, 
+            "id": "nut"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.878048780487805, 
-                "weight": 4.878048780487805, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.5384615384615385, 
-                "weight": 1.5384615384615385, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "vegetables"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.063291139240507, 
-                "weight": 5.063291139240507, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.1494252873563218, 
-                "weight": 1.1494252873563218, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fruit"
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "normalized_weight": 9.183673469387756, 
-                "weight": 9.183673469387756, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "seed"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.4084507042253522, 
-                "weight": 1.4084507042253522, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "palm tree"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.797101449275362, 
-                "weight": 5.797101449275362, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "nut"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0416666666666665, 
-                "weight": 1.0416666666666665, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.4084507042253522, 
-                "weight": 1.4084507042253522, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "coconut"
-            }
-        ], 
-        [
-            {
-                "languages": 36.0, 
-                "normalized_weight": 465.1162790697675, 
-                "weight": 465.1162790697675, 
-                "edge_width": 3.3823529411764706, 
-                "families": 20.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "maize, corn"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 33.64485981308411, 
-                "weight": 33.64485981308411, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 86.17021276595744, 
-                "weight": 86.17021276595744, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "nut"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.878048780487805, 
-                "weight": 4.878048780487805, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "crop, harvest"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.878048780487805, 
-                "weight": 4.878048780487805, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "citrus fruit"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.1494252873563218, 
-                "weight": 1.1494252873563218, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "rice"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9523809523809524, 
-                "weight": 0.9523809523809524, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 60.49382716049383, 
-                "weight": 60.49382716049383, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "vegetables"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 53.2608695652174, 
-                "weight": 53.2608695652174, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0416666666666665, 
-                "weight": 1.0416666666666665, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "palm tree"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 26.881720430107524, 
-                "weight": 26.881720430107524, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "crop, harvest"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 33.64485981308411, 
-                "weight": 33.64485981308411, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "seed"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 9.67741935483871, 
-                "weight": 9.67741935483871, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "nut"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.5384615384615385, 
-                "weight": 1.5384615384615385, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "citrus fruit"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.128205128205128, 
-                "weight": 5.128205128205128, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "crop, harvest"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 60.49382716049383, 
-                "weight": 60.49382716049383, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "fruit"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "normalized_weight": 10.227272727272728, 
-                "weight": 10.227272727272728, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.878048780487805, 
-                "weight": 4.878048780487805, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "autumn"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 26.881720430107524, 
-                "weight": 26.881720430107524, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.128205128205128, 
-                "weight": 5.128205128205128, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "vegetables"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.098901098901099, 
-                "weight": 1.098901098901099, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.063291139240507, 
-                "weight": 5.063291139240507, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "rice"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 9.183673469387756, 
-                "weight": 9.183673469387756, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "maize, corn"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 53.2608695652174, 
-                "weight": 53.2608695652174, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 10.227272727272728, 
-                "weight": 10.227272727272728, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "crop, harvest"
-            }, 
-            {
-                "languages": 36.0, 
-                "normalized_weight": 465.1162790697675, 
-                "weight": 465.1162790697675, 
-                "edge_width": 3.3823529411764706, 
-                "families": 20.0, 
-                "id": "seed"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.597701149425287, 
-                "weight": 4.597701149425287, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "nut"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.597701149425287, 
-                "weight": 4.597701149425287, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "grain (barley, oats etc)"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 9.67741935483871, 
-                "weight": 9.67741935483871, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "fruit"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 86.17021276595744, 
-                "weight": 86.17021276595744, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "seed"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.797101449275362, 
-                "weight": 5.797101449275362, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "coconut"
-            }
-        ]
-    ]
+    "graph": []
 }

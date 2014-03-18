@@ -1,89 +1,140 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
+            "concept": "send", 
+            "normalized_weight": 0.9615384615384616, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "10.63", 
+            "label": "send", 
+            "swadesh100": 0.0, 
+            "frequency": 275.0, 
+            "weight": 1.0, 
             "community": 117, 
-            "id": "send", 
             "out_edge": [
                 [
-                    "cluster_23_lead (vb)", 
+                    "cluster_83_forgive", 
+                    "release, let go", 
+                    7.0, 
+                    46.666666666666664
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
+                    "drive", 
+                    5.0, 
+                    25.252525252525253
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
                     "lead (vb)", 
                     4.0, 
-                    1.0
+                    14.678899082568808
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "send", 
+            "languages": 1.0
         }, 
         {
-            "key": "19.31", 
+            "concept": "command, order", 
+            "normalized_weight": 0.9090909090909091, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "19.45", 
+            "label": "command, order", 
+            "swadesh100": 0.0, 
+            "frequency": 274.0, 
+            "weight": 1.0, 
             "community": 117, 
-            "id": "rule, govern", 
+            "out_edge": [], 
+            "id": "command, order", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "rule, govern", 
+            "normalized_weight": 10.465116279069768, 
+            "families": 3.0, 
+            "body_part": 0.0, 
+            "key": "19.31", 
+            "label": "rule, govern", 
+            "swadesh100": 0.0, 
+            "frequency": 216.0, 
+            "weight": 3.0, 
+            "community": 117, 
             "out_edge": [
                 [
-                    "cluster_23_lead (vb)", 
+                    "cluster_23_carry (bear)", 
+                    "drive", 
+                    5.0, 
+                    30.48780487804878
+                ], 
+                [
+                    "cluster_23_carry (bear)", 
                     "lead (vb)", 
                     5.0, 
-                    1.0
+                    27.472527472527474
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.45", 
-            "community": 117, 
-            "id": "command, order", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "rule, govern", 
+            "languages": 3.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "rule, govern"
+                "weight": 396.7032967032967, 
+                "normalized_weight": 396.7032967032967, 
+                "families": 19.0, 
+                "id": "command, order", 
+                "edge_width": 4.5816326530612246, 
+                "languages": 25.0
             }, 
             {
-                "weight": 2.8529411764705883, 
-                "languages": 25.0, 
-                "families": 19.0, 
-                "id": "command, order"
+                "weight": 16.842105263157894, 
+                "normalized_weight": 16.842105263157894, 
+                "families": 4.0, 
+                "id": "rule, govern", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "send"
+                "weight": 396.7032967032967, 
+                "normalized_weight": 396.7032967032967, 
+                "families": 19.0, 
+                "id": "send", 
+                "edge_width": 4.5816326530612246, 
+                "languages": 25.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 11.0, 
+                "weight": 75.29411764705883, 
+                "normalized_weight": 75.29411764705883, 
                 "families": 8.0, 
-                "id": "command, order"
+                "id": "rule, govern", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 11.0
             }
         ], 
         [
             {
-                "weight": 2.8529411764705883, 
-                "languages": 25.0, 
-                "families": 19.0, 
-                "id": "send"
+                "weight": 16.842105263157894, 
+                "normalized_weight": 16.842105263157894, 
+                "families": 4.0, 
+                "id": "send", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 11.0, 
+                "weight": 75.29411764705883, 
+                "normalized_weight": 75.29411764705883, 
                 "families": 8.0, 
-                "id": "rule, govern"
+                "id": "command, order", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 11.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

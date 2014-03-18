@@ -1,66 +1,66 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 7.0, 
-            "weight": 6.0, 
-            "swadesh100": 0.0, 
-            "families": 6.0, 
-            "concept": "door, gate", 
-            "key": "7.22", 
-            "id": "door, gate", 
-            "community": 254, 
-            "out_edge": [
-                [
-                    "cluster_120_path", 
-                    "path", 
-                    4.0, 
-                    14.15929203539823
-                ]
-            ], 
-            "normalized_weight": 36.0, 
-            "label": "door, gate", 
-            "frequency": 341.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "window", 
-            "key": "7.25", 
-            "id": "window", 
-            "community": 254, 
-            "out_edge": [], 
-            "normalized_weight": 1.0204081632653061, 
-            "label": "window", 
-            "frequency": 209.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 7.0, 
-                "normalized_weight": 36.0, 
                 "weight": 36.0, 
-                "edge_width": 1.0, 
+                "normalized_weight": 36.0, 
+                "languages": 7.0, 
                 "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
                 "id": "window"
             }
         ], 
         [
             {
-                "languages": 7.0, 
-                "normalized_weight": 36.0, 
                 "weight": 36.0, 
-                "edge_width": 1.0, 
+                "normalized_weight": 36.0, 
+                "languages": 7.0, 
                 "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
                 "id": "door, gate"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "7.22", 
+            "swadesh100": 0.0, 
+            "frequency": 341.0, 
+            "languages": 7.0, 
+            "out_edge": [
+                [
+                    "cluster_119_path", 
+                    "path", 
+                    4.0, 
+                    14.15929203539823
+                ]
+            ], 
+            "label": "door, gate", 
+            "concept": "door, gate", 
+            "weight": 6.0, 
+            "body_part": 0.0, 
+            "community": 254, 
+            "normalized_weight": 36.0, 
+            "families": 6.0, 
+            "id": "door, gate"
+        }, 
+        {
+            "key": "7.25", 
+            "swadesh100": 0.0, 
+            "frequency": 209.0, 
+            "languages": 3.0, 
+            "out_edge": [], 
+            "label": "window", 
+            "concept": "window", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 254, 
+            "normalized_weight": 1.0204081632653061, 
+            "families": 1.0, 
+            "id": "window"
+        }
+    ], 
+    "graph": []
 }

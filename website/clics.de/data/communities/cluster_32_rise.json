@@ -1,151 +1,246 @@
 {
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 8.0, 
-                "id": "climb", 
-                "edge_width": 1.0, 
-                "weight": 34.95145631067961, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "rise", 
-                "edge_width": 1.0, 
-                "weight": 14.814814814814813, 
-                "families": 4.0
-            }, 
-            {
-                "languages": 6.0, 
-                "id": "go up", 
-                "edge_width": 1.0, 
-                "weight": 33.33333333333333, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "climb", 
-                "edge_width": 1.0, 
-                "weight": 0.8547008547008548, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 9.0, 
-                "id": "rise", 
-                "edge_width": 1.0, 
                 "weight": 21.551724137931032, 
-                "families": 5.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "go up", 
-                "edge_width": 1.0, 
-                "weight": 0.819672131147541, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "ride", 
-                "edge_width": 1.0, 
-                "weight": 14.814814814814813, 
-                "families": 4.0
-            }, 
-            {
+                "normalized_weight": 21.551724137931032, 
                 "languages": 9.0, 
-                "id": "wake up", 
-                "edge_width": 1.0, 
-                "weight": 21.551724137931032, 
-                "families": 5.0
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "rise"
             }, 
             {
-                "languages": 57.0, 
-                "id": "go up", 
-                "edge_width": 4.9705882352941178, 
-                "weight": 783.8709677419355, 
-                "families": 27.0
-            }, 
-            {
-                "languages": 40.0, 
-                "id": "climb", 
-                "edge_width": 3.6470588235294117, 
-                "weight": 520.4301075268817, 
-                "families": 22.0
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "id": "ride", 
-                "edge_width": 1.0, 
-                "weight": 33.33333333333333, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "wake up", 
-                "edge_width": 1.0, 
-                "weight": 0.819672131147541, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 57.0, 
-                "id": "rise", 
-                "edge_width": 4.9705882352941178, 
-                "weight": 783.8709677419355, 
-                "families": 27.0
-            }, 
-            {
-                "languages": 72.0, 
-                "id": "climb", 
-                "edge_width": 7.6176470588235299, 
-                "weight": 1392.7710843373495, 
-                "families": 34.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "ride", 
-                "edge_width": 1.0, 
-                "weight": 34.95145631067961, 
-                "families": 6.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "wake up", 
-                "edge_width": 1.0, 
                 "weight": 0.8547008547008548, 
-                "families": 1.0
+                "normalized_weight": 0.8547008547008548, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "climb"
             }, 
             {
-                "languages": 40.0, 
-                "id": "rise", 
-                "edge_width": 3.6470588235294117, 
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "go up"
+            }
+        ], 
+        [
+            {
+                "weight": 21.551724137931032, 
+                "normalized_weight": 21.551724137931032, 
+                "languages": 9.0, 
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "wake up"
+            }, 
+            {
                 "weight": 520.4301075268817, 
-                "families": 22.0
+                "normalized_weight": 520.4301075268817, 
+                "languages": 40.0, 
+                "families": 22.0, 
+                "edge_width": 5.4438775510204076, 
+                "id": "climb"
             }, 
             {
-                "languages": 72.0, 
-                "id": "go up", 
-                "edge_width": 7.6176470588235299, 
+                "weight": 783.8709677419355, 
+                "normalized_weight": 783.8709677419355, 
+                "languages": 57.0, 
+                "families": 27.0, 
+                "edge_width": 7.2857142857142856, 
+                "id": "go up"
+            }, 
+            {
+                "weight": 14.814814814814813, 
+                "normalized_weight": 14.814814814814813, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "ride"
+            }
+        ], 
+        [
+            {
+                "weight": 0.8547008547008548, 
+                "normalized_weight": 0.8547008547008548, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "wake up"
+            }, 
+            {
+                "weight": 520.4301075268817, 
+                "normalized_weight": 520.4301075268817, 
+                "languages": 40.0, 
+                "families": 22.0, 
+                "edge_width": 5.4438775510204076, 
+                "id": "rise"
+            }, 
+            {
                 "weight": 1392.7710843373495, 
-                "families": 34.0
+                "normalized_weight": 1392.7710843373495, 
+                "languages": 72.0, 
+                "families": 34.0, 
+                "edge_width": 8.8367346938775508, 
+                "id": "go up"
+            }, 
+            {
+                "weight": 34.95145631067961, 
+                "normalized_weight": 34.95145631067961, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "ride"
+            }
+        ], 
+        [
+            {
+                "weight": 783.8709677419355, 
+                "normalized_weight": 783.8709677419355, 
+                "languages": 57.0, 
+                "families": 27.0, 
+                "edge_width": 7.2857142857142856, 
+                "id": "rise"
+            }, 
+            {
+                "weight": 1392.7710843373495, 
+                "normalized_weight": 1392.7710843373495, 
+                "languages": 72.0, 
+                "families": 34.0, 
+                "edge_width": 8.8367346938775508, 
+                "id": "climb"
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "wake up"
+            }, 
+            {
+                "weight": 33.33333333333333, 
+                "normalized_weight": 33.33333333333333, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "ride"
+            }
+        ], 
+        [
+            {
+                "weight": 14.814814814814813, 
+                "normalized_weight": 14.814814814814813, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "rise"
+            }, 
+            {
+                "weight": 34.95145631067961, 
+                "normalized_weight": 34.95145631067961, 
+                "languages": 8.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "climb"
+            }, 
+            {
+                "weight": 33.33333333333333, 
+                "normalized_weight": 33.33333333333333, 
+                "languages": 6.0, 
+                "families": 6.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "go up"
             }
         ]
     ], 
-    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "key": "4.63", 
+            "swadesh100": 0.0, 
+            "frequency": 283.0, 
+            "languages": 2.0, 
+            "out_edge": [], 
+            "label": "wake up", 
+            "concept": "wake up", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 32, 
+            "normalized_weight": 3.7037037037037033, 
+            "families": 2.0, 
+            "id": "wake up"
+        }, 
+        {
+            "key": "10.21", 
+            "swadesh100": 0.0, 
+            "frequency": 334.0, 
+            "languages": 11.0, 
             "out_edge": [
                 [
-                    "cluster_23_bring", 
+                    "cluster_35_finish", 
+                    "stand", 
+                    8.0, 
+                    56.14035087719298
+                ], 
+                [
+                    "cluster_47_choose", 
+                    "raise, lift", 
+                    6.0, 
+                    31.57894736842105
+                ], 
+                [
+                    "cluster_56_go", 
+                    "go out", 
+                    5.0, 
+                    21.551724137931032
+                ]
+            ], 
+            "label": "rise", 
+            "concept": "rise", 
+            "weight": 8.0, 
+            "body_part": 0.0, 
+            "community": 32, 
+            "normalized_weight": 56.14035087719298, 
+            "families": 8.0, 
+            "id": "rise"
+        }, 
+        {
+            "key": "10.472", 
+            "swadesh100": 0.0, 
+            "frequency": 264.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "climb", 
+            "concept": "climb", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 32, 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "id": "climb"
+        }, 
+        {
+            "key": "10.471", 
+            "swadesh100": 0.0, 
+            "frequency": 261.0, 
+            "label": "go up", 
+            "concept": "go up", 
+            "body_part": 0.0, 
+            "community": 32, 
+            "id": "go up", 
+            "out_edge": []
+        }, 
+        {
+            "key": "10.66", 
+            "swadesh100": 0.0, 
+            "frequency": 209.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_23_carry (bear)", 
                     "drive", 
                     6.0, 
                     38.70967741935484
@@ -163,60 +258,14 @@
                     14.285714285714285
                 ]
             ], 
+            "label": "ride", 
+            "concept": "ride", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 32, 
-            "id": "ride", 
-            "key": "10.66"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 32, 
-            "id": "wake up", 
-            "key": "4.63"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [
-                [
-                    "cluster_35_finish", 
-                    "stand", 
-                    8.0, 
-                    56.14035087719298
-                ], 
-                [
-                    "cluster_46_choose", 
-                    "raise, lift", 
-                    6.0, 
-                    31.57894736842105
-                ], 
-                [
-                    "cluster_56_go", 
-                    "go out", 
-                    5.0, 
-                    21.551724137931032
-                ]
-            ], 
-            "community": 32, 
-            "id": "rise", 
-            "key": "10.21"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 32, 
-            "id": "go up", 
-            "key": "10.471"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 32, 
-            "id": "climb", 
-            "key": "10.472"
+            "normalized_weight": 1.0204081632653061, 
+            "families": 1.0, 
+            "id": "ride"
         }
     ], 
     "graph": []

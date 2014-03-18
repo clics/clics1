@@ -1,136 +1,182 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 2.0, 
-                "id": "west", 
-                "edge_width": 1.0, 
-                "weight": 0.9090909090909091, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "south", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "east", 
-                "edge_width": 1.0, 
-                "weight": 0.9090909090909091, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "south", 
-                "edge_width": 1.0, 
-                "weight": 3.8095238095238098, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "left (side)", 
-                "edge_width": 1.0, 
-                "weight": 0.8403361344537815, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "south", 
-                "edge_width": 1.0, 
-                "weight": 3.6363636363636362, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "east", 
-                "edge_width": 1.0, 
-                "weight": 0.9345794392523363, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "west", 
-                "edge_width": 1.0, 
-                "weight": 3.8095238095238098, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "left (side)", 
-                "edge_width": 1.0, 
-                "weight": 3.6363636363636362, 
-                "families": 2.0
-            }, 
-            {
-                "languages": 8.0, 
-                "id": "north", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 51.041666666666664, 
-                "families": 7.0
-            }
-        ], 
-        [
-            {
-                "languages": 8.0, 
-                "id": "south", 
-                "edge_width": 1.2647058823529411, 
-                "weight": 51.041666666666664, 
-                "families": 7.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "south", 
+            "normalized_weight": 0.8849557522123894, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.48", 
+            "label": "south", 
+            "swadesh100": 0.0, 
+            "frequency": 226.0, 
+            "weight": 1.0, 
             "community": 214, 
-            "id": "east", 
-            "key": "12.45"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 214, 
-            "id": "west", 
-            "key": "12.46"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 214, 
-            "id": "left (side)", 
-            "key": "12.42"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 214, 
             "id": "south", 
-            "key": "12.48"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "west", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.46", 
+            "label": "west", 
+            "swadesh100": 0.0, 
+            "frequency": 245.0, 
+            "weight": 1.0, 
             "community": 214, 
+            "out_edge": [], 
+            "id": "west", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "north", 
+            "normalized_weight": 8.571428571428571, 
+            "families": 3.0, 
+            "body_part": 0.0, 
+            "key": "12.47", 
+            "label": "north", 
+            "swadesh100": 0.0, 
+            "frequency": 217.0, 
+            "weight": 3.0, 
+            "community": 214, 
+            "out_edge": [], 
             "id": "north", 
-            "key": "12.47"
+            "languages": 3.0
+        }, 
+        {
+            "concept": "left (side)", 
+            "normalized_weight": 0.8403361344537815, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.42", 
+            "label": "left (side)", 
+            "swadesh100": 0.0, 
+            "frequency": 245.0, 
+            "weight": 1.0, 
+            "community": 214, 
+            "out_edge": [], 
+            "id": "left (side)", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "east", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.45", 
+            "label": "east", 
+            "swadesh100": 0.0, 
+            "frequency": 242.0, 
+            "weight": 1.0, 
+            "community": 214, 
+            "out_edge": [], 
+            "id": "east", 
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
+                "families": 2.0, 
+                "id": "west", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "families": 7.0, 
+                "id": "north", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 3.6363636363636362, 
+                "normalized_weight": 3.6363636363636362, 
+                "families": 2.0, 
+                "id": "left (side)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "east", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
+                "families": 2.0, 
+                "id": "south", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "east", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "families": 7.0, 
+                "id": "south", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.6363636363636362, 
+                "normalized_weight": 3.6363636363636362, 
+                "families": 2.0, 
+                "id": "south", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "normalized_weight": 0.8403361344537815, 
+                "families": 1.0, 
+                "id": "left (side)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "south", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "west", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ]
     ], 
     "graph": []
 }

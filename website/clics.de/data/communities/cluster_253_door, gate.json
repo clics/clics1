@@ -1,50 +1,66 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 7.0, 
-                "id": "window", 
-                "edge_width": 1.0, 
-                "weight": 36.0, 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "id": "door, gate", 
-                "edge_width": 1.0, 
-                "weight": 36.0, 
-                "families": 6.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "concept": "door, gate", 
+            "normalized_weight": 36.0, 
+            "families": 6.0, 
+            "body_part": 0.0, 
+            "key": "7.22", 
+            "label": "door, gate", 
+            "swadesh100": 0.0, 
+            "frequency": 341.0, 
+            "weight": 6.0, 
+            "community": 253, 
             "out_edge": [
                 [
-                    "cluster_120_road", 
+                    "cluster_120_path", 
                     "path", 
                     4.0, 
                     14.15929203539823
                 ]
             ], 
-            "community": 253, 
             "id": "door, gate", 
-            "key": "7.22"
+            "languages": 7.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "window", 
+            "normalized_weight": 1.0204081632653061, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "7.25", 
+            "label": "window", 
+            "swadesh100": 0.0, 
+            "frequency": 209.0, 
+            "weight": 1.0, 
             "community": 253, 
+            "out_edge": [], 
             "id": "window", 
-            "key": "7.25"
+            "languages": 3.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 36.0, 
+                "normalized_weight": 36.0, 
+                "families": 6.0, 
+                "id": "window", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 7.0
+            }
+        ], 
+        [
+            {
+                "weight": 36.0, 
+                "normalized_weight": 36.0, 
+                "families": 6.0, 
+                "id": "door, gate", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 7.0
+            }
+        ]
     ], 
     "graph": []
 }

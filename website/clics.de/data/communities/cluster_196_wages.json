@@ -1,0 +1,99 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "price", 
+            "normalized_weight": 0.9259259259259258, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "11.87", 
+            "label": "price", 
+            "swadesh100": 0.0, 
+            "frequency": 205.0, 
+            "weight": 1.0, 
+            "community": 196, 
+            "out_edge": [], 
+            "id": "price", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "wages", 
+            "normalized_weight": 1.0638297872340425, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "11.78", 
+            "label": "wages", 
+            "swadesh100": 0.0, 
+            "frequency": 226.0, 
+            "weight": 1.0, 
+            "community": 196, 
+            "out_edge": [
+                [
+                    "cluster_10_lend", 
+                    "pay (vb)", 
+                    4.0, 
+                    17.391304347826086
+                ]
+            ], 
+            "id": "wages", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "tax, tribute", 
+            "normalized_weight": 1.36986301369863, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "11.69", 
+            "label": "tax, tribute", 
+            "swadesh100": 0.0, 
+            "frequency": 196.0, 
+            "weight": 1.0, 
+            "community": 196, 
+            "out_edge": [], 
+            "id": "tax, tribute", 
+            "languages": 1.0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 103.84615384615385, 
+                "normalized_weight": 103.84615384615385, 
+                "families": 9.0, 
+                "id": "wages", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 10.0
+            }
+        ], 
+        [
+            {
+                "weight": 103.84615384615385, 
+                "normalized_weight": 103.84615384615385, 
+                "families": 9.0, 
+                "id": "price", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 5.797101449275362, 
+                "normalized_weight": 5.797101449275362, 
+                "families": 2.0, 
+                "id": "tax, tribute", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 5.797101449275362, 
+                "normalized_weight": 5.797101449275362, 
+                "families": 2.0, 
+                "id": "wages", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ]
+    ], 
+    "graph": []
+}

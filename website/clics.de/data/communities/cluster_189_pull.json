@@ -1,0 +1,121 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 75.0, 
+                "normalized_weight": 75.0, 
+                "languages": 37.0, 
+                "families": 9.0, 
+                "edge_width": 1.1785714285714286, 
+                "id": "stretch"
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "spread out"
+            }
+        ], 
+        [
+            {
+                "weight": 75.0, 
+                "normalized_weight": 75.0, 
+                "languages": 37.0, 
+                "families": 9.0, 
+                "edge_width": 1.1785714285714286, 
+                "id": "pull"
+            }, 
+            {
+                "weight": 23.809523809523807, 
+                "normalized_weight": 23.809523809523807, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "spread out"
+            }
+        ], 
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "pull"
+            }, 
+            {
+                "weight": 23.809523809523807, 
+                "normalized_weight": 23.809523809523807, 
+                "languages": 8.0, 
+                "families": 5.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "stretch"
+            }
+        ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "9.33", 
+            "swadesh100": 0.0, 
+            "frequency": 276.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_66_smoke (noun)", 
+                    "smoke (tobacco)", 
+                    4.0, 
+                    14.15929203539823
+                ], 
+                [
+                    "cluster_191_kiss", 
+                    "suck", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ], 
+            "label": "pull", 
+            "concept": "pull", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 189, 
+            "normalized_weight": 0.8333333333333334, 
+            "families": 1.0, 
+            "id": "pull"
+        }, 
+        {
+            "key": "9.32", 
+            "swadesh100": 0.0, 
+            "frequency": 278.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "stretch", 
+            "concept": "stretch", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 189, 
+            "normalized_weight": 0.9090909090909091, 
+            "families": 1.0, 
+            "id": "stretch"
+        }, 
+        {
+            "key": "9.34", 
+            "swadesh100": 0.0, 
+            "frequency": 303.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "spread out", 
+            "concept": "spread out", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 189, 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "id": "spread out"
+        }
+    ], 
+    "graph": []
+}

@@ -1,446 +1,638 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "19.54", 
+            "concept": "friend, companion", 
+            "normalized_weight": 3.5398230088495577, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "19.51", 
+            "label": "friend, companion", 
+            "swadesh100": 0.0, 
+            "frequency": 342.0, 
+            "weight": 2.0, 
             "community": 27, 
-            "id": "neighbor", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "friend, companion", 
+            "languages": 2.0
         }, 
         {
-            "key": "19.21", 
-            "community": 27, 
-            "id": "people (populace)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "relatives, kinsmen", 
+            "body_part": 0.0, 
             "key": "2.81", 
+            "label": "relatives, kinsmen", 
+            "swadesh100": 0.0, 
+            "frequency": 257.0, 
             "community": 27, 
-            "id": "relatives, kinsmen", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_29_younger brother", 
+                    "sibling", 
+                    6.0, 
+                    40.44943820224719
+                ]
+            ], 
+            "id": "relatives, kinsmen"
         }, 
         {
-            "key": "19.44", 
+            "concept": "neighbor", 
+            "normalized_weight": 3.8834951456310676, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "19.54", 
+            "label": "neighbor", 
+            "swadesh100": 0.0, 
+            "frequency": 207.0, 
+            "weight": 2.0, 
             "community": 27, 
-            "id": "freeman", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "neighbor", 
+            "languages": 2.0
         }, 
         {
+            "concept": "family", 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "2.82", 
+            "label": "family", 
+            "swadesh100": 0.0, 
+            "frequency": 213.0, 
+            "weight": 1.0, 
             "community": 27, 
-            "id": "family", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "family", 
+            "languages": 1.0
         }, 
         {
-            "key": "2.1", 
+            "concept": "tribe, clan", 
+            "normalized_weight": 1.1235955056179776, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "19.23", 
+            "label": "tribe, clan", 
+            "swadesh100": 0.0, 
+            "frequency": 265.0, 
+            "weight": 1.0, 
             "community": 27, 
-            "id": "person, human being", 
+            "out_edge": [], 
+            "id": "tribe, clan", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "parents", 
+            "normalized_weight": 25.252525252525253, 
+            "families": 5.0, 
+            "body_part": 0.0, 
+            "key": "2.37", 
+            "label": "parents", 
+            "swadesh100": 0.0, 
+            "frequency": 215.0, 
+            "weight": 5.0, 
+            "community": 27, 
+            "out_edge": [], 
+            "id": "parents", 
+            "languages": 5.0
+        }, 
+        {
+            "concept": "citizen, subject", 
+            "normalized_weight": 1.2048192771084338, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "19.37", 
+            "label": "citizen, subject", 
+            "swadesh100": 0.0, 
+            "frequency": 205.0, 
+            "weight": 1.0, 
+            "community": 27, 
+            "out_edge": [], 
+            "id": "citizen, subject", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "person, human being", 
+            "normalized_weight": 0.9615384615384616, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "2.1", 
+            "label": "person, human being", 
+            "swadesh100": 1.0, 
+            "frequency": 319.0, 
+            "weight": 1.0, 
+            "community": 27, 
             "out_edge": [
                 [
                     "cluster_5_male", 
                     "man (vs. woman)", 
                     16.0, 
-                    2.0588235294117645
+                    234.86238532110093
+                ], 
+                [
+                    "cluster_67_body", 
+                    "body", 
+                    5.0, 
+                    21.367521367521366
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "id": "person, human being", 
+            "languages": 1.0
         }, 
         {
-            "key": "19.37", 
+            "concept": "people (populace)", 
+            "normalized_weight": 1.098901098901099, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "19.21", 
+            "label": "people (populace)", 
+            "swadesh100": 0.0, 
+            "frequency": 278.0, 
+            "weight": 1.0, 
             "community": 27, 
-            "id": "citizen, subject", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "out_edge": [
+                [
+                    "cluster_2_country", 
+                    "village", 
+                    5.0, 
+                    22.52252252252252
+                ]
+            ], 
+            "id": "people (populace)", 
+            "languages": 1.0
         }, 
         {
-            "key": "19.23", 
+            "concept": "freeman", 
+            "body_part": 0.0, 
+            "key": "19.44", 
+            "label": "freeman", 
+            "swadesh100": 0.0, 
+            "frequency": 142.0, 
             "community": 27, 
-            "id": "tribe, clan", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "2.37", 
-            "community": 27, 
-            "id": "parents", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "19.51", 
-            "community": 27, 
-            "id": "friend, companion", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "freeman"
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "relatives, kinsmen"
+                "weight": 9.574468085106384, 
+                "normalized_weight": 9.574468085106384, 
+                "families": 3.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "family"
+                "weight": 8.181818181818182, 
+                "normalized_weight": 8.181818181818182, 
+                "families": 3.0, 
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
                 "families": 2.0, 
-                "id": "friend, companion"
+                "id": "family", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
                 "families": 2.0, 
-                "id": "citizen, subject"
+                "id": "neighbor", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 8.181818181818182, 
+                "normalized_weight": 8.181818181818182, 
                 "families": 3.0, 
-                "id": "relatives, kinsmen"
+                "id": "friend, companion", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
+                "weight": 17.77777777777778, 
+                "normalized_weight": 17.77777777777778, 
                 "families": 4.0, 
-                "id": "family"
+                "id": "citizen, subject", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
             }, 
             {
-                "weight": 2.8529411764705883, 
-                "languages": 33.0, 
-                "families": 19.0, 
-                "id": "person, human being"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "citizen, subject"
-            }, 
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "id": "tribe, clan"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.8834951456310676, 
+                "normalized_weight": 3.8834951456310676, 
                 "families": 2.0, 
-                "id": "parents"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "people (populace)"
+                "id": "neighbor", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "neighbor"
-            }, 
-            {
-                "weight": 3.6470588235294117, 
-                "languages": 28.0, 
+                "weight": 531.3253012048193, 
+                "normalized_weight": 531.3253012048193, 
                 "families": 21.0, 
-                "id": "family"
+                "id": "family", 
+                "edge_width": 5.7755102040816331, 
+                "languages": 28.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "person, human being"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "citizen, subject"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "tribe, clan"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
+                "weight": 25.252525252525253, 
+                "normalized_weight": 25.252525252525253, 
                 "families": 5.0, 
-                "id": "parents"
+                "id": "parents", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 65.3061224489796, 
+                "normalized_weight": 65.3061224489796, 
+                "families": 8.0, 
+                "id": "tribe, clan", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "families": 2.0, 
+                "id": "person, human being", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 8.181818181818182, 
+                "normalized_weight": 8.181818181818182, 
                 "families": 3.0, 
-                "id": "friend, companion"
+                "id": "people (populace)", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "person, human being"
+                "weight": 3.7735849056603774, 
+                "normalized_weight": 3.7735849056603774, 
+                "families": 2.0, 
+                "id": "friend, companion", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.8834951456310676, 
+                "normalized_weight": 3.8834951456310676, 
                 "families": 2.0, 
-                "id": "citizen, subject"
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "families": 2.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
+                "families": 2.0, 
+                "id": "family", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
                 "families": 2.0, 
-                "id": "neighbor"
+                "id": "friend, companion", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 3.6470588235294117, 
-                "languages": 28.0, 
+                "weight": 531.3253012048193, 
+                "normalized_weight": 531.3253012048193, 
                 "families": 21.0, 
-                "id": "relatives, kinsmen"
+                "id": "relatives, kinsmen", 
+                "edge_width": 5.7755102040816331, 
+                "languages": 28.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
                 "families": 1.0, 
-                "id": "person, human being"
+                "id": "person, human being", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
                 "families": 2.0, 
-                "id": "citizen, subject"
+                "id": "neighbor", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
+                "weight": 9.278350515463918, 
+                "normalized_weight": 9.278350515463918, 
                 "families": 3.0, 
-                "id": "tribe, clan"
+                "id": "tribe, clan", 
+                "edge_width": 1.0, 
+                "languages": 4.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
+                "weight": 4.651162790697675, 
+                "normalized_weight": 4.651162790697675, 
+                "families": 2.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 15.53398058252427, 
+                "normalized_weight": 15.53398058252427, 
+                "families": 4.0, 
+                "id": "people (populace)", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 53.84615384615385, 
+                "normalized_weight": 53.84615384615385, 
                 "families": 7.0, 
-                "id": "parents"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "friend, companion"
+                "id": "parents", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 7.0
             }
         ], 
         [
             {
-                "weight": 2.8529411764705883, 
-                "languages": 33.0, 
-                "families": 19.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "relatives, kinsmen"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "freeman"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
                 "families": 1.0, 
-                "id": "family"
+                "id": "citizen, subject", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 17.0, 
-                "families": 5.0, 
-                "id": "citizen, subject"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "tribe, clan"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "neighbor"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 4.0, 
-                "id": "relatives, kinsmen"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "freeman"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "family"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "tribe, clan"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 17.0, 
-                "families": 5.0, 
-                "id": "person, human being"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "friend, companion"
-            }
-        ], 
-        [
-            {
-                "weight": 1.5294117647058822, 
-                "languages": 13.0, 
-                "families": 10.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
+                "weight": 65.3061224489796, 
+                "normalized_weight": 65.3061224489796, 
                 "families": 8.0, 
-                "id": "relatives, kinsmen"
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 9.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 4.0, 
-                "families": 3.0, 
-                "id": "family"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 4.0, 
+                "weight": 14.678899082568808, 
+                "normalized_weight": 14.678899082568808, 
                 "families": 4.0, 
-                "id": "person, human being"
+                "id": "person, human being", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "citizen, subject"
+                "weight": 9.278350515463918, 
+                "normalized_weight": 9.278350515463918, 
+                "families": 3.0, 
+                "id": "family", 
+                "edge_width": 1.0, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 101.01010101010101, 
+                "normalized_weight": 101.01010101010101, 
+                "families": 10.0, 
+                "id": "people (populace)", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 13.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "people (populace)"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
+                "weight": 25.252525252525253, 
+                "normalized_weight": 25.252525252525253, 
                 "families": 5.0, 
-                "id": "relatives, kinsmen"
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 7.0, 
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
+                "families": 2.0, 
+                "id": "people (populace)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 53.84615384615385, 
+                "normalized_weight": 53.84615384615385, 
                 "families": 7.0, 
-                "id": "family"
+                "id": "family", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 7.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "neighbor"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 9.574468085106384, 
+                "normalized_weight": 9.574468085106384, 
                 "families": 3.0, 
-                "id": "relatives, kinsmen"
+                "id": "friend, companion", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 17.77777777777778, 
+                "normalized_weight": 17.77777777777778, 
+                "families": 4.0, 
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 4.651162790697675, 
+                "normalized_weight": 4.651162790697675, 
                 "families": 2.0, 
-                "id": "family"
+                "id": "family", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "families": 2.0, 
+                "id": "neighbor", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
+                "families": 1.0, 
+                "id": "tribe, clan", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 26.041666666666668, 
+                "normalized_weight": 26.041666666666668, 
+                "families": 5.0, 
+                "id": "person, human being", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 17.20430107526882, 
+                "normalized_weight": 17.20430107526882, 
+                "families": 4.0, 
+                "id": "people (populace)", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 6.896551724137931, 
+                "normalized_weight": 6.896551724137931, 
+                "families": 2.0, 
+                "id": "freeman", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "families": 2.0, 
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 26.041666666666668, 
+                "normalized_weight": 26.041666666666668, 
+                "families": 5.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "family", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 14.678899082568808, 
+                "normalized_weight": 14.678899082568808, 
+                "families": 4.0, 
+                "id": "tribe, clan", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 357.4257425742574, 
+                "normalized_weight": 357.4257425742574, 
+                "families": 19.0, 
+                "id": "people (populace)", 
+                "edge_width": 4.2142857142857144, 
+                "languages": 33.0
+            }, 
+            {
+                "weight": 11.25, 
+                "normalized_weight": 11.25, 
                 "families": 3.0, 
-                "id": "citizen, subject"
+                "id": "freeman", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8695652173913043, 
+                "normalized_weight": 0.8695652173913043, 
+                "families": 1.0, 
+                "id": "people (populace)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 17.20430107526882, 
+                "normalized_weight": 17.20430107526882, 
+                "families": 4.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 15.53398058252427, 
+                "normalized_weight": 15.53398058252427, 
+                "families": 4.0, 
+                "id": "family", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 101.01010101010101, 
+                "normalized_weight": 101.01010101010101, 
+                "families": 10.0, 
+                "id": "tribe, clan", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 8.181818181818182, 
+                "normalized_weight": 8.181818181818182, 
+                "families": 3.0, 
+                "id": "relatives, kinsmen", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 357.4257425742574, 
+                "normalized_weight": 357.4257425742574, 
+                "families": 19.0, 
+                "id": "person, human being", 
+                "edge_width": 4.2142857142857144, 
+                "languages": 33.0
+            }, 
+            {
+                "weight": 3.8095238095238098, 
+                "normalized_weight": 3.8095238095238098, 
+                "families": 2.0, 
+                "id": "parents", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 6.896551724137931, 
+                "normalized_weight": 6.896551724137931, 
+                "families": 2.0, 
+                "id": "citizen, subject", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 11.25, 
+                "normalized_weight": 11.25, 
+                "families": 3.0, 
+                "id": "person, human being", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

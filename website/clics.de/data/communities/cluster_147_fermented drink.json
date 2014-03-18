@@ -1,16 +1,47 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
+            "concept": "wine", 
+            "normalized_weight": 1.0869565217391304, 
             "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.92", 
+            "label": "wine", 
+            "swadesh100": 0.0, 
+            "frequency": 162.0, 
+            "weight": 1.0, 
+            "community": 147, 
+            "out_edge": [], 
+            "id": "wine", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "beer", 
+            "normalized_weight": 1.0309278350515463, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.93", 
+            "label": "beer", 
+            "swadesh100": 0.0, 
+            "frequency": 169.0, 
+            "weight": 1.0, 
+            "community": 147, 
+            "out_edge": [], 
+            "id": "beer", 
+            "languages": 1.0
+        }, 
+        {
             "concept": "fermented drink", 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "5.94", 
-            "id": "fermented drink", 
+            "label": "fermented drink", 
+            "swadesh100": 0.0, 
+            "frequency": 222.0, 
+            "weight": 1.0, 
             "community": 147, 
             "out_edge": [
                 [
@@ -20,112 +51,81 @@
                     23.809523809523807
                 ]
             ], 
-            "normalized_weight": 0.8695652173913043, 
-            "label": "fermented drink", 
-            "frequency": 222.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "beer", 
-            "key": "5.93", 
-            "id": "beer", 
-            "community": 147, 
-            "out_edge": [], 
-            "normalized_weight": 1.0309278350515463, 
-            "label": "beer", 
-            "frequency": 169.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "wine", 
-            "key": "5.92", 
-            "id": "wine", 
-            "community": 147, 
-            "out_edge": [], 
-            "normalized_weight": 1.0869565217391304, 
-            "label": "wine", 
-            "frequency": 162.0
+            "id": "fermented drink", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.9009009009009009, 
-                "weight": 0.9009009009009009, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fermented drink"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 74.4186046511628, 
-                "weight": 74.4186046511628, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "beer"
-            }, 
-            {
-                "languages": 6.0, 
-                "normalized_weight": 43.373493975903614, 
-                "weight": 43.373493975903614, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "wine"
-            }
-        ], 
-        [
-            {
-                "languages": 13.0, 
-                "normalized_weight": 74.4186046511628, 
-                "weight": 74.4186046511628, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "fermented drink"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 101.58730158730158, 
-                "weight": 101.58730158730158, 
-                "edge_width": 1.5294117647058822, 
-                "families": 8.0, 
-                "id": "wine"
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "normalized_weight": 43.373493975903614, 
-                "weight": 43.373493975903614, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "fermented drink"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 101.58730158730158, 
-                "weight": 101.58730158730158, 
-                "edge_width": 1.5294117647058822, 
-                "families": 8.0, 
-                "id": "beer"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.5384615384615385, 
                 "weight": 1.5384615384615385, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.5384615384615385, 
                 "families": 1.0, 
-                "id": "wine"
+                "id": "wine", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 101.58730158730158, 
+                "normalized_weight": 101.58730158730158, 
+                "families": 8.0, 
+                "id": "beer", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 43.373493975903614, 
+                "normalized_weight": 43.373493975903614, 
+                "families": 6.0, 
+                "id": "fermented drink", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 101.58730158730158, 
+                "normalized_weight": 101.58730158730158, 
+                "families": 8.0, 
+                "id": "wine", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 74.4186046511628, 
+                "normalized_weight": 74.4186046511628, 
+                "families": 8.0, 
+                "id": "fermented drink", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 13.0
+            }
+        ], 
+        [
+            {
+                "weight": 43.373493975903614, 
+                "normalized_weight": 43.373493975903614, 
+                "families": 6.0, 
+                "id": "wine", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 74.4186046511628, 
+                "normalized_weight": 74.4186046511628, 
+                "families": 8.0, 
+                "id": "beer", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 0.9009009009009009, 
+                "normalized_weight": 0.9009009009009009, 
+                "families": 1.0, 
+                "id": "fermented drink", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

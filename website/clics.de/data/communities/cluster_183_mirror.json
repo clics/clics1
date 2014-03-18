@@ -1,59 +1,59 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
+            "concept": "glass", 
+            "normalized_weight": 11.11111111111111, 
+            "families": 3.0, 
             "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "9.74", 
+            "label": "glass", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "mirror", 
-            "key": "6.96", 
-            "id": "mirror", 
+            "frequency": 179.0, 
+            "weight": 3.0, 
             "community": 183, 
             "out_edge": [], 
-            "normalized_weight": 1.0752688172043012, 
-            "label": "mirror", 
-            "frequency": 201.0
+            "id": "glass", 
+            "languages": 3.0
         }, 
         {
+            "concept": "mirror", 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
             "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
+            "key": "6.96", 
+            "label": "mirror", 
             "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "glass", 
-            "key": "9.74", 
-            "id": "glass", 
+            "frequency": 201.0, 
+            "weight": 1.0, 
             "community": 183, 
             "out_edge": [], 
-            "normalized_weight": 11.11111111111111, 
-            "label": "glass", 
-            "frequency": 179.0
+            "id": "mirror", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 26.0, 
-                "normalized_weight": 272.22222222222223, 
                 "weight": 272.22222222222223, 
-                "edge_width": 2.3235294117647056, 
+                "normalized_weight": 272.22222222222223, 
                 "families": 14.0, 
-                "id": "glass"
+                "id": "mirror", 
+                "edge_width": 3.4795918367346941, 
+                "languages": 26.0
             }
         ], 
         [
             {
-                "languages": 26.0, 
-                "normalized_weight": 272.22222222222223, 
                 "weight": 272.22222222222223, 
-                "edge_width": 2.3235294117647056, 
+                "normalized_weight": 272.22222222222223, 
                 "families": 14.0, 
-                "id": "mirror"
+                "id": "glass", 
+                "edge_width": 3.4795918367346941, 
+                "languages": 26.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

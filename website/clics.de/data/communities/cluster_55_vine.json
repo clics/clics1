@@ -1,275 +1,400 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "6.24", 
-            "community": 55, 
-            "id": "cotton", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "8.67", 
-            "community": 55, 
-            "id": "vine", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "12.84", 
-            "community": 55, 
-            "id": "line", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "grape", 
+            "normalized_weight": 1.3157894736842104, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "5.76", 
+            "label": "grape", 
+            "swadesh100": 0.0, 
+            "frequency": 149.0, 
+            "weight": 1.0, 
             "community": 55, 
+            "out_edge": [], 
             "id": "grape", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }, 
         {
-            "key": "20.53", 
+            "concept": "vine", 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "8.67", 
+            "label": "vine", 
+            "swadesh100": 0.0, 
+            "frequency": 222.0, 
+            "weight": 1.0, 
             "community": 55, 
-            "id": "fishing line", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "vine", 
+            "languages": 1.0
         }, 
         {
-            "key": "4.151", 
-            "community": 55, 
-            "id": "vein, artery", 
-            "out_edge": [], 
-            "body_part": 1, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "6.38", 
-            "community": 55, 
-            "id": "thread", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "rope, cord", 
+            "normalized_weight": 82.6530612244898, 
+            "families": 9.0, 
+            "body_part": 0.0, 
             "key": "9.19", 
+            "label": "rope, cord", 
+            "swadesh100": 0.0, 
+            "frequency": 305.0, 
+            "weight": 9.0, 
             "community": 55, 
-            "id": "rope, cord", 
             "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "id": "rope, cord", 
+            "languages": 9.0
+        }, 
+        {
+            "concept": "line", 
+            "normalized_weight": 40.0, 
+            "families": 6.0, 
+            "body_part": 0.0, 
+            "key": "12.84", 
+            "label": "line", 
+            "swadesh100": 0.0, 
+            "frequency": 227.0, 
+            "weight": 6.0, 
+            "community": 55, 
+            "out_edge": [
+                [
+                    "cluster_84_hole", 
+                    "furrow", 
+                    4.0, 
+                    21.333333333333336
+                ]
+            ], 
+            "id": "line", 
+            "languages": 8.0
+        }, 
+        {
+            "concept": "fishing line", 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "20.53", 
+            "label": "fishing line", 
+            "swadesh100": 0.0, 
+            "frequency": 172.0, 
+            "weight": 1.0, 
+            "community": 55, 
+            "out_edge": [], 
+            "id": "fishing line", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "vein, artery", 
+            "normalized_weight": 3.4482758620689653, 
+            "families": 2.0, 
+            "body_part": 1.0, 
+            "key": "4.151", 
+            "label": "vein, artery", 
+            "swadesh100": 0.0, 
+            "frequency": 267.0, 
+            "weight": 2.0, 
+            "community": 55, 
+            "out_edge": [], 
+            "id": "vein, artery", 
+            "languages": 2.0
+        }, 
+        {
+            "concept": "thread", 
+            "normalized_weight": 0.8771929824561403, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "6.38", 
+            "label": "thread", 
+            "swadesh100": 0.0, 
+            "frequency": 251.0, 
+            "weight": 1.0, 
+            "community": 55, 
+            "out_edge": [], 
+            "id": "thread", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "cotton", 
+            "normalized_weight": 1.2048192771084338, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "6.24", 
+            "label": "cotton", 
+            "swadesh100": 0.0, 
+            "frequency": 219.0, 
+            "weight": 1.0, 
+            "community": 55, 
+            "out_edge": [], 
+            "id": "cotton", 
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "cotton"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "thread"
+                "weight": 34.24657534246575, 
+                "normalized_weight": 34.24657534246575, 
+                "families": 5.0, 
+                "id": "vine", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 9.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "line"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 2.0, 
-                "id": "fishing line"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 9.0, 
+                "weight": 34.24657534246575, 
+                "normalized_weight": 34.24657534246575, 
                 "families": 5.0, 
-                "id": "grape"
+                "id": "grape", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 9.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "vein, artery"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "thread"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
+                "weight": 64.64646464646465, 
+                "normalized_weight": 64.64646464646465, 
                 "families": 8.0, 
-                "id": "rope, cord"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 2.0, 
-                "id": "rope, cord"
+                "id": "rope, cord", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 10.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 1.0526315789473684, 
+                "normalized_weight": 1.0526315789473684, 
                 "families": 1.0, 
-                "id": "vine"
+                "id": "line", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "thread"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "id": "fishing line"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 9.0, 
-                "families": 5.0, 
-                "id": "vine"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "thread"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 4.444444444444445, 
+                "normalized_weight": 4.444444444444445, 
                 "families": 2.0, 
-                "id": "vine"
+                "id": "fishing line", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 8.0, 
-                "families": 6.0, 
-                "id": "line"
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "families": 1.0, 
+                "id": "vein, artery", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "families": 1.0, 
+                "id": "thread", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 82.6530612244898, 
+                "normalized_weight": 82.6530612244898, 
                 "families": 9.0, 
-                "id": "rope, cord"
-            }
-        ], 
-        [
+                "id": "fishing line", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 9.0
+            }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 3.4482758620689653, 
+                "normalized_weight": 3.4482758620689653, 
                 "families": 2.0, 
-                "id": "rope, cord"
+                "id": "vein, artery", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "vine"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "thread"
-            }
-        ], 
-        [
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "cotton"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "vine"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "line"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 6.0, 
-                "families": 6.0, 
-                "id": "fishing line"
-            }, 
-            {
-                "weight": 1.0, 
-                "languages": 3.0, 
-                "families": 3.0, 
-                "id": "vein, artery"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 21.0, 
-                "families": 10.0, 
-                "id": "rope, cord"
-            }
-        ], 
-        [
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 21.0, 
-                "families": 10.0, 
-                "id": "thread"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 10.0, 
+                "weight": 64.64646464646465, 
+                "normalized_weight": 64.64646464646465, 
                 "families": 8.0, 
-                "id": "vine"
+                "id": "vine", 
+                "edge_width": 1.5510204081632653, 
+                "languages": 10.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 3.0, 
+                "weight": 92.5925925925926, 
+                "normalized_weight": 92.5925925925926, 
+                "families": 10.0, 
+                "id": "thread", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 3.669724770642202, 
+                "normalized_weight": 3.669724770642202, 
                 "families": 2.0, 
-                "id": "line"
+                "id": "line", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 40.0, 
+                "normalized_weight": 40.0, 
+                "families": 6.0, 
+                "id": "fishing line", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 8.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
+                "weight": 1.0526315789473684, 
+                "normalized_weight": 1.0526315789473684, 
+                "families": 1.0, 
+                "id": "vine", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 24.509803921568626, 
+                "normalized_weight": 24.509803921568626, 
+                "families": 5.0, 
+                "id": "thread", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 3.669724770642202, 
+                "normalized_weight": 3.669724770642202, 
+                "families": 2.0, 
+                "id": "rope, cord", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 37.11340206185567, 
+                "normalized_weight": 37.11340206185567, 
+                "families": 6.0, 
+                "id": "thread", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 4.444444444444445, 
+                "normalized_weight": 4.444444444444445, 
+                "families": 2.0, 
+                "id": "vine", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 40.0, 
+                "normalized_weight": 40.0, 
+                "families": 6.0, 
+                "id": "line", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 82.6530612244898, 
+                "normalized_weight": 82.6530612244898, 
                 "families": 9.0, 
-                "id": "fishing line"
+                "id": "rope, cord", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 9.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "families": 1.0, 
+                "id": "vine", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
+                "weight": 8.108108108108109, 
+                "normalized_weight": 8.108108108108109, 
+                "families": 3.0, 
+                "id": "thread", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 3.4482758620689653, 
+                "normalized_weight": 3.4482758620689653, 
                 "families": 2.0, 
-                "id": "vein, artery"
+                "id": "rope, cord", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "families": 1.0, 
+                "id": "vine", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 24.509803921568626, 
+                "normalized_weight": 24.509803921568626, 
+                "families": 5.0, 
+                "id": "line", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 92.5925925925926, 
+                "normalized_weight": 92.5925925925926, 
+                "families": 10.0, 
+                "id": "rope, cord", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 21.0
+            }, 
+            {
+                "weight": 37.11340206185567, 
+                "normalized_weight": 37.11340206185567, 
+                "families": 6.0, 
+                "id": "fishing line", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 8.108108108108109, 
+                "normalized_weight": 8.108108108108109, 
+                "families": 3.0, 
+                "id": "vein, artery", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 36.0, 
+                "normalized_weight": 36.0, 
+                "families": 6.0, 
+                "id": "cotton", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 36.0, 
+                "normalized_weight": 36.0, 
+                "families": 6.0, 
+                "id": "thread", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 1.0309278350515463, 
+                "normalized_weight": 1.0309278350515463, 
+                "families": 1.0, 
+                "id": "cotton", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

@@ -1,0 +1,213 @@
+{
+    "adjacency": [
+        [
+            {
+                "normalized_weight": 10.843373493975903, 
+                "id": "ambush", 
+                "languages": 6.0, 
+                "weight": 10.843373493975903, 
+                "families": 3.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 4.166666666666666, 
+                "id": "fishnet", 
+                "languages": 3.0, 
+                "weight": 4.166666666666666, 
+                "families": 2.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 75.29411764705883, 
+                "id": "fish trap", 
+                "languages": 10.0, 
+                "weight": 75.29411764705883, 
+                "families": 8.0, 
+                "edge_width": 1.435483870967742
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 4.166666666666666, 
+                "id": "trap (noun)", 
+                "languages": 3.0, 
+                "weight": 4.166666666666666, 
+                "families": 2.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 109.45945945945945, 
+                "id": "netbag", 
+                "languages": 16.0, 
+                "weight": 109.45945945945945, 
+                "families": 9.0, 
+                "edge_width": 1.7258064516129032
+            }, 
+            {
+                "normalized_weight": 28.40909090909091, 
+                "id": "fish trap", 
+                "languages": 7.0, 
+                "weight": 28.40909090909091, 
+                "families": 5.0, 
+                "edge_width": 1.1451612903225807
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 109.45945945945945, 
+                "id": "fishnet", 
+                "languages": 16.0, 
+                "weight": 109.45945945945945, 
+                "families": 9.0, 
+                "edge_width": 1.7258064516129032
+            }, 
+            {
+                "normalized_weight": 12.5, 
+                "id": "pocket", 
+                "languages": 4.0, 
+                "weight": 12.5, 
+                "families": 3.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 1.36986301369863, 
+                "id": "ambush", 
+                "languages": 2.0, 
+                "weight": 1.36986301369863, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 10.843373493975903, 
+                "id": "trap (noun)", 
+                "languages": 6.0, 
+                "weight": 10.843373493975903, 
+                "families": 3.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 12.5, 
+                "id": "netbag", 
+                "languages": 4.0, 
+                "weight": 12.5, 
+                "families": 3.0, 
+                "edge_width": 1.0
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 75.29411764705883, 
+                "id": "trap (noun)", 
+                "languages": 10.0, 
+                "weight": 75.29411764705883, 
+                "families": 8.0, 
+                "edge_width": 1.435483870967742
+            }, 
+            {
+                "normalized_weight": 28.40909090909091, 
+                "id": "fishnet", 
+                "languages": 7.0, 
+                "weight": 28.40909090909091, 
+                "families": 5.0, 
+                "edge_width": 1.1451612903225807
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "trap (vb)", 
+                    6.0, 
+                    42.35294117647059
+                ]
+            ], 
+            "id": "trap (noun)", 
+            "frequency": 240.0, 
+            "languages": 1.0, 
+            "key": "20.64", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9090909090909091, 
+            "body_part": 0.0, 
+            "label": "trap (noun)", 
+            "community": 104, 
+            "concept": "trap (noun)", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "fishnet", 
+            "frequency": 217.0, 
+            "languages": 2.0, 
+            "key": "20.54", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 3.9603960396039604, 
+            "body_part": 0.0, 
+            "label": "fishnet", 
+            "community": 104, 
+            "concept": "fishnet", 
+            "weight": 2.0, 
+            "families": 2.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "netbag", 
+            "languages": 4.0, 
+            "key": "9.78", 
+            "normalized_weight": 12.5, 
+            "community": 104, 
+            "weight": 3.0, 
+            "families": 3.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "ambush", 
+            "frequency": 180.0, 
+            "languages": 2.0, 
+            "key": "20.49", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.36986301369863, 
+            "body_part": 0.0, 
+            "label": "ambush", 
+            "community": 104, 
+            "concept": "ambush", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "id": "pocket", 
+            "frequency": 198.0, 
+            "out_edge": [], 
+            "key": "6.61", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0, 
+            "label": "pocket", 
+            "community": 104, 
+            "concept": "pocket"
+        }, 
+        {
+            "out_edge": [], 
+            "id": "fish trap", 
+            "frequency": 161.0, 
+            "languages": 1.0, 
+            "key": "20.55", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.0638297872340425, 
+            "body_part": 0.0, 
+            "label": "fish trap", 
+            "community": 104, 
+            "concept": "fish trap", 
+            "weight": 1.0, 
+            "families": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

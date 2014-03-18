@@ -1,94 +1,150 @@
 {
+    "directed": false, 
+    "multigraph": false, 
     "nodes": [
         {
-            "key": "10.48", 
+            "concept": "approach", 
+            "normalized_weight": 0.9615384615384616, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "10.56", 
+            "label": "approach", 
+            "swadesh100": 0.0, 
+            "frequency": 259.0, 
+            "weight": 1.0, 
             "community": 161, 
-            "id": "come", 
+            "out_edge": [], 
+            "id": "approach", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "come", 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "10.48", 
+            "label": "come", 
+            "swadesh100": 1.0, 
+            "frequency": 283.0, 
+            "weight": 1.0, 
+            "community": 161, 
             "out_edge": [
                 [
                     "cluster_56_go", 
                     "go", 
                     8.0, 
-                    1.2647058823529411
+                    54.700854700854705
+                ], 
+                [
+                    "cluster_101_turn over", 
+                    "come back", 
+                    6.0, 
+                    30.76923076923077
                 ]
             ], 
-            "body_part": 0, 
-            "swadesh100": 1
+            "id": "come", 
+            "languages": 1.0
         }, 
         {
-            "key": "10.56", 
-            "community": 161, 
-            "id": "approach", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
+            "concept": "reach, arrive", 
+            "normalized_weight": 0.8064516129032258, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "10.55", 
+            "label": "reach, arrive", 
+            "swadesh100": 0.0, 
+            "frequency": 329.0, 
+            "weight": 1.0, 
             "community": 161, 
+            "out_edge": [
+                [
+                    "cluster_3_get, obtain", 
+                    "get, obtain", 
+                    4.0, 
+                    14.15929203539823
+                ], 
+                [
+                    "cluster_47_see", 
+                    "find", 
+                    4.0, 
+                    13.333333333333334
+                ]
+            ], 
             "id": "reach, arrive", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
+            "languages": 1.0
         }
     ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 5.0, 
-                "families": 5.0, 
-                "id": "approach"
+                "weight": 0.9009009009009009, 
+                "normalized_weight": 0.9009009009009009, 
+                "families": 1.0, 
+                "id": "approach", 
+                "edge_width": 1.0, 
+                "languages": 2.0
             }, 
             {
-                "weight": 1.7941176470588236, 
-                "languages": 33.0, 
-                "families": 14.0, 
-                "id": "reach, arrive"
+                "weight": 22.123893805309734, 
+                "normalized_weight": 22.123893805309734, 
+                "families": 5.0, 
+                "id": "come", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 58.18181818181818, 
+                "normalized_weight": 58.18181818181818, 
+                "families": 8.0, 
+                "id": "reach, arrive", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 9.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 5.0, 
+                "weight": 22.123893805309734, 
+                "normalized_weight": 22.123893805309734, 
                 "families": 5.0, 
-                "id": "come"
+                "id": "approach", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 2.0, 
-                "families": 1.0, 
-                "id": "approach"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
-                "families": 8.0, 
-                "id": "reach, arrive"
+                "weight": 178.1818181818182, 
+                "normalized_weight": 178.1818181818182, 
+                "families": 14.0, 
+                "id": "reach, arrive", 
+                "edge_width": 2.5612244897959187, 
+                "languages": 33.0
             }
         ], 
         [
             {
-                "weight": 1.7941176470588236, 
-                "languages": 33.0, 
+                "weight": 178.1818181818182, 
+                "normalized_weight": 178.1818181818182, 
                 "families": 14.0, 
-                "id": "come"
+                "id": "come", 
+                "edge_width": 2.5612244897959187, 
+                "languages": 33.0
             }, 
             {
-                "weight": 1.2647058823529411, 
-                "languages": 9.0, 
+                "weight": 58.18181818181818, 
+                "normalized_weight": 58.18181818181818, 
                 "families": 8.0, 
-                "id": "approach"
+                "id": "approach", 
+                "edge_width": 1.4591836734693877, 
+                "languages": 9.0
             }, 
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
                 "families": 1.0, 
-                "id": "reach, arrive"
+                "id": "reach, arrive", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ]
     ], 
-    "directed": false
+    "graph": []
 }

@@ -1,119 +1,174 @@
 {
-    "nodes": [
-        {
-            "key": "9.79", 
-            "community": 158, 
-            "id": "fan (noun)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "10.38", 
-            "community": 158, 
-            "id": "blow", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "9.791", 
-            "community": 158, 
-            "id": "fan (vb)", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "3.92", 
-            "community": 158, 
-            "id": "butterfly", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }, 
-        {
-            "key": "18.17", 
-            "community": 158, 
-            "id": "whistle", 
-            "out_edge": [], 
-            "body_part": 0, 
-            "swadesh100": 0
-        }
-    ], 
-    "multigraph": false, 
-    "graph": [], 
     "adjacency": [
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "blow"
-            }, 
-            {
-                "weight": 1.0, 
+                "normalized_weight": 27.77777777777778, 
+                "id": "fan (vb)", 
                 "languages": 6.0, 
+                "weight": 27.77777777777778, 
                 "families": 5.0, 
-                "id": "fan (vb)"
+                "edge_width": 1.1451612903225807
             }, 
             {
-                "weight": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "id": "butterfly", 
                 "languages": 1.0, 
+                "weight": 0.9345794392523363, 
                 "families": 1.0, 
-                "id": "butterfly"
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 0.9174311926605505, 
+                "id": "blow", 
+                "languages": 1.0, 
+                "weight": 0.9174311926605505, 
+                "families": 1.0, 
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
-                "languages": 1.0, 
-                "families": 1.0, 
-                "id": "fan (noun)"
-            }, 
-            {
-                "weight": 1.2647058823529411, 
-                "languages": 15.0, 
-                "families": 10.0, 
-                "id": "fan (vb)"
-            }, 
-            {
-                "weight": 1.0, 
+                "normalized_weight": 7.258064516129033, 
+                "id": "blow", 
                 "languages": 3.0, 
+                "weight": 7.258064516129033, 
                 "families": 3.0, 
-                "id": "whistle"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "normalized_weight": 27.77777777777778, 
+                "id": "fan (noun)", 
                 "languages": 6.0, 
+                "weight": 27.77777777777778, 
                 "families": 5.0, 
-                "id": "fan (noun)"
+                "edge_width": 1.1451612903225807
             }, 
             {
-                "weight": 1.2647058823529411, 
+                "normalized_weight": 99.00990099009901, 
+                "id": "blow", 
                 "languages": 15.0, 
+                "weight": 99.00990099009901, 
                 "families": 10.0, 
-                "id": "blow"
+                "edge_width": 1.5806451612903225
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "normalized_weight": 0.9345794392523363, 
+                "id": "fan (noun)", 
                 "languages": 1.0, 
+                "weight": 0.9345794392523363, 
                 "families": 1.0, 
-                "id": "fan (noun)"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "weight": 1.0, 
+                "normalized_weight": 0.9174311926605505, 
+                "id": "fan (noun)", 
+                "languages": 1.0, 
+                "weight": 0.9174311926605505, 
+                "families": 1.0, 
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 7.258064516129033, 
+                "id": "whistle", 
                 "languages": 3.0, 
+                "weight": 7.258064516129033, 
                 "families": 3.0, 
-                "id": "blow"
+                "edge_width": 1.0
+            }, 
+            {
+                "normalized_weight": 99.00990099009901, 
+                "id": "fan (vb)", 
+                "languages": 15.0, 
+                "weight": 99.00990099009901, 
+                "families": 10.0, 
+                "edge_width": 1.5806451612903225
             }
         ]
     ], 
-    "directed": false
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "fan (noun)", 
+            "frequency": 191.0, 
+            "languages": 1.0, 
+            "key": "9.79", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9345794392523363, 
+            "body_part": 0.0, 
+            "label": "fan (noun)", 
+            "community": 158, 
+            "concept": "fan (noun)", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "whistle", 
+            "frequency": 259.0, 
+            "languages": 1.0, 
+            "key": "18.17", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8, 
+            "body_part": 0.0, 
+            "label": "whistle", 
+            "community": 158, 
+            "concept": "whistle", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "fan (vb)", 
+            "frequency": 201.0, 
+            "languages": 1.0, 
+            "key": "9.791", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9174311926605505, 
+            "body_part": 0.0, 
+            "label": "fan (vb)", 
+            "community": 158, 
+            "concept": "fan (vb)", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "butterfly", 
+            "frequency": 235.0, 
+            "languages": 1.0, 
+            "key": "3.92", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9259259259259258, 
+            "body_part": 0.0, 
+            "label": "butterfly", 
+            "community": 158, 
+            "concept": "butterfly", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "blow", 
+            "frequency": 280.0, 
+            "languages": 1.0, 
+            "key": "10.38", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8849557522123894, 
+            "body_part": 0.0, 
+            "label": "blow", 
+            "community": 158, 
+            "concept": "blow", 
+            "weight": 1.0, 
+            "families": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

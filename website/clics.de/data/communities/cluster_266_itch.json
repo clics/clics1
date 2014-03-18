@@ -1,87 +1,87 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "families": 1.0, 
-            "key": "4.854", 
-            "id": "itch", 
-            "community": 266, 
-            "out_edge": [], 
-            "normalized_weight": 1.0869565217391304
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "creep, crawl", 
-            "key": "10.41", 
-            "id": "creep, crawl", 
-            "community": 266, 
-            "out_edge": [], 
-            "normalized_weight": 0.847457627118644, 
-            "label": "creep, crawl", 
-            "frequency": 256.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "goiter", 
-            "key": "4.842", 
-            "id": "goiter", 
-            "community": 266, 
-            "out_edge": [], 
-            "normalized_weight": 1.0, 
-            "label": "goiter", 
-            "frequency": 162.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
                 "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
                 "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "itch"
+            }
+        ], 
+        [
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "creep, crawl"
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
                 "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.0204081632653061, 
+                "languages": 1.0, 
                 "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "goiter"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "itch"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
                 "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
+                "normalized_weight": 1.0204081632653061, 
+                "languages": 1.0, 
                 "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "itch"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "10.41", 
+            "swadesh100": 0.0, 
+            "frequency": 256.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "creep, crawl", 
+            "concept": "creep, crawl", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 266, 
+            "normalized_weight": 0.847457627118644, 
+            "families": 1.0, 
+            "id": "creep, crawl"
+        }, 
+        {
+            "key": "4.854", 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "weight": 1.0, 
+            "community": 266, 
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "id": "itch"
+        }, 
+        {
+            "key": "4.842", 
+            "swadesh100": 0.0, 
+            "frequency": 162.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "goiter", 
+            "concept": "goiter", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 266, 
+            "normalized_weight": 1.0, 
+            "families": 1.0, 
+            "id": "goiter"
+        }
+    ], 
+    "graph": []
 }

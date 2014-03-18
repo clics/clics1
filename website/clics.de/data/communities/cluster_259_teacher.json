@@ -1,30 +1,18 @@
 {
+    "directed": false, 
     "multigraph": false, 
-    "adjacency": [
-        [
-            {
-                "weight": 38.297872340425535, 
-                "id": "pupil", 
-                "families": 6.0, 
-                "languages": 6.0
-            }
-        ], 
-        [
-            {
-                "weight": 38.297872340425535, 
-                "id": "teacher", 
-                "families": 6.0, 
-                "languages": 6.0
-            }
-        ]
-    ], 
     "nodes": [
         {
-            "community": 259, 
-            "id": "teacher", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "teacher", 
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "17.27", 
+            "label": "teacher", 
+            "swadesh100": 0.0, 
+            "frequency": 249.0, 
+            "weight": 1.0, 
+            "community": 259, 
             "out_edge": [
                 [
                     "cluster_69_king, ruler", 
@@ -32,14 +20,21 @@
                     4.0, 
                     16.3265306122449
                 ]
-            ]
+            ], 
+            "id": "teacher", 
+            "languages": 1.0
         }, 
         {
-            "community": 259, 
-            "id": "pupil", 
-            "body_part": 0, 
-            "swadesh100": 0, 
+            "concept": "pupil", 
+            "normalized_weight": 23.58490566037736, 
+            "families": 5.0, 
+            "body_part": 0.0, 
             "key": "17.26", 
+            "label": "pupil", 
+            "swadesh100": 0.0, 
+            "frequency": 238.0, 
+            "weight": 5.0, 
+            "community": 259, 
             "out_edge": [
                 [
                     "cluster_6_son", 
@@ -47,9 +42,32 @@
                     5.0, 
                     23.58490566037736
                 ]
-            ]
+            ], 
+            "id": "pupil", 
+            "languages": 5.0
         }
     ], 
-    "graph": [], 
-    "directed": false
+    "adjacency": [
+        [
+            {
+                "weight": 38.297872340425535, 
+                "normalized_weight": 38.297872340425535, 
+                "families": 6.0, 
+                "id": "pupil", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }
+        ], 
+        [
+            {
+                "weight": 38.297872340425535, 
+                "normalized_weight": 38.297872340425535, 
+                "families": 6.0, 
+                "id": "teacher", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }
+        ]
+    ], 
+    "graph": []
 }

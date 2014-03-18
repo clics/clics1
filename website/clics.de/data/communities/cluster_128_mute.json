@@ -1,141 +1,141 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 28.0, 
-            "weight": 14.0, 
-            "swadesh100": 0.0, 
-            "families": 14.0, 
-            "concept": "foolish, stupid", 
-            "key": "17.22", 
-            "id": "foolish, stupid", 
-            "community": 128, 
-            "out_edge": [], 
-            "normalized_weight": 200.0, 
-            "label": "foolish, stupid", 
-            "frequency": 338.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "insane, crazy", 
-            "key": "17.23", 
-            "id": "insane, crazy", 
-            "community": 128, 
-            "out_edge": [], 
-            "normalized_weight": 1.098901098901099, 
-            "label": "insane, crazy", 
-            "frequency": 289.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "mute", 
-            "key": "4.96", 
-            "id": "mute", 
-            "community": 128, 
-            "out_edge": [], 
-            "normalized_weight": 3.571428571428571, 
-            "label": "mute", 
-            "frequency": 219.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "deaf", 
+            "normalized_weight": 0.8403361344537815, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "4.95", 
-            "id": "deaf", 
+            "label": "deaf", 
+            "swadesh100": 0.0, 
+            "frequency": 252.0, 
+            "weight": 1.0, 
             "community": 128, 
             "out_edge": [], 
-            "normalized_weight": 0.8403361344537815, 
-            "label": "deaf", 
-            "frequency": 252.0
+            "id": "deaf", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "insane, crazy", 
+            "normalized_weight": 1.098901098901099, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "17.23", 
+            "label": "insane, crazy", 
+            "swadesh100": 0.0, 
+            "frequency": 289.0, 
+            "weight": 1.0, 
+            "community": 128, 
+            "out_edge": [], 
+            "id": "insane, crazy", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "mute", 
+            "normalized_weight": 3.571428571428571, 
+            "families": 2.0, 
+            "body_part": 0.0, 
+            "key": "4.96", 
+            "label": "mute", 
+            "swadesh100": 0.0, 
+            "frequency": 219.0, 
+            "weight": 2.0, 
+            "community": 128, 
+            "out_edge": [], 
+            "id": "mute", 
+            "languages": 2.0
+        }, 
+        {
+            "concept": "foolish, stupid", 
+            "normalized_weight": 200.0, 
+            "families": 14.0, 
+            "body_part": 0.0, 
+            "key": "17.22", 
+            "label": "foolish, stupid", 
+            "swadesh100": 0.0, 
+            "frequency": 338.0, 
+            "weight": 14.0, 
+            "community": 128, 
+            "out_edge": [], 
+            "id": "foolish, stupid", 
+            "languages": 28.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 28.0, 
-                "normalized_weight": 200.0, 
-                "weight": 200.0, 
-                "edge_width": 2.0588235294117645, 
-                "families": 14.0, 
-                "id": "insane, crazy"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.49056603773585, 
-                "weight": 8.49056603773585, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "mute"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7383177570093453, 
-                "weight": 3.7383177570093453, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "mute"
-            }, 
-            {
-                "languages": 28.0, 
-                "normalized_weight": 200.0, 
-                "weight": 200.0, 
-                "edge_width": 2.0588235294117645, 
-                "families": 14.0, 
-                "id": "foolish, stupid"
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.49056603773585, 
-                "weight": 8.49056603773585, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "foolish, stupid"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.571428571428571, 
                 "weight": 3.571428571428571, 
-                "edge_width": 1.0, 
+                "normalized_weight": 3.571428571428571, 
                 "families": 2.0, 
-                "id": "deaf"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7383177570093453, 
-                "weight": 3.7383177570093453, 
+                "id": "mute", 
                 "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "insane, crazy"
+                "languages": 2.0
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "normalized_weight": 3.571428571428571, 
-                "weight": 3.571428571428571, 
-                "edge_width": 1.0, 
+                "weight": 3.7383177570093453, 
+                "normalized_weight": 3.7383177570093453, 
                 "families": 2.0, 
-                "id": "mute"
+                "id": "mute", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 200.0, 
+                "normalized_weight": 200.0, 
+                "families": 14.0, 
+                "id": "foolish, stupid", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 28.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.571428571428571, 
+                "normalized_weight": 3.571428571428571, 
+                "families": 2.0, 
+                "id": "deaf", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 3.7383177570093453, 
+                "normalized_weight": 3.7383177570093453, 
+                "families": 2.0, 
+                "id": "insane, crazy", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 8.49056603773585, 
+                "normalized_weight": 8.49056603773585, 
+                "families": 3.0, 
+                "id": "foolish, stupid", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 200.0, 
+                "normalized_weight": 200.0, 
+                "families": 14.0, 
+                "id": "insane, crazy", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 28.0
+            }, 
+            {
+                "weight": 8.49056603773585, 
+                "normalized_weight": 8.49056603773585, 
+                "families": 3.0, 
+                "id": "mute", 
+                "edge_width": 1.0, 
+                "languages": 3.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

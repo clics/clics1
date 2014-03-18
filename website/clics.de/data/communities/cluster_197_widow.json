@@ -1,41 +1,55 @@
 {
-    "nodes": [
-        {
-            "body_part": 0, 
-            "community": 197, 
-            "id": "widow", 
-            "key": "2.76", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }, 
-        {
-            "body_part": 0, 
-            "community": 197, 
-            "id": "widower", 
-            "key": "2.77", 
-            "out_edge": [], 
-            "swadesh100": 0
-        }
-    ], 
     "adjacency": [
         [
             {
+                "normalized_weight": 344.6808510638298, 
+                "id": "widower", 
                 "languages": 34.0, 
-                "weight": 3.8604651162790695, 
+                "weight": 344.6808510638298, 
                 "families": 18.0, 
-                "id": "widower"
+                "edge_width": 3.467741935483871
             }
         ], 
         [
             {
+                "normalized_weight": 344.6808510638298, 
+                "id": "widow", 
                 "languages": 34.0, 
-                "weight": 3.8604651162790695, 
+                "weight": 344.6808510638298, 
                 "families": 18.0, 
-                "id": "widow"
+                "edge_width": 3.467741935483871
             }
         ]
     ], 
-    "directed": false, 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "widow", 
+            "frequency": 231.0, 
+            "languages": 2.0, 
+            "key": "2.76", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 3.7037037037037033, 
+            "body_part": 0.0, 
+            "label": "widow", 
+            "community": 197, 
+            "concept": "widow", 
+            "weight": 2.0, 
+            "families": 2.0
+        }, 
+        {
+            "id": "widower", 
+            "frequency": 210.0, 
+            "out_edge": [], 
+            "key": "2.77", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0, 
+            "label": "widower", 
+            "community": 197, 
+            "concept": "widower"
+        }
+    ], 
     "graph": [], 
+    "directed": false, 
     "multigraph": false
 }

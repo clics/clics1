@@ -1,17 +1,28 @@
 {
-    "graph": [], 
-    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "normalized_weight": 654.0540540540541, 
+                "id": "paddle (noun)", 
+                "languages": 68.0, 
+                "weight": 654.0540540540541, 
+                "families": 22.0, 
+                "edge_width": 5.645161290322581
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 654.0540540540541, 
+                "id": "oar", 
+                "languages": 68.0, 
+                "weight": 654.0540540540541, 
+                "families": 22.0, 
+                "edge_width": 5.645161290322581
+            }
+        ]
+    ], 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "oar", 
-            "key": "10.85", 
-            "id": "oar", 
-            "community": 134, 
             "out_edge": [
                 [
                     "cluster_92_shake", 
@@ -20,20 +31,20 @@
                     26.595744680851062
                 ]
             ], 
+            "id": "oar", 
+            "frequency": 166.0, 
+            "languages": 1.0, 
+            "key": "10.85", 
+            "swadesh100": 0.0, 
             "normalized_weight": 1.0416666666666665, 
+            "body_part": 0.0, 
             "label": "oar", 
-            "frequency": 166.0
+            "community": 134, 
+            "concept": "oar", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "paddle (noun)", 
-            "key": "10.851", 
-            "id": "paddle (noun)", 
-            "community": 134, 
             "out_edge": [
                 [
                     "cluster_112_shovel", 
@@ -42,32 +53,21 @@
                     20.0
                 ]
             ], 
+            "id": "paddle (noun)", 
+            "frequency": 172.0, 
+            "languages": 1.0, 
+            "key": "10.851", 
+            "swadesh100": 0.0, 
             "normalized_weight": 0.9708737864077669, 
+            "body_part": 0.0, 
             "label": "paddle (noun)", 
-            "frequency": 172.0
+            "community": 134, 
+            "concept": "paddle (noun)", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
+    "graph": [], 
     "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 68.0, 
-                "normalized_weight": 654.0540540540541, 
-                "weight": 654.0540540540541, 
-                "edge_width": 4.4411764705882355, 
-                "families": 22.0, 
-                "id": "paddle (noun)"
-            }
-        ], 
-        [
-            {
-                "languages": 68.0, 
-                "normalized_weight": 654.0540540540541, 
-                "weight": 654.0540540540541, 
-                "edge_width": 4.4411764705882355, 
-                "families": 22.0, 
-                "id": "oar"
-            }
-        ]
-    ]
+    "multigraph": false
 }

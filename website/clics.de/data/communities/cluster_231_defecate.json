@@ -1,146 +1,195 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "id": "defecate", 
-                "edge_width": 1.0, 
-                "weight": 0.8849557522123894, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "opossum", 
-                "edge_width": 1.0, 
-                "weight": 1.1363636363636365, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "defecate", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "defecate", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "rabbit", 
-                "edge_width": 1.0, 
-                "weight": 0.8849557522123894, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "urinate", 
-                "edge_width": 1.0, 
-                "weight": 0.8, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "opossum", 
-                "edge_width": 1.0, 
-                "weight": 1.1764705882352942, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 2.0, 
-                "id": "dog", 
-                "edge_width": 1.0, 
-                "weight": 3.7037037037037033, 
-                "families": 2.0
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "id": "rabbit", 
-                "edge_width": 1.0, 
-                "weight": 1.1363636363636365, 
-                "families": 1.0
-            }, 
-            {
-                "languages": 1.0, 
-                "id": "cat", 
-                "edge_width": 1.0, 
-                "weight": 1.1764705882352942, 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "id": "cat", 
-                "edge_width": 1.0, 
-                "weight": 3.7037037037037033, 
-                "families": 2.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "dog", 
+            "normalized_weight": 1.0, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "3.61", 
+            "label": "dog", 
+            "swadesh100": 1.0, 
+            "frequency": 262.0, 
+            "weight": 1.0, 
             "community": 231, 
-            "id": "rabbit", 
-            "key": "3.614"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 231, 
-            "id": "urinate", 
-            "key": "4.65"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 231, 
-            "id": "defecate", 
-            "key": "4.66"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 231, 
-            "id": "cat", 
-            "key": "3.62"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 231, 
-            "id": "opossum", 
-            "key": "3.622"
-        }, 
-        {
-            "swadesh100": 1, 
-            "body_part": 0, 
-            "out_edge": [], 
-            "community": 231, 
             "id": "dog", 
-            "key": "3.61"
+            "languages": 1.0
+        }, 
+        {
+            "concept": "cat", 
+            "normalized_weight": 0.9433962264150944, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "3.62", 
+            "label": "cat", 
+            "swadesh100": 0.0, 
+            "frequency": 224.0, 
+            "weight": 1.0, 
+            "community": 231, 
+            "out_edge": [], 
+            "id": "cat", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "urinate", 
+            "normalized_weight": 0.7936507936507936, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "4.65", 
+            "label": "urinate", 
+            "swadesh100": 0.0, 
+            "frequency": 270.0, 
+            "weight": 1.0, 
+            "community": 231, 
+            "out_edge": [], 
+            "id": "urinate", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "rabbit", 
+            "normalized_weight": 1.1363636363636365, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "3.614", 
+            "label": "rabbit", 
+            "swadesh100": 0.0, 
+            "frequency": 210.0, 
+            "weight": 1.0, 
+            "community": 231, 
+            "out_edge": [], 
+            "id": "rabbit", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "defecate", 
+            "normalized_weight": 0.7936507936507936, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "4.66", 
+            "label": "defecate", 
+            "swadesh100": 0.0, 
+            "frequency": 299.0, 
+            "weight": 1.0, 
+            "community": 231, 
+            "out_edge": [], 
+            "id": "defecate", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "opossum", 
+            "body_part": 0.0, 
+            "key": "3.622", 
+            "label": "opossum", 
+            "swadesh100": 0.0, 
+            "frequency": 101.0, 
+            "community": 231, 
+            "out_edge": [], 
+            "id": "opossum"
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.7037037037037033, 
+                "normalized_weight": 3.7037037037037033, 
+                "families": 2.0, 
+                "id": "cat", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.7037037037037033, 
+                "normalized_weight": 3.7037037037037033, 
+                "families": 2.0, 
+                "id": "dog", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.1764705882352942, 
+                "normalized_weight": 1.1764705882352942, 
+                "families": 1.0, 
+                "id": "opossum", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8, 
+                "normalized_weight": 0.8, 
+                "families": 1.0, 
+                "id": "defecate", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8849557522123894, 
+                "normalized_weight": 0.8849557522123894, 
+                "families": 1.0, 
+                "id": "defecate", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1363636363636365, 
+                "normalized_weight": 1.1363636363636365, 
+                "families": 1.0, 
+                "id": "opossum", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8, 
+                "normalized_weight": 0.8, 
+                "families": 1.0, 
+                "id": "urinate", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8849557522123894, 
+                "normalized_weight": 0.8849557522123894, 
+                "families": 1.0, 
+                "id": "rabbit", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8, 
+                "normalized_weight": 0.8, 
+                "families": 1.0, 
+                "id": "defecate", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.1363636363636365, 
+                "normalized_weight": 1.1363636363636365, 
+                "families": 1.0, 
+                "id": "rabbit", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1764705882352942, 
+                "normalized_weight": 1.1764705882352942, 
+                "families": 1.0, 
+                "id": "cat", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ]
     ], 
     "graph": []
 }

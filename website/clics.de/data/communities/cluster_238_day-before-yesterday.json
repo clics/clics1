@@ -1,41 +1,54 @@
 {
+    "directed": false, 
     "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "day-before-yesterday", 
+            "normalized_weight": 0.8771929824561403, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "14.491", 
+            "label": "day-before-yesterday", 
+            "swadesh100": 0.0, 
+            "frequency": 204.0, 
+            "weight": 1.0, 
+            "community": 238, 
+            "out_edge": [], 
+            "id": "day-before-yesterday", 
+            "languages": 1.0
+        }, 
+        {
+            "normalized_weight": 7.758620689655173, 
+            "families": 3.0, 
+            "key": "14.481", 
+            "out_edge": [], 
+            "weight": 3.0, 
+            "community": 238, 
+            "id": "day-after-tomorrow", 
+            "languages": 3.0
+        }
+    ], 
     "adjacency": [
         [
             {
                 "weight": 47.57281553398058, 
-                "id": "day-after-tomorrow", 
+                "normalized_weight": 47.57281553398058, 
                 "families": 7.0, 
+                "id": "day-after-tomorrow", 
+                "edge_width": 1.3673469387755102, 
                 "languages": 9.0
             }
         ], 
         [
             {
                 "weight": 47.57281553398058, 
-                "id": "day-before-yesterday", 
+                "normalized_weight": 47.57281553398058, 
                 "families": 7.0, 
+                "id": "day-before-yesterday", 
+                "edge_width": 1.3673469387755102, 
                 "languages": 9.0
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 238, 
-            "id": "day-before-yesterday", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.491", 
-            "out_edge": []
-        }, 
-        {
-            "community": 238, 
-            "id": "day-after-tomorrow", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "14.481", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

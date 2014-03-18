@@ -1,17 +1,176 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 167.32673267326732, 
+                "normalized_weight": 167.32673267326732, 
+                "languages": 16.0, 
+                "families": 13.0, 
+                "edge_width": 2.0510204081632653, 
+                "id": "word"
+            }, 
+            {
+                "weight": 227.27272727272728, 
+                "normalized_weight": 227.27272727272728, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.6326530612244898, 
+                "id": "language"
+            }, 
+            {
+                "weight": 0.847457627118644, 
+                "normalized_weight": 0.847457627118644, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "tongue"
+            }, 
+            {
+                "weight": 234.375, 
+                "normalized_weight": 234.375, 
+                "languages": 50.0, 
+                "families": 15.0, 
+                "edge_width": 2.7295918367346936, 
+                "id": "sound, noise"
+            }
+        ], 
+        [
+            {
+                "weight": 167.32673267326732, 
+                "normalized_weight": 167.32673267326732, 
+                "languages": 16.0, 
+                "families": 13.0, 
+                "edge_width": 2.0510204081632653, 
+                "id": "voice"
+            }, 
+            {
+                "weight": 1475.9036144578313, 
+                "normalized_weight": 1475.9036144578313, 
+                "languages": 61.0, 
+                "families": 35.0, 
+                "edge_width": 9.0306122448979593, 
+                "id": "language"
+            }, 
+            {
+                "weight": 7.5, 
+                "normalized_weight": 7.5, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "tongue"
+            }, 
+            {
+                "weight": 3.5398230088495577, 
+                "normalized_weight": 3.5398230088495577, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "sound, noise"
+            }
+        ], 
+        [
+            {
+                "weight": 227.27272727272728, 
+                "normalized_weight": 227.27272727272728, 
+                "languages": 21.0, 
+                "families": 15.0, 
+                "edge_width": 2.6326530612244898, 
+                "id": "voice"
+            }, 
+            {
+                "weight": 1475.9036144578313, 
+                "normalized_weight": 1475.9036144578313, 
+                "languages": 61.0, 
+                "families": 35.0, 
+                "edge_width": 9.0306122448979593, 
+                "id": "word"
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "sound, noise"
+            }, 
+            {
+                "weight": 88.49557522123894, 
+                "normalized_weight": 88.49557522123894, 
+                "languages": 63.0, 
+                "families": 10.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "tongue"
+            }
+        ], 
+        [
+            {
+                "weight": 0.847457627118644, 
+                "normalized_weight": 0.847457627118644, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "voice"
+            }, 
+            {
+                "weight": 7.5, 
+                "normalized_weight": 7.5, 
+                "languages": 4.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "word"
+            }, 
+            {
+                "weight": 88.49557522123894, 
+                "normalized_weight": 88.49557522123894, 
+                "languages": 63.0, 
+                "families": 10.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "language"
+            }
+        ], 
+        [
+            {
+                "weight": 234.375, 
+                "normalized_weight": 234.375, 
+                "languages": 50.0, 
+                "families": 15.0, 
+                "edge_width": 2.7295918367346936, 
+                "id": "voice"
+            }, 
+            {
+                "weight": 3.5398230088495577, 
+                "normalized_weight": 3.5398230088495577, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "word"
+            }, 
+            {
+                "weight": 0.9009009009009009, 
+                "normalized_weight": 0.9009009009009009, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "sound, noise"
+            }, 
+            {
+                "weight": 0.8771929824561403, 
+                "normalized_weight": 0.8771929824561403, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "language"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "voice", 
             "key": "18.11", 
-            "id": "voice", 
-            "community": 24, 
+            "swadesh100": 0.0, 
+            "frequency": 234.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_91_collar", 
@@ -32,87 +191,20 @@
                     37.11340206185567
                 ]
             ], 
-            "normalized_weight": 0.8620689655172413, 
             "label": "voice", 
-            "frequency": 234.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
+            "concept": "voice", 
             "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "language", 
-            "key": "18.24", 
-            "id": "language", 
-            "community": 24, 
-            "out_edge": [
-                [
-                    "cluster_20_tell story", 
-                    "speech (make a)", 
-                    10.0, 
-                    103.09278350515463
-                ], 
-                [
-                    "cluster_20_tell story", 
-                    "speak, talk", 
-                    6.0, 
-                    31.03448275862069
-                ], 
-                [
-                    "cluster_41_beak", 
-                    "mouth", 
-                    4.0, 
-                    13.559322033898304
-                ]
-            ], 
-            "normalized_weight": 0.9345794392523363, 
-            "label": "language", 
-            "frequency": 250.0
-        }, 
-        {
             "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "sound, noise", 
-            "key": "15.44", 
-            "id": "sound, noise", 
             "community": 24, 
-            "out_edge": [
-                [
-                    "cluster_70_strong, mighty, powerful", 
-                    "loud", 
-                    5.0, 
-                    24.752475247524753
-                ]
-            ], 
-            "normalized_weight": 0.8771929824561403, 
-            "label": "sound, noise", 
-            "frequency": 335.0
+            "normalized_weight": 0.8620689655172413, 
+            "families": 1.0, 
+            "id": "voice"
         }, 
         {
-            "body_part": 1.0, 
-            "swadesh100": 1.0, 
-            "concept": "tongue", 
-            "key": "4.26", 
-            "id": "tongue", 
-            "community": 24, 
-            "out_edge": [], 
-            "label": "tongue", 
-            "frequency": 235.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "word", 
             "key": "18.26", 
-            "id": "word", 
-            "community": 24, 
+            "swadesh100": 0.0, 
+            "frequency": 244.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_20_tell story", 
@@ -133,174 +225,82 @@
                     13.559322033898304
                 ]
             ], 
-            "normalized_weight": 0.9345794392523363, 
             "label": "word", 
-            "frequency": 244.0
+            "concept": "word", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 24, 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "id": "word"
+        }, 
+        {
+            "key": "18.24", 
+            "swadesh100": 0.0, 
+            "frequency": 250.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_20_tell story", 
+                    "speech (make a)", 
+                    10.0, 
+                    103.09278350515463
+                ], 
+                [
+                    "cluster_20_tell story", 
+                    "speak, talk", 
+                    6.0, 
+                    31.03448275862069
+                ], 
+                [
+                    "cluster_41_beak", 
+                    "mouth", 
+                    4.0, 
+                    13.559322033898304
+                ]
+            ], 
+            "label": "language", 
+            "concept": "language", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 24, 
+            "normalized_weight": 0.9345794392523363, 
+            "families": 1.0, 
+            "id": "language"
+        }, 
+        {
+            "key": "4.26", 
+            "swadesh100": 1.0, 
+            "frequency": 235.0, 
+            "label": "tongue", 
+            "concept": "tongue", 
+            "body_part": 1.0, 
+            "community": 24, 
+            "id": "tongue", 
+            "out_edge": []
+        }, 
+        {
+            "key": "15.44", 
+            "swadesh100": 0.0, 
+            "frequency": 335.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_70_strong, mighty, powerful", 
+                    "loud", 
+                    5.0, 
+                    24.752475247524753
+                ]
+            ], 
+            "label": "sound, noise", 
+            "concept": "sound, noise", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 24, 
+            "normalized_weight": 0.8771929824561403, 
+            "families": 1.0, 
+            "id": "sound, noise"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 21.0, 
-                "normalized_weight": 227.27272727272728, 
-                "weight": 227.27272727272728, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "language"
-            }, 
-            {
-                "languages": 50.0, 
-                "normalized_weight": 234.375, 
-                "weight": 234.375, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "sound, noise"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.847457627118644, 
-                "weight": 0.847457627118644, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "tongue"
-            }, 
-            {
-                "languages": 16.0, 
-                "normalized_weight": 167.32673267326732, 
-                "weight": 167.32673267326732, 
-                "edge_width": 1.7941176470588236, 
-                "families": 13.0, 
-                "id": "word"
-            }
-        ], 
-        [
-            {
-                "languages": 21.0, 
-                "normalized_weight": 227.27272727272728, 
-                "weight": 227.27272727272728, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "voice"
-            }, 
-            {
-                "languages": 63.0, 
-                "normalized_weight": 88.49557522123894, 
-                "weight": 88.49557522123894, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "tongue"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "sound, noise"
-            }, 
-            {
-                "languages": 61.0, 
-                "normalized_weight": 1475.9036144578313, 
-                "weight": 1475.9036144578313, 
-                "edge_width": 8.147058823529413, 
-                "families": 35.0, 
-                "id": "word"
-            }
-        ], 
-        [
-            {
-                "languages": 50.0, 
-                "normalized_weight": 234.375, 
-                "weight": 234.375, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "voice"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8771929824561403, 
-                "weight": 0.8771929824561403, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "language"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9009009009009009, 
-                "weight": 0.9009009009009009, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "sound, noise"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.5398230088495577, 
-                "weight": 3.5398230088495577, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "word"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.847457627118644, 
-                "weight": 0.847457627118644, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "voice"
-            }, 
-            {
-                "languages": 63.0, 
-                "normalized_weight": 88.49557522123894, 
-                "weight": 88.49557522123894, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "language"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 7.5, 
-                "weight": 7.5, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "word"
-            }
-        ], 
-        [
-            {
-                "languages": 16.0, 
-                "normalized_weight": 167.32673267326732, 
-                "weight": 167.32673267326732, 
-                "edge_width": 1.7941176470588236, 
-                "families": 13.0, 
-                "id": "voice"
-            }, 
-            {
-                "languages": 61.0, 
-                "normalized_weight": 1475.9036144578313, 
-                "weight": 1475.9036144578313, 
-                "edge_width": 8.147058823529413, 
-                "families": 35.0, 
-                "id": "language"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.5398230088495577, 
-                "weight": 3.5398230088495577, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "sound, noise"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 7.5, 
-                "weight": 7.5, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "tongue"
-            }
-        ]
-    ]
+    "graph": []
 }

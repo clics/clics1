@@ -2,75 +2,76 @@
     "adjacency": [
         [
             {
-                "languages": 13.0, 
-                "id": "silver", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 105.1948051948052, 
-                "families": 9.0
+                "normalized_weight": 426.3157894736843, 
+                "id": "money", 
+                "languages": 32.0, 
+                "weight": 426.3157894736843, 
+                "families": 18.0, 
+                "edge_width": 4.0483870967741939
             }, 
             {
-                "languages": 32.0, 
-                "id": "money", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 426.3157894736843, 
-                "families": 18.0
+                "normalized_weight": 105.1948051948052, 
+                "id": "silver", 
+                "languages": 13.0, 
+                "weight": 105.1948051948052, 
+                "families": 9.0, 
+                "edge_width": 1.7258064516129032
             }
         ], 
         [
             {
-                "languages": 13.0, 
+                "normalized_weight": 426.3157894736843, 
                 "id": "coin", 
-                "edge_width": 1.5294117647058822, 
-                "weight": 105.1948051948052, 
-                "families": 9.0
+                "languages": 32.0, 
+                "weight": 426.3157894736843, 
+                "families": 18.0, 
+                "edge_width": 4.0483870967741939
             }, 
             {
+                "normalized_weight": 292.20779220779224, 
+                "id": "silver", 
                 "languages": 33.0, 
-                "id": "money", 
-                "edge_width": 2.3235294117647056, 
                 "weight": 292.20779220779224, 
-                "families": 15.0
+                "families": 15.0, 
+                "edge_width": 3.032258064516129
             }
         ], 
         [
             {
-                "languages": 32.0, 
+                "normalized_weight": 105.1948051948052, 
                 "id": "coin", 
-                "edge_width": 3.1176470588235294, 
-                "weight": 426.3157894736843, 
-                "families": 18.0
+                "languages": 13.0, 
+                "weight": 105.1948051948052, 
+                "families": 9.0, 
+                "edge_width": 1.7258064516129032
             }, 
             {
+                "normalized_weight": 292.20779220779224, 
+                "id": "money", 
                 "languages": 33.0, 
-                "id": "silver", 
-                "edge_width": 2.3235294117647056, 
                 "weight": 292.20779220779224, 
-                "families": 15.0
+                "families": 15.0, 
+                "edge_width": 3.032258064516129
             }
         ]
     ], 
-    "directed": false, 
-    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [], 
-            "community": 73, 
             "id": "coin", 
-            "key": "11.44"
-        }, 
-        {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "frequency": 206.0, 
+            "languages": 32.0, 
+            "key": "11.44", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 426.3157894736843, 
+            "body_part": 0.0, 
+            "label": "coin", 
             "community": 73, 
-            "id": "silver", 
-            "key": "9.65"
+            "concept": "coin", 
+            "weight": 18.0, 
+            "families": 18.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
             "out_edge": [
                 [
                     "cluster_1_fur", 
@@ -79,10 +80,36 @@
                     16.49484536082474
                 ]
             ], 
-            "community": 73, 
             "id": "money", 
-            "key": "11.43"
+            "frequency": 233.0, 
+            "languages": 1.0, 
+            "key": "11.43", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.098901098901099, 
+            "body_part": 0.0, 
+            "label": "money", 
+            "community": 73, 
+            "concept": "money", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "silver", 
+            "frequency": 175.0, 
+            "languages": 1.0, 
+            "key": "9.65", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.1764705882352942, 
+            "body_part": 0.0, 
+            "label": "silver", 
+            "community": 73, 
+            "concept": "silver", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
-    "graph": []
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

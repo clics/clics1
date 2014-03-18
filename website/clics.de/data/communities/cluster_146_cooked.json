@@ -1,72 +1,72 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "cooked", 
-            "key": "5.121", 
-            "id": "cooked", 
-            "community": 146, 
-            "out_edge": [
-                [
-                    "cluster_105_bake", 
-                    "cook", 
-                    8.0, 
-                    58.18181818181818
-                ], 
-                [
-                    "cluster_105_bake", 
-                    "boil (vb)", 
-                    4.0, 
-                    13.91304347826087
-                ]
-            ], 
-            "normalized_weight": 0.8620689655172413, 
-            "label": "cooked", 
-            "frequency": 237.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "ripe", 
-            "key": "5.123", 
-            "id": "ripe", 
-            "community": 146, 
-            "out_edge": [], 
-            "normalized_weight": 1.0204081632653061, 
-            "label": "ripe", 
-            "frequency": 274.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 30.0, 
-                "normalized_weight": 459.375, 
                 "weight": 459.375, 
-                "edge_width": 3.3823529411764706, 
+                "normalized_weight": 459.375, 
+                "languages": 30.0, 
                 "families": 21.0, 
+                "edge_width": 4.8622448979591839, 
                 "id": "ripe"
             }
         ], 
         [
             {
-                "languages": 30.0, 
-                "normalized_weight": 459.375, 
                 "weight": 459.375, 
-                "edge_width": 3.3823529411764706, 
+                "normalized_weight": 459.375, 
+                "languages": 30.0, 
                 "families": 21.0, 
+                "edge_width": 4.8622448979591839, 
                 "id": "cooked"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "5.121", 
+            "swadesh100": 0.0, 
+            "frequency": 237.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_106_boil (vb)", 
+                    "cook", 
+                    8.0, 
+                    58.18181818181818
+                ], 
+                [
+                    "cluster_106_boil (vb)", 
+                    "boil (vb)", 
+                    4.0, 
+                    13.91304347826087
+                ]
+            ], 
+            "label": "cooked", 
+            "concept": "cooked", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 146, 
+            "normalized_weight": 0.8620689655172413, 
+            "families": 1.0, 
+            "id": "cooked"
+        }, 
+        {
+            "key": "5.123", 
+            "swadesh100": 0.0, 
+            "frequency": 274.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "ripe", 
+            "concept": "ripe", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 146, 
+            "normalized_weight": 1.0204081632653061, 
+            "families": 1.0, 
+            "id": "ripe"
+        }
+    ], 
+    "graph": []
 }

@@ -1,137 +1,137 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "gill", 
-            "key": "3.654", 
-            "id": "gill", 
-            "community": 186, 
-            "out_edge": [], 
-            "normalized_weight": 1.0869565217391304, 
-            "label": "gill", 
-            "frequency": 150.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "earring", 
-            "key": "6.77", 
-            "id": "earring", 
-            "community": 186, 
-            "out_edge": [], 
-            "normalized_weight": 1.0869565217391304, 
-            "label": "earring", 
-            "frequency": 233.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "swadesh100": 0.0, 
-            "concept": "earlobe", 
-            "key": "4.221", 
-            "id": "earlobe", 
-            "community": 186, 
-            "out_edge": [], 
-            "label": "earlobe", 
-            "frequency": 143.0
-        }, 
-        {
-            "body_part": 1.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "ear", 
-            "key": "4.22", 
-            "id": "ear", 
-            "community": 186, 
-            "out_edge": [], 
-            "normalized_weight": 0.8, 
-            "label": "ear", 
-            "frequency": 240.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 3.0, 
-                "normalized_weight": 8.571428571428571, 
+                "weight": 84.375, 
+                "normalized_weight": 84.375, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "ear"
+            }, 
+            {
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "earring"
+            }
+        ], 
+        [
+            {
                 "weight": 8.571428571428571, 
-                "edge_width": 1.0, 
+                "normalized_weight": 8.571428571428571, 
+                "languages": 3.0, 
                 "families": 3.0, 
+                "edge_width": 0.5, 
                 "id": "ear"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.0869565217391304, 
-                "weight": 1.0869565217391304, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
+                "weight": 84.375, 
+                "normalized_weight": 84.375, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
                 "id": "earlobe"
             }, 
             {
-                "languages": 2.0, 
-                "normalized_weight": 3.508771929824561, 
-                "weight": 3.508771929824561, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "ear"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0869565217391304, 
-                "weight": 1.0869565217391304, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "earring"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 84.375, 
-                "weight": 84.375, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "ear"
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.571428571428571, 
                 "weight": 8.571428571428571, 
-                "edge_width": 1.0, 
+                "normalized_weight": 8.571428571428571, 
+                "languages": 3.0, 
                 "families": 3.0, 
+                "edge_width": 0.5, 
                 "id": "gill"
             }, 
             {
-                "languages": 2.0, 
-                "normalized_weight": 3.508771929824561, 
                 "weight": 3.508771929824561, 
-                "edge_width": 1.0, 
+                "normalized_weight": 3.508771929824561, 
+                "languages": 2.0, 
                 "families": 2.0, 
+                "edge_width": 0.5, 
                 "id": "earring"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "earlobe"
             }, 
             {
-                "languages": 10.0, 
-                "normalized_weight": 84.375, 
-                "weight": 84.375, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "earlobe"
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "ear"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "4.221", 
+            "swadesh100": 0.0, 
+            "frequency": 143.0, 
+            "label": "earlobe", 
+            "concept": "earlobe", 
+            "body_part": 1.0, 
+            "community": 186, 
+            "id": "earlobe", 
+            "out_edge": []
+        }, 
+        {
+            "key": "3.654", 
+            "swadesh100": 0.0, 
+            "frequency": 150.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "gill", 
+            "concept": "gill", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 186, 
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "id": "gill"
+        }, 
+        {
+            "key": "4.22", 
+            "swadesh100": 1.0, 
+            "frequency": 240.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "ear", 
+            "concept": "ear", 
+            "weight": 1.0, 
+            "body_part": 1.0, 
+            "community": 186, 
+            "normalized_weight": 0.8, 
+            "families": 1.0, 
+            "id": "ear"
+        }, 
+        {
+            "key": "6.77", 
+            "swadesh100": 0.0, 
+            "frequency": 233.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "earring", 
+            "concept": "earring", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 186, 
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "id": "earring"
+        }
+    ], 
+    "graph": []
 }

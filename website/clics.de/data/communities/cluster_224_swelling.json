@@ -1,110 +1,110 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "swelling"
+            }, 
+            {
+                "weight": 44.95412844036697, 
+                "normalized_weight": 44.95412844036697, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "boil (noun)"
+            }
+        ], 
+        [
+            {
+                "weight": 44.95412844036697, 
+                "normalized_weight": 44.95412844036697, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "swelling"
+            }, 
+            {
+                "weight": 3.4482758620689653, 
+                "normalized_weight": 3.4482758620689653, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "full"
+            }
+        ], 
+        [
+            {
+                "weight": 3.4482758620689653, 
+                "normalized_weight": 3.4482758620689653, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "boil (noun)"
+            }, 
+            {
+                "weight": 0.8, 
+                "normalized_weight": 0.8, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "full"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "families": 2.0, 
-            "key": "4.856", 
-            "id": "boil (noun)", 
+            "key": "4.853", 
+            "swadesh100": 0.0, 
+            "frequency": 306.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "swelling", 
+            "concept": "swelling", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 224, 
+            "normalized_weight": 0.9009009009009009, 
+            "families": 1.0, 
+            "id": "swelling"
+        }, 
+        {
+            "key": "4.856", 
+            "languages": 2.0, 
             "out_edge": [
                 [
-                    "cluster_105_bake", 
+                    "cluster_106_boil (vb)", 
                     "boil (vb)", 
                     4.0, 
                     14.15929203539823
                 ]
             ], 
-            "normalized_weight": 3.4482758620689653
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "swelling", 
-            "key": "4.853", 
-            "id": "swelling", 
+            "weight": 2.0, 
             "community": 224, 
-            "out_edge": [], 
-            "normalized_weight": 0.9009009009009009, 
-            "label": "swelling", 
-            "frequency": 306.0
+            "normalized_weight": 3.4482758620689653, 
+            "families": 2.0, 
+            "id": "boil (noun)"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "full", 
             "key": "13.21", 
-            "id": "full", 
-            "community": 224, 
+            "swadesh100": 1.0, 
+            "frequency": 270.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 0.8, 
             "label": "full", 
-            "frequency": 270.0
+            "concept": "full", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 224, 
+            "normalized_weight": 0.8, 
+            "families": 1.0, 
+            "id": "full"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 7.0, 
-                "normalized_weight": 44.95412844036697, 
-                "weight": 44.95412844036697, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "swelling"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.4482758620689653, 
-                "weight": 3.4482758620689653, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "full"
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
-                "normalized_weight": 44.95412844036697, 
-                "weight": 44.95412844036697, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "boil (noun)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "swelling"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.4482758620689653, 
-                "weight": 3.4482758620689653, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "boil (noun)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8, 
-                "weight": 0.8, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "full"
-            }
-        ]
-    ]
+    "graph": []
 }

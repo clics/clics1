@@ -1,72 +1,72 @@
 {
-    "graph": [], 
-    "multigraph": false, 
+    "adjacency": [
+        [
+            {
+                "normalized_weight": 1441.1764705882354, 
+                "id": "claw", 
+                "languages": 90.0, 
+                "weight": 1441.1764705882354, 
+                "families": 35.0, 
+                "edge_width": 8.5483870967741939
+            }
+        ], 
+        [
+            {
+                "normalized_weight": 1441.1764705882354, 
+                "id": "fingernail", 
+                "languages": 90.0, 
+                "weight": 1441.1764705882354, 
+                "families": 35.0, 
+                "edge_width": 8.5483870967741939
+            }
+        ]
+    ], 
     "nodes": [
         {
+            "out_edge": [], 
+            "id": "fingernail", 
+            "frequency": 231.0, 
+            "languages": 6.0, 
+            "key": "4.344", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 8.49056603773585, 
             "body_part": 1.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 1.0, 
-            "families": 2.0, 
-            "concept": "claw", 
-            "key": "4.345", 
-            "id": "claw", 
+            "label": "fingernail", 
             "community": 108, 
+            "concept": "fingernail", 
+            "weight": 3.0, 
+            "families": 3.0
+        }, 
+        {
             "out_edge": [
                 [
-                    "cluster_204_toe", 
+                    "cluster_203_toe", 
                     "finger", 
                     6.0, 
                     31.57894736842105
                 ], 
                 [
-                    "cluster_204_toe", 
+                    "cluster_203_toe", 
                     "toe", 
                     5.0, 
                     22.321428571428573
                 ]
             ], 
+            "id": "claw", 
+            "frequency": 237.0, 
+            "languages": 2.0, 
+            "key": "4.345", 
+            "swadesh100": 1.0, 
             "normalized_weight": 3.4782608695652173, 
-            "label": "claw", 
-            "frequency": 237.0
-        }, 
-        {
             "body_part": 1.0, 
-            "languages": 6.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "fingernail", 
-            "key": "4.344", 
-            "id": "fingernail", 
+            "label": "claw", 
             "community": 108, 
-            "out_edge": [], 
-            "normalized_weight": 8.49056603773585, 
-            "label": "fingernail", 
-            "frequency": 231.0
+            "concept": "claw", 
+            "weight": 2.0, 
+            "families": 2.0
         }
     ], 
+    "graph": [], 
     "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 90.0, 
-                "normalized_weight": 1441.1764705882354, 
-                "weight": 1441.1764705882354, 
-                "edge_width": 7.882352941176471, 
-                "families": 35.0, 
-                "id": "fingernail"
-            }
-        ], 
-        [
-            {
-                "languages": 90.0, 
-                "normalized_weight": 1441.1764705882354, 
-                "weight": 1441.1764705882354, 
-                "edge_width": 7.882352941176471, 
-                "families": 35.0, 
-                "id": "claw"
-            }
-        ]
-    ]
+    "multigraph": false
 }

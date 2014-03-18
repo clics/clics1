@@ -1,75 +1,103 @@
 {
-    "graph": [], 
+    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 11.0, 
-                "weight": 1.2040816326530612, 
-                "id": "boast", 
-                "families": 7.0
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "praise"
             }, 
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "praise", 
-                "families": 1.0
+                "weight": 58.333333333333336, 
+                "normalized_weight": 58.333333333333336, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "boast"
             }
         ], 
         [
             {
-                "languages": 11.0, 
-                "weight": 1.2040816326530612, 
-                "id": "proud", 
-                "families": 7.0
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "proud"
             }, 
             {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
                 "languages": 4.0, 
-                "weight": 1.0, 
-                "id": "praise", 
-                "families": 1.0
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "boast"
             }
         ], 
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
-                "id": "proud", 
-                "families": 1.0
+                "weight": 58.333333333333336, 
+                "normalized_weight": 58.333333333333336, 
+                "languages": 11.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "proud"
             }, 
             {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
                 "languages": 4.0, 
-                "weight": 1.0, 
-                "id": "boast", 
-                "families": 1.0
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "praise"
             }
         ]
     ], 
+    "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
+            "key": "16.48", 
+            "swadesh100": 0.0, 
+            "frequency": 227.0, 
+            "languages": 1.0, 
             "out_edge": [], 
+            "label": "proud", 
+            "concept": "proud", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 218, 
-            "body_part": 0, 
-            "id": "proud", 
-            "key": "16.48"
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "id": "proud"
         }, 
         {
-            "swadesh100": 0, 
+            "key": "16.79", 
+            "swadesh100": 0.0, 
+            "frequency": 221.0, 
+            "languages": 1.0, 
             "out_edge": [], 
+            "label": "praise", 
+            "concept": "praise", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
             "community": 218, 
-            "body_part": 0, 
-            "id": "boast", 
-            "key": "18.45"
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "id": "praise"
         }, 
         {
-            "swadesh100": 0, 
+            "key": "18.45", 
+            "languages": 1.0, 
             "out_edge": [], 
+            "weight": 1.0, 
             "community": 218, 
-            "body_part": 0, 
-            "id": "praise", 
-            "key": "16.79"
+            "normalized_weight": 1.098901098901099, 
+            "families": 1.0, 
+            "id": "boast"
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": []
 }

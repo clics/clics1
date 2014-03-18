@@ -1,73 +1,643 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 8.035714285714286, 
+                "normalized_weight": 8.035714285714286, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 17.02127659574468, 
+                "normalized_weight": 17.02127659574468, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 59.813084112149525, 
+                "normalized_weight": 59.813084112149525, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "say"
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "show"
+            }, 
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "witness"
+            }, 
+            {
+                "weight": 16.666666666666664, 
+                "normalized_weight": 16.666666666666664, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 81.0, 
+                "normalized_weight": 81.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "threaten"
+            }
+        ], 
+        [
+            {
+                "weight": 17.02127659574468, 
+                "normalized_weight": 17.02127659574468, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 9.574468085106384, 
+                "normalized_weight": 9.574468085106384, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 3.7383177570093453, 
+                "normalized_weight": 3.7383177570093453, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "say"
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "normalized_weight": 0.9259259259259258, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 1.2048192771084338, 
+                "normalized_weight": 1.2048192771084338, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "witness"
+            }, 
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 1.0752688172043012, 
+                "normalized_weight": 1.0752688172043012, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "threaten"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }
+        ], 
+        [
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "languages": 8.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 9.574468085106384, 
+                "normalized_weight": 9.574468085106384, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "say"
+            }, 
+            {
+                "weight": 0.9615384615384616, 
+                "normalized_weight": 0.9615384615384616, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }, 
+            {
+                "weight": 14.678899082568808, 
+                "normalized_weight": 14.678899082568808, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "show"
+            }, 
+            {
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 64.0, 
+                "normalized_weight": 64.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 1.0204081632653061, 
+                "normalized_weight": 1.0204081632653061, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "threaten"
+            }, 
+            {
+                "weight": 0.8849557522123894, 
+                "normalized_weight": 0.8849557522123894, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "speak, talk"
+            }
+        ], 
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "languages": 5.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 0.9615384615384616, 
+                "normalized_weight": 0.9615384615384616, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 4.0, 
+                "normalized_weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 4.0, 
+                "normalized_weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "threaten"
+            }
+        ], 
+        [
+            {
+                "weight": 3.418803418803419, 
+                "normalized_weight": 3.418803418803419, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "languages": 5.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "witness"
+            }, 
+            {
+                "weight": 0.9174311926605505, 
+                "normalized_weight": 0.9174311926605505, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 14.678899082568808, 
+                "normalized_weight": 14.678899082568808, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "explain"
+            }
+        ], 
+        [
+            {
+                "weight": 59.813084112149525, 
+                "normalized_weight": 59.813084112149525, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 3.7383177570093453, 
+                "normalized_weight": 3.7383177570093453, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 0.8, 
+                "normalized_weight": 0.8, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "say"
+            }, 
+            {
+                "weight": 175.0, 
+                "normalized_weight": 175.0, 
+                "languages": 30.0, 
+                "families": 14.0, 
+                "edge_width": 2.1479591836734695, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 14.545454545454545, 
+                "normalized_weight": 14.545454545454545, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 8.333333333333332, 
+                "normalized_weight": 8.333333333333332, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 90.9090909090909, 
+                "normalized_weight": 90.9090909090909, 
+                "languages": 14.0, 
+                "families": 10.0, 
+                "edge_width": 1.3724489795918366, 
+                "id": "tell story"
+            }
+        ], 
+        [
+            {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 1.2048192771084338, 
+                "normalized_weight": 1.2048192771084338, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "show"
+            }
+        ], 
+        [
+            {
+                "weight": 145.45454545454547, 
+                "normalized_weight": 145.45454545454547, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 1.8571428571428572, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 4.123711340206185, 
+                "normalized_weight": 4.123711340206185, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 16.666666666666664, 
+                "normalized_weight": 16.666666666666664, 
+                "languages": 4.0, 
+                "families": 4.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 8.333333333333332, 
+                "normalized_weight": 8.333333333333332, 
+                "languages": 5.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "say"
+            }, 
+            {
+                "weight": 0.9174311926605505, 
+                "normalized_weight": 0.9174311926605505, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "show"
+            }, 
+            {
+                "weight": 65.97938144329896, 
+                "normalized_weight": 65.97938144329896, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 4.0, 
+                "normalized_weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }
+        ], 
+        [
+            {
+                "weight": 111.0091743119266, 
+                "normalized_weight": 111.0091743119266, 
+                "languages": 15.0, 
+                "families": 11.0, 
+                "edge_width": 1.5663265306122449, 
+                "id": "speak, talk"
+            }, 
+            {
+                "weight": 51.041666666666664, 
+                "normalized_weight": 51.041666666666664, 
+                "languages": 7.0, 
+                "families": 7.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 90.9090909090909, 
+                "normalized_weight": 90.9090909090909, 
+                "languages": 14.0, 
+                "families": 10.0, 
+                "edge_width": 1.3724489795918366, 
+                "id": "say"
+            }, 
+            {
+                "weight": 81.0, 
+                "normalized_weight": 81.0, 
+                "languages": 10.0, 
+                "families": 9.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 3.418803418803419, 
+                "normalized_weight": 3.418803418803419, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "show"
+            }, 
+            {
+                "weight": 64.0, 
+                "normalized_weight": 64.0, 
+                "languages": 11.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 65.97938144329896, 
+                "normalized_weight": 65.97938144329896, 
+                "languages": 10.0, 
+                "families": 8.0, 
+                "edge_width": 1.0816326530612246, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 0.8849557522123894, 
+                "normalized_weight": 0.8849557522123894, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0101010101010102, 
+                "normalized_weight": 1.0101010101010102, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 1.0752688172043012, 
+                "normalized_weight": 1.0752688172043012, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 1.0204081632653061, 
+                "normalized_weight": 1.0204081632653061, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 4.0, 
+                "normalized_weight": 4.0, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }
+        ], 
+        [
+            {
+                "weight": 8.035714285714286, 
+                "normalized_weight": 8.035714285714286, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "announce"
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "normalized_weight": 0.9259259259259258, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "admit, confess"
+            }, 
+            {
+                "weight": 175.0, 
+                "normalized_weight": 175.0, 
+                "languages": 30.0, 
+                "families": 14.0, 
+                "edge_width": 2.1479591836734695, 
+                "id": "say"
+            }, 
+            {
+                "weight": 0.8849557522123894, 
+                "normalized_weight": 0.8849557522123894, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "explain"
+            }, 
+            {
+                "weight": 145.45454545454547, 
+                "normalized_weight": 145.45454545454547, 
+                "languages": 28.0, 
+                "families": 12.0, 
+                "edge_width": 1.8571428571428572, 
+                "id": "speech (make a)"
+            }, 
+            {
+                "weight": 111.0091743119266, 
+                "normalized_weight": 111.0091743119266, 
+                "languages": 15.0, 
+                "families": 11.0, 
+                "edge_width": 1.5663265306122449, 
+                "id": "tell story"
+            }, 
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "languages": 5.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "rebuke, scold"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "18.43", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "speech (make a)", 
-            "key": "18.222", 
-            "id": "speech (make a)", 
+            "frequency": 246.0, 
+            "languages": 3.0, 
+            "out_edge": [], 
+            "label": "announce", 
+            "concept": "announce", 
+            "weight": 3.0, 
+            "body_part": 0.0, 
             "community": 20, 
-            "out_edge": [
-                [
-                    "cluster_24_sound, noise", 
-                    "language", 
-                    10.0, 
-                    103.09278350515463
-                ], 
-                [
-                    "cluster_24_sound, noise", 
-                    "word", 
-                    7.0, 
-                    49.0
-                ], 
-                [
-                    "cluster_24_sound, noise", 
-                    "voice", 
-                    6.0, 
-                    37.11340206185567
-                ]
-            ], 
-            "normalized_weight": 0.9259259259259258, 
-            "label": "speech (make a)", 
-            "frequency": 218.0
+            "normalized_weight": 9.375, 
+            "families": 3.0, 
+            "id": "announce"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "show", 
-            "key": "15.55", 
-            "id": "show", 
-            "community": 20, 
-            "out_edge": [
-                [
-                    "cluster_42_learn", 
-                    "teach", 
-                    6.0, 
-                    30.76923076923077
-                ]
-            ], 
-            "normalized_weight": 0.8264462809917356, 
-            "label": "show", 
-            "frequency": 267.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "admit, confess", 
             "key": "18.33", 
-            "id": "admit, confess", 
-            "community": 20, 
+            "swadesh100": 0.0, 
+            "frequency": 228.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_11_know", 
@@ -76,57 +646,79 @@
                     34.61538461538461
                 ]
             ], 
-            "normalized_weight": 1.0752688172043012, 
             "label": "admit, confess", 
-            "frequency": 228.0
+            "concept": "admit, confess", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "id": "admit, confess"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "17.38", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "threaten", 
-            "key": "18.44", 
-            "id": "threaten", 
-            "community": 20, 
-            "out_edge": [], 
-            "normalized_weight": 1.0638297872340425, 
-            "label": "threaten", 
-            "frequency": 194.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "tell story", 
-            "key": "18.221", 
-            "id": "tell story", 
-            "community": 20, 
+            "frequency": 230.0, 
+            "languages": 2.0, 
             "out_edge": [
                 [
-                    "cluster_40_try, attempt", 
-                    "count", 
-                    4.0, 
-                    14.414414414414415
+                    "cluster_42_teach", 
+                    "teach", 
+                    9.0, 
+                    78.64077669902912
                 ]
             ], 
-            "normalized_weight": 0.9708737864077669, 
-            "label": "tell story", 
-            "frequency": 251.0
+            "label": "explain", 
+            "concept": "explain", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 4.166666666666666, 
+            "families": 2.0, 
+            "id": "explain"
         }, 
         {
-            "body_part": 0.0, 
+            "key": "18.39", 
+            "swadesh100": 0.0, 
+            "frequency": 290.0, 
             "languages": 1.0, 
+            "out_edge": [], 
+            "label": "rebuke, scold", 
+            "concept": "rebuke, scold", 
             "weight": 1.0, 
-            "swadesh100": 1.0, 
-            "families": 1.0, 
-            "concept": "say", 
-            "key": "18.22", 
-            "id": "say", 
+            "body_part": 0.0, 
             "community": 20, 
+            "normalized_weight": 1.1764705882352942, 
+            "families": 1.0, 
+            "id": "rebuke, scold"
+        }, 
+        {
+            "key": "15.55", 
+            "swadesh100": 0.0, 
+            "frequency": 267.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_42_teach", 
+                    "teach", 
+                    6.0, 
+                    30.76923076923077
+                ]
+            ], 
+            "label": "show", 
+            "concept": "show", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "id": "show"
+        }, 
+        {
+            "key": "18.22", 
+            "swadesh100": 1.0, 
+            "frequency": 308.0, 
+            "languages": 1.0, 
             "out_edge": [
                 [
                     "cluster_33_build", 
@@ -147,50 +739,101 @@
                     13.91304347826087
                 ]
             ], 
-            "normalized_weight": 0.9174311926605505, 
             "label": "say", 
-            "frequency": 308.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "announce", 
-            "key": "18.43", 
-            "id": "announce", 
-            "community": 20, 
-            "out_edge": [], 
-            "normalized_weight": 9.375, 
-            "label": "announce", 
-            "frequency": 246.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
+            "concept": "say", 
             "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "rebuke, scold", 
-            "key": "18.39", 
-            "id": "rebuke, scold", 
+            "body_part": 0.0, 
             "community": 20, 
-            "out_edge": [], 
-            "normalized_weight": 1.1764705882352942, 
-            "label": "rebuke, scold", 
-            "frequency": 290.0
+            "normalized_weight": 0.9174311926605505, 
+            "families": 1.0, 
+            "id": "say"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 11.0, 
-            "weight": 6.0, 
-            "swadesh100": 0.0, 
-            "families": 6.0, 
-            "concept": "speak, talk", 
-            "key": "18.21", 
-            "id": "speak, talk", 
+            "key": "21.23", 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "weight": 1.0, 
             "community": 20, 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "id": "witness"
+        }, 
+        {
+            "key": "18.222", 
+            "swadesh100": 0.0, 
+            "frequency": 218.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_24_sound, noise", 
+                    "language", 
+                    10.0, 
+                    103.09278350515463
+                ], 
+                [
+                    "cluster_24_sound, noise", 
+                    "word", 
+                    7.0, 
+                    49.0
+                ], 
+                [
+                    "cluster_24_sound, noise", 
+                    "voice", 
+                    6.0, 
+                    37.11340206185567
+                ]
+            ], 
+            "label": "speech (make a)", 
+            "concept": "speech (make a)", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 0.9259259259259258, 
+            "families": 1.0, 
+            "id": "speech (make a)"
+        }, 
+        {
+            "key": "18.221", 
+            "swadesh100": 0.0, 
+            "frequency": 251.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_40_taste", 
+                    "count", 
+                    4.0, 
+                    14.414414414414415
+                ]
+            ], 
+            "label": "tell story", 
+            "concept": "tell story", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "id": "tell story"
+        }, 
+        {
+            "key": "18.44", 
+            "swadesh100": 0.0, 
+            "frequency": 194.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "threaten", 
+            "concept": "threaten", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 20, 
+            "normalized_weight": 1.0638297872340425, 
+            "families": 1.0, 
+            "id": "threaten"
+        }, 
+        {
+            "key": "18.21", 
+            "swadesh100": 0.0, 
+            "frequency": 336.0, 
+            "languages": 11.0, 
             "out_edge": [
                 [
                     "cluster_24_sound, noise", 
@@ -211,658 +854,15 @@
                     31.03448275862069
                 ]
             ], 
-            "normalized_weight": 31.03448275862069, 
             "label": "speak, talk", 
-            "frequency": 336.0
-        }, 
-        {
+            "concept": "speak, talk", 
+            "weight": 6.0, 
             "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "explain", 
-            "key": "17.38", 
-            "id": "explain", 
             "community": 20, 
-            "out_edge": [
-                [
-                    "cluster_42_learn", 
-                    "teach", 
-                    9.0, 
-                    78.64077669902912
-                ]
-            ], 
-            "normalized_weight": 4.166666666666666, 
-            "label": "explain", 
-            "frequency": 230.0
-        }, 
-        {
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "families": 1.0, 
-            "key": "21.23", 
-            "id": "witness", 
-            "community": 20, 
-            "out_edge": [], 
-            "normalized_weight": 1.0752688172043012
+            "normalized_weight": 31.03448275862069, 
+            "families": 6.0, 
+            "id": "speak, talk"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9174311926605505, 
-                "weight": 0.9174311926605505, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "show"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 65.97938144329896, 
-                "weight": 65.97938144329896, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 8.333333333333332, 
-                "weight": 8.333333333333332, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 16.666666666666664, 
-                "weight": 16.666666666666664, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.0, 
-                "weight": 4.0, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 28.0, 
-                "normalized_weight": 145.45454545454547, 
-                "weight": 145.45454545454547, 
-                "edge_width": 1.5294117647058822, 
-                "families": 12.0, 
-                "id": "speak, talk"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.123711340206185, 
-                "weight": 4.123711340206185, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9174311926605505, 
-                "weight": 0.9174311926605505, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 14.545454545454545, 
-                "weight": 14.545454545454545, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "witness"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.418803418803419, 
-                "weight": 3.418803418803419, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 14.678899082568808, 
-                "weight": 14.678899082568808, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0752688172043012, 
-                "weight": 1.0752688172043012, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "threaten"
-            }, 
-            {
-                "languages": 7.0, 
-                "normalized_weight": 51.041666666666664, 
-                "weight": 51.041666666666664, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7383177570093453, 
-                "weight": 3.7383177570093453, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 17.02127659574468, 
-                "weight": 17.02127659574468, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9259259259259258, 
-                "weight": 0.9259259259259258, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "speak, talk"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 9.574468085106384, 
-                "weight": 9.574468085106384, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "explain"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.2048192771084338, 
-                "weight": 1.2048192771084338, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "witness"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.0, 
-                "weight": 4.0, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0752688172043012, 
-                "weight": 1.0752688172043012, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
-                "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 10.0, 
-                "normalized_weight": 65.97938144329896, 
-                "weight": 65.97938144329896, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.418803418803419, 
-                "weight": 3.418803418803419, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "show"
-            }, 
-            {
-                "languages": 7.0, 
-                "normalized_weight": 51.041666666666664, 
-                "weight": 51.041666666666664, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8849557522123894, 
-                "weight": 0.8849557522123894, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 14.0, 
-                "normalized_weight": 90.9090909090909, 
-                "weight": 90.9090909090909, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 81.0, 
-                "weight": 81.0, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 15.0, 
-                "normalized_weight": 111.0091743119266, 
-                "weight": 111.0091743119266, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "speak, talk"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 64.0, 
-                "weight": 64.0, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "normalized_weight": 8.333333333333332, 
-                "weight": 8.333333333333332, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7383177570093453, 
-                "weight": 3.7383177570093453, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 14.0, 
-                "normalized_weight": 90.9090909090909, 
-                "weight": 90.9090909090909, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8, 
-                "weight": 0.8, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 59.813084112149525, 
-                "weight": 59.813084112149525, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 30.0, 
-                "normalized_weight": 175.0, 
-                "weight": 175.0, 
-                "edge_width": 1.7941176470588236, 
-                "families": 14.0, 
-                "id": "speak, talk"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 14.545454545454545, 
-                "weight": 14.545454545454545, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "normalized_weight": 16.666666666666664, 
-                "weight": 16.666666666666664, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 14.545454545454545, 
-                "weight": 14.545454545454545, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "show"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 17.02127659574468, 
-                "weight": 17.02127659574468, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "threaten"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 81.0, 
-                "weight": 81.0, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 59.813084112149525, 
-                "weight": 59.813084112149525, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.035714285714286, 
-                "weight": 8.035714285714286, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "speak, talk"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 51.041666666666664, 
-                "weight": 51.041666666666664, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "explain"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.1235955056179776, 
-                "weight": 1.1235955056179776, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "witness"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.0, 
-                "weight": 4.0, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.0, 
-                "weight": 4.0, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "threaten"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9615384615384616, 
-                "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "explain"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 3.4782608695652173, 
-                "weight": 3.4782608695652173, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "speak, talk"
-            }
-        ], 
-        [
-            {
-                "languages": 28.0, 
-                "normalized_weight": 145.45454545454547, 
-                "weight": 145.45454545454547, 
-                "edge_width": 1.5294117647058822, 
-                "families": 12.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9259259259259258, 
-                "weight": 0.9259259259259258, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 15.0, 
-                "normalized_weight": 111.0091743119266, 
-                "weight": 111.0091743119266, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 30.0, 
-                "normalized_weight": 175.0, 
-                "weight": 175.0, 
-                "edge_width": 1.7941176470588236, 
-                "families": 14.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 8.035714285714286, 
-                "weight": 8.035714285714286, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 3.4782608695652173, 
-                "weight": 3.4782608695652173, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8849557522123894, 
-                "weight": 0.8849557522123894, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "explain"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 4.123711340206185, 
-                "weight": 4.123711340206185, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "speech (make a)"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 14.678899082568808, 
-                "weight": 14.678899082568808, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "show"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 9.574468085106384, 
-                "weight": 9.574468085106384, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "admit, confess"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0204081632653061, 
-                "weight": 1.0204081632653061, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "threaten"
-            }, 
-            {
-                "languages": 11.0, 
-                "normalized_weight": 64.0, 
-                "weight": 64.0, 
-                "edge_width": 1.2647058823529411, 
-                "families": 8.0, 
-                "id": "tell story"
-            }, 
-            {
-                "languages": 4.0, 
-                "normalized_weight": 14.545454545454545, 
-                "weight": 14.545454545454545, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "say"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 51.041666666666664, 
-                "weight": 51.041666666666664, 
-                "edge_width": 1.2647058823529411, 
-                "families": 7.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9615384615384616, 
-                "weight": 0.9615384615384616, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "rebuke, scold"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8849557522123894, 
-                "weight": 0.8849557522123894, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "speak, talk"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.1235955056179776, 
-                "weight": 1.1235955056179776, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "announce"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.0101010101010102, 
-                "weight": 1.0101010101010102, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "show"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 1.2048192771084338, 
-                "weight": 1.2048192771084338, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "admit, confess"
-            }
-        ]
-    ]
+    "graph": []
 }

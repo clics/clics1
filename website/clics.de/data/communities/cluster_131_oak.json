@@ -1,278 +1,278 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "beech", 
-            "key": "8.62", 
-            "id": "beech", 
-            "community": 131, 
-            "out_edge": [], 
-            "normalized_weight": 1.4084507042253522, 
-            "label": "beech", 
-            "frequency": 106.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "acorn", 
-            "key": "8.66", 
-            "id": "acorn", 
-            "community": 131, 
-            "out_edge": [], 
-            "normalized_weight": 1.6129032258064515, 
-            "label": "acorn", 
-            "frequency": 105.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "fir", 
-            "key": "8.65", 
-            "id": "fir", 
-            "community": 131, 
-            "out_edge": [], 
-            "label": "fir", 
-            "frequency": 128.0
-        }, 
-        {
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "families": 1.0, 
-            "key": "8.61", 
-            "id": "oak", 
-            "community": 131, 
-            "out_edge": [], 
-            "normalized_weight": 1.1363636363636365
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "birch", 
-            "key": "8.63", 
-            "id": "birch", 
-            "community": 131, 
-            "out_edge": [], 
-            "normalized_weight": 2.857142857142857, 
-            "label": "birch", 
-            "frequency": 120.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 9.0, 
-            "weight": 6.0, 
-            "swadesh100": 0.0, 
-            "families": 6.0, 
-            "concept": "pine", 
-            "key": "8.64", 
-            "id": "pine", 
-            "community": 131, 
-            "out_edge": [], 
-            "normalized_weight": 87.8048780487805, 
-            "label": "pine", 
-            "frequency": 144.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 2.0, 
-                "normalized_weight": 10.256410256410255, 
-                "weight": 10.256410256410255, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
+                "weight": 20.454545454545457, 
+                "normalized_weight": 20.454545454545457, 
+                "languages": 9.0, 
+                "families": 3.0, 
+                "edge_width": 0.69387755102040816, 
+                "id": "oak"
+            }
+        ], 
+        [
+            {
+                "weight": 2.380952380952381, 
+                "normalized_weight": 2.380952380952381, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "birch"
+            }, 
+            {
+                "weight": 1.8867924528301887, 
+                "normalized_weight": 1.8867924528301887, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "oak"
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 2.5, 
                 "weight": 2.5, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "pine"
-            }, 
-            {
+                "normalized_weight": 2.5, 
                 "languages": 1.0, 
-                "normalized_weight": 3.0303030303030303, 
-                "weight": 3.0303030303030303, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "fir"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 3.4482758620689653, 
-                "weight": 3.4482758620689653, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "birch"
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "normalized_weight": 20.454545454545457, 
-                "weight": 20.454545454545457, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "oak"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 3.0303030303030303, 
-                "weight": 3.0303030303030303, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "beech"
             }, 
             {
-                "languages": 9.0, 
-                "normalized_weight": 87.8048780487805, 
                 "weight": 87.8048780487805, 
-                "edge_width": 1.2647058823529411, 
+                "normalized_weight": 87.8048780487805, 
+                "languages": 9.0, 
                 "families": 6.0, 
-                "id": "pine"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.857142857142857, 
-                "weight": 2.857142857142857, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "birch"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.1739130434782608, 
-                "weight": 2.1739130434782608, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "oak"
+                "edge_width": 1.2755102040816326, 
+                "id": "fir"
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "normalized_weight": 10.256410256410255, 
-                "weight": 10.256410256410255, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
+                "weight": 2.857142857142857, 
+                "normalized_weight": 2.857142857142857, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "birch"
+            }, 
+            {
+                "weight": 87.8048780487805, 
+                "normalized_weight": 87.8048780487805, 
+                "languages": 9.0, 
+                "families": 6.0, 
+                "edge_width": 1.2755102040816326, 
+                "id": "pine"
+            }, 
+            {
+                "weight": 2.1739130434782608, 
+                "normalized_weight": 2.1739130434782608, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "oak"
+            }, 
+            {
+                "weight": 3.0303030303030303, 
+                "normalized_weight": 3.0303030303030303, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "beech"
+            }
+        ], 
+        [
+            {
+                "weight": 2.380952380952381, 
+                "normalized_weight": 2.380952380952381, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "pine"
+            }, 
+            {
+                "weight": 3.4482758620689653, 
+                "normalized_weight": 3.4482758620689653, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "beech"
             }, 
             {
-                "languages": 9.0, 
-                "normalized_weight": 20.454545454545457, 
+                "weight": 9.75609756097561, 
+                "normalized_weight": 9.75609756097561, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "oak"
+            }, 
+            {
+                "weight": 2.857142857142857, 
+                "normalized_weight": 2.857142857142857, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "fir"
+            }
+        ], 
+        [
+            {
                 "weight": 20.454545454545457, 
-                "edge_width": 1.0, 
+                "normalized_weight": 20.454545454545457, 
+                "languages": 9.0, 
                 "families": 3.0, 
+                "edge_width": 0.69387755102040816, 
                 "id": "acorn"
             }, 
             {
+                "weight": 9.75609756097561, 
+                "normalized_weight": 9.75609756097561, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "birch"
+            }, 
+            {
+                "weight": 1.8867924528301887, 
+                "normalized_weight": 1.8867924528301887, 
                 "languages": 1.0, 
-                "normalized_weight": 2.1739130434782608, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "pine"
+            }, 
+            {
+                "weight": 10.256410256410255, 
+                "normalized_weight": 10.256410256410255, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "beech"
+            }, 
+            {
                 "weight": 2.1739130434782608, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fir"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 9.75609756097561, 
-                "weight": 9.75609756097561, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "birch"
-            }, 
-            {
+                "normalized_weight": 2.1739130434782608, 
                 "languages": 1.0, 
-                "normalized_weight": 1.8867924528301887, 
-                "weight": 1.8867924528301887, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "pine"
+                "edge_width": 0.5, 
+                "id": "fir"
             }
         ], 
         [
             {
-                "languages": 2.0, 
-                "normalized_weight": 9.75609756097561, 
-                "weight": 9.75609756097561, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "oak"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.380952380952381, 
-                "weight": 2.380952380952381, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "pine"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.857142857142857, 
-                "weight": 2.857142857142857, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "fir"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 3.4482758620689653, 
                 "weight": 3.4482758620689653, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "beech"
-            }
-        ], 
-        [
-            {
+                "normalized_weight": 3.4482758620689653, 
                 "languages": 1.0, 
-                "normalized_weight": 2.5, 
-                "weight": 2.5, 
-                "edge_width": 1.0, 
                 "families": 1.0, 
-                "id": "beech"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 87.8048780487805, 
-                "weight": 87.8048780487805, 
-                "edge_width": 1.2647058823529411, 
-                "families": 6.0, 
-                "id": "fir"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.380952380952381, 
-                "weight": 2.380952380952381, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "birch"
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 1.8867924528301887, 
-                "weight": 1.8867924528301887, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
+                "weight": 10.256410256410255, 
+                "normalized_weight": 10.256410256410255, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
                 "id": "oak"
+            }, 
+            {
+                "weight": 2.5, 
+                "normalized_weight": 2.5, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "pine"
+            }, 
+            {
+                "weight": 3.0303030303030303, 
+                "normalized_weight": 3.0303030303030303, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "fir"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "8.66", 
+            "swadesh100": 0.0, 
+            "frequency": 105.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "acorn", 
+            "concept": "acorn", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 131, 
+            "normalized_weight": 1.6129032258064515, 
+            "families": 1.0, 
+            "id": "acorn"
+        }, 
+        {
+            "key": "8.64", 
+            "swadesh100": 0.0, 
+            "frequency": 144.0, 
+            "languages": 9.0, 
+            "out_edge": [], 
+            "label": "pine", 
+            "concept": "pine", 
+            "weight": 6.0, 
+            "body_part": 0.0, 
+            "community": 131, 
+            "normalized_weight": 87.8048780487805, 
+            "families": 6.0, 
+            "id": "pine"
+        }, 
+        {
+            "key": "8.65", 
+            "swadesh100": 0.0, 
+            "frequency": 128.0, 
+            "label": "fir", 
+            "concept": "fir", 
+            "body_part": 0.0, 
+            "community": 131, 
+            "id": "fir", 
+            "out_edge": []
+        }, 
+        {
+            "key": "8.63", 
+            "swadesh100": 0.0, 
+            "frequency": 120.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "birch", 
+            "concept": "birch", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 131, 
+            "normalized_weight": 2.857142857142857, 
+            "families": 1.0, 
+            "id": "birch"
+        }, 
+        {
+            "key": "8.61", 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "weight": 1.0, 
+            "community": 131, 
+            "normalized_weight": 1.1363636363636365, 
+            "families": 1.0, 
+            "id": "oak"
+        }, 
+        {
+            "key": "8.62", 
+            "swadesh100": 0.0, 
+            "frequency": 106.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "beech", 
+            "concept": "beech", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 131, 
+            "normalized_weight": 1.4084507042253522, 
+            "families": 1.0, 
+            "id": "beech"
+        }
+    ], 
+    "graph": []
 }

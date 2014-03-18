@@ -1,53 +1,75 @@
 {
-    "graph": [], 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
+                "normalized_weight": 0.9009009009009009, 
                 "id": "avaricious, stingy", 
-                "families": 1.0
+                "languages": 1.0, 
+                "weight": 0.9009009009009009, 
+                "families": 1.0, 
+                "edge_width": 1.0
             }, 
             {
-                "languages": 39.0, 
-                "weight": 1.6122448979591835, 
+                "normalized_weight": 156.52173913043478, 
                 "id": "greedy", 
-                "families": 12.0
+                "languages": 39.0, 
+                "weight": 156.52173913043478, 
+                "families": 12.0, 
+                "edge_width": 2.0161290322580645
             }
         ], 
         [
             {
-                "languages": 39.0, 
-                "weight": 1.6122448979591835, 
+                "normalized_weight": 156.52173913043478, 
                 "id": "avaricious, stingy", 
-                "families": 12.0
+                "languages": 39.0, 
+                "weight": 156.52173913043478, 
+                "families": 12.0, 
+                "edge_width": 2.0161290322580645
             }, 
             {
-                "languages": 1.0, 
-                "weight": 1.0, 
+                "normalized_weight": 1.0526315789473684, 
                 "id": "greedy", 
-                "families": 1.0
+                "languages": 1.0, 
+                "weight": 1.0526315789473684, 
+                "families": 1.0, 
+                "edge_width": 1.0
             }
         ]
     ], 
     "nodes": [
         {
-            "swadesh100": 0, 
             "out_edge": [], 
-            "community": 215, 
-            "body_part": 0, 
             "id": "avaricious, stingy", 
-            "key": "11.54"
+            "frequency": 313.0, 
+            "languages": 1.0, 
+            "key": "11.54", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.8695652173913043, 
+            "body_part": 0.0, 
+            "label": "avaricious, stingy", 
+            "community": 215, 
+            "concept": "avaricious, stingy", 
+            "weight": 1.0, 
+            "families": 1.0
         }, 
         {
-            "swadesh100": 0, 
             "out_edge": [], 
-            "community": 215, 
-            "body_part": 0, 
             "id": "greedy", 
-            "key": "16.83"
+            "frequency": 255.0, 
+            "languages": 1.0, 
+            "key": "16.83", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9009009009009009, 
+            "body_part": 0.0, 
+            "label": "greedy", 
+            "community": 215, 
+            "concept": "greedy", 
+            "weight": 1.0, 
+            "families": 1.0
         }
     ], 
-    "multigraph": false, 
-    "directed": false
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

@@ -1,55 +1,55 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "adultery", 
-            "key": "21.43", 
-            "id": "adultery", 
-            "community": 268, 
-            "out_edge": [], 
-            "normalized_weight": 1.0752688172043012, 
-            "label": "adultery", 
-            "frequency": 179.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "prostitute", 
-            "key": "19.72", 
-            "id": "prostitute", 
-            "community": 268, 
-            "out_edge": [], 
-            "label": "prostitute", 
-            "frequency": 236.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 3.0, 
-                "normalized_weight": 5.0, 
                 "weight": 5.0, 
-                "edge_width": 1.0, 
+                "normalized_weight": 5.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
+                "edge_width": 0.5, 
                 "id": "prostitute"
             }
         ], 
         [
             {
-                "languages": 3.0, 
-                "normalized_weight": 5.0, 
                 "weight": 5.0, 
-                "edge_width": 1.0, 
+                "normalized_weight": 5.0, 
+                "languages": 3.0, 
                 "families": 2.0, 
+                "edge_width": 0.5, 
                 "id": "adultery"
             }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "21.43", 
+            "swadesh100": 0.0, 
+            "frequency": 179.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "adultery", 
+            "concept": "adultery", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 268, 
+            "normalized_weight": 1.0752688172043012, 
+            "families": 1.0, 
+            "id": "adultery"
+        }, 
+        {
+            "key": "19.72", 
+            "swadesh100": 0.0, 
+            "frequency": 236.0, 
+            "label": "prostitute", 
+            "concept": "prostitute", 
+            "body_part": 0.0, 
+            "community": 268, 
+            "id": "prostitute", 
+            "out_edge": []
+        }
+    ], 
+    "graph": []
 }

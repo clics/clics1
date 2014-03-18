@@ -1,0 +1,173 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "porpoise, dolphin", 
+            "normalized_weight": 1.36986301369863, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "3.662", 
+            "label": "porpoise, dolphin", 
+            "swadesh100": 0.0, 
+            "frequency": 128.0, 
+            "weight": 1.0, 
+            "community": 237, 
+            "out_edge": [], 
+            "id": "porpoise, dolphin", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "lion", 
+            "normalized_weight": 1.282051282051282, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "3.72", 
+            "label": "lion", 
+            "swadesh100": 0.0, 
+            "frequency": 192.0, 
+            "weight": 1.0, 
+            "community": 237, 
+            "out_edge": [], 
+            "id": "lion", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "wolf", 
+            "body_part": 0.0, 
+            "key": "3.71", 
+            "label": "wolf", 
+            "swadesh100": 0.0, 
+            "frequency": 181.0, 
+            "community": 237, 
+            "out_edge": [], 
+            "id": "wolf"
+        }, 
+        {
+            "normalized_weight": 1.1235955056179776, 
+            "families": 1.0, 
+            "key": "3.74", 
+            "out_edge": [], 
+            "weight": 1.0, 
+            "community": 237, 
+            "id": "fox", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "cross", 
+            "normalized_weight": 1.0869565217391304, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "12.77", 
+            "label": "cross", 
+            "swadesh100": 0.0, 
+            "frequency": 177.0, 
+            "weight": 1.0, 
+            "community": 237, 
+            "out_edge": [], 
+            "id": "cross", 
+            "languages": 1.0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 1.36986301369863, 
+                "normalized_weight": 1.36986301369863, 
+                "families": 1.0, 
+                "id": "wolf", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "normalized_weight": 1.0, 
+                "families": 1.0, 
+                "id": "fox", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "families": 2.0, 
+                "id": "wolf", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "families": 1.0, 
+                "id": "cross", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.36986301369863, 
+                "normalized_weight": 1.36986301369863, 
+                "families": 1.0, 
+                "id": "porpoise, dolphin", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 4.597701149425287, 
+                "normalized_weight": 4.597701149425287, 
+                "families": 2.0, 
+                "id": "lion", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
+                "families": 1.0, 
+                "id": "fox", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0, 
+                "normalized_weight": 1.0, 
+                "families": 1.0, 
+                "id": "lion", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1235955056179776, 
+                "normalized_weight": 1.1235955056179776, 
+                "families": 1.0, 
+                "id": "wolf", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 1.0869565217391304, 
+                "normalized_weight": 1.0869565217391304, 
+                "families": 1.0, 
+                "id": "lion", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 1.1764705882352942, 
+                "normalized_weight": 1.1764705882352942, 
+                "families": 1.0, 
+                "id": "cross", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ]
+    ], 
+    "graph": []
+}

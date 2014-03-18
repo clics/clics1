@@ -1,108 +1,108 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "swear", 
-            "key": "21.24", 
-            "id": "swear", 
-            "community": 226, 
-            "out_edge": [], 
-            "normalized_weight": 1.3513513513513513, 
-            "label": "swear", 
-            "frequency": 172.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 4.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "oath", 
-            "key": "21.25", 
-            "id": "oath", 
-            "community": 226, 
-            "out_edge": [], 
-            "normalized_weight": 16.9811320754717, 
-            "label": "oath", 
-            "frequency": 155.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "promise", 
-            "key": "18.36", 
-            "id": "promise", 
-            "community": 226, 
-            "out_edge": [], 
-            "normalized_weight": 0.9708737864077669, 
-            "label": "promise", 
-            "frequency": 202.0
-        }
-    ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 4.0, 
                 "normalized_weight": 16.9811320754717, 
+                "id": "oath", 
+                "languages": 4.0, 
                 "weight": 16.9811320754717, 
-                "edge_width": 1.0, 
                 "families": 3.0, 
-                "id": "oath"
+                "edge_width": 1.0
             }, 
             {
-                "languages": 5.0, 
                 "normalized_weight": 35.2112676056338, 
+                "id": "promise", 
+                "languages": 5.0, 
                 "weight": 35.2112676056338, 
-                "edge_width": 1.0, 
                 "families": 5.0, 
-                "id": "promise"
+                "edge_width": 1.1451612903225807
             }
         ], 
         [
             {
-                "languages": 4.0, 
                 "normalized_weight": 16.9811320754717, 
+                "id": "swear", 
+                "languages": 4.0, 
                 "weight": 16.9811320754717, 
-                "edge_width": 1.0, 
                 "families": 3.0, 
-                "id": "swear"
+                "edge_width": 1.0
             }, 
             {
-                "languages": 3.0, 
                 "normalized_weight": 12.676056338028168, 
+                "id": "promise", 
+                "languages": 3.0, 
                 "weight": 12.676056338028168, 
-                "edge_width": 1.0, 
                 "families": 3.0, 
-                "id": "promise"
+                "edge_width": 1.0
             }
         ], 
         [
             {
-                "languages": 5.0, 
                 "normalized_weight": 35.2112676056338, 
+                "id": "swear", 
+                "languages": 5.0, 
                 "weight": 35.2112676056338, 
-                "edge_width": 1.0, 
                 "families": 5.0, 
-                "id": "swear"
+                "edge_width": 1.1451612903225807
             }, 
             {
-                "languages": 3.0, 
                 "normalized_weight": 12.676056338028168, 
+                "id": "oath", 
+                "languages": 3.0, 
                 "weight": 12.676056338028168, 
-                "edge_width": 1.0, 
                 "families": 3.0, 
-                "id": "oath"
+                "edge_width": 1.0
             }
         ]
-    ]
+    ], 
+    "nodes": [
+        {
+            "out_edge": [], 
+            "id": "swear", 
+            "frequency": 172.0, 
+            "languages": 1.0, 
+            "key": "21.24", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 1.3513513513513513, 
+            "body_part": 0.0, 
+            "label": "swear", 
+            "community": 226, 
+            "concept": "swear", 
+            "weight": 1.0, 
+            "families": 1.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "oath", 
+            "frequency": 155.0, 
+            "languages": 4.0, 
+            "key": "21.25", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 16.9811320754717, 
+            "body_part": 0.0, 
+            "label": "oath", 
+            "community": 226, 
+            "concept": "oath", 
+            "weight": 3.0, 
+            "families": 3.0
+        }, 
+        {
+            "out_edge": [], 
+            "id": "promise", 
+            "frequency": 202.0, 
+            "languages": 1.0, 
+            "key": "18.36", 
+            "swadesh100": 0.0, 
+            "normalized_weight": 0.9708737864077669, 
+            "body_part": 0.0, 
+            "label": "promise", 
+            "community": 226, 
+            "concept": "promise", 
+            "weight": 1.0, 
+            "families": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
 }

@@ -1,0 +1,108 @@
+{
+    "directed": false, 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "eyelid", 
+            "normalized_weight": 1.0309278350515463, 
+            "families": 1.0, 
+            "body_part": 1.0, 
+            "key": "4.213", 
+            "label": "eyelid", 
+            "swadesh100": 0.0, 
+            "frequency": 218.0, 
+            "weight": 1.0, 
+            "community": 169, 
+            "out_edge": [], 
+            "id": "eyelid", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "eyebrow", 
+            "normalized_weight": 1.2048192771084338, 
+            "families": 1.0, 
+            "body_part": 1.0, 
+            "key": "4.212", 
+            "label": "eyebrow", 
+            "swadesh100": 0.0, 
+            "frequency": 235.0, 
+            "weight": 1.0, 
+            "community": 169, 
+            "out_edge": [], 
+            "id": "eyebrow", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "eyelash", 
+            "normalized_weight": 44.14414414414414, 
+            "families": 7.0, 
+            "body_part": 1.0, 
+            "key": "4.214", 
+            "label": "eyelash", 
+            "swadesh100": 0.0, 
+            "frequency": 235.0, 
+            "weight": 7.0, 
+            "community": 169, 
+            "out_edge": [], 
+            "id": "eyelash", 
+            "languages": 17.0
+        }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "families": 2.0, 
+                "id": "eyebrow", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 44.14414414414414, 
+                "normalized_weight": 44.14414414414414, 
+                "families": 7.0, 
+                "id": "eyelash", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 17.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.4782608695652173, 
+                "normalized_weight": 3.4782608695652173, 
+                "families": 2.0, 
+                "id": "eyelid", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 90.09009009009009, 
+                "normalized_weight": 90.09009009009009, 
+                "families": 10.0, 
+                "id": "eyelash", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 15.0
+            }
+        ], 
+        [
+            {
+                "weight": 44.14414414414414, 
+                "normalized_weight": 44.14414414414414, 
+                "families": 7.0, 
+                "id": "eyelid", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 90.09009009009009, 
+                "normalized_weight": 90.09009009009009, 
+                "families": 10.0, 
+                "id": "eyebrow", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 15.0
+            }
+        ]
+    ], 
+    "graph": []
+}

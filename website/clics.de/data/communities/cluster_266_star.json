@@ -1,41 +1,55 @@
 {
+    "directed": false, 
     "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "star", 
+            "normalized_weight": 0.8, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "1.54", 
+            "label": "star", 
+            "swadesh100": 1.0, 
+            "frequency": 247.0, 
+            "weight": 1.0, 
+            "community": 266, 
+            "out_edge": [], 
+            "id": "star", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "firefly", 
+            "body_part": 0.0, 
+            "key": "3.91", 
+            "label": "firefly", 
+            "swadesh100": 0.0, 
+            "frequency": 186.0, 
+            "community": 266, 
+            "out_edge": [], 
+            "id": "firefly"
+        }
+    ], 
     "adjacency": [
         [
             {
                 "weight": 3.7735849056603774, 
-                "id": "firefly", 
+                "normalized_weight": 3.7735849056603774, 
                 "families": 2.0, 
+                "id": "firefly", 
+                "edge_width": 1.0, 
                 "languages": 2.0
             }
         ], 
         [
             {
                 "weight": 3.7735849056603774, 
-                "id": "star", 
+                "normalized_weight": 3.7735849056603774, 
                 "families": 2.0, 
+                "id": "star", 
+                "edge_width": 1.0, 
                 "languages": 2.0
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 266, 
-            "id": "star", 
-            "body_part": 0, 
-            "swadesh100": 1, 
-            "key": "1.54", 
-            "out_edge": []
-        }, 
-        {
-            "community": 266, 
-            "id": "firefly", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "3.91", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

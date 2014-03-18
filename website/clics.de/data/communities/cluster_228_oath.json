@@ -1,81 +1,108 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 3.0, 
-                "id": "promise", 
-                "edge_width": 1.0, 
-                "weight": 12.676056338028168, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 4.0, 
-                "id": "swear", 
-                "edge_width": 1.0, 
-                "weight": 16.9811320754717, 
-                "families": 3.0
-            }
-        ], 
-        [
-            {
-                "languages": 4.0, 
-                "id": "oath", 
-                "edge_width": 1.0, 
-                "weight": 16.9811320754717, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "promise", 
-                "edge_width": 1.0, 
-                "weight": 35.2112676056338, 
-                "families": 5.0
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "id": "oath", 
-                "edge_width": 1.0, 
-                "weight": 12.676056338028168, 
-                "families": 3.0
-            }, 
-            {
-                "languages": 5.0, 
-                "id": "swear", 
-                "edge_width": 1.0, 
-                "weight": 35.2112676056338, 
-                "families": 5.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "oath", 
+            "normalized_weight": 16.9811320754717, 
+            "families": 3.0, 
+            "body_part": 0.0, 
+            "key": "21.25", 
+            "label": "oath", 
+            "swadesh100": 0.0, 
+            "frequency": 155.0, 
+            "weight": 3.0, 
             "community": 228, 
+            "out_edge": [], 
             "id": "oath", 
-            "key": "21.25"
+            "languages": 4.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "swear", 
+            "normalized_weight": 1.3513513513513513, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "21.24", 
+            "label": "swear", 
+            "swadesh100": 0.0, 
+            "frequency": 172.0, 
+            "weight": 1.0, 
             "community": 228, 
+            "out_edge": [], 
             "id": "swear", 
-            "key": "21.24"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "promise", 
+            "normalized_weight": 0.9708737864077669, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "18.36", 
+            "label": "promise", 
+            "swadesh100": 0.0, 
+            "frequency": 202.0, 
+            "weight": 1.0, 
             "community": 228, 
+            "out_edge": [], 
             "id": "promise", 
-            "key": "18.36"
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 16.9811320754717, 
+                "normalized_weight": 16.9811320754717, 
+                "families": 3.0, 
+                "id": "swear", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 12.676056338028168, 
+                "normalized_weight": 12.676056338028168, 
+                "families": 3.0, 
+                "id": "promise", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }
+        ], 
+        [
+            {
+                "weight": 16.9811320754717, 
+                "normalized_weight": 16.9811320754717, 
+                "families": 3.0, 
+                "id": "oath", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 4.0
+            }, 
+            {
+                "weight": 35.2112676056338, 
+                "normalized_weight": 35.2112676056338, 
+                "families": 5.0, 
+                "id": "promise", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 12.676056338028168, 
+                "normalized_weight": 12.676056338028168, 
+                "families": 3.0, 
+                "id": "oath", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 35.2112676056338, 
+                "normalized_weight": 35.2112676056338, 
+                "families": 5.0, 
+                "id": "swear", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 5.0
+            }
+        ]
     ], 
     "graph": []
 }

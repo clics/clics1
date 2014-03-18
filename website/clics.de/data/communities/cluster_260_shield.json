@@ -1,41 +1,59 @@
 {
+    "directed": false, 
     "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "shield", 
+            "normalized_weight": 1.2195121951219512, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "20.34", 
+            "label": "shield", 
+            "swadesh100": 0.0, 
+            "frequency": 124.0, 
+            "weight": 1.0, 
+            "community": 260, 
+            "out_edge": [], 
+            "id": "shield", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "armor (defensive)", 
+            "normalized_weight": 1.1494252873563218, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "20.31", 
+            "label": "armor (defensive)", 
+            "swadesh100": 0.0, 
+            "frequency": 157.0, 
+            "weight": 1.0, 
+            "community": 260, 
+            "out_edge": [], 
+            "id": "armor (defensive)", 
+            "languages": 1.0
+        }
+    ], 
     "adjacency": [
         [
             {
                 "weight": 15.0, 
-                "id": "armor (defensive)", 
+                "normalized_weight": 15.0, 
                 "families": 3.0, 
+                "id": "armor (defensive)", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 3.0
             }
         ], 
         [
             {
                 "weight": 15.0, 
-                "id": "shield", 
+                "normalized_weight": 15.0, 
                 "families": 3.0, 
+                "id": "shield", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 3.0
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 260, 
-            "id": "shield", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.34", 
-            "out_edge": []
-        }, 
-        {
-            "community": 260, 
-            "id": "armor (defensive)", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "20.31", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

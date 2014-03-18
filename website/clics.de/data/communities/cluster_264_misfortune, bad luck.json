@@ -1,41 +1,55 @@
 {
+    "directed": false, 
     "multigraph": false, 
+    "nodes": [
+        {
+            "concept": "misfortune, bad luck", 
+            "normalized_weight": 12.162162162162163, 
+            "families": 3.0, 
+            "body_part": 0.0, 
+            "key": "16.19", 
+            "label": "misfortune, bad luck", 
+            "swadesh100": 0.0, 
+            "frequency": 228.0, 
+            "weight": 3.0, 
+            "community": 264, 
+            "out_edge": [], 
+            "id": "misfortune, bad luck", 
+            "languages": 3.0
+        }, 
+        {
+            "concept": "good fortune, luck", 
+            "body_part": 0.0, 
+            "key": "16.18", 
+            "label": "good fortune, luck", 
+            "swadesh100": 0.0, 
+            "frequency": 231.0, 
+            "community": 264, 
+            "out_edge": [], 
+            "id": "good fortune, luck"
+        }
+    ], 
     "adjacency": [
         [
             {
                 "weight": 12.162162162162163, 
-                "id": "good fortune, luck", 
+                "normalized_weight": 12.162162162162163, 
                 "families": 3.0, 
+                "id": "good fortune, luck", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 3.0
             }
         ], 
         [
             {
                 "weight": 12.162162162162163, 
-                "id": "misfortune, bad luck", 
+                "normalized_weight": 12.162162162162163, 
                 "families": 3.0, 
+                "id": "misfortune, bad luck", 
+                "edge_width": 1.0918367346938775, 
                 "languages": 3.0
             }
         ]
     ], 
-    "nodes": [
-        {
-            "community": 264, 
-            "id": "misfortune, bad luck", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.19", 
-            "out_edge": []
-        }, 
-        {
-            "community": 264, 
-            "id": "good fortune, luck", 
-            "body_part": 0, 
-            "swadesh100": 0, 
-            "key": "16.18", 
-            "out_edge": []
-        }
-    ], 
-    "graph": [], 
-    "directed": false
+    "graph": []
 }

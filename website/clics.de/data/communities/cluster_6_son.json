@@ -1,48 +1,21 @@
 {
-    "graph": [], 
+    "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "young", 
-            "key": "14.14", 
-            "id": "young", 
-            "community": 6, 
-            "out_edge": [
-                [
-                    "cluster_99_some", 
-                    "small, little", 
-                    9.0, 
-                    71.68141592920354
-                ], 
-                [
-                    "cluster_46_blue", 
-                    "green, unripe", 
-                    5.0, 
-                    22.93577981651376
-                ]
-            ], 
-            "normalized_weight": 0.8264462809917356, 
-            "label": "young", 
-            "frequency": 264.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
             "concept": "son", 
+            "normalized_weight": 0.8064516129032258, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "2.41", 
-            "id": "son", 
+            "label": "son", 
+            "swadesh100": 0.0, 
+            "frequency": 274.0, 
+            "weight": 1.0, 
             "community": 6, 
             "out_edge": [
                 [
-                    "cluster_75_nephew", 
+                    "cluster_75_granddaughter", 
                     "nephew", 
                     7.0, 
                     44.14414414414414
@@ -54,131 +27,92 @@
                     25.252525252525253
                 ], 
                 [
-                    "cluster_75_nephew", 
+                    "cluster_75_granddaughter", 
                     "niece", 
                     4.0, 
                     14.414414414414415
                 ]
             ], 
-            "normalized_weight": 0.8064516129032258, 
-            "label": "son", 
-            "frequency": 274.0
+            "id": "son", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
+            "concept": "young woman (adolescent)", 
+            "normalized_weight": 0.8264462809917356, 
             "families": 1.0, 
-            "concept": "girl", 
-            "key": "2.26", 
-            "id": "girl", 
-            "community": 6, 
-            "out_edge": [], 
-            "normalized_weight": 1.0638297872340425, 
-            "label": "girl", 
-            "frequency": 272.0
-        }, 
-        {
             "body_part": 0.0, 
-            "languages": 2.0, 
-            "weight": 2.0, 
+            "key": "2.261", 
+            "label": "young woman (adolescent)", 
             "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "infant, baby", 
-            "key": "2.28", 
-            "id": "infant, baby", 
-            "community": 6, 
-            "out_edge": [], 
-            "normalized_weight": 3.361344537815126, 
-            "label": "infant, baby", 
-            "frequency": 297.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
+            "frequency": 273.0, 
             "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "boy", 
-            "key": "2.25", 
-            "id": "boy", 
             "community": 6, 
             "out_edge": [
                 [
-                    "cluster_5_man (vs. woman)", 
-                    "male", 
-                    5.0, 
-                    21.367521367521366
-                ]
-            ], 
-            "normalized_weight": 1.0, 
-            "label": "boy", 
-            "frequency": 278.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "descendants", 
-            "key": "2.57", 
-            "id": "descendants", 
-            "community": 6, 
-            "out_edge": [], 
-            "normalized_weight": 1.2048192771084338, 
-            "label": "descendants", 
-            "frequency": 221.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "swadesh100": 1.0, 
-            "concept": "new", 
-            "key": "14.13", 
-            "id": "new", 
-            "community": 6, 
-            "out_edge": [], 
-            "label": "new", 
-            "frequency": 248.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "daughter", 
-            "key": "2.42", 
-            "id": "daughter", 
-            "community": 6, 
-            "out_edge": [
-                [
-                    "cluster_75_nephew", 
-                    "niece", 
-                    8.0, 
-                    59.813084112149525
+                    "cluster_18_female (adj)", 
+                    "female", 
+                    4.0, 
+                    14.545454545454545
                 ], 
                 [
-                    "cluster_75_nephew", 
-                    "nephew", 
+                    "cluster_18_female (adj)", 
+                    "woman", 
                     4.0, 
-                    14.035087719298245
+                    13.559322033898304
                 ]
             ], 
-            "normalized_weight": 0.8130081300813009, 
-            "label": "daughter", 
-            "frequency": 262.0
+            "id": "young woman (adolescent)", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
+            "concept": "young", 
+            "normalized_weight": 0.8264462809917356, 
             "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "14.14", 
+            "label": "young", 
+            "swadesh100": 0.0, 
+            "frequency": 264.0, 
+            "weight": 1.0, 
+            "community": 6, 
+            "out_edge": [
+                [
+                    "cluster_99_some", 
+                    "small, little", 
+                    9.0, 
+                    71.68141592920354
+                ], 
+                [
+                    "cluster_45_blue", 
+                    "green, unripe", 
+                    5.0, 
+                    22.93577981651376
+                ]
+            ], 
+            "id": "young", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "new", 
+            "body_part": 0.0, 
+            "key": "14.13", 
+            "label": "new", 
+            "swadesh100": 1.0, 
+            "frequency": 248.0, 
+            "community": 6, 
+            "out_edge": [], 
+            "id": "new"
+        }, 
+        {
             "concept": "child", 
+            "normalized_weight": 0.7936507936507936, 
+            "families": 1.0, 
+            "body_part": 0.0, 
             "key": "2.27", 
-            "id": "child", 
+            "label": "child", 
+            "swadesh100": 0.0, 
+            "frequency": 287.0, 
+            "weight": 1.0, 
             "community": 6, 
             "out_edge": [
                 [
@@ -188,7 +122,7 @@
                     24.752475247524753
                 ], 
                 [
-                    "cluster_260_teacher", 
+                    "cluster_259_teacher", 
                     "pupil", 
                     5.0, 
                     23.58490566037736
@@ -200,35 +134,89 @@
                     23.58490566037736
                 ]
             ], 
-            "normalized_weight": 0.7936507936507936, 
-            "label": "child", 
-            "frequency": 287.0
+            "id": "child", 
+            "languages": 1.0
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
+            "concept": "girl", 
+            "normalized_weight": 1.0638297872340425, 
             "families": 1.0, 
-            "concept": "young man (adolescent)", 
-            "key": "2.251", 
-            "id": "young man (adolescent)", 
+            "body_part": 0.0, 
+            "key": "2.26", 
+            "label": "girl", 
+            "swadesh100": 0.0, 
+            "frequency": 272.0, 
+            "weight": 1.0, 
             "community": 6, 
             "out_edge": [], 
-            "normalized_weight": 0.8333333333333334, 
-            "label": "young man (adolescent)", 
-            "frequency": 284.0
+            "id": "girl", 
+            "languages": 1.0
         }, 
         {
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "concept": "young man (adolescent)", 
+            "normalized_weight": 0.8333333333333334, 
             "families": 1.0, 
-            "key": "2.43", 
-            "id": "offspring (son or daughter)", 
+            "body_part": 0.0, 
+            "key": "2.251", 
+            "label": "young man (adolescent)", 
+            "swadesh100": 0.0, 
+            "frequency": 284.0, 
+            "weight": 1.0, 
+            "community": 6, 
+            "out_edge": [], 
+            "id": "young man (adolescent)", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "daughter", 
+            "normalized_weight": 0.8130081300813009, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "2.42", 
+            "label": "daughter", 
+            "swadesh100": 0.0, 
+            "frequency": 262.0, 
+            "weight": 1.0, 
             "community": 6, 
             "out_edge": [
                 [
-                    "cluster_75_nephew", 
+                    "cluster_75_granddaughter", 
+                    "niece", 
+                    8.0, 
+                    59.813084112149525
+                ], 
+                [
+                    "cluster_75_granddaughter", 
+                    "nephew", 
+                    4.0, 
+                    14.035087719298245
+                ]
+            ], 
+            "id": "daughter", 
+            "languages": 1.0
+        }, 
+        {
+            "concept": "descendants", 
+            "normalized_weight": 1.2048192771084338, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "2.57", 
+            "label": "descendants", 
+            "swadesh100": 0.0, 
+            "frequency": 221.0, 
+            "weight": 1.0, 
+            "community": 6, 
+            "out_edge": [], 
+            "id": "descendants", 
+            "languages": 1.0
+        }, 
+        {
+            "normalized_weight": 1.1235955056179776, 
+            "families": 1.0, 
+            "key": "2.43", 
+            "out_edge": [
+                [
+                    "cluster_75_granddaughter", 
                     "nephew", 
                     5.0, 
                     24.509803921568626
@@ -246,846 +234,858 @@
                     17.97752808988764
                 ]
             ], 
-            "normalized_weight": 1.1235955056179776
+            "weight": 1.0, 
+            "community": 6, 
+            "id": "offspring (son or daughter)", 
+            "languages": 1.0
         }, 
         {
+            "concept": "infant, baby", 
+            "normalized_weight": 3.361344537815126, 
+            "families": 2.0, 
             "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "2.28", 
+            "label": "infant, baby", 
             "swadesh100": 0.0, 
+            "frequency": 297.0, 
+            "weight": 2.0, 
+            "community": 6, 
+            "out_edge": [], 
+            "id": "infant, baby", 
+            "languages": 2.0
+        }, 
+        {
+            "concept": "boy", 
+            "normalized_weight": 1.0, 
             "families": 1.0, 
-            "concept": "young woman (adolescent)", 
-            "key": "2.261", 
-            "id": "young woman (adolescent)", 
+            "body_part": 0.0, 
+            "key": "2.25", 
+            "label": "boy", 
+            "swadesh100": 0.0, 
+            "frequency": 278.0, 
+            "weight": 1.0, 
             "community": 6, 
             "out_edge": [
                 [
-                    "cluster_18_woman", 
-                    "female", 
-                    4.0, 
-                    14.545454545454545
-                ], 
-                [
-                    "cluster_18_woman", 
-                    "woman", 
-                    4.0, 
-                    13.559322033898304
+                    "cluster_5_male", 
+                    "male", 
+                    5.0, 
+                    21.367521367521366
                 ]
             ], 
-            "normalized_weight": 0.8264462809917356, 
-            "label": "young woman (adolescent)", 
-            "frequency": 273.0
+            "id": "boy", 
+            "languages": 1.0
         }
     ], 
-    "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8403361344537815, 
-                "weight": 0.8403361344537815, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.389830508474576, 
-                "weight": 3.389830508474576, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.361344537815126, 
-                "weight": 3.361344537815126, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 6.0, 
-                "normalized_weight": 31.03448275862069, 
-                "weight": 31.03448275862069, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 22.321428571428573, 
-                "weight": 22.321428571428573, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 12.0, 
-                "normalized_weight": 43.36283185840708, 
-                "weight": 43.36283185840708, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "new"
-            }, 
-            {
-                "languages": 22.0, 
-                "normalized_weight": 162.5, 
-                "weight": 162.5, 
-                "edge_width": 1.7941176470588236, 
-                "families": 13.0, 
-                "id": "young man (adolescent)"
-            }, 
-            {
-                "languages": 5.0, 
-                "normalized_weight": 13.793103448275861, 
-                "weight": 13.793103448275861, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9259259259259258, 
-                "weight": 0.9259259259259258, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 44.95412844036697, 
-                "weight": 44.95412844036697, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.389830508474576, 
-                "weight": 3.389830508474576, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 16.0, 
-                "normalized_weight": 107.07964601769913, 
-                "weight": 107.07964601769913, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8130081300813009, 
                 "weight": 0.8130081300813009, 
-                "edge_width": 1.0, 
+                "normalized_weight": 0.8130081300813009, 
                 "families": 1.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8064516129032258, 
-                "weight": 0.8064516129032258, 
+                "id": "son", 
                 "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "girl"
+                "languages": 1.0
             }, 
             {
-                "languages": 17.0, 
-                "normalized_weight": 202.7027027027027, 
-                "weight": 202.7027027027027, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8333333333333334, 
-                "weight": 0.8333333333333334, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 23.0, 
-                "normalized_weight": 263.91752577319585, 
-                "weight": 263.91752577319585, 
-                "edge_width": 2.3235294117647056, 
-                "families": 16.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.669724770642202, 
-                "weight": 3.669724770642202, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "descendants"
-            }, 
-            {
-                "languages": 48.0, 
-                "normalized_weight": 206.42201834862385, 
-                "weight": 206.42201834862385, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 42.98245614035088, 
                 "weight": 42.98245614035088, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "young man (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.361344537815126, 
-                "weight": 3.361344537815126, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 58.0, 
-                "normalized_weight": 234.86238532110093, 
-                "weight": 234.86238532110093, 
-                "edge_width": 2.0588235294117645, 
-                "families": 16.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8064516129032258, 
-                "weight": 0.8064516129032258, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 85.47008547008546, 
-                "weight": 85.47008547008546, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 7.563025210084033, 
-                "weight": 7.563025210084033, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young man (adolescent)"
-            }, 
-            {
-                "languages": 14.0, 
-                "normalized_weight": 106.14035087719299, 
-                "weight": 106.14035087719299, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 41.0, 
-                "normalized_weight": 212.26415094339623, 
-                "weight": 212.26415094339623, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "normalized_weight": 22.321428571428573, 
-                "weight": 22.321428571428573, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.361344537815126, 
-                "weight": 3.361344537815126, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8333333333333334, 
-                "weight": 0.8333333333333334, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 7.563025210084033, 
-                "weight": 7.563025210084033, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 60.0, 
-                "normalized_weight": 637.7551020408164, 
-                "weight": 637.7551020408164, 
-                "edge_width": 4.1764705882352944, 
-                "families": 25.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 18.0, 
-                "normalized_weight": 100.0, 
-                "weight": 100.0, 
-                "edge_width": 1.5294117647058822, 
-                "families": 10.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9345794392523363, 
-                "weight": 0.9345794392523363, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "descendants"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 31.30434782608696, 
-                "weight": 31.30434782608696, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8547008547008548, 
-                "weight": 0.8547008547008548, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young man (adolescent)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8620689655172413, 
-                "weight": 0.8620689655172413, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 5.0, 
-                "normalized_weight": 13.793103448275861, 
-                "weight": 13.793103448275861, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8130081300813009, 
-                "weight": 0.8130081300813009, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 48.0, 
-                "normalized_weight": 206.42201834862385, 
-                "weight": 206.42201834862385, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 14.0, 
-                "normalized_weight": 106.14035087719299, 
-                "weight": 106.14035087719299, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 36.0, 
-                "normalized_weight": 300.0, 
-                "weight": 300.0, 
-                "edge_width": 2.5882352941176472, 
-                "families": 18.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 31.30434782608696, 
-                "weight": 31.30434782608696, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 8.0, 
-                "normalized_weight": 23.14814814814815, 
-                "weight": 23.14814814814815, 
-                "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 22.0, 
-                "normalized_weight": 212.26415094339623, 
-                "weight": 212.26415094339623, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "young man (adolescent)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8130081300813009, 
-                "weight": 0.8130081300813009, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8403361344537815, 
-                "weight": 0.8403361344537815, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.669724770642202, 
-                "weight": 3.669724770642202, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 20.0, 
-                "normalized_weight": 89.01098901098901, 
-                "weight": 89.01098901098901, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8928571428571428, 
-                "weight": 0.8928571428571428, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9345794392523363, 
-                "weight": 0.9345794392523363, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "infant, baby"
-            }
-        ], 
-        [
-            {
-                "languages": 12.0, 
-                "normalized_weight": 43.36283185840708, 
-                "weight": 43.36283185840708, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8333333333333334, 
-                "weight": 0.8333333333333334, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young man (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8403361344537815, 
-                "weight": 0.8403361344537815, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.361344537815126, 
-                "weight": 3.361344537815126, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 16.0, 
-                "normalized_weight": 107.07964601769913, 
-                "weight": 107.07964601769913, 
-                "edge_width": 1.5294117647058822, 
-                "families": 11.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 58.0, 
-                "normalized_weight": 234.86238532110093, 
-                "weight": 234.86238532110093, 
-                "edge_width": 2.0588235294117645, 
-                "families": 16.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 7.317073170731707, 
-                "weight": 7.317073170731707, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 97.0873786407767, 
-                "weight": 97.0873786407767, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9090909090909091, 
-                "weight": 0.9090909090909091, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "descendants"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8130081300813009, 
-                "weight": 0.8130081300813009, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 30.0, 
-                "normalized_weight": 72.97297297297297, 
-                "weight": 72.97297297297297, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 6.0, 
-                "normalized_weight": 31.03448275862069, 
-                "weight": 31.03448275862069, 
-                "edge_width": 1.0, 
-                "families": 6.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 7.317073170731707, 
-                "weight": 7.317073170731707, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 17.0, 
-                "normalized_weight": 202.7027027027027, 
-                "weight": 202.7027027027027, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "son"
-            }, 
-            {
-                "languages": 13.0, 
-                "normalized_weight": 85.47008547008546, 
-                "weight": 85.47008547008546, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 60.0, 
-                "normalized_weight": 637.7551020408164, 
-                "weight": 637.7551020408164, 
-                "edge_width": 4.1764705882352944, 
-                "families": 25.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 51.0, 
-                "normalized_weight": 520.4301075268817, 
-                "weight": 520.4301075268817, 
-                "edge_width": 3.6470588235294117, 
-                "families": 22.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8928571428571428, 
-                "weight": 0.8928571428571428, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "descendants"
-            }, 
-            {
-                "languages": 36.0, 
-                "normalized_weight": 300.0, 
-                "weight": 300.0, 
-                "edge_width": 2.5882352941176472, 
-                "families": 18.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.819672131147541, 
-                "weight": 0.819672131147541, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young man (adolescent)"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 22.0, 
-                "normalized_weight": 162.5, 
-                "weight": 162.5, 
-                "edge_width": 1.7941176470588236, 
-                "families": 13.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8547008547008548, 
-                "weight": 0.8547008547008548, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 9.0, 
                 "normalized_weight": 42.98245614035088, 
-                "weight": 42.98245614035088, 
-                "edge_width": 1.0, 
                 "families": 7.0, 
-                "id": "son"
+                "id": "young man (adolescent)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 9.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "girl"
+                "weight": 107.07964601769913, 
+                "normalized_weight": 107.07964601769913, 
+                "families": 11.0, 
+                "id": "daughter", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 16.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.819672131147541, 
-                "weight": 0.819672131147541, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7037037037037033, 
-                "weight": 3.7037037037037033, 
-                "edge_width": 1.0, 
+                "weight": 3.669724770642202, 
+                "normalized_weight": 3.669724770642202, 
                 "families": 2.0, 
-                "id": "offspring (son or daughter)"
-            }, 
-            {
-                "languages": 22.0, 
-                "normalized_weight": 212.26415094339623, 
-                "weight": 212.26415094339623, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "boy"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8333333333333334, 
-                "weight": 0.8333333333333334, 
+                "id": "descendants", 
                 "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "new"
+                "languages": 2.0
             }, 
             {
-                "languages": 10.0, 
-                "normalized_weight": 44.54545454545455, 
-                "weight": 44.54545454545455, 
+                "weight": 3.389830508474576, 
+                "normalized_weight": 3.389830508474576, 
+                "families": 2.0, 
+                "id": "young", 
                 "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "young woman (adolescent)"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.9259259259259258, 
-                "weight": 0.9259259259259258, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "young"
+                "languages": 2.0
             }, 
             {
-                "languages": 13.0, 
-                "normalized_weight": 97.0873786407767, 
-                "weight": 97.0873786407767, 
-                "edge_width": 1.2647058823529411, 
-                "families": 10.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 23.0, 
-                "normalized_weight": 263.91752577319585, 
                 "weight": 263.91752577319585, 
-                "edge_width": 2.3235294117647056, 
+                "normalized_weight": 263.91752577319585, 
                 "families": 16.0, 
-                "id": "son"
+                "id": "offspring (son or daughter)", 
+                "edge_width": 3.3877551020408165, 
+                "languages": 23.0
             }, 
             {
-                "languages": 51.0, 
-                "normalized_weight": 520.4301075268817, 
-                "weight": 520.4301075268817, 
-                "edge_width": 3.6470588235294117, 
-                "families": 22.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 18.0, 
-                "normalized_weight": 100.0, 
-                "weight": 100.0, 
-                "edge_width": 1.5294117647058822, 
-                "families": 10.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 2.0, 
-                "normalized_weight": 3.7037037037037033, 
-                "weight": 3.7037037037037033, 
+                "weight": 0.8333333333333334, 
+                "normalized_weight": 0.8333333333333334, 
+                "families": 1.0, 
+                "id": "infant, baby", 
                 "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "young man (adolescent)"
+                "languages": 1.0
             }, 
             {
-                "languages": 8.0, 
-                "normalized_weight": 23.14814814814815, 
-                "weight": 23.14814814814815, 
+                "weight": 202.7027027027027, 
+                "normalized_weight": 202.7027027027027, 
+                "families": 15.0, 
+                "id": "child", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 0.8064516129032258, 
+                "normalized_weight": 0.8064516129032258, 
+                "families": 1.0, 
+                "id": "girl", 
                 "edge_width": 1.0, 
-                "families": 5.0, 
-                "id": "boy"
+                "languages": 1.0
             }, 
             {
-                "languages": 20.0, 
-                "normalized_weight": 89.01098901098901, 
-                "weight": 89.01098901098901, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "descendants"
+                "weight": 206.42201834862385, 
+                "normalized_weight": 206.42201834862385, 
+                "families": 15.0, 
+                "id": "boy", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 48.0
             }
         ], 
         [
             {
-                "languages": 8.0, 
-                "normalized_weight": 44.95412844036697, 
-                "weight": 44.95412844036697, 
-                "edge_width": 1.0, 
-                "families": 7.0, 
-                "id": "young"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8620689655172413, 
-                "weight": 0.8620689655172413, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "infant, baby"
-            }, 
-            {
-                "languages": 41.0, 
-                "normalized_weight": 212.26415094339623, 
-                "weight": 212.26415094339623, 
-                "edge_width": 2.0588235294117645, 
-                "families": 15.0, 
-                "id": "girl"
-            }, 
-            {
-                "languages": 1.0, 
-                "normalized_weight": 0.8264462809917356, 
-                "weight": 0.8264462809917356, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "child"
-            }, 
-            {
-                "languages": 30.0, 
-                "normalized_weight": 72.97297297297297, 
-                "weight": 72.97297297297297, 
-                "edge_width": 1.2647058823529411, 
-                "families": 9.0, 
-                "id": "daughter"
-            }, 
-            {
-                "languages": 10.0, 
-                "normalized_weight": 44.54545454545455, 
                 "weight": 44.54545454545455, 
-                "edge_width": 1.0, 
+                "normalized_weight": 44.54545454545455, 
                 "families": 7.0, 
-                "id": "young man (adolescent)"
+                "id": "young man (adolescent)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 10.0
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 0.8403361344537815, 
-                "weight": 0.8403361344537815, 
-                "edge_width": 1.0, 
+                "weight": 72.97297297297297, 
+                "normalized_weight": 72.97297297297297, 
+                "families": 9.0, 
+                "id": "daughter", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 30.0
+            }, 
+            {
+                "weight": 44.95412844036697, 
+                "normalized_weight": 44.95412844036697, 
+                "families": 7.0, 
+                "id": "young", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 0.8620689655172413, 
+                "normalized_weight": 0.8620689655172413, 
                 "families": 1.0, 
-                "id": "boy"
+                "id": "infant, baby", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "families": 1.0, 
+                "id": "child", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 212.26415094339623, 
+                "normalized_weight": 212.26415094339623, 
+                "families": 15.0, 
+                "id": "girl", 
+                "edge_width": 2.9285714285714288, 
+                "languages": 41.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "normalized_weight": 0.8403361344537815, 
+                "families": 1.0, 
+                "id": "boy", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 3.389830508474576, 
+                "normalized_weight": 3.389830508474576, 
+                "families": 2.0, 
+                "id": "son", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 162.5, 
+                "normalized_weight": 162.5, 
+                "families": 13.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 22.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "normalized_weight": 0.8403361344537815, 
+                "families": 1.0, 
+                "id": "daughter", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "normalized_weight": 0.9259259259259258, 
+                "families": 1.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 43.36283185840708, 
+                "normalized_weight": 43.36283185840708, 
+                "families": 7.0, 
+                "id": "new", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 12.0
+            }, 
+            {
+                "weight": 44.95412844036697, 
+                "normalized_weight": 44.95412844036697, 
+                "families": 7.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 22.321428571428573, 
+                "normalized_weight": 22.321428571428573, 
+                "families": 5.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 31.03448275862069, 
+                "normalized_weight": 31.03448275862069, 
+                "families": 6.0, 
+                "id": "child", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "girl", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 13.793103448275861, 
+                "normalized_weight": 13.793103448275861, 
+                "families": 4.0, 
+                "id": "boy", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 5.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8333333333333334, 
+                "normalized_weight": 0.8333333333333334, 
+                "families": 1.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 43.36283185840708, 
+                "normalized_weight": 43.36283185840708, 
+                "families": 7.0, 
+                "id": "young", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 12.0
+            }
+        ], 
+        [
+            {
+                "weight": 202.7027027027027, 
+                "normalized_weight": 202.7027027027027, 
+                "families": 15.0, 
+                "id": "son", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 17.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "families": 1.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 7.317073170731707, 
+                "normalized_weight": 7.317073170731707, 
+                "families": 3.0, 
+                "id": "daughter", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 0.8928571428571428, 
+                "normalized_weight": 0.8928571428571428, 
+                "families": 1.0, 
+                "id": "descendants", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 31.03448275862069, 
+                "normalized_weight": 31.03448275862069, 
+                "families": 6.0, 
+                "id": "young", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 6.0
+            }, 
+            {
+                "weight": 520.4301075268817, 
+                "normalized_weight": 520.4301075268817, 
+                "families": 22.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 5.6836734693877551, 
+                "languages": 51.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "families": 1.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 637.7551020408164, 
+                "normalized_weight": 637.7551020408164, 
+                "families": 25.0, 
+                "id": "infant, baby", 
+                "edge_width": 6.5102040816326534, 
+                "languages": 60.0
+            }, 
+            {
+                "weight": 85.47008547008546, 
+                "normalized_weight": 85.47008547008546, 
+                "families": 10.0, 
+                "id": "girl", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 300.0, 
+                "normalized_weight": 300.0, 
+                "families": 18.0, 
+                "id": "boy", 
+                "edge_width": 3.7551020408163267, 
+                "languages": 36.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8064516129032258, 
+                "normalized_weight": 0.8064516129032258, 
+                "families": 1.0, 
+                "id": "son", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "families": 1.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 234.86238532110093, 
+                "normalized_weight": 234.86238532110093, 
+                "families": 16.0, 
+                "id": "daughter", 
+                "edge_width": 3.1122448979591839, 
+                "languages": 58.0
+            }, 
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "young", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 212.26415094339623, 
+                "normalized_weight": 212.26415094339623, 
+                "families": 15.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 2.9285714285714288, 
+                "languages": 41.0
+            }, 
+            {
+                "weight": 7.563025210084033, 
+                "normalized_weight": 7.563025210084033, 
+                "families": 3.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 85.47008547008546, 
+                "normalized_weight": 85.47008547008546, 
+                "families": 10.0, 
+                "id": "child", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 106.14035087719299, 
+                "normalized_weight": 106.14035087719299, 
+                "families": 11.0, 
+                "id": "boy", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 14.0
+            }
+        ], 
+        [
+            {
+                "weight": 42.98245614035088, 
+                "normalized_weight": 42.98245614035088, 
+                "families": 7.0, 
+                "id": "son", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 9.0
+            }, 
+            {
+                "weight": 0.8333333333333334, 
+                "normalized_weight": 0.8333333333333334, 
+                "families": 1.0, 
+                "id": "new", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.7037037037037033, 
+                "normalized_weight": 3.7037037037037033, 
+                "families": 2.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 162.5, 
+                "normalized_weight": 162.5, 
+                "families": 13.0, 
+                "id": "young", 
+                "edge_width": 2.4693877551020407, 
+                "languages": 22.0
+            }, 
+            {
+                "weight": 44.54545454545455, 
+                "normalized_weight": 44.54545454545455, 
+                "families": 7.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.3673469387755102, 
+                "languages": 10.0
+            }, 
+            {
+                "weight": 0.8547008547008548, 
+                "normalized_weight": 0.8547008547008548, 
+                "families": 1.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.819672131147541, 
+                "normalized_weight": 0.819672131147541, 
+                "families": 1.0, 
+                "id": "child", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "families": 1.0, 
+                "id": "girl", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 212.26415094339623, 
+                "normalized_weight": 212.26415094339623, 
+                "families": 15.0, 
+                "id": "boy", 
+                "edge_width": 2.9285714285714288, 
+                "languages": 22.0
+            }
+        ], 
+        [
+            {
+                "weight": 107.07964601769913, 
+                "normalized_weight": 107.07964601769913, 
+                "families": 11.0, 
+                "id": "son", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 16.0
+            }, 
+            {
+                "weight": 97.0873786407767, 
+                "normalized_weight": 97.0873786407767, 
+                "families": 10.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "descendants", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "normalized_weight": 0.8403361344537815, 
+                "families": 1.0, 
+                "id": "young", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 72.97297297297297, 
+                "normalized_weight": 72.97297297297297, 
+                "families": 9.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.6428571428571428, 
+                "languages": 30.0
+            }, 
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 7.317073170731707, 
+                "normalized_weight": 7.317073170731707, 
+                "families": 3.0, 
+                "id": "child", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 234.86238532110093, 
+                "normalized_weight": 234.86238532110093, 
+                "families": 16.0, 
+                "id": "girl", 
+                "edge_width": 3.1122448979591839, 
+                "languages": 58.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
+                "families": 1.0, 
+                "id": "boy", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 3.669724770642202, 
+                "normalized_weight": 3.669724770642202, 
+                "families": 2.0, 
+                "id": "son", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.9090909090909091, 
+                "normalized_weight": 0.9090909090909091, 
+                "families": 1.0, 
+                "id": "daughter", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8928571428571428, 
+                "normalized_weight": 0.8928571428571428, 
+                "families": 1.0, 
+                "id": "child", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 89.01098901098901, 
+                "normalized_weight": 89.01098901098901, 
+                "families": 9.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 20.0
+            }
+        ], 
+        [
+            {
+                "weight": 263.91752577319585, 
+                "normalized_weight": 263.91752577319585, 
+                "families": 16.0, 
+                "id": "son", 
+                "edge_width": 3.3877551020408165, 
+                "languages": 23.0
+            }, 
+            {
+                "weight": 3.7037037037037033, 
+                "normalized_weight": 3.7037037037037033, 
+                "families": 2.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 97.0873786407767, 
+                "normalized_weight": 97.0873786407767, 
+                "families": 10.0, 
+                "id": "daughter", 
+                "edge_width": 1.8265306122448979, 
+                "languages": 13.0
+            }, 
+            {
+                "weight": 89.01098901098901, 
+                "normalized_weight": 89.01098901098901, 
+                "families": 9.0, 
+                "id": "descendants", 
+                "edge_width": 1.7346938775510203, 
+                "languages": 20.0
+            }, 
+            {
+                "weight": 0.9259259259259258, 
+                "normalized_weight": 0.9259259259259258, 
+                "families": 1.0, 
+                "id": "young", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 100.0, 
+                "normalized_weight": 100.0, 
+                "families": 10.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 520.4301075268817, 
+                "normalized_weight": 520.4301075268817, 
+                "families": 22.0, 
+                "id": "child", 
+                "edge_width": 5.6836734693877551, 
+                "languages": 51.0
+            }, 
+            {
+                "weight": 23.14814814814815, 
+                "normalized_weight": 23.14814814814815, 
+                "families": 5.0, 
+                "id": "boy", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 0.8333333333333334, 
+                "normalized_weight": 0.8333333333333334, 
+                "families": 1.0, 
+                "id": "son", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 0.8547008547008548, 
+                "normalized_weight": 0.8547008547008548, 
+                "families": 1.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 100.0, 
+                "normalized_weight": 100.0, 
+                "families": 10.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 18.0
+            }, 
+            {
+                "weight": 0.9345794392523363, 
+                "normalized_weight": 0.9345794392523363, 
+                "families": 1.0, 
+                "id": "descendants", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 22.321428571428573, 
+                "normalized_weight": 22.321428571428573, 
+                "families": 5.0, 
+                "id": "young", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 3.361344537815126, 
+                "normalized_weight": 3.361344537815126, 
+                "families": 2.0, 
+                "id": "daughter", 
+                "edge_width": 1.0, 
+                "languages": 2.0
+            }, 
+            {
+                "weight": 0.8620689655172413, 
+                "normalized_weight": 0.8620689655172413, 
+                "families": 1.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 637.7551020408164, 
+                "normalized_weight": 637.7551020408164, 
+                "families": 25.0, 
+                "id": "child", 
+                "edge_width": 6.5102040816326534, 
+                "languages": 60.0
+            }, 
+            {
+                "weight": 7.563025210084033, 
+                "normalized_weight": 7.563025210084033, 
+                "families": 3.0, 
+                "id": "girl", 
+                "edge_width": 1.0, 
+                "languages": 3.0
+            }, 
+            {
+                "weight": 31.30434782608696, 
+                "normalized_weight": 31.30434782608696, 
+                "families": 6.0, 
+                "id": "boy", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 8.0
+            }
+        ], 
+        [
+            {
+                "weight": 206.42201834862385, 
+                "normalized_weight": 206.42201834862385, 
+                "families": 15.0, 
+                "id": "son", 
+                "edge_width": 2.8367346938775508, 
+                "languages": 48.0
+            }, 
+            {
+                "weight": 212.26415094339623, 
+                "normalized_weight": 212.26415094339623, 
+                "families": 15.0, 
+                "id": "young man (adolescent)", 
+                "edge_width": 2.9285714285714288, 
+                "languages": 22.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
+                "families": 1.0, 
+                "id": "daughter", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 23.14814814814815, 
+                "normalized_weight": 23.14814814814815, 
+                "families": 5.0, 
+                "id": "offspring (son or daughter)", 
+                "edge_width": 1.1836734693877551, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 0.8403361344537815, 
+                "normalized_weight": 0.8403361344537815, 
+                "families": 1.0, 
+                "id": "young woman (adolescent)", 
+                "edge_width": 1.0, 
+                "languages": 1.0
+            }, 
+            {
+                "weight": 13.793103448275861, 
+                "normalized_weight": 13.793103448275861, 
+                "families": 4.0, 
+                "id": "young", 
+                "edge_width": 1.0918367346938775, 
+                "languages": 5.0
+            }, 
+            {
+                "weight": 31.30434782608696, 
+                "normalized_weight": 31.30434782608696, 
+                "families": 6.0, 
+                "id": "infant, baby", 
+                "edge_width": 1.2755102040816326, 
+                "languages": 8.0
+            }, 
+            {
+                "weight": 300.0, 
+                "normalized_weight": 300.0, 
+                "families": 18.0, 
+                "id": "child", 
+                "edge_width": 3.7551020408163267, 
+                "languages": 36.0
+            }, 
+            {
+                "weight": 106.14035087719299, 
+                "normalized_weight": 106.14035087719299, 
+                "families": 11.0, 
+                "id": "girl", 
+                "edge_width": 1.9183673469387754, 
+                "languages": 14.0
+            }, 
+            {
+                "weight": 0.8130081300813009, 
+                "normalized_weight": 0.8130081300813009, 
+                "families": 1.0, 
+                "id": "boy", 
+                "edge_width": 1.0, 
+                "languages": 1.0
             }
         ]
-    ]
+    ], 
+    "graph": []
 }

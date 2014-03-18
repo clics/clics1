@@ -1,62 +1,104 @@
 {
-    "graph": [], 
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 108.69565217391303, 
+                "normalized_weight": 108.69565217391303, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.4693877551020407, 
+                "id": "wall"
+            }, 
+            {
+                "weight": 11.842105263157894, 
+                "normalized_weight": 11.842105263157894, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "fortress"
+            }, 
+            {
+                "weight": 10.465116279069768, 
+                "normalized_weight": 10.465116279069768, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "stable, stall"
+            }
+        ], 
+        [
+            {
+                "weight": 32.0, 
+                "normalized_weight": 32.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "fortress"
+            }
+        ], 
+        [
+            {
+                "weight": 108.69565217391303, 
+                "normalized_weight": 108.69565217391303, 
+                "languages": 15.0, 
+                "families": 10.0, 
+                "edge_width": 1.4693877551020407, 
+                "id": "fence"
+            }, 
+            {
+                "weight": 5.47945205479452, 
+                "normalized_weight": 5.47945205479452, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "fortress"
+            }
+        ], 
+        [
+            {
+                "weight": 11.842105263157894, 
+                "normalized_weight": 11.842105263157894, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "fence"
+            }, 
+            {
+                "weight": 5.47945205479452, 
+                "normalized_weight": 5.47945205479452, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "wall"
+            }, 
+            {
+                "weight": 32.0, 
+                "normalized_weight": 32.0, 
+                "languages": 9.0, 
+                "families": 4.0, 
+                "edge_width": 0.79081632653061229, 
+                "id": "tower"
+            }
+        ], 
+        [
+            {
+                "weight": 10.465116279069768, 
+                "normalized_weight": 10.465116279069768, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "fence"
+            }
+        ]
+    ], 
     "multigraph": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "fortress", 
-            "key": "20.35", 
-            "id": "fortress", 
-            "community": 139, 
-            "out_edge": [], 
-            "normalized_weight": 11.842105263157894, 
-            "label": "fortress", 
-            "frequency": 164.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "wall", 
-            "key": "7.27", 
-            "id": "wall", 
-            "community": 139, 
-            "out_edge": [], 
-            "normalized_weight": 1.2658227848101267, 
-            "label": "wall", 
-            "frequency": 239.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "tower", 
-            "key": "20.36", 
-            "id": "tower", 
-            "community": 139, 
-            "out_edge": [], 
-            "normalized_weight": 1.1111111111111112, 
-            "label": "tower", 
-            "frequency": 141.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 3.0, 
-            "weight": 3.0, 
-            "swadesh100": 0.0, 
-            "families": 3.0, 
-            "concept": "fence", 
             "key": "8.16", 
-            "id": "fence", 
-            "community": 139, 
+            "swadesh100": 0.0, 
+            "frequency": 243.0, 
+            "languages": 3.0, 
             "out_edge": [
                 [
                     "cluster_50_house", 
@@ -65,117 +107,75 @@
                     16.842105263157894
                 ]
             ], 
-            "normalized_weight": 10.465116279069768, 
             "label": "fence", 
-            "frequency": 243.0
+            "concept": "fence", 
+            "weight": 3.0, 
+            "body_part": 0.0, 
+            "community": 139, 
+            "normalized_weight": 10.465116279069768, 
+            "families": 3.0, 
+            "id": "fence"
         }, 
         {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
+            "key": "20.36", 
             "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "stable, stall", 
-            "key": "3.19", 
-            "id": "stable, stall", 
-            "community": 139, 
+            "frequency": 141.0, 
+            "languages": 1.0, 
             "out_edge": [], 
-            "normalized_weight": 1.0101010101010102, 
+            "label": "tower", 
+            "concept": "tower", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 139, 
+            "normalized_weight": 1.1111111111111112, 
+            "families": 1.0, 
+            "id": "tower"
+        }, 
+        {
+            "key": "7.27", 
+            "swadesh100": 0.0, 
+            "frequency": 239.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "wall", 
+            "concept": "wall", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 139, 
+            "normalized_weight": 1.2658227848101267, 
+            "families": 1.0, 
+            "id": "wall"
+        }, 
+        {
+            "key": "20.35", 
+            "swadesh100": 0.0, 
+            "frequency": 164.0, 
+            "languages": 3.0, 
+            "out_edge": [], 
+            "label": "fortress", 
+            "concept": "fortress", 
+            "weight": 3.0, 
+            "body_part": 0.0, 
+            "community": 139, 
+            "normalized_weight": 11.842105263157894, 
+            "families": 3.0, 
+            "id": "fortress"
+        }, 
+        {
+            "key": "3.19", 
+            "swadesh100": 0.0, 
+            "frequency": 236.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
             "label": "stable, stall", 
-            "frequency": 236.0
+            "concept": "stable, stall", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 139, 
+            "normalized_weight": 1.0101010101010102, 
+            "families": 1.0, 
+            "id": "stable, stall"
         }
     ], 
-    "directed": false, 
-    "adjacency": [
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.47945205479452, 
-                "weight": 5.47945205479452, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "wall"
-            }, 
-            {
-                "languages": 9.0, 
-                "normalized_weight": 32.0, 
-                "weight": 32.0, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "tower"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 11.842105263157894, 
-                "weight": 11.842105263157894, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "fence"
-            }
-        ], 
-        [
-            {
-                "languages": 2.0, 
-                "normalized_weight": 5.47945205479452, 
-                "weight": 5.47945205479452, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "fortress"
-            }, 
-            {
-                "languages": 15.0, 
-                "normalized_weight": 108.69565217391303, 
-                "weight": 108.69565217391303, 
-                "edge_width": 1.5294117647058822, 
-                "families": 10.0, 
-                "id": "fence"
-            }
-        ], 
-        [
-            {
-                "languages": 9.0, 
-                "normalized_weight": 32.0, 
-                "weight": 32.0, 
-                "edge_width": 1.0, 
-                "families": 4.0, 
-                "id": "fortress"
-            }
-        ], 
-        [
-            {
-                "languages": 15.0, 
-                "normalized_weight": 108.69565217391303, 
-                "weight": 108.69565217391303, 
-                "edge_width": 1.5294117647058822, 
-                "families": 10.0, 
-                "id": "wall"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 11.842105263157894, 
-                "weight": 11.842105263157894, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "fortress"
-            }, 
-            {
-                "languages": 3.0, 
-                "normalized_weight": 10.465116279069768, 
-                "weight": 10.465116279069768, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "stable, stall"
-            }
-        ], 
-        [
-            {
-                "languages": 3.0, 
-                "normalized_weight": 10.465116279069768, 
-                "weight": 10.465116279069768, 
-                "edge_width": 1.0, 
-                "families": 3.0, 
-                "id": "fence"
-            }
-        ]
-    ]
+    "graph": []
 }

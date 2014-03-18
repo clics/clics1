@@ -1,0 +1,228 @@
+{
+    "directed": false, 
+    "adjacency": [
+        [
+            {
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "pain"
+            }, 
+            {
+                "weight": 9.278350515463918, 
+                "normalized_weight": 9.278350515463918, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "wound, sore"
+            }, 
+            {
+                "weight": 1.0416666666666665, 
+                "normalized_weight": 1.0416666666666665, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "scar"
+            }
+        ], 
+        [
+            {
+                "weight": 150.89285714285714, 
+                "normalized_weight": 150.89285714285714, 
+                "languages": 29.0, 
+                "families": 13.0, 
+                "edge_width": 1.9540816326530612, 
+                "id": "pain"
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "wound, sore"
+            }
+        ], 
+        [
+            {
+                "weight": 150.89285714285714, 
+                "normalized_weight": 150.89285714285714, 
+                "languages": 29.0, 
+                "families": 13.0, 
+                "edge_width": 1.9540816326530612, 
+                "id": "sick, sickness"
+            }, 
+            {
+                "weight": 0.9803921568627451, 
+                "normalized_weight": 0.9803921568627451, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "bruise"
+            }, 
+            {
+                "weight": 57.65765765765766, 
+                "normalized_weight": 57.65765765765766, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "wound, sore"
+            }
+        ], 
+        [
+            {
+                "weight": 9.278350515463918, 
+                "normalized_weight": 9.278350515463918, 
+                "languages": 3.0, 
+                "families": 3.0, 
+                "edge_width": 0.5, 
+                "id": "bruise"
+            }, 
+            {
+                "weight": 0.8264462809917356, 
+                "normalized_weight": 0.8264462809917356, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "sick, sickness"
+            }, 
+            {
+                "weight": 57.65765765765766, 
+                "normalized_weight": 57.65765765765766, 
+                "languages": 9.0, 
+                "families": 8.0, 
+                "edge_width": 0.98469387755102034, 
+                "id": "pain"
+            }, 
+            {
+                "weight": 3.508771929824561, 
+                "normalized_weight": 3.508771929824561, 
+                "languages": 2.0, 
+                "families": 2.0, 
+                "edge_width": 0.5, 
+                "id": "wound, sore"
+            }, 
+            {
+                "weight": 46.22641509433962, 
+                "normalized_weight": 46.22641509433962, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "scar"
+            }
+        ], 
+        [
+            {
+                "weight": 1.0416666666666665, 
+                "normalized_weight": 1.0416666666666665, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "bruise"
+            }, 
+            {
+                "weight": 46.22641509433962, 
+                "normalized_weight": 46.22641509433962, 
+                "languages": 10.0, 
+                "families": 7.0, 
+                "edge_width": 0.88775510204081631, 
+                "id": "wound, sore"
+            }
+        ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "4.852", 
+            "swadesh100": 0.0, 
+            "frequency": 205.0, 
+            "languages": 1.0, 
+            "out_edge": [
+                [
+                    "cluster_46_blue", 
+                    "blue", 
+                    4.0, 
+                    15.841584158415841
+                ]
+            ], 
+            "label": "bruise", 
+            "concept": "bruise", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 101, 
+            "normalized_weight": 0.9803921568627451, 
+            "families": 1.0, 
+            "id": "bruise"
+        }, 
+        {
+            "key": "4.84", 
+            "swadesh100": 0.0, 
+            "frequency": 391.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "sick, sickness", 
+            "concept": "sick, sickness", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 101, 
+            "normalized_weight": 0.8264462809917356, 
+            "families": 1.0, 
+            "id": "sick, sickness"
+        }, 
+        {
+            "key": "16.31", 
+            "swadesh100": 0.0, 
+            "frequency": 290.0, 
+            "languages": 2.0, 
+            "out_edge": [
+                [
+                    "cluster_78_anxiety, worry", 
+                    "grief, sorrow, sadness", 
+                    5.0, 
+                    22.321428571428573
+                ]
+            ], 
+            "label": "pain", 
+            "concept": "pain", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 101, 
+            "normalized_weight": 3.389830508474576, 
+            "families": 2.0, 
+            "id": "pain"
+        }, 
+        {
+            "key": "4.85", 
+            "swadesh100": 0.0, 
+            "frequency": 301.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "wound, sore", 
+            "concept": "wound, sore", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 101, 
+            "normalized_weight": 0.847457627118644, 
+            "families": 1.0, 
+            "id": "wound, sore"
+        }, 
+        {
+            "key": "4.858", 
+            "swadesh100": 0.0, 
+            "frequency": 240.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "scar", 
+            "concept": "scar", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 101, 
+            "normalized_weight": 0.8695652173913043, 
+            "families": 1.0, 
+            "id": "scar"
+        }
+    ], 
+    "graph": []
+}

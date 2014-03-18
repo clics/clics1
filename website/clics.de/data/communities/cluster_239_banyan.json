@@ -1,88 +1,88 @@
 {
-    "graph": [], 
-    "multigraph": false, 
-    "nodes": [
-        {
-            "body_part": 0.0, 
-            "swadesh100": 0.0, 
-            "concept": "fig", 
-            "key": "5.75", 
-            "id": "fig", 
-            "community": 239, 
-            "out_edge": [], 
-            "label": "fig", 
-            "frequency": 131.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 1.0, 
-            "weight": 1.0, 
-            "swadesh100": 0.0, 
-            "families": 1.0, 
-            "concept": "olive", 
-            "key": "5.78", 
-            "id": "olive", 
-            "community": 239, 
-            "out_edge": [], 
-            "normalized_weight": 1.4084507042253522, 
-            "label": "olive", 
-            "frequency": 90.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "languages": 7.0, 
-            "weight": 2.0, 
-            "swadesh100": 0.0, 
-            "families": 2.0, 
-            "concept": "banyan", 
-            "key": "8.85", 
-            "id": "banyan", 
-            "community": 239, 
-            "out_edge": [], 
-            "normalized_weight": 10.81081081081081, 
-            "label": "banyan", 
-            "frequency": 98.0
-        }
-    ], 
     "directed": false, 
     "adjacency": [
         [
             {
-                "languages": 7.0, 
-                "normalized_weight": 10.81081081081081, 
                 "weight": 10.81081081081081, 
-                "edge_width": 1.0, 
-                "families": 2.0, 
-                "id": "banyan"
-            }
-        ], 
-        [
-            {
-                "languages": 1.0, 
-                "normalized_weight": 2.857142857142857, 
-                "weight": 2.857142857142857, 
-                "edge_width": 1.0, 
-                "families": 1.0, 
-                "id": "banyan"
-            }
-        ], 
-        [
-            {
-                "languages": 7.0, 
                 "normalized_weight": 10.81081081081081, 
-                "weight": 10.81081081081081, 
-                "edge_width": 1.0, 
+                "languages": 7.0, 
                 "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
                 "id": "fig"
             }, 
             {
-                "languages": 1.0, 
-                "normalized_weight": 2.857142857142857, 
                 "weight": 2.857142857142857, 
-                "edge_width": 1.0, 
+                "normalized_weight": 2.857142857142857, 
+                "languages": 1.0, 
                 "families": 1.0, 
+                "edge_width": 0.5, 
                 "id": "olive"
             }
+        ], 
+        [
+            {
+                "weight": 10.81081081081081, 
+                "normalized_weight": 10.81081081081081, 
+                "languages": 7.0, 
+                "families": 2.0, 
+                "edge_width": 0.59693877551020402, 
+                "id": "banyan"
+            }
+        ], 
+        [
+            {
+                "weight": 2.857142857142857, 
+                "normalized_weight": 2.857142857142857, 
+                "languages": 1.0, 
+                "families": 1.0, 
+                "edge_width": 0.5, 
+                "id": "banyan"
+            }
         ]
-    ]
+    ], 
+    "multigraph": false, 
+    "nodes": [
+        {
+            "key": "8.85", 
+            "swadesh100": 0.0, 
+            "frequency": 98.0, 
+            "languages": 7.0, 
+            "out_edge": [], 
+            "label": "banyan", 
+            "concept": "banyan", 
+            "weight": 2.0, 
+            "body_part": 0.0, 
+            "community": 239, 
+            "normalized_weight": 10.81081081081081, 
+            "families": 2.0, 
+            "id": "banyan"
+        }, 
+        {
+            "key": "5.75", 
+            "swadesh100": 0.0, 
+            "frequency": 131.0, 
+            "label": "fig", 
+            "concept": "fig", 
+            "body_part": 0.0, 
+            "community": 239, 
+            "id": "fig", 
+            "out_edge": []
+        }, 
+        {
+            "key": "5.78", 
+            "swadesh100": 0.0, 
+            "frequency": 90.0, 
+            "languages": 1.0, 
+            "out_edge": [], 
+            "label": "olive", 
+            "concept": "olive", 
+            "weight": 1.0, 
+            "body_part": 0.0, 
+            "community": 239, 
+            "normalized_weight": 1.4084507042253522, 
+            "families": 1.0, 
+            "id": "olive"
+        }
+    ], 
+    "graph": []
 }

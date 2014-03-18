@@ -1,38 +1,33 @@
 {
-    "adjacency": [
-        [
-            {
-                "languages": 30.0, 
-                "id": "cooked", 
-                "edge_width": 3.3823529411764706, 
-                "weight": 459.375, 
-                "families": 21.0
-            }
-        ], 
-        [
-            {
-                "languages": 30.0, 
-                "id": "ripe", 
-                "edge_width": 3.3823529411764706, 
-                "weight": 459.375, 
-                "families": 21.0
-            }
-        ]
-    ], 
     "directed": false, 
     "multigraph": false, 
     "nodes": [
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
-            "out_edge": [], 
+            "concept": "ripe", 
+            "normalized_weight": 1.0204081632653061, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.123", 
+            "label": "ripe", 
+            "swadesh100": 0.0, 
+            "frequency": 274.0, 
+            "weight": 1.0, 
             "community": 146, 
+            "out_edge": [], 
             "id": "ripe", 
-            "key": "5.123"
+            "languages": 1.0
         }, 
         {
-            "swadesh100": 0, 
-            "body_part": 0, 
+            "concept": "cooked", 
+            "normalized_weight": 0.8620689655172413, 
+            "families": 1.0, 
+            "body_part": 0.0, 
+            "key": "5.121", 
+            "label": "cooked", 
+            "swadesh100": 0.0, 
+            "frequency": 237.0, 
+            "weight": 1.0, 
+            "community": 146, 
             "out_edge": [
                 [
                     "cluster_105_cook", 
@@ -47,10 +42,31 @@
                     13.91304347826087
                 ]
             ], 
-            "community": 146, 
             "id": "cooked", 
-            "key": "5.121"
+            "languages": 1.0
         }
+    ], 
+    "adjacency": [
+        [
+            {
+                "weight": 459.375, 
+                "normalized_weight": 459.375, 
+                "families": 21.0, 
+                "id": "cooked", 
+                "edge_width": 5.1326530612244898, 
+                "languages": 30.0
+            }
+        ], 
+        [
+            {
+                "weight": 459.375, 
+                "normalized_weight": 459.375, 
+                "families": 21.0, 
+                "id": "ripe", 
+                "edge_width": 5.1326530612244898, 
+                "languages": 30.0
+            }
+        ]
     ], 
     "graph": []
 }
