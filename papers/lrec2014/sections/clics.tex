@@ -86,16 +86,17 @@ this distinction. However, as we will show below, quantitative approaches are av
 %not all synchronic lexical associations in CLiCs are the result of historical change processes.
 
 \subsection{Data and sources of CLiCs}
-CLiCs offers information on colexification in 215 different language varieties
-covering 50 different language families. All language varieties in our sample comprise a total of
-290,760 words covering 1,288 different concepts.\footnote{Since some concepts are expressed by more
+CLiCs (Version 1.0) offers information on colexification in 221 different language varieties
+covering 64 different language families.\footnote{This count includes 12 language isolates, and 3
+unclassified languages, according to the classification schema of Ethnologue.} All language varieties in our sample comprise a total of
+301~498 words covering 1~280 different concepts.\footnote{Since some concepts are expressed by more
 than one word in the respective languages, the number of words is higher than the expected one
-(276,920) if
+(282~880) if
 multiple synonyms per concept were not allowed.} Using a strictly automatic procedure, we identified
-45,282 cases of colexification that correspond to 16,043 different links between the 1,288 concepts
+45~6667 cases of colexification that correspond to 16~239 different links between the 1~280 concepts
 covered by our data. 
 
-At present, three sources feed into CLiCs: (1) The \emph{Intercontinental Dictionary Series} (IDS, Key and
+At present, four sources feed into CLiCs: (1) The \emph{Intercontinental Dictionary Series} (IDS, Key and
 Comrie 2007), offering lexical data for 233 languages and language varieties of the world. Ideally,
 datasets for each language contain 1,310 entries, though coverage differs in completeness for
 individual languages. Of all 233 languages in IDS, 178 were automatically cleaned and included in
@@ -104,28 +105,31 @@ has to do with identifying lexical borrowings, but which nevertheless also provi
 data for 41 languages. The vocabularies for the individual languages differ somewhat in their size,
 ranging somewhere between 1,000 and 2,000 items. 33 of the 41 vocabularies are included in CLiCs.
 (3) Data for four languages neither represented in IDS nor WOLD were added from the \emph{LOGOS} dictionary
-(\url{http://www.logosdictionary.org}), a multilingual online dictionary.\footnote{In all cases, we ignored proto-languages and
+(\url{http://www.logosdictionary.org}), a multilingual online dictionary. (4) Additional data for
+six
+Himalayan languages was taken from the \emph{Språkbanken} project (University of Gothenburg,
+\url{http://spraakbanken.gu.se}).\footnote{In all cases, we ignored proto-languages and
 archaic languages (like Latin and Old Greek), and those languages which
 did not have enough coverage in terms of lexical items.}
 
 \nocite{Wold2009}
 \subsection{Network modeling of CLiCs}
-As mentioned above, there is no guarantee that lexical associations within CLiCs reflect conceptual associations. For example, there are three attested links between the
-concepts ``arm" and ``poor" in the current version of CLiCs, which are due to homonymy in some
-Germanic languages (German, Dutch, and Yiddish).
+As mentioned above, there is no guarantee that lexical associations within CLiCs reflect conceptual
+associations. For example, there are three attested links between the concepts ``arm" and ``poor" in
+the current version of CLiCs, which are due to homonymy in some Germanic languages (German, Dutch,
+and Yiddish).
  
-In order to distinguish strong
-association tendencies from
-spuriously occurring associations and to rule out cases of accidental homonymy, \newcite{List2013a} model cross-linguistic colexification data as a weighted network
-in which nodes represent concepts and weighted edges between the nodes represent the number of
-attested colexifications in the data.  With the help of \emph{community detection analyses}, strongly
-interconnected regions in the colexification network can be identified. \newcite{List2013a} apply
-a weighted version of the community detection algorithm by \newcite{Girvan2002} to a
-cross-linguistic colexification network consisting of 1,252 concepts translated into 195 languages
-covering 44 language families. Their analysis yielded a total of 337 communities, with 104 communities
-consisting of 5 and more nodes and covering 68\% of all concepts. A qualitative survey of the
-largest communities showed that most of them constitute meaningful units, and accidental homologies
-were successfully excluded.
+In order to distinguish strong association tendencies from spuriously occurring associations and to
+rule out cases of accidental homonymy, \newcite{List2013a} model cross-linguistic colexification
+data as a weighted network in which nodes represent concepts and weighted edges between the nodes
+represent the number of attested colexifications in the data.  With the help of \emph{community
+detection analyses}, strongly interconnected regions in the colexification network can be
+identified. \newcite{List2013a} apply a weighted version of the community detection algorithm by
+\newcite{Girvan2002} to a cross-linguistic colexification network consisting of 1,252 concepts
+translated into 195 languages covering 44 language families. Their analysis yielded a total of 337
+communities, with 104 communities consisting of 5 and more nodes and covering 68\% of all concepts.
+A qualitative survey of the largest communities showed that most of them constitute meaningful
+units, and accidental homologies were successfully excluded.
 
 \subsection{Limitations and Caveats} \label{caveats}
 
