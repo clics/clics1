@@ -38,53 +38,60 @@ for edge in gml.es:
     g.add_edge(source,target,**edge.attributes())
 
 if argv[1] == 'ALL':
-    nodes = g.nodes()
+    nodes = [n for n in g.nodes() if n.strip()]
 else:
     nodes = [argv[1]]
 
 dset = {}
 
-os.system('git rm cuts/*.json')
+#os.system('git rm cuts/*.json')
 os.system('rm cuts/*.json')
 
+nodeD = dict()
 blacklist = []
 for this_node in nodes:
     if this_node not in blacklist:
         
-        direct_neighbor = False
+        direct_neighbor = []
 
         subg = nx.Graph()
         queue = [(this_node, g.edge[this_node],0)]
         
-        weight = 5
-        weightB = 2
+        weight = 4
+        weightB = 4
         
         while queue:
             
             source,neighbors,generation = queue.pop(0)
             for n,d in neighbors.items():
-                if d['families'] > weight:
-                    subg.add_node(n,**g.node[n])
-                    subg.add_edge(source,n,**d)
-                    queue += [(n,g.edge[n],generation+1)]
-                elif d['families'] > weightB:
-                    subg.add_node(n,**g.node[n])
-                    subg.add_edge(source,n,**d)
-                
-                # check for common nodes
-                if generation == 0 and d['families'] > weightB:
-                    if n in dset:
-                        direct_neighbor = n
-
-        
+                if n.strip():
+                    if d['families'] > weight:
+                        subg.add_node(n,**g.node[n])
+                        subg.add_edge(source,n,**d)
+                        queue += [(n,g.edge[n],generation+1)]
+                    elif d['families'] > weightB:
+                        subg.add_node(n,**g.node[n])
+                        subg.add_edge(source,n,**d)
+                    
+                    # check for common nodes
+                    if generation == 0 and d['families'] > weightB:
+                        if n in dset:
+                            direct_neighbor = n
+            
             if generation > 2:
                 break
+        
+            #if generation > 2:
+            #    break
         
         for n,d in subg.nodes(data=True):
             links = g.edge[n]
             for l in links:
                 if l not in subg:
-                    if g.edge[n][l]['families'] > weight:
+                    if g.edge[n][l]['families'] > weightB:
+                        if 'out_edge' not in d:
+                            d['out_edge'] = []
+                            
                         d['out_edge'] += [
                                 (
                                     comms[g.node[l]['key']],
@@ -93,6 +100,8 @@ for this_node in nodes:
                                     g.edge[n][l]['weight']
                                     )
                                 ]
+                        d['out_edge'] = sorted(set(d['out_edge']), key=lambda
+                                x:x[2])
         
         from clics_lib.gml2json import *
 
@@ -101,25 +110,53 @@ for this_node in nodes:
         else:
             nodename = this_node
         
+        
+        nodeD[this_node] = [n for n in subg.nodes() if n.strip()]
+        dset[this_node] = [g.node[this_node]['key'], len(nodeD[this_node]), 'network_'+nodename+'_'+str(len(nodeD[this_node]))]
 
-        if len(subg) > 5 and not direct_neighbor:
+labels = {}
+for n in nodeD:
 
-            graph2json(subg,'cuts/network_'+nodename+'_'+str(len(subg.nodes())))
-            print(len(subg))
-            dset[this_node] = [g.node[this_node]['key'],len(subg),
-                'network_'+nodename+'_'+str(len(subg))]
-        elif direct_neighbor:
-            dset[this_node] = [g.node[this_node]['key'], dset[direct_neighbor][1],
-                    dset[direct_neighbor][2]]
+    subg = g.subgraph(nodeD[n]+[n])
+
+    label = sorted(subg.degree().items(),key=lambda x:x[1],reverse=True)[0][0] 
+    labels[n] = label
+    
+    for node,data in subg.nodes(data=True):
+        dels = []
+        data['out_edge'] = sorted(set([tuple(t) for t in data['out_edge']]), key=lambda x:x[2],
+                reverse=True)
+        for i,(a,b,c,d) in enumerate(data['out_edge']):
+            if b in nodeD[n]+[n]:
+                #pass
+                dels += [i]
+            else:
+                try:
+                    data['out_edge'][i] = [dset[b][-1],b,c,d]
+                    print(n)
+                except:
+                    dels += [i]
+
+        for i in dels[::-1]:
+            del data['out_edge'][i]
+    
+    if '/' in n:
+        nodename = n.replace('/','_')
+    else:
+        nodename = n
+
+    if len(subg) > 1:
+        graph2json(subg,'cuts/network_'+nodename+'_'+str(len(subg.nodes())))
+    print(len(subg))
     
 with open('output/nodes2cuts.csv', 'w') as f:
     for key in dset:
         line = [key] + [k for k in dset[key]]
         f.write('\t'.join([str(x) for x in line])+'\n')
 
-os.system('git add cuts/*.json')
+#os.system('git add cuts/*.json')
 
-
+maxvals = []
 import sqlite3
 
 conn = sqlite3.connect('website/clics.de/data/clips.sqlite3')
@@ -129,13 +166,15 @@ try:
 except:
     pass
 
-cursor.execute('create table cuts(id,gloss,path,size);')
+cursor.execute('create table cuts(id,gloss,path,size,label);')
 
 for a in dset:
     b,c,d = dset[a]
     if a.strip():
         cursor.execute(
-                'insert into cuts values(?,?,?,?);', 
-                (b,a,c,d)
+                'insert into cuts values(?,?,?,?,?);', 
+                (b,a,d,c,labels[a])
                 )
+        maxvals += [c]
 conn.commit()
+print(max(maxvals))
