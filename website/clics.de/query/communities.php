@@ -13,6 +13,10 @@ if(isset($_POST['gloss']) or isset($_GET['gloss']))
   {
     $_POST['view'] = $_GET['view'];
   }
+  else if(isset($_POST['view']) == false)
+  {
+    $_POST['view'] = 'community';
+  }
   if($_POST['view'] == 'part')
   {
     $qstring = 'select * from cuts where gloss = "'.$_POST['gloss'].'";';
