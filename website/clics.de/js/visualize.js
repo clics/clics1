@@ -223,7 +223,7 @@ d3.json('data/langsGeo.json',function(langs){
 		})
 		.style("stroke", "#CCC")
 		.style('stroke-width',function(d){
-      return d.edge_width
+      return d.edge_width;
 		})
 		.style('cursor','pointer')
 		.on('mouseover',function(d,i){
@@ -297,7 +297,7 @@ d3.json('data/langsGeo.json',function(langs){
 				return "<b>" + wordlist.length + " "+ link_label + " for &quot;"+ 
 					d.source.label + "&quot; and &quot;" 
 					+ d.target.label + 
-					"&quot;.</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th>" + 
+					"&quot;:</b><br><table class=\"infotable\"><tr><th>Language</th><th>Family</th>" + 
 					"<th>Form</th></tr><tr>" + 
 					infolistoutput.join('</tr><tr>') + "</tr></table>";
 			});
@@ -392,12 +392,28 @@ d3.json('data/langsGeo.json',function(langs){
 				d3.select("#info")
 					.html(function(){
 						console.log(d);
-						var outstring = '<b>Links to other communities from \'' +  d.node.label + '\'</b>:<br>';
+            if(d.node.out_edge.length == 1)
+            {
+              var link_label = "<b>1 strong link ";
+            }
+            else
+            {
+              var link_label = '<b>'+d.node.out_edge.length + " links ";
+            }
+						var outstring = link_label + 'from &quot;' +  d.node.label + '&quot; to other concepts:</b><br>';
+            outstring += '<table class=\"infotable\"><tr><th>No.</th><th>Concept</th><th>Community</th><th>Families</th></tr>';
 						for(var j=0;j<d.node.out_edge.length;j++){
-							outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" 
-							+ d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
+              outstring += '<tr>';
+              outstring += '<td></td>';
+              outstring += '<td class="infotable"><a href="browse.php?gloss='+d.node.out_edge[j][1]+'&view=part">'+d.node.out_edge[j][1]+'</a></td>';
+              outstring += '<td class="infotable"><a href="browse.php?community='+d.node.out_edge[j][0]+'">'+d.node.out_edge[j][4]+'<a></td>';
+              outstring += '<td class="infotable">'+d.node.out_edge[j][2]+'</td>';
+              outstring += '</tr>';
+
+							//outstring += "&bull; <a href='?community=" + d.node.out_edge[j][0] + "'>" 
+							//+ d.node.out_edge[j][0] + '</a> (' + d.node.out_edge[j][1] + ')<br>';
 						};
-						return outstring;
+						return outstring+'</table>';
 					});
 				d3.select('#info').classed('hidden',false);
 			}

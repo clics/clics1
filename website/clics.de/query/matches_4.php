@@ -4,7 +4,7 @@
 <tr>
   <th colspan="6">
     There are <?php echo sizeof($results) ?> links involving the concept 
-  "<?php echo $results[0]['glossA'] ?>". 
+  "<?php echo $results[0]['glossA'] ?>": 
     <div class="popup"> <span class="info">?</span>
       <div class="hidden">
         <br>
