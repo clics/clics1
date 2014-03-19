@@ -8,7 +8,7 @@
       <input type="text" style="width:350px;" name="gloss" id="gloss" />
     </td>
     <td>
-      <b>View-Mode:</b>&nbsp;
+      <b>View:</b>&nbsp;
       <select class="submit_button" id="view" name="view" style="display:inline;">
         <option value="community">Community</option>
         <option value="part">Part</option>

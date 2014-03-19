@@ -25,6 +25,11 @@ include('query/query_community.php');
   include('query/communities.php');
 ?>
 </div>
+
+<?php 
+  if($result['size'] > 1)
+  {
+?>
 <div id="content_large_down">
 <br>
 <table id="control" class="query_table" style="background-color:lightgray">
@@ -65,6 +70,7 @@ include('query/query_community.php');
 </div></div>
 <br>
 <?php
+  }
   }
   else
   {
