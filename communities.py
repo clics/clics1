@@ -88,13 +88,13 @@ for nA,nB,d in newg.edges(data=True):
 
     w = int(d['weight']+0.5)
 
-    all_weights += [w - w % 50]
+    all_weights += [w - w % 10]
 
 u_weights = sorted(set(all_weights))
-weight_scale = dict(zip(u_weights,np.linspace(1,10,len(u_weights))))
+weight_scale = dict(zip(u_weights,np.linspace(1.5,15,len(u_weights))))
 for nA,nB,d in newg.edges(data=True):
     w = int(d['weight']+0.5)
-    w = w - w % 50
+    w = w - w % 10
     d['edge_width'] = weight_scale[w]
 
 comms = []
@@ -137,16 +137,18 @@ for s,t,d in newg.edges(data=True):
         # get community-keys
         kS = cdict[cS]
         kT = cdict[cT]
+        kSk = kS.split('_')[-1]
+        kTk = kT.split('_')[-1]
         
         try:
-            newg.node[s]['out_edge'] += [(kT,t,d['families'], d['weight'])]
+            newg.node[s]['out_edge'] += [(kT,t,d['families'], d['weight'], kTk)]
         except:
-            newg.node[s]['out_edge'] = [(kT,t,d['families'], d['weight'])]
+            newg.node[s]['out_edge'] = [(kT,t,d['families'], d['weight'], kTk)]
         
         try:
-            newg.node[t]['out_edge'] += [(kS,s,d['families'], d['weight'])]
+            newg.node[t]['out_edge'] += [(kS,s,d['families'], d['weight'], kSk)]
         except:
-            newg.node[t]['out_edge'] = [(kS,s,d['families'], d['weight'])]
+            newg.node[t]['out_edge'] = [(kS,s,d['families'], d['weight'], kSk)]
 
 for node,data in newg.nodes(data=True):
 
@@ -155,7 +157,7 @@ for node,data in newg.nodes(data=True):
             data['out_edge'], 
             key=lambda x:x[3], # chance this key to modify the weights
             reverse=True
-            )[:3] if s[2] > 3]
+            ) if s[2] > 3]
     else:
         data['out_edge'] = []
     

@@ -44,8 +44,8 @@ else:
 
 dset = {}
 
-#os.system('git rm cuts/*.json')
-os.system('rm cuts/*.json')
+os.system('git rm website/clics.de/data/cuts/*.json')
+os.system('rm website/clics.de/data/cuts/*.json')
 
 nodeD = dict()
 blacklist = []
@@ -74,16 +74,43 @@ for this_node in nodes:
                         subg.add_edge(source,n,**d)
                     
                     # check for common nodes
-                    if generation == 0 and d['families'] > weightB:
-                        if n in dset:
-                            direct_neighbor = n
+                    #if generation == 0 and d['families'] > weightB:
+                    #    if n in dset:
+                    #        direct_neighbor = n
             
             if generation > 2:
                 break
         
-            #if generation > 2:
-            #    break
+        # repeat if no good results are found
+        if len(subg) < 5:
+            weight = 3
+            weightB = 3
+
+        subg = nx.Graph()
+        queue = [(this_node, g.edge[this_node],0)]
         
+        
+        while queue:
+            
+            source,neighbors,generation = queue.pop(0)
+            for n,d in neighbors.items():
+                if n.strip():
+                    if d['families'] > weight:
+                        subg.add_node(n,**g.node[n])
+                        subg.add_edge(source,n,**d)
+                        queue += [(n,g.edge[n],generation+1)]
+                    elif d['families'] > weightB:
+                        subg.add_node(n,**g.node[n])
+                        subg.add_edge(source,n,**d)
+                    
+                    # check for common nodes
+                    #if generation == 0 and d['families'] > weightB:
+                    #    if n in dset:
+                    #        direct_neighbor = n
+            
+            if generation > 2:
+                break
+
         for n,d in subg.nodes(data=True):
             links = g.edge[n]
             for l in links:
@@ -97,7 +124,8 @@ for this_node in nodes:
                                     comms[g.node[l]['key']],
                                     l,
                                     g.edge[n][l]['families'],
-                                    g.edge[n][l]['weight']
+                                    g.edge[n][l]['weight'],
+                                    'x'
                                     )
                                 ]
                         d['out_edge'] = sorted(set(d['out_edge']), key=lambda
@@ -126,19 +154,25 @@ for n in nodeD:
         dels = []
         data['out_edge'] = sorted(set([tuple(t) for t in data['out_edge']]), key=lambda x:x[2],
                 reverse=True)
-        for i,(a,b,c,d) in enumerate(data['out_edge']):
+        for i,(a,b,c,d,e) in enumerate(data['out_edge']):
             if b in nodeD[n]+[n]:
                 #pass
                 dels += [i]
             else:
+                clabel = a.split('_')[-1]
+                print(clabel,a)
                 try:
-                    data['out_edge'][i] = [dset[b][-1],b,c,d]
+                    data['out_edge'][i] = [a,b,c,d,clabel]
                     print(n)
                 except:
                     dels += [i]
 
         for i in dels[::-1]:
             del data['out_edge'][i]
+
+    #for node,data in subg.nodes(data=True):
+    #    for i,(a,b,c,d,e) in enumerate(data['out_edge']):
+    #        data[i] = [a,b,c,d,e.split('_')[-1]]
     
     if '/' in n:
         nodename = n.replace('/','_')
@@ -146,7 +180,7 @@ for n in nodeD:
         nodename = n
 
     if len(subg) > 1:
-        graph2json(subg,'cuts/network_'+nodename+'_'+str(len(subg.nodes())))
+        graph2json(subg,'website/clics.de/data/cuts/network_'+nodename+'_'+str(len(subg.nodes())))
     print(len(subg))
     
 with open('output/nodes2cuts.csv', 'w') as f:
@@ -178,3 +212,6 @@ for a in dset:
         maxvals += [c]
 conn.commit()
 print(max(maxvals))
+
+os.system('git add website/clics.de/data/cuts/*.json')
+

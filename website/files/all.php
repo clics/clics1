@@ -38,13 +38,13 @@ if(isset($_POST['forms']))
   }
   echo '</table></div>';
 }
-else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key']))
+else if(isset($_POST['gloss']) or isset($_GET['gloss']) or isset($_GET['key']))
 {
   include('query/query_all.php');
   
-  if(isset($_GET['concept']))
+  if(isset($_GET['gloss']))
   {
-    $_POST['concept'] = $_GET['concept'];
+    $_POST['gloss'] = $_GET['gloss'];
   }
   if(isset($_GET['key']))
   {
@@ -53,7 +53,7 @@ else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key'
   else
   {
     /* make the query string */
-    $query_string = 'select * from links where glossA == "'.$_POST['concept'].'" order by families desc;';
+    $query_string = 'select * from links where glossA == "'.$_POST['gloss'].'" order by families desc;';
   }
   $query = $conn->query($query_string);
   

@@ -2,7 +2,7 @@
 ?>
 <tr>
   <td>
-    <?php echo '<a href="all.php?concept='.$result['glossB'].'">'.$result['glossB'].'</a>';?>
+    <?php echo '<a href="all.php?gloss='.$result['glossB'].'">'.$result['glossB'].'</a>';?>
   </td>
   <td>
     <?php echo '<a href="all.php?key='.$result['numB'].'">'.$result['numB'].'</a>';?>
@@ -26,7 +26,7 @@ else{
 ?>
 <tr>
   <td style="background-color:lightgray">
-    <?php echo '<a href="all.php?concept='.$result['glossB'].'">'.$result['glossB'].'</a>';?>
+    <?php echo '<a href="all.php?gloss='.$result['glossB'].'">'.$result['glossB'].'</a>';?>
   </td>
   <td style="background-color:lightgray">
     <?php echo '<a href="all.php?key='.$result['numB'].'">'.$result['numB'].'</a>';?>

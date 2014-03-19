@@ -105,13 +105,13 @@ if(isset($_POST['forms']))
   }
   echo '</table></div>';
 }
-else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key']))
+else if(isset($_POST['gloss']) or isset($_GET['gloss']) or isset($_GET['key']))
 {
   include('query/query_all.php');
   
-  if(isset($_GET['concept']))
+  if(isset($_GET['gloss']))
   {
-    $_POST['concept'] = $_GET['concept'];
+    $_POST['gloss'] = $_GET['gloss'];
   }
   if(isset($_GET['key']))
   {
@@ -120,7 +120,7 @@ else if(isset($_POST['concept']) or isset($_GET['concept']) or isset($_GET['key'
   else
   {
     /* make the query string */
-    $query_string = 'select * from links where glossA == "'.$_POST['concept'].'" order by families desc;';
+    $query_string = 'select * from links where glossA == "'.$_POST['gloss'].'" order by families desc;';
   }
   $query = $conn->query($query_string);
   
@@ -191,7 +191,7 @@ else
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 19, 2014, 10:18 CET</p>
+ <p>Last updated on Mar. 19, 2014, 13:27 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
