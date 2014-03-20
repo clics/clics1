@@ -302,7 +302,7 @@ displayMap();
                 return projection([d[5], d[6]])[1]; 
             }) 
             .attr("r",function(d){
-                return 2;
+                return 3;
             })
             .style("stroke","white")
             .style("stroke-width",0.5)
