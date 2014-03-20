@@ -178,7 +178,7 @@ For these reasons, we strongly recommend to check the actual sources whenever a 
 <br>
 CLiCs (Version 1.0) offers information on colexification in 221 different language varieties covering 64 different language families. 
 All language varieties in our sample comprise a total of 301,498 words covering 1,280 different concepts. 
-Using a strictly automatic procedure, we identified 16,239 cases of colexification that correspond to 45,667 different links between
+Using a strictly automatic procedure, we identified 45,667 cases of colexification that correspond to 16,239 different links between
 the 1,280 concepts covered by our data.
 
 <br>
@@ -233,7 +233,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 20, 2014, 10:39 CET</p>
+ <p>Last updated on Mar. 20, 2014, 10:40 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
