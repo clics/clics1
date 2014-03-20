@@ -1,5 +1,5 @@
 <table class="query_table" align="left">
-  <form action="all.php" method="post">
+  <form action="all.php" method="get">
   <tr>
 	  <td width="20%">
 	    <label for="concept"><b>Concept:</b></label>

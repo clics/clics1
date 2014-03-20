@@ -1,5 +1,5 @@
 <table class="query_table" align="left">
-  <form action="browse.php" method="post">
+  <form action="browse.php" method="get">
   <tr>
 	  <td>
 	    <b>Concept:</b>&nbsp;
