@@ -287,9 +287,11 @@ displayMap();
 					}
 				});
 				
-				console.log(infolist);
+				
 				
 				//############### PLOT SYMBOLS FOR LOCATIONS ###############
+				// remove all previous circles
+				d3.selectAll(".langlocation").remove();
         nodeCircles.selectAll("circle") 
             .data(infolist) 
             .enter() 
@@ -348,7 +350,6 @@ displayMap();
 		})
 		.on('mouseout',function(d,i){
 			//d3.select(this).style('stroke','#CCC');
-			d3.selectAll(".langlocation").remove();
 		})
 		;
 
