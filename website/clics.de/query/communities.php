@@ -27,15 +27,15 @@ if(isset($_POST['gloss']) or isset($_GET['gloss']))
     if($result['size'] > 1)
     {
       echo '<script type="text/javascript">var filename = "cuts/'.$result['path'].'.json";</script>';
-      echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of a cluster with the central concept &quot;'.$result['label'].'&quot; with a total of '.$result['size'].' '.$member.'.';
+      echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of a cluster with the central concept &quot;'.$result['label'].'&quot; with a total of '.$result['size'].' '.$member.'. ';
 ?>
-&nbsp;Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
+Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.
 <br>
 <?php
     }
     else
     {
-      echo 'The concept you selected does not have any strong connections to other concepts in the network.';
+      echo 'The concept you selected is not available.';
     }
 ?>
 <?php
@@ -47,12 +47,19 @@ if(isset($_POST['gloss']) or isset($_GET['gloss']))
     $result = $query->fetch();
     if($result['size'] == 1){$member = 'node';}
     else{$member = 'nodes';}
-    echo '<script type="text/javascript">var filename = "communities/'.$result['path'].'.json";</script>';
-    echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of community '.$result['community'].' with the central concept &quot;'.$result['label'].'&quot; and a total of '.$result['size'].' '.$member.'. ';
+    if($result['size'] > 1)
+    {
+      echo '<script type="text/javascript">var filename = "communities/'.$result['path'].'.json";</script>';
+      echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of community '.$result['community'].' with the central concept &quot;'.$result['label'].'&quot; and a total of '.$result['size'].' '.$member.'. ';
 ?>
-&nbsp;Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
+Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.
 <br>
 <?php
+    }
+    else
+    {
+      echo "The concept you selected is not available.";
+    }
   }
 ?>
 
@@ -87,7 +94,7 @@ else if(isset($_GET['community']) or isset($_POST['community']))
     echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;. ';
   }
 ?>
-&nbsp;Hover over the edges to check out the forms for each link. Click on the forms to check their sources.
+Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.
 <br>
 <?php
 }
