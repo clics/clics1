@@ -21,6 +21,27 @@ d3.json('data/langsGeo.json',function(langs){
     });
 });
 
+var projection = d3.geo.equirectangular() 
+			.center([78, 25 ]) 
+			.translate([210,53])
+			.scale(48)
+			;
+			
+// define scales and projections 
+var path = d3.geo.path()
+		.projection(projection);
+		
+var g = d3.select("#map")
+	.append("svg:svg")
+	.attr("width", 300)
+	.attr("height",200)
+	.append("g");
+var mapPoly = g.append('g').attr('class','mapPoly') // for the map
+var nodeCircles = g.append('g').attr('class','nodeCircles') // for the 
+																														// locations
+
+displayMap();
+
 //################ INIT function #####################
 //function init(filename,coloring){
   
@@ -266,6 +287,28 @@ d3.json('data/langsGeo.json',function(langs){
 					}
 				});
 				
+				console.log(infolist);
+				
+				//############### PLOT SYMBOLS FOR LOCATIONS ###############
+        nodeCircles.selectAll("circle") 
+            .data(infolist) 
+            .enter() 
+            .append("circle") 
+            .attr("class","langlocation")
+            .attr("cx", function(d) {
+                return projection([d[5], d[6]])[0];
+            })
+            .attr('cy',function(d){
+                return projection([d[5], d[6]])[1]; 
+            }) 
+            .attr("r",function(d){
+                return 2;
+            })
+            .style("stroke","white")
+            .style("stroke-width",0.5)
+            .style("fill", 'DarkGreen') 
+        ;
+				
 				var infolistoutput = [];
 				infolist.forEach(function(c){
 					var backColor = famscale(c[0]);
@@ -305,6 +348,7 @@ d3.json('data/langsGeo.json',function(langs){
 		})
 		.on('mouseout',function(d,i){
 			//d3.select(this).style('stroke','#CCC');
+			d3.selectAll(".langlocation").remove();
 		})
 		;
 
@@ -560,4 +604,27 @@ function submit_download_form()
 	var form = document.getElementById("svgform");
 	form['data'].value = svg_xml ;
 	form.submit();
+}
+
+function displayMap(){
+
+			
+	    // load and display the World
+	d3.json("data/world-110m.json", function(error, topology) { 
+			var countrydata = topojson.object(topology,
+					topology.objects.countries).geometries;          
+			mapPoly.selectAll("path")
+					.data(topojson.object(topology, topology.objects.countries) 
+					.geometries) 
+					.enter() 
+					.append("path")
+					.attr("d", path) 
+					.style("fill","#c0c0c0")
+					.style('stroke','white')
+					.style('stroke-width',function(d){
+							return 0;
+					})
+					; 
+    });
+
 }
