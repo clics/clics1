@@ -22,7 +22,7 @@ d3.json('data/langsGeo.json',function(langs){
 });
 
 var projection = d3.geo.equirectangular() 
-			.center([78, 25 ]) 
+			.center([65, 25 ]) 
 			.translate([210,53])
 			.scale(48)
 			;
