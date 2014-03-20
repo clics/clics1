@@ -546,4 +546,18 @@ d3.select("#weight").on("change", function() {
 	.classed('hidden',false);
 });
 
+// code taken from http://d3export.cancan.cshl.edu/
+function submit_download_form()
+{
+	// Get the d3js SVG element
+	var tmp = document.getElementById("vis");
+	var svg = tmp.getElementsByTagName("svg")[0];
+	// Extract the data as SVG text string
+	var svg_xml = (new XMLSerializer).serializeToString(svg);
 
+	// Submit the <FORM> to the server.
+	// The result will be an attachment file to download.
+	var form = document.getElementById("svgform");
+	form['data'].value = svg_xml ;
+	form.submit();
+}

@@ -82,8 +82,11 @@ include('query/query_community.php');
 <?php
   include('query/communities.php');
 ?>
-</div>
 
+<form id="svgform" method="post" action="export.php">
+ <input type="hidden" id="data" name="data" value="">
+</form>
+</div>
 <?php 
   if($result['size'] > 1)
   {
@@ -113,6 +116,7 @@ include('query/query_community.php');
         <option>Geolocation</option>
       </select>
     </td>
+
   </tr>
 </table>
 <!-- Pieces of Thomas' code -->
@@ -150,7 +154,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 19, 2014, 13:27 CET</p>
+ <p>Last updated on Mar. 20, 2014, 09:45 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

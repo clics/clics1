@@ -24,8 +24,11 @@ include('query/query_community.php');
 <?php
   include('query/communities.php');
 ?>
-</div>
 
+<form id="svgform" method="post" action="export.php">
+ <input type="hidden" id="data" name="data" value="">
+</form>
+</div>
 <?php 
   if($result['size'] > 1)
   {
@@ -55,6 +58,7 @@ include('query/query_community.php');
         <option>Geolocation</option>
       </select>
     </td>
+
   </tr>
 </table>
 <!-- Pieces of Thomas' code -->
