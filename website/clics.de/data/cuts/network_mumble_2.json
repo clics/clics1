@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 238.0, "label": "mumble", "body_part": 0.0, "concept": "mumble", "id": "mumble", "swadesh100": 0.0, "out_edge": [], "key": "18.16"}, {"community": 238.0, "label": "whisper", "body_part": 0.0, "concept": "whisper", "id": "whisper", "swadesh100": 0.0, "out_edge": [], "key": "18.15"}], "adjacency": [[{"edge_width": 2.05102040816, "families": 6.0, "weight": 41.86046511627907, "languages": 6.0, "id": "whisper"}], [{"edge_width": 2.05102040816, "families": 6.0, "weight": 41.86046511627907, "languages": 6.0, "id": "mumble"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 41.86046511627907, 
+                "id": "mumble", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 41.86046511627907, 
+                "id": "whisper", 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "whisper", 
+            "out_edge": [], 
+            "key": "18.15", 
+            "community": 238.0, 
+            "id": "whisper", 
+            "concept": "whisper", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "mumble", 
+            "out_edge": [], 
+            "key": "18.16", 
+            "community": 238.0, 
+            "id": "mumble", 
+            "concept": "mumble", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

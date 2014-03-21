@@ -1,1 +1,101 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 106.0, "label": "twins", "body_part": 0.0, "concept": "twins", "id": "twins", "swadesh100": 0.0, "out_edge": [], "key": "2.458"}, {"community": 106.0, "label": "two", "body_part": 0.0, "concept": "two", "id": "two", "swadesh100": 1.0, "out_edge": [], "key": "13.2"}, {"community": 106.0, "label": "pair", "body_part": 0.0, "concept": "pair", "id": "pair", "swadesh100": 0.0, "out_edge": [], "key": "13.37"}], "adjacency": [[{"edge_width": 1.5, "families": 1.0, "weight": 0.9523809523809524, "languages": 1.0, "id": "twins"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9615384615384616, "languages": 1.0, "id": "two"}, {"edge_width": 1.77551020408, "families": 5.0, "weight": 25.0, "languages": 5.0, "id": "pair"}], [{"edge_width": 1.5, "families": 1.0, "weight": 0.9615384615384616, "languages": 1.0, "id": "twins"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.9215686274509802, "languages": 3.0, "id": "two"}, {"edge_width": 4.39285714286, "families": 14.0, "weight": 217.77777777777777, "languages": 24.0, "id": "pair"}], [{"edge_width": 1.77551020408, "families": 5.0, "weight": 25.0, "languages": 5.0, "id": "twins"}, {"edge_width": 4.39285714286, "families": 14.0, "weight": 217.77777777777777, "languages": 24.0, "id": "two"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 4.39285714286, 
+                "languages": 24.0, 
+                "weight": 217.77777777777777, 
+                "id": "two", 
+                "families": 14.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 5.0, 
+                "weight": 25.0, 
+                "id": "twins", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 4.39285714286, 
+                "languages": 24.0, 
+                "weight": 217.77777777777777, 
+                "id": "pair", 
+                "families": 14.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.9215686274509802, 
+                "id": "two", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9615384615384616, 
+                "id": "twins", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 5.0, 
+                "weight": 25.0, 
+                "id": "pair", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9615384615384616, 
+                "id": "two", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9523809523809524, 
+                "id": "twins", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "pair", 
+            "out_edge": [], 
+            "key": "13.37", 
+            "community": 106.0, 
+            "id": "pair", 
+            "concept": "pair", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "two", 
+            "out_edge": [], 
+            "key": "13.2", 
+            "community": 106.0, 
+            "id": "two", 
+            "concept": "two", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "twins", 
+            "out_edge": [], 
+            "key": "2.458", 
+            "community": 106.0, 
+            "id": "twins", 
+            "concept": "twins", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

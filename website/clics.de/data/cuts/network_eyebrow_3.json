@@ -1,1 +1,87 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 169.0, "label": "eyelid", "body_part": 1.0, "concept": "eyelid", "id": "eyelid", "swadesh100": 0.0, "out_edge": [], "key": "4.213"}, {"community": 169.0, "label": "eyebrow", "body_part": 1.0, "concept": "eyebrow", "id": "eyebrow", "swadesh100": 0.0, "out_edge": [], "key": "4.212"}, {"community": 169.0, "label": "eyelash", "body_part": 1.0, "concept": "eyelash", "id": "eyelash", "swadesh100": 0.0, "out_edge": [], "key": "4.214"}], "adjacency": [[{"edge_width": 1.5, "families": 2.0, "weight": 3.4782608695652173, "languages": 3.0, "id": "eyebrow"}, {"edge_width": 2.05102040816, "families": 7.0, "weight": 44.14414414414414, "languages": 17.0, "id": "eyelash"}], [{"edge_width": 1.5, "families": 2.0, "weight": 3.4782608695652173, "languages": 3.0, "id": "eyelid"}, {"edge_width": 2.73979591837, "families": 10.0, "weight": 90.09009009009009, "languages": 15.0, "id": "eyelash"}], [{"edge_width": 2.05102040816, "families": 7.0, "weight": 44.14414414414414, "languages": 17.0, "id": "eyelid"}, {"edge_width": 2.73979591837, "families": 10.0, "weight": 90.09009009009009, "languages": 15.0, "id": "eyebrow"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 15.0, 
+                "weight": 90.09009009009009, 
+                "id": "eyebrow", 
+                "families": 10.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 17.0, 
+                "weight": 44.14414414414414, 
+                "id": "eyelid", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 15.0, 
+                "weight": 90.09009009009009, 
+                "id": "eyelash", 
+                "families": 10.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.4782608695652173, 
+                "id": "eyelid", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 17.0, 
+                "weight": 44.14414414414414, 
+                "id": "eyelash", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.4782608695652173, 
+                "id": "eyebrow", 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 1.0, 
+            "label": "eyelash", 
+            "out_edge": [], 
+            "key": "4.214", 
+            "community": 169.0, 
+            "id": "eyelash", 
+            "concept": "eyelash", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "eyebrow", 
+            "out_edge": [], 
+            "key": "4.212", 
+            "community": 169.0, 
+            "id": "eyebrow", 
+            "concept": "eyebrow", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "eyelid", 
+            "out_edge": [], 
+            "key": "4.213", 
+            "community": 169.0, 
+            "id": "eyelid", 
+            "concept": "eyelid", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

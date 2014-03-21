@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 237.0, "label": "day-before-yesterday", "body_part": 0.0, "concept": "day-before-yesterday", "id": "day-before-yesterday", "swadesh100": 0.0, "out_edge": [], "key": "14.491"}, {"community": 237.0, "label": "day-after-tomorrow", "body_part": 0.0, "concept": "day-after-tomorrow", "id": "day-after-tomorrow", "swadesh100": 0.0, "out_edge": [], "key": "14.481"}], "adjacency": [[{"edge_width": 2.05102040816, "families": 7.0, "weight": 47.57281553398058, "languages": 9.0, "id": "day-after-tomorrow"}], [{"edge_width": 2.05102040816, "families": 7.0, "weight": 47.57281553398058, "languages": 9.0, "id": "day-before-yesterday"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 9.0, 
+                "weight": 47.57281553398058, 
+                "id": "day-before-yesterday", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 9.0, 
+                "weight": 47.57281553398058, 
+                "id": "day-after-tomorrow", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "day-after-tomorrow", 
+            "out_edge": [], 
+            "key": "14.481", 
+            "community": 237.0, 
+            "id": "day-after-tomorrow", 
+            "concept": "day-after-tomorrow", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "day-before-yesterday", 
+            "out_edge": [], 
+            "key": "14.491", 
+            "community": 237.0, 
+            "id": "day-before-yesterday", 
+            "concept": "day-before-yesterday", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

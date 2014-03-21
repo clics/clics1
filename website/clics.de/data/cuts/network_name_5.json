@@ -1,1 +1,160 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 21.0, "label": "name", "body_part": 0.0, "concept": "name", "id": "name", "swadesh100": 0.0, "out_edge": [], "key": "18.28"}, {"community": 21.0, "label": "call (=summon)", "body_part": 0.0, "concept": "call (=summon)", "id": "call (=summon)", "swadesh100": 0.0, "out_edge": [], "key": "18.41"}, {"community": 21.0, "label": "call (=name)", "body_part": 0.0, "concept": "call (=name)", "id": "call (=name)", "swadesh100": 0.0, "out_edge": [], "key": "18.42"}, {"community": 164.0, "label": "ask, request", "body_part": 0.0, "concept": "ask, request", "id": "ask, request", "swadesh100": 0.0, "out_edge": [], "key": "18.35"}, {"community": 21.0, "label": "shout, cry out", "body_part": 0.0, "concept": "shout, cry out", "id": "shout, cry out", "swadesh100": 0.0, "out_edge": [], "key": "18.13"}], "adjacency": [[{"edge_width": 1.5, "families": 2.0, "weight": 3.278688524590164, "languages": 3.0, "id": "call (=summon)"}, {"edge_width": 2.05102040816, "families": 7.0, "weight": 44.95412844036697, "languages": 7.0, "id": "call (=name)"}], [{"edge_width": 1.5, "families": 2.0, "weight": 3.278688524590164, "languages": 3.0, "id": "name"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.8130081300813009, "languages": 3.0, "id": "call (=summon)"}, {"edge_width": 3.01530612245, "families": 11.0, "weight": 115.23809523809523, "languages": 23.0, "id": "call (=name)"}, {"edge_width": 1.77551020408, "families": 5.0, "weight": 21.367521367521366, "languages": 6.0, "id": "ask, request"}, {"edge_width": 3.15306122449, "families": 12.0, "weight": 127.43362831858407, "languages": 20.0, "id": "shout, cry out"}], [{"edge_width": 2.05102040816, "families": 7.0, "weight": 44.95412844036697, "languages": 7.0, "id": "name"}, {"edge_width": 3.01530612245, "families": 11.0, "weight": 115.23809523809523, "languages": 23.0, "id": "call (=summon)"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.8849557522123894, "languages": 1.0, "id": "ask, request"}], [{"edge_width": 1.77551020408, "families": 5.0, "weight": 21.367521367521366, "languages": 6.0, "id": "call (=summon)"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.8849557522123894, "languages": 1.0, "id": "call (=name)"}], [{"edge_width": 3.15306122449, "families": 12.0, "weight": 127.43362831858407, "languages": 20.0, "id": "call (=summon)"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 20.0, 
+                "weight": 127.43362831858407, 
+                "id": "call (=summon)", 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8849557522123894, 
+                "id": "call (=name)", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 6.0, 
+                "weight": 21.367521367521366, 
+                "id": "call (=summon)", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8849557522123894, 
+                "id": "ask, request", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 23.0, 
+                "weight": 115.23809523809523, 
+                "id": "call (=summon)", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 44.95412844036697, 
+                "id": "name", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 20.0, 
+                "weight": 127.43362831858407, 
+                "id": "shout, cry out", 
+                "families": 12.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 6.0, 
+                "weight": 21.367521367521366, 
+                "id": "ask, request", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 23.0, 
+                "weight": 115.23809523809523, 
+                "id": "call (=name)", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 0.8130081300813009, 
+                "id": "call (=summon)", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.278688524590164, 
+                "id": "name", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 44.95412844036697, 
+                "id": "call (=name)", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.278688524590164, 
+                "id": "call (=summon)", 
+                "families": 2.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "shout, cry out", 
+            "out_edge": [], 
+            "key": "18.13", 
+            "community": 21.0, 
+            "id": "shout, cry out", 
+            "concept": "shout, cry out", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "ask, request", 
+            "out_edge": [], 
+            "key": "18.35", 
+            "community": 164.0, 
+            "id": "ask, request", 
+            "concept": "ask, request", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "call (=name)", 
+            "out_edge": [], 
+            "key": "18.42", 
+            "community": 21.0, 
+            "id": "call (=name)", 
+            "concept": "call (=name)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "call (=summon)", 
+            "out_edge": [], 
+            "key": "18.41", 
+            "community": 21.0, 
+            "id": "call (=summon)", 
+            "concept": "call (=summon)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "name", 
+            "out_edge": [], 
+            "key": "18.28", 
+            "community": 21.0, 
+            "id": "name", 
+            "concept": "name", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

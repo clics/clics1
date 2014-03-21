@@ -1,1 +1,87 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 132.0, "label": "warm", "body_part": 0.0, "concept": "warm", "id": "warm", "swadesh100": 1.0, "out_edge": [], "key": "15.851"}, {"community": 132.0, "label": "hot", "body_part": 0.0, "concept": "hot", "id": "hot", "swadesh100": 1.0, "out_edge": [], "key": "15.85"}, {"community": 132.0, "label": "fever", "body_part": 0.0, "concept": "fever", "id": "fever", "swadesh100": 0.0, "out_edge": [], "key": "4.841"}], "adjacency": [[{"edge_width": 5.63265306122, "families": 18.0, "weight": 308.5714285714286, "languages": 38.0, "id": "hot"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.5398230088495577, "languages": 2.0, "id": "fever"}], [{"edge_width": 5.63265306122, "families": 18.0, "weight": 308.5714285714286, "languages": 38.0, "id": "warm"}, {"edge_width": 2.05102040816, "families": 7.0, "weight": 43.36283185840708, "languages": 8.0, "id": "fever"}], [{"edge_width": 2.05102040816, "families": 7.0, "weight": 43.36283185840708, "languages": 8.0, "id": "hot"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.5398230088495577, "languages": 2.0, "id": "warm"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.5398230088495577, 
+                "id": "fever", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 5.63265306122, 
+                "languages": 38.0, 
+                "weight": 308.5714285714286, 
+                "id": "hot", 
+                "families": 18.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 5.63265306122, 
+                "languages": 38.0, 
+                "weight": 308.5714285714286, 
+                "id": "warm", 
+                "families": 18.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 8.0, 
+                "weight": 43.36283185840708, 
+                "id": "fever", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.5398230088495577, 
+                "id": "warm", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 8.0, 
+                "weight": 43.36283185840708, 
+                "id": "hot", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "warm", 
+            "out_edge": [], 
+            "key": "15.851", 
+            "community": 132.0, 
+            "id": "warm", 
+            "concept": "warm", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "hot", 
+            "out_edge": [], 
+            "key": "15.85", 
+            "community": 132.0, 
+            "id": "hot", 
+            "concept": "hot", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "fever", 
+            "out_edge": [], 
+            "key": "4.841", 
+            "community": 132.0, 
+            "id": "fever", 
+            "concept": "fever", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

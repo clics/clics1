@@ -1,1 +1,54 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 227.0, "label": "like, similar", "body_part": 0.0, "concept": "like, similar", "id": "like, similar", "swadesh100": 0.0, "out_edge": [], "key": "12.92"}, {"community": 227.0, "label": "seem", "body_part": 0.0, "concept": "seem", "id": "seem", "swadesh100": 0.0, "out_edge": [], "key": "17.18"}], "adjacency": [[{"edge_width": 3.15306122449, "families": 11.0, "weight": 122.22222222222223, "languages": 12.0, "id": "seem"}], [{"edge_width": 3.15306122449, "families": 11.0, "weight": 122.22222222222223, "languages": 12.0, "id": "like, similar"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.0309278350515463, "languages": 1.0, "id": "seem"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.0309278350515463, 
+                "id": "seem", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 12.0, 
+                "weight": 122.22222222222223, 
+                "id": "like, similar", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 12.0, 
+                "weight": 122.22222222222223, 
+                "id": "seem", 
+                "families": 11.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "seem", 
+            "out_edge": [], 
+            "key": "17.18", 
+            "community": 227.0, 
+            "id": "seem", 
+            "concept": "seem", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "like, similar", 
+            "out_edge": [], 
+            "key": "12.92", 
+            "community": 227.0, 
+            "id": "like, similar", 
+            "concept": "like, similar", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

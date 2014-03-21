@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 186.0, "label": "earlobe", "body_part": 1.0, "concept": "earlobe", "id": "earlobe", "swadesh100": 0.0, "out_edge": [], "key": "4.221"}, {"community": 186.0, "label": "ear", "body_part": 1.0, "concept": "ear", "id": "ear", "swadesh100": 1.0, "out_edge": [], "key": "4.22"}], "adjacency": [[{"edge_width": 2.60204081633, "families": 9.0, "weight": 84.375, "languages": 10.0, "id": "ear"}], [{"edge_width": 2.60204081633, "families": 9.0, "weight": 84.375, "languages": 10.0, "id": "earlobe"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 10.0, 
+                "weight": 84.375, 
+                "id": "earlobe", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 10.0, 
+                "weight": 84.375, 
+                "id": "ear", 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 1.0, 
+            "label": "ear", 
+            "out_edge": [], 
+            "key": "4.22", 
+            "community": 186.0, 
+            "id": "ear", 
+            "concept": "ear", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "earlobe", 
+            "out_edge": [], 
+            "key": "4.221", 
+            "community": 186.0, 
+            "id": "earlobe", 
+            "concept": "earlobe", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

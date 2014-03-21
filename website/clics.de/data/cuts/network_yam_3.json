@@ -1,1 +1,87 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 148.0, "label": "potato", "body_part": 0.0, "concept": "potato", "id": "potato", "swadesh100": 0.0, "out_edge": [], "key": "5.7"}, {"community": 148.0, "label": "yam", "body_part": 0.0, "concept": "yam", "id": "yam", "swadesh100": 0.0, "out_edge": [], "key": "8.912"}, {"community": 148.0, "label": "sweet potato", "body_part": 0.0, "concept": "sweet potato", "id": "sweet potato", "swadesh100": 0.0, "out_edge": [], "key": "8.91"}], "adjacency": [[{"edge_width": 1.77551020408, "families": 4.0, "weight": 21.052631578947366, "languages": 4.0, "id": "yam"}, {"edge_width": 3.97959183673, "families": 12.0, "weight": 180.0, "languages": 14.0, "id": "sweet potato"}], [{"edge_width": 1.77551020408, "families": 4.0, "weight": 21.052631578947366, "languages": 4.0, "id": "potato"}, {"edge_width": 5.08163265306, "families": 13.0, "weight": 268.25396825396825, "languages": 19.0, "id": "sweet potato"}], [{"edge_width": 3.97959183673, "families": 12.0, "weight": 180.0, "languages": 14.0, "id": "potato"}, {"edge_width": 5.08163265306, "families": 13.0, "weight": 268.25396825396825, "languages": 19.0, "id": "yam"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 5.08163265306, 
+                "languages": 19.0, 
+                "weight": 268.25396825396825, 
+                "id": "yam", 
+                "families": 13.0
+            }, 
+            {
+                "edge_width": 3.97959183673, 
+                "languages": 14.0, 
+                "weight": 180.0, 
+                "id": "potato", 
+                "families": 12.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 5.08163265306, 
+                "languages": 19.0, 
+                "weight": 268.25396825396825, 
+                "id": "sweet potato", 
+                "families": 13.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 21.052631578947366, 
+                "id": "potato", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.97959183673, 
+                "languages": 14.0, 
+                "weight": 180.0, 
+                "id": "sweet potato", 
+                "families": 12.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 21.052631578947366, 
+                "id": "yam", 
+                "families": 4.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "sweet potato", 
+            "out_edge": [], 
+            "key": "8.91", 
+            "community": 148.0, 
+            "id": "sweet potato", 
+            "concept": "sweet potato", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "yam", 
+            "out_edge": [], 
+            "key": "8.912", 
+            "community": 148.0, 
+            "id": "yam", 
+            "concept": "yam", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "potato", 
+            "out_edge": [], 
+            "key": "5.7", 
+            "community": 148.0, 
+            "id": "potato", 
+            "concept": "potato", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

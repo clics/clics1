@@ -1,1 +1,200 @@
-{"multigraph": false, "directed": false, "adjacency": [[{"weight": 1.0101010101010102, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "sea"}, {"weight": 47.11538461538461, "families": 7.0, "languages": 10.0, "edge_width": 2.05102040816, "id": "lake"}, {"weight": 1293.8461538461538, "families": 29.0, "languages": 58.0, "edge_width": 12.6581632653, "id": "ocean"}], [{"weight": 47.11538461538461, "families": 7.0, "languages": 10.0, "edge_width": 2.05102040816, "id": "sea"}, {"weight": 25.0, "families": 5.0, "languages": 6.0, "edge_width": 1.77551020408, "id": "ocean"}, {"weight": 556.3218390804598, "families": 22.0, "languages": 35.0, "edge_width": 8.9387755102, "id": "lagoon"}, {"weight": 14.285714285714285, "families": 4.0, "languages": 5.0, "edge_width": 1.63775510204, "id": "swamp"}, {"weight": 4.301075268817205, "families": 2.0, "languages": 2.0, "edge_width": 1.5, "id": "gulf, bay"}], [{"weight": 1293.8461538461538, "families": 29.0, "languages": 58.0, "edge_width": 12.6581632653, "id": "sea"}, {"weight": 25.0, "families": 5.0, "languages": 6.0, "edge_width": 1.77551020408, "id": "lake"}], [{"weight": 556.3218390804598, "families": 22.0, "languages": 35.0, "edge_width": 8.9387755102, "id": "lake"}, {"weight": 3.9603960396039604, "families": 2.0, "languages": 3.0, "edge_width": 1.5, "id": "swamp"}, {"weight": 20.51282051282051, "families": 4.0, "languages": 5.0, "edge_width": 1.77551020408, "id": "gulf, bay"}], [{"weight": 14.285714285714285, "families": 4.0, "languages": 5.0, "edge_width": 1.63775510204, "id": "lake"}, {"weight": 3.9603960396039604, "families": 2.0, "languages": 3.0, "edge_width": 1.5, "id": "lagoon"}], [{"weight": 4.301075268817205, "families": 2.0, "languages": 2.0, "edge_width": 1.5, "id": "lake"}, {"weight": 20.51282051282051, "families": 4.0, "languages": 5.0, "edge_width": 1.77551020408, "id": "lagoon"}]], "graph": [], "nodes": [{"key": "1.32", "community": 127.0, "label": "sea", "concept": "sea", "id": "sea", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}, {"key": "1.33", "community": 129.0, "label": "lake", "concept": "lake", "id": "lake", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}, {"key": "1.329", "community": 127.0, "label": "ocean", "concept": "ocean", "id": "ocean", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}, {"key": "1.341", "community": 129.0, "label": "lagoon", "concept": "lagoon", "id": "lagoon", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}, {"key": "1.38", "community": 150.0, "label": "swamp", "concept": "swamp", "id": "swamp", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}, {"key": "1.34", "community": 129.0, "label": "gulf, bay", "concept": "gulf, bay", "id": "gulf, bay", "swadesh100": 0.0, "body_part": 0.0, "out_edge": []}]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 5.0, 
+                "weight": 20.51282051282051, 
+                "id": "lagoon", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.301075268817205, 
+                "id": "lake", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 12.6581632653, 
+                "languages": 58.0, 
+                "weight": 1293.8461538461538, 
+                "id": "sea", 
+                "families": 29.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 6.0, 
+                "weight": 25.0, 
+                "id": "lake", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.301075268817205, 
+                "id": "gulf, bay", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 14.285714285714285, 
+                "id": "swamp", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 6.0, 
+                "weight": 25.0, 
+                "id": "ocean", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 8.9387755102, 
+                "languages": 35.0, 
+                "weight": 556.3218390804598, 
+                "id": "lagoon", 
+                "families": 22.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 10.0, 
+                "weight": 47.11538461538461, 
+                "id": "sea", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.9603960396039604, 
+                "id": "lagoon", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 14.285714285714285, 
+                "id": "lake", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 5.0, 
+                "weight": 20.51282051282051, 
+                "id": "gulf, bay", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 3.9603960396039604, 
+                "id": "swamp", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 8.9387755102, 
+                "languages": 35.0, 
+                "weight": 556.3218390804598, 
+                "id": "lake", 
+                "families": 22.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 12.6581632653, 
+                "languages": 58.0, 
+                "weight": 1293.8461538461538, 
+                "id": "ocean", 
+                "families": 29.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.0101010101010102, 
+                "id": "sea", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 10.0, 
+                "weight": 47.11538461538461, 
+                "id": "lake", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "gulf, bay", 
+            "out_edge": [], 
+            "key": "1.34", 
+            "community": 129.0, 
+            "id": "gulf, bay", 
+            "concept": "gulf, bay", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "ocean", 
+            "out_edge": [], 
+            "key": "1.329", 
+            "community": 127.0, 
+            "id": "ocean", 
+            "concept": "ocean", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "lake", 
+            "out_edge": [], 
+            "key": "1.33", 
+            "community": 129.0, 
+            "id": "lake", 
+            "concept": "lake", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "swamp", 
+            "out_edge": [], 
+            "key": "1.38", 
+            "community": 150.0, 
+            "id": "swamp", 
+            "concept": "swamp", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "lagoon", 
+            "out_edge": [], 
+            "key": "1.341", 
+            "community": 129.0, 
+            "id": "lagoon", 
+            "concept": "lagoon", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "sea", 
+            "out_edge": [], 
+            "key": "1.32", 
+            "community": 127.0, 
+            "id": "sea", 
+            "concept": "sea", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

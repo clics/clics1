@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 218.0, "label": "boast", "body_part": 0.0, "concept": "boast", "id": "boast", "swadesh100": 0.0, "out_edge": [], "key": "18.45"}, {"community": 218.0, "label": "proud", "body_part": 0.0, "concept": "proud", "id": "proud", "swadesh100": 0.0, "out_edge": [], "key": "16.48"}], "adjacency": [[{"edge_width": 2.1887755102, "families": 7.0, "weight": 58.333333333333336, "languages": 11.0, "id": "proud"}], [{"edge_width": 2.1887755102, "families": 7.0, "weight": 58.333333333333336, "languages": 11.0, "id": "boast"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 11.0, 
+                "weight": 58.333333333333336, 
+                "id": "boast", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 11.0, 
+                "weight": 58.333333333333336, 
+                "id": "proud", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "proud", 
+            "out_edge": [], 
+            "key": "16.48", 
+            "community": 218.0, 
+            "id": "proud", 
+            "concept": "proud", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "boast", 
+            "out_edge": [], 
+            "key": "18.45", 
+            "community": 218.0, 
+            "id": "boast", 
+            "concept": "boast", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

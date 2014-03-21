@@ -1,1 +1,207 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 64.0, "label": "grease, fat", "body_part": 0.0, "concept": "grease, fat", "id": "grease, fat", "swadesh100": 1.0, "out_edge": [], "key": "5.791"}, {"community": 176.0, "label": "poison", "body_part": 0.0, "concept": "poison", "id": "poison", "swadesh100": 0.0, "out_edge": [], "key": "4.89"}, {"community": 176.0, "label": "medicine, drug", "body_part": 0.0, "concept": "medicine, drug", "id": "medicine, drug", "swadesh100": 0.0, "out_edge": [], "key": "4.88"}, {"community": 64.0, "label": "ointment", "body_part": 0.0, "concept": "ointment", "id": "ointment", "swadesh100": 0.0, "out_edge": [], "key": "6.94"}, {"community": 64.0, "label": "butter", "body_part": 0.0, "concept": "butter", "id": "butter", "swadesh100": 0.0, "out_edge": [], "key": "5.89"}, {"community": 64.0, "label": "oil", "body_part": 0.0, "concept": "oil", "id": "oil", "swadesh100": 0.0, "out_edge": [], "key": "5.79"}], "adjacency": [[{"edge_width": 3.42857142857, "families": 11.0, "weight": 147.5609756097561, "languages": 11.0, "id": "butter"}, {"edge_width": 2.32653061224, "families": 8.0, "weight": 66.66666666666666, "languages": 8.0, "id": "ointment"}, {"edge_width": 11.4183673469, "families": 27.0, "weight": 867.8571428571429, "languages": 39.0, "id": "oil"}], [{"edge_width": 2.60204081633, "families": 9.0, "weight": 82.6530612244898, "languages": 11.0, "id": "medicine, drug"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.098901098901099, "languages": 1.0, "id": "ointment"}], [{"edge_width": 2.60204081633, "families": 9.0, "weight": 82.6530612244898, "languages": 11.0, "id": "poison"}, {"edge_width": 1.91326530612, "families": 6.0, "weight": 37.89473684210527, "languages": 6.0, "id": "ointment"}], [{"edge_width": 2.32653061224, "families": 8.0, "weight": 66.66666666666666, "languages": 8.0, "id": "grease, fat"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.098901098901099, "languages": 1.0, "id": "poison"}, {"edge_width": 1.91326530612, "families": 6.0, "weight": 37.89473684210527, "languages": 6.0, "id": "medicine, drug"}, {"edge_width": 1.5, "families": 2.0, "weight": 5.47945205479452, "languages": 2.0, "id": "butter"}, {"edge_width": 2.05102040816, "families": 6.0, "weight": 41.37931034482759, "languages": 7.0, "id": "oil"}], [{"edge_width": 3.42857142857, "families": 11.0, "weight": 147.5609756097561, "languages": 11.0, "id": "grease, fat"}, {"edge_width": 1.5, "families": 2.0, "weight": 5.47945205479452, "languages": 2.0, "id": "ointment"}, {"edge_width": 3.01530612245, "families": 9.0, "weight": 110.95890410958904, "languages": 17.0, "id": "oil"}], [{"edge_width": 11.4183673469, "families": 27.0, "weight": 867.8571428571429, "languages": 39.0, "id": "grease, fat"}, {"edge_width": 3.01530612245, "families": 9.0, "weight": 110.95890410958904, "languages": 17.0, "id": "butter"}, {"edge_width": 2.05102040816, "families": 6.0, "weight": 41.37931034482759, "languages": 7.0, "id": "ointment"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 41.37931034482759, 
+                "id": "oil", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 5.47945205479452, 
+                "id": "butter", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 6.0, 
+                "weight": 37.89473684210527, 
+                "id": "medicine, drug", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.098901098901099, 
+                "id": "poison", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 8.0, 
+                "weight": 66.66666666666666, 
+                "id": "grease, fat", 
+                "families": 8.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 6.0, 
+                "weight": 37.89473684210527, 
+                "id": "ointment", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 11.0, 
+                "weight": 82.6530612244898, 
+                "id": "poison", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.098901098901099, 
+                "id": "ointment", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 11.0, 
+                "weight": 82.6530612244898, 
+                "id": "medicine, drug", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 11.4183673469, 
+                "languages": 39.0, 
+                "weight": 867.8571428571429, 
+                "id": "oil", 
+                "families": 27.0
+            }, 
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 8.0, 
+                "weight": 66.66666666666666, 
+                "id": "ointment", 
+                "families": 8.0
+            }, 
+            {
+                "edge_width": 3.42857142857, 
+                "languages": 11.0, 
+                "weight": 147.5609756097561, 
+                "id": "butter", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 41.37931034482759, 
+                "id": "ointment", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 17.0, 
+                "weight": 110.95890410958904, 
+                "id": "butter", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 11.4183673469, 
+                "languages": 39.0, 
+                "weight": 867.8571428571429, 
+                "id": "grease, fat", 
+                "families": 27.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 17.0, 
+                "weight": 110.95890410958904, 
+                "id": "oil", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 5.47945205479452, 
+                "id": "ointment", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 3.42857142857, 
+                "languages": 11.0, 
+                "weight": 147.5609756097561, 
+                "id": "grease, fat", 
+                "families": 11.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "ointment", 
+            "out_edge": [], 
+            "key": "6.94", 
+            "community": 64.0, 
+            "id": "ointment", 
+            "concept": "ointment", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "medicine, drug", 
+            "out_edge": [], 
+            "key": "4.88", 
+            "community": 176.0, 
+            "id": "medicine, drug", 
+            "concept": "medicine, drug", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "poison", 
+            "out_edge": [], 
+            "key": "4.89", 
+            "community": 176.0, 
+            "id": "poison", 
+            "concept": "poison", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "grease, fat", 
+            "out_edge": [], 
+            "key": "5.791", 
+            "community": 64.0, 
+            "id": "grease, fat", 
+            "concept": "grease, fat", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "oil", 
+            "out_edge": [], 
+            "key": "5.79", 
+            "community": 64.0, 
+            "id": "oil", 
+            "concept": "oil", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "butter", 
+            "out_edge": [], 
+            "key": "5.89", 
+            "community": 64.0, 
+            "id": "butter", 
+            "concept": "butter", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

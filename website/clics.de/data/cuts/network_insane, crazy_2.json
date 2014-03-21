@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 128.0, "label": "insane, crazy", "body_part": 0.0, "concept": "insane, crazy", "id": "insane, crazy", "swadesh100": 0.0, "out_edge": [], "key": "17.23"}, {"community": 128.0, "label": "foolish, stupid", "body_part": 0.0, "concept": "foolish, stupid", "id": "foolish, stupid", "swadesh100": 0.0, "out_edge": [], "key": "17.22"}], "adjacency": [[{"edge_width": 4.25510204082, "families": 14.0, "weight": 200.0, "languages": 28.0, "id": "foolish, stupid"}], [{"edge_width": 4.25510204082, "families": 14.0, "weight": 200.0, "languages": 28.0, "id": "insane, crazy"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 4.25510204082, 
+                "languages": 28.0, 
+                "weight": 200.0, 
+                "id": "insane, crazy", 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 4.25510204082, 
+                "languages": 28.0, 
+                "weight": 200.0, 
+                "id": "foolish, stupid", 
+                "families": 14.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "foolish, stupid", 
+            "out_edge": [], 
+            "key": "17.22", 
+            "community": 128.0, 
+            "id": "foolish, stupid", 
+            "concept": "foolish, stupid", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "insane, crazy", 
+            "out_edge": [], 
+            "key": "17.23", 
+            "community": 128.0, 
+            "id": "insane, crazy", 
+            "concept": "insane, crazy", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

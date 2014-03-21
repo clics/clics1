@@ -1,1 +1,113 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 40.0, "label": "count", "body_part": 0.0, "concept": "count", "id": "count", "swadesh100": 0.0, "out_edge": [], "key": "13.107"}, {"community": 219.0, "label": "account, reckoning", "body_part": 0.0, "concept": "account, reckoning", "id": "account, reckoning", "swadesh100": 0.0, "out_edge": [], "key": "11.66"}, {"community": 219.0, "label": "owe", "body_part": 0.0, "concept": "owe", "id": "owe", "swadesh100": 0.0, "out_edge": [], "key": "11.63"}, {"community": 219.0, "label": "debt", "body_part": 0.0, "concept": "debt", "id": "debt", "swadesh100": 0.0, "out_edge": [], "key": "11.64"}], "adjacency": [[{"edge_width": 1.63775510204, "families": 4.0, "weight": 18.181818181818183, "languages": 5.0, "id": "account, reckoning"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 18.181818181818183, "languages": 5.0, "id": "count"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.2987012987012987, "languages": 1.0, "id": "owe"}, {"edge_width": 1.77551020408, "families": 4.0, "weight": 22.22222222222222, "languages": 4.0, "id": "debt"}], [{"edge_width": 1.5, "families": 1.0, "weight": 1.2987012987012987, "languages": 1.0, "id": "account, reckoning"}, {"edge_width": 2.32653061224, "families": 7.0, "weight": 62.0253164556962, "languages": 10.0, "id": "debt"}], [{"edge_width": 1.77551020408, "families": 4.0, "weight": 22.22222222222222, "languages": 4.0, "id": "account, reckoning"}, {"edge_width": 2.32653061224, "families": 7.0, "weight": 62.0253164556962, "languages": 10.0, "id": "owe"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 10.0, 
+                "weight": 62.0253164556962, 
+                "id": "owe", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 22.22222222222222, 
+                "id": "account, reckoning", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 10.0, 
+                "weight": 62.0253164556962, 
+                "id": "debt", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.2987012987012987, 
+                "id": "account, reckoning", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 22.22222222222222, 
+                "id": "debt", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.2987012987012987, 
+                "id": "owe", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 18.181818181818183, 
+                "id": "count", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 18.181818181818183, 
+                "id": "account, reckoning", 
+                "families": 4.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "debt", 
+            "out_edge": [], 
+            "key": "11.64", 
+            "community": 219.0, 
+            "id": "debt", 
+            "concept": "debt", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "owe", 
+            "out_edge": [], 
+            "key": "11.63", 
+            "community": 219.0, 
+            "id": "owe", 
+            "concept": "owe", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "account, reckoning", 
+            "out_edge": [], 
+            "key": "11.66", 
+            "community": 219.0, 
+            "id": "account, reckoning", 
+            "concept": "account, reckoning", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "count", 
+            "out_edge": [], 
+            "key": "13.107", 
+            "community": 40.0, 
+            "id": "count", 
+            "concept": "count", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

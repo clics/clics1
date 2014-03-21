@@ -1,1 +1,141 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 166.0, "label": "cheap", "body_part": 0.0, "concept": "cheap", "id": "cheap", "swadesh100": 0.0, "out_edge": [], "key": "11.89"}, {"community": 166.0, "label": "light (in weight)", "body_part": 0.0, "concept": "light (in weight)", "id": "light (in weight)", "swadesh100": 0.0, "out_edge": [], "key": "15.82"}, {"community": 166.0, "label": "easy", "body_part": 0.0, "concept": "easy", "id": "easy", "swadesh100": 0.0, "out_edge": [], "key": "17.46"}, {"community": 166.0, "label": "lung", "body_part": 1.0, "concept": "lung", "id": "lung", "swadesh100": 0.0, "out_edge": [], "key": "4.441"}], "adjacency": [[{"edge_width": 1.5, "families": 1.0, "weight": 0.9259259259259258, "languages": 1.0, "id": "lung"}, {"edge_width": 1.5, "families": 3.0, "weight": 8.653846153846153, "languages": 3.0, "id": "light (in weight)"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 17.02127659574468, "languages": 4.0, "id": "easy"}], [{"edge_width": 1.5, "families": 3.0, "weight": 8.653846153846153, "languages": 3.0, "id": "cheap"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 14.035087719298245, "languages": 4.0, "id": "lung"}, {"edge_width": 3.15306122449, "families": 11.0, "weight": 126.04166666666667, "languages": 48.0, "id": "easy"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 17.02127659574468, "languages": 4.0, "id": "cheap"}, {"edge_width": 3.15306122449, "families": 11.0, "weight": 126.04166666666667, "languages": 48.0, "id": "light (in weight)"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.7383177570093453, "languages": 2.0, "id": "lung"}], [{"edge_width": 1.5, "families": 1.0, "weight": 0.9259259259259258, "languages": 1.0, "id": "cheap"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 14.035087719298245, "languages": 4.0, "id": "light (in weight)"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.7383177570093453, "languages": 2.0, "id": "easy"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.7383177570093453, 
+                "id": "easy", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 14.035087719298245, 
+                "id": "light (in weight)", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9259259259259258, 
+                "id": "cheap", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.7383177570093453, 
+                "id": "lung", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 48.0, 
+                "weight": 126.04166666666667, 
+                "id": "light (in weight)", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 17.02127659574468, 
+                "id": "cheap", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 14.035087719298245, 
+                "id": "lung", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 3.15306122449, 
+                "languages": 48.0, 
+                "weight": 126.04166666666667, 
+                "id": "easy", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 8.653846153846153, 
+                "id": "cheap", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 17.02127659574468, 
+                "id": "easy", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 8.653846153846153, 
+                "id": "light (in weight)", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9259259259259258, 
+                "id": "lung", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 1.0, 
+            "label": "lung", 
+            "out_edge": [], 
+            "key": "4.441", 
+            "community": 166.0, 
+            "id": "lung", 
+            "concept": "lung", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "easy", 
+            "out_edge": [], 
+            "key": "17.46", 
+            "community": 166.0, 
+            "id": "easy", 
+            "concept": "easy", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "light (in weight)", 
+            "out_edge": [], 
+            "key": "15.82", 
+            "community": 166.0, 
+            "id": "light (in weight)", 
+            "concept": "light (in weight)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "cheap", 
+            "out_edge": [], 
+            "key": "11.89", 
+            "community": 166.0, 
+            "id": "cheap", 
+            "concept": "cheap", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

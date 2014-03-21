@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 212.0, "label": "elbow", "body_part": 1.0, "concept": "elbow", "id": "elbow", "swadesh100": 0.0, "out_edge": [], "key": "4.32"}, {"community": 212.0, "label": "knee", "body_part": 1.0, "concept": "knee", "id": "knee", "swadesh100": 1.0, "out_edge": [], "key": "4.36"}], "adjacency": [[{"edge_width": 1.63775510204, "families": 4.0, "weight": 13.114754098360656, "languages": 4.0, "id": "knee"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 13.114754098360656, "languages": 4.0, "id": "elbow"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.114754098360656, 
+                "id": "elbow", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.114754098360656, 
+                "id": "knee", 
+                "families": 4.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 1.0, 
+            "label": "knee", 
+            "out_edge": [], 
+            "key": "4.36", 
+            "community": 212.0, 
+            "id": "knee", 
+            "concept": "knee", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "elbow", 
+            "out_edge": [], 
+            "key": "4.32", 
+            "community": 212.0, 
+            "id": "elbow", 
+            "concept": "elbow", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

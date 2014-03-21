@@ -1,1 +1,61 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 217.0, "label": "they", "body_part": 0.0, "concept": "they", "id": "they", "swadesh100": 0.0, "out_edge": [], "key": "2.96"}, {"community": 217.0, "label": "he/she/it", "body_part": 0.0, "concept": "he/she/it", "id": "he/she/it", "swadesh100": 0.0, "out_edge": [], "key": "2.93"}], "adjacency": [[{"edge_width": 1.5, "families": 1.0, "weight": 0.8264462809917356, "languages": 1.0, "id": "they"}, {"edge_width": 2.87755102041, "families": 11.0, "weight": 108.03571428571428, "languages": 20.0, "id": "he/she/it"}], [{"edge_width": 2.87755102041, "families": 11.0, "weight": 108.03571428571428, "languages": 20.0, "id": "they"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 13.333333333333334, "languages": 7.0, "id": "he/she/it"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 7.0, 
+                "weight": 13.333333333333334, 
+                "id": "he/she/it", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 20.0, 
+                "weight": 108.03571428571428, 
+                "id": "they", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 20.0, 
+                "weight": 108.03571428571428, 
+                "id": "he/she/it", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8264462809917356, 
+                "id": "they", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "he/she/it", 
+            "out_edge": [], 
+            "key": "2.93", 
+            "community": 217.0, 
+            "id": "he/she/it", 
+            "concept": "he/she/it", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "they", 
+            "out_edge": [], 
+            "key": "2.96", 
+            "community": 217.0, 
+            "id": "they", 
+            "concept": "they", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

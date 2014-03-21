@@ -1,1 +1,167 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 118.0, "label": "leaf", "body_part": 0.0, "concept": "leaf", "id": "leaf", "swadesh100": 1.0, "out_edge": [], "key": "8.56"}, {"community": 1.0, "label": "hair (head)", "body_part": 1.0, "concept": "hair (head)", "id": "hair (head)", "swadesh100": 1.0, "out_edge": [], "key": "4.14"}, {"community": 118.0, "label": "book", "body_part": 0.0, "concept": "book", "id": "book", "swadesh100": 0.0, "out_edge": [], "key": "18.61"}, {"community": 1.0, "label": "feather", "body_part": 1.0, "concept": "feather", "id": "feather", "swadesh100": 1.0, "out_edge": [], "key": "4.393"}, {"community": 118.0, "label": "paper", "body_part": 0.0, "concept": "paper", "id": "paper", "swadesh100": 0.0, "out_edge": [], "key": "18.56"}], "adjacency": [[{"edge_width": 1.63775510204, "families": 4.0, "weight": 13.114754098360656, "languages": 5.0, "id": "hair (head)"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9523809523809524, "languages": 1.0, "id": "book"}, {"edge_width": 1.77551020408, "families": 5.0, "weight": 20.66115702479339, "languages": 11.0, "id": "feather"}, {"edge_width": 1.91326530612, "families": 6.0, "weight": 33.9622641509434, "languages": 10.0, "id": "paper"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 13.114754098360656, "languages": 5.0, "id": "leaf"}, {"edge_width": 3.56632653061, "families": 13.0, "weight": 149.55752212389382, "languages": 20.0, "id": "feather"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9009009009009009, "languages": 1.0, "id": "paper"}], [{"edge_width": 1.5, "families": 1.0, "weight": 0.9523809523809524, "languages": 1.0, "id": "leaf"}, {"edge_width": 10.4540816327, "families": 22.0, "weight": 691.4285714285714, "languages": 32.0, "id": "paper"}], [{"edge_width": 1.77551020408, "families": 5.0, "weight": 20.66115702479339, "languages": 11.0, "id": "leaf"}, {"edge_width": 3.56632653061, "families": 13.0, "weight": 149.55752212389382, "languages": 20.0, "id": "hair (head)"}], [{"edge_width": 1.91326530612, "families": 6.0, "weight": 33.9622641509434, "languages": 10.0, "id": "leaf"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9009009009009009, "languages": 1.0, "id": "hair (head)"}, {"edge_width": 10.4540816327, "families": 22.0, "weight": 691.4285714285714, "languages": 32.0, "id": "book"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 10.4540816327, 
+                "languages": 32.0, 
+                "weight": 691.4285714285714, 
+                "id": "book", 
+                "families": 22.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9009009009009009, 
+                "id": "hair (head)", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 33.9622641509434, 
+                "id": "leaf", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 10.4540816327, 
+                "languages": 32.0, 
+                "weight": 691.4285714285714, 
+                "id": "paper", 
+                "families": 22.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9523809523809524, 
+                "id": "leaf", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9009009009009009, 
+                "id": "paper", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 3.56632653061, 
+                "languages": 20.0, 
+                "weight": 149.55752212389382, 
+                "id": "feather", 
+                "families": 13.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 13.114754098360656, 
+                "id": "leaf", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.56632653061, 
+                "languages": 20.0, 
+                "weight": 149.55752212389382, 
+                "id": "hair (head)", 
+                "families": 13.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 11.0, 
+                "weight": 20.66115702479339, 
+                "id": "leaf", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 33.9622641509434, 
+                "id": "paper", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9523809523809524, 
+                "id": "book", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 13.114754098360656, 
+                "id": "hair (head)", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 11.0, 
+                "weight": 20.66115702479339, 
+                "id": "feather", 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "paper", 
+            "out_edge": [], 
+            "key": "18.56", 
+            "community": 118.0, 
+            "id": "paper", 
+            "concept": "paper", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "book", 
+            "out_edge": [], 
+            "key": "18.61", 
+            "community": 118.0, 
+            "id": "book", 
+            "concept": "book", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "hair (head)", 
+            "out_edge": [], 
+            "key": "4.14", 
+            "community": 1.0, 
+            "id": "hair (head)", 
+            "concept": "hair (head)", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "feather", 
+            "out_edge": [], 
+            "key": "4.393", 
+            "community": 1.0, 
+            "id": "feather", 
+            "concept": "feather", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "leaf", 
+            "out_edge": [], 
+            "key": "8.56", 
+            "community": 118.0, 
+            "id": "leaf", 
+            "concept": "leaf", 
+            "swadesh100": 1.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

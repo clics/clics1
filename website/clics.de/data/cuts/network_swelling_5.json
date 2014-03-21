@@ -1,1 +1,160 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 105.0, "label": "cook", "body_part": 0.0, "concept": "cook", "id": "cook", "swadesh100": 0.0, "out_edge": [["cluster_104_burn (vb trans)", "burn (vb trans)", 4.0, 13.223140495867769, "burn (vb trans)"]], "key": "5.21"}, {"community": 105.0, "label": "boil (vb)", "body_part": 0.0, "concept": "boil (vb)", "id": "boil (vb)", "swadesh100": 0.0, "out_edge": [], "key": "5.22"}, {"community": 224.0, "label": "boil (noun)", "body_part": 0.0, "concept": "boil (noun)", "id": "boil (noun)", "swadesh100": 0.0, "out_edge": [], "key": "4.856"}, {"community": 224.0, "label": "swelling", "body_part": 0.0, "concept": "swelling", "id": "swelling", "swadesh100": 0.0, "out_edge": [], "key": "4.853"}, {"community": 146.0, "label": "cooked", "body_part": 0.0, "concept": "cooked", "id": "cooked", "swadesh100": 0.0, "out_edge": [["cluster_146_cooked", "ripe", 21.0, 459.375, "cooked"]], "key": "5.121"}], "adjacency": [[{"edge_width": 2.87755102041, "families": 11.0, "weight": 108.03571428571428, "languages": 29.0, "id": "boil (vb)"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.508771929824561, "languages": 2.0, "id": "boil (noun)"}, {"edge_width": 2.1887755102, "families": 8.0, "weight": 58.18181818181818, "languages": 10.0, "id": "cooked"}], [{"edge_width": 2.87755102041, "families": 11.0, "weight": 108.03571428571428, "languages": 29.0, "id": "cook"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 14.15929203539823, "languages": 4.0, "id": "boil (noun)"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 13.91304347826087, "languages": 4.0, "id": "cooked"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 14.15929203539823, "languages": 4.0, "id": "boil (vb)"}, {"edge_width": 1.5, "families": 2.0, "weight": 3.508771929824561, "languages": 2.0, "id": "cook"}, {"edge_width": 2.05102040816, "families": 7.0, "weight": 44.95412844036697, "languages": 7.0, "id": "swelling"}], [{"edge_width": 2.05102040816, "families": 7.0, "weight": 44.95412844036697, "languages": 7.0, "id": "boil (noun)"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.8264462809917356, "languages": 1.0, "id": "swelling"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 13.91304347826087, "languages": 4.0, "id": "boil (vb)"}, {"edge_width": 2.1887755102, "families": 8.0, "weight": 58.18181818181818, "languages": 10.0, "id": "cook"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8264462809917356, 
+                "id": "swelling", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 44.95412844036697, 
+                "id": "boil (noun)", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 7.0, 
+                "weight": 44.95412844036697, 
+                "id": "swelling", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "id": "cook", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 14.15929203539823, 
+                "id": "boil (vb)", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 10.0, 
+                "weight": 58.18181818181818, 
+                "id": "cooked", 
+                "families": 8.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "id": "boil (noun)", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 29.0, 
+                "weight": 108.03571428571428, 
+                "id": "boil (vb)", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.91304347826087, 
+                "id": "cooked", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 14.15929203539823, 
+                "id": "boil (noun)", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 29.0, 
+                "weight": 108.03571428571428, 
+                "id": "cook", 
+                "families": 11.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 10.0, 
+                "weight": 58.18181818181818, 
+                "id": "cook", 
+                "families": 8.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.91304347826087, 
+                "id": "boil (vb)", 
+                "families": 4.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "swelling", 
+            "out_edge": [], 
+            "key": "4.853", 
+            "community": 224.0, 
+            "id": "swelling", 
+            "concept": "swelling", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "boil (noun)", 
+            "out_edge": [], 
+            "key": "4.856", 
+            "community": 224.0, 
+            "id": "boil (noun)", 
+            "concept": "boil (noun)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "cook", 
+            "out_edge": [], 
+            "key": "5.21", 
+            "community": 105.0, 
+            "id": "cook", 
+            "concept": "cook", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "boil (vb)", 
+            "out_edge": [], 
+            "key": "5.22", 
+            "community": 105.0, 
+            "id": "boil (vb)", 
+            "concept": "boil (vb)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "cooked", 
+            "out_edge": [], 
+            "key": "5.121", 
+            "community": 146.0, 
+            "id": "cooked", 
+            "concept": "cooked", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

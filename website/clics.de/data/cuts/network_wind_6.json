@@ -1,1 +1,221 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 16.0, "label": "day", "body_part": 0.0, "concept": "day", "id": "day", "swadesh100": 0.0, "out_edge": [], "key": "14.41"}, {"community": 111.0, "label": "wind", "body_part": 0.0, "concept": "wind", "id": "wind", "swadesh100": 0.0, "out_edge": [], "key": "1.72"}, {"community": 111.0, "label": "air", "body_part": 0.0, "concept": "air", "id": "air", "swadesh100": 0.0, "out_edge": [], "key": "1.71"}, {"community": 111.0, "label": "storm", "body_part": 0.0, "concept": "storm", "id": "storm", "swadesh100": 0.0, "out_edge": [], "key": "1.58"}, {"community": 16.0, "label": "time", "body_part": 0.0, "concept": "time", "id": "time", "swadesh100": 0.0, "out_edge": [], "key": "14.11"}, {"community": 16.0, "label": "weather", "body_part": 0.0, "concept": "weather", "id": "weather", "swadesh100": 0.0, "out_edge": [], "key": "1.78"}], "adjacency": [[{"edge_width": 2.87755102041, "families": 10.0, "weight": 104.16666666666667, "languages": 11.0, "id": "time"}, {"edge_width": 2.60204081633, "families": 9.0, "weight": 86.17021276595744, "languages": 11.0, "id": "weather"}], [{"edge_width": 1.77551020408, "families": 5.0, "weight": 22.52252252252252, "languages": 16.0, "id": "storm"}, {"edge_width": 8.11224489796, "families": 21.0, "weight": 495.50561797752806, "languages": 41.0, "id": "air"}, {"edge_width": 1.5, "families": 3.0, "weight": 9.183673469387756, "languages": 3.0, "id": "weather"}], [{"edge_width": 8.11224489796, "families": 21.0, "weight": 495.50561797752806, "languages": 41.0, "id": "wind"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.1235955056179776, "languages": 1.0, "id": "time"}, {"edge_width": 1.5, "families": 2.0, "weight": 4.0, "languages": 2.0, "id": "storm"}, {"edge_width": 2.32653061224, "families": 7.0, "weight": 61.25000000000001, "languages": 26.0, "id": "weather"}], [{"edge_width": 1.77551020408, "families": 5.0, "weight": 22.52252252252252, "languages": 16.0, "id": "wind"}, {"edge_width": 1.5, "families": 2.0, "weight": 4.0, "languages": 2.0, "id": "air"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.0869565217391304, "languages": 2.0, "id": "weather"}], [{"edge_width": 2.87755102041, "families": 10.0, "weight": 104.16666666666667, "languages": 11.0, "id": "day"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.1235955056179776, "languages": 1.0, "id": "air"}, {"edge_width": 6.18367346939, "families": 15.0, "weight": 340.90909090909093, "languages": 30.0, "id": "weather"}], [{"edge_width": 2.60204081633, "families": 9.0, "weight": 86.17021276595744, "languages": 11.0, "id": "day"}, {"edge_width": 1.5, "families": 3.0, "weight": 9.183673469387756, "languages": 3.0, "id": "wind"}, {"edge_width": 2.32653061224, "families": 7.0, "weight": 61.25000000000001, "languages": 26.0, "id": "air"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.0869565217391304, "languages": 2.0, "id": "storm"}, {"edge_width": 6.18367346939, "families": 15.0, "weight": 340.90909090909093, "languages": 30.0, "id": "time"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 26.0, 
+                "weight": 61.25000000000001, 
+                "id": "weather", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.1235955056179776, 
+                "id": "time", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 8.11224489796, 
+                "languages": 41.0, 
+                "weight": 495.50561797752806, 
+                "id": "wind", 
+                "families": 21.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.0, 
+                "id": "storm", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 9.183673469387756, 
+                "id": "weather", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 8.11224489796, 
+                "languages": 41.0, 
+                "weight": 495.50561797752806, 
+                "id": "air", 
+                "families": 21.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 16.0, 
+                "weight": 22.52252252252252, 
+                "id": "storm", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 11.0, 
+                "weight": 86.17021276595744, 
+                "id": "weather", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 11.0, 
+                "weight": 104.16666666666667, 
+                "id": "time", 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 6.18367346939, 
+                "languages": 30.0, 
+                "weight": 340.90909090909093, 
+                "id": "time", 
+                "families": 15.0
+            }, 
+            {
+                "edge_width": 2.32653061224, 
+                "languages": 26.0, 
+                "weight": 61.25000000000001, 
+                "id": "air", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 9.183673469387756, 
+                "id": "wind", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 2.60204081633, 
+                "languages": 11.0, 
+                "weight": 86.17021276595744, 
+                "id": "day", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 1.0869565217391304, 
+                "id": "storm", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 6.18367346939, 
+                "languages": 30.0, 
+                "weight": 340.90909090909093, 
+                "id": "weather", 
+                "families": 15.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.1235955056179776, 
+                "id": "air", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.87755102041, 
+                "languages": 11.0, 
+                "weight": 104.16666666666667, 
+                "id": "day", 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 1.0869565217391304, 
+                "id": "weather", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.0, 
+                "id": "air", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 16.0, 
+                "weight": 22.52252252252252, 
+                "id": "wind", 
+                "families": 5.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "air", 
+            "out_edge": [], 
+            "key": "1.71", 
+            "community": 111.0, 
+            "id": "air", 
+            "concept": "air", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "wind", 
+            "out_edge": [], 
+            "key": "1.72", 
+            "community": 111.0, 
+            "id": "wind", 
+            "concept": "wind", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "day", 
+            "out_edge": [], 
+            "key": "14.41", 
+            "community": 16.0, 
+            "id": "day", 
+            "concept": "day", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "weather", 
+            "out_edge": [], 
+            "key": "1.78", 
+            "community": 16.0, 
+            "id": "weather", 
+            "concept": "weather", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "time", 
+            "out_edge": [], 
+            "key": "14.11", 
+            "community": 16.0, 
+            "id": "time", 
+            "concept": "time", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "storm", 
+            "out_edge": [], 
+            "key": "1.58", 
+            "community": 111.0, 
+            "id": "storm", 
+            "concept": "storm", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

@@ -1,1 +1,54 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 200.0, "label": "lame", "body_part": 0.0, "concept": "lame", "id": "lame", "swadesh100": 0.0, "out_edge": [], "key": "4.94"}, {"community": 200.0, "label": "limp", "body_part": 0.0, "concept": "limp", "id": "limp", "swadesh100": 0.0, "out_edge": [], "key": "10.451"}], "adjacency": [[{"edge_width": 1.5, "families": 1.0, "weight": 0.8695652173913043, "languages": 1.0, "id": "lame"}, {"edge_width": 4.66836734694, "families": 15.0, "weight": 234.375, "languages": 42.0, "id": "limp"}], [{"edge_width": 4.66836734694, "families": 15.0, "weight": 234.375, "languages": 42.0, "id": "lame"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 4.66836734694, 
+                "languages": 42.0, 
+                "weight": 234.375, 
+                "id": "lame", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 4.66836734694, 
+                "languages": 42.0, 
+                "weight": 234.375, 
+                "id": "limp", 
+                "families": 15.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8695652173913043, 
+                "id": "lame", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "limp", 
+            "out_edge": [], 
+            "key": "10.451", 
+            "community": 200.0, 
+            "id": "limp", 
+            "concept": "limp", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "lame", 
+            "out_edge": [], 
+            "key": "4.94", 
+            "community": 200.0, 
+            "id": "lame", 
+            "concept": "lame", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

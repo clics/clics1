@@ -1,1 +1,153 @@
-{"graph": [], "nodes": [{"id": "dribble", "community": 190.0, "swadesh100": 0.0, "key": "4.591", "label": "dribble", "body_part": 0.0, "out_edge": [], "concept": "dribble"}, {"id": "release, let go", "community": 83.0, "swadesh100": 0.0, "key": "11.34", "label": "release, let go", "body_part": 0.0, "out_edge": [], "concept": "release, let go"}, {"id": "fall", "community": 141.0, "swadesh100": 0.0, "key": "10.23", "label": "fall", "body_part": 0.0, "out_edge": [], "concept": "fall"}, {"id": "drop (vb)", "community": 141.0, "swadesh100": 0.0, "key": "10.16", "label": "drop (vb)", "body_part": 0.0, "out_edge": [], "concept": "drop (vb)"}, {"id": "drip", "community": 190.0, "swadesh100": 0.0, "key": "10.24", "label": "drip", "body_part": 0.0, "out_edge": [], "concept": "drip"}], "adjacency": [[{"languages": 2.0, "edge_width": 1.5, "weight": 4.0, "families": 2.0, "id": "drop (vb)"}, {"languages": 22.0, "edge_width": 4.80612244898, "weight": 247.25274725274727, "families": 15.0, "id": "drip"}], [{"languages": 1.0, "edge_width": 1.5, "weight": 0.8547008547008548, "families": 1.0, "id": "fall"}, {"languages": 12.0, "edge_width": 1.77551020408, "weight": 24.271844660194176, "families": 5.0, "id": "drop (vb)"}], [{"languages": 1.0, "edge_width": 1.5, "weight": 0.8547008547008548, "families": 1.0, "id": "release, let go"}, {"languages": 16.0, "edge_width": 3.01530612245, "weight": 113.08411214953271, "families": 11.0, "id": "drop (vb)"}], [{"languages": 2.0, "edge_width": 1.5, "weight": 4.0, "families": 2.0, "id": "dribble"}, {"languages": 12.0, "edge_width": 1.77551020408, "weight": 24.271844660194176, "families": 5.0, "id": "release, let go"}, {"languages": 16.0, "edge_width": 3.01530612245, "weight": 113.08411214953271, "families": 11.0, "id": "fall"}, {"languages": 9.0, "edge_width": 1.77551020408, "weight": 23.364485981308412, "families": 5.0, "id": "drip"}], [{"languages": 22.0, "edge_width": 4.80612244898, "weight": 247.25274725274727, "families": 15.0, "id": "dribble"}, {"languages": 9.0, "edge_width": 1.77551020408, "weight": 23.364485981308412, "families": 5.0, "id": "drop (vb)"}]], "multigraph": false, "directed": false}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 16.0, 
+                "weight": 113.08411214953271, 
+                "id": "drop (vb)", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8547008547008548, 
+                "id": "release, let go", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 16.0, 
+                "weight": 113.08411214953271, 
+                "id": "fall", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 12.0, 
+                "weight": 24.271844660194176, 
+                "id": "release, let go", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.0, 
+                "id": "dribble", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 9.0, 
+                "weight": 23.364485981308412, 
+                "id": "drip", 
+                "families": 5.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 12.0, 
+                "weight": 24.271844660194176, 
+                "id": "drop (vb)", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8547008547008548, 
+                "id": "fall", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 4.0, 
+                "id": "drop (vb)", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 4.80612244898, 
+                "languages": 22.0, 
+                "weight": 247.25274725274727, 
+                "id": "drip", 
+                "families": 15.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 9.0, 
+                "weight": 23.364485981308412, 
+                "id": "drop (vb)", 
+                "families": 5.0
+            }, 
+            {
+                "edge_width": 4.80612244898, 
+                "languages": 22.0, 
+                "weight": 247.25274725274727, 
+                "id": "dribble", 
+                "families": 15.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "fall", 
+            "out_edge": [], 
+            "key": "10.23", 
+            "community": 141.0, 
+            "id": "fall", 
+            "concept": "fall", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "drop (vb)", 
+            "out_edge": [], 
+            "key": "10.16", 
+            "community": 141.0, 
+            "id": "drop (vb)", 
+            "concept": "drop (vb)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "release, let go", 
+            "out_edge": [], 
+            "key": "11.34", 
+            "community": 83.0, 
+            "id": "release, let go", 
+            "concept": "release, let go", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "dribble", 
+            "out_edge": [], 
+            "key": "4.591", 
+            "community": 190.0, 
+            "id": "dribble", 
+            "concept": "dribble", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "drip", 
+            "out_edge": [], 
+            "key": "10.24", 
+            "community": 190.0, 
+            "id": "drip", 
+            "concept": "drip", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

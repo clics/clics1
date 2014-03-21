@@ -1,1 +1,193 @@
-{"multigraph": false, "directed": false, "graph": [], "adjacency": [[{"weight": 158.24175824175825, "id": "grass", "families": 12.0, "languages": 17.0, "edge_width": 3.56632653061}, {"weight": 17.582417582417584, "id": "field (for cultivation)", "families": 4.0, "languages": 5.0, "edge_width": 1.63775510204}, {"weight": 91.01123595505618, "id": "plain, field", "families": 9.0, "languages": 13.0, "edge_width": 2.73979591837}], [{"weight": 201.19047619047618, "id": "field (for cultivation)", "families": 13.0, "languages": 24.0, "edge_width": 4.25510204082}, {"weight": 9.278350515463918, "id": "plain, field", "families": 3.0, "languages": 3.0, "edge_width": 1.5}], [{"weight": 45.794392523364486, "id": "plain, field", "families": 7.0, "languages": 10.0, "edge_width": 2.05102040816}], [{"weight": 17.582417582417584, "id": "pasture", "families": 4.0, "languages": 5.0, "edge_width": 1.63775510204}, {"weight": 201.19047619047618, "id": "garden", "families": 13.0, "languages": 24.0, "edge_width": 4.25510204082}, {"weight": 118.62745098039215, "id": "plain, field", "families": 11.0, "languages": 52.0, "edge_width": 3.01530612245}], [{"weight": 158.24175824175825, "id": "pasture", "families": 12.0, "languages": 17.0, "edge_width": 3.56632653061}, {"weight": 3.361344537815126, "id": "plain, field", "families": 2.0, "languages": 2.0, "edge_width": 1.5}], [{"weight": 118.62745098039215, "id": "field (for cultivation)", "families": 11.0, "languages": 52.0, "edge_width": 3.01530612245}, {"weight": 45.794392523364486, "id": "flat", "families": 7.0, "languages": 10.0, "edge_width": 2.05102040816}, {"weight": 91.01123595505618, "id": "pasture", "families": 9.0, "languages": 13.0, "edge_width": 2.73979591837}, {"weight": 3.361344537815126, "id": "grass", "families": 2.0, "languages": 2.0, "edge_width": 1.5}, {"weight": 9.278350515463918, "id": "garden", "families": 3.0, "languages": 3.0, "edge_width": 1.5}]], "nodes": [{"id": "pasture", "key": "3.16", "swadesh100": 0.0, "body_part": 0.0, "concept": "pasture", "community": 28.0, "label": "pasture", "out_edge": []}, {"id": "garden", "key": "8.13", "swadesh100": 0.0, "body_part": 0.0, "concept": "garden", "community": 28.0, "label": "garden", "out_edge": []}, {"id": "flat", "key": "12.71", "swadesh100": 0.0, "body_part": 0.0, "concept": "flat", "community": 98.0, "label": "flat", "out_edge": []}, {"id": "field (for cultivation)", "key": "8.12", "swadesh100": 0.0, "body_part": 0.0, "concept": "field (for cultivation)", "community": 28.0, "label": "field (for cultivation)", "out_edge": []}, {"id": "grass", "key": "8.51", "swadesh100": 0.0, "body_part": 0.0, "concept": "grass", "community": 28.0, "label": "grass", "out_edge": []}, {"id": "plain, field", "key": "1.23", "swadesh100": 0.0, "body_part": 0.0, "concept": "plain, field", "community": 28.0, "label": "plain, field", "out_edge": []}]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 3.56632653061, 
+                "languages": 17.0, 
+                "weight": 158.24175824175825, 
+                "id": "pasture", 
+                "families": 12.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.361344537815126, 
+                "id": "plain, field", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 3.56632653061, 
+                "languages": 17.0, 
+                "weight": 158.24175824175825, 
+                "id": "grass", 
+                "families": 12.0
+            }, 
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 13.0, 
+                "weight": 91.01123595505618, 
+                "id": "plain, field", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 17.582417582417584, 
+                "id": "field (for cultivation)", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 17.582417582417584, 
+                "id": "pasture", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 52.0, 
+                "weight": 118.62745098039215, 
+                "id": "plain, field", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 4.25510204082, 
+                "languages": 24.0, 
+                "weight": 201.19047619047618, 
+                "id": "garden", 
+                "families": 13.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 10.0, 
+                "weight": 45.794392523364486, 
+                "id": "plain, field", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.361344537815126, 
+                "id": "grass", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 3.01530612245, 
+                "languages": 52.0, 
+                "weight": 118.62745098039215, 
+                "id": "field (for cultivation)", 
+                "families": 11.0
+            }, 
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 13.0, 
+                "weight": 91.01123595505618, 
+                "id": "pasture", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 10.0, 
+                "weight": 45.794392523364486, 
+                "id": "flat", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 9.278350515463918, 
+                "id": "garden", 
+                "families": 3.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 9.278350515463918, 
+                "id": "plain, field", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 4.25510204082, 
+                "languages": 24.0, 
+                "weight": 201.19047619047618, 
+                "id": "field (for cultivation)", 
+                "families": 13.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "grass", 
+            "out_edge": [], 
+            "key": "8.51", 
+            "community": 28.0, 
+            "id": "grass", 
+            "concept": "grass", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "pasture", 
+            "out_edge": [], 
+            "key": "3.16", 
+            "community": 28.0, 
+            "id": "pasture", 
+            "concept": "pasture", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "field (for cultivation)", 
+            "out_edge": [], 
+            "key": "8.12", 
+            "community": 28.0, 
+            "id": "field (for cultivation)", 
+            "concept": "field (for cultivation)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "flat", 
+            "out_edge": [], 
+            "key": "12.71", 
+            "community": 98.0, 
+            "id": "flat", 
+            "concept": "flat", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "plain, field", 
+            "out_edge": [], 
+            "key": "1.23", 
+            "community": 28.0, 
+            "id": "plain, field", 
+            "concept": "plain, field", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "garden", 
+            "out_edge": [], 
+            "key": "8.13", 
+            "community": 28.0, 
+            "id": "garden", 
+            "concept": "garden", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

@@ -1,1 +1,54 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 245.0, "label": "dare", "body_part": 0.0, "concept": "dare", "id": "dare", "swadesh100": 0.0, "out_edge": [], "key": "16.51"}, {"community": 245.0, "label": "brave", "body_part": 0.0, "concept": "brave", "id": "brave", "swadesh100": 0.0, "out_edge": [], "key": "16.52"}], "adjacency": [[{"edge_width": 2.1887755102, "families": 7.0, "weight": 59.036144578313255, "languages": 15.0, "id": "brave"}], [{"edge_width": 2.1887755102, "families": 7.0, "weight": 59.036144578313255, "languages": 15.0, "id": "dare"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9345794392523363, "languages": 1.0, "id": "brave"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9345794392523363, 
+                "id": "brave", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 15.0, 
+                "weight": 59.036144578313255, 
+                "id": "dare", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.1887755102, 
+                "languages": 15.0, 
+                "weight": 59.036144578313255, 
+                "id": "brave", 
+                "families": 7.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "brave", 
+            "out_edge": [], 
+            "key": "16.52", 
+            "community": 245.0, 
+            "id": "brave", 
+            "concept": "brave", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "dare", 
+            "out_edge": [], 
+            "key": "16.51", 
+            "community": 245.0, 
+            "id": "dare", 
+            "concept": "dare", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

@@ -1,1 +1,153 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 10.0, "label": "betray", "body_part": 0.0, "concept": "betray", "id": "betray", "swadesh100": 0.0, "out_edge": [], "key": "17.441"}, {"community": 160.0, "label": "deceit", "body_part": 0.0, "concept": "deceit", "id": "deceit", "swadesh100": 0.0, "out_edge": [], "key": "16.68"}, {"community": 160.0, "label": "perjury", "body_part": 0.0, "concept": "perjury", "id": "perjury", "swadesh100": 0.0, "out_edge": [], "key": "21.47"}, {"community": 160.0, "label": "lie, tell lies", "body_part": 0.0, "concept": "lie, tell lies", "id": "lie, tell lies", "swadesh100": 0.0, "out_edge": [], "key": "16.67"}, {"community": 10.0, "label": "sell", "body_part": 0.0, "concept": "sell", "id": "sell", "swadesh100": 0.0, "out_edge": [["cluster_10_lend", "give", 9.0, 69.82758620689656, "lend"], ["cluster_10_lend", "trade, barter", 9.0, 81.81818181818183, "lend"]], "key": "11.82"}], "adjacency": [[{"edge_width": 1.91326530612, "families": 6.0, "weight": 37.11340206185567, "languages": 12.0, "id": "sell"}, {"edge_width": 2.05102040816, "families": 6.0, "weight": 40.0, "languages": 6.0, "id": "deceit"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9615384615384616, "languages": 1.0, "id": "lie, tell lies"}], [{"edge_width": 2.05102040816, "families": 6.0, "weight": 40.0, "languages": 6.0, "id": "betray"}, {"edge_width": 2.05102040816, "families": 6.0, "weight": 46.75324675324675, "languages": 6.0, "id": "perjury"}, {"edge_width": 2.73979591837, "families": 10.0, "weight": 93.45794392523365, "languages": 17.0, "id": "lie, tell lies"}], [{"edge_width": 2.05102040816, "families": 6.0, "weight": 46.75324675324675, "languages": 6.0, "id": "deceit"}, {"edge_width": 2.73979591837, "families": 9.0, "weight": 97.59036144578313, "languages": 9.0, "id": "lie, tell lies"}], [{"edge_width": 1.5, "families": 1.0, "weight": 0.9615384615384616, "languages": 1.0, "id": "betray"}, {"edge_width": 2.73979591837, "families": 10.0, "weight": 93.45794392523365, "languages": 17.0, "id": "deceit"}, {"edge_width": 2.73979591837, "families": 9.0, "weight": 97.59036144578313, "languages": 9.0, "id": "perjury"}], [{"edge_width": 1.91326530612, "families": 6.0, "weight": 37.11340206185567, "languages": 12.0, "id": "betray"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 9.0, 
+                "weight": 97.59036144578313, 
+                "id": "lie, tell lies", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 46.75324675324675, 
+                "id": "deceit", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 12.0, 
+                "weight": 37.11340206185567, 
+                "id": "betray", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 46.75324675324675, 
+                "id": "perjury", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 40.0, 
+                "id": "betray", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 17.0, 
+                "weight": 93.45794392523365, 
+                "id": "lie, tell lies", 
+                "families": 10.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9615384615384616, 
+                "id": "lie, tell lies", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 12.0, 
+                "weight": 37.11340206185567, 
+                "id": "sell", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 6.0, 
+                "weight": 40.0, 
+                "id": "deceit", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 9.0, 
+                "weight": 97.59036144578313, 
+                "id": "perjury", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 17.0, 
+                "weight": 93.45794392523365, 
+                "id": "deceit", 
+                "families": 10.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9615384615384616, 
+                "id": "betray", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "perjury", 
+            "out_edge": [], 
+            "key": "21.47", 
+            "community": 160.0, 
+            "id": "perjury", 
+            "concept": "perjury", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "sell", 
+            "out_edge": [], 
+            "key": "11.82", 
+            "community": 10.0, 
+            "id": "sell", 
+            "concept": "sell", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "deceit", 
+            "out_edge": [], 
+            "key": "16.68", 
+            "community": 160.0, 
+            "id": "deceit", 
+            "concept": "deceit", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "betray", 
+            "out_edge": [], 
+            "key": "17.441", 
+            "community": 10.0, 
+            "id": "betray", 
+            "concept": "betray", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "lie, tell lies", 
+            "out_edge": [], 
+            "key": "16.67", 
+            "community": 160.0, 
+            "id": "lie, tell lies", 
+            "concept": "lie, tell lies", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

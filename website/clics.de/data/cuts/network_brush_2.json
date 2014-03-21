@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 207.0, "label": "brush", "body_part": 0.0, "concept": "brush", "id": "brush", "swadesh100": 0.0, "out_edge": [], "key": "6.92"}, {"community": 207.0, "label": "comb", "body_part": 0.0, "concept": "comb", "id": "comb", "swadesh100": 0.0, "out_edge": [], "key": "6.91"}], "adjacency": [[{"edge_width": 2.73979591837, "families": 9.0, "weight": 95.29411764705881, "languages": 32.0, "id": "comb"}], [{"edge_width": 2.73979591837, "families": 9.0, "weight": 95.29411764705881, "languages": 32.0, "id": "brush"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 32.0, 
+                "weight": 95.29411764705881, 
+                "id": "brush", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.73979591837, 
+                "languages": 32.0, 
+                "weight": 95.29411764705881, 
+                "id": "comb", 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "comb", 
+            "out_edge": [], 
+            "key": "6.91", 
+            "community": 207.0, 
+            "id": "comb", 
+            "concept": "comb", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "brush", 
+            "out_edge": [], 
+            "key": "6.92", 
+            "community": 207.0, 
+            "id": "brush", 
+            "concept": "brush", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

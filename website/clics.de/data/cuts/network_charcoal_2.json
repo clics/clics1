@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 180.0, "label": "embers", "body_part": 0.0, "concept": "embers", "id": "embers", "swadesh100": 0.0, "out_edge": [], "key": "1.841"}, {"community": 180.0, "label": "charcoal", "body_part": 0.0, "concept": "charcoal", "id": "charcoal", "swadesh100": 0.0, "out_edge": [], "key": "1.89"}], "adjacency": [[{"edge_width": 8.9387755102, "families": 23.0, "weight": 551.0416666666667, "languages": 42.0, "id": "charcoal"}], [{"edge_width": 8.9387755102, "families": 23.0, "weight": 551.0416666666667, "languages": 42.0, "id": "embers"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 8.9387755102, 
+                "languages": 42.0, 
+                "weight": 551.0416666666667, 
+                "id": "embers", 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 8.9387755102, 
+                "languages": 42.0, 
+                "weight": 551.0416666666667, 
+                "id": "charcoal", 
+                "families": 23.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "charcoal", 
+            "out_edge": [], 
+            "key": "1.89", 
+            "community": 180.0, 
+            "id": "charcoal", 
+            "concept": "charcoal", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "embers", 
+            "out_edge": [], 
+            "key": "1.841", 
+            "community": 180.0, 
+            "id": "embers", 
+            "concept": "embers", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

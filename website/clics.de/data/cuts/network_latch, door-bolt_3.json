@@ -1,1 +1,87 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 124.0, "label": "lock (noun)", "body_part": 0.0, "concept": "lock (noun)", "id": "lock (noun)", "swadesh100": 0.0, "out_edge": [], "key": "7.23"}, {"community": 124.0, "label": "key", "body_part": 0.0, "concept": "key", "id": "key", "swadesh100": 0.0, "out_edge": [], "key": "7.24"}, {"community": 124.0, "label": "latch, door-bolt", "body_part": 0.0, "concept": "latch, door-bolt", "id": "latch, door-bolt", "swadesh100": 0.0, "out_edge": [], "key": "7.231"}], "adjacency": [[{"edge_width": 3.29081632653, "families": 9.0, "weight": 132.78688524590163, "languages": 18.0, "id": "key"}, {"edge_width": 6.04591836735, "families": 14.0, "weight": 332.20338983050846, "languages": 17.0, "id": "latch, door-bolt"}], [{"edge_width": 3.29081632653, "families": 9.0, "weight": 132.78688524590163, "languages": 18.0, "id": "lock (noun)"}, {"edge_width": 1.77551020408, "families": 4.0, "weight": 26.229508196721312, "languages": 4.0, "id": "latch, door-bolt"}], [{"edge_width": 6.04591836735, "families": 14.0, "weight": 332.20338983050846, "languages": 17.0, "id": "lock (noun)"}, {"edge_width": 1.77551020408, "families": 4.0, "weight": 26.229508196721312, "languages": 4.0, "id": "key"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 26.229508196721312, 
+                "id": "key", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 6.04591836735, 
+                "languages": 17.0, 
+                "weight": 332.20338983050846, 
+                "id": "lock (noun)", 
+                "families": 14.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.77551020408, 
+                "languages": 4.0, 
+                "weight": 26.229508196721312, 
+                "id": "latch, door-bolt", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 3.29081632653, 
+                "languages": 18.0, 
+                "weight": 132.78688524590163, 
+                "id": "lock (noun)", 
+                "families": 9.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 6.04591836735, 
+                "languages": 17.0, 
+                "weight": 332.20338983050846, 
+                "id": "latch, door-bolt", 
+                "families": 14.0
+            }, 
+            {
+                "edge_width": 3.29081632653, 
+                "languages": 18.0, 
+                "weight": 132.78688524590163, 
+                "id": "key", 
+                "families": 9.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "latch, door-bolt", 
+            "out_edge": [], 
+            "key": "7.231", 
+            "community": 124.0, 
+            "id": "latch, door-bolt", 
+            "concept": "latch, door-bolt", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "key", 
+            "out_edge": [], 
+            "key": "7.24", 
+            "community": 124.0, 
+            "id": "key", 
+            "concept": "key", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "lock (noun)", 
+            "out_edge": [], 
+            "key": "7.23", 
+            "community": 124.0, 
+            "id": "lock (noun)", 
+            "concept": "lock (noun)", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

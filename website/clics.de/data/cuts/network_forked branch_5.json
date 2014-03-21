@@ -1,1 +1,202 @@
-{"multigraph": false, "directed": false, "adjacency": [[{"weight": 3.508771929824561, "families": 2.0, "languages": 2.0, "edge_width": 1.5, "id": "arm"}, {"weight": 77.88461538461539, "families": 9.0, "languages": 20.0, "edge_width": 2.46428571429, "id": "branch"}, {"weight": 0.8695652173913043, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "wing"}], [{"weight": 3.508771929824561, "families": 2.0, "languages": 2.0, "edge_width": 1.5, "id": "forked branch"}, {"weight": 508.6538461538462, "families": 23.0, "languages": 74.0, "edge_width": 8.25, "id": "hand"}, {"weight": 42.241379310344826, "families": 7.0, "languages": 9.0, "edge_width": 2.05102040816, "id": "branch"}, {"weight": 30.0, "families": 6.0, "languages": 10.0, "edge_width": 1.91326530612, "id": "wing"}], [{"weight": 0.8695652173913043, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "forked branch"}, {"weight": 30.0, "families": 6.0, "languages": 10.0, "edge_width": 1.91326530612, "id": "arm"}, {"weight": 7.5, "families": 3.0, "languages": 3.0, "edge_width": 1.5, "id": "branch"}, {"weight": 0.7936507936507936, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "hand"}], [{"weight": 77.88461538461539, "families": 9.0, "languages": 20.0, "edge_width": 2.46428571429, "id": "forked branch"}, {"weight": 42.241379310344826, "families": 7.0, "languages": 9.0, "edge_width": 2.05102040816, "id": "arm"}, {"weight": 7.5, "families": 3.0, "languages": 3.0, "edge_width": 1.5, "id": "wing"}, {"weight": 13.333333333333334, "families": 4.0, "languages": 4.0, "edge_width": 1.63775510204, "id": "hand"}], [{"weight": 0.7874015748031495, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "hand"}, {"weight": 0.7936507936507936, "families": 1.0, "languages": 1.0, "edge_width": 1.5, "id": "wing"}, {"weight": 13.333333333333334, "families": 4.0, "languages": 4.0, "edge_width": 1.63775510204, "id": "branch"}, {"weight": 508.6538461538462, "families": 23.0, "languages": 74.0, "edge_width": 8.25, "id": "arm"}]], "graph": [], "nodes": [{"swadesh100": 0.0, "label": "forked branch", "concept": "forked branch", "community": 38.0, "id": "forked branch", "body_part": 0.0, "out_edge": [], "key": "8.74"}, {"swadesh100": 0.0, "label": "arm", "concept": "arm", "community": 38.0, "id": "arm", "body_part": 1.0, "out_edge": [], "key": "4.31"}, {"swadesh100": 0.0, "label": "wing", "concept": "wing", "community": 1.0, "id": "wing", "body_part": 1.0, "out_edge": [], "key": "4.392"}, {"swadesh100": 0.0, "label": "branch", "concept": "branch", "community": 38.0, "id": "branch", "body_part": 0.0, "out_edge": [], "key": "8.55"}, {"swadesh100": 1.0, "label": "hand", "concept": "hand", "community": 38.0, "id": "hand", "body_part": 1.0, "out_edge": [], "key": "4.33"}]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8695652173913043, 
+                "id": "forked branch", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.7936507936507936, 
+                "id": "hand", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 7.5, 
+                "id": "branch", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 30.0, 
+                "id": "arm", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.8695652173913043, 
+                "id": "wing", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 2.46428571429, 
+                "languages": 20.0, 
+                "weight": 77.88461538461539, 
+                "id": "branch", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "id": "arm", 
+                "families": 2.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.7936507936507936, 
+                "id": "wing", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.7874015748031495, 
+                "id": "hand", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.333333333333334, 
+                "id": "branch", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 8.25, 
+                "languages": 74.0, 
+                "weight": 508.6538461538462, 
+                "id": "arm", 
+                "families": 23.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.46428571429, 
+                "languages": 20.0, 
+                "weight": 77.88461538461539, 
+                "id": "forked branch", 
+                "families": 9.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 13.333333333333334, 
+                "id": "hand", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 3.0, 
+                "weight": 7.5, 
+                "id": "wing", 
+                "families": 3.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 9.0, 
+                "weight": 42.241379310344826, 
+                "id": "arm", 
+                "families": 7.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 2.0, 
+                "weight": 3.508771929824561, 
+                "id": "forked branch", 
+                "families": 2.0
+            }, 
+            {
+                "edge_width": 8.25, 
+                "languages": 74.0, 
+                "weight": 508.6538461538462, 
+                "id": "hand", 
+                "families": 23.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 9.0, 
+                "weight": 42.241379310344826, 
+                "id": "branch", 
+                "families": 7.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 30.0, 
+                "id": "wing", 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 1.0, 
+            "label": "wing", 
+            "out_edge": [], 
+            "key": "4.392", 
+            "community": 1.0, 
+            "id": "wing", 
+            "concept": "wing", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "forked branch", 
+            "out_edge": [], 
+            "key": "8.74", 
+            "community": 38.0, 
+            "id": "forked branch", 
+            "concept": "forked branch", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "hand", 
+            "out_edge": [], 
+            "key": "4.33", 
+            "community": 38.0, 
+            "id": "hand", 
+            "concept": "hand", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "branch", 
+            "out_edge": [], 
+            "key": "8.55", 
+            "community": 38.0, 
+            "id": "branch", 
+            "concept": "branch", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 1.0, 
+            "label": "arm", 
+            "out_edge": [], 
+            "key": "4.31", 
+            "community": 38.0, 
+            "id": "arm", 
+            "concept": "arm", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

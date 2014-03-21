@@ -1,1 +1,47 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 220.0, "label": "dance", "body_part": 0.0, "concept": "dance", "id": "dance", "swadesh100": 0.0, "out_edge": [], "key": "10.44"}, {"community": 220.0, "label": "play", "body_part": 0.0, "concept": "play", "id": "play", "swadesh100": 0.0, "out_edge": [], "key": "16.26"}], "adjacency": [[{"edge_width": 1.91326530612, "families": 6.0, "weight": 30.76923076923077, "languages": 10.0, "id": "play"}], [{"edge_width": 1.91326530612, "families": 6.0, "weight": 30.76923076923077, "languages": 10.0, "id": "dance"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 30.76923076923077, 
+                "id": "dance", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 10.0, 
+                "weight": 30.76923076923077, 
+                "id": "play", 
+                "families": 6.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "play", 
+            "out_edge": [], 
+            "key": "16.26", 
+            "community": 220.0, 
+            "id": "play", 
+            "concept": "play", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "dance", 
+            "out_edge": [], 
+            "key": "10.44", 
+            "community": 220.0, 
+            "id": "dance", 
+            "concept": "dance", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

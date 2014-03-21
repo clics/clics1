@@ -1,1 +1,153 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 133.0, "label": "arch", "body_part": 0.0, "concept": "arch", "id": "arch", "swadesh100": 0.0, "out_edge": [], "key": "7.58"}, {"community": 133.0, "label": "arrow", "body_part": 0.0, "concept": "arrow", "id": "arrow", "swadesh100": 0.0, "out_edge": [], "key": "20.25"}, {"community": 133.0, "label": "bow", "body_part": 0.0, "concept": "bow", "id": "bow", "swadesh100": 0.0, "out_edge": [], "key": "20.24"}, {"community": 52.0, "label": "sword", "body_part": 0.0, "concept": "sword", "id": "sword", "swadesh100": 0.0, "out_edge": [], "key": "20.27"}, {"community": 52.0, "label": "spear", "body_part": 0.0, "concept": "spear", "id": "spear", "swadesh100": 0.0, "out_edge": [], "key": "20.26"}], "adjacency": [[{"edge_width": 1.5, "families": 1.0, "weight": 1.2345679012345678, "languages": 1.0, "id": "arrow"}, {"edge_width": 2.05102040816, "families": 6.0, "weight": 47.368421052631575, "languages": 20.0, "id": "bow"}], [{"edge_width": 1.5, "families": 1.0, "weight": 1.2345679012345678, "languages": 1.0, "id": "arch"}, {"edge_width": 1.5, "families": 1.0, "weight": 1.098901098901099, "languages": 1.0, "id": "sword"}, {"edge_width": 1.91326530612, "families": 6.0, "weight": 33.33333333333333, "languages": 8.0, "id": "bow"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 15.238095238095239, "languages": 5.0, "id": "spear"}], [{"edge_width": 2.05102040816, "families": 6.0, "weight": 47.368421052631575, "languages": 20.0, "id": "arch"}, {"edge_width": 1.91326530612, "families": 6.0, "weight": 33.33333333333333, "languages": 8.0, "id": "arrow"}], [{"edge_width": 1.5, "families": 1.0, "weight": 1.098901098901099, "languages": 1.0, "id": "arrow"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 19.27710843373494, "languages": 4.0, "id": "spear"}], [{"edge_width": 1.63775510204, "families": 4.0, "weight": 15.238095238095239, "languages": 5.0, "id": "arrow"}, {"edge_width": 1.63775510204, "families": 4.0, "weight": 19.27710843373494, "languages": 4.0, "id": "sword"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.098901098901099, 
+                "id": "arrow", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 19.27710843373494, 
+                "id": "spear", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 15.238095238095239, 
+                "id": "arrow", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 4.0, 
+                "weight": 19.27710843373494, 
+                "id": "sword", 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 8.0, 
+                "weight": 33.33333333333333, 
+                "id": "arrow", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 20.0, 
+                "weight": 47.368421052631575, 
+                "id": "arch", 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 1.63775510204, 
+                "languages": 5.0, 
+                "weight": 15.238095238095239, 
+                "id": "spear", 
+                "families": 4.0
+            }, 
+            {
+                "edge_width": 1.91326530612, 
+                "languages": 8.0, 
+                "weight": 33.33333333333333, 
+                "id": "bow", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.098901098901099, 
+                "id": "sword", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.2345679012345678, 
+                "id": "arch", 
+                "families": 1.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 2.05102040816, 
+                "languages": 20.0, 
+                "weight": 47.368421052631575, 
+                "id": "bow", 
+                "families": 6.0
+            }, 
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 1.2345679012345678, 
+                "id": "arrow", 
+                "families": 1.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "sword", 
+            "out_edge": [], 
+            "key": "20.27", 
+            "community": 52.0, 
+            "id": "sword", 
+            "concept": "sword", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "spear", 
+            "out_edge": [], 
+            "key": "20.26", 
+            "community": 52.0, 
+            "id": "spear", 
+            "concept": "spear", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "bow", 
+            "out_edge": [], 
+            "key": "20.24", 
+            "community": 133.0, 
+            "id": "bow", 
+            "concept": "bow", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "arrow", 
+            "out_edge": [], 
+            "key": "20.25", 
+            "community": 133.0, 
+            "id": "arrow", 
+            "concept": "arrow", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "arch", 
+            "out_edge": [], 
+            "key": "7.58", 
+            "community": 133.0, 
+            "id": "arch", 
+            "concept": "arch", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}

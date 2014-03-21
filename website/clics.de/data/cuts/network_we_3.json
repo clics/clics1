@@ -1,1 +1,94 @@
-{"multigraph": false, "directed": false, "graph": [], "nodes": [{"community": 87.0, "label": "we (inclusive)", "body_part": 0.0, "concept": "we (inclusive)", "id": "we (inclusive)", "swadesh100": 0.0, "out_edge": [], "key": "2.941"}, {"community": 87.0, "label": "we (exclusive)", "body_part": 0.0, "concept": "we (exclusive)", "id": "we (exclusive)", "swadesh100": 0.0, "out_edge": [], "key": "2.942"}, {"community": 87.0, "label": "we", "body_part": 0.0, "concept": "we", "id": "we", "swadesh100": 1.0, "out_edge": [], "key": "2.94"}], "adjacency": [[{"edge_width": 7.01020408163, "families": 16.0, "weight": 406.3492063492063, "languages": 67.0, "id": "we (exclusive)"}, {"edge_width": 9.48979591837, "families": 21.0, "weight": 604.1095890410959, "languages": 73.0, "id": "we"}], [{"edge_width": 7.01020408163, "families": 16.0, "weight": 406.3492063492063, "languages": 67.0, "id": "we (inclusive)"}, {"edge_width": 7.97448979592, "families": 19.0, "weight": 487.8378378378378, "languages": 75.0, "id": "we"}], [{"edge_width": 9.48979591837, "families": 21.0, "weight": 604.1095890410959, "languages": 73.0, "id": "we (inclusive)"}, {"edge_width": 7.97448979592, "families": 19.0, "weight": 487.8378378378378, "languages": 75.0, "id": "we (exclusive)"}, {"edge_width": 1.5, "families": 1.0, "weight": 0.9345794392523363, "languages": 1.0, "id": "we"}]]}
+{
+    "adjacency": [
+        [
+            {
+                "edge_width": 1.5, 
+                "languages": 1.0, 
+                "weight": 0.9345794392523363, 
+                "id": "we", 
+                "families": 1.0
+            }, 
+            {
+                "edge_width": 7.97448979592, 
+                "languages": 75.0, 
+                "weight": 487.8378378378378, 
+                "id": "we (exclusive)", 
+                "families": 19.0
+            }, 
+            {
+                "edge_width": 9.48979591837, 
+                "languages": 73.0, 
+                "weight": 604.1095890410959, 
+                "id": "we (inclusive)", 
+                "families": 21.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 7.97448979592, 
+                "languages": 75.0, 
+                "weight": 487.8378378378378, 
+                "id": "we", 
+                "families": 19.0
+            }, 
+            {
+                "edge_width": 7.01020408163, 
+                "languages": 67.0, 
+                "weight": 406.3492063492063, 
+                "id": "we (inclusive)", 
+                "families": 16.0
+            }
+        ], 
+        [
+            {
+                "edge_width": 9.48979591837, 
+                "languages": 73.0, 
+                "weight": 604.1095890410959, 
+                "id": "we", 
+                "families": 21.0
+            }, 
+            {
+                "edge_width": 7.01020408163, 
+                "languages": 67.0, 
+                "weight": 406.3492063492063, 
+                "id": "we (exclusive)", 
+                "families": 16.0
+            }
+        ]
+    ], 
+    "nodes": [
+        {
+            "body_part": 0.0, 
+            "label": "we", 
+            "out_edge": [], 
+            "key": "2.94", 
+            "community": 87.0, 
+            "id": "we", 
+            "concept": "we", 
+            "swadesh100": 1.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "we (exclusive)", 
+            "out_edge": [], 
+            "key": "2.942", 
+            "community": 87.0, 
+            "id": "we (exclusive)", 
+            "concept": "we (exclusive)", 
+            "swadesh100": 0.0
+        }, 
+        {
+            "body_part": 0.0, 
+            "label": "we (inclusive)", 
+            "out_edge": [], 
+            "key": "2.941", 
+            "community": 87.0, 
+            "id": "we (inclusive)", 
+            "concept": "we (inclusive)", 
+            "swadesh100": 0.0
+        }
+    ], 
+    "graph": [], 
+    "directed": false, 
+    "multigraph": false
+}
