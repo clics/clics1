@@ -54,7 +54,7 @@ The visualization features various interactive functionalities that are designed
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.48\textwidth]{img/earthland.pdf}
-\caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts}
+\caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts (\url{http://clics.lingpy.org/browse.php?gloss=country&view=community})}
 \label{EarthLand}
 \end{center}
 \end{figure}
@@ -64,7 +64,7 @@ The force-directed graph layout ensures that all concepts are neatly arranged ac
 \begin{figure*}[htbp]
 \begin{center}
 \includegraphics[width=\textwidth]{img/silvermoneyAREAL.pdf}
-\caption{Force-directed graph with mouse-over functionalities showing one community in CLiCs (community 27: gold) together with a subset of the instances of a particular colexification pattern (left). The entries have different background colors depending on their location in the world map (cf. Figure \ref{World map})}
+\caption{Force-directed graph with mouse-over functionalities showing all strong links to a concept in CLiCs (\url{http://clics.lingpy.org/browse.php?gloss=money&view=part}) together with a subset of the instances of a particular colexification pattern (left). The entries have different background colors depending on their location in the world map (cf. Figure \ref{World map})}
 \label{MoneySilver}
 \end{center}
 \end{figure*}
@@ -80,7 +80,7 @@ As mentioned above, the edges of the graph represent the number of cases of cros
 Each language in the list is attributed a different background color depending on its language family or location in order to allow for an at-a-glance overview of all languages in the list. The user can choose from a drop-down menu whether to include the genealogical or areal information as the background color. For the genealogical information, all language families are attributed a different color value. Languages belonging to the same language families are therefore given the same background color. Moreover, the list is sorted according to language families. In this way, the user can immediately see how many languages of  a given family contribute to the overall strength for the connection at hand. 
 
 As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (specifying the east-west position) whereas the lightness of the color represents the position in terms of the latitude information (specifying the north-south position).\footnote{See \newcite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
-The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below).
+The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below). In addition, all languages in the list are displayed with their geographical location on the world map (see Figure \ref{MoneySilver}). Hence, areal patterns can be directly compared to the genealogical information in the list (if the first option is chosen).
 
 \begin{figure}[htbp]
 \begin{center}
@@ -89,6 +89,7 @@ The mapping from geolocation to color values allows for an easier evaluation of 
 \label{World map}
 \end{center}
 \end{figure}
+
 
 
 % show only edges with a minimum number of links
@@ -132,7 +133,7 @@ For the coloring of the language families, the background colors are generated w
 \end{figure}
 
 
-The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. 
+The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. The interactive world map is generated with the \texttt{topojson} package and makes use of the \texttt{d3.geo} projection module.
 
 \subsection{Case studies} \label{case study}
 
@@ -155,7 +156,7 @@ In order to illustrate the usefulness of the visualization for the purposes of e
 \begin{figure*}[htbp]
 \begin{center}
 \includegraphics[width=\textwidth]{img/footwheelAREAL.pdf}
-\caption{Force-directed graph with areal distribution for the concepts ``wheel'' and ``foot''}
+\caption{Force-directed graph with areal distribution for the concepts ``wheel'' and ``foot'' (\url{http://clics.lingpy.org/browse.php?gloss=wheel&view=part})}
 \label{WheelFootAreas}
 \end{center}
 \end{figure*}
