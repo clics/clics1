@@ -40,13 +40,23 @@ with an average of 4.72 concepts per community.
  
 The advantage of the community perspective on CLiCs is that it provides an independent automatic
 clustering of the data. The disadvantage is that this pre-selection deprives the user of finding
-alternative possibly interesting connections. Community-detection methods are not
+alternative possibly interesting connections between the concepts. Community-detection methods are not
 error-proof, and their performance varies depending on the algorithms being used and the data being analysed.
 Even more importantly, most community-detection methods are based on restricted decisions when
 clustering the nodes of a given network into groups. Every node is assigned to one community only.
 No transitions between communities are possible. In order to offer a less biased perspective on the
-network, we decided to use the following strategy.
-\textcolor{red}{According to our second strategy, we decided to cut the network in parts...}
+network, we decided to extract subgraphs for each concept in the data showing its strongest
+connections up to a certain depth of resolution. The individual subgraphs were constructed as follows: Starting
+from a given concept, we first searched for all of its direct neighbors with which it shared at
+least 5 colexifications in five different language families. The same procedure was applied to all neighbors
+which were added to the subgraph in the first run and repeated two times. If the resulting graph for a given concept was
+too small, a relaxed threshold of 4 colexifications in four different language families was used.  
+In the resulting subgraphs, the longest possible path length between the basic concept and all other
+concepts is 3. Having excluded 280 subgraphs in which no stronger links between the basic concept and any
+other concept could be found, this procedure left us with 1000 individual subgraphs of individual
+size and structure, ranging from 56 nodes (basic concept `{take}') to 2 (basic concept `{north}'). 
+When browsing the network representation of the data, the user can select between both perspectives
+on the data in CLiCs, the community perspective, and the perspective of the strongest connections.
 
 \begin{figure}[b]
     \centering
