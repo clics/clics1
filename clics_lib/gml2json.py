@@ -15,7 +15,7 @@ def gml2json(infile):
 
     # write to file
     f = open(infile.replace('gml','json'),'w')
-    json.dump(jdata,f,indent=4)
+    json.dump(jdata,f)
     f.close()
     print("[i] Conversion successful...")
 
@@ -26,6 +26,6 @@ def graph2json(graph,filename):
 
     # write to file
     f = open(filename+'.json','w')
-    json.dump(jdata,f,indent=4)
+    json.dump(jdata,f)
     f.close()
 

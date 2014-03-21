@@ -2,112 +2,112 @@
     "adjacency": [
         [
             {
-                "edge_width": 1.91326530612, 
-                "languages": 8.0, 
-                "weight": 33.33333333333333, 
-                "id": "bow", 
-                "families": 6.0
-            }, 
-            {
-                "edge_width": 1.63775510204, 
-                "languages": 5.0, 
+                "id": "arrow", 
                 "weight": 15.238095238095239, 
+                "languages": 5.0, 
+                "edge_width": 1.63775510204, 
+                "families": 4.0
+            }
+        ], 
+        [
+            {
                 "id": "spear", 
-                "families": 4.0
-            }, 
-            {
-                "edge_width": 1.5, 
-                "languages": 1.0, 
-                "weight": 1.2345679012345678, 
-                "id": "arch", 
-                "families": 1.0
-            }
-        ], 
-        [
-            {
-                "edge_width": 1.91326530612, 
-                "languages": 8.0, 
-                "weight": 33.33333333333333, 
-                "id": "arrow", 
-                "families": 6.0
-            }, 
-            {
-                "edge_width": 2.05102040816, 
-                "languages": 20.0, 
-                "weight": 47.368421052631575, 
-                "id": "arch", 
-                "families": 6.0
-            }
-        ], 
-        [
-            {
-                "edge_width": 1.63775510204, 
-                "languages": 5.0, 
                 "weight": 15.238095238095239, 
-                "id": "arrow", 
+                "languages": 5.0, 
+                "edge_width": 1.63775510204, 
                 "families": 4.0
+            }, 
+            {
+                "id": "bow", 
+                "weight": 33.33333333333333, 
+                "languages": 8.0, 
+                "edge_width": 1.91326530612, 
+                "families": 6.0
+            }, 
+            {
+                "id": "arch", 
+                "weight": 1.2345679012345678, 
+                "languages": 1.0, 
+                "edge_width": 1.5, 
+                "families": 1.0
             }
         ], 
         [
             {
-                "edge_width": 2.05102040816, 
-                "languages": 20.0, 
-                "weight": 47.368421052631575, 
-                "id": "bow", 
+                "id": "arrow", 
+                "weight": 33.33333333333333, 
+                "languages": 8.0, 
+                "edge_width": 1.91326530612, 
                 "families": 6.0
             }, 
             {
-                "edge_width": 1.5, 
-                "languages": 1.0, 
-                "weight": 1.2345679012345678, 
+                "id": "arch", 
+                "weight": 47.368421052631575, 
+                "languages": 20.0, 
+                "edge_width": 2.05102040816, 
+                "families": 6.0
+            }
+        ], 
+        [
+            {
                 "id": "arrow", 
+                "weight": 1.2345679012345678, 
+                "languages": 1.0, 
+                "edge_width": 1.5, 
                 "families": 1.0
+            }, 
+            {
+                "id": "bow", 
+                "weight": 47.368421052631575, 
+                "languages": 20.0, 
+                "edge_width": 2.05102040816, 
+                "families": 6.0
             }
         ]
     ], 
+    "directed": false, 
     "nodes": [
         {
-            "body_part": 0.0, 
-            "label": "arrow", 
-            "out_edge": [], 
-            "key": "20.25", 
-            "community": 133.0, 
-            "id": "arrow", 
-            "concept": "arrow", 
-            "swadesh100": 0.0
-        }, 
-        {
-            "body_part": 0.0, 
-            "label": "bow", 
-            "out_edge": [], 
-            "key": "20.24", 
-            "community": 133.0, 
-            "id": "bow", 
-            "concept": "bow", 
-            "swadesh100": 0.0
-        }, 
-        {
-            "body_part": 0.0, 
             "label": "spear", 
             "out_edge": [], 
-            "key": "20.26", 
             "community": 52.0, 
             "id": "spear", 
+            "key": "20.26", 
             "concept": "spear", 
-            "swadesh100": 0.0
+            "swadesh100": 0.0, 
+            "body_part": 0.0
         }, 
         {
-            "body_part": 0.0, 
+            "label": "arrow", 
+            "out_edge": [], 
+            "community": 133.0, 
+            "id": "arrow", 
+            "key": "20.25", 
+            "concept": "arrow", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0
+        }, 
+        {
+            "label": "bow", 
+            "out_edge": [], 
+            "community": 133.0, 
+            "id": "bow", 
+            "key": "20.24", 
+            "concept": "bow", 
+            "swadesh100": 0.0, 
+            "body_part": 0.0
+        }, 
+        {
             "label": "arch", 
             "out_edge": [], 
-            "key": "7.58", 
             "community": 133.0, 
             "id": "arch", 
+            "key": "7.58", 
             "concept": "arch", 
-            "swadesh100": 0.0
+            "swadesh100": 0.0, 
+            "body_part": 0.0
         }
     ], 
-    "graph": [], 
-    "directed": false, 
-    "multigraph": false
+    "multigraph": false, 
+    "graph": []
 }

@@ -33,10 +33,10 @@ def nwk2json(treestring,filename=""):
     
     if filename:
         f = open(filename+'.json','w')
-        json.dump(d,f,indent=1)
+        json.dump(d,f)
         f.close()
     else:
-        return json.dumps(d,indent=4)
+        return json.dumps(d)
     
 
 
