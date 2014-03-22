@@ -69,22 +69,27 @@ on the data in CLiCs, the community perspective, and the perspective of the stro
 
 % Force-directed graph; move nodes to desired position
 
-The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic polysemies as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. We decided to have separate graphs for all communities, which the user can select from a drop-down menu. As described above, the communities have been automatically generated from the whole network of concepts and links with the help of the Infomap algorithm for community detection \cite{Rosvall2008}. 
+The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic colexifications as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. \textcolor{red}{As mentioned in the previous section, we decided to provide two different views on the network, one for separate communities obtained from the \emph{Infomap} analysis \cite{Rosvall2008}, and one in which the subgraph containing the strongest links for each concept is displayed.  With help of the web interface for network browsing (\url{\clics{browse.php}}), the user can look up the respective subgraphs by selecting the concept of interest and specifying the desired `view'.}
 
 \begin{figure}[htbp]
-\begin{center}
-\includegraphics[width=0.48\textwidth]{img/earthland.pdf}
-\caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts}
+    \centering
+    \href{\clics{browse.php?gloss=earth,
+    land}}{\includegraphics[width=0.48\textwidth,trim=5cm 2cm 1cm 1cm]{img/earthland2.pdf}}
+\caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts.
+In order to browse the graph on the CLiCs website, use the following URL: \url{\clics{browse.php?gloss=earth,
+land}}.}
 \label{EarthLand}
-\end{center}
 \end{figure}
 
 The force-directed graph layout ensures that all concepts are neatly arranged according to their similarity as defined by the number of cross-linguistic colexifications. As a result, concepts that are highly connected are located close to each other.  To make it easier for users to explore the network that is depicted in the graph, concepts can be dragged to different positions where there is less overlap. The dragging behavior of a concept  is activated when mousing over the respective node in the graph (when the cursor symbol turns into a crosshair).
 
 \begin{figure*}[htbp]
 \begin{center}
-\includegraphics[width=\textwidth]{img/silvermoneyAREAL.pdf}
-\caption{Force-directed graph with mouse-over functionalities showing one community in CLiCs (community 27: gold) together with a subset of the instances of a particular colexification pattern (left). The entries have different background colors depending on their location in the world map (cf. Figure \ref{World map})}
+    \href{\clics{browse.php?gloss=money&view=part}}{\includegraphics[width=\textwidth]{img/silvermoneyAREAL.pdf}}
+\caption{Force-directed graph with mouse-over functionalities showing the strongest links of the
+concept `{money}'. The entries have different background colors depending on their location in the
+world map (cf. Figure \ref{World map}). In order to browse the graph on the CLiCs website, use the
+following URL: \url{\clics{browse.php?gloss=money&view=part}}.}
 \label{MoneySilver}
 \end{center}
 \end{figure*}
@@ -105,7 +110,8 @@ The mapping from geolocation to color values allows for an easier evaluation of 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.48\textwidth]{img/ColorScaleWorld.png}
-\caption{World map with color gradient}
+\caption{World map with color gradient. \textcolor{red}{maybe add a small explanation sentence here,
+probably with a backreference to figure 3, or somehting similar}}
 \label{World map}
 \end{center}
 \end{figure}
@@ -146,8 +152,8 @@ For the coloring of the language families, the background colors are generated w
 
 \begin{figure}[h]
     \centering
-   \includegraphics[width=0.48\textwidth]{img/Lab_HSV.png}
-    \caption{Comparison between two-dimensional color gradients in the L*a*b* (top) and HSV (bottom) color space}
+   \includegraphics[width=0.48\textwidth]{img/Lab_HSV2.png}
+    \caption{Comparison between two-dimensional color gradients in the L*a*b* (left) and HSV (right) color space}
     \label{lab vs hsv}
 \end{figure}
 
@@ -174,8 +180,10 @@ In order to illustrate the usefulness of the visualization for the purposes of e
 
 \begin{figure*}[htbp]
 \begin{center}
-\includegraphics[width=\textwidth]{img/footwheelAREAL.pdf}
-\caption{Force-directed graph with areal distribution for the concepts ``wheel'' and ``foot''}
+    \href{\clics{browse.php?gloss=wheel&view=part}}{\includegraphics[width=\textwidth]{img/footwheelAREAL.pdf}}
+\caption{Force-directed graph with areal distribution for the concepts `wheel' and `foot'. In order
+to browse the graph on the CLiCs website, enter the following URL:
+\url{\clics{browse.php?gloss=wheel&view=part}}.}
 \label{WheelFootAreas}
 \end{center}
 \end{figure*}

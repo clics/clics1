@@ -120,16 +120,37 @@ include('query/query_community.php');
   </tr>
 </table>
 <!-- Pieces of Thomas' code -->
-<script type="text/javascript" src="js/d3/d3.v2.js"></script>
+<script type="text/javascript" src="js/d3/d3.v3.js"></script>
+<script type="text/javascript" src="js/d3/topojson.js"></script>
+<script type="text/javascript" src="js/mousetrap.js"></script>
 <div id="visualization">
       <div id="vis"></div>
       <div id="info" class="hidden"></div>
-      <img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="230">
+      <div id="map" style="border: thin solid #ccc;"></div>
+      <!--<img id="WorldColorScale" class='hidden' src="pics/ColorScaleWorld.png" width="230">-->
 <script src="js/visualize.js" type="text/javascript"></script>
 
 <!--<div id="test" onclick="init(filename);">TEST</div>-->
 
 </div></div>
+<script type="text/javascript">
+    Mousetrap.bind('ctrl+e', function()
+    {
+	// Get the d3js SVG element
+	var tmp = document.getElementById("vis");
+	var svg = tmp.getElementsByTagName("svg")[0];
+	// Extract the data as SVG text string
+	var svg_xml = (new XMLSerializer).serializeToString(svg);
+
+	// Submit the <FORM> to the server.
+	// The result will be an attachment file to download.
+	var form = document.getElementById("svgform");
+	form['data'].value = svg_xml ;
+	form.submit();
+}
+
+    );
+</script>
 <br>
 <?php
   }
@@ -154,7 +175,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 20, 2014, 10:40 CET</p>
+ <p>Last updated on Mar. 22, 2014, 11:21 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
