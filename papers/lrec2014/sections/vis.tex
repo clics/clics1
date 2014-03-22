@@ -1,3 +1,25 @@
+\textcolor{red}{Kurze Hinweise auf die Änderungen, die ich gemacht habe.
+\begin{itemize}
+    \item anpassung der neuen "views" in section "interactive functionalities" (rot-coloriert)
+    \item generelle anpassung der figures durch
+	\begin{itemize}
+	    \item einfügen der URLs: weiß nicht, ob das so gut aussieht mit dem TExt, also ggf
+		einfach ändern, oder nur reduzieren auf die URL in Klammern (?)
+	    \item verlinken der images mit dem hyperlink, damit ein Klicken sofort zur Website
+		führt. Ob das was bringt, hängt davon ab, wie LREC die PDFs einbindet. Wenn es nicht
+		klappt, ist das schade, aber verkraftbar
+	\end{itemize}
+    \item ich habe auch die grafiken anpassen müssen, weil die PDF-Struktur "gecroppt" ist (oder wie
+	man das nennt), jedoch nach wie vor die alte Seitengröße enthält. Um das zu umgehen, habe
+	ich sie mittels pstricks noch mal explizit eingebunden (siehe wheel-image.pdf). Visuell
+	macht das keinen Unterschied, aber der HREF ist jetzt auf dem ganzen Bild aktiv, und nicht
+	nur auf einzelnen Teilen
+    \item ich habe auch figure 5 auf die seite gedreht, weil sie mir zu groß war und ich auch den
+	Unterschied schlecht erfassen konnte. Ich finde, dass er in der jetzigen form praegnanter
+	ist und man besser den unterschied erkennt.
+\end{itemize}
+Lösch diesen Text und die anderen Rot-Stellen einfach, wenn du dir dies hier angeschaut hast. 
+Grüße, Mattis}
 The CLiCs database is available online at \url{http://clics.lingpy.org} and offers its users a search interface to all concepts and cross-linguistic colexifications between concepts. The wealth of information in the database and the various possibilities of exploring the colexifications in the network call for an additional component that makes potentially interesting observations more easily accessible to the researcher. The idea was to equip the database with a visualization component that provides various interactive functionalities and enables users to navigate through the networks of colexifications while at the same time providing more detailed information on the actual language data. 
 %A prototype of the visualization is online accessible.\footnote{\url{http://tinyurl.com/clicsvis}}
 \nocite{Wold2009,Key2007}
@@ -85,7 +107,7 @@ The force-directed graph layout ensures that all concepts are neatly arranged ac
 
 \begin{figure*}[htbp]
 \begin{center}
-    \href{\clics{browse.php?gloss=money&view=part}}{\includegraphics[width=\textwidth]{img/silvermoneyAREAL.pdf}}
+    \href{\clics{browse.php?gloss=money&view=part}}{\includegraphics[width=\textwidth]{img/silver-image.pdf}}
 \caption{Force-directed graph with mouse-over functionalities showing the strongest links of the
 concept `{money}'. The entries have different background colors depending on their location in the
 world map (cf. Figure \ref{World map}). In order to browse the graph on the CLiCs website, use the
@@ -153,7 +175,8 @@ For the coloring of the language families, the background colors are generated w
 \begin{figure}[h]
     \centering
    \includegraphics[width=0.48\textwidth]{img/Lab_HSV2.png}
-    \caption{Comparison between two-dimensional color gradients in the L*a*b* (left) and HSV (right) color space}
+    \caption{Comparison between two-dimensional color gradients in the L*a*b* (left) and HSV (right)
+    color space.}
     \label{lab vs hsv}
 \end{figure}
 
@@ -180,7 +203,7 @@ In order to illustrate the usefulness of the visualization for the purposes of e
 
 \begin{figure*}[htbp]
 \begin{center}
-    \href{\clics{browse.php?gloss=wheel&view=part}}{\includegraphics[width=\textwidth]{img/footwheelAREAL.pdf}}
+    \href{\clics{browse.php?gloss=wheel&view=part}}{\includegraphics[width=\textwidth]{img/wheel-image.pdf}}
 \caption{Force-directed graph with areal distribution for the concepts `wheel' and `foot'. In order
 to browse the graph on the CLiCs website, enter the following URL:
 \url{\clics{browse.php?gloss=wheel&view=part}}.}
