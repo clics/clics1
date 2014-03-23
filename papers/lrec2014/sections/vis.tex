@@ -1,25 +1,25 @@
-\textcolor{red}{Kurze Hinweise auf die Änderungen, die ich gemacht habe.
-\begin{itemize}
-    \item anpassung der neuen "views" in section "interactive functionalities" (rot-coloriert)
-    \item generelle anpassung der figures durch
-	\begin{itemize}
-	    \item einfügen der URLs: weiß nicht, ob das so gut aussieht mit dem TExt, also ggf
-		einfach ändern, oder nur reduzieren auf die URL in Klammern (?)
-	    \item verlinken der images mit dem hyperlink, damit ein Klicken sofort zur Website
-		führt. Ob das was bringt, hängt davon ab, wie LREC die PDFs einbindet. Wenn es nicht
-		klappt, ist das schade, aber verkraftbar
-	\end{itemize}
-    \item ich habe auch die grafiken anpassen müssen, weil die PDF-Struktur "gecroppt" ist (oder wie
-	man das nennt), jedoch nach wie vor die alte Seitengröße enthält. Um das zu umgehen, habe
-	ich sie mittels pstricks noch mal explizit eingebunden (siehe wheel-image.pdf). Visuell
-	macht das keinen Unterschied, aber der HREF ist jetzt auf dem ganzen Bild aktiv, und nicht
-	nur auf einzelnen Teilen
-    \item ich habe auch figure 5 auf die seite gedreht, weil sie mir zu groß war und ich auch den
-	Unterschied schlecht erfassen konnte. Ich finde, dass er in der jetzigen form praegnanter
-	ist und man besser den unterschied erkennt.
-\end{itemize}
-Lösch diesen Text und die anderen Rot-Stellen einfach, wenn du dir dies hier angeschaut hast. 
-Grüße, Mattis}
+%\textcolor{red}{Kurze Hinweise auf die Änderungen, die ich gemacht habe.
+%\begin{itemize}
+%    \item anpassung der neuen "views" in section "interactive functionalities" (rot-coloriert)
+%    \item generelle anpassung der figures durch
+%	\begin{itemize}
+%	    \item einfügen der URLs: weiß nicht, ob das so gut aussieht mit dem TExt, also ggf
+%		einfach ändern, oder nur reduzieren auf die URL in Klammern (?)
+%	    \item verlinken der images mit dem hyperlink, damit ein Klicken sofort zur Website
+%		führt. Ob das was bringt, hängt davon ab, wie LREC die PDFs einbindet. Wenn es nicht
+%		klappt, ist das schade, aber verkraftbar
+%	\end{itemize}
+%    \item ich habe auch die grafiken anpassen müssen, weil die PDF-Struktur "gecroppt" ist (oder wie
+%	man das nennt), jedoch nach wie vor die alte Seitengröße enthält. Um das zu umgehen, habe
+%	ich sie mittels pstricks noch mal explizit eingebunden (siehe wheel-image.pdf). Visuell
+%	macht das keinen Unterschied, aber der HREF ist jetzt auf dem ganzen Bild aktiv, und nicht
+%	nur auf einzelnen Teilen
+%    \item ich habe auch figure 5 auf die seite gedreht, weil sie mir zu groß war und ich auch den
+%	Unterschied schlecht erfassen konnte. Ich finde, dass er in der jetzigen form praegnanter
+%	ist und man besser den unterschied erkennt.
+%\end{itemize}
+%Lösch diesen Text und die anderen Rot-Stellen einfach, wenn du dir dies hier angeschaut hast. 
+%Grüße, Mattis}
 The CLiCs database is available online at \url{http://clics.lingpy.org} and offers its users a search interface to all concepts and cross-linguistic colexifications between concepts. The wealth of information in the database and the various possibilities of exploring the colexifications in the network call for an additional component that makes potentially interesting observations more easily accessible to the researcher. The idea was to equip the database with a visualization component that provides various interactive functionalities and enables users to navigate through the networks of colexifications while at the same time providing more detailed information on the actual language data. 
 %A prototype of the visualization is online accessible.\footnote{\url{http://tinyurl.com/clicsvis}}
 \nocite{Wold2009,Key2007}
@@ -91,15 +91,13 @@ on the data in CLiCs, the community perspective, and the perspective of the stro
 
 % Force-directed graph; move nodes to desired position
 
-The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic colexifications as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. \textcolor{red}{As mentioned in the previous section, we decided to provide two different views on the network, one for separate communities obtained from the \emph{Infomap} analysis \cite{Rosvall2008}, and one in which the subgraph containing the strongest links for each concept is displayed.  With help of the web interface for network browsing (\url{\clics{browse.php}}), the user can look up the respective subgraphs by selecting the concept of interest and specifying the desired `view'.}
+The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic colexifications as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. As mentioned in the previous section, we decided to provide two different views on the network, one for separate communities obtained from the \emph{Infomap} analysis \cite{Rosvall2008}, and one in which the subgraph containing the strongest links for each concept is displayed.  With help of the web interface for network browsing (\url{\clics{browse.php}}), the user can look up the respective subgraphs by selecting the concept of interest and specifying the desired `view'.
 
 \begin{figure}[htbp]
     \centering
-    \href{\clics{browse.php?gloss=earth,
-    land}}{\includegraphics[width=0.48\textwidth,trim=5cm 2cm 1cm 1cm]{img/earthland2.pdf}}
+    \href{\clics{browse.php?gloss=earth,\%20land}}{\includegraphics[width=0.48\textwidth,trim=5cm 2cm 1cm 1cm]{img/earthland2.pdf}}
 \caption{Force-directed graph with mouse-over functionalities highlighting all connected concepts.
-In order to browse the graph on the CLiCs website, use the following URL: \url{\clics{browse.php?gloss=earth,
-land}}.}
+In order to browse the graph on the CLiCs website, use the following URL: \url{\clics{browse.php?gloss=earth,\%20land}}.}
 \label{EarthLand}
 \end{figure}
 
@@ -132,8 +130,9 @@ The mapping from geolocation to color values allows for an easier evaluation of 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=0.48\textwidth]{img/ColorScaleWorld.png}
-\caption{World map with color gradient. \textcolor{red}{maybe add a small explanation sentence here,
-probably with a backreference to figure 3, or somehting similar}}
+\caption{World map with color gradient. The color represents the location where a language is spoken (see Figure \ref{MoneySilver} where the background color identifies the location of the language)
+%\textcolor{red}{maybe add a small explanation sentence here,probably with a backreference to figure 3, or somehting similar}
+}
 \label{World map}
 \end{center}
 \end{figure}
