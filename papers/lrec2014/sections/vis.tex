@@ -35,14 +35,14 @@ the user (see Figure \ref{fig:clics_full}). In order to break down the complexit
 we employed two different strategies to present the data from two different perspectives. 
 According to our first strategy, we decided to split the data
 into \emph{communities} first. 
-Starting from 1~280 concepts in CLiCs which
+Starting from 1,280 concepts in CLiCs which
 were connected to at least one other concept, we applied the \emph{Infomap} algorithm by
 \newcite{Rosvall2008} to cluster all concepts into communities.
 The \emph{Infomap} algorithm requires that weights are defined for the edges of the network.
 Here we used the number of attested language families per colexification as edge weights. Following
 a suggestion by \newcite{Dellert2014} we
-further normalized the number of attested language families with help of a formula
-\begin{equation}
+further normalized the number of attested language families with the help of Formula \ref{Formula}:
+\begin{equation} \label{Formula}
     W = \frac{C^2}{O_A+O_B - C},
 \end{equation}
 where $C$ is the number of attested language families for the colexification of concept $A$ and
@@ -51,11 +51,11 @@ number of language families in which concept $B$ occurs.
 The \emph{Infomap} algorithm was chosen because of
 its remarkable performance on the community detection task, both in terms of computation time and
 quality of results \cite{Lancichinetti2009}.
-With the help of this analysis, the 1~280 concepts
+With the help of this analysis, the 1,280 concepts
 could be subdivided into 271 communities. 
 Of all communities, 118 are \emph{large}, containing more than
-five nodes. The large communities cover 65\% (828) of all nodes in the original network (1~280). In
-order to enable the user to quickly identify communities of specific interest, we labelled all
+five nodes. The large communities cover 65\% (828) of all nodes in the original network (1,280). In
+order to enable the user to quickly identify communities of specific interest, we labeled all
 communities by taking the concept with the highest degree as a representative. 
 The communities do not differ much in size, ranging from 2 (`men's house') to 16 concepts (`{fur}')
 with an average of 4.72 concepts per community.
@@ -63,7 +63,7 @@ with an average of 4.72 concepts per community.
 The advantage of the community perspective on CLiCs is that it provides an independent automatic
 clustering of the data. The disadvantage is that this pre-selection deprives the user of finding
 alternative possibly interesting connections between the concepts. Community-detection methods are not
-error-proof, and their performance varies depending on the algorithms being used and the data being analysed.
+error-proof, and their performance varies depending on the algorithms being used and the data being analyzed.
 Even more importantly, most community-detection methods are based on restricted decisions when
 clustering the nodes of a given network into groups. Every node is assigned to one community only.
 No transitions between communities are possible. In order to offer a less biased perspective on the
@@ -76,7 +76,7 @@ too small, a relaxed threshold of 4 colexifications in four different language f
 In the resulting subgraphs, the longest possible path length between the basic concept and all other
 concepts is 3. Having excluded 280 subgraphs in which no stronger links between the basic concept and any
 other concept could be found, this procedure left us with 1000 individual subgraphs of individual
-size and structure, ranging from 56 nodes (basic concept `{take}') to 2 (basic concept `{north}'). 
+size and structure, ranging from 56 nodes (basic concept ``take'') to 2 (basic concept ``north''). 
 When browsing the network representation of the data, the user can select between both perspectives
 on the data in CLiCs, the community perspective, and the perspective of the strongest connections.
 
@@ -91,7 +91,7 @@ on the data in CLiCs, the community perspective, and the perspective of the stro
 
 % Force-directed graph; move nodes to desired position
 
-The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic colexifications as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. As mentioned in the previous section, we decided to provide two different views on the network, one for separate communities obtained from the \emph{Infomap} analysis \cite{Rosvall2008}, and one in which the subgraph containing the strongest links for each concept is displayed.  With help of the web interface for network browsing (\url{\clics{browse.php}}), the user can look up the respective subgraphs by selecting the concept of interest and specifying the desired `view'.
+The visualization features various interactive functionalities that are designed to enhance the exploration of the CLiCs data on the level of communities or strongest connections. The main component is a flexible force-directed graph layout that displays the concepts as nodes and the cross-linguistic colexifications as edges (see Figure \ref{EarthLand}). The strength of the force in the edges of the graph is dependent on the number of language families that can be attested to have lexical associations for the respective concepts that are linked through the edge. As mentioned in the previous section, we decided to provide two different views on the network, one for separate communities obtained from the \emph{Infomap} analysis \cite{Rosvall2008}, and one in which the subgraph containing the strongest links for each concept is displayed.  With the help of the web interface for network browsing (\url{\clics{browse.php}}) the user can look up the respective subgraphs by selecting the concept of interest and specifying the desired `view'.
 
 \begin{figure}[htbp]
     \centering
@@ -101,7 +101,7 @@ In order to browse the graph on the CLiCs website, use the following URL: \url{\
 \label{EarthLand}
 \end{figure}
 
-The force-directed graph layout ensures that all concepts are neatly arranged according to their similarity as defined by the number of cross-linguistic colexifications. As a result, concepts that are highly connected are located close to each other.  To make it easier for users to explore the network that is depicted in the graph, concepts can be dragged to different positions where there is less overlap. The dragging behavior of a concept  is activated when mousing over the respective node in the graph (when the cursor symbol turns into a crosshair).
+The force-directed graph layout ensures that all concepts are neatly arranged according to their similarity as defined by the number of cross-linguistic colexifications. As a result, concepts that are highly connected are located close to each other.  To make it easier for users to explore the network that is depicted in the graph, concepts can be dragged to different positions where there is less overlap. The dragging behavior of a concept  is activated when mousing over the respective node in the graph (when the cursor symbol turns into a crosshair). 
 
 \begin{figure*}[htbp]
 \begin{center}
@@ -125,7 +125,7 @@ As mentioned above, the edges of the graph represent the number of cases of cros
 Each language in the list is attributed a different background color depending on its language family or location in order to allow for an at-a-glance overview of all languages in the list. The user can choose from a drop-down menu whether to include the genealogical or areal information as the background color. For the genealogical information, all language families are attributed a different color value. Languages belonging to the same language families are therefore given the same background color. Moreover, the list is sorted according to language families. In this way, the user can immediately see how many languages of  a given family contribute to the overall strength for the connection at hand. 
 
 As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (specifying the east-west position) whereas the lightness of the color represents the position in terms of the latitude information (specifying the north-south position).\footnote{See \newcite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
-The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below).
+The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below). In addition, all languages in the list are displayed with their geographical location on a world map (see Figure \ref{MoneySilver}). Hence, areal patterns can be directly compared to the genealogical information in the list (if the first option is chosen).
 
 \begin{figure}[htbp]
 \begin{center}
@@ -180,7 +180,7 @@ For the coloring of the language families, the background colors are generated w
 \end{figure}
 
 
-The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. 
+The  dragging and panning functionalities of the graph are implemented with the \texttt{drag()} function from the \texttt{d3.behavior} module and the SVG \texttt{transform} and \texttt{translate} attributes. The interactive world map is generated with the \texttt{topojson} package and makes use of the \texttt{d3.geo} projection module.
 
 \subsection{Case studies} \label{case study}
 
@@ -203,7 +203,7 @@ In order to illustrate the usefulness of the visualization for the purposes of e
 \begin{figure*}[htbp]
 \begin{center}
     \href{\clics{browse.php?gloss=wheel&view=part}}{\includegraphics[width=\textwidth]{img/wheel-image.pdf}}
-\caption{Force-directed graph with areal distribution for the concepts `wheel' and `foot'. In order
+\caption{Force-directed graph with areal distribution for the concepts ``wheel'' and ``foot''. In order
 to browse the graph on the CLiCs website, enter the following URL:
 \url{\clics{browse.php?gloss=wheel&view=part}}.}
 \label{WheelFootAreas}
