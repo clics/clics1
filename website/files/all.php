@@ -2,6 +2,9 @@
 <h3>Search for all links of a given concept:</h3>
 <br>
 <?php
+/* get the occurrences in json */
+$occs = json_decode(file_get_contents('data/occurrences.json'),true);
+
 /* connect the database */
 $dsn = "sqlite:data/clips.sqlite3";
 $conn = new PDO ($dsn);

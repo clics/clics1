@@ -8,16 +8,24 @@
     <?php echo '<a href="all.php?key='.$result['numB'].'">'.$result['numB'].'</a>';?>
   </td>
   <td>
+    <?php echo $occs[$result['numB']]; ?>
+  </td>
+  <td>
 	  <?php echo $result['families'];?>
   </td>
   <td>
 	  <?php echo $result['languages'];?>
   </td>
-  <td class="submit_button" style="text-align:left">
+  <td class="submit_buttonx" style="text-align:left">
     <?php 
-      echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
-      echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
-      echo '</form>';
+      echo '<span class="query_okk" onclick="window.location='."'".'browse.php?gloss='.$result['glossB']."'".';">&nbsp;COM&nbsp;</span> ';
+      echo '<span class="query_okk" onclick="window.location='."'".'browse.php?gloss='.$result['glossB']."&view=part'".';">&nbsp;SUB&nbsp;</span>';
+      //echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
+      //echo '<input style="display:;color:red;" class="query_okkk" type="submit" value="COMM"/>'; //.$result['community'].'"/>';
+      //echo '</form>';
+      //echo '<form action="browse.php?gloss='.$result['glossB'].'&view=part" method="post">';
+      //echo '<input style="display:table-cell;" class="query_okkk" type="submit" value="PART"/>'; //.$result['community'].'"/>';
+      //echo '</form>';
     ?>   
   </td>
 <?php 
@@ -32,16 +40,22 @@ else{
     <?php echo '<a href="all.php?key='.$result['numB'].'">'.$result['numB'].'</a>';?>
   </td>
   <td style="background-color:lightgray">
+    <?php echo $occs[$result['numB']]; ?>
+  </td>
+  <td style="background-color:lightgray">
 	  <?php echo $result['families'];?>
   </td>
   <td style="background-color:lightgray">
 	  <?php echo $result['languages'];?>
   </td>
-  <td style="background-color:lightgray">
+  <td>
     <?php 
-      echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
-      echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
-      echo '</form>';
+      echo '<span class="query_okk" onclick="window.location='."'".'browse.php?gloss='.$result['glossB']."'".';">&nbsp;COM&nbsp;</span> ';
+      echo '<span class="query_okk" onclick="window.location='."'".'browse.php?gloss='.$result['glossB']."&view=part'".';">&nbsp;SUB&nbsp;</span>';
+
+      //echo '<form action="browse.php?gloss='.$result['glossB'].'" method="post">';
+      //echo '<input class="query_okk" type="submit" value="NETWORK_'.$result['community'].'"/>';
+      //echo '</form>';
     ?>
   </td>
 <?php 

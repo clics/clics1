@@ -11,17 +11,19 @@
       <b>View:</b>&nbsp;
       <select class="submit_button" id="view" name="view" style="display:inline;">
         <option value="community">Community</option>
-        <option value="part">Strong Links</option>
+        <option value="part">Subgraph</option>
       </select>
       <div class="popup">
         <span class="info">?</span>
-        <div class="hidden">
+        <div class="hidden_info">
           Select between two different view modes:
+          <br>
           <ul>
             <li>
               <b>Community:</b> Show the community into which the concept was clustered, using automatic approaches to community detection.
             </li>
-              <b>Strong Links:</b> Select the part of the network containing the strongest links of the concept.
+            <li>
+              <b>Subgraph:</b> Select a subgraph of the full CLiCs network containing the strongest links of the concept.
             </li>
           </ul>
         </div>
