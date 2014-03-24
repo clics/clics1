@@ -73,10 +73,10 @@ from a given concept, we first searched for all of its direct neighbors with whi
 least 5 colexifications in five different language families. The same procedure was applied to all neighbors
 which were added to the subgraph in the first run and repeated two times. If the resulting graph for a given concept was
 too small, a relaxed threshold of 4 colexifications in four different language families was used.  
-In the resulting subgraphs, the longest possible path length between the basic concept and all other
-concepts is 3. Having excluded 280 subgraphs in which no stronger links between the basic concept and any
-other concept could be found, this procedure left us with 1000 individual subgraphs of individual
-size and structure, ranging from 56 nodes (basic concept ``take'') to 2 (basic concept ``north''). 
+In the resulting subgraphs, the longest possible path length between the selected concept and all other
+concepts is 3. Having excluded 280 subgraphs in which no stronger links between the selected concept and any
+other concept could be found, this procedure left us with 1,000 individual subgraphs of individual
+size and structure, ranging from 56 nodes (selected concept `take') to 2 (selected concept `north'). 
 When browsing the network representation of the data, the user can select between both perspectives
 on the data in CLiCs, the community perspective, and the perspective of the strongest connections.
 
@@ -86,6 +86,8 @@ on the data in CLiCs, the community perspective, and the perspective of the stro
     \caption{Full network of all 1,288 concepts in CLiCs (outer circle) together with their connections. The strength of the connections is marked in different colors, with very strong links represented in red}
     \label{fig:clics_full}
 \end{figure}
+
+
 \subsection{Interactive functionalities}
 
 
@@ -118,14 +120,14 @@ following URL: \url{\clics{browse.php?gloss=money&view=part}}.}
 
 % mouse-over: coloring edges, show linked languages
 
-As mentioned above, the edges of the graph represent the number of cases of cross-linguistic colexifications for the linked concepts. For a more detailed view on which languages contribute to the strength of the connections, the user can mouse over the links in the graph to see a list of  languages featuring polysemous words for the respective link (Figure \ref{MoneySilver}). The list includes additional information on the languages such as their ISO 639-3 language code and family. Furthermore, each entry in the list provides a hyperlink to the original source from where the information is taken.  
+As mentioned above, the edges of the graph represent the number of cases of cross-linguistic colexifications for the linked concepts. For a more detailed view on which languages contribute to the strength of the connections, the user can mouse over the links in the graph to see the forms in the individual languages responsible for the associative link (Figure \ref{MoneySilver}). The list includes additional information on the languages such as their ISO 639-3 language code and family. Furthermore, each entry in the list provides a hyperlink to the original source from where the information is taken.  
 
 % Color coding: families and geolocations
 
 Each language in the list is attributed a different background color depending on its language family or location in order to allow for an at-a-glance overview of all languages in the list. The user can choose from a drop-down menu whether to include the genealogical or areal information as the background color. For the genealogical information, all language families are attributed a different color value. Languages belonging to the same language families are therefore given the same background color. Moreover, the list is sorted according to language families. In this way, the user can immediately see how many languages of  a given family contribute to the overall strength for the connection at hand. 
 
 As to the areal information, the world map is provided with a color gradient as shown in Figure \ref{World map}. To this end, each position in the world map is attributed a color value using the L*a*b* color space. The color hue thereby indicates the position on the map in terms of the longitude (specifying the east-west position) whereas the lightness of the color represents the position in terms of the latitude information (specifying the north-south position).\footnote{See \newcite{MayerLanguageExplorer} for a different approach of a linguistically informed color gradient of the world map.}
-The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain cross-linguistic polysemy is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below). In addition, all languages in the list are displayed with their geographical location on a world map (see Figure \ref{MoneySilver}). Hence, areal patterns can be directly compared to the genealogical information in the list (if the first option is chosen).
+The mapping from geolocation to color values allows for an easier evaluation of areal patterns in the selected connection. In this regard, users can directly detect whether a certain pattern of colexification is restricted to a certain region of the world or constitutes a more widespread colexification pattern (see the case study in Section \ref{case study} below). In addition, all languages in the list are displayed with their geographical location on a world map (see Figure \ref{MoneySilver}). Hence, areal patterns can be directly compared to the genealogical information in the list (if the first option is chosen).
 
 \begin{figure}[htbp]
 \begin{center}
@@ -184,7 +186,7 @@ The  dragging and panning functionalities of the graph are implemented with the 
 
 \subsection{Case studies} \label{case study}
 
-In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts ``money'' and ``silver''. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the location of the languages. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas} for the full list of languages showing this colexification pattern). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
+In order to illustrate the usefulness of the visualization for the purposes of exploring the database, consider the graph in Figure \ref{MoneySilver}. Among other things, it contains the connection between the concepts `money' and `silver'. A subset of the languages and words contributing to this connection are shown on the left where the background color represents the location of the languages. For instance, French contributes to the cross-linguistic colexification because both concepts are realized by the same word (viz. \textit{argent}) in that language. When looking at the areal distribution of the languages, a clear pattern emerges at a glance (see Figure \ref{MoneySilverAreas} for the full list of languages showing this colexification pattern). Most of the languages contributing to the colexification are from two major regions: Caucasus (marked in blue) and South America (marked in green). However, as mentioned in Section \ref{caveats}, this distribution might be an artifact of the general bias for languages of the Caucasus and South America in the underlying databases. In any case, the visualization directly points the attention to this pattern. As the  aim of the visualization component is not to replace linguistic research but to guide it, such patterns have to be looked at in more detail by checking the actual data. 
 
 \begin{figure}[htbp]
 %\begin{center}
@@ -211,7 +213,7 @@ to browse the graph on the CLiCs website, enter the following URL:
 \end{figure*}
 
 
-Another example deals with the colexification of the concepts ``wheel'' and ``foot''. In contrast to the case of ``money'' and ``silver'' above, these concepts at first glance may not immediately suggest a close association. Yet such cases do exits as the link in Figure \ref{WheelFootAreas} reveals. The connection links two bigger communities of nodes, including spherical objects on the one hand and parts of the lower body on the other. The list of languages for the connection ``wheel'' and ``foot'' in Figure \ref{WheelFootAreas} clearly shows that the association is restricted to languages of South America. 
+Another example deals with the colexification of the concepts `wheel' and `foot'. In contrast to the case of `money' and `silver' above, these concepts at first glance may not immediately suggest a close association. Yet such cases do exits as the link in Figure \ref{WheelFootAreas} reveals. The connection links two bigger communities of nodes, including spherical objects on the one hand and parts of the lower body on the other. The list of languages for the connection `wheel' and `foot' in Figure \ref{WheelFootAreas} clearly shows that the association is restricted to languages of South America. 
 This geographical restriction may reflect semantic borrowing among South American languages, but since the distribution within South America is rather erratic, independent innovation is also a possibility. At any rate, the color coding in the visualization immediately draws the researcher's attention to the potentially interesting geographical patterning.
 %Even though the languages cover a range of different families, the areal distribution is clearly confined to a certain area. This might lead to the conclusion that the associations result from loan translations of the concept through language contact (the lexical entries show that they are most likely not cognates and that the association is thus due to loan words for both concepts). However, such a preliminary hypothesis has to be confirmed by looking at the actual data. 
 
