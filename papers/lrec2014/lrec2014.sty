@@ -243,7 +243,6 @@
 \def\shortcite{\def\citename##1{}\@internalcite}
 \def\newcite{\leavevmode\def\citename##1{{##1} (}\@internalciteb}
 
-
 % Macros for \newcite, which leaves name in running text, and is
 % otherwise like \shortcite.
 %
@@ -261,13 +260,19 @@
 
 \def\@newcite#1#2{{#1\if@tempswa, #2\fi)}}
 
-\def\beautiful{\leavevmode\def\citename##1{{##1} }\@internalciteb}
+% gjr: no labels in this bibliography style
+%\def\@biblabel#1{\def\citename##1{##1}[#1]\hfill}
+\def\@biblabel#1{}
 
+%%% More changes made by SMS (originals in latex.tex)
+% Use parentheses instead of square brackets in the text.
+\def\@cite#1#2{({#1\if@tempswa , #2\fi})}
 
 % Macros for \beautiful, which leaves name in running text, and is
 % otherwise like \shortcite.
 %
-\def\@citexb[#1]#2{\if@filesw\immediate\write\@auxout{\string\citation{#2}}\fi
+\def\beautiful{\leavevmode\def\citename##1{{##1}, }\@internalciteC}
+\def\@citeXb[#1]#2{\if@filesw\immediate\write\@auxout{\string\citation{#2}}\fi
   \def\@citea{}\@beautiful{\@for\@citeb:=#2\do
     {\@citea\def\@citea{;\penalty\@m\ }\@ifundefined
        {b@\@citeb}{{\bf ?}\@warning
@@ -276,8 +281,8 @@
 %\hbox{\csname b@\@citeb\endcsname}}}{#1}}
      {\csname b@\@citeb\endcsname}}}{#1}}
 
-\def\@internalciteb{%
-  \@ifnextchar [{\@tempswatrue\@citexb}{\@tempswafalse\@citexb[]}}
+\def\@internalciteC{%
+  \@ifnextchar [{\@tempswatrue\@citeXb}{\@tempswafalse\@citeXb[]}}
 
 \def\@beautiful#1#2{{#1\if@tempswa, #2\fi}}
 
