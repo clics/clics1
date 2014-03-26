@@ -13,7 +13,7 @@ sources themselves. Table \ref{tab:clics} gives an example of the basic structur
 \resizebox{8cm}{!}{%
 \tabular{|l|r|r|r|}
 \hline
-\bf Concept &\bf IDS-Key &\bf Families &\bf Languages \\\hline
+\bf Concept &\bf IDS key &\bf Families &\bf Languages \\\hline
 \hline
 \rowcolor{lightgray} money &11.43 &15 &33 \\\hline
 \rowcolor{lightgray} coin &11.44 &9 &13 \\\hline
@@ -44,7 +44,7 @@ the table on the CLiCs website, use the following URL: \url{\clics{all.php?gloss
 A well-known concept from lexical semantic analysis is that of \emph{polysemy}. It refers to the situation
 in which a lexical item possesses more than one identifiable sense between which there is a
 conceptual relation. A number of tests are available to distinguish polysemy from \emph{semantic
-vagueness}, in which a division into distinct senses is not warranted. From an analytical perspective
+vagueness,} in which a division into distinct senses is not warranted. From an analytical perspective,
 polysemy has to be further distinguished from {homonymy} and contextual variation.
 \emph{Homonymy} refers to
 the ``accidental'' verbalization of at least two meanings by the same sound chain, without any
@@ -58,9 +58,9 @@ in advance.
 Here, we use the term \textit{colexification} (originally from Fran\c{c}ois, 2008\nocite{francois2008}) %\nocite{francois2008}
 to refer to the situation
 in which two or more of the meanings in our sources correspond to the same lexical item in one of
-the languages. For instance, we would say that 
+the languages. For instance, %we would say that 
 %Wayuu [guc] colexifies `good' and `beautiful' by means of the word form \textit{anas\textbari}.
-we would say that in Wayuu (an Arawak language of Venezuela), \textit{anas\textbari} colexifies `good' and `beautiful'.\footnote{See also the example of `money' and `silver' in the case study in Section \ref{case study} below.}
+we would say that in Wayuu (an Arawak language of Venezuela), \textit{anas\textbari} colexifies `good' and `beautiful.'\footnote{See also the example of `money' and `silver' in the case study in Section \ref{case study} below.}
 Colexification is thus a deliberately ambiguous label that allows us to avoid making a commitment in
 each case as to the adequate lexical semantic analysis.
 Roughly speaking,
@@ -69,7 +69,7 @@ Since CLiCs is not based on such analyses that would allow us to further discrim
 two, we chose colexification as a label that deliberately does not make a commitment with regard to
 this distinction. However, as we will show below, quantitative approaches are available to rule out effects of accidental homonymy. 
 
-\subsection{Data and sources of CLiCs}
+\subsection{CLiCs' data and sources}
 CLiCs (Version 1.0) offers information on colexification in 221 different language varieties
 covering 64 different language families.\footnote{This count includes 12 language isolates, and 3
 unclassified languages, according to the classification schema of Ethnologue \cite{Lewis2013}.} All language
@@ -81,18 +81,18 @@ colexification that correspond to 16,239 different links between the 1,280 conce
 data. 
 
 At present, four sources feed into CLiCs: (1) The \emph{Intercontinental Dictionary Series} (IDS,
-Key and Comrie, 2007\nocite{Key2007}), offering lexical data for 233 languages and language varieties of the world.
+Key and Comrie, 2007\nocite{Key2007}), offering lexical data for 233 languages and language varieties.
 Ideally, datasets for each language contain 1,310 entries, though coverage differs in completeness
 for individual languages. Of all 233 languages in IDS, 178 were automatically cleaned and included
 in CLiCs. (2) The \emph{World Loanword Database} (WOLD, Haspelmath and Tadmor, 2009\nocite{Wold2009}), the main goal
 of which has to do with identifying lexical borrowings, but which nevertheless also provides general
 lexical data for 41 languages. The vocabularies for the individual languages differ somewhat in
 their size, ranging somewhere between 1,000 and 2,000 items. 33 of the 41 vocabularies are included
-in CLiCs.  (3) Data for four languages neither represented in IDS nor WOLD were added from the
+in CLiCs.  (3) Data for four languages represented neither in IDS nor WOLD were added from the
 \emph{LOGOS} dictionary (\url{http://www.logosdictionary.org}), a multilingual online dictionary.
 (4) Additional data for six Himalayan languages was taken from the \emph{Spr\aa kbanken} project
 (University of Gothenburg, \url{http://spraakbanken.gu.se}).\footnote{In all cases, we ignored
-proto-languages and archaic languages (like Latin and Old Greek), and those languages which did not
+protolanguages and archaic languages (like Latin and Ancient Greek), and those languages which did not
 have enough coverage in terms of lexical items.}
 
 %\nocite{Wold2009}
@@ -117,7 +117,7 @@ communities, with 104 communities consisting of 5 and more nodes and covering 68
 A qualitative survey of the largest communities showed that most of them constitute meaningful
 units and accidental homologies were successfully excluded.
 
-\subsection{Limitations and Caveats} \label{caveats}
+\subsection{Limitations and caveats} \label{caveats}
 
 The data structure in CLiCs directly mirrors the data structure of the sources we used. We did not manipulate or
 reanalyze the data in any way, to the effect that the reliability of CLiCs is greatly dependent on
@@ -125,10 +125,10 @@ the reliability of its sources. Additionally, it should be pointed out that we a
 possibility of artifacts arising from automatic data cleaning in cases where textual coding of the
 data was inconsistent. As for its actual application, it also must be borne in mind that CLiCs
 reflects a certain bias regarding the geographical locations of the languages included in its
-sources: IDS features many languages of South America and the Caucasus, while WOLD includes a
-disproportionate percentage of languages of Europe. Hence, the sheer frequency of instances of a
+sources: IDS features many languages from South America and the Caucasus, while WOLD includes a
+disproportionate percentage of European languages. Hence, the sheer frequency of instances of a
 particular colexification pattern in CLiCs may be misleading insofar as a pattern may seem very robust
-cross-linguistically, but actually is so only in certain regions of the world. We have not
+crosslinguistically, but actually is so only in certain regions of the world. We have not
 implemented any computational method in CLiCs to balance out the picture \emph{a posteriori}. Since
 we nevertheless want to present potential users of CLiCs with the possibility to assess possible
 areal patterns in the data, we include a powerful visualization that enables them to detect areal
