@@ -70,17 +70,17 @@
  <div id="contentwrapper" class="clearfix">
      <div id="content">    
 	 <!-- SIDEBAR about -->
-<h3>What is CLiCs?</h3>
+<h3>What is CLICS?</h3>
 <br>
-CLiCs is an online database of <i>synchronic lexical associations</i>
+CLICS is an online database of <i>synchronic lexical associations</i>
 ("polysemies", but more precisely: <i>colexifications</i>) in currently 215 language varieties 
 of the world.  Large databases offering lexical information on the world’s languages are already 
 readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
 information on tendencies of meaning associations available in these databases is not easily 
-extractable from the sources themselves. This is why CLiCs was created. It is designed to serve as a 
+extractable from the sources themselves. This is why CLICS was created. It is designed to serve as a 
 data source for work in lexical typology, diachronic semantics, and research in cognitive science 
 that focuses on natural language semantics from the viewpoint of cross-linguistic diversity.  
-Furthermore, CLiCs can be used as a helpful tool to assess the plausibility of semantic connections 
+Furthermore, CLICS can be used as a helpful tool to assess the plausibility of semantic connections 
 between possible cognates in the establishment of genetic relations between languages.
 <br>
 <br>
@@ -147,7 +147,7 @@ between possible cognates in the establishment of genetic relations between lang
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 24, 2014, 15:00 CET</p>
+ <p>Last updated on Mar. 26, 2014, 16:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

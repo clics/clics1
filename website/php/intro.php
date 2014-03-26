@@ -70,24 +70,24 @@
  <div id="contentwrapper" class="clearfix">
      <div id="content">    
 	 <!-- SIDEBAR about -->
-<h3>What is CliCs?</h3>
+<h3>What is CLICS?</h3>
 <br>
 CliPs is an online database of synchronic lexical associations 
 ("colexification") in currently 217 of the worlds' language varieties.  Large 
 databases offering lexical information on the world’s languages is already readily 
 available for research in different <a href="sources.php">online sources</a>.  
 However, the information on tendencies of meaning associations available in these databases is 
-not easily extractable from the sources themselves. This is why CliCs was 
+not easily extractable from the sources themselves. This is why CLICS was 
 created. It is designed to serve as a data source for work in lexical typology, 
 diachronic semantics, and research in cognitive science that focuses on natural 
 language semantics from the viewpoint of cross-linguistic diversity.  
-Furthermore, CliCs can be used as a helpful tool to assess the plausibility of 
+Furthermore, CLICS can be used as a helpful tool to assess the plausibility of 
 semantic connections between possible cognates in the establishment of genetic 
 relations between languages.
 </br>
 <h3>What is <i>Colexification?</i></h3>
 <br>
-In the context of CliCs, we use the term colexification (coined to our 
+In the context of CLICS, we use the term colexification (coined to our 
 knowledge by <a href="http://lingulist.de/evobib/evobib.php?key=Francois2008">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
@@ -99,7 +99,7 @@ that deliberately does not make a commitment with regard to this distinction.  H
 adopted measures to rule out effects of accidental homonymy (see [[homonymy]]).
 <br>
 <br>
-<h3>Some statistics on CLiCs</h3>
+<h3>Some statistics on CLICS</h3>
 <br>
 The following table lists some basic statistics of the data displayed on this website:
 <br><br>
@@ -126,7 +126,7 @@ The following table lists some basic statistics of the data displayed on this we
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 24, 2014, 15:00 CET</p>
+ <p>Last updated on Mar. 26, 2014, 16:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

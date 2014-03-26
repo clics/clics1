@@ -1,5 +1,5 @@
 <!-- SIDEBAR main -->
-<h2 style="text-align:left;padding-left:20px;"> CLiCs</h2>
+<h2 style="text-align:left;padding-left:20px;"> CLICS</h2>
 <br>
 <br>
 <p style="text-align:center"><img src="pics/network.jpg" alt="network" width="750px" align="center" border="0" /> </p>
