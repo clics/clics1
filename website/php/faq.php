@@ -74,14 +74,14 @@
 <br>
 <ul>
 <li><a href="faq.php#colexification">What is Colexification?</a></li>
-<li><a href="faq.php#examples">How can I use CLiCs?</a></li>
+<li><a href="faq.php#examples">How can I use CLICS?</a></li>
 <li><a href="faq.php#visualizations">How do the visualizations work?</a></li> 
-<li><a href="faq.php#data1">What data does CLiCs use?</a></li>
-<li><a href="faq.php#data2">How reliable is the data of CLiCs?</a></li>
-<li><a href="faq.php#data3">How large is the data behind CLiCs?</a></li>
-<li><a href="faq.php#areal">Can areal aspects bias the results of CLiCs?</a></li>
+<li><a href="faq.php#data1">What data does CLICS use?</a></li>
+<li><a href="faq.php#data2">How reliable is the data of CLICS?</a></li>
+<li><a href="faq.php#data3">How large is the data behind CLICS?</a></li>
+<li><a href="faq.php#areal">Can areal aspects bias the results of CLICS?</a></li>
 <li><a href="faq.php#homonymy">What about homonymy?</a></li>
-<li><a href="faq.php#cite">How do I cite CLiCs?</a></li>
+<li><a href="faq.php#cite">How do I cite CLICS?</a></li>
 <li><a href="faq.php#contact">Whom should I contact if I have additional questions or want to contribute?</a></li>
 </ul>
 <br>
@@ -89,7 +89,7 @@
 
 <h3><a style="color:black" name="colexification">Colexification</a></h3>
 <br>
-In the context of CLiCs, we use the term <i>colexification</i> (coined to our 
+In the context of CLICS, we use the term <i>colexification</i> (coined to our 
 knowledge by <a href="http://bibliography.lingpy.org/evobib.php?key=Francois2008" target="_blank">François 2008</a>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
@@ -100,10 +100,10 @@ we chose <i>colexification</i> as a label
 that deliberately does not make a commitment with regard to this distinction.  However, we offer
 measures to rule out effects of <a href="faq.php#homonymy">accidental homonymy</a>.
 <br><br>
-<h3><a style="color:black" name="examples">Using CLiCs</a></h3>
+<h3><a style="color:black" name="examples">Using CLICS</a></h3>
 <br>
 Using our <a href="query.php">query interface</a> you can search whether specific concepts are 
-linked in the language varieties used in CLiCs (see <a href="direct.php">here</a>). You can 
+linked in the language varieties used in CLICS (see <a href="direct.php">here</a>). You can 
 also check how many links are reported for a given concept (see <a href="all.php">here</a>).
 <font color="red">If you want to view the data in a visually more appealing way, you can <a href="browse.php">browse</a> through 
 the concept networks we extracted from the data. A detailed description on the background of the visualization can be found in the paper by <a href="http://link2badded.html" target="_blank">Mayer, List, Terhalle, and Urban (2014)</a>.</font>
@@ -115,9 +115,9 @@ investigations. As an example on how these analyses can be conducted, see the pa
 <br>
 <font color="red">TEXT TO BE ADDED</font>
 <br><br>
-<h3><a style="color:black" name="data1">Sources of CLiCs</a></h3>
+<h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
 <br>
-Currently CLiCs utilizes four different sources, all of which are freely available online themselves. 
+Currently CLICS utilizes four different sources, all of which are freely available online themselves. 
 <br><br>
 <ul>
 <li>
@@ -127,7 +127,7 @@ lexical data for 233 world languages. IDS data were provided mostly by experts o
 languages, although in some cases published written sources have been used. There are 1,310 entries 
 to be filled for each language, though, of course, there are gaps in coverage for individual 
 languages. The list of concepts
-is inspired by <a href="http://lingulist.de/evobib/evobib.php?key=Buck1949">Buck (1949)</a>. Of all 233 languages in the IDS, 178 were automatically cleaned and included in CLiCs. 
+is inspired by <a href="http://lingulist.de/evobib/evobib.php?key=Buck1949">Buck (1949)</a>. Of all 233 languages in the IDS, 178 were automatically cleaned and included in CLICS. 
 </li>
 <li>
 The IDS list, in turn, provides the basis for the choice of meanings in the World Loanword Database 
@@ -137,28 +137,28 @@ The principal aim of this source is to provide a basis for generalizations on th
 items in different parts of the lexicon. The WOLD data consist of vocabularies of between 
 1,000-2,000 items for 41 languages, with annotations about the borrowing history of particular items 
 where applicable. WOLD data was coded by experts on the respective languages, in some cases also 
-with the aid of extant sources. Of all 41 languages in WOLD, 33 are included in CLiCs. </li>
+with the aid of extant sources. Of all 41 languages in WOLD, 33 are included in CLICS. </li>
 <li>The <a href="http://www.logosdictionary.org/index.php">Logos Dictionary</a> is a freely 
 accessible multilingual online dictionary that is regularly updated online by a network of 
 professional translators. It offers lexical data for more than 60 different languages. We manually 
 extracted lexical data for 4 languages that were neither present in IDS nor in WOLD. 
 </li>
-<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLiCs.</li>
+<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLICS.</li>
 </ul>
 
-<h3><a style="color:black" name="cite">Citing CLiCs</a></h3>
-<br>CLiCs can be cited as follows: 
+<h3><a style="color:black" name="cite">Citing CLICS</a></h3>
+<br>CLICS can be cited as follows: 
 <br><br>
 <ul><li>
-List, J.-M., T. Mayer, A. Terhalle, and M. Urban (2014). CLiCs — Database of Cross-Linguistic Colexifications.
-Version 1.0. URL: <a href="http://clics.lingpy.org" >http://clics.lingpy.org</a>.
+List, J.-M., T. Mayer, A. Terhalle, and M. Urban (2014). CLICS — Database of Cross-Linguistic Colexifications.
+Version 1.0. URL: <a href="http://CLICS.lingpy.org" >http://CLICS.lingpy.org</a>.
 </li></ul>
 <br>
 <h3><a style="color:black" name="data2">Reliability of the Data</a></h3><br>
-The structure of the data in CLiCs is a direct image of the structure of the data in IDS and WOLD 
+The structure of the data in CLICS is a direct image of the structure of the data in IDS and WOLD 
 and does not involve a
 reanalysis of any sort on our behalf. However, it must be emphasized that the meaning associations 
-reported in CLiCs are
+reported in CLICS are
 recovered from sheer identity of form in different cells in the sources we have used, and do not 
 necessarily rest on language-internal semantic analysis (see also the sections on
 <a href="faq.php#colexification">colexification</a> and 
@@ -174,9 +174,9 @@ control over artifacts that <br><br>
 <br>
 For these reasons, we strongly recommend to check the actual sources whenever a conceptual link that our database reports should be crucial for your arguments.
 <br><br>
-<h3><a style="color:black" name="data3">Statistics on CLiCs</a></h3>
+<h3><a style="color:black" name="data3">Statistics on CLICS</a></h3>
 <br>
-CLiCs (Version 1.0) offers information on colexification in 221 different language varieties covering 64 different language families. 
+CLICS (Version 1.0) offers information on colexification in 221 different language varieties covering 64 different language families. 
 All language varieties in our sample comprise a total of 301,498 words covering 1,280 different concepts. 
 Using a strictly automatic procedure, we identified 45,667 cases of colexification that correspond to 16,239 different links between
 the 1,280 concepts covered by our data.
@@ -233,7 +233,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 24, 2014, 15:00 CET</p>
+ <p>Last updated on Mar. 26, 2014, 16:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

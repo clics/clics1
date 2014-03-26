@@ -1,15 +1,15 @@
 <!-- SIDEBAR about -->
-<h3>What is CLiCs?</h3>
+<h3>What is CLICS?</h3>
 <br>
-CLiCs is an online database of <i>synchronic lexical associations</i>
+CLICS is an online database of <i>synchronic lexical associations</i>
 ("polysemies", but more precisely: <i>colexifications</i>) in currently 215 language varieties 
 of the world.  Large databases offering lexical information on the world’s languages are already 
 readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
 information on tendencies of meaning associations available in these databases is not easily 
-extractable from the sources themselves. This is why CLiCs was created. It is designed to serve as a 
+extractable from the sources themselves. This is why CLICS was created. It is designed to serve as a 
 data source for work in lexical typology, diachronic semantics, and research in cognitive science 
 that focuses on natural language semantics from the viewpoint of cross-linguistic diversity.  
-Furthermore, CLiCs can be used as a helpful tool to assess the plausibility of semantic connections 
+Furthermore, CLICS can be used as a helpful tool to assess the plausibility of semantic connections 
 between possible cognates in the establishment of genetic relations between languages.
 <br>
 <br>

@@ -66,9 +66,9 @@
  <div id="contentwrapper" class="clearfix">
      <div id="content">    
 	 <!-- SIDEBAR query -->
-<h3>Query CLiCs</h3>
+<h3>Query CLICS</h3>
 <br>
-Currently, we offer two ways to query the data in CLiCs interactively:
+Currently, we offer two ways to query the data in CLICS interactively:
 <br>
 <br>
 <ul><li>You can search for the number of attested links between two concepts by searching for <a href="direct.php">direct links</a>, or </li>
@@ -89,7 +89,7 @@ Currently, we offer two ways to query the data in CLiCs interactively:
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 24, 2014, 15:00 CET</p>
+ <p>Last updated on Mar. 26, 2014, 16:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

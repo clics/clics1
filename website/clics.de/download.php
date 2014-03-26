@@ -69,21 +69,21 @@
 	 <!-- SIDEBAR download -->
 <h3>Download the Data </h3>
 <br>
-We don't provide full wordlists of the languages in our sample, since the data is already available in the original sources upon which CLiCs is based. For further computational analyses, however, we offer specific "views" of the data. Currently, among these are:
+We don't provide full wordlists of the languages in our sample, since the data is already available in the original sources upon which CLICS is based. For further computational analyses, however, we offer specific "views" of the data. Currently, among these are:
 <br><br>
 <ul>
 <li>
-     a full network representation (in <a href="http://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf" target="_blank">GML</a> format), which can be downloaded from <a href="data/clics_gml.zip">this link</a>, and
+     a full network representation (in <a href="http://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gml/gml-technical-report.pdf" target="_blank">GML</a> format), which can be downloaded from <a href="data/CLICS_gml.zip">this link</a>, and
 </li>
 <li>
-     a full account of all links displayed on this website and all sources for the links in text-form,  which can be downloaded from <a href="data/clics_csv.zip">this link</a>.
+     a full account of all links displayed on this website and all sources for the links in text-form,  which can be downloaded from <a href="data/CLICS_csv.zip">this link</a>.
      <!--and
 <li>
-    a statistical account on all data sources that we used for the current version of CLiCs, which can be downloaded from <a href="data/clics.stats">this link</a>.
+    a statistical account on all data sources that we used for the current version of CLICS, which can be downloaded from <a href="data/CLICS.stats">this link</a>.
 </li>-->
 </ul>
 <br>
-In case you are interested in the original data upon which CLiCs is based, please <a href="mailto:mattis.list@uni-marburg.de">contact</a> us directly.
+In case you are interested in the original data upon which CLICS is based, please <a href="mailto:mattis.list@uni-marburg.de">contact</a> us directly.
 <br>
 
  </div>
@@ -99,7 +99,7 @@ In case you are interested in the original data upon which CLiCs is based, pleas
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Mar. 24, 2014, 15:00 CET</p>
+ <p>Last updated on Mar. 26, 2014, 16:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

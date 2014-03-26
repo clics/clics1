@@ -1,7 +1,7 @@
 <!-- SIDEBAR query -->
-<h3>Query CLiCs</h3>
+<h3>Query CLICS</h3>
 <br>
-Currently, we offer two ways to query the data in CLiCs interactively:
+Currently, we offer two ways to query the data in CLICS interactively:
 <br>
 <br>
 <ul><li>You can search for the number of attested links between two concepts by searching for <a href="direct.php">direct links</a>, or </li>
