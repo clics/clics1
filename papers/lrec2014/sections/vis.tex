@@ -168,7 +168,7 @@ function cl2pix(c,l){
  };
 \end{verbatim}
 
-The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes the three values for \texttt{[L,a,b]} as input. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries. As can be seen in Figure \ref{lab vs hsv}, the color gradient in the L*a*b* color space exhibits a much smoother perceptual transition between the color hues on the x-axis. 
+The actual HTML color code is generated with the function \texttt{d3.lab} from the D3 library, which takes the three values for \texttt{[L,a,b]} as input. The main reason for choosing the L*a*b* color space is a smoother transition between different color hues without any visible boundaries. As can be seen in Figure \ref{lab vs hsv}, the color gradient in the L*a*b* color space exhibits a much smoother perceptual transition between the color hues on the y-axis. 
 %\footnote{See \url{http://davidad.net/colorviz/} for the difference between using the L*a*b* and HSV color space in terms of transitions between different color hues.} 
 For the coloring of the language families, the background colors are generated with the categorical scale functions of the \texttt{d3.scale} module. 
 
