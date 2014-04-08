@@ -15,6 +15,7 @@ d3.json('data/words.json',function(words){
 
 // load language data 
 var langByInfo = {};
+var coords = [];
 d3.json('data/langsGeo.json',function(langs){
     langs.forEach(function(a){
         langByInfo[a.key] = [a.name,a.variety,a.iso,a.url,a.family,a.lon,a.lat];
@@ -36,7 +37,8 @@ var g = d3.select("#map")
 	.attr("width", 300)
 	.attr("height",200)
 	.append("g");
-var mapPoly = g.append('g').attr('class','mapPoly') // for the map
+var mapPoly = g.append('g').attr('class','mapPoly'); // for the map
+var allCircles = g.append('g').attr('class','allCircles'); // all locations
 var nodeCircles = g.append('g').attr('class','nodeCircles') // for the 
 																														// locations
 
@@ -292,6 +294,8 @@ displayMap();
 				//############### PLOT SYMBOLS FOR LOCATIONS ###############
 				// remove all previous circles
 				d3.selectAll(".langlocation").remove();
+
+	
         nodeCircles.selectAll("circle") 
             .data(infolist) 
             .enter() 
@@ -627,5 +631,35 @@ function displayMap(){
 					})
 					; 
     });
+
+    d3.json('data/langsGeo.json',function(langs){
+	    langs.forEach(function(a){
+	        langByInfo[a.key] = [a.name,a.variety,a.iso,a.url,a.family,a.lon,a.lat];
+	        coords.push([a.lon,a.lat]);
+	    });
+
+	    console.log(coords);
+	    allCircles.selectAll("circle") 
+	            .data(coords) 
+	            .enter() 
+	            .append("circle") 
+	            .attr("class","alllocation")
+	            .attr("cx", function(d) {
+	            	console.log(d);
+	                return projection([d[0], d[1]])[0];
+	            })
+	            .attr('cy',function(d){
+	                return projection([d[0], d[1]])[1]; 
+	            }) 
+	            .attr("r",function(d){
+	                return 3;
+	            })
+	            .style("stroke","white")
+	            .style("stroke-width",0.5)
+	            .style("fill", '#888') 
+	        ;
+	});
+
+
 
 }
