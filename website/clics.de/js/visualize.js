@@ -312,7 +312,7 @@ displayMap();
             })
             .style("stroke","white")
             .style("stroke-width",0.5)
-            .style("fill", 'DarkGreen') 
+            .style("fill", 'FireBrick') 
         ;
 				
 				var infolistoutput = [];
