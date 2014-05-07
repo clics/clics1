@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Mayer, List, Terhalle, Urban - An Interactive Visualization of Crosslinguistic 
+		Colexification Patterns</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations 
+		using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, 
+		user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + 
+			( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + 
+			'.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+        
+        <div class="slide-number"></div>
+        <div class="footer-uni">
+            <center>
+            <table border="0">
+            <tr><td valign="center"><img src="img/PhUniMa_Logo_w.png" height="60"></td>
+                <td width="50px">&nbsp;</td>
+                <td width="400px" align="center"><p style="font-family:Helvetica,
+                sans-serif;font-size: 11pt; font-weight:lighter;">
+                Mayer, List, Terhalle, Urban <br>An Interactive Visualization of Crosslinguistic 
+		Colexification Patterns</p></td>
+                <td width="50px">&nbsp;</td>
+            <td valign="center"><img src="img/dfg_logo_schriftzug_weiss.png" height="30"></td>
+            </tr>
+            </table>
+            </center>
+        </div>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                
+                
+
+				<section>
+                    
+                    
+					<h1 style='font-size:1.5em;'>An Interactive Visualization of <br>Crosslinguistic 
+		                Colexification Patterns
+                    <br><br><small>LREC 2014, Reykjavik</small></p>
+					<p>
+						<small>
+						<a href="http://th-mayer.de">Thomas Mayer</a> / 
+				<a href="mailto:thomas.mayer@uni-marburg.de">thomas.mayer@uni-marburg.de</a>
+				<br>
+						<a href="http://lingulist.de">Johann-Mattis List</a> / 
+				<a href="mailto:mattis.list@uni-marburg.de">mattis.list@uni-marburg.de</a>
+				<br>
+						<a href="https://www.phil-fak.uni-duesseldorf.de/rom2/equipe/anselm-terhalle/">Anselm Terhalle</a> / 
+				<a href="mailto:terhalle@phil.uni-duesseldorf.de">terhalle@phil.uni-duesseldorf.de</a>
+				<br>
+						<a href="http://www.hum.leiden.edu/lucl/organisation/members/urbanm.html">Matthias Urban</a> / 
+				<a href="mailto:m.urban@hum.leidenuniv.nl">m.urban@hum.leidenuniv.nl</a>
+				
+						</small>
+					</p>
+                    
+				</section>
+				
+				
+			
+     	
+
+				<section data-transition="zoom">
+					<h3>Thank you for your attention!</h3>
+					<div class="textbox">
+					<p><a href="http://th-mayer.de">Thomas Mayer</a> / 
+				<a href="mailto:thomas.mayer@uni-marburg.de">thomas.mayer@uni-marburg.de</a>
+				<br>
+						<a href="http://lingulist.de">Johann-Mattis List</a> /
+				<a href="mailto:mattis.list@uni-marburg.de">mattis.list@uni-marburg.de</a>
+				<br>
+						<a href="https://www.phil-fak.uni-duesseldorf.de/rom2/equipe/anselm-terhalle/">Anselm Terhalle</a> / 
+				<a href="mailto:terhalle@phil.uni-duesseldorf.de">terhalle@phil.uni-duesseldorf.de</a>
+				<br>
+						<a href="http://www.hum.leiden.edu/lucl/organisation/members/urbanm.html">Matthias Urban</a> / 
+				<a href="mailto:m.urban@hum.leidenuniv.nl">m.urban@hum.leidenuniv.nl</a>
+				</p>
+					</div>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: 'thommy',//Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+        
+        <!-- From https://github.com/hakimel/reveal.js/pull/56#issuecomment-17470394 -->
+        <script>
+            var slideNumber = document.querySelector('.slide-number');
+            var updateSlideNumber = function(event) {
+                var textContent = event.indexh;
+                if (event.indexv > 0) {
+                    textContent += '-' + event.indexv;
+                }
+                if (event.indexh > 0) {
+                    slideNumber.textContent = textContent;
+                }
+            }
+
+            Reveal.addEventListener('ready', updateSlideNumber);
+            Reveal.addEventListener('slidechanged', updateSlideNumber);
+        </script>
+        
+
+	</body>
+</html>
