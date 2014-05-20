@@ -71,7 +71,7 @@
                     evaluation of LRs <br>
                     LREC 2014, Reykjavik</small></p>
 					<p>
-						<small>
+						<small style="font-size: 50%;">
 						<a href="http://th-mayer.de">Thomas Mayer</a> / 
 				<a href="mailto:thomas.mayer@uni-marburg.de">thomas.mayer@uni-marburg.de</a>
 				<br>
@@ -96,19 +96,129 @@
                 </section>
                 
                 <section>
-            
-                    <h3>HSV vs L*a*b color space</h3>
-                        <img src="img/Lab_HSV2.png" height="550">
+                    <h2>Part II: Visualization</h2>
+                
                 </section>
                 
                 <section>
-            
-                    <h3>Color scale</h3>
-                        <img src="img/ColorScaleWorld.png" height="550">
+                    <h3>Web-based visualization</h3>
+                    
+                    <div class="textbox">
+                        
+                        <div style="margin-top: 10px;">
+                        <ul>
+                            <li>Platform independent</li>
+                            <li>Accessible from any device with a browser supporting JavaScript</li>
+                            <li>No need to install additional software on the part of the user</li>
+                            <li>Links to external resources can be easily included</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="source">cf. Murray (2010)</div>
+                
+                </section>
+                
+                <section>
+                
+                    <section>
+                        <h3>Interactive functionalities</h3>
+                        
+                        <div class="textbox">
+                            
+                            <div style="margin-top: 10px;">
+                            <ul>
+                                <li>Force-directed graph layout for communities</li>
+                                <ul>
+                                    <li>drag nodes to different positions where there is less overlap</li>
+                                    <li>panning and zooming</li>
+                                    <li>mouse over for more information on a certain node or edge</li>
+                                </ul>
+                                <li>World map showing all languages featured in a given colexification pattern</li>
+                                <li>Color coding for world regions</li>
+                            </ul>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    
+                    
+                
+                </section>
+                
+                <section>
+                
+                    <section>
+                        <h3>Implementation</h3>
+                        
+                        <div class="textbox">
+                            <ul>
+                                <li>The visualization is implemented in JavaScript using the D3 
+                                library (Bostock et al., 2011)</li>
+                                <li>The force-directed graph is generated with the <span class="ttt">force()</span> function 
+                                from the <span class="ttt">d3.layout module</span>.</li>
+                                <li>The layout implementation uses position Verlet integration for 
+                                simple constraints (Dwyer, 2009).</li>
+                                <li>The dragging and panning functionalities of the graph are 
+                                implemented with the <span class="ttt">drag()</span> function 
+                                from the <span class="ttt">d3.behavior</span> module 
+                                and the SVG transform and translate attributes.</li>
+                                <li>The interactive world map is generated with the <span class="ttt">
+                                topojson</span> 
+                                package and makes use of the <span class="ttt">d3.geo</span>
+                                projection module.</li>
+                            </ul>
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                        <h3>Color coding</h3>
+                        
+                        <div class="textbox">
+                        <ul>
+                        
+                        <li>The color values for the world map gradient scale are computed from the 
+                        two-dimensional geographical coordinates that are given as an input.</li>
+                        </ul>
+                        
+                        <pre><code>
+function cl2pix(c,l){
+    var TAU = 6.2831853
+    var L = l*0.61 + 0.09;
+    var angle = TAU/6.0 - c*TAU;
+    var r = l*0.311 + 0.125
+    var a = Math.sin(angle)*r;
+    var b = Math.cos(angle)*r;
+    return [L,a,b];
+};
+                        </code></pre>
+                        <small>The code was adapted from the GNU C code by David Dalrymple (http://davidad.net/colorviz/, accessed on January 25, 2014) and translated into JavaScript.</small>
+                        <ul>
+                          <li>The actual HTML color code is generated with the function <span class="ttt">
+                          d3.lab</span>
+                          from the D3 library, which takes the three values for [L,a,b] as input.</li>
+                        </ul>
+                        
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                
+                        <h3>HSV vs L*a*b color space</h3>
+                            <img src="img/Lab_HSV2.png" height="550">
+                    </section>
+                    
+                    <section>
+                
+                        <h3>Color scale</h3>
+                            <img src="img/ColorScaleWorld.png" height="550">
+                    </section>
+                    
                 </section>
 				
 				<section>
-            
+                    <h3>Case studies</h3>
                     <center>
         				<iframe src="http://clics.lingpy.org" width="800" height="850"></iframe>
         			</center>
@@ -118,7 +228,7 @@
 
 				<section data-transition="zoom">
 					<h3>Thank you for your attention!</h3>
-					<div class="textbox" style="padding: 15px;">
+					<div class="textbox">
 					<p>
 					<table border="0">
 					<tr><td width="350"><a href="http://th-mayer.de">Thomas Mayer</a> </td><td>
