@@ -177,8 +177,8 @@ body {
 div.textbox {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.32);
-  border: 4px solid #333333;
-  border-radius: 5px;
+  border: 2px solid #333333;
+  border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -201,4 +201,14 @@ small a {
 
 span.ttt {
   font-family: Courier;
+}
+
+span.wichtig {
+  color: #264c66;
+  font-weight: bolder;
+}
+
+iframe.frame {
+    border: 2px solid #333;
+    border-radius: 8px;
 }
