@@ -41,14 +41,18 @@
         <div class="footer-uni">
             <center>
             <table border="0">
-            <tr><td valign="center"><img src="img/PhUniMa_Logo_w.png" height="60"></td>
-                <td width="50px">&nbsp;</td>
+            <tr>
+            <td valign="center"><img src="img/PhUniMa_Logo_w.png" height="50"></td>
+            <td valign="center"><img src="img/uni-due.png" height="80"></td>
+            <td valign="center"><img src="img/leiden.png" height="80"></td>
+                <td width="20px">&nbsp;</td>
                 <td width="500px" align="center"><p style="font-family:Helvetica,
                 sans-serif;font-size: 11pt; font-weight:lighter;">
                 Mayer, List, Terhalle, Urban <br>An Interactive Visualization of Crosslinguistic 
 		Colexification Patterns</p></td>
-                <td width="50px">&nbsp;</td>
+                <td width="20px">&nbsp;</td>
             <td valign="center"><img src="img/dfg_logo_schriftzug_weiss.png" height="30"></td>
+            <td valign="center"><img src="img/logo_erc.png" height="80"></td>
             </tr>
             </table>
             </center>
@@ -67,11 +71,11 @@
 					<h1 style='font-size:1.5em;'>An Interactive Visualization of <br>Crosslinguistic 
 		                Colexification Patterns
                     <br><br><small>
-                    VisLR Workhop - Visualization as added value <br> in the development, use and 
+                    VisLR Workshop - Visualization as added value <br> in the development, use and 
                     evaluation of LRs <br>
                     LREC 2014, Reykjavik</small></p>
 					<p>
-						<small>
+						<small style="font-size: 50%;">
 						<a href="http://th-mayer.de">Thomas Mayer</a> / 
 				<a href="mailto:thomas.mayer@uni-marburg.de">thomas.mayer@uni-marburg.de</a>
 				<br>
@@ -90,35 +94,286 @@
 				</section>
 				
 				<section>
+                    <h2>Overview</h2>
+                    
+                    <div class="textbox">
+                    <ol style="zoom: 130%;">
+                    <li><a href="#/introduction/">Introducing CLICS</a></li>
+                    <li><a href="#/visualization/">Visualization</a></li>
+                    <li><a href="#/casestudies/">Case studies</a></li>
+                    <li><a href="#/conclusions/">Conclusions and future work</a></li>
+                    </ol>
+                    </div>
+                
+                </section>
+				
+				<section id="introduction">
+                    <h2>Part I: Introduction</h2>
+                
+                </section>
+				
+				<section>
             
                     <h3>Complete network of CLICS</h3>
                         <img src="img/completeNetworkLabels.jpg" height="550">
                 </section>
                 
-                <section>
-            
-                    <h3>HSV vs L*a*b color space</h3>
-                        <img src="img/Lab_HSV2.png" height="550">
+                <section id="visualization">
+                    <h2>Part II: Visualization</h2>
+                
                 </section>
                 
                 <section>
-            
-                    <h3>Color scale</h3>
-                        <img src="img/ColorScaleWorld.png" height="550">
+                    <h3>Some advantages of <br>web-based visualizations</h3>
+                    <div>(cf. Murray 2010)</div>
+                    
+                    <div class="textbox">
+                        
+                        <div style="margin-top: 10px;">
+                        <ul>
+                            <li>Platform independent</li>
+                            <li>Accessible from any device with a browser supporting JavaScript</li>
+                            <li>No need to install additional software on the part of the user</li>
+                            <li>Links to external resources can be easily included</li>
+                        </ul>
+                        </div>
+                    </div>
+                
                 </section>
-				
-				<section>
-            
-                    <center>
-        				<iframe src="http://clics.lingpy.org" width="800" height="850"></iframe>
-        			</center>
+                
+                <section>
+                
+                    <section>
+                        <h3>Interactive functionalities</h3>
+                        
+                        <div class="textbox">
+                            
+                            <div style="margin-top: 10px;">
+                            <ul>
+                                <li>Force-directed graph layout for communities</li>
+                                <ul>
+                                    <li>drag nodes to different positions where there is less overlap</li>
+                                    <li>panning and zooming</li>
+                                    <li>mouse over for more information on a certain node or edge</li>
+                                </ul>
+                                <li>World map showing all languages featured in a given colexification pattern</li>
+                                <li>Color coding for world regions</li>
+                            </ul>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    
+                    
+                
+                </section>
+                
+                <section>
+                
+                    <section>
+                        <h3>Implementation</h3>
+                        
+                        <div class="textbox">
+                            <ul>
+                                <li>The visualization is implemented in JavaScript using the D3 
+                                library (Bostock et al., 2011)</li>
+                                <li>The force-directed graph is generated with the <span class="ttt">force()</span> function 
+                                from the <span class="ttt">d3.layout module</span>.</li>
+                                <li>The layout implementation uses position Verlet integration for 
+                                simple constraints (Dwyer, 2009).</li>
+                                <li>The dragging and panning functionalities of the graph are 
+                                implemented with the <span class="ttt">drag()</span> function 
+                                from the <span class="ttt">d3.behavior</span> module 
+                                and the SVG transform and translate attributes.</li>
+                                
+                            </ul>
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                        <h3>Implementation (cont'd)</h3>
+                        
+                        <div class="textbox">
+                            <ul>
+                                <li>The interactive world map is generated with the <span class="ttt">
+                                topojson</span> 
+                                package and makes use of the <span class="ttt">d3.geo</span>
+                                projection module.</li>
+                            </ul>
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                        <h3>Color coding</h3>
+                        
+                        <div class="textbox">
+                        <ul>
+                        
+                        <li>The color values for the world map gradient scale are computed from the 
+                        two-dimensional geographical coordinates that are given as an input.</li>
+                        </ul>
+                        
+                        <pre><code>
+function cl2pix(c,l){
+    var TAU = 6.2831853
+    var L = l*0.61 + 0.09;
+    var angle = TAU/6.0 - c*TAU;
+    var r = l*0.311 + 0.125
+    var a = Math.sin(angle)*r;
+    var b = Math.cos(angle)*r;
+    return [L,a,b];
+};
+                        </code></pre>
+                        <small>The code was adapted from the GNU C code by David Dalrymple 
+                        (<a href="http://davidad.net/colorviz/" target="_blank">
+                        http://davidad.net/colorviz/</a>, accessed on January 25, 2014) 
+                        and translated into JavaScript.</small>
+                       
+                        
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                        <h3>Color coding (cont'd)</h3>
+                        
+                        <div class="textbox">
+                        <ul>
+                        
+                         <ul>
+                          <li>The actual HTML color code is generated with the function <span class="ttt">
+                          d3.lab</span>
+                          from the D3 library, which takes the three values for [L,a,b] as input.</li>
+                          <li>The main reason for choosing the L*a*b* color space is a smoother 
+                          transition between different color hues without any visible boundaries.</li>
+                          <li>For the coloring of the language families, the background colors 
+                          are generated with the categorical scale functions of the 
+                          <span class="ttt">d3.scale</span> module.</li>
+                        </ul>
+                        
+                        </div>
+                    
+                    </section>
+                    
+                    <section>
+                
+                        <h3>HSV vs L*a*b color space</h3>
+                            <!--<img src="img/Lab_HSV2.png" height="550">-->
+                            <img src="img/hsv.png" height="550">
+                            <img src="img/lab.png" height="550">
+                    </section>
+                    
+                    <section>
+                
+                        <h3>Color scale</h3>
+                            <img src="img/ColorScaleWorld.png" height="550">
+                    </section>
+                    
+                </section>
+                
+                <section>
+                
+                    <section id="casestudies">
+                        <h2>Part III: Case studies</h2>
+                    
+                    </section>
+                    
+                    <section>
+                        <center>
+                            <iframe class="frame" src="http://clics.lingpy.org/access.php?gloss=money&view=part" 
+                            width="800" height="650"></iframe>
+                        </center>
+                    </section>
+                    
+                    <section>
+                        <center>
+                            <iframe class="frame" src="http://clics.lingpy.org/access.php?gloss=wheel&view=part" 
+                            width="800" height="650"></iframe>
+                        </center>
+                    </section>
+                    
+                    <section>
+                        <center>
+                            <iframe class="frame" src="http://clics.lingpy.org/access.php?gloss=weather" 
+                            width="800" height="650"></iframe>
+                        </center>
+                    </section>
+                    
                 </section>
 			
-     	
+                <section id="conclusions">
+                    <h2>Part III: Conclusions and future work</h2>
+                
+                </section>
+                
+                <section>
+                    <h3>Conclusions</h3>
+                    
+                    <div class="textbox">
+                    <ul>
+                        <li>The size and complexity of today’s LRs 
+                        call for a <span class="wichtig">data preparation pipeline</span> 
+                        that enables researchers
+                        to find meaningful patterns among the multitude of different 
+                        factors that can be taken into consideration.</li>
+                        <li>Such a data preparation pipeline necessarily consists of 
+                        <span class="wichtig">two major parts</span>:</li>
+                        <ol>
+                            <li>methods and techniques from <span class="wichtig">
+                            data mining or computational
+                            linguistics</span> help to detect basic trends or groups of 
+                            similar objects in the search space.</li>
+                            <li>the resulting groups or trends are <span class="wichtig">
+                            mapped to
+                            visual variables</span> in order to make interesting observations
+                            readily accessible to human perception.</li>
+                        </ol>
+                    </ul>
+                    </div>
+                
+                </section>
+                
+                <section>
+                    <h3>Future work</h3>
+                    
+                    <div class="textbox">
+                    <ul>
+                        <li>we plan to enhance the visualization tool with further 
+                        interactive components that allow for a <span class="wichtig">
+                        better overview of 
+                        the complete network of colexifications</span> and facilitate 
+                        the detection of genealogical or areal trends in the database.</li>
+                        <li>we intend to equip the user interface with further 
+                        interactive components that allow users to <span class="wichtig">
+                        explore the 
+                        database from different perspectives</span> (e.g., compare 
+                        individual languages in terms of shared lexical associations).
+                    </ul>
+                    </div>
+                
+                </section>
+                
+                <section>
+                    <h3>The CLICS website</h3>
+                    <div><a href="http://clics.lingpy.org" target="_blank">
+                    http://clics.lingpy.org</a></div>
+                    
+                    <div class="textbox">
+                    <ul>
+                        <li>Featuring all functionalities presented in this talk</li>
+                        <li>All communities and connections available as URLs</li>
+                        <li>Networks can be exported as SVG</li>
+                        <li>Featuring tabular representations for colexification patterns</li>
+                    </ul>
+                    </div>
+                
+                </section>
 
 				<section data-transition="zoom">
-					<h3>Thank you for your attention!</h3>
-					<div class="textbox" style="padding: 15px;">
+					<h2>Thank you for your attention!</h2>
+					<div class="textbox" style="margin-top: 90px;">
 					<p>
 					<table border="0">
 					<tr><td width="350"><a href="http://th-mayer.de">Thomas Mayer</a> </td><td>
