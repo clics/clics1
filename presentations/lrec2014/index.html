@@ -112,36 +112,38 @@
                 
                 </section>
                 <section>
-                  <h4>Polysemy, Homophony, and Colexification</h4>
+		  <h3>Polysemy, Homophony,<br> and Colexification</h3>
                   <div class="textbox">
                     <div style="margin-top: 10px;">
                       <ul>
                         <li>
-                          <b>Polysemy:</b> ADD TEXT
+                          <b>Polysemy:</b> If a word has two or more meanings which are
+			  historically related.
                         </li>
                         <li>
-                          <b>Homophony:</b> ADD TEXT
+                          <b>Homophony:</b> If two words which do not share a common etymological
+			  history have an identical pronunciation.
                         </li>
                         <li>
-                          <b>Colexification:</b> ADD TEXT
+                          <b>Colexification:</b> If one word form denotes several meanings.
                         </li>
                       </ul>
                     </div>
                   </div>
                 </section>
                 <section>
-                  <h4>Polysemy, Homophony, and Colexification</h4>
+		  <h3>Polysemy, Homophony, <br> and Colexification</h3>
                   <div class="textbox">
                     <div style="margin-top: 10px;">
                       <ul>
                         <li>
-                          <b>Polysemy:</b> ADD EXAMPLE
+			<b>Polysemy:</b> English <em>wood</em> 'forest; wood (material)'
                         </li>
                         <li>
-                          <b>Homophony:</b> ADD EXAMPLE
+			<b>Homophony:</b> German <em>Arm</em> 'arm' vs. German <em>arm</em> 'poor'
                         </li>
                         <li>
-                          <b>Colexification:</b> ADD EXAMPLE
+			<b>Colexification:</b> English <em>wood</em>, German <em>Arm/arm</em>, etc.
                         </li>
                       </ul>
                     </div>
@@ -150,8 +152,31 @@
 
                 <section>
                   <h3>Cross-Linguistic Colexifications</h3>
-                  ADD TABLE for illustration from list-et-al-2013 
-
+		  <table>
+<tr>
+  <th> Key   </th><th> Concept      </th><th> Russian   </th><th> German
+  </th><th> ... </th>
+</tr>
+<tr>
+  <td> 1.1   </td><td> world        </td><td> mir, svet </td><td> Welt        </td><td> ...</td>
+  </tr>
+<tr>
+  <td> 1.21  </td><td> earth, land  </td><td> zemlja    </td>
+  <td> <span style="background-color:Crimson">Erde</span>, Land  </td><td> ...</td>
+</tr>
+<tr>
+  <td> 1.212 </td><td> ground, soil </td><td> počva     </td>
+  <td> <span style="background-color:Crimson">Erde</span>, Boden </td><td> ...</td>
+</tr>
+<tr>
+  <td> 1.420 </td><td> tree         </td>
+  <td> <span style="background-color:CornflowerBlue">derevo</span>    </td><td> Baum        </td><td> ...</td>
+</tr>
+<tr>
+  <td> 1.430 </td><td> wood         </td>
+  <td> <span style="background-color:CornflowerBlue">derevo</span>    </td><td> Holz        </td><td> ...</td>
+		    </tr>
+		  </table>
                 </section>
                 <section>
                   <h3>CLICS</h3>
@@ -189,7 +214,22 @@
                 <section><h3>Network Modeling of CLICS</h3>
                   <div class="textbox">
                     <div style="margin-top: 10px;">
-                      short intro to cluster algorithms that break down complexity
+		      Network modeling of CLICS is pretty simple:
+                      <ul>
+                        <li>
+			  Concepts are represented as <em>nodes</em> in our network.
+                        </li>
+                        <li>
+			  Instances of colexification in the languages of CLICS are represented as
+			  <em>links</em> between the nodes (we link the concept 'poor' with the concept 'arm'
+			    since German colexifies both concepts). 
+                        </li>
+                        <li>
+			<em>Edge weights</em> in the network reflect the number of attested
+			  instances of a given colexification or the number of languages or language
+			  families in which the colexification occured.  
+                        </li>
+                      </ul>
                       </div>
                     </div>
                 </section>
@@ -197,6 +237,22 @@
                     <h3>Complete network of CLICS</h3>
                         <img src="img/completeNetworkLabels.jpg" height="550">
                 </section>
+		<section>
+		  <h3>Communities of CLICS</h3>
+                  <div class="textbox">
+                    <div style="margin-top: 10px;">
+		      Since the resulting network is very, very dense, we try to break it down to
+		      smaller interesting pieces by:
+		      <ul>
+			<li>using algorithms for <em>community identification</em> which break down
+			the networks to small groups in which the number of links within the group is higher
+			than the number of links outside the group, or</li>
+			<li>extracting subgraphs from the network with a certain resolution
+			depth</li>
+		      </ul>
+		    </div>
+		  </div>
+		</section>
                 <section>
                     <h3>Communities of CLICS</h3>
                         <img src="img/clics_part.svg" height="550">
