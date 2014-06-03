@@ -34,15 +34,28 @@ measures to rule out effects of <a href="faq.php#homonymy">accidental homonymy</
 Using our ::href!query.php!query interface:: you can search whether specific concepts are 
 linked in the language varieties used in CLICS (see <a href="direct.php">here</a>). You can 
 also check how many links are reported for a given concept (see <a href="all.php">here</a>).
-<font color="red">If you want to view the data in a visually more appealing way, you can ::href!browse.php!browse:: through 
-the concept networks we extracted from the data. A detailed description on the background of the visualization can be found in the paper by ::hrefb!http://link2badded.html!Mayer, List, Terhalle, and Urban (2014)::.</font>
-You 
+If you want to view the data in a visually more appealing way, you can ::href!browse.php!browse:: through 
+the concept networks we extracted from the data (see <a href="faq.php#visualizations">How do the visualizations work?</a> for a more detailed description of the ideas behind the visualization). You 
 can also <a href="download.php">download</a> parts of the data and conduct large-scale quantitative 
 investigations. As an example on how these analyses can be conducted, see the paper by <a target="_blank" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf">List, Terhalle, and Urban (2013)</a>.
 <br><br>
 <h3><a style="color:black" name="visualizations">How do the visualizations work?</a></h3>
 <br>
-<font color="red">TEXT TO BE ADDED</font>
+The CLICS database can be accessed through a web-based visualization that
+represents each community of the network as a force-directed graph layout.
+The visualization features a number of interactive components that allow
+the detection of areal and genealogical patterns in the database. When
+mousing over an edge of the graph all languages showing the respective
+colexification pattern are shown in a list together with their genealogical
+or areal information and the word form that expresses the concepts in
+question. In addition, a world map representation highlights all languages
+in order to make areal pattern more easily detectable.
+
+The visualizations are implemented in JavaScript using the D3 library
+<a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
+Each community can be directly accessed via a URL
+and saved as SVG. A more detailed description is given in a paper by <a href="http://www.lrec-conf.org/proceedings/lrec2014/workshops/LREC2014Workshop-VisLR%20Proceedings.pdf">Mayer et al.
+(2014)</a>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a> of the talk accompanying the paper. 
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
 <br>
