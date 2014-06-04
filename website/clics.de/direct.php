@@ -42,8 +42,8 @@
     <li>
       <a href="query.php">Query</a>
       <ul id="query">
-        <li><a href="direct.php">Direct Links</a></li>
-        <li><a href="all.php">All Links</a></li>
+        <li><a href="direct.php">Direct Links between Two Concepts</a></li>
+        <li><a href="all.php">All Links for One Concept</a></li>
       </ul>
     </li>
     <li>
@@ -164,7 +164,7 @@ else
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 04, 2014, 11:43 CET</p>
+ <p>Last updated on Jun. 04, 2014, 17:25 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

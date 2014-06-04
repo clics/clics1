@@ -42,8 +42,8 @@
     <li>
       <a href="query.php">Query</a>
       <ul id="query">
-        <li><a href="direct.php">Direct Links</a></li>
-        <li><a href="all.php">All Links</a></li>
+        <li><a href="direct.php">Direct Links between Two Concepts</a></li>
+        <li><a href="all.php">All Links for One Concept</a></li>
       </ul>
     </li>
     <li>
@@ -73,11 +73,10 @@
 <h3>What is CLICS?</h3>
 <br>
 CLICS is an online database of <i>synchronic lexical associations</i>
-("polysemies", but more precisely: <i>colexifications</i>) in currently 221 language varieties 
-of the world.  Large databases offering lexical information on the world’s languages are already 
-readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
-information on tendencies of meaning associations available in these databases is not easily 
-extractable from the sources themselves. This is why CLICS was created. It is designed to serve as a 
+(&quot;colexifications&quot;, see <a href="faq.php#colexification">here</a> for more information) in currently 221 language varieties 
+of the world.  Large databases offering lexical information on the world's languages are already 
+readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the information on tendencies of meaning associations they enshrine is not easily extractable from these sources themselves. 
+This is why CLICS was created. It is designed to serve as a 
 data source for work in lexical typology, diachronic semantics, and research in cognitive science 
 that focuses on natural language semantics from the viewpoint of cross-linguistic diversity.  
 Furthermore, CLICS can be used as a helpful tool to assess the plausibility of semantic connections 
@@ -147,7 +146,7 @@ between possible cognates in the establishment of genetic relations between lang
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 04, 2014, 11:43 CET</p>
+ <p>Last updated on Jun. 04, 2014, 17:25 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

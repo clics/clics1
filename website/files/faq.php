@@ -21,12 +21,13 @@ In the context of CLICS, we use the term <i>colexification</i> (coined to our
 knowledge by ::bib!Francois2008!François 2008::) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
-Russian <i>рука</i> colexifies "hand" and "arm", that is, concepts that are semantically related to each other.
+Russian <i>рука</i> colexifies &lsquo;hand&rsquo; and &lsquo;arm&rsquo;, that is, concepts that are semantically related to each other.
 Roughly spoken, colexification can correspond either to polysemy or semantic vagueness in lexical 
 semantic analyses. Since we have not performed such analyses that would allow us to further discriminate between the two, 
 we chose <i>colexification</i> as a label 
 that deliberately does not make a commitment with regard to this distinction.  However, we offer
 measures to rule out effects of accidental homonymy.
+<br>
 <br>
 Conceptual links, which constitute our main interest in colexification, are
 clearly not the only possible reason why two concepts can be expressed by the
@@ -34,7 +35,7 @@ same form in a given language. The most prominent among the others is <em>homony
 which is in very simple terms an accidental similarity in form, often arising
 from sound changes causing originally distinct lexical items to collapse
 phonologically. Such cases may lead to spurious links in the database (compare,
-for example, the links between the concepts &quot;arm&quot; and &quot;poor&quot; which are due to
+for example, the links between the concepts &lsquo;arm&rsquo; and &lsquo;poor&rsquo; which are due to
 homonymy in some Germanic languages). To deal with this issue in a consistent
 and generally applicable way (even if the history of the lexical items in
 question is not known) we recommend to employ a typological criterion to
@@ -58,9 +59,10 @@ Using our ::href!query.php!query interface:: you can search whether specific con
 linked in the language varieties used in CLICS (see <a href="direct.php">here</a>). You can 
 also check how many links are reported for a given concept (see <a href="all.php">here</a>).
 If you want to view the data in a visually more appealing way, you can ::href!browse.php!browse:: through 
-the concept networks we extracted from the data (see <a href="faq.php#visualizations">How do the visualizations work?</a> for a more detailed description of the ideas behind the visualization). You 
+the concept networks we extracted from the data (see <a href="faq.php#visualizations">How do the visualizations work?</a> for a more detailed description of the ideas behind the visualization). 
+You 
 can also <a href="download.php">download</a> parts of the data and conduct large-scale quantitative 
-investigations. As an example on how these analyses can be conducted, see the paper by <a target="_blank" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf">List, Terhalle, and Urban (2013)</a>.
+investigations (see <a target="_blank" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf">List, Terhalle, and Urban 2013</a> for an example).
 <br><br>
 <h3><a style="color:black" name="visualizations">How do the visualizations work?</a></h3>
 <br>

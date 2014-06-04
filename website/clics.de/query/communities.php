@@ -27,7 +27,7 @@ if(isset($_POST['gloss']) or isset($_GET['gloss']))
     if($result['size'] > 1)
     {
       echo '<script type="text/javascript">var filename = "cuts/'.$result['path'].'.json";</script>';
-      echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of a cluster with the central concept &quot;'.$result['label'].'&quot; with a total of '.$result['size'].' '.$member.'. ';
+      echo '<br>Concept &lsquo;'.$_POST['gloss'].'&rsquo; is part of a cluster with the central concept &lsquo;'.$result['label'].'&rsquo; with a total of '.$result['size'].' '.$member.'. ';
 ?>
 Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.
 <br>
@@ -50,7 +50,7 @@ Hover over the edges to check out the forms for each link. Click on the forms to
     if($result['size'] > 1)
     {
       echo '<script type="text/javascript">var filename = "communities/'.$result['path'].'.json";</script>';
-      echo '<br>Concept &quot;'.$_POST['gloss'].'&quot; is part of community '.$result['community'].' with the central concept &quot;'.$result['label'].'&quot; and a total of '.$result['size'].' '.$member.'. ';
+      echo '<br>Concept &lsquo;'.$_POST['gloss'].'&rsquo; is part of community '.$result['community'].' with the central concept &lsquo;'.$result['label'].'&rsquo; and a total of '.$result['size'].' '.$member.'. ';
 ?>
 Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.
 <br>
@@ -80,7 +80,7 @@ else if(isset($_GET['community']) or isset($_POST['community']))
     if($result['size'] == 1){$member = 'node';}
     else{$member = 'nodes';}
     echo '<script type="text/javascript">var filename = "'.$path.$result['path'].'.json";</script>';
-    echo '<br>This part of the network contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;.';
+    echo '<br>This part of the network contains '.$result['size'].' '.$member.'. The central concept is &lsquo;'.$result['label'].'&rsquo;.';
   }
   else
   {
@@ -91,7 +91,7 @@ else if(isset($_GET['community']) or isset($_POST['community']))
     if($result['size'] == 1){$member = 'node';}
     else{$member = 'nodes';}
     echo '<script type="text/javascript">var filename = "'.$path.$result['path'].'.json";</script>';
-    echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &quot;'.$result['label'].'&quot;. ';
+    echo '<br>Community '.$result['community'].' contains '.$result['size'].' '.$member.'. The central concept is &lsquo;'.$result['label'].'&rsquo;. ';
   }
 ?>
 Hover over the edges to check out the forms for each link. Click on the forms to check their sources. Click <span style="cursor:pointer;color:DarkBlue;font-weight:bold;background-color:lightgray;" onclick="submit_download_form();">HERE</span> to export the current network.

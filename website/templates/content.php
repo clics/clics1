@@ -42,8 +42,8 @@
     <li>
       <a href="query.php">Query</a>
       <ul id="query">
-        <li><a href="direct.php">Direct Links</a></li>
-        <li><a href="all.php">All Links</a></li>
+        <li><a href="direct.php">Direct Links between Two Concepts</a></li>
+        <li><a href="all.php">All Links for One Concept</a></li>
       </ul>
     </li>
     <li>
