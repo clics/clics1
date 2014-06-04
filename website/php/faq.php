@@ -12,10 +12,10 @@
 
 <link rel="icon" href="pics/favicon.png" type="image/png">  
 <link rel="stylesheet" href="css/clips.css" type="text/css" media="screen" /> 
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
     
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>   
+<script src="js/jquery/jquery-latest.js"></script>
+<script src="js/jquery/jquery-ui.js"></script>   
 <script src="js/concepts.js"></script>
 
 </head>
@@ -77,11 +77,10 @@
 <li><a href="faq.php#examples">How can I use CLICS?</a></li>
 <li><a href="faq.php#visualizations">How do the visualizations work?</a></li> 
 <li><a href="faq.php#data1">What data does CLICS use?</a></li>
-<li><a href="faq.php#data2">How reliable is the data of CLICS?</a></li>
-<li><a href="faq.php#data3">How large is the data behind CLICS?</a></li>
-<li><a href="faq.php#areal">Can areal aspects bias the results of CLICS?</a></li>
-<li><a href="faq.php#homonymy">What about homonymy?</a></li>
 <li><a href="faq.php#cite">How do I cite CLICS?</a></li>
+<li><a href="faq.php#data2">How reliable is the data of CLICS?</a></li>
+<li><a href="faq.php#areal">Can areal aspects bias the results of CLICS?</a></li>
+<li><a href="faq.php#data3">How large is the data behind CLICS?</a></li>
 <li><a href="faq.php#contact">Whom should I contact if I have additional questions or want to contribute?</a></li>
 </ul>
 <br>
@@ -98,7 +97,31 @@ Roughly spoken, colexification can correspond either to polysemy or semantic vag
 semantic analyses. Since we have not performed such analyses that would allow us to further discriminate between the two, 
 we chose <i>colexification</i> as a label 
 that deliberately does not make a commitment with regard to this distinction.  However, we offer
-measures to rule out effects of <a href="faq.php#homonymy">accidental homonymy</a>.
+measures to rule out effects of accidental homonymy.
+<br>
+Conceptual links, which constitute our main interest in colexification, are
+clearly not the only possible reason why two concepts can be expressed by the
+same form in a given language. The most prominent among the others is <em>homonymy</em>,
+which is in very simple terms an accidental similarity in form, often arising
+from sound changes causing originally distinct lexical items to collapse
+phonologically. Such cases may lead to spurious links in the database (compare,
+for example, the links between the concepts &quot;arm&quot; and &quot;poor&quot; which are due to
+homonymy in some Germanic languages). To deal with this issue in a consistent
+and generally applicable way (even if the history of the lexical items in
+question is not known) we recommend to employ a typological criterion to
+distinguish between homonymy and polysemy (see <a href="http://bibliography.lingpy.org/evobib.php?key=Croft1990">Croft 1990</a>): for semantic
+connections to be accepted as genuine rather than accidental, the connection
+should be detectable in more than one language family. We should, however,
+point out that this criterion has been developed and originally applied by the
+aforementioned author in the realm of polyfunctionality of grammatical markers,
+that is, items belonging to a paradigmatically relatively well-structured set
+of items with a manageable semantic range. When applied to lexical meanings,
+there is a danger that the criterion rules out a set of genuine, but simply
+rare, semantic associations. Still, we feel that our approach is justified,
+methodologically because it offers a simple and non-subjective decision
+criterion, and conceptually because our approach relies on cross-linguistic
+data in the first place. 
+
 <br><br>
 <h3><a style="color:black" name="examples">Using CLICS</a></h3>
 <br>
@@ -119,8 +142,8 @@ the detection of areal and genealogical patterns in the database. When
 mousing over an edge of the graph all languages showing the respective
 colexification pattern are shown in a list together with their genealogical
 or areal information and the word form that expresses the concepts in
-question. In addition, a world map representation highlights all languages
-in order to make areal pattern more easily detectable.
+question. In addition, a world map representation highlights all languages in which a given colexification pattern occurs
+in order to make areal patterns more easily detectable.
 
 The visualizations are implemented in JavaScript using the D3 library
 <a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
@@ -186,17 +209,10 @@ control over artifacts that <br><br>
 </ul>
 <br>
 For these reasons, we strongly recommend to check the actual sources whenever a conceptual link that our database reports should be crucial for your arguments.
-<br><br>
-<h3><a style="color:black" name="data3">Statistics on CLICS</a></h3>
-<br>
-CLICS (Version 1.0) offers information on colexification in 221 different language varieties covering 64 different language families. 
-All language varieties in our sample comprise a total of 301,498 words covering 1,280 different concepts. 
-Using a strictly automatic procedure, we identified 45,667 cases of colexification that correspond to 16,239 different links between
-the 1,280 concepts covered by our data.
 
 <br>
 <br>
-<h3><a style="color:black" name="areal">Areal Bias in the Data</a></h3>
+<h3><a style="color:black" name="areal">Areal Effects in the Data</a></h3>
 <br>
 Coverage of the world’s languages in both IDS and WOLD is biased towards certain regions of the 
 world. In the case of IDS, South American languages and languages of the Caucasus are 
@@ -206,23 +222,12 @@ restricted to certain areas of the world, we advise researchers interested in cr
 diversity to take appropriate measures to rule out unwarranted generalizations due to areal 
 effects.
 <br><br>
-<h3><a style="color:black" name="homonymy">Homonymy</a></h3>
+<h3><a style="color:black" name="data3">Statistics on CLICS</a></h3>
 <br>
-Conceptual links, which constitute our main interest in colexification, are clearly not the only 
-possible reason why two concepts can be expressed by the same form in a given language. The most 
-prominent among the others is homonymy, which is in very simple terms an <em>accidental similarity in form</em>, often arising from sound changes causing originally distinct lexical items to collapse 
-phonologically. Such cases may lead to spurious links in the database (compare, for example, the 
-links between the concepts "arm" and "poor" which are due to homonymy in some Germanic languages).  To deal with this issue in a consistent and generally 
-applicable way (even if the history of the lexical items in question is not known) we recommend to 
-employ a typological criterion to distinguish between homonymy and polysemy (see <a href="http://bibliography.lingpy.org/evobib.php?key=Croft1990" target="_blank">Croft 1990</a>): for semantic connections 
-to be accepted as genuine rather than accidental, the connection should be detectable in more than 
-one language family. We should, however, point out that this criterion has been developed and 
-originally applied by the aforementioned authors in the realm of polyfunctionality of grammatical markers, that 
-is, items belonging to a paradigmatically relatively well-structured set of items with a manageable 
-semantic range. When applied to lexical meanings, there is a danger that the criterion rules out a 
-set of genuine, but simply rare, semantic associations. Still, we feel that our approach is 
-justified, methodologically because it offers a simple and non-subjective decision criterion, and 
-conceptually because our approach relies on cross-linguistic data in the first place.
+CLICS (Version 1.0) offers information on colexification in 221 different language varieties covering 64 different language families. 
+All language varieties in our sample comprise a total of 301,498 words covering 1,280 different concepts. 
+Using a strictly automatic procedure, we identified 45,667 cases of colexification that correspond to 16,239 different links between
+the 1,280 concepts covered by our data.
 <br><br>
 <h3><a style="color:black" name="contact">Contact</a></h3>
 <br>
@@ -246,7 +251,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 03, 2014, 15:27 CET</p>
+ <p>Last updated on Jun. 04, 2014, 11:43 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

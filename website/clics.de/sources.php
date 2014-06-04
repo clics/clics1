@@ -12,10 +12,10 @@
 
 <link rel="icon" href="pics/favicon.png" type="image/png">  
 <link rel="stylesheet" href="css/clips.css" type="text/css" media="screen" /> 
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
     
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>   
+<script src="js/jquery/jquery-latest.js"></script>
+<script src="js/jquery/jquery-ui.js"></script>   
 <script src="js/concepts.js"></script>
 
 </head>
@@ -85,7 +85,7 @@
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 03, 2014, 15:27 CET</p>
+ <p>Last updated on Jun. 04, 2014, 11:43 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

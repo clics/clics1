@@ -2,7 +2,7 @@
 <h3>What is CLICS?</h3>
 <br>
 CLICS is an online database of <i>synchronic lexical associations</i>
-("polysemies", but more precisely: <i>colexifications</i>) in currently 215 language varieties 
+("polysemies", but more precisely: <i>colexifications</i>) in currently 221 language varieties 
 of the world.  Large databases offering lexical information on the world’s languages are already 
 readily available for research in different <a href="faq.php#data1">online sources</a>.  However, the 
 information on tendencies of meaning associations available in these databases is not easily 

@@ -12,10 +12,10 @@
 
 <link rel="icon" href="pics/favicon.png" type="image/png">  
 <link rel="stylesheet" href="css/clips.css" type="text/css" media="screen" /> 
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
     
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>   
+<script src="js/jquery/jquery-latest.js"></script>
+<script src="js/jquery/jquery-ui.js"></script>   
 <script src="js/concepts.js"></script>
 
 </head>
