@@ -51,7 +51,6 @@ rare, semantic associations. Still, we feel that our approach is justified,
 methodologically because it offers a simple and non-subjective decision
 criterion, and conceptually because our approach relies on cross-linguistic
 data in the first place. 
-
 <br><br>
 <h3><a style="color:black" name="examples">Using CLICS</a></h3>
 <br>
@@ -79,7 +78,7 @@ in order to make areal patterns more easily detectable.
 The visualizations are implemented in JavaScript using the D3 library
 <a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
 Each community can be directly accessed via a URL
-and saved as SVG. A more detailed description is given in a paper by <a href="http://www.lrec-conf.org/proceedings/lrec2014/workshops/LREC2014Workshop-VisLR%20Proceedings.pdf">Mayer et al.
+and saved as SVG. A more detailed description is given in a paper by <a href="http://github.com/LinguList/clics/raw/master/papers/lrec2014/clicsvis.pdf">Mayer et al.
 (2014)</a>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a> of the talk accompanying the paper. 
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
