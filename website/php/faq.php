@@ -31,13 +31,7 @@
       <a href="main.php">Home</a>
     </li>
     <li>
-      <a href="about.php">About</a>
-      <ul id="about">
-	<li><a href="about.php">Introduction</a></li>
-	<!--<li><a href="sources.php">Sources</a></li>-->
-	<li><a href="faq.php">FAQ</a></li>
-	<!--<li><a href="contact.php">Contact</a></li>-->
-      </ul>
+      <a href="faq.php">About</a>
     </li>
     <li>
       <a href="query.php">Query</a>
@@ -54,15 +48,15 @@
     </li>
   </ul>
  </div><!--end mainnav-->
+ <a id="forkme_banner" href="https://github.com/clics">View on GitHub</a> 
  </div><!-- end header -->  
  <div id="subnav">
-    <h2> <a href="about.php">About</a></h2>
-   <ul>
+    <h2> <a href="faq.php">About</a></h2>
+   <!--<ul>
     <li><a class="inactive" href="about.php">Introduction</a></li>
-    <!--<li><a class="inactive" href="sources.php">Sources</a></li>-->
-    <li><a class="active" href="faq.php">FAQ</a></li>
-    <!--<li><a class="inactive" href="contact.php">Contact</a></li>-->
-  </ul>
+    <li><a class="inactive" href="sources.php">Sources</a></li>    <li><a class="active" href="faq.php">FAQ</a></li>
+    <li><a class="inactive" href="contact.php">Contact</a></li>
+  </ul>-->
 <br>
 
 
@@ -122,7 +116,6 @@ rare, semantic associations. Still, we feel that our approach is justified,
 methodologically because it offers a simple and non-subjective decision
 criterion, and conceptually because our approach relies on cross-linguistic
 data in the first place. 
-
 <br><br>
 <h3><a style="color:black" name="examples">Using CLICS</a></h3>
 <br>
@@ -150,7 +143,7 @@ in order to make areal patterns more easily detectable.
 The visualizations are implemented in JavaScript using the D3 library
 <a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
 Each community can be directly accessed via a URL
-and saved as SVG. A more detailed description is given in a paper by <a href="http://www.lrec-conf.org/proceedings/lrec2014/workshops/LREC2014Workshop-VisLR%20Proceedings.pdf">Mayer et al.
+and saved as SVG. A more detailed description is given in a paper by <a href="http://github.com/LinguList/clics/raw/master/papers/lrec2014/clicsvis.pdf">Mayer et al.
 (2014)</a>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a> of the talk accompanying the paper. 
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
@@ -253,7 +246,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 04, 2014, 17:25 CET</p>
+ <p>Last updated on Jun. 23, 2014, 18:41 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
