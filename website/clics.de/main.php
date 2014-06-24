@@ -101,7 +101,7 @@ between possible cognates in the establishment of genetic relations between lang
 <span id="readless" style="color:Crimson;cursor:pointer;" onclick="$('#aboutit').toggle('hidden'); $('#readless').toggle('hidden'); $('#readmore').toggle('hidden');" class="hidden">[READ LESS]</span>
 <br>
 <br>
-<p style="text-align:center"><img src="pics/network.jpg" alt="network" width="750px" align="center" border="0" /> </p>
+<p style="text-align:center"><img src="pics/clics.png" alt="network" width="750px" align="center" border="0" /> </p>
 <br>
 <h2 style="text-align:right">Database of Cross-Linguistic Colexifications</h2>
 
@@ -118,7 +118,7 @@ between possible cognates in the establishment of genetic relations between lang
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 23, 2014, 18:41 CET</p>
+ <p>Last updated on Jun. 24, 2014, 16:08 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

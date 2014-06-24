@@ -43,6 +43,6 @@ between possible cognates in the establishment of genetic relations between lang
 <span id="readless" style="color:Crimson;cursor:pointer;" onclick="$('#aboutit').toggle('hidden'); $('#readless').toggle('hidden'); $('#readmore').toggle('hidden');" class="hidden">[READ LESS]</span>
 <br>
 <br>
-<p style="text-align:center"><img src="pics/network.jpg" alt="network" width="750px" align="center" border="0" /> </p>
+<p style="text-align:center"><img src="pics/clics.png" alt="network" width="750px" align="center" border="0" /> </p>
 <br>
 <h2 style="text-align:right">Database of Cross-Linguistic Colexifications</h2>
