@@ -55,7 +55,13 @@
  </div>
  <div id="contentwrapper" class="clearfix">
      <div id="content">
-    <div id="btf"><p><b>Press ESC to close this window.</b></p><iframe id="ifr" name="bibframe" src=""></iframe></div><div id="db"></div>
+    <div id="btf">
+      <p>
+        <b>Press ESC to close this window.</b>
+        </p>
+        <iframe id="ifr" name="bibframe" src=""></iframe>
+        <p id="goto"></p>
+    </div>
 	 {content}
  </div>
  </div>

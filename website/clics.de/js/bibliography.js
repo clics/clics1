@@ -1,11 +1,15 @@
 function showBibTex(key)
 {
-  var url = 'http://bibliography.lingpy.org/raw.php?key='+key.replace(/.*key=/,'');
+  var tkey = key.replace(/.*key=/,'');
+  var url = 'http://bibliography.lingpy.org/raw.php?key='+tkey;
   
   var ifr = document.getElementById('ifr');
   ifr.src = url;
+  var rec = document.getElementById('goto');
+  rec.innerHTML = '<a href="http://bibliography.lingpy.org/evobib.php?key='+tkey+'" target="_blank">Press here to view full bibliographical record.</a>';
   var btf = document.getElementById('btf');
   btf.style.display = 'block';
+
 }
 
 function highlightBibs()
@@ -17,10 +21,9 @@ function highlightBibs()
     {
       var key = a.href.replace(/.*key=/,'');
       var url = 'http://bibliography.lingpy.org/raw.php?key='+key;
-      a.onmouseover = function () {showBibTex(this.href)};
+      a.onclick = function (event) {event.preventDefault(); showBibTex(this.href)};
     }
   }
-  $('#div').html(as.length);
 }
 
 highlightBibs();

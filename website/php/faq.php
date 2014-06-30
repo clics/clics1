@@ -63,7 +63,13 @@
  </div>
  <div id="contentwrapper" class="clearfix">
      <div id="content">
-    <div id="btf"><p>Press ESC to close this window.</p><iframe id="ifr" name="bibframe" src=""></iframe></div><div id="db"></div>
+    <div id="btf">
+      <p>
+        <b>Press ESC to close this window.</b>
+        </p>
+        <iframe id="ifr" name="bibframe" src=""></iframe>
+        <p id="goto"></p>
+    </div>
 	 <!-- SIDEBAR about -->
 <h3> Frequently Asked Questions</h3>
 <br>
@@ -83,8 +89,7 @@
 
 <h3><a style="color:black" name="colexification">Colexification</a></h3>
 <br>
-In the context of CLICS, we use the term <i>colexification</i> (coined to our 
-knowledge by <a href="http://bibliography.lingpy.org/evobib.php?key=Francois2008" target="_blank">François 2008</a>) to refer to the situation when two or more of the meanings 
+In the context of CLICS, we use the term <i>colexification</i> (coined by <a href="http://bibliography.lingpy.org/evobib.php?key=Francois2008" target="_blank">François 2008</a><sup><a target="_blank" style="color:Crimson" href="http://alex.francois.free.fr/data/AlexFrancois_2008_SemanticMaps-Colexification_preprint.pdf">[PDF]</a></sup>) to refer to the situation when two or more of the meanings 
 in our lexical sources are covered in a language by the same lexical item. 
 For instance, we would say that 
 Russian <i>рука</i> colexifies &lsquo;hand&rsquo; and &lsquo;arm&rsquo;, that is, concepts that are semantically related to each other.
@@ -127,7 +132,7 @@ If you want to view the data in a visually more appealing way, you can <a href="
 the concept networks we extracted from the data (see <a href="faq.php#visualizations">How do the visualizations work?</a> for a more detailed description of the ideas behind the visualization). 
 You 
 can also <a href="download.php">download</a> parts of the data and conduct large-scale quantitative 
-investigations (see <a target="_blank" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf">List, Terhalle, and Urban 2013</a> for an example).
+investigations (see <a href="http://bibliography.lingpy.org/evobib.php?key=List2013a">List, Terhalle, and Urban 2013</a><sup><a style="color:Crimson" href="http://lingulist.de/jump.php?paper=List2013a&href=http://aclweb.org/anthology-new/W/W13/W13-0208.pdf" target="_blank">[PDF]</a></sup> for an example).
 <br><br>
 <h3><a style="color:black" name="visualizations">How do the visualizations work?</a></h3>
 <br>
@@ -144,8 +149,8 @@ in order to make areal patterns more easily detectable.
 The visualizations are implemented in JavaScript using the D3 library
 <a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
 Each community can be directly accessed via a URL
-and saved as SVG. A more detailed description is given in a paper by <a href="http://github.com/LinguList/clics/raw/master/papers/lrec2014/clicsvis.pdf">Mayer et al.
-(2014)</a>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a> of the talk accompanying the paper. 
+and saved as SVG. A more detailed description is given in a paper by <a href="http://bibliography.lingpy.php/evobib.php?key=Mayer2014" target="_blank">Mayer et al.
+(2014)</a><sup><a href="http://alex.francois.free.fr/data/AlexFrancois_2008_SemanticMaps-Colexification_preprint.pdf" style="color:Crimson" target="_blank">[PDF]</a></sup>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a>  of the talk accompanying the paper. 
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
 <br>
@@ -247,7 +252,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 30, 2014, 09:56 CET</p>
+ <p>Last updated on Jun. 30, 2014, 10:33 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
