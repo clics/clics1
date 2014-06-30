@@ -54,7 +54,8 @@
     {sidebar}
  </div>
  <div id="contentwrapper" class="clearfix">
-     <div id="content">    
+     <div id="content">
+    <div id="btf"><p><b>Press ESC to close this window.</b></p><iframe id="ifr" name="bibframe" src=""></iframe></div><div id="db"></div>
 	 {content}
  </div>
  </div>
@@ -90,5 +91,7 @@ This work is licensed under a <a rel="license" href="http://creativecommons.org/
  </div><!-- end footer -->
 
 </div><!-- end wrapper-->
+<script src="js/bibliography.js">
+</script>
 </body>
 </html>

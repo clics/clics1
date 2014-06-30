@@ -31,11 +31,11 @@
       <a href="main.php">Home</a>
     </li>
     <li>
-      <a href="about.php">About</a>
+      <a href="faq.php">About</a>
       <ul id="about">
-	<li><a href="about.php">Introduction</a></li>
+	<!--<li><a href="about.php">Introduction</a></li>-->
 	<!--<li><a href="sources.php">Sources</a></li>-->
-	<li><a href="faq.php">FAQ</a></li>
+	<!--<li><a href="faq.php">FAQ</a></li>-->
 	<!--<li><a href="contact.php">Contact</a></li>-->
       </ul>
     </li>
@@ -54,6 +54,7 @@
     </li>
   </ul>
  </div><!--end mainnav-->
+ <a id="forkme_banner" href="https://github.com/clics">View on GitHub</a>
  </div><!-- end header -->  
      <div id="content_large">    
 	 <!-- SIDEBAR NONE -->
@@ -175,7 +176,7 @@ include('query/query_community.php');
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 24, 2014, 16:08 CET</p>
+ <p>Last updated on Jun. 30, 2014, 09:56 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>

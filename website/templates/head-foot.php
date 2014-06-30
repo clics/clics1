@@ -31,11 +31,11 @@
       <a href="main.php">Home</a>
     </li>
     <li>
-      <a href="about.php">About</a>
+      <a href="faq.php">About</a>
       <ul id="about">
-	<li><a href="about.php">Introduction</a></li>
+	<!--<li><a href="about.php">Introduction</a></li>-->
 	<!--<li><a href="sources.php">Sources</a></li>-->
-	<li><a href="faq.php">FAQ</a></li>
+	<!--<li><a href="faq.php">FAQ</a></li>-->
 	<!--<li><a href="contact.php">Contact</a></li>-->
       </ul>
     </li>
@@ -54,6 +54,7 @@
     </li>
   </ul>
  </div><!--end mainnav-->
+ <a id="forkme_banner" href="https://github.com/clics">View on GitHub</a>
  </div><!-- end header -->  
      <div id="content_large">    
 	 {content}
