@@ -115,8 +115,7 @@ extracted lexical data for 4 languages that were neither present in IDS nor in W
 <br>CLICS can be cited as follows: 
 <br><br>
 <ul><li>
-List, J.-M., T. Mayer, A. Terhalle, and M. Urban (2014). CLICS — Database of Cross-Linguistic Colexifications.
-Version ::version::. URL: ::href!http://CLICS.lingpy.org::.
+List, Johann-Mattis, Thomas Mayer, Anselm Terhalle, and Matthias Urban (2014). CLICS: Database of Cross-Linguistic Colexifications. Marburg: Forschungszentrum Deutscher Sprachatlas (Version ::version::, online available at ::href!http://CLICS.lingpy.org::, accessed on <span id="date"></span>). <input type="button" onclick="showBibTex('List2014f');" value="BibTex" />
 </li></ul>
 <br>
 <h3><a style="color:black" name="data2">Reliability of the Data</a></h3><br>
@@ -164,5 +163,12 @@ For technical questions regarding the data, please contact
 <a href="mailto:mattis.list@uni-marburg.de">Johann-Mattis List</a> (Philipps-University Marburg, Germany). 
 <br>
 
-
+<script>
+var d = new Date();
+var cday = d.getDate();
+var cmonth = d.getMonth() + 1; //Months are zero based
+var cyear = d.getFullYear();
+var dstring = cyear+'-'+cmonth+'-'+cday;
+document.getElementById('date').innerHTML = dstring;
+</script>
 
