@@ -10,10 +10,10 @@ function showBibTex(key)
   var btf = document.getElementById('btf');
   var close = document.getElementById('closer');
   close.innerHTML = 'x';
-  close.style.border = '2px solid black';
-  close.style.textAlign = 'center';
-  close.style.fontWeight = 'bold';
-  close.style.width='20px';
+  //close.style.border = '2px solid black';
+  //close.style.textAlign = 'center';
+  //close.style.fontWeight = 'bold';
+  //close.style.width='20px';
   close.onclick = function() {btf.style.display = "none";};
   btf.style.display = 'block';
 }
