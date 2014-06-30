@@ -185,8 +185,7 @@ extracted lexical data for 4 languages that were neither present in IDS nor in W
 <br>CLICS can be cited as follows: 
 <br><br>
 <ul><li>
-List, J.-M., T. Mayer, A. Terhalle, and M. Urban (2014). CLICS — Database of Cross-Linguistic Colexifications.
-Version 1.0. URL: <a href="http://CLICS.lingpy.org" >http://CLICS.lingpy.org</a>.
+List, Johann-Mattis, Thomas Mayer, Anselm Terhalle, and Matthias Urban (2014). CLICS: Database of Cross-Linguistic Colexifications. Marburg: Forschungszentrum Deutscher Sprachatlas (Version 1.0, online available at <a href="http://CLICS.lingpy.org" >http://CLICS.lingpy.org</a>, accessed on <span id="date"></span>). <input type="button" onclick="showBibTex('List2014f');" value="BibTex" />
 </li></ul>
 <br>
 <h3><a style="color:black" name="data2">Reliability of the Data</a></h3><br>
@@ -234,7 +233,14 @@ For technical questions regarding the data, please contact
 <a href="mailto:mattis.list@uni-marburg.de">Johann-Mattis List</a> (Philipps-University Marburg, Germany). 
 <br>
 
-
+<script>
+var d = new Date();
+var cday = d.getDate();
+var cmonth = d.getMonth() + 1; //Months are zero based
+var cyear = d.getFullYear();
+var dstring = cyear+'-'+cmonth+'-'+cday;
+document.getElementById('date').innerHTML = dstring;
+</script>
 
 
  </div>
@@ -250,7 +256,7 @@ For technical questions regarding the data, please contact
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 30, 2014, 15:49 CET</p>
+ <p>Last updated on Jun. 30, 2014, 17:05 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
