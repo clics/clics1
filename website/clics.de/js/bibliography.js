@@ -1,6 +1,6 @@
 function showBibTex(key)
 {
-  var url = 'http://bibliography.lingpy.org/raw.php?key='+key;
+  var url = 'http://bibliography.lingpy.org/raw.php?key='+key.replace(/.*key=/,'');
   
   var ifr = document.getElementById('ifr');
   ifr.src = url;
@@ -17,7 +17,7 @@ function highlightBibs()
     {
       var key = a.href.replace(/.*key=/,'');
       var url = 'http://bibliography.lingpy.org/raw.php?key='+key;
-      a.onmouseover = function () {showBibTex(key)};
+      a.onmouseover = function () {showBibTex(this.href)};
     }
   }
   $('#div').html(as.length);
