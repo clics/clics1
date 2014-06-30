@@ -1,0 +1,955 @@
+
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+
+<script>
+        $(document).ready(function() 
+            { 
+                $("#myTable").tablesorter(); 
+            } 
+        ); 
+</script>
+
+<style>
+/* tables */
+table.tablesorter {
+    font-family:arial;
+    margin:10px 0pt 15px;
+    font-size: 10pt;
+    width: 100%;
+    text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 10pt;
+    padding: 4px;
+}
+table.tablesorter thead tr .header {
+    background-image: url(img/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter tbody td {
+    color: #4876a2;
+    padding: 4px;
+    vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:red;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(img/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(img/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #4876a2;
+color: #fff;
+}
+</style>
+</head>
+<body>
+
+<table id='myTable' class='tablesorter tablelisting'>
+<thead>
+    <tr>
+        <th></th>
+        <th>Language</th>
+        <th>ISO</th>
+        <th>Family</th>
+        <th>Concepts</th>
+        <th>URL</th>
+    </tr>
+</thead>
+<tbody>
+
+<tr>
+<td style='text-align: right;'>1</td><td>Aché</td><td style='min-width: 60px;'>guq</td><td>Tupi,Tupi-Guarani,Subgroup I</td><td style='text-align: right;min-width: 100px;'>954</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=288
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=288
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>2</td><td>Aghul</td><td style='min-width: 60px;'>agx</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1317</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=61
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=61
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>3</td><td>Aguaruna</td><td style='min-width: 60px;'>agr</td><td>Jivaroan</td><td style='text-align: right;min-width: 100px;'>1206</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=258
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=258
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>4</td><td>Akhvakh (Northern)</td><td style='min-width: 60px;'>akv</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1566</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=33
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=33
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>5</td><td>Akhvakh (Southern)</td><td style='min-width: 60px;'>akv</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1483</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=34
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=34
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>6</td><td>Albanian, Tosk</td><td style='min-width: 60px;'>als</td><td>Indo-European,Albanian,Tosk</td><td style='text-align: right;min-width: 100px;'>1934</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=205
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=205
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>7</td><td>Andi</td><td style='min-width: 60px;'>ani</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1486</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=32
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=32
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>8</td><td>Andi (Muni)</td><td style='min-width: 60px;'>ani</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1321</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=316
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=316
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>9</td><td>Arabic, Standard</td><td style='min-width: 60px;'>arb</td><td>Afro-Asiatic,Semitic,Central,South,Arabic</td><td style='text-align: right;min-width: 100px;'>2073</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=95
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=95
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>10</td><td>Araona</td><td style='min-width: 60px;'>aro</td><td>Tacanan,Araona-Tacana,Araona</td><td style='text-align: right;min-width: 100px;'>1109</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=272
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=272
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>11</td><td>Archi</td><td style='min-width: 60px;'>aqc</td><td>North Caucasian,East Caucasian,Lezgic,Archi</td><td style='text-align: right;min-width: 100px;'>1144</td><td><a href='http://wold.livingsources.org/vocabulary/16
+' target='_blank'>http://wold.livingsources.org/vocabulary/16
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>12</td><td>Archi (Var1)</td><td style='min-width: 60px;'>aqc</td><td>North Caucasian,East Caucasian,Lezgic,Archi</td><td style='text-align: right;min-width: 100px;'>1282</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=62
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=62
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>13</td><td>Archi (Var2)</td><td style='min-width: 60px;'>aqc</td><td>North Caucasian,East Caucasian,Lezgic,Archi</td><td style='text-align: right;min-width: 100px;'>1321</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=62
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=62
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>14</td><td>Armenian (Eastern)</td><td style='min-width: 60px;'>hye</td><td>Indo-European,Armenian</td><td style='text-align: right;min-width: 100px;'>1782</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=206
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=206
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>15</td><td>Armenian (Western)</td><td style='min-width: 60px;'>hye</td><td>Indo-European,Armenian</td><td style='text-align: right;min-width: 100px;'>1754</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=207
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=207
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>16</td><td>Avar (Andalal)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1443</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=28
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=28
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>17</td><td>Avar (Antsukh)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1856</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=29
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=29
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>18</td><td>Avar (Batlukh)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1280</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=26
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=26
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>19</td><td>Avar (Hid)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1347</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=27
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=27
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>20</td><td>Avar (Karakh)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1416</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=31
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=31
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>21</td><td>Avar (Kusur)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1301</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=81
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=81
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>22</td><td>Avar (Standard)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1414</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=107
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=107
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>23</td><td>Avar (Zakataly)</td><td style='min-width: 60px;'>ava</td><td>North Caucasian,East Caucasian,Avar-Andic,Avar</td><td style='text-align: right;min-width: 100px;'>1269</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=30
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=30
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>24</td><td>Aymara, Central</td><td style='min-width: 60px;'>ayr</td><td>Aymaran</td><td style='text-align: right;min-width: 100px;'>965</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>25</td><td>Ayoreo</td><td style='min-width: 60px;'>ayo</td><td>Zamucoan</td><td style='text-align: right;min-width: 100px;'>1370</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=297
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=297
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>26</td><td>Azerbaijani, North (Terekeme)</td><td style='min-width: 60px;'>azj</td><td>Altaic,Turkic,Southern,Azerbaijani</td><td style='text-align: right;min-width: 100px;'>1432</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=166
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=166
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>27</td><td>Azerbaijani, South</td><td style='min-width: 60px;'>azb</td><td>Altaic,Turkic,Southern,Azerbaijani</td><td style='text-align: right;min-width: 100px;'>1728</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>28</td><td>Bagvalal</td><td style='min-width: 60px;'>kva</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1496</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>29</td><td>Basque</td><td style='min-width: 60px;'>eus</td><td>Basque</td><td style='text-align: right;min-width: 100px;'>1059</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=219
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=219
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>30</td><td>Bengali</td><td style='min-width: 60px;'>ben</td><td>Indo-European,Indo-Iranian,Indo-Aryan,Easternzone,Bengali-Assamese,Bengali</td><td style='text-align: right;min-width: 100px;'>1335</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>31</td><td>Bezhta</td><td style='min-width: 60px;'>kap</td><td>North Caucasian,East Caucasian,Tsezic,East Tsezic</td><td style='text-align: right;min-width: 100px;'>1594</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=160
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=160
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>32</td><td>Botlikh</td><td style='min-width: 60px;'>bph</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1415</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=36
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=36
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>33</td><td>Breton</td><td style='min-width: 60px;'>bre</td><td>Indo-European,Celtic,Insular,Brythonic</td><td style='text-align: right;min-width: 100px;'>1735</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=183
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=183
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>34</td><td>Budukh</td><td style='min-width: 60px;'>bdk</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,South Lezgic</td><td style='text-align: right;min-width: 100px;'>1627</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=63
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=63
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>35</td><td>Bulgarian</td><td style='min-width: 60px;'>bul</td><td>Indo-European,Slavic,South,Eastern</td><td style='text-align: right;min-width: 100px;'>1993</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=200
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=200
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>36</td><td>Carib</td><td style='min-width: 60px;'>car</td><td>Carib,Northern,Galibi</td><td style='text-align: right;min-width: 100px;'>1144</td><td><a href='http://wold.livingsources.org/vocabulary/79
+' target='_blank'>http://wold.livingsources.org/vocabulary/79
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>37</td><td>Cashibo-Cacataibo</td><td style='min-width: 60px;'>cbr</td><td>Panoan, Mainline, Cashibo</td><td style='text-align: right;min-width: 100px;'>738</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>38</td><td>Catalan-Valencian-Balear</td><td style='min-width: 60px;'>cat</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Ibero-Romance,East Iberian</td><td style='text-align: right;min-width: 100px;'>1514</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>39</td><td>Cavineña</td><td style='min-width: 60px;'>cav</td><td>Tacanan,Araona-Tacana,Cavinena-Tacana,Cavinena</td><td style='text-align: right;min-width: 100px;'>958</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=273
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=273
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>40</td><td>Cayubaba</td><td style='min-width: 60px;'>cyb</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1109</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>41</td><td>Chachi</td><td style='min-width: 60px;'>cbi</td><td>Barbacoan,Cayapa-Colorado</td><td style='text-align: right;min-width: 100px;'>1418</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>42</td><td>Chamalal</td><td style='min-width: 60px;'>cji</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1632</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=51
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=51
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>43</td><td>Chatino, Zacatepec</td><td style='min-width: 60px;'>ctz</td><td>Oto-Manguean,Zapotecan,Chatino</td><td style='text-align: right;min-width: 100px;'>1450</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=223
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=223
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>44</td><td>Chechen</td><td style='min-width: 60px;'>che</td><td>North Caucasian,East Caucasian,Nakh,Chechen-Ingush</td><td style='text-align: right;min-width: 100px;'>1640</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=75
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=75
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>45</td><td>Chechen (Akkin)</td><td style='min-width: 60px;'>che</td><td>North Caucasian,East Caucasian,Nakh,Chechen-Ingush</td><td style='text-align: right;min-width: 100px;'>1384</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=317
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=317
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>46</td><td>Cheq Wong</td><td style='min-width: 60px;'>cwg</td><td>Austro-Asiatic,Mon-Khmer,Aslian,North Aslian,Chewong</td><td style='text-align: right;min-width: 100px;'>851</td><td><a href='http://wold.livingsources.org/vocabulary/26
+' target='_blank'>http://wold.livingsources.org/vocabulary/26
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>47</td><td>Chinese, Mandarin</td><td style='min-width: 60px;'>cmn</td><td>Sino-Tibetan,Chinese</td><td style='text-align: right;min-width: 100px;'>1877</td><td><a href='http://wold.livingsources.org/vocabulary/89
+' target='_blank'>http://wold.livingsources.org/vocabulary/89
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>48</td><td>Chipaya</td><td style='min-width: 60px;'>cap</td><td>Uru-Chipaya</td><td style='text-align: right;min-width: 100px;'>944</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=270
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=270
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>49</td><td>Chorote, Iyojwa’ja</td><td style='min-width: 60px;'>crt</td><td>Mataco-Guaicuru,Mataco</td><td style='text-align: right;min-width: 100px;'>1490</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>50</td><td>Chácobo</td><td style='min-width: 60px;'>cao</td><td>Panoan,Southern</td><td style='text-align: right;min-width: 100px;'>1003</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=279
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=279
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>51</td><td>Cofán</td><td style='min-width: 60px;'>con</td><td>Chibchan,Cofan</td><td style='text-align: right;min-width: 100px;'>1364</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=254
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=254
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>52</td><td>Colorado</td><td style='min-width: 60px;'>cof</td><td>Barbacoan,Cayapa-Colorado</td><td style='text-align: right;min-width: 100px;'>1086</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=246
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=246
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>53</td><td>Czech</td><td style='min-width: 60px;'>ces</td><td>Indo-European,Slavic,West,Czech-Slovak</td><td style='text-align: right;min-width: 100px;'>1771</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=202
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=202
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>54</td><td>Danish</td><td style='min-width: 60px;'>dan</td><td>Indo-European,Germanic,North,East Scandinavian,Danish-Swedish,Danish-Riksmal,Danish</td><td style='text-align: right;min-width: 100px;'>1532</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=186
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=186
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>55</td><td>Dargwa (Itsari)</td><td style='min-width: 60px;'>dar</td><td>North Caucasian,East Caucasian,Dargi</td><td style='text-align: right;min-width: 100px;'>1270</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=58
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=58
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>56</td><td>Dargwa (Kajtak)</td><td style='min-width: 60px;'>dar</td><td>North Caucasian,East Caucasian,Dargi</td><td style='text-align: right;min-width: 100px;'>1453</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=60
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=60
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>57</td><td>Dargwa (Kubachi)</td><td style='min-width: 60px;'>dar</td><td>North Caucasian,East Caucasian,Dargi</td><td style='text-align: right;min-width: 100px;'>1297</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=59
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=59
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>58</td><td>Dargwa (Muiri)</td><td style='min-width: 60px;'>dar</td><td>North Caucasian,East Caucasian,Dargi</td><td style='text-align: right;min-width: 100px;'>1490</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=164
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=164
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>59</td><td>Dargwa (Standard)</td><td style='min-width: 60px;'>dar</td><td>North Caucasian,East Caucasian,Dargi</td><td style='text-align: right;min-width: 100px;'>1750</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=57
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=57
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>60</td><td>Dido (Mokok)</td><td style='min-width: 60px;'>ddo</td><td>North Caucasian,East Caucasian,Tsezic,West Tsezic</td><td style='text-align: right;min-width: 100px;'>1454</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=162
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=162
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>61</td><td>Dido (Sagadin)</td><td style='min-width: 60px;'>ddo</td><td>North Caucasian,East Caucasian,Tsezic,West Tsezic</td><td style='text-align: right;min-width: 100px;'>1409</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=55
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=55
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>62</td><td>Dutch</td><td style='min-width: 60px;'>nld</td><td>Indo-European,Germanic,West,Low Saxon-Low Franconian,Low Franconian</td><td style='text-align: right;min-width: 100px;'>1702</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=191
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=191
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>63</td><td>Emberá, Northern</td><td style='min-width: 60px;'>emp</td><td>Choco,Embera,Northern</td><td style='text-align: right;min-width: 100px;'>722</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=247
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=247
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>64</td><td>English</td><td style='min-width: 60px;'>eng</td><td>Indo-European,Germanic,West,English</td><td style='text-align: right;min-width: 100px;'>1521</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=190
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=190
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>65</td><td>Epena</td><td style='min-width: 60px;'>sja</td><td>Choco,Embera,Southern</td><td style='text-align: right;min-width: 100px;'>1037</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=248
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=248
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>66</td><td>Erzya</td><td style='min-width: 60px;'>myv</td><td>Uralic,Mordvin</td><td style='text-align: right;min-width: 100px;'>1355</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=126
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=126
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>67</td><td>Ese</td><td style='min-width: 60px;'>mcq</td><td>Trans-New Guinea,Southeast Papuan,Koiarian,Baraic</td><td style='text-align: right;min-width: 100px;'>952</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>68</td><td>Ese (Huarayo)</td><td style='min-width: 60px;'>mcq</td><td>Trans-New Guinea,Southeast Papuan,Koiarian,Baraic</td><td style='text-align: right;min-width: 100px;'>705</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>69</td><td>Estonian</td><td style='min-width: 60px;'>est</td><td>Uralic,Finnic</td><td style='text-align: right;min-width: 100px;'>1650</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=127
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=127
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>70</td><td>E’ñapa Woromaipu</td><td style='min-width: 60px;'>pbh</td><td>Carib,Northern,Western Guiana</td><td style='text-align: right;min-width: 100px;'>1061</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>71</td><td>Farsi, Western</td><td style='min-width: 60px;'>pes</td><td>Indo-European,Indo-Iranian,Iranian,Western,Southwestern,Persian</td><td style='text-align: right;min-width: 100px;'>1320</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=214
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=214
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>72</td><td>Finnish</td><td style='min-width: 60px;'>fin</td><td>Uralic,Finnic</td><td style='text-align: right;min-width: 100px;'>1696</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=128
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=128
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>73</td><td>French</td><td style='min-width: 60px;'>fra</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Gallo-Romance,Gallo-Rhaetian,Oïl,French</td><td style='text-align: right;min-width: 100px;'>1609</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=171
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=171
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>74</td><td>Gaelic, Irish</td><td style='min-width: 60px;'>gle</td><td>Indo-European,Celtic,Insular,Goidelic</td><td style='text-align: right;min-width: 100px;'>2372</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=181
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=181
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>75</td><td>Galician</td><td style='min-width: 60px;'>glg</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Ibero-Romance,West Iberian,Portuguese-Galician</td><td style='text-align: right;min-width: 100px;'>620</td><td><a href='http://www.logosdictionary.org/
+' target='_blank'>http://www.logosdictionary.org/
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>76</td><td>Gawwada</td><td style='min-width: 60px;'>gwd</td><td>Afro-Asiatic,Cushitic,East,Dullay</td><td style='text-align: right;min-width: 100px;'>1036</td><td><a href='http://wold.livingsources.org/vocabulary/3
+' target='_blank'>http://wold.livingsources.org/vocabulary/3
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>77</td><td>German, Standard</td><td style='min-width: 60px;'>deu</td><td>Indo-European,Germanic,West,High German,German,Middle German,East Middle German</td><td style='text-align: right;min-width: 100px;'>1773</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=194
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=194
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>78</td><td>Ghodoberi</td><td style='min-width: 60px;'>gdo</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1417</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=38
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=38
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>79</td><td>Ghulfan</td><td style='min-width: 60px;'>ghl</td><td>Nilo-Saharan,Eastern Sudanic,Eastern,Nubian,Central,Hill,Kadaru-Ghulfan</td><td style='text-align: right;min-width: 100px;'>1616</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=318
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=318
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>80</td><td>Greek</td><td style='min-width: 60px;'>ell</td><td>Indo-European,Greek,Attic</td><td style='text-align: right;min-width: 100px;'>1677</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>81</td><td>Guaraní, Eastern Bolivian</td><td style='min-width: 60px;'>gui</td><td>Tupi,Tupi-Guarani,Subgroup I</td><td style='text-align: right;min-width: 100px;'>1356</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=289
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=289
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>82</td><td>Guaraní, Paraguayan</td><td style='min-width: 60px;'>gug</td><td>Tupi,Tupi-Guarani,Subgroup I</td><td style='text-align: right;min-width: 100px;'>1839</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=290
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=290
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>83</td><td>Gurinji</td><td style='min-width: 60px;'>gue</td><td>Australian,Pama-Nyungan,South-West,Ngumbin</td><td style='text-align: right;min-width: 100px;'>917</td><td><a href='http://wold.livingsources.org/vocabulary/31
+' target='_blank'>http://wold.livingsources.org/vocabulary/31
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>84</td><td>Haida, Northern (Northern)</td><td style='min-width: 60px;'>hdn</td><td>Na-Dene,Haida</td><td style='text-align: right;min-width: 100px;'>1009</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=227
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=227
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>85</td><td>Hausa</td><td style='min-width: 60px;'>hau</td><td>Afro-Asiatic,Chadic,West,A,A.1</td><td style='text-align: right;min-width: 100px;'>1636</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=220
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=220
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>86</td><td>Hawaiian</td><td style='min-width: 60px;'>haw</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Nuclear,East,Central,Marquesic</td><td style='text-align: right;min-width: 100px;'>2500</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=235
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=235
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>87</td><td>Hindi</td><td style='min-width: 60px;'>hin</td><td>Indo-European,Indo-Iranian,Indo-Aryan,Central zone,Western Hindi,Hindustani</td><td style='text-align: right;min-width: 100px;'>631</td><td><a href='http://www.logosdictionary.org/
+' target='_blank'>http://www.logosdictionary.org/
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>88</td><td>Hinukh</td><td style='min-width: 60px;'>gin</td><td>North Caucasian,East Caucasian,Tsezic,West Tsezic</td><td style='text-align: right;min-width: 100px;'>1345</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=42
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=42
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>89</td><td>Hungarian</td><td style='min-width: 60px;'>hun</td><td>Uralic</td><td style='text-align: right;min-width: 100px;'>1669</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=131
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=131
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>90</td><td>Hunzib</td><td style='min-width: 60px;'>huz</td><td>North Caucasian,East Caucasian,Tsezic,East Tsezic</td><td style='text-align: right;min-width: 100px;'>1412</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=52
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=52
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>91</td><td>Hupdë</td><td style='min-width: 60px;'>jup</td><td>Maku</td><td style='text-align: right;min-width: 100px;'>1058</td><td><a href='http://wold.livingsources.org/vocabulary/39
+' target='_blank'>http://wold.livingsources.org/vocabulary/39
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>92</td><td>Ignaciano</td><td style='min-width: 60px;'>ign</td><td>Arawakan,Maipuran,Southern Maipuran,Bolivia-Parana</td><td style='text-align: right;min-width: 100px;'>1054</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=263
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=263
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>93</td><td>Indonesian</td><td style='min-width: 60px;'>ind</td><td>Austronesian,Malayo-Polynesian,Malayo-Sumbawan,North and East,Malayic,Malay</td><td style='text-align: right;min-width: 100px;'>1873</td><td><a href='http://wold.livingsources.org/vocabulary/27
+' target='_blank'>http://wold.livingsources.org/vocabulary/27
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>94</td><td>Iraqw</td><td style='min-width: 60px;'>irk</td><td>Afro-Asiatic,Cushitic,South</td><td style='text-align: right;min-width: 100px;'>1216</td><td><a href='http://wold.livingsources.org/vocabulary/2
+' target='_blank'>http://wold.livingsources.org/vocabulary/2
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>95</td><td>Italian</td><td style='min-width: 60px;'>ita</td><td>Indo-European,Italic,Romance,Italo-Western,Italo-Dalmatian</td><td style='text-align: right;min-width: 100px;'>1512</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=170
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=170
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>96</td><td>Itonama</td><td style='min-width: 60px;'>ito</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>881</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=284
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=284
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>97</td><td>Japanese</td><td style='min-width: 60px;'>jpn</td><td>Japonic</td><td style='text-align: right;min-width: 100px;'>1864</td><td><a href='http://wold.livingsources.org/vocabulary/21
+' target='_blank'>http://wold.livingsources.org/vocabulary/21
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>98</td><td>Judeo-Tat</td><td style='min-width: 60px;'>jdt</td><td>Indo-European,Indo-Iranian,Iranian,Western,Southwestern,Tat</td><td style='text-align: right;min-width: 100px;'>1461</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>99</td><td>Kaingang</td><td style='min-width: 60px;'>kgp</td><td>Macro-Ge,Ge-Kaingang</td><td style='text-align: right;min-width: 100px;'>1681</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=294
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=294
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>100</td><td>Kanuri, Central</td><td style='min-width: 60px;'>knc</td><td>Nilo-Saharan,Saharan,Western,Kanuri</td><td style='text-align: right;min-width: 100px;'>1417</td><td><a href='http://wold.livingsources.org/vocabulary/5
+' target='_blank'>http://wold.livingsources.org/vocabulary/5
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>101</td><td>Karata</td><td style='min-width: 60px;'>kpt</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1410</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=39
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=39
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>102</td><td>Karata (Tokitin)</td><td style='min-width: 60px;'>kpt</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1458</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=40
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=40
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>103</td><td>Karok</td><td style='min-width: 60px;'>kyh</td><td>Hokan,Northern,Karok-Shasta</td><td style='text-align: right;min-width: 100px;'>830</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=224
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=224
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>104</td><td>Kathu</td><td style='min-width: 60px;'>ykt</td><td>Sino-Tibetan,Tibeto-Burman,Burmic,Ngwi,Southeastern</td><td style='text-align: right;min-width: 100px;'>1445</td><td><a href='http://wold.livingsources.org/vocabulary/
+' target='_blank'>http://wold.livingsources.org/vocabulary/
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>105</td><td>Katukína, Panoan</td><td style='min-width: 60px;'>knt</td><td>Panoan,Southeastern</td><td style='text-align: right;min-width: 100px;'>1068</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>106</td><td>Ket</td><td style='min-width: 60px;'>ket</td><td>Yeniseian</td><td style='text-align: right;min-width: 100px;'>1142</td><td><a href='http://wold.livingsources.org/vocabulary/18
+' target='_blank'>http://wold.livingsources.org/vocabulary/18
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>107</td><td>Khanty</td><td style='min-width: 60px;'>kca</td><td>Uralic</td><td style='text-align: right;min-width: 100px;'>1383</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=135
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=135
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>108</td><td>Khasi</td><td style='min-width: 60px;'>kha</td><td>Austro-Asiatic,Mon-Khmer,NorthernMon-Khmer,Khasian,Khasi</td><td style='text-align: right;min-width: 100px;'>1225</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>109</td><td>Khvarshi (Inxokvari)</td><td style='min-width: 60px;'>khv</td><td>North Caucasian,East Caucasian,Tsezic,West Tsezic</td><td style='text-align: right;min-width: 100px;'>1646</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=54
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=54
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>110</td><td>Khvarshi (Khvarshi)</td><td style='min-width: 60px;'>khv</td><td>North Caucasian,East Caucasian,Tsezic,West Tsezic</td><td style='text-align: right;min-width: 100px;'>1480</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=41
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=41
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>111</td><td>Kilivila</td><td style='min-width: 60px;'>kij</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Western Oceanic,Papuan Tip,Peripheral,Kilivila-Louisiades,Kilivila</td><td style='text-align: right;min-width: 100px;'>1559</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>112</td><td>Komi-Zyrian</td><td style='min-width: 60px;'>kpv</td><td>Uralic,Permian,Komi</td><td style='text-align: right;min-width: 100px;'>1739</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>113</td><td>Kumyk</td><td style='min-width: 60px;'>kum</td><td>Altaic,Turkic,Western,Ponto-Caspian</td><td style='text-align: right;min-width: 100px;'>1761</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=72
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=72
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>114</td><td>Kunza</td><td style='min-width: 60px;'>kuz</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>876</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=308
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=308
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>115</td><td>Lak</td><td style='min-width: 60px;'>lbe</td><td>North Caucasian,East Caucasian,Lak</td><td style='text-align: right;min-width: 100px;'>1439</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=56
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=56
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>116</td><td>Latvian</td><td style='min-width: 60px;'>lav</td><td>Indo-European,Baltic,Eastern</td><td style='text-align: right;min-width: 100px;'>1646</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=197
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=197
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>117</td><td>Lengua</td><td style='min-width: 60px;'>leg</td><td>Mascoian</td><td style='text-align: right;min-width: 100px;'>1090</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=300
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=300
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>118</td><td>Lezgi</td><td style='min-width: 60px;'>lez</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1815</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=64
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=64
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>119</td><td>Lezgi (Kuba)</td><td style='min-width: 60px;'>lez</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1238</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=165
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=165
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>120</td><td>Lezgi (Mikrakh)</td><td style='min-width: 60px;'>lez</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1387</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=65
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=65
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>121</td><td>Lithuanian</td><td style='min-width: 60px;'>lit</td><td>Indo-European,Baltic,Eastern</td><td style='text-align: right;min-width: 100px;'>1863</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=196
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=196
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>122</td><td>Macushi</td><td style='min-width: 60px;'>mbc</td><td>Carib,Northern,East-West Guiana,Macushi-Kapon,Macushi</td><td style='text-align: right;min-width: 100px;'>914</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=173
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=173
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>123</td><td>Maka</td><td style='min-width: 60px;'>mca</td><td>Mataco-Guaicuru,Mataco</td><td style='text-align: right;min-width: 100px;'>1036</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=305
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=305
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>124</td><td>Malagasy, Plateau</td><td style='min-width: 60px;'>plt</td><td>Austronesian,Malayo-Polynesian,Greater Barito,East,Malagasy</td><td style='text-align: right;min-width: 100px;'>1468</td><td><a href='http://wold.livingsources.org/vocabulary/28
+' target='_blank'>http://wold.livingsources.org/vocabulary/28
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>125</td><td>Manangba</td><td style='min-width: 60px;'>nmm</td><td>Sino-Tibetan,Tibeto-Burman,Himalayish,Tibeto-Kanauri,Tibetic,Tamangic</td><td style='text-align: right;min-width: 100px;'>1028</td><td><a href='http://wold.livingsources.org/vocabulary/17
+' target='_blank'>http://wold.livingsources.org/vocabulary/17
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>126</td><td>Mansi</td><td style='min-width: 60px;'>mns</td><td>Uralic</td><td style='text-align: right;min-width: 100px;'>1445</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=146
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=146
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>127</td><td>Maori</td><td style='min-width: 60px;'>mri</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Nuclear,East,Central,Tahitic</td><td style='text-align: right;min-width: 100px;'>2122</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=236
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=236
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>128</td><td>Mapudungun</td><td style='min-width: 60px;'>arn</td><td>Araucanian</td><td style='text-align: right;min-width: 100px;'>1245</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=309
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=309
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>129</td><td>Marathi</td><td style='min-width: 60px;'>mar</td><td>Indo-European,Indo-Iranian,Indo-Aryan,Southernzone,Marathi</td><td style='text-align: right;min-width: 100px;'>1538</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>130</td><td>Mari, Meadow</td><td style='min-width: 60px;'>mhr</td><td>Uralic,Mari</td><td style='text-align: right;min-width: 100px;'>1523</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>131</td><td>Marquesan, North</td><td style='min-width: 60px;'>mrq</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Nuclear,East,Central,Marquesic</td><td style='text-align: right;min-width: 100px;'>1223</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>132</td><td>Miao, White</td><td style='min-width: 60px;'>mww</td><td>Hmong-Mien,Hmongic,Chuanqiandian</td><td style='text-align: right;min-width: 100px;'>1344</td><td><a href='http://wold.livingsources.org/vocabulary/25
+' target='_blank'>http://wold.livingsources.org/vocabulary/25
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>133</td><td>Mocoví</td><td style='min-width: 60px;'>moc</td><td>Mataco-Guaicuru,Guaicuruan</td><td style='text-align: right;min-width: 100px;'>1163</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=301
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=301
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>134</td><td>Movima</td><td style='min-width: 60px;'>mzp</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>939</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=285
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=285
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>135</td><td>Nahuatl, Highland Puebla</td><td style='min-width: 60px;'>azz</td><td>Uto-Aztecan,Southern Uto-Aztecan,Aztecan,General Aztec,Aztec</td><td style='text-align: right;min-width: 100px;'>1393</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=222
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=222
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>136</td><td>Negerhollands</td><td style='min-width: 60px;'>dcr</td><td>Creole,Dutch based</td><td style='text-align: right;min-width: 100px;'>1185</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=217
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=217
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>137</td><td>Nenets</td><td style='min-width: 60px;'>yrk</td><td>Uralic,Samoyed</td><td style='text-align: right;min-width: 100px;'>1277</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=148
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=148
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>138</td><td>Ninam</td><td style='min-width: 60px;'>shb</td><td>Yanomam</td><td style='text-align: right;min-width: 100px;'>942</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=252
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=252
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>139</td><td>Nivaclé</td><td style='min-width: 60px;'>cag</td><td>Mataco-Guaicuru,Mataco</td><td style='text-align: right;min-width: 100px;'>1532</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=307
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=307
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>140</td><td>Nogai</td><td style='min-width: 60px;'>nog</td><td>Altaic,Turkic,Western,Aralo-Caspian</td><td style='text-align: right;min-width: 100px;'>2000</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=73
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=73
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>141</td><td>Nootka</td><td style='min-width: 60px;'>noo</td><td>Wakashan,Southern</td><td style='text-align: right;min-width: 100px;'>862</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=230
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=230
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>142</td><td>Ona</td><td style='min-width: 60px;'>ona</td><td>Chon</td><td style='text-align: right;min-width: 100px;'>859</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>143</td><td>Oroqen</td><td style='min-width: 60px;'>orh</td><td>Altaic,Tungusic,Northern,Evenki</td><td style='text-align: right;min-width: 100px;'>1110</td><td><a href='http://wold.livingsources.org/vocabulary/20
+' target='_blank'>http://wold.livingsources.org/vocabulary/20
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>144</td><td>Otomi, Mezquital</td><td style='min-width: 60px;'>ote</td><td>Oto-Manguean,Otopamean,Otomian,Otomi</td><td style='text-align: right;min-width: 100px;'>2217</td><td><a href='http://wold.livingsources.org/vocabulary/35
+' target='_blank'>http://wold.livingsources.org/vocabulary/35
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>145</td><td>Pilagá</td><td style='min-width: 60px;'>plg</td><td>Mataco-Guaicuru,Guaicuruan</td><td style='text-align: right;min-width: 100px;'>1178</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=302
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=302
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>146</td><td>Polci</td><td style='min-width: 60px;'>plj</td><td>Afro-Asiatic,Chadic,West,B,B.3,Zaar Proper</td><td style='text-align: right;min-width: 100px;'>1022</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=221
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=221
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>147</td><td>Polish</td><td style='min-width: 60px;'>pol</td><td>Indo-European,Slavic,West,Lechitic</td><td style='text-align: right;min-width: 100px;'>1991</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=203
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=203
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>148</td><td>Portuguese</td><td style='min-width: 60px;'>por</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Ibero-Romance,West Iberian,Portuguese-Galician</td><td style='text-align: right;min-width: 100px;'>1653</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=178
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=178
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>149</td><td>Puelche</td><td style='min-width: 60px;'>pue</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>728</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=312
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=312
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>150</td><td>Puinave</td><td style='min-width: 60px;'>pui</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1083</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=249
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=249
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>151</td><td>Pumé</td><td style='min-width: 60px;'>yae</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1111</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=251
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=251
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>152</td><td>Punjabi</td><td style='min-width: 60px;'>pnb</td><td>Indo-European,Indo-Iranian,Indo-Aryan,Northwesternzone,Lahnda,Punjabi</td><td style='text-align: right;min-width: 100px;'>1566</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>153</td><td>Páez</td><td style='min-width: 60px;'>pbb</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1074</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=244
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=244
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>154</td><td>Qawasqar</td><td style='min-width: 60px;'>alc</td><td>Alacalufan</td><td style='text-align: right;min-width: 100px;'>623</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=313
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=313
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>155</td><td>Quichua, Imbabura Highland</td><td style='min-width: 60px;'>qvi</td><td>Quechuan,Quechua II,B</td><td style='text-align: right;min-width: 100px;'>1144</td><td><a href='http://wold.livingsources.org/vocabulary/37
+' target='_blank'>http://wold.livingsources.org/vocabulary/37
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>156</td><td>Q’eqchi’</td><td style='min-width: 60px;'>kek</td><td>Mayan,Quichean-Mamean,Greater Quichean,Kekchi</td><td style='text-align: right;min-width: 100px;'>1812</td><td><a href='http://wold.livingsources.org/vocabulary/34
+' target='_blank'>http://wold.livingsources.org/vocabulary/34
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>157</td><td>Rapa</td><td style='min-width: 60px;'>ray</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Nuclear,East,Central</td><td style='text-align: right;min-width: 100px;'>1203</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>158</td><td>Romagnol</td><td style='min-width: 60px;'>rgn</td><td>Indo-European, Italic, Romance, Italo-Western, Western, Gallo-Iberian, Gallo-Romance, Gallo-Italian</td><td style='text-align: right;min-width: 100px;'>627</td><td><a href='http://www.logosdictionary.org/
+' target='_blank'>http://www.logosdictionary.org/
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>159</td><td>Romani, Vlax</td><td style='min-width: 60px;'>rmy</td><td>Indo-European,Indo-Iranian,Indo-Aryan,Central zone,Romani,Vlax</td><td style='text-align: right;min-width: 100px;'>986</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>160</td><td>Romanian</td><td style='min-width: 60px;'>ron</td><td>Indo-European,Italic,Romance,Eastern</td><td style='text-align: right;min-width: 100px;'>2018</td><td><a href='http://wold.livingsources.org/vocabulary/8
+' target='_blank'>http://wold.livingsources.org/vocabulary/8
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>161</td><td>Rotuman</td><td style='min-width: 60px;'>rtm</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,West Fijian-Rotuman,Rotuman</td><td style='text-align: right;min-width: 100px;'>1212</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=239
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=239
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>162</td><td>Russian</td><td style='min-width: 60px;'>rus</td><td>Indo-European,Slavic,East</td><td style='text-align: right;min-width: 100px;'>1650</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=204
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=204
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>163</td><td>Rutul</td><td style='min-width: 60px;'>rut</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,West Lezgic</td><td style='text-align: right;min-width: 100px;'>1490</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=66
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=66
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>164</td><td>Saami, Kildin</td><td style='min-width: 60px;'>sjd</td><td>Uralic,Sami,Eastern</td><td style='text-align: right;min-width: 100px;'>1287</td><td><a href='http://wold.livingsources.org/vocabulary/14
+' target='_blank'>http://wold.livingsources.org/vocabulary/14
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>165</td><td>Saami, North</td><td style='min-width: 60px;'>sme</td><td>Uralic,Sami,Western,Northern</td><td style='text-align: right;min-width: 100px;'>1350</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=143
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=143
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>166</td><td>Sanapaná (Enlhet)</td><td style='min-width: 60px;'>sap</td><td>Mascoian</td><td style='text-align: right;min-width: 100px;'>1657</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=299
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=299
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>167</td><td>Sanapaná (Standard)</td><td style='min-width: 60px;'>sap</td><td>Mascoian</td><td style='text-align: right;min-width: 100px;'>1105</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>168</td><td>Saramaccan</td><td style='min-width: 60px;'>srm</td><td>Creole,English based</td><td style='text-align: right;min-width: 100px;'>1146</td><td><a href='http://wold.livingsources.org/vocabulary/36
+' target='_blank'>http://wold.livingsources.org/vocabulary/36
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>169</td><td>Sardinian, Logudorese</td><td style='min-width: 60px;'>src</td><td>Indo-European,Italic,Romance,Southern,Sardinian</td><td style='text-align: right;min-width: 100px;'>2019</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>170</td><td>Selkup</td><td style='min-width: 60px;'>sel</td><td>Uralic,Samoyed</td><td style='text-align: right;min-width: 100px;'>1218</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=151
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=151
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>171</td><td>Seri</td><td style='min-width: 60px;'>sei</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1245</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=225
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=225
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>172</td><td>Seselwa Creole French</td><td style='min-width: 60px;'>crs</td><td>Creole,French based</td><td style='text-align: right;min-width: 100px;'>1906</td><td><a href='http://wold.livingsources.org/vocabulary/7
+' target='_blank'>http://wold.livingsources.org/vocabulary/7
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>173</td><td>Shipibo-Conibo</td><td style='min-width: 60px;'>shp</td><td>Panoan,North-Central</td><td style='text-align: right;min-width: 100px;'>1266</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=281
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=281
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>174</td><td>Siona</td><td style='min-width: 60px;'>snn</td><td>Tucanoan,Western Tucanoan,Northern,Siona-Secoya</td><td style='text-align: right;min-width: 100px;'>1100</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=256
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=256
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>175</td><td>Sirionó</td><td style='min-width: 60px;'>srq</td><td>Tupi,Tupi-Guarani,Subgroup II</td><td style='text-align: right;min-width: 100px;'>1155</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=291
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=291
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>176</td><td>Sorbian, Lower</td><td style='min-width: 60px;'>dsb</td><td>Indo-European,Slavic,West,Sorbian</td><td style='text-align: right;min-width: 100px;'>1516</td><td><a href='http://wold.livingsources.org/vocabulary/10
+' target='_blank'>http://wold.livingsources.org/vocabulary/10
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>177</td><td>Spanish</td><td style='min-width: 60px;'>spa</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Ibero-Romance,West Iberian,Castilian</td><td style='text-align: right;min-width: 100px;'>1735</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=176
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=176
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>178</td><td>Swahili</td><td style='min-width: 60px;'>swh</td><td>Niger-Congo,Atlantic-Congo,Volta-Congo,Benue-Congo,Bantoid,Southern,Narrow Bantu,Central,G,Swahili (G.40)</td><td style='text-align: right;min-width: 100px;'>1647</td><td><a href='http://wold.livingsources.org/vocabulary/1
+' target='_blank'>http://wold.livingsources.org/vocabulary/1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>179</td><td>Swedish</td><td style='min-width: 60px;'>swe</td><td>Indo-European,Germanic,North,East Scandinavian,Danish-Swedish,Swedish</td><td style='text-align: right;min-width: 100px;'>2060</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=187
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=187
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>180</td><td>Tabassaran (Northern)</td><td style='min-width: 60px;'>tab</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1651</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=67
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=67
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>181</td><td>Tabassaran (Southern)</td><td style='min-width: 60px;'>tab</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,East Lezgic</td><td style='text-align: right;min-width: 100px;'>1748</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=68
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=68
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>182</td><td>Tacana</td><td style='min-width: 60px;'>tna</td><td>Tacanan,Araona-Tacana,Cavinena-Tacana,Tacana Proper</td><td style='text-align: right;min-width: 100px;'>1153</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=276
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=276
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>183</td><td>Takia</td><td style='min-width: 60px;'>tbc</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Western Oceanic,North New Guinea,Ngero-Vitiaz,Vitiaz,Bel,Nuclear Bel,Northern</td><td style='text-align: right;min-width: 100px;'>1207</td><td><a href='http://wold.livingsources.org/vocabulary/29
+' target='_blank'>http://wold.livingsources.org/vocabulary/29
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>184</td><td>Tamil</td><td style='min-width: 60px;'>tam</td><td>Dravidian,Southern,Tamil-Kannada,Tamil-Kodagu,Tamil-Malyalam,Tamil</td><td style='text-align: right;min-width: 100px;'>1205</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>185</td><td>Tarifit</td><td style='min-width: 60px;'>rif</td><td>Afro-Asiatic,Berber,Northern,Zenati,Riff</td><td style='text-align: right;min-width: 100px;'>1493</td><td><a href='http://wold.livingsources.org/vocabulary/6
+' target='_blank'>http://wold.livingsources.org/vocabulary/6
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>186</td><td>Tehuelche</td><td style='min-width: 60px;'>teh</td><td>Chon</td><td style='text-align: right;min-width: 100px;'>852</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=310
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=310
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>187</td><td>Telugu</td><td style='min-width: 60px;'>tel</td><td>Dravidian,South-Central,Telugu</td><td style='text-align: right;min-width: 100px;'>3869</td><td><a href='http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+' target='_blank'>http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>188</td><td>Thai</td><td style='min-width: 60px;'>tha</td><td>Tai-Kadai,Kam-Tai,Be-Tai,Tai-Sek,Tai,Southwestern,East Central,Chiang Saeng</td><td style='text-align: right;min-width: 100px;'>1824</td><td><a href='http://wold.livingsources.org/vocabulary/23
+' target='_blank'>http://wold.livingsources.org/vocabulary/23
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>189</td><td>Tindi</td><td style='min-width: 60px;'>tin</td><td>North Caucasian,East Caucasian,Avar-Andic,Andic</td><td style='text-align: right;min-width: 100px;'>1517</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=50
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=50
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>190</td><td>Tlingit</td><td style='min-width: 60px;'>tli</td><td>Na-Dene,Nuclear Na-Dene,Tlingit</td><td style='text-align: right;min-width: 100px;'>1319</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=228
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=228
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>191</td><td>Toba</td><td style='min-width: 60px;'>tob</td><td>Mataco-Guaicuru,Guaicuruan</td><td style='text-align: right;min-width: 100px;'>1295</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=314
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=314
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>192</td><td>Tongan</td><td style='min-width: 60px;'>ton</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Tongic</td><td style='text-align: right;min-width: 100px;'>1636</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=240
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=240
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>193</td><td>Trinitario</td><td style='min-width: 60px;'>trn</td><td>Arawakan,Maipuran,Southern Maipuran,Bolivia-Parana</td><td style='text-align: right;min-width: 100px;'>872</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=265
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=265
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>194</td><td>Trumai</td><td style='min-width: 60px;'>tpy</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>643</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>195</td><td>Tsakhur</td><td style='min-width: 60px;'>tkr</td><td>North Caucasian,East Caucasian,Lezgic,Nuclear Lezgic,West Lezgic</td><td style='text-align: right;min-width: 100px;'>1370</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=70
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=70
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>196</td><td>Tsimané</td><td style='min-width: 60px;'>cas</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1031</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=271
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=271
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>197</td><td>Tsimshian</td><td style='min-width: 60px;'>tsi</td><td>Penutian,Tsimshian</td><td style='text-align: right;min-width: 100px;'>802</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=229
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=229
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>198</td><td>Tuamotuan</td><td style='min-width: 60px;'>pmt</td><td>Austronesian,Malayo-Polynesian,Central-Eastern,Eastern Malayo-Polynesian,Oceanic,Central-Eastern Oceanic,Remote Oceanic,Central Pacific,East Fijian-Polynesian,Polynesian,Nuclear,East,Central,Tahitic</td><td style='text-align: right;min-width: 100px;'>1353</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=241
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=241
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>199</td><td>Tuyuca</td><td style='min-width: 60px;'>tue</td><td>Tucanoan,Eastern Tucanoan,Central,Bara</td><td style='text-align: right;min-width: 100px;'>1026</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=257
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=257
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>200</td><td>Tzotzil, Zinacantán</td><td style='min-width: 60px;'>tzz</td><td>Mayan,Cholan-Tzeltalan,Tzeltalan</td><td style='text-align: right;min-width: 100px;'>1258</td><td><a href='http://wold.livingsources.org/vocabulary/33
+' target='_blank'>http://wold.livingsources.org/vocabulary/33
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>201</td><td>Udi</td><td style='min-width: 60px;'>udi</td><td>North Caucasian,East Caucasian,Lezgic,Udi</td><td style='text-align: right;min-width: 100px;'>1301</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=80
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=80
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>202</td><td>Udmurt</td><td style='min-width: 60px;'>udm</td><td>Uralic,Permian</td><td style='text-align: right;min-width: 100px;'>1490</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=159
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=159
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>203</td><td>Venetian</td><td style='min-width: 60px;'>vec</td><td>Indo-European,Italic,Romance,Italo-Western,Western,Gallo-Iberian,Gallo-Romance,Gallo-Italian</td><td style='text-align: right;min-width: 100px;'>625</td><td><a href='http://www.logosdictionary.org/
+' target='_blank'>http://www.logosdictionary.org/
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>204</td><td>Vietnamese</td><td style='min-width: 60px;'>vie</td><td>Austro-Asiatic,Mon-Khmer,Viet-Muong,Vietnamese</td><td style='text-align: right;min-width: 100px;'>1335</td><td><a href='http://wold.livingsources.org/vocabulary/24
+' target='_blank'>http://wold.livingsources.org/vocabulary/24
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>205</td><td>Waiwai</td><td style='min-width: 60px;'>waw</td><td>Carib,Northern,East-West Guiana,Waiwai</td><td style='text-align: right;min-width: 100px;'>985</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=175
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=175
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>206</td><td>Waorani</td><td style='min-width: 60px;'>auc</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>1164</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=255
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=255
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>207</td><td>Wapishana</td><td style='min-width: 60px;'>wap</td><td>Arawakan,Maipuran,Northern Maipuran,Wapishanan</td><td style='text-align: right;min-width: 100px;'>1104</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=266
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=266
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>208</td><td>Waurá</td><td style='min-width: 60px;'>wau</td><td>Arawakan,Maipuran,Central Maipuran</td><td style='text-align: right;min-width: 100px;'>1218</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=267
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=267
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>209</td><td>Wayampi</td><td style='min-width: 60px;'>oym</td><td>Tupi,Tupi-Guarani,Subgroup VIII</td><td style='text-align: right;min-width: 100px;'>1175</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=292
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=292
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>210</td><td>Wayuu</td><td style='min-width: 60px;'>guc</td><td>Arawakan,Maipuran,Northern Maipuran,Caribbean</td><td style='text-align: right;min-width: 100px;'>953</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=1
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>211</td><td>Welsh</td><td style='min-width: 60px;'>cym</td><td>Indo-European,Celtic,Insular,Brythonic</td><td style='text-align: right;min-width: 100px;'>2078</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=182
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=182
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>212</td><td>Wichí Lhamtés Güisnay</td><td style='min-width: 60px;'>mzh</td><td>Mataco-Guaicuru,Mataco</td><td style='text-align: right;min-width: 100px;'>1215</td><td><a href='http://wold.livingsources.org/vocabulary/40
+' target='_blank'>http://wold.livingsources.org/vocabulary/40
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>213</td><td>Yagua</td><td style='min-width: 60px;'>yad</td><td>Peba-Yaguan</td><td style='text-align: right;min-width: 100px;'>1682</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=260
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=260
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>214</td><td>Yaminahua</td><td style='min-width: 60px;'>yaa</td><td>Panoan,South-Central,Yaminahua-Sharanahua</td><td style='text-align: right;min-width: 100px;'>1235</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=282
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=282
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>215</td><td>Yanomámi</td><td style='min-width: 60px;'>wca</td><td>Yanomam</td><td style='text-align: right;min-width: 100px;'>892</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=253
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=253
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>216</td><td>Yaqui</td><td style='min-width: 60px;'>yaq</td><td>Uto-Aztecan,Southern Uto-Aztecan,Sonoran,Cahita</td><td style='text-align: right;min-width: 100px;'>1434</td><td><a href='http://wold.livingsources.org/vocabulary/32
+' target='_blank'>http://wold.livingsources.org/vocabulary/32
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>217</td><td>Yavitero</td><td style='min-width: 60px;'>yvt</td><td>Arawakan,Maipuran,Northern Maipuran,Inland</td><td style='text-align: right;min-width: 100px;'>713</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=268
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=268
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>218</td><td>Yiddish, Eastern</td><td style='min-width: 60px;'>ydd</td><td>Indo-European,Germanic,West,High German,Yiddish</td><td style='text-align: right;min-width: 100px;'>1735</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=195
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=195
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>219</td><td>Yuwana</td><td style='min-width: 60px;'>yau</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>959</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=250
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=250
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>220</td><td>Yámana</td><td style='min-width: 60px;'>yag</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>658</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=315
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=315
+</a></td></tr>
+<tr>
+<td style='text-align: right;'>221</td><td>Zuni</td><td style='min-width: 60px;'>zun</td><td>unknown</td><td style='text-align: right;min-width: 100px;'>968</td><td><a href='http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=226
+' target='_blank'>http://lingweb.eva.mpg.de/cgi-bin/ids/ids.pl?com=simple_browse&lg_id=226
+</a></td></tr>
+</tbody></table></body></html>
