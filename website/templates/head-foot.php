@@ -33,10 +33,9 @@
     <li>
       <a href="faq.php">About</a>
       <ul id="about">
-	<!--<li><a href="about.php">Introduction</a></li>-->
-	<!--<li><a href="sources.php">Sources</a></li>-->
-	<!--<li><a href="faq.php">FAQ</a></li>-->
-	<!--<li><a href="contact.php">Contact</a></li>-->
+        <li><a href="faq.php">FAQ</a></li>
+        <li><a href="languages.php">Language Varieties</a></li>
+        <li><a href="concepts.php">Concepts</a></li>
       </ul>
     </li>
     <li>

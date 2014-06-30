@@ -1,8 +1,8 @@
 <h2> <a href="faq.php">About</a></h2>
-   <!--<ul>
-    <li><a class="{about}" href="about.php">Introduction</a></li>
-    <li><a class="{sources}" href="sources.php">Sources</a></li>    <li><a class="{faq}" href="faq.php">FAQ</a></li>
-    <li><a class="{contact}" href="contact.php">Contact</a></li>
-  </ul>-->
+   <ul>
+    <li><a class="{faq}" href="faq.php">FAQ</a></li>
+    <li><a class="{languages}" href="languages.php">Languages</a></li>    
+    <li><a class="{concepts}" href="concepts.php">Concepts</a></li>
+  </ul>
 <br>
 

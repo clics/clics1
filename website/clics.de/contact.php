@@ -32,6 +32,11 @@
     </li>
     <li>
       <a href="faq.php">About</a>
+      <ul id="about">
+        <li><a href="faq.php">FAQ</a></li>
+        <li><a href="languages.php">Language Varieties</a></li>
+        <li><a href="concepts.php">Concepts</a></li>
+      </ul>
     </li>
     <li>
       <a href="query.php">Query</a>
@@ -52,11 +57,11 @@
  </div><!-- end header -->  
  <div id="subnav">
     <h2> <a href="faq.php">About</a></h2>
-   <!--<ul>
-    <li><a class="inactive" href="about.php">Introduction</a></li>
-    <li><a class="inactive" href="sources.php">Sources</a></li>    <li><a class="inactive" href="faq.php">FAQ</a></li>
-    <li><a class="active" href="contact.php">Contact</a></li>
-  </ul>-->
+   <ul>
+    <li><a class="inactive" href="faq.php">FAQ</a></li>
+    <li><a class="inactive" href="languages.php">Languages</a></li>    
+    <li><a class="inactive" href="concepts.php">Concepts</a></li>
+  </ul>
 <br>
 
 
@@ -98,7 +103,7 @@
 <a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jun. 30, 2014, 17:05 CET</p>
+ <p>Last updated on Jun. 30, 2014, 17:49 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
