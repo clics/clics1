@@ -38,8 +38,8 @@ table.tablesorter tbody td {
     padding: 4px;
     vertical-align: top;
 }
-table.tablesorter tbody tr.odd td {
-    background-color:red;
+table.tablesorter tbody tr:nth-child(odd) {
+    background-color: #ccc;
 }
 table.tablesorter thead tr .headerSortUp {
     background-image: url(img/asc.gif);
