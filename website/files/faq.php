@@ -60,7 +60,7 @@ If you want to view the data in a visually more appealing way, you can ::href!br
 the concept networks we extracted from the data (see <a href="faq.php#visualizations">How do the visualizations work?</a> for a more detailed description of the ideas behind the visualization). 
 You 
 can also <a href="download.php">download</a> parts of the data and conduct large-scale quantitative 
-investigations (see <a href="http://bibliography.lingpy.org/evobib.php?key=List2013a">List, Terhalle, and Urban 2013</a><sup><a style="color:Crimson" href="http://lingulist.de/jump.php?paper=List2013a&href=http://aclweb.org/anthology-new/W/W13/W13-0208.pdf" target="_blank">[PDF]</a></sup> for an example).
+investigations (see <a href="http://bibliography.lingpy.org/evobib.php?key=List2013a">List, Terhalle, and Urban 2013</a><sup><a style="color:Crimson" href="http://aclweb.org/anthology-new/W/W13/W13-0208.pdf" target="_blank">[PDF]</a></sup> for an example).
 <br><br>
 <h3><a style="color:black" name="visualizations">How do the visualizations work?</a></h3>
 <br>
@@ -78,7 +78,7 @@ The visualizations are implemented in JavaScript using the D3 library
 <a href="http://lingulist.de/evobib/evobib.php?key=Bostock2011">(Bostock et al. 2011)</a>.
 Each community can be directly accessed via a URL
 and saved as SVG. A more detailed description is given in a paper by <a href="http://bibliography.lingpy.php/evobib.php?key=Mayer2014" target="_blank">Mayer et al.
-(2014)</a><sup><a href="http://alex.francois.free.fr/data/AlexFrancois_2008_SemanticMaps-Colexification_preprint.pdf" style="color:Crimson" target="_blank">[PDF]</a></sup>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a>  of the talk accompanying the paper. 
+(2014)</a><sup><a href="https://github.com/clics/clics/raw/master/papers/lrec2014/clicsvis.pdf" style="color:Crimson" target="_blank">[PDF]</a></sup>. You may also check the <a href="http://clics.github.com/lrec2014/">slides</a>  of the talk accompanying the paper. 
 <br><br>
 <h3><a style="color:black" name="data1">Sources of CLICS</a></h3>
 <br>
