@@ -3,6 +3,13 @@ CLiCs
 
 Database of Cross-Linguistic Colexifications
 
+### List of Things to do for next release
+
+* Modularization (make the code be capable of taking new data as input and automatically producing a project with little tweaking and most things being done with help of templats and config files)
+* Website (modify current website structure to be useful on all devices, using bootstrap and other advanced frameworks)
+* Port from PHP to JS (replace the current browse functions to use JS and CSV/JSON-input instead of former PHP/SQLITE-code)
+* Contribution-Template (create some kind of template, probably email-based, for those who want to contribute new data)
+
 ### List of CanDos for the future
 
 * carry out a language comparison analysis based on the colexification data
