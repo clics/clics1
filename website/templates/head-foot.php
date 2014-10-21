@@ -66,7 +66,7 @@
  </div></td>
 
  <td><div class="footer_left">
-<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/includes/images/dfg_logo.gif" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
  <p>Last updated on {update}</p>

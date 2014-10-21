@@ -183,7 +183,7 @@ accessible multilingual online dictionary that is regularly updated online by a 
 professional translators. It offers lexical data for more than 60 different languages. We manually 
 extracted lexical data for 4 languages that were neither present in IDS nor in WOLD. 
 </li>
-<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLICS.</li>
+<li>The <a href="http://spraakbanken.gu.se">Språkbanken</a> project (University of Gothenburg) offers a couple of <a href="http://spraakbanken.gu.se/eng/research/digital-areal-linguistics/word-lists">wordlists for South Asian and Himalayan languages</a>. The wordlists mirror the IDS format closely, and we included 6 of currently 8 wordlists in CLICS.</li>
 </ul>
 
 <h3><a style="color:black" name="cite">Citing CLICS</a></h3>
@@ -212,6 +212,8 @@ control over artifacts that <br><br>
 </ul>
 <br>
 For these reasons, we strongly recommend to check the actual sources whenever a conceptual link that our database reports should be crucial for your arguments.
+If you find errors in the data, we would be very glad if you could either inform us via email (<a href="mailto:clics@lingpy.org">clics@lingpy.org</a>), or if you could file an issue on <a href="https://github.com/clics/clics/issues">http://github.com/clics/clics/issues</a>, providing the name of the language variety and its ISO-code in the issue description.
+Unfortunately, we will not be able to change errors immediately, but we are storing all upcoming errors in our <a href="http://github.com/clics/clics/issues">issue tracker</a> and will make sure to correct them before publishing the next release of CLICS.
 
 <br>
 <br>
@@ -258,10 +260,10 @@ document.getElementById('date').innerHTML = dstring;
  </div></td>
 
  <td><div class="footer_left">
-<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/zentralablage/bilder/service/bildarchiv/dfg_logo_blau.jpg" alt="DFG" /></a>
+<a href="http://www.dfg.de/"><img width="120px" src="http://www.dfg.de/includes/images/dfg_logo.gif" alt="DFG" /></a>
  </div></td>
 <td><div class="footer_center">
- <p>Last updated on Jul. 01, 2014, 08:07 CET</p>
+ <p>Last updated on Oct. 21, 2014, 09:51 CET</p>
  <p>
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p><br>
 <p>
